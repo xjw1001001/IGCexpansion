@@ -1516,6 +1516,9 @@ class ReCodonGeneconv:
     def find_differences_between(self, reconstruction_series1, reconstruction_series2):#the series must from one tree
         assert(len(reconstruction_series1['data'])==len(reconstruction_series2['data']))
         filename = open('../test/Ancestral_reconstruction/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + reconstruction_series1['model'] + '_' + reconstruction_series2['model'] +'.txt' ,'w')
+        filename.write(repr(reconstruction_series1))
+        filename.write(repr(reconstruction_series2))
+        filename.write('\n')
         result = {}
         flag = 0
         for nodes_num in range(len(reconstruction_series1['data'])):
