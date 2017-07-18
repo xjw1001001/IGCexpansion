@@ -19,7 +19,7 @@ if __name__ == '__main__':
             f.write(sh_line + '_'.join(paralog) + '_' + model + '_nonclock' + '.sh \n')
             with open('./ShFiles/' + '_'.join(paralog) + '_' + model + '_nonclock' + '.sh', 'w+') as g:
                 g.write('#!/bin/bash' + '\n')
-                g.write('python Run.py ' + ' --paralog1 ' + paralog[0]
+                g.write('python Run_rebuild.py ' + ' --paralog1 ' + paralog[0]
                         + ' --paralog2 ' + paralog[1] + ' --no-clock' + '\n')
 
 
