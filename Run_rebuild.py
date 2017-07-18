@@ -7,7 +7,7 @@ def main(args):
     Force = None
     alignment_file = './MafftAlignment/' + '_'.join(paralog) + '/' + '_'.join(paralog) + '_input.fasta'
     newicktree = './YeastTree.newick'
-    '''
+    
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
     MG94_tau.get_mle(True, True, 0, 'BFGS')
@@ -20,7 +20,7 @@ def main(args):
     MG94.site_reconstruction()
     MG94_series = MG94.reconstruction_series
     result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
-    '''
+    
     #HKY+tau
     HKY_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = Force, clock = None, save_path = './test/save/')
     HKY_tau.get_mle(True, True, 0, 'BFGS')
@@ -45,3 +45,5 @@ if __name__ == '__main__':
     main(parser.parse_args())
 
 #python Runrebuild.py --paralog1 YBL087C --paralog2 YER117W --no-clock
+#chmod +x rebuild_IGC.sh
+#./rebuild_IGC.sh
