@@ -8,7 +8,7 @@ if __name__ == '__main__':
         for line in f.readlines():
             pairs.append(line.replace('\n','').split('_'))
 
-    sh_line = 'sbatch -o IGC-%j.out --mail-type=ALL --mail-user=1176434052@qq.com ./ShFiles/'
+    sh_line = 'sbatch -o ./cluster_outs/IGC-%j.out --mail-type=ALL --mail-user=1176434052@qq.com ./ShFiles/'
 
     model = 'rebuild'
     IGC_bash_file = './' + model + '_IGC.sh'
