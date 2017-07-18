@@ -1,2 +1,2 @@
 #!/bin/bash
-python Run.py  --paralog1 YDR418W --paralog2 YEL054C --no-clock
+python Run_rebuild.py  --paralog1 YDR418W --paralog2 YEL054C --no-clock
