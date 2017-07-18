@@ -25,6 +25,7 @@ if __name__ == '__main__':
 
 ##    sh_line = 'sbatch -o IGCSim-%j.out --mail-type=FAIL --mail-user=xji3@ncsu.edu ./ShFiles_multiply3/'
 ##
+
 ##    for IGC_geo in IGC_geo_list:
 ##        IGC_geo_sh_file = './' + '_'.join(paralog) + '_IGCgeo_' + str(IGC_geo) + '_multiply3.sh'
 ##        with open(IGC_geo_sh_file, 'w+') as f:
