@@ -20,7 +20,6 @@ def main(args):
     MG94.site_reconstruction()
     MG94_series = MG94.reconstruction_series
     result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
-    print(result)
     
     #HKY+tau
     HKY_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = Force, clock = None, save_path = '../test/save/')
@@ -34,7 +33,6 @@ def main(args):
     HKY.site_reconstruction()
     HKY_series = HKY.reconstruction_series
     result = HKY_tau.find_differences_between(HKY_tau_series, HKY_series)
-    print(result)
 
 
 if __name__ == '__main__':
