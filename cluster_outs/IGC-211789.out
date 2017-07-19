@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "Run_rebuild.py", line 2, in <module>
+    from IGCexpansion.CodonGeneconv import ReCodonGeneconv
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 13, in <module>
+    from IGCexpansion.CodonGeneconFunc import *
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconFunc.py", line 24, in <module>
+    import jsonctmctree.ll, jsonctmctree.interface
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/jsonctmctree/ll.py", line 12, in <module>
+    import networkx as nx
+ImportError: No module named networkx
