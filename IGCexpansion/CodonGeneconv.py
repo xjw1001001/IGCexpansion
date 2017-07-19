@@ -1538,6 +1538,10 @@ class ReCodonGeneconv:
                         flag += 1
                         print (flag)
         filename.write('Total differences:' + str(flag)+ '\n')
+        if flag >= 1:
+            f = open('./test/Ancestral_reconstruction/desired_result/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + reconstruction_series1['model'] + '_' + reconstruction_series2['model'] +'.txt' ,'w')
+            f.write(repr(result))
+            f.close()
         filename.write(repr(result))
         filename.close()
         return result       
