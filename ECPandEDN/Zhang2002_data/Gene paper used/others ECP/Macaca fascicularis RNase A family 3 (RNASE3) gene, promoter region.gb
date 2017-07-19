@@ -1,0 +1,61 @@
+LOCUS       DQ171726                 981 bp    DNA     linear   PRI 12-OCT-2007
+DEFINITION  Macaca fascicularis RNase A family 3 (RNASE3) gene, promoter
+            region.
+ACCESSION   DQ171726
+VERSION     DQ171726.1
+KEYWORDS    .
+SOURCE      Macaca fascicularis (crab-eating macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1  (bases 1 to 981)
+  AUTHORS   Wang,H.Y., Chang,H.T., Pai,T.W., Wu,C.I., Lee,Y.H., Chang,Y.H.,
+            Tai,H.L., Tang,C.Y., Chou,W.Y. and Chang,M.D.
+  TITLE     Transcriptional regulation of human eosinophil RNases by an
+            evolutionary- conserved sequence motif in primate genome
+  JOURNAL   BMC Mol. Biol. 8, 89 (2007)
+   PUBMED   17927842
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 981)
+  AUTHORS   Chang,Y.-H. and Chang,D.-T.
+  TITLE     Novel Regulatory Motifs in RNase2 and Their Functions in Liver
+            Cells
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 981)
+  AUTHORS   Chang,Y.-H. and Chang,D.-T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2005) Department of Life Science, National Tsing
+            Hua University, 101, Section 2 Kuang Fu Road, Hsinchu 30013, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..981
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     gene            1..>981
+                     /gene="RNASE3"
+                     /note="RNase A family 3; eosinophil cationic protein"
+     regulatory      1..981
+                     /regulatory_class="promoter"
+                     /gene="RNASE3"
+                     /note="contains promoter region"
+ORIGIN      
+        1 tactttcctg tgtttctctg aggactaaaa ataagtggat gctttgtgta tcaaatcgtg
+       61 cacttgactt ctatactttc aggaatacag tgctctatct ttaatgttca ttttgtaaat
+      121 acagaaacat tttcttgttc atatcacaaa atgaaactta tcaggaagac aaatgacaac
+      181 cccagaacac actgtttttt agaaagtacc ataggctgaa aagaacacag gaaaacccag
+      241 tgctaggttg gaatctttca tgacaccaaa cgttcatgcc cgaatgcacg ttgtctgcca
+      301 gattttacaa ctttcctcag tgtgttttta ggtcgtgtaa ctttacacaa agtggtagca
+      361 ataatgaggg caagacttaa gagaagtgga tccaatacaa gaggagaaaa gaaaaaactc
+      421 cctcaaatat gtggagcaga ttgttttaat tatctacaga atcttgtacc ccaagaaatt
+      481 aatagctcat gtttccagca aagcgtggtg gatgagatgg agagcatttg tgtgagacag
+      541 aaccaaggat attactaaca atgaaaggga agctaagttc ctcctgggca aacagccctc
+      601 tgtggctcta tttcttctaa ctacaatgcc tgccttcatg tcatttagtc atttaggggc
+      661 ctgccagagg acagttacaa aatctgtggt cattctgcag gcagcgtata gttttcatcc
+      721 agagtccaaa tccaactagc aaaactctgt cttacacagg atgacttgga attagagtcc
+      781 ttagagcaga aagagcaaca aggctgtcct tggatatccg ttgctcagtc aactcatcaa
+      841 ataaaaaggc tgattgcaca agtggaccat gtgtcaatct gtgggtttct gcatgaccaa
+      901 gagtgagacc ctccctcctg gctctgctgg cccaacccac caggagatgc tttatttaaa
+      961 cagttccaag taagggagac c
+//
+

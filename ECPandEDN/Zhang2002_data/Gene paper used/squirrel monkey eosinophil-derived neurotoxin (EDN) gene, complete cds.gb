@@ -1,0 +1,53 @@
+LOCUS       AF479632                 477 bp    DNA     linear   PRI 23-APR-2002
+DEFINITION  Saimiri sciureus eosinophil-derived neurotoxin (EDN) gene, complete
+            cds.
+ACCESSION   AF479632
+VERSION     AF479632.1
+KEYWORDS    .
+SOURCE      Saimiri sciureus (common squirrel monkey)
+  ORGANISM  Saimiri sciureus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+REFERENCE   1  (bases 1 to 477)
+  AUTHORS   Zhang,J. and Rosenberg,H.F.
+  TITLE     Complementary advantageous substitutions in the evolution of an
+            antiviral RNase of higher primates
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (8), 5486-5491 (2002)
+   PUBMED   11917138
+REFERENCE   2  (bases 1 to 477)
+  AUTHORS   Zhang,J. and Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JAN-2002) Department of Ecology and Evolutionary
+            Biology, University of Michigan, 3003 Natural Science Building, 830
+            North University Avenue, Ann Arbor, MI 48109, USA
+FEATURES             Location/Qualifiers
+     source          1..477
+                     /organism="Saimiri sciureus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9521"
+     gene            <1..>477
+                     /gene="EDN"
+     mRNA            <1..>477
+                     /gene="EDN"
+                     /product="eosinophil-derived neurotoxin"
+     CDS             1..477
+                     /gene="EDN"
+                     /note="RNASE2"
+                     /codon_start=1
+                     /product="eosinophil-derived neurotoxin"
+                     /protein_id="AAM14439.1"
+                     /translation="MVPKLFTSQICLLLLLGPLGVEGSLHAKPRQFSWAQWFSIQHIQ
+                     MAPLRCTYAMRAINKYERRCKNQNTFLHTTFADVVNVCGNTNMTCPRNASLHNCHHSR
+                     VQVPLTYCNLTGPPTISNCVYSSTQANMFYVVACDNRDPRDSPQYPVVPVHLDTII"
+ORIGIN      
+        1 atggttccaa aactgttcac ttcccaaatt tgtctgcttc ttctgttggg gcctttgggt
+       61 gtggagggct cactccatgc caaaccccgg cagttttcct gggctcagtg gtttagcatc
+      121 cagcacatcc aaatggcacc cctccgctgc acctatgcaa tgcgggcaat taacaagtat
+      181 gaacgtcgat gcaaaaacca aaatactttt cttcatacaa cttttgctga tgtagttaat
+      241 gtttgtggta acacaaatat gacctgccct cgtaatgcat ctctccacaa ttgtcatcac
+      301 agtagagtcc aggtgccttt aacctactgt aacctcacag gtccaccgac tatttcaaac
+      361 tgtgtgtatt cctcgactca agcaaacatg ttctatgtag ttgcatgtga caacagagat
+      421 ccacgagact ctccacagta tccagtggtt ccggttcacc tggataccat catctaa
+//
+

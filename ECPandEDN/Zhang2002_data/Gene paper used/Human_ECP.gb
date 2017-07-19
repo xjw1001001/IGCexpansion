@@ -1,0 +1,71 @@
+LOCUS       X15161                   715 bp    mRNA    linear   PRI 07-OCT-2008
+DEFINITION  Human mRNA for eosinophil cationic protein ECP.
+ACCESSION   X15161
+VERSION     X15161.1
+KEYWORDS    cytotoxin; eosinophil cationic protein; glycoprotein;
+            helminthotoxin; matrix protein; neurotoxin; perforin; ribonuclease.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 715)
+  AUTHORS   Rosenberg,H.F., Ackerman,S.J. and Tenen,D.G.
+  TITLE     Human eosinophil cationic protein. Molecular cloning of a cytotoxin
+            and helminthotoxin with ribonuclease activity
+  JOURNAL   J. Exp. Med. 170 (1), 163-176 (1989)
+   PUBMED   2473157
+REFERENCE   2  (bases 1 to 715)
+  AUTHORS   Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-APR-1989) Rosenberg H.F., Beth Israel Hospital, 330
+            Brookline Avenue, Boston MA 02215, USA
+FEATURES             Location/Qualifiers
+     source          1..715
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /cell_line="HL-60"
+                     /cell_type="eosinophil"
+                     /tissue_type="peripheral blood granulocytes"
+                     /clone_lib="lambda gt11"
+     mRNA            <1..715
+                     /product="ECP mRNA"
+     CDS             55..537
+                     /note="unnamed protein product; ECP preprotein"
+                     /codon_start=1
+                     /protein_id="CAA33251.1"
+                     /db_xref="GDB:125277"
+                     /db_xref="GOA:P12724"
+                     /db_xref="HGNC:HGNC:10046"
+                     /db_xref="InterPro:IPR001427"
+                     /db_xref="PDB:1DYT"
+                     /db_xref="PDB:1H1H"
+                     /db_xref="PDB:1QMT"
+                     /db_xref="PDB:2KB5"
+                     /db_xref="UniProtKB/Swiss-Prot:P12724"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTRAQWFAIQHIS
+                     LNPPRCTIAMRAINNYRWRCKNQNTFLRTTFANVVNVCGNQSIRCPHNRTLNNCHRSR
+                     FRVPLLHCDLINPGAQNISNCRYADRPGRRFYVVACDNRDPRDSPRYPVVPVHLDTTI
+                     "
+     sig_peptide     55..135
+                     /note="signal peptide ((AA -27 to -1)"
+     mat_peptide     136..534
+                     /product="mature ECP (AA 1-133)"
+     polyA_site      715
+                     /note="polyA site"
+ORIGIN      
+        1 gaacaaccag ctggatcagt tctcacagga gccacagctc agagactggg aaacatggtt
+       61 ccaaaactgt tcacttccca aatttgtctg cttcttctgt tggggcttat gggtgtggag
+      121 ggctcactcc atgccagacc cccacagttt acgagggctc agtggtttgc catccagcac
+      181 atcagtctga acccccctcg atgcaccatt gcaatgcggg caattaacaa ttatcgatgg
+      241 cgttgcaaaa accaaaatac ttttcttcgt acaacttttg ctaatgtagt taatgtttgt
+      301 ggtaaccaaa gtatacgctg ccctcataac agaactctca acaattgtca tcggagtaga
+      361 ttccgggtgc ctttactcca ctgtgacctc ataaatccag gtgcacagaa tatttcaaac
+      421 tgcaggtatg cagacagacc aggaaggagg ttctatgtag ttgcatgtga caacagagat
+      481 ccacgggatt ctccacggta tcctgtggtt ccagttcacc tggataccac catctaagct
+      541 cctgtatcag cagtcctcat catcactcat ctgccaagct cctcaatcat agccaagatc
+      601 ccatccctcc atgtactctg ggtatcagca actgtcctca tcagtctcca taccccttca
+      661 gctttcctga gctgaagtcc cttgtgaacc ctgcaataaa ctgctttgca aattc
+//
+
