@@ -1,0 +1,51 @@
+LOCUS       SOU24099                 477 bp    DNA     linear   PRI 17-JUN-1995
+DEFINITION  Saguinus oedipus eosinophil-derived neurotoxin gene, complete cds.
+ACCESSION   U24099
+VERSION     U24099.1
+KEYWORDS    ribonuclease.
+SOURCE      Saguinus oedipus (cotton-top tamarin)
+  ORGANISM  Saguinus oedipus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Callitrichinae; Saguinus.
+REFERENCE   1  (bases 1 to 477)
+  AUTHORS   Rosenberg,H.F., Dyer,K.D., Tiffany,H.L. and Gonzalez,M.
+  TITLE     Rapid evolution of a unique family of primate ribonuclease genes
+  JOURNAL   Nat. Genet. 10 (2), 219-223 (1995)
+   PUBMED   7663519
+REFERENCE   2  (bases 1 to 477)
+  AUTHORS   Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-APR-1995) Helene F. Rosenberg, Laboratory of Host
+            Defenses, NIAID, National Institutes of Health, Building 10, Room
+            11N104, 9000 Rockville Pike, Bethesda, MD 20892, USA
+FEATURES             Location/Qualifiers
+     source          1..477
+                     /organism="Saguinus oedipus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9490"
+                     /cell_line="ATCC CRL-1612"
+                     /cell_type="EBV-transformed leukocytes"
+     CDS             1..477
+                     /note="ribonuclease"
+                     /codon_start=1
+                     /product="eosinophil-derived neurotoxin"
+                     /protein_id="AAC50151.1"
+                     /translation="MVPKLFTSQICVLLLFGLLSVEVSLQVKPQQFSWAQWFSIQHIQ
+                     TTPLHCTSAMRAINRYQPRCKNQNTFLHTTFANVVNVCGNTNITCPRNASLNNCHHSG
+                     VQVPLTYCNLTGPQTISNCVYSSTQANMFYVVACDNRDPRDPPQYPVVPVHLDTTI"
+     sig_peptide     1..81
+     mat_peptide     82..474
+                     /product="eosinophil-derived neurotoxin"
+                     /note="ribonuclease"
+ORIGIN      
+        1 atggttccaa aactgttcac ttcccaaatt tgcgtgcttc ttcttttcgg gcttttgagt
+       61 gtggaggtct cactccaggt caaaccccag cagttttcct gggctcagtg gtttagcatc
+      121 cagcacatcc aaacaactcc cctccactgc acctctgcaa tgcgggcaat taacaggtat
+      181 caacctcgat gcaaaaacca aaatactttt cttcatacaa cttttgctaa tgtagttaat
+      241 gtttgtggta acacaaatat cacctgccct cgtaatgcat ctctcaacaa ttgtcatcac
+      301 agtggagtcc aggtgccttt aacctactgt aacctcacag gtccacagac tatttcaaac
+      361 tgtgtgtatt cctcgactca ggcaaacatg ttctatgtag ttgcatgtga caacagagat
+      421 ccacgggatc ctccacagta tccagtggtc ccggttcacc tggataccac catctaa
+//
+

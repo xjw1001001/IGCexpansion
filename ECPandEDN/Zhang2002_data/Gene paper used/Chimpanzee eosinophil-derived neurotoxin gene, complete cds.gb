@@ -1,0 +1,51 @@
+LOCUS       PTU24102                 486 bp    DNA     linear   PRI 17-JUN-1995
+DEFINITION  Pan troglodytes eosinophil-derived neurotoxin gene, complete cds.
+ACCESSION   U24102
+VERSION     U24102.1
+KEYWORDS    ribonuclease.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1  (bases 1 to 486)
+  AUTHORS   Rosenberg,H.F., Dyer,K.D., Tiffany,H.L. and Gonzalez,M.
+  TITLE     Rapid evolution of a unique family of primate ribonuclease genes
+  JOURNAL   Nat. Genet. 10 (2), 219-223 (1995)
+   PUBMED   7663519
+REFERENCE   2  (bases 1 to 486)
+  AUTHORS   Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-APR-1995) Helene F. Rosenberg, Laboratory of Host
+            Defenses, National, Institutes of Health, Building 10 room 11N104,
+            9000 Rockville Pike, Bethesda, MD 20892, USA
+FEATURES             Location/Qualifiers
+     source          1..486
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     CDS             1..486
+                     /note="ribonuclease"
+                     /codon_start=1
+                     /product="eosinophil-derived neurotoxin"
+                     /protein_id="AAC50149.1"
+                     /translation="MVPKLFTSQICLLLLLGLLAVEGSLHVKPPQFTWAQWFETQHIN
+                     MTSQQCTNAMQVINNYQRRCKNQNTFLLTTFANVVNVCGNPNMTCPSNKTRKNCHQSG
+                     SQVPLIHCNLTTPSPQNISNCRYAQTPANMFYIVACDNRDQRRDPPQYPVVPVHLDRI
+                     I"
+     sig_peptide     1..81
+     mat_peptide     82..483
+                     /product="eosinophil-derived neurotoxin"
+                     /note="ribonuclease"
+ORIGIN      
+        1 atggttccaa aactgttcac ttcccaaatt tgtctgcttc ttctgttggg gcttctggct
+       61 gtggagggct cactccatgt caaacctcca cagtttacct gggctcaatg gtttgaaacc
+      121 cagcacatca atatgacatc ccagcaatgc accaatgcaa tgcaggtcat taacaattat
+      181 caacggcgat gcaaaaacca aaatactttc cttcttacaa cttttgctaa cgtagttaat
+      241 gtttgtggta acccaaatat gacctgtcct agtaacaaaa ctcgcaaaaa ttgtcatcaa
+      301 agtggaagcc aggtgccttt aatccactgt aacctcacaa ctccaagtcc acagaatatt
+      361 tcaaactgca ggtatgcgca gacaccagca aacatgttct atatagttgc atgtgacaac
+      421 agagatcaac gacgggaccc tccacagtat ccggtggttc cagttcacct ggatagaatc
+      481 atctaa
+//
+

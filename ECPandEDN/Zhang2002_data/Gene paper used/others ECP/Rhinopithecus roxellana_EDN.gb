@@ -1,0 +1,112 @@
+LOCUS       NW_010819782             483 bp    DNA     linear   CON 22-NOV-2014
+DEFINITION  Rhinopithecus roxellana isolate Xiao Hai unplaced genomic scaffold,
+            Rrox_v1 ENSRROG036106, whole genome shotgun sequence.
+ACCESSION   NW_010819782 REGION: 82804..83286 GPS_007607922
+VERSION     NW_010819782.1
+DBLINK      BioProject: PRJNA266995
+            BioSample: SAMN02427086
+            Assembly: GCF_000769185.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Rhinopithecus roxellana (golden snub-nosed monkey)
+  ORGANISM  Rhinopithecus roxellana
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Colobinae; Rhinopithecus.
+REFERENCE   1  (bases 1 to 483)
+  AUTHORS   Zhou,X., Wang,B., Pan,Q., Zhang,J., Kumar,S., Sun,X., Liu,Z.,
+            Pan,H., Lin,Y., Liu,G., Zhan,W., Li,M., Ren,B., Ma,X., Ruan,H.,
+            Cheng,C., Wang,D., Shi,F., Hui,Y., Tao,Y., Zhang,C., Zhu,P.,
+            Xiang,Z., Jiang,W., Chang,J., Wang,H., Cao,Z., Jiang,Z., Li,B.,
+            Yang,G., Roos,C., Garber,P.A., Bruford,M.W., Li,R. and Li,M.
+  TITLE     Whole-genome sequencing of the snub-nosed monkey provides insights
+            into folivory and evolutionary history
+  JOURNAL   Nat. Genet. (2014)
+   PUBMED   25362486
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            KN297650.1.
+            Assembly name: Rrox_v1
+            The genomic sequence for this RefSeq record is from the
+            whole-genome assembly released by Novogene on 2014/10/28. The
+            original whole-genome shotgun project has the accession
+            JABR00000000.1.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Provider     :: Novogene
+            Assembly Method       :: SOAPdenovo v. 2013.04
+            Assembly Name         :: Rrox_v1
+            Long Assembly Name    :: Golden snub-nosed monkey genome assembly
+                                     v1
+            Genome Coverage       :: 53.7x
+            Sequencing Technology :: Illumina HiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rhinopithecus roxellana Annotation
+                                           Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..483
+                     /organism="Rhinopithecus roxellana"
+                     /mol_type="genomic DNA"
+                     /isolate="Xiao Hai"
+                     /db_xref="taxon:61622"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /tissue_type="blood"
+                     /country="China: Beijing"
+                     /collection_date="Jul-2012"
+     gene            complement(<1..>483)
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:104672623"
+     mRNA            complement(<1..>483)
+                     /gene="RNASE2"
+                     /product="ribonuclease, RNase A family, 2 (liver,
+                     eosinophil-derived neurotoxin)"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 5 Proteins, and 34%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /transcript_id="XM_010376457.1"
+                     /db_xref="GeneID:104672623"
+     STS             <1..43
+                     /standard_name="RH69113"
+                     /db_xref="UniSTS:8093"
+     STS             <1..>483
+                     /db_xref="UniSTS:482837"
+     STS             <1..>483
+                     /db_xref="UniSTS:487018"
+     CDS             complement(1..483)
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_010374759.1"
+                     /db_xref="GeneID:104672623"
+                     /translation="MAPKLFTSPICLLLLLGLMGVEGSLHAKPRQFTWAQWFEIQHIN
+                     MTSGQCTNAMLVINNYQRRCKNQNTFLLTTFADVVHVCGNPSMPCPSNTSLNNCHHSG
+                     VQVPLIHCNLTTPSRKISNCSYTQTTANKSYIVACNNSDPLRDRPQYPVVPVHLDRVI
+                     "
+ORIGIN      
+        1 ttagatgact ctgtccaggt gaactggaac cactggatac tgtggacggt cccgtagtgg
+       61 atcgctgttg ttacatgcaa ctatgtagga cttgtttgct gttgtctgtg tatagctgca
+      121 atttgaaatc tttcgacttg gagttgtgag gttacagtgg attaaaggca cctggactcc
+      181 actatgatga caattgttga gacttgtgtt gctagggcag ggcatgcttg ggttaccaca
+      241 gacatgaact acatcagcaa aagttgtaag aagaaaagta ttttgatttt tgcatcgccg
+      301 ttgataattg ttaattacca gcattgcatt ggtgcattgg ccagaggtca tatttatatg
+      361 ctggatttca aaccactgag cccaggtaaa ttgtctgggt ttggcatgaa gtgagccttc
+      421 cacacccata agccccaaca gaagaagcag acaaattggg gaagtgaaca gttttggagc
+      481 cat
+//
+

@@ -1,0 +1,74 @@
+LOCUS       XM_010376459             560 bp    mRNA    linear   PRI 21-NOV-2014
+DEFINITION  PREDICTED: Rhinopithecus roxellana ribonuclease, RNase A family, 3
+            (RNASE3), partial mRNA.
+ACCESSION   XM_010376459
+VERSION     XM_010376459.1
+DBLINK      BioProject: PRJNA266995
+KEYWORDS    RefSeq.
+SOURCE      Rhinopithecus roxellana (golden snub-nosed monkey)
+  ORGANISM  Rhinopithecus roxellana
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Colobinae; Rhinopithecus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_010819782.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rhinopithecus roxellana Annotation
+                                           Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: incomplete on the 5' end.
+FEATURES             Location/Qualifiers
+     source          1..560
+                     /organism="Rhinopithecus roxellana"
+                     /mol_type="mRNA"
+                     /isolate="Xiao Hai"
+                     /db_xref="taxon:61622"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /tissue_type="blood"
+                     /country="China: Beijing"
+                     /collection_date="Jul-2012"
+     gene            <1..560
+                     /gene="RNASE3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 16 ESTs, 2 Proteins"
+                     /db_xref="GeneID:104672625"
+     CDS             <1..381
+                     /gene="RNASE3"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_010374761.1"
+                     /db_xref="GeneID:104672625"
+                     /translation="AQWFAIQHINMNPPRCTIAMRVINNYQGRCKNQNTFLRTTFPNV
+                     VNVCHNRSIRCPHNSTLYNCHRSRVRVPLLHCDLINPGAQNVSTCRYADRPGRRFYVV
+                     ACESRDPRDSPRYPVVPVHLDTII"
+     STS             404..559
+                     /gene="RNASE3"
+                     /standard_name="D14S1192"
+                     /db_xref="UniSTS:65394"
+ORIGIN      
+        1 gctcagtggt ttgccatcca gcacatcaat atgaaccccc ctcgatgcac cattgcaatg
+       61 cgggtaataa ataattatca agggcgttgc aaaaaccaaa atacttttct tcgtacaact
+      121 tttcctaacg tagttaatgt ttgtcataac cgaagtatac gctgccctca taacagtact
+      181 ctctacaatt gtcatcgtag tagagtccgg gtgcctttac tccactgtga cctcataaat
+      241 ccaggcgcac agaatgtttc aacctgcagg tatgcagaca gaccaggacg gaggttctat
+      301 gtagttgcat gtgaaagcag agatccacgg gattctccac ggtatccagt ggtgccagtt
+      361 cacctggata ccatcatcta agctcctgta tcagcactcc tcatcatcac tcatctgcca
+      421 ggctcctcaa tcatagccaa gatcccatcc ctccatgtac cttgggtatc agcaactgtc
+      481 ctcatcagtc tccatatccc ttcaggtttc ctgagctgaa gtcccttgtg gactctgcaa
+      541 taaactgctt tgcaaattca
+//
+

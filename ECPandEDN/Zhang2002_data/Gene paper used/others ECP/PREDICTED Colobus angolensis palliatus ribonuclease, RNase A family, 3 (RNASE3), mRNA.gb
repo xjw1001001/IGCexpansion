@@ -1,0 +1,71 @@
+LOCUS       XM_011930954             713 bp    mRNA    linear   PRI 30-MAR-2015
+DEFINITION  PREDICTED: Colobus angolensis palliatus ribonuclease, RNase A
+            family, 3 (RNASE3), mRNA.
+ACCESSION   XM_011930954
+VERSION     XM_011930954.1
+DBLINK      BioProject: PRJNA279495
+KEYWORDS    RefSeq.
+SOURCE      Colobus angolensis palliatus
+  ORGANISM  Colobus angolensis palliatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Colobinae; Colobus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_012122709.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Colobus angolensis palliatus
+                                           Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..713
+                     /organism="Colobus angolensis palliatus"
+                     /mol_type="mRNA"
+                     /isolate="OR3802"
+                     /sub_species="palliatus"
+                     /db_xref="taxon:336983"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="heart"
+     gene            1..713
+                     /gene="RNASE3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 16 ESTs, 9 Proteins"
+                     /db_xref="GeneID:105503837"
+     CDS             53..535
+                     /gene="RNASE3"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_011786344.1"
+                     /db_xref="GeneID:105503837"
+                     /translation="MVPKLFTSQICRLLLLGLMGVEGSLHARSPEFTRAQWFAIQHIN
+                     MNPPSCNIAMRVINKYQRCCEKQNTFLRTTFANVVNVCRNPSIRCLHNRTLQNCHRSS
+                     VQVPLLQCKHINRGAQNISTCEYADRQGQSFYVVACENRDPRDPPQYPVVPVLLDRII
+                     "
+ORIGIN      
+        1 acaaccagct ggatcagttc tcacaggagc tgcagctcag agactgggaa acatggttcc
+       61 aaaattgttc acttcccaaa tttgtcggct tcttctgttg gggcttatgg gtgtggaggg
+      121 ctcactccat gccagatccc cagagtttac aagggctcag tggtttgcca tccagcacat
+      181 caatatgaac cccccttcat gcaacattgc aatgcgggta attaacaagt atcaacggtg
+      241 ttgcgaaaag caaaatactt ttcttcgtac aacttttgca aatgtagtta atgtttgtcg
+      301 taacccaagt atacgctgcc ttcataacag aactctccaa aattgtcatc gtagtagcgt
+      361 ccaggtgcct ttactccagt gtaaacacat aaatagaggt gcacagaata tttcaacctg
+      421 tgagtatgca gacagacaag gacagagttt ctatgtagtt gcgtgtgaaa acagagatcc
+      481 acgggatcct ccacagtatc cagtggttcc agtactcctg gacagaatca tctaagctcc
+      541 tgtatcagca ctcctcatca tcactcatct gccaagctcc tcaatcatag ccaagatccc
+      601 atccctccat gtaccctggg tatcagcatc tgtcctcatc agtctccata ccccttcagg
+      661 tttcctgaac tgaagtgcct tgtgaacccc caacaagctg ctgtgcaagt tca
+//
+

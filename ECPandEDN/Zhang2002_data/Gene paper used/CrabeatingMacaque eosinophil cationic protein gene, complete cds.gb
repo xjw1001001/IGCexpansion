@@ -1,0 +1,51 @@
+LOCUS       MFU24098                 483 bp    DNA     linear   PRI 17-JUN-1995
+DEFINITION  Macaca fascicularis eosinophil cationic protein gene, complete cds.
+ACCESSION   U24098
+VERSION     U24098.1
+KEYWORDS    ribonuclease.
+SOURCE      Macaca fascicularis (crab-eating macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+REFERENCE   1  (bases 1 to 483)
+  AUTHORS   Rosenberg,H.F., Dyer,K.D., Tiffany,H.L. and Gonzalez,M.
+  TITLE     Rapid evolution of a unique family of primate ribonuclease genes
+  JOURNAL   Nat. Genet. 10 (2), 219-223 (1995)
+   PUBMED   7663519
+REFERENCE   2  (bases 1 to 483)
+  AUTHORS   Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-APR-1995) Helene F. Rosenberg, Laboratory of Host
+            Defenses, NIAID, National Institutes of Health, Building 10, Room
+            11N104, 9000 Rockville Pike, Bethesda, MD 20892, USA
+FEATURES             Location/Qualifiers
+     source          1..483
+                     /organism="Macaca fascicularis"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9541"
+     CDS             1..483
+                     /note="ribonuclease"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="AAC50146.1"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTKAQWFAIQHIN
+                     VNPPRCTIAMRVINNYQRRCKNQNTFLRTTFAYTANVCRNERIRCPRNRTLHNCHRSR
+                     YRVPLLHCDLINPGAQNISTCRYADRPGRRFYVVACESRDPRDSPRYPVVPVHLDTTI
+                     "
+     sig_peptide     1..81
+     mat_peptide     82..480
+                     /product="eosinophil cationic protein"
+                     /note="ribonuclease"
+ORIGIN      
+        1 atggttccaa aactgttcac ttcccaaatt tgtctgcttc ttctgttggg gcttatgggt
+       61 gtggagggct cactccatgc cagaccccca cagtttacaa aggctcagtg gtttgccatc
+      121 cagcacatca atgtgaaccc ccctcgatgc accattgcaa tgcgggtaat aaataattat
+      181 caacggcgtt gcaaaaacca aaatactttt cttcgtacaa cttttgcata tacagctaat
+      241 gtttgtcgta acgaacgtat acgctgccct cgtaacagaa ctctccacaa ttgtcatcgt
+      301 agtagatacc gggtgccttt actccactgt gacctcataa atccaggtgc acagaatatt
+      361 tcaacctgca ggtatgcaga cagaccagga cggaggttct atgtagttgc atgtgaaagc
+      421 agagatccac gggattctcc acggtatcca gtggttccag ttcacctgga taccaccatc
+      481 taa
+//
+
