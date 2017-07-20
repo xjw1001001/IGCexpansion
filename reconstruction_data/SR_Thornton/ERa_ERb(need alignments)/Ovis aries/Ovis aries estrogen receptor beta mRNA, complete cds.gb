@@ -1,0 +1,72 @@
+LOCUS       AF177936                1584 bp    mRNA    linear   MAM 16-JUL-2001
+DEFINITION  Ovis aries estrogen receptor beta mRNA, complete cds.
+ACCESSION   AF177936
+VERSION     AF177936.1
+KEYWORDS    .
+SOURCE      Ovis aries (sheep)
+  ORGANISM  Ovis aries
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Caprinae; Ovis.
+REFERENCE   1  (bases 1 to 1584)
+  AUTHORS   Cardenas,H., Burke,K.A., Bigsby,R.M., Pope,W.F. and Nephew,K.P.
+  TITLE     Estrogen receptor beta in the sheep ovary during the estrous cycle
+            and early pregnancy
+  JOURNAL   Biol. Reprod. 65 (1), 128-134 (2001)
+   PUBMED   11420232
+REFERENCE   2  (bases 1 to 1584)
+  AUTHORS   Cardenas,H., Bigsby,R.M., Pope,W.F. and Nephew,K.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-1999) Obstetrics and Gynecology, Indiana
+            University, 1001 Walnut St., Indianapolis, IN 46202, USA
+FEATURES             Location/Qualifiers
+     source          1..1584
+                     /organism="Ovis aries"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9940"
+                     /tissue_type="ovary"
+     CDS             1..1584
+                     /note="steroid receptor"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAD55772.1"
+                     /translation="MDVKNSPSSLNSPVSYNCGQSILPLEPGPIYLPSSYVESRHEYS
+                     AVTFYSPAVMNYSIPNNSEDGPGRQTTSPNVLWPTPGHLSPLAIHCQSSLLYAEPQKS
+                     PWCETRSLEHTFPVNRETLKRKASGSSCASPVSSPSSKRDAHFCAVCSDYASGYHYGV
+                     WSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYEVGMVKCGSRR
+                     ERCGYRIVRRQRNSDEQLHCLSKTKRNGAPMTRVKELLLSALSPEQLVLTLLEAEPPH
+                     VLMSRPSAPFTEASMMMSLTKLADKELVHMISWAKKIPGFVELSLYDQVRLLESCWLE
+                     VLMVGLMWRSIDHPGKLIFAPDLVLDRDEGKCVEGILEIFDMLLATTSRFRELKLQHK
+                     EYLCVKAMILLNSSMYPSATASQEADSGRKLTHLLNAVTDALVWVIAKSGMSSQQQSM
+                     RLANLLMLLSHVRHASNKGMEHLLNMKCKNVVPVYDLLLEMLNAHTLRSNKPLVTRSE
+                     RNLAEDSESKEGSQKPQAQ"
+ORIGIN      
+        1 atggatgtca aaaactcacc atctagcctt aactctcctg tctcctataa ctgcggtcaa
+       61 tccattctac ccctggagcc aggccccata tatttaccct cttcctatgt agagagccgc
+      121 catgaatact cagccgtgac attctatagc cctgctgtga tgaattacag tattcccaat
+      181 aactcagaag atgggcctgg tcgacagacc acaagcccaa atgtattgtg gccaactcct
+      241 ggacacctct ctcctttagc catccattgc cagtcgtcac ttctgtatgc agaacctcaa
+      301 aagagtcctt ggtgtgaaac cagatcatta gaacacacct tccctgtgaa cagggagaca
+      361 ttgaaaagga aagctagtgg gagcagttgt gccagccctg tttctagtcc gagttcaaag
+      421 agggatgccc acttctgtgc tgtctgcagc gattatgcgt cgggatatca ctatggagtc
+      481 tggtcatgtg aaggatgtaa ggcctttttt aaaagaagca ttcaaggaca taatgattat
+      541 atttgtccag ctacaaatca gtgtaccata gataagaacc gacgtaaaag ctgtcaggcc
+      601 tgtcgactgc ggaagtgcta tgaggtcgga atggtgaagt gtggctcccg gagagaaagg
+      661 tgtgggtacc gcatagtgcg aaggcagaga aattctgatg agcagctgca ctgcctgagc
+      721 aaaaccaaga ggaacggtgc acccatgacc cgagtgaagg agctgctgct gagtgccctg
+      781 agcccagagc agctggtgct tactctcctg gaggccgagc cgccccacgt gctcatgagc
+      841 cgccccagcg cgcccttcac tgaggcctcc atgatgatgt ccttgaccaa gctggccgac
+      901 aaggaactgg tacacatgat cagctgggcc aagaagattc cgggcttcgt ggagctcagc
+      961 ctgtacgacc aagtgcggct cttggagagc tgctggttgg aggtgctcat ggtggggctg
+     1021 atgtggcgct ccatcgacca ccccggcaag ctcatctttg ctccagacct cgttctggac
+     1081 agggatgaag ggaaatgtgt tgaaggaatt ctagaaatct ttgacatgct cctggcaacg
+     1141 acttcaaggt ttcgtgagtt aaaactccaa cacaaagaat atctctgtgt caaggccatg
+     1201 atcctcctca actccagtat gtacccttca gctacagcat cccaggaggc tgacagtggc
+     1261 cggaagctga ctcacctgct gaatgccgtg acggacgctc tggtctgggt gattgccaag
+     1321 agcggcatgt cctcccagca acagtccatg cgcctggcta acctgctgat gctcctgtct
+     1381 catgtcaggc atgccagtaa caagggcatg gaacacctgc tcaacatgaa gtgcaaaaat
+     1441 gtggtgcccg tctacgatct gctgctggag atgctgaatg cccacacgct tcgcagcaac
+     1501 aagcctttgg tcacaaggtc tgagcgcaac ctggcggagg acagtgagag caaagagggc
+     1561 tcccagaaac cccaggctca gtga
+//
+

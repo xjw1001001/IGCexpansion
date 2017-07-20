@@ -1,0 +1,91 @@
+LOCUS       AY161275                2319 bp    mRNA    linear   MAM 01-DEC-2003
+DEFINITION  Oryctolagus cuniculus glucocorticoid receptor alpha mRNA, complete
+            cds.
+ACCESSION   AY161275
+VERSION     AY161275.1
+KEYWORDS    .
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Leporidae; Oryctolagus.
+REFERENCE   1  (bases 1 to 2319)
+  AUTHORS   James,E.R., Robertson,L., Ehlert,E., Fitzgerald,P., Droin,N. and
+            Green,D.R.
+  TITLE     Presence of a transcriptionally active glucocorticoid receptor
+            alpha in lens epithelial cells
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. 44 (12), 5269-5276 (2003)
+   PUBMED   14638726
+REFERENCE   2  (bases 1 to 2319)
+  AUTHORS   James,E.R. and Robertson,L.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2002) Ophthalmology, Medical University of South
+            Carolina, 171 Ashley Avenue, Charleston, SC 29425, USA
+FEATURES             Location/Qualifiers
+     source          1..2319
+                     /organism="Oryctolagus cuniculus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9986"
+                     /cell_line="N/N1003A"
+                     /cell_type="lens epithelial cells"
+     CDS             1..2319
+                     /note="cytosolic/nuclear receptor"
+                     /codon_start=1
+                     /product="glucocorticoid receptor alpha"
+                     /protein_id="AAN75442.1"
+                     /translation="MDSKESLSPPGREEVPSSVLRPAERGNVMDLYKTLRGGAPVRVP
+                     ASSPSLAPAAQPDSKQQRLAVDFPKGSASNAQQPDLSRAVSLSMGLYMGETETKVMGS
+                     DLAFPQQGQTSLSSGETDFRLLEESIASLNRSASGADNPRSTAPAAGSAAPTEGFPKT
+                     HSDLASERQNPKGQTGGSAGSAKLHPTDQSTFDILQDLEFSGSPSKDRSESPWRSDLL
+                     MDENCLLSPLAGEDDPFLLEGNSSEDCKPLILPDTKPKIKDNGDLILSNSNNVPLPQV
+                     KTEKEDFIELCTPGVIKQEKLGPVYCQASFSGANIIGNKISAISVHGVSTSGGQMYHY
+                     DMNAQQQEQKPLFNVIPPIPVGSENWNRCQGSGDDNLTSLGTMNFPGRSVFSNGYSSP
+                     GMRPDVSSPPSNSTTAAGPPPKLCLVCSDEASGCHYGVLTCGSCKVFFKRAVKGQHNY
+                     LCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEARKTKKKIKGIQQTSTGVSQETSE
+                     NPSNRTVVPAALPQLTPTLVSLLEVIEPEVLYAGYDSSVPDSTWRIMTTLNMLGGRQV
+                     IAAVKWAKAIPGFRNLHLDDQMTLLQYSWMFLMAFALGWRSYKQSSGNMLCFAPDLVI
+                     NEQRMTLPYMYDQCKHMLFVSSELKRLQVSYEEYLCMKTLLLLSTVPKEGLKSQELFD
+                     EIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSMHEVVENLLHYCFQTFLDKTM
+                     SIEFPEMLAEIITNQIPKYSNGNIKKLLFHQK"
+ORIGIN      
+        1 atggactcca aagaatcatt aagtcccccg ggtagagagg aggtccccag cagtgtgctc
+       61 aggccggcgg agcgcgggaa tgtgatggac ttgtacaaaa ccctaagggg aggagctcct
+      121 gtgagggtgc ctgcatcttc tccctcactg gctcctgctg cgcagccgga ctccaagcag
+      181 cagagactcg cggtggactt tccgaaaggc tcagccagca atgcccagca gccggatctg
+      241 tccagagcag tgtcactctc gatgggattg tatatgggcg agacagaaac caaagtgatg
+      301 ggcagtgacc tggctttccc gcagcagggc caaaccagcc tttcctctgg ggaaacggac
+      361 ttccggcttc tggaagaaag catcgcgagc ctcaacaggt cggctagtgg tgcagacaac
+      421 cccaggagca cagcgcctgc tgctgggtct gccgccccca cagaggggtt tccaaaaact
+      481 cactctgacc tggcctccga acggcagaat ccgaagggcc agactggcgg cagcgccggc
+      541 agtgccaagt tgcaccccac agaccaaagc acctttgaca ttttgcagga tttggagttt
+      601 tctggatccc caagtaaaga caggagcgag agcccttgga ggtcagacct gttgatggac
+      661 gagaactgtc tgctttctcc tttggcggga gaagatgatc cattcctttt ggaagggaat
+      721 tcgagcgagg actgtaagcc tcttatttta ccggacacga aacctaaaat taaggataat
+      781 ggagatctga tcttatcaaa ctccaacaat gtaccactgc cccaagtgaa aaccgagaaa
+      841 gaagatttca tcgaactctg cacccctggg gtaattaagc aagagaaact gggcccagtg
+      901 tactgtcagg caagcttttc tggggcaaat ataattggta ataaaatatc tgccatttct
+      961 gttcatggcg tgagtacctc cggaggacag atgtaccact atgacatgaa cgcacagcag
+     1021 caggagcaga agcctctttt taatgtcatt ccgccaattc ctgttggttc agaaaattgg
+     1081 aatcgctgcc aagggtctgg agatgacaac ttgacttccc tggggactat gaacttccct
+     1141 ggccggtcgg tgttttccaa cggctattca agtccaggaa tgagaccaga tgtgagctct
+     1201 cctccatcta actccacgac agcagcagga ccacctccca aactctgctt ggtgtgctct
+     1261 gatgaagcct caggatgtca ctacggggtc ttgacttgtg gaagctgcaa agtattcttc
+     1321 aaaagggcag tgaaaggaca gcacaattat ctttgtgctg gaagaaatga ctgtatcatt
+     1381 gataaaattc gaagaaaaaa ttgcccagca tgccgataca gaaaatgtct tcaagctgga
+     1441 atgaacttgg aagcacgaaa aacaaagaaa aaaataaaag gaattcagca gaccagcaca
+     1501 ggagtttcgc aagaaacttc tgaaaatcct tctaacagaa cagtagttcc tgcagcatta
+     1561 ccacaactca ccccaacact ggtgtcactg ctggaggtca ttgaacctga agtgttgtat
+     1621 gcagggtatg acagctcggt tccagactct acttggagga tcatgaccac actcaacatg
+     1681 ttaggtgggc ggcaagtgat tgcagcagtg aaatgggcaa aggcaatacc aggattcagg
+     1741 aacttgcacc tggatgacca aatgaccctc ctgcaatact catggatgtt tctcatggca
+     1801 tttgccctgg ggtggagatc atataaacaa tccagtggaa acatgctatg ttttgctcct
+     1861 gatctggtta ttaatgagca gagaatgact ctaccctaca tgtatgacca atgtaaacat
+     1921 atgctgtttg tttcctctga gttaaaacgg cttcaggtgt cttacgaaga atatctctgt
+     1981 atgaaaacct tactgcttct ctctacagtt cctaaagaag gtttgaagag ccaagagcta
+     2041 tttgatgaaa tccgaatgac gtacatcaaa gagctaggaa aagccattgt caagagggaa
+     2101 ggaaactcca gtcagaactg gcagcgcttt tatcaactga caaaactttt ggactctatg
+     2161 catgaagtgg ttgaaaatct ccttcactat tgcttccaaa catttttgga taagacgatg
+     2221 agtattgaat tcccagagat gctagctgaa atcatcacca atcagatacc aaaatattca
+     2281 aatggaaata tcaaaaaact tctgtttcat cagaaatga
+//
+

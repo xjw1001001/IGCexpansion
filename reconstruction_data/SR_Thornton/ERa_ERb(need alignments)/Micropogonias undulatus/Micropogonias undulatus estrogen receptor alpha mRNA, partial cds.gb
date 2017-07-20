@@ -1,0 +1,85 @@
+LOCUS       AF298183                2390 bp    mRNA    linear   VRT 14-JUL-2016
+DEFINITION  Micropogonias undulatus estrogen receptor alpha mRNA, partial cds.
+ACCESSION   AF298183
+VERSION     AF298183.1
+KEYWORDS    .
+SOURCE      Micropogonias undulatus (Atlantic croaker)
+  ORGANISM  Micropogonias undulatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Sciaenidae; Micropogonias.
+REFERENCE   1  (bases 1 to 2390)
+  AUTHORS   Hawkins,M.B., Thornton,J.W., Crews,D., Skipper,J.K., Dotte,A. and
+            Thomas,P.
+  TITLE     Identification of a third distinct estrogen receptor and
+            reclassification of estrogen receptors in teleosts
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 97 (20), 10751-10756 (2000)
+   PUBMED   11005855
+REFERENCE   2  (bases 1 to 2390)
+  AUTHORS   Hawkins,M.B., Crews,D., Skipper,J.K. and Thomas,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2000) Zoology, North Carolina State University,
+            1627 S. Gardner Hall, Raleigh, NC 27695, USA
+FEATURES             Location/Qualifiers
+     source          1..2390
+                     /organism="Micropogonias undulatus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:29154"
+     CDS             <1..1580
+                     /note="steroid hormone receptor"
+                     /codon_start=3
+                     /product="estrogen receptor alpha"
+                     /protein_id="AAG16713.1"
+                     /translation="PTSPLVFVPSSPRLSPFMHPPSHHYLETTSTPVYRSSVSSSQQQ
+                     LSREDQCGTSDDSYSVGESGAGAGAGAGGFEMAKEMRFCAVCSDYASGYDYGVWSCEG
+                     CKAFFKRSIQGHNDYMCPATNQCTIDRNRRKSCQACRLRKCYQVGMMKGGVRKDRGRV
+                     LRRDKRRTGTSDKASKDLEHRTAPPQDRRKHSSSSSSAGGGGKSSIIGMSPDQVLLLL
+                     QGAEPPVLCSRQKLSRPYTEVTMMTLLTSMADKELVHMIAWAKKLPGFLQLSLHDQVQ
+                     LLESSWLEVLMIGLIWRSIHCPGKLIFAQDLILDRSEGDCVEGMAEIFDMLLATTSRF
+                     RMLKLKTEEFVCLKAIILLNSGAFSFCTGTMEPLHDGAAVQNMLDTITDALIHHISQS
+                     GCSAQQQSRRQAHLLLLLSHIRHMSNKGMEHLYSMKCKNKVPLYDLLLEMLDAHRIHR
+                     PDRPAESWSQADREPPYTTSNNNNSSSSSGGGDGGPSSAGSGSGPRVNHESLSRAPTG
+                     PGVLQYGGPRSDCTHIL"
+ORIGIN      
+        1 ggcctaccag tcctcttgtt tttgtgccct ccagcccccg actcagccct tttatgcacc
+       61 cgcccagcca ccactatctg gaaaccacct caacacccgt ctacaggtcc agtgtctcat
+      121 ccagtcagca gcagctgtcc agagaggacc agtgtggcac cagtgacgac tcatacagtg
+      181 tgggggagtc aggggctgga gccggggccg gggccggtgg gtttgagatg gccaaagaga
+      241 tgcgtttctg tgctgtgtgc agtgactatg cctcggggta cgactacggg gtgtggtcct
+      301 gtgagggctg caaggctttc tttaagagga gcatccaggg tcacaatgac tatatgtgcc
+      361 cagcaaccaa tcagtgtact attgacagga atcgcaggaa gagctgccag gcttgccgtc
+      421 ttaggaagtg ttaccaagtg ggcatgatga aaggaggtgt gcgaaaggac cgcgggcgtg
+      481 ttttgcggcg tgacaaacga aggactggca ccagtgacaa ggcctctaag gacctggagc
+      541 acagaacagc acccccccag gacaggagga agcacagcag cagcagcagc agtgctggtg
+      601 gaggaggaaa gtcatcgata attggcatgt cacctgacca ggtactcctc ctgctccagg
+      661 gtgccgagcc cccggttctg tgctcccgtc agaagctgag tcgtccctac accgaggtca
+      721 ccatgatgac cctgctcacc agcatggccg ataaggagct ggtccacatg atcgcctggg
+      781 ccaagaagct tccaggtttt ctgcagctgt ccctccacga tcaggtgcag ctcctggaga
+      841 gctcatggct ggaggtgctg atgatcgggc tcatctggag atccattcac tgcccaggca
+      901 aactcatctt cgcacaggac cttatactag acaggagcga aggtgactgc gtggaaggca
+      961 tggctgagat cttcgacatg ctgctcgcca ccacttcccg cttccgcatg ctcaaactca
+     1021 aaactgagga gtttgtctgc ctcaaggcta tcatcttgct caactctggt gccttctctt
+     1081 tctgcactgg cacaatggag cccctccacg acggtgcggc agtgcagaac atgctcgaca
+     1141 ccatcacaga cgctctcata catcacatca gccaatcagg atgctcggct cagcagcagt
+     1201 cgaggcggca ggcccatctg ctcctcctgc tttcccacat caggcacatg agcaacaaag
+     1261 gcatggagca tctctacagc atgaagtgca agaacaaagt gcctctgtac gacctgctgc
+     1321 tggagatgct ggatgctcac cgcatacacc gcccagacag gccggctgag tcctggtccc
+     1381 aggctgacag agagcctcct tacaccacca gcaacaataa caacagcagc agcagcagcg
+     1441 gtggtggaga tggaggcccc tcttcagctg gttccggttc aggaccacga gtcaaccatg
+     1501 agagtctgag cagagccccc acaggtccag gtgtcctgca gtacggtggg ccccgctctg
+     1561 actgcaccca catcctatga gacagagcac aacagtgaaa ggggatttgc gaatgaaaga
+     1621 tgaaggtcgt atttgaattc atttcatgag ataattattt ataaattcta tgattttata
+     1681 gttgtagctg tttagggaca tttttccttt gcactactcc aactcactac aatatgagct
+     1741 tcaatgcagt taatcttctg cgctgccttt catgatatct gtgattttga gtcagactaa
+     1801 cagctttaca gtacagcttc ttatttccag gtgataggtc atattgtggc tacagtgatt
+     1861 tgaaatgatg agcagctaat ttttctttgt atttgcttca accaaagtgc acttcctctt
+     1921 gggcttaagg ggctattggg cattattttt atttttacat attaaggatg attacacact
+     1981 aaatattata aaagtaaaat gtaatttatt ttatctttaa gttccaacat cattaaggat
+     2041 aaacgtcagg tatcgtgtct tatgcgcacg cacaattttt accttcatat atttggggaa
+     2101 aaaaaatatt ttagtgatga aattatgaat tgaacagtgg ctgaggacat gtgttgaatt
+     2161 ttgtgagctt caaattgcac gatcaaatcc cagagcactg acgatataat gaaggaagcc
+     2221 aagctttatt gtcgggtaac ttcaccctat cttcagcttt tttgtgtata gtaggtttgt
+     2281 tctttatgat tacttgcacc aaagtttttt tctgaaattg tcatgtagaa aatatatgtg
+     2341 cgtgtttgtg catggcagag agagagactg aggcaatgag ctgtaagtgg
+//
+

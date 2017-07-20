@@ -1,0 +1,84 @@
+LOCUS       AB070901                2276 bp    mRNA    linear   VRT 26-DEC-2001
+DEFINITION  Oryzias latipes mRNA for estrogen receptor beta, complete cds.
+ACCESSION   AB070901
+VERSION     AB070901.1
+KEYWORDS    .
+SOURCE      Oryzias latipes (Japanese medaka)
+  ORGANISM  Oryzias latipes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Beloniformes;
+            Adrianichthyidae; Oryziinae; Oryzias.
+REFERENCE   1
+  AUTHORS   Nobukawa,T. and Nakai,M.
+  TITLE     Oryzias latipes estrogen receptor beta
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2276)
+  AUTHORS   Nobukawa,T. and Nakai,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-AUG-2001) Takako Nobukawa, Chemicals Evaluation and
+            Research Institute, Japan, Chemicals Assessment Center; 19-14
+            Chuo-machi, Kurume, Fukuoka 830-0023, Japan
+            (E-mail:nobukawa-takako@ceri.jp, Tel:81-942-34-1500,
+            Fax:81-942-39-6804)
+FEATURES             Location/Qualifiers
+     source          1..2276
+                     /organism="Oryzias latipes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8090"
+                     /tissue_type="liver"
+     CDS             354..2042
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="BAB79705.1"
+                     /translation="MGTTLDSEKHQPLLQLQEVDSSRAGSCVLSPNLSSSSPGLSHET
+                     SQPICIPAPYADLSHDFTSLPFYNPTIFSYASPSMSECPSVHQSLSASLFWQSHGHVG
+                     PTIPLHRSQARAQHGQPIQSPWDGVLTTSKGVRRRSQESEEAVVSSGGKSELHYCAVC
+                     HDYASGYHYGVWSCEGCKAFFKRSIQGHTDYICPATNQCTIDKNRRKSCQACRLRKCY
+                     EVGMTKCGVRKERSSYRSAPARRAGRLTSQGRMNGPKVSSGPKESSGNEQSSLHLTPE
+                     QLIARMMEAEPPDIYLMKDTKKPLTEAVVMMSLTNLADKELVHMITWAKKIPGFVELS
+                     LLDQVHLLECCWLEVLMMGLMWRSVGHPGKLIFSPDLSLSREEGSCVQGFVEIFDMLI
+                     AATSRVRELNLQREEYVCLKAMILLNSNMCLSSSEGGGELHSRSKLLCLLDAVTDALV
+                     WAIGKSGLNFRQQYTRLAHLLMLLSHIRHVSNKGMDHLHCMKMKNMVPLYDLLLEMLD
+                     AHIMHSSRLPRQPPPQDAADPTETSAQGQRSCCDVSKAWTTSSAGTAEEPQKSD"
+ORIGIN      
+        1 ctcggagctg gaactcggct cccaggacca gctcgttcgg acgggcgccg ctcggactct
+       61 gacacgggac tccaccgcgg ttccgcagac cggaccgacg ccgcgcggaa gaagttggtg
+      121 cgcagccgcg agggtttttt gaggacgaac agatgggaat ctgtgcctca gaaccgtgga
+      181 tcttatgctg cccctccacc atgttagagc tccatctgct ttctgtttct tgatttcttc
+      241 agtttaatga tgaggttatt agattaaacg tgacaccagg ggaagatata actctgttag
+      301 atgcctcgga ccttcctgat gatgtaatcc tggccatcac ctctgttttt gcaatgggaa
+      361 ccactttgga ctcagagaag caccagccac tcctgcagct ccaggaggtg gactccagcc
+      421 gggccggcag ttgcgtcctc tccccaaacc tcagctcctc ctcacctggt ttgtcccacg
+      481 aaaccagcca gccaatctgc atcccggcgc catacgccga cctcagccac gacttcacca
+      541 gcttaccttt ctacaaccca accatcttca gctatgccag ccccagcatg tcagagtgtc
+      601 cttctgtgca ccagtcgcta agtgcctctt tgttctggca aagccacggc cacgtggggc
+      661 cgacgatacc cctgcaccgc tcccaggccc gggcgcagca tggccagccc atccagagtc
+      721 catgggacgg ggtcttaact accagcaagg gtgtgaggag gcgctcccag gagagtgaag
+      781 aggccgtggt gtcatcaggc ggcaagtctg aactccatta ctgtgctgtg tgccatgact
+      841 acgcgtctgg ataccactac ggcgtgtggt catgcgaggg ctgcaaggcc ttcttcaaga
+      901 ggagcatcca aggacacacc gactacatct gccctgcaac caaccaatgc actatagaca
+      961 agaaccggcg caagagctgc caggcctgtc gccttcggaa gtgctacgaa gtcggcatga
+     1021 ccaaatgcgg tgttcgcaaa gagcgcagca gctaccggag cgcgccggcg aggagagctg
+     1081 gccgtctgac ctcgcagggc cggatgaacg ggcccaaggt gtcgagtgga cccaaggaga
+     1141 gttctgggaa cgagcagagc tcgcttcacc tgaccccaga gcagctgatc gctcggatga
+     1201 tggaggcgga gcctcccgac atctacctca tgaaggacac caagaagccg ctgacggagg
+     1261 ccgtggttat gatgtcactc accaacttgg ccgataagga gctggtccac atgatcacct
+     1321 gggccaagaa gattccaggg tttgtggagc tcagcctcct ggatcaggtt catctgctgg
+     1381 agtgctgctg gctggaggtg ctgatgatgg gactgatgtg gaggtcagtg ggccatccag
+     1441 gaaaactcat cttctcccct gacctcagcc tgagcagaga ggagggcagt tgtgtccagg
+     1501 gcttcgtgga gatcttcgac atgctgatcg ctgccacgtc cagagtcaga gagctcaatc
+     1561 tgcagaggga ggagtacgtt tgtctcaagg ccatgatcct ccttaactcc aacatgtgcc
+     1621 tgagctcctc tgagggtggg ggggagctgc acagccgctc caagctgctg tgcctcctgg
+     1681 acgccgtgac agacgctctg gtgtgggcca tcggcaaaag tggactcaac tttcggcagc
+     1741 agtacacacg tctcgcccac ctgctcatgc tgctgtctca catccgccat gtcagcaaca
+     1801 aaggcatgga ccacctgcac tgcatgaaga tgaagaacat ggtgcctttg tacgacctgc
+     1861 tgctggagat gctggacgct cacatcatgc acagctcccg cctgcctcgc cagccgcccc
+     1921 cgcaggatgc tgccgaccca acagagacct ccgctcaggg gcaaagatcc tgctgcgacg
+     1981 tgtccaaagc ctggactacc agcagcgctg ggaccgcaga ggaaccccag aagtccgatt
+     2041 agtaccttga tgcagtggga ggagcaggat aggaaaaaga cccccccccc atcccggtcc
+     2101 tccatctgct cagcatccag ggacctggat ctggtctgtt caatcaatct gaatctggag
+     2161 ccctccactc cagtttattg ttggtggaac caacccggac atatgcgggc agctctggat
+     2221 tttctacatt tgaaatgttc gacactcgtc tcagctaaac accacgactg ctcagt
+//
+

@@ -1,0 +1,102 @@
+LOCUS       U16366                  2234 bp    mRNA    linear   MAM 26-JUL-2016
+DEFINITION  Oryctolagus cuniculus prostate androgen receptor mRNA, partial cds.
+ACCESSION   U16366
+VERSION     U16366.1
+KEYWORDS    .
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha;
+            Leporidae; Oryctolagus.
+REFERENCE   1  (bases 1 to 2234)
+  AUTHORS   Krongrad,A., Wilson,J.D. and McPhaul,M.J.
+  TITLE     Cloning and partial sequence of the rabbit androgen receptor:
+            expression in fetal urogenital tissues
+  JOURNAL   J. Androl. 16 (3), 209-212 (1995)
+   PUBMED   7559153
+REFERENCE   2  (bases 1 to 2234)
+  AUTHORS   Krongrad,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-OCT-1994) Arnon Krongrad, Urology, University of
+            Miami School of Medicine, POB 016960, Miami, FL 33101, USA
+FEATURES             Location/Qualifiers
+     source          1..2234
+                     /organism="Oryctolagus cuniculus"
+                     /mol_type="mRNA"
+                     /strain="New Zealand white"
+                     /db_xref="taxon:9986"
+                     /clone="2,3,5u"
+                     /sex="male"
+                     /tissue_type="prostate"
+                     /clone_lib="Krongrad"
+                     /dev_stage="adult"
+     CDS             <1..2130
+                     /note="similar to rat androgen receptor, PIR Accession
+                     Numbers A36283 and B40494, and Swiss-Prot Accession Number
+                     P15207; encodes putative DNA binding domain, putative
+                     hinge region, and putative hormone binding domain"
+                     /codon_start=1
+                     /product="prostate androgen receptor"
+                     /protein_id="AAC48469.1"
+                     /translation="HHQQQQDAATEGSSSGRARRPSGASTSSKDSYLGSTSVISDSAK
+                     ELCKAVSVSLGLGVEALEHLSSGEQLRGDCMYAPLLGGPPVVRPTPCLPLVECKGSLL
+                     DDGPGKGTEETAEYTPFKGGYNKGLEAESLGCSGSGEAGSSGTLELPSTLSLYKSGTL
+                     DEAAAYQTRDYYNFPLALAGQPPPPHPRRIKLENPLDYGSAWAAAAAQCRYGDLASLH
+                     GGGAAGPGSGSPSTAASSSWHTLFTTEEGQLYGLCGGGGGSGPGEAGAVAPYGYTRPP
+                     QGLTGQEGDFPAPEVWYPGGVVSRVPYPNPSCVKSEMGPWMESYSGPYGDMRLETARD
+                     HVLPIDYYFPPQKTCLICGDEASGCHYGALTCGSCKVFFKRAAEGKQKYLCASRNDCT
+                     IDKFRRKNCPSCRLRKCYEAGMTLGARKLKKLGNLKLQEEGESSSASSPTEDTTQKLT
+                     VSHIEGYECQPIFLNVLEAIEPGVVCAGHDNNQPDSFAALLSSLNELGERQLVHVVKW
+                     AKALPGFRNLHVDDQMAVIQYSWMGLMVFAMGWRSFTNVNSRMLYFAPDLVFNEYRMH
+                     KSRMYSQCVRMRHLSQEFGWLQITPQEFLCMKALLLFSIIPVDGLKNQKFFDELRMNY
+                     IKELDRIIACKRKNPTSCSRRFYQLTKLLDSVQPIARELHQFTFDLLIKSHMVSVDFP
+                     EMMAEIISVQVPKILSGKVKPIYFHTQ"
+     repeat_region   7..18
+                     /note="encodes homopolymeric glutamine region; CAG"
+                     /rpt_unit_seq="cag"
+     repeat_region   544..555
+                     /note="encodes homopolymeric proline region; CCA and CCT"
+     repeat_region   760..774
+                     /note="encodes homopolymeric glycine region; GGC and GGG"
+     3'UTR           2131..>2234
+ORIGIN      
+        1 caccaccagc agcagcagga cgcggcaact gaaggcagca gcagcgggag agcgaggagg
+       61 ccgtcggggg cttccacctc ctccaaggac agttacctag ggagcacctc tgtcatctcc
+      121 gacagcgcca aggagttgtg taaggcagtg tcggtctccc tgggcttggg tgtggaggcg
+      181 ttggagcatc tgagttctgg agaacagctt cggggagatt gcatgtatgc tccactcctg
+      241 ggaggtccac ccgttgtgcg tcccactccc tgcctcccgc tggtggaatg caaaggttcc
+      301 ctgctggacg atggcccagg taagggcact gaagagactg ctgagtatac ccctttcaag
+      361 ggaggttaca acaaggggct agaagccgag agcctgggtt gctctggcag cggtgaagca
+      421 gggagctccg ggacacttga acttccgtcc accctgtctc tctacaagtc cggaactctg
+      481 gacgaagcag cagcatacca gactcgtgac tattacaact ttccgctggc cctggccggg
+      541 cagccaccac ctcctcatcc acgtcgcatc aagctggaga acccgcttga ctacggcagc
+      601 gcctgggcgg ccgccgcagc acagtgccgc tatggggacc tggcaagcct gcacggcggg
+      661 ggtgcagcgg gacccggctc cggctcaccc tcaaccgccg cttcctcttc ctggcacaca
+      721 ctcttcacaa ccgaagaagg ccagctgtat ggcctgtgtg gcgggggcgg cggcagtggc
+      781 cctggcgagg caggggccgt ggctccctat ggctacactc ggccacctca ggggctgact
+      841 ggacaggaag gagactttcc cgcacccgaa gtgtggtatc ccggcggcgt ggtgagcaga
+      901 gtgccctatc ccaatcccag ctgtgtcaaa agcgagatgg gaccctggat ggagagctat
+      961 tctggacctt acggggacat gcgtttggag actgctaggg accacgtttt gcccatcgac
+     1021 tattactttc caccccagaa gacctgcctg atctgcggag atgaagcttc tggctgtcac
+     1081 tatggagctc tcacttgtgg aagctgcaag gtcttcttca aaagagccgc tgaagggaaa
+     1141 cagaagtacc tgtgtgccag cagaaatgat tgcaccattg acaaattccg aaggaaaaat
+     1201 tgtccttctt gccgtctccg gaaatgctac gaagcaggaa tgactctggg agcacggaag
+     1261 ctgaagaaac ttggaaatct gaaactgcaa gaggaaggcg agtcttccag tgccagcagc
+     1321 cccactgaag acacaactca gaagctgaca gtatcacaca tagaaggcta tgagtgtcag
+     1381 cccatcttcc tcaatgtcct ggaagccatt gagccaggtg tggtgtgtgc tggacacgac
+     1441 aacaatcagc ccgactcctt cgcagccttg ctctcgagcc tcaatgaact gggcgaaaga
+     1501 caacttgtcc atgtggtcaa gtgggccaag gccttgcctg gcttccgtaa cttgcatgtg
+     1561 gatgaccaga tggcagtcat ccagtactcc tggatgggac tcatggtgtt tgccatgggc
+     1621 tggcgatcct tcaccaatgt caactccagg atgctatatt ttgcccctga cctggttttc
+     1681 aatgagtacc gtatgcacaa gtcccggatg tacagccagt gtgtccgaat gaggcacctc
+     1741 tctcaagagt ttggatggct ccaaataacg ccccaggaat tcctgtgcat gaaagccttg
+     1801 ctgctcttca gcattattcc ggtggatggg ctgaaaaatc aaaaattctt tgatgaactt
+     1861 cgaatgaact acatcaagga actcgatcgt atcattgcat gcaaaagaaa aaatcccaca
+     1921 tcctgctcaa ggcgcttcta ccagctcacc aagctcctgg actctgtgca gcctattgca
+     1981 agagagctgc accagttcac ttttgacctg cttattaagt ctcacatggt gagcgtagac
+     2041 tttccagaaa tgatggcaga gatcatctct gtgcaagtgc ccaagattct ttctgggaaa
+     2101 gtcaagccca tctatttcca cacgcagtga agctttggaa gtgtccattt ccctaactcc
+     2161 accgcactcc ttttttctga tgtcttctgc ctgttataac tgcactactt ctctgcagtg
+     2221 ccttggggaa ttcc
+//
+

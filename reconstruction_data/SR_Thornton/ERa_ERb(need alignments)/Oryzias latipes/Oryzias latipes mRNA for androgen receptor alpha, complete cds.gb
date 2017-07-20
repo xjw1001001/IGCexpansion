@@ -1,0 +1,95 @@
+LOCUS       AB076399                2641 bp    mRNA    linear   VRT 02-OCT-2003
+DEFINITION  Oryzias latipes mRNA for androgen receptor alpha, complete cds.
+ACCESSION   AB076399
+VERSION     AB076399.1
+KEYWORDS    .
+SOURCE      Oryzias latipes (Japanese medaka)
+  ORGANISM  Oryzias latipes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Beloniformes;
+            Adrianichthyidae; Oryziinae; Oryzias.
+REFERENCE   1
+  AUTHORS   Murakami,H. and Nakai,M.
+  TITLE     Oryzias latipes androgen receptor alpha
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2641)
+  AUTHORS   Murakami,H. and Nakai,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-DEC-2001) Hidekazu Murakami, Chemicals Evaluation and
+            Research Institute, Japan, Chemicals Assessment Center; 1600
+            Shimo-Takano, Sugito-machi, Kitakatsushika-gun, Saitama 345-0043,
+            Japan (E-mail:murakami-hidekazu@ceri.jp, Tel:81-480-37-2601,
+            Fax:81-480-37-2861)
+FEATURES             Location/Qualifiers
+     source          1..2641
+                     /organism="Oryzias latipes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8090"
+                     /tissue_type="liver"
+     CDS             197..2431
+                     /codon_start=1
+                     /product="androgen receptor alpha"
+                     /protein_id="BAC98301.1"
+                     /translation="MSQTSRQLSCSRNCSQGTRGKAGEAAGALTMARKSEESGGFFTK
+                     TRAGGRLRDSESGGYGSERGNPQVRDMETHCCQAAAAPKEKLLSADCRVGDSRAFSAC
+                     ATISETARELCKAVSVSLGLTVESSETSSVDAHAALPPCAPSDQMSAECFYGVDCPGA
+                     PVAEYRCPDRAPHEHKYQLKMFRSSETPSPYHHPSSTRTSAQNFPPCEVDDITSAAHC
+                     PGYVPPASSSDHLAHFGHTAAGRPYGGFEPPEGAGDVGDGAEEKSDGYAPEQYGVRVK
+                     CEGSESTGAPWASNYTFNKRYNTQFWGSRHCVNSQDAGANPAFISNPYEGSVVRPEQW
+                     YPGGMPRTPYSNSNYMKSEVGEWLDVSYSDAGRFEAGREHMFPMEFFFPPQRTCLICS
+                     DEASGCHYGALTCGSCKVFFKRAAEGKQKYLCASKNDCTIDKLRRKNCPSCRLKKCFE
+                     AGMTLGARKLKKIGQQKTSEDDLPVQEPAELPHHTSPQSGPNFNAQLVFLNILESIEP
+                     EVVNAGHDCGQPDSAASLLTSLNELGERQLVKVVKWAKGLPGFRNLHVDDQMTVIQQS
+                     WMTVMVFALGWRSYKNVNGRMLYFAPDLVFNEHRMHISTMYEHCIRMRHLSQEFSLLQ
+                     ITQEEFLCMKALLLFSIIPVEGLKSQKYFDELRLTYINELNRLINCQMATNCPQRFYQ
+                     LTRLLDSLQMIVKKLHQFTFDLFVQAQSLHTKVSFPEMIGEIISVHVPKILAGLAKPI
+                     LFHK"
+ORIGIN      
+        1 tgatccagtg agaccagcag cgaacttacg cgcctccaac tctaaacatc gcggtttagg
+       61 aggagtttgc ggctcttgca gctcctctca gaccttcacc aaagcgttcc catctacgtg
+      121 agagcggcag agcaacaagc acggggacct gcggacactt tttcagcgtg caaagtccag
+      181 tgtcactttc tgggagatga gccaaaccag ccgccagtta tcctgcagca gaaactgctc
+      241 acaggggacg agggggaagg caggcgaagc ggcgggcgct ctcaccatgg cgcggaaaag
+      301 cgaagaaagt ggaggatttt tcaccaaaac gcgcgcagga ggcagactcc gagactcgga
+      361 gagcggcggc tacggatccg agcgcggaaa cccgcaagtc cgtgacatgg agacgcactg
+      421 ctgtcaggcg gctgcagctc ccaaggagaa gttgctgagc gctgactgcc gcgtggggga
+      481 cagtcgcgcg ttctccgcct gcgccaccat ctcagagaca gccagggagc tgtgtaaagc
+      541 cgtgtccgtg tctctgggtc tcaccgtgga gtccagtgag accagcagcg tggatgctca
+      601 tgctgcgctc cccccgtgtg cgccaagcga ccaaatgagc gcggagtgtt tttacggcgt
+      661 cgactgtccc ggagcgccag tggccgagta caggtgtcct gaccgagcac cccacgagca
+      721 caaataccag ctgaaaatgt tcaggagttc tgagactcct tcaccttacc accaccccag
+      781 ctccacgcgg acatccgcgc aaaacttccc accttgcgag gttgatgaca taaccagcgc
+      841 tgcccattgc cccggctatg tcccccccgc gtcatcgtcc gaccacctgg ctcacttcgg
+      901 acacacggct gcaggcaggc cgtatggggg gtttgagccc cccgaaggag cgggggacgt
+      961 cggggatggc gcggaggaga agtccgacgg gtatgcgcca gagcagtacg gcgtcagagt
+     1021 caaatgcgag ggcagcgaga gcacaggagc gccgtgggca agtaattaca ccttcaacaa
+     1081 gaggtacaac acgcagttct gggggtcgag gcactgcgtg aactcccagg acgctggggc
+     1141 gaaccccgcg ttcatctcta acccctatga gggcagcgtc gtgcgtccgg aacagtggta
+     1201 tcctggcggg atgcccagga caccctattc caactccaac tacatgaaaa gtgaggtcgg
+     1261 tgagtggctg gacgtttcct acagcgacgc cggcaggttc gaggctggca gagagcacat
+     1321 gtttcccatg gagttcttct tcccccctca aaggacgtgt ctgatctgtt cagatgaggc
+     1381 gtctggctgc cattacggcg ccctaacttg tggaagttgc aaggtcttct tcaaaagagc
+     1441 cgctgaaggc aaacaaaaat acctgtgtgc gagcaagaac gactgcacga tcgacaagct
+     1501 caggaggaag aactgcccct cctgtcgact aaagaagtgt ttcgaagctg gaatgactct
+     1561 cggagcacgc aaactaaaga agattggaca gcagaaaacc tcagaagatg atcttcctgt
+     1621 gcaagaaccc gcagagctcc cccaccacac ttctcctcaa tcaggtccca acttcaacgc
+     1681 ccagctggtc ttcctcaaca ttttggagtc cattgagcca gaagtggtga atgcgggaca
+     1741 tgactgtggt cagccagact ccgctgccag cttgttgacc agcctcaatg agctggggga
+     1801 gaggcagctg gtcaaagtgg tcaaatgggc aaaaggactg ccaggtttca gaaatctcca
+     1861 tgtggatgac cagatgaccg taatccagca gtcgtggatg actgtgatgg tgttcgcttt
+     1921 aggatggagg tcatacaaga acgtcaacgg cagaatgctg tatttcgctc cagaccttgt
+     1981 cttcaacgaa catcggatgc atatttctac aatgtatgag cactgcatac ggatgagaca
+     2041 tctgtcacag gagttttcgc tgctgcagat cacccaggag gagttcctgt gcatgaaggc
+     2101 cttgctgctc ttcagtatta ttcctgttga gggcctgaaa agtcagaagt actttgatga
+     2161 gctgcgcctc acctacatca atgaactcaa tcgtctcatt aactgccaaa tggccactaa
+     2221 ttgtcctcag aggttctacc agctgacccg actcctagac tctcttcaaa tgatcgtaaa
+     2281 aaagctccat cagtttacgt ttgacctttt cgtccaggct cagtctctcc acaccaaggt
+     2341 cagctttccg gagatgattg gagaaatcat ctcagtccat gttccaaaga tcctggcagg
+     2401 gttggcaaag ccaattttgt ttcacaagta gatcgttttt ttctccctca aagaggtttt
+     2461 ttttttttct gcatccacaa atttcaacca aggctgtgaa ctgtttccac acaaattcag
+     2521 tttgactgct tttagctctg tcctgtatgc acagtattat ggctctcgtt ttttttgtta
+     2581 taccctttta gtcataatta cagtttggta ttcatgaaaa aaaaaaaaaa aaaaaaaaaa
+     2641 a
+//
+

@@ -1,0 +1,105 @@
+LOCUS       AJ314603                2850 bp    mRNA    linear   VRT 17-MAY-2007
+DEFINITION  Varicorhinus barbatulus mRNA for putative estrogen receptor beta1
+            protein.
+ACCESSION   AJ314603
+VERSION     AJ314603.1
+KEYWORDS    estrogen receptor beta1.
+SOURCE      Onychostoma barbatulum
+  ORGANISM  Onychostoma barbatulum
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Onychostoma.
+REFERENCE   1
+  AUTHORS   Fu,K.Y., Chen,C.Y. and Chang,W.M.
+  TITLE     Application of a yeast estrogen screen in non-biomarker species
+            Varicorhinus barbatulus fish with two estrogen receptor subtypes to
+            assess xenoestrogens
+  JOURNAL   Toxicology 21 (4), 604-612 (2007)
+REFERENCE   2  (bases 1 to 2850)
+  AUTHORS   Fu,K.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAY-2001) Fu K.Y., Institute of Environmental
+            Engineering, National Chiao Tung University, 75, Po-Ai Street,
+            Hsinchu, 300, TAIWAN
+FEATURES             Location/Qualifiers
+     source          1..2850
+                     /organism="Onychostoma barbatulum"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:160766"
+                     /tissue_type="liver"
+                     /country="Taiwan"
+     CDS             21..1859
+                     /codon_start=1
+                     /product="putative estrogen receptor beta1"
+                     /protein_id="CAC85366.1"
+                     /db_xref="GOA:Q7T3U4"
+                     /db_xref="HSSP:1HCQ"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="InterPro:IPR021064"
+                     /db_xref="UniProtKB/TrEMBL:Q7T3U4"
+                     /translation="MSSSLGPASASAPPAMDSGNANRGDSPNTLPHLYTSPLGMDSRT
+                     ICIPSPYVEACQDYSPPHGGEISHGALTLYSPVSSTVLGYTHPPVSESLVPLSPTIFW
+                     PPHTTHPALSLHCPPPLAYSETHAHTTWEDAKTHMINQGSSVLTHAKLFGQQLDGDGG
+                     LNPSPGVLGKGDAHFCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQC
+                     TIDKSRRKSCQACRLRKCYEVGMMKCGVRRERCSYRGARHHRNPQIRDSSGGALGVRR
+                     HSQPQLEFPLSPTHPLFPSGDRAEGCGRSLSPEQLVNCILEAEPPQIYLREPIKKPYT
+                     EASMMMSLTNLADKELVLMISWAKKIPGFVELTLSDQVHLLECCWLDILMLGQMWRSV
+                     DHPGKLMFSPDLKLNREEGNCVEGIMEIFDMLLATTSRFRELKLQREEYVCLKAMILL
+                     NSNNCSSLPQTPEDVESRRKVLRLLDSVTDALVWTISRTGLSSQQQSIRLAHLLMLLS
+                     HIRHLSNKGIEHLSTMKRKNVVLLYDLLLEMLDANTSQSSRMLAAHTEASLQSDTQQT
+                     TEILHTSRQQPALKESYQEPWHSPQAEETVDKILHCSLHRVDMDTD"
+ORIGIN      
+        1 ccttgcttga gttctccaga atgagctctt cccttggtcc ggcctctgcg tcagcccccc
+       61 ctgccatgga ctccggcaat gccaatcgag gggactcgcc taacacctta ccccatctgt
+      121 acacgtcccc gctcggcatg gacagccgga ccatctgcat tccatctccg tatgtggaag
+      181 cctgtcagga ttattcacca ccgcatgggg gagagatcag ccacggagcc ttaacgctct
+      241 acagccccgt gtcctccaca gtgctggggt acactcatcc ccccgtgtcc gaaagcctgg
+      301 tcccgctcag tccgacaatc ttctggcctc cccacaccac acaccctgcg ctgtctctgc
+      361 actgcccacc tccactggcc tacagcgaaa cacacgcaca caccacctgg gaggacgcca
+      421 agacacacat gattaaccag ggcagctctg tccttactca tgcaaagctg tttgggcagc
+      481 aactggatgg tgatggtggc ttgaatcctt caccaggcgt tttgggtaaa ggagacgcac
+      541 acttctgtgc ggtgtgccat gactacgcct ctgggtatca ctatggtgtc tggtcatgtg
+      601 aagggtgtaa ggctttcttc aaacggagca ttcaagggca caatgactat atttgtccag
+      661 ccaccaacca gtgcaccatt gacaagagcc gacgcaagag ctgccaggcc tgtcgactcc
+      721 gcaagtgcta tgaagtgggc atgatgaagt gtggtgtgag gcgggaacgc tgcagttacc
+      781 gaggtgctcg tcatcatcgc aacccccaga tcagagacag ctcaggcggg gcgttagggg
+      841 tcagacgtca ttcccagcct caattagaat ttcccctcag tcccactcat ccactcttcc
+      901 cttcggggga cagagctgag gggtgtggcc ggagcctctc cccagagcag ttggtcaact
+      961 gtattctgga agcggagcct cctcagattt acctgagaga gccaataaag aagccataca
+     1021 ctgaggccag catgatgatg tcactaacca acctcgctga caaggaactg gtgctcatga
+     1081 tcagctgggc gaagaagata ccaggttttg tggagctgac tttgtcagat caggtgcatc
+     1141 tgttggaatg ctgctggttg gatatattga tgttgggaca gatgtggaga tccgtggatc
+     1201 atcccgggaa actcatgttc tcacctgacc tcaaactcaa cagggaggaa gggaactgtg
+     1261 ttgaaggcat catggagatc tttgacatgc tgctggccac cacctccaga ttcagagaac
+     1321 tgaagcttca gagagaggaa tacgtctgcc tcaaagccat gatccttctc aactccaata
+     1381 actgttcaag cttgccacag actcctgaag atgtggagag ccgtaggaag gttctgaggc
+     1441 tgctggactc tgtgactgac gctttagttt ggaccatctc cagaacaggc ttgtcctcac
+     1501 agcaacagtc catccggctc gcccatttgc taatgctgct ctcacatatt cgacacctca
+     1561 gcaacaaagg catcgagcat ctgtcaacca tgaagagaaa aaacgtggtg ctgctatatg
+     1621 atcttctgct agagatgctg gatgccaaca catcccagag cagccggatg ctggcggctc
+     1681 acacagaagc ctctctccag tcggacacgc aacagaccac agagatcctc cacacatcca
+     1741 gacagcagcc tgcgctgaaa gagagctacc aggagccctg gcacagtcca caagctgaag
+     1801 agacagtgga taagatatta cattgtagtc tgcatcgagt ggacatggac acagattgac
+     1861 agtatccctt ctgtggggta aaaatctccc tggatgcagc attggatatg aatccaattc
+     1921 catgccgctt ttccaatgta gggtcacggg ggattcaaat cagacctgga aaaaaacctt
+     1981 agattaccaa tgacaacctg aaccgaacag ggcttttaaa tggcgctcag tcttgcttca
+     2041 acacaatgca gtttgaactg ttgttttcct actatggcaa cctgaagagg aatccttatt
+     2101 caaaccagtc atgttttctg tattcaagaa atcacaaatg gaatcatttt aatggctggt
+     2161 tctattaaat gtgaagtgcg taattttctg tggtaacaca atagaaagaa aaccgtttga
+     2221 aacaaaattc aaacactccc ccatctgcca tttctcagca accagctagc accaccccta
+     2281 aatcacgcca ttggttgtgt ccttttgggc cattcaaaca gattcccgaa attacacgct
+     2341 gcacatttaa atattaggtt tgccatccaa gttgtctgag aacctctgac ttaacaaaca
+     2401 tgactgtttt tctgaagact ggccaagcta aatgaaacgc acacttctaa tagtttatgc
+     2461 attttgtact cttgtgtctg tgtatttgta agacattgaa gtgtgctgtt atttgctgtt
+     2521 ctgtgttgct tctcgtggtt tattaagtac ttgtcactga cagtaaatgt aaggctttta
+     2581 aaaacatcgg ggcgtgttga tgcctctttc agaagttttc ttaaagcctg gcttagatgc
+     2641 acaatctcaa cacatgaaaa gtgtatcaaa ttatattata ctttgtaatg tgtaattaca
+     2701 gatacagctg agttttctgg tgctacgagt gttaataacg gtgcatcctt gtgtaaacgc
+     2761 ttcatattct gcacctgaag tgttctgaga agcagcaatt gcattaaagc tgcagtgtcc
+     2821 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+//
+

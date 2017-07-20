@@ -1,0 +1,98 @@
+LOCUS       AB045211                2575 bp    mRNA    linear   VRT 13-DEC-2001
+DEFINITION  Oreochromis niloticus ARa mRNA for androgen receptor alpha,
+            complete cds.
+ACCESSION   AB045211
+VERSION     AB045211.1
+KEYWORDS    .
+SOURCE      Oreochromis niloticus (Nile tilapia)
+  ORGANISM  Oreochromis niloticus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Oreochromini;
+            Oreochromis.
+REFERENCE   1
+  AUTHORS   Ikeuchi,T., Todo,T., Kobayashi,T. and Nagahama,Y.
+  TITLE     Differential expression of tilapia androgen receptor alpha and beta
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2575)
+  AUTHORS   Ikeuchi,T., Todo,T., Kobayashi,T. and Nagahama,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUN-2000) Toshitaka Ikeuchi, National Institute for
+            Basic Biology, Laboratory of Reproductive Biology; Myodaiji-cho,
+            Nishigonaka 38, Okazaki 444-8585, Japan
+            (E-mail:tikeuchi@nibb.ac.jp, Tel:85-564-55-7553,
+            Fax:85-564-55-7553)
+FEATURES             Location/Qualifiers
+     source          1..2575
+                     /organism="Oreochromis niloticus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8128"
+                     /sex="male"
+                     /tissue_lib="testis"
+     gene            1..2575
+                     /gene="ARa"
+     CDS             10..2076
+                     /gene="ARa"
+                     /codon_start=1
+                     /product="androgen receptor alpha"
+                     /protein_id="BAB20081.1"
+                     /translation="MSFHSFLEETNSLTMNEGDRLDTTTYACPAYELSKAVSVSLGLD
+                     SVSSPPNNMNQSSSSAFAECDSGTVADSSRGVPELRRAGNMNSDGSMFVLGDSSLRED
+                     DFGEVCQGIQQVSCMDLFGSGEMDSAQTVTRGSVISRYVCRESNVFMNPTPELPAPPQ
+                     VPGVVPLKPPSSYCASSDLYRDLPPEMWCANERAYSDRSQPQPQRGESGEHNFLCKYC
+                     NCGQAPRGNRQECRCIWYGRGDQGGKGGMRATAQGYGQMSSYPSAIPQGQNTFSTIKS
+                     GPSVWMNCTDRSLRREDFFPGVYLSERRVCQVCGDGASGCHYGAVTCGSCKVFFKRAA
+                     AGKQNHLCASRNDCTIDKLRRKNCASCRLKRCFMSGMSLKGRRLKGAGQARNGEEEQQ
+                     PASWGQGEKEERAAKKDVVLESGNAGVRAQGAASQALGAAIPPPLHSCLSLLSILQAI
+                     EPAVVNAGHDPAQPDSPMSLLTSLNKLGERQLVTVVRWAKAIPGFRDLHVDDQMSVIQ
+                     LSWMGVMVFALGWRSYTLTNSSMLYFAPDLIFNDQRMQASSMYEHCVRMKLLSQRLCM
+                     LKVTQEEFLCMKALVLLSIMPEQGPKSQHCFDKLRTSYIKELDRLASHRGETTRTQRL
+                     FQLTQLLDHLQSVVRKLHQFTYDLFIQAQSMHVSFPEMISEIVSIHVPKILSGMVKPI
+                     LFHNVA"
+ORIGIN      
+        1 ggagccgaaa tgtcctttca ctcgtttttg gaagaaacaa actctttaac gatgaatgaa
+       61 ggggatcgat tggatactac cacctatgcc tgtccggctt atgagctcag taaagcggtg
+      121 tcagtgtctt tgggtttgga ttcggtgtct tctccgccca ataatatgaa ccagagctcc
+      181 agcagcgcct tcgcagaatg cgactctggt actgtggcgg atagttctcg gggagtgcca
+      241 gagttgagaa gggctgggaa tatgaactcc gacggcagca tgtttgtcct gggtgacagc
+      301 agcctcagag aggacgactt tggagaagtg tgccagggca tacagcaggt gagctgtatg
+      361 gatctgttcg gatcgggcga aatggacagt gcgcaaactg tgacgcgtgg ctcggtgata
+      421 tccagatacg tctgcaggga gtcaaatgtg tttatgaacc ccacgccgga actgcccgcg
+      481 ccccctcagg tgcccggggt cgtaccctta aaaccacctt cgtcttactg tgccagttca
+      541 gacctatata gggatctccc accggaaatg tggtgcgcaa atgagcgcgc atacagcgac
+      601 cgatcccagc cacagccaca gaggggagaa tcaggggaac ataatttctt gtgcaaatac
+      661 tgtaattgtg ggcaagctcc tcgcggaaac aggcaggaat gccgctgtat ctggtacggt
+      721 agaggtgacc agggtggcaa aggtggcatg cgagcgacgg cacaaggata tggccaaatg
+      781 tcaagttacc caagtgccat tcctcagggg cagaacactt tctccactat caagagtggg
+      841 ccttcggtgt ggatgaattg cacagatcgc agtttaaggc gcgaggactt ttttccaggt
+      901 gtgtatctgt cagaaaggag agtgtgtcaa gtgtgcggag atggcgcctc gggttgtcac
+      961 tatggagcag tcacctgcgg cagctgcaaa gtattcttca agagggccgc tgcaggtaag
+     1021 cagaaccact tgtgtgccag ccgaaacgac tgcaccatcg acaaactgag gcggaaaaac
+     1081 tgcgcgtcgt gtcgcttaaa gagatgcttc atgtcgggaa tgagccttaa aggtcgcagg
+     1141 ctgaagggag ccggacaggc gagaaatgga gaagaggagc aacagccagc tagctgggga
+     1201 caaggagaaa aagaagagag ggcagcgaag aaagacgtag tcttggagtc cggaaatgca
+     1261 ggtgtcaggg ctcaaggtgc agcttcccag gccctgggtg cggccatccc cccacccctg
+     1321 cactcgtgcc tgtccctgct cagcatccta caggctattg agccagctgt ggtcaatgcc
+     1381 gggcatgatc ctgcccagcc agacagccct atgtccttgc ttaccagcct gaacaagctg
+     1441 ggggaacggc agctggtaac cgtggtccgc tgggccaagg caataccagg gtttcgggat
+     1501 ctgcacgtgg atgaccagat gtcagtgatt cagctgtcat ggatgggagt gatggtgttc
+     1561 gccttaggct ggagatccta cacgctgact aacagctcta tgctctactt tgctccagac
+     1621 ctgattttca atgaccagcg gatgcaagcg tccagcatgt atgaacactg tgtgaggatg
+     1681 aagctactat cccaaaggct gtgcatgctc aaggttaccc aggaggagtt cctctgcatg
+     1741 aaggccctgg tcctcctcag catcatgcca gagcagggcc cgaagagcca gcattgtttt
+     1801 gacaaactgc ggacctccta catcaaggag ctagaccgtt tggccagcca ccgcggagag
+     1861 accacccgca cgcagagact gtttcagctc acgcagctgc tggaccacct ccagtcggtt
+     1921 gtgaggaaat tacaccagtt cacctacgat ctgttcatcc aagctcagtc catgcatgtc
+     1981 agcttcccag agatgatctc ggagattgtg agcatccacg tgcccaaaat cctctctggg
+     2041 atggtcaagc ccatcctttt ccacaacgtg gcctagtgag tgagagtctc caagactgtc
+     2101 ttttcatcag ccacaccaac cagaaagagt tctcaatgat ttttacgctt ctgtcctgag
+     2161 agtagggcgc agtccaggtg taagcagatg ctaacagaag ggcagacagc acattcttcc
+     2221 agtctaatgt agtctgattt catcttctca cttcttcttc ttcttcctct tcttcttatt
+     2281 gcctgtttga atgtatcctg cacatacgca aatgcttttt ggaggctgat taaaatactt
+     2341 gcatgcattt ctgtccacat actaatggtg aacctcgtgg catgtgaact ttttcagctt
+     2401 ttcatgtgga taatcacaaa cttttttggg gcgtgtggtg cggggggacg agtttgaagg
+     2461 cagcacatca aggtagcttg tctgtgtgca ttagcatgac attttgaact agcttttttt
+     2521 cacaatgaat gtttctgtgt gcacctgaga tgraaaaaaa aaaaaaaaaa aaaaa
+//
+

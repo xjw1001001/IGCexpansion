@@ -1,0 +1,79 @@
+LOCUS       MUSESTRU                2078 bp    mRNA    linear   ROD 27-APR-1993
+DEFINITION  Mouse estrogen receptor mRNA, complete cds.
+ACCESSION   M38651
+VERSION     M38651.1
+KEYWORDS    estrogen receptor.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 2078)
+  AUTHORS   White,R., Lees,J.A., Needham,M., Ham,J. and Parker,M.
+  TITLE     Structural organization and expression of the mouse estrogen
+            receptor
+  JOURNAL   Mol. Endocrinol. 1 (10), 735-744 (1987)
+   PUBMED   2484714
+COMMENT     Original source text: Mouse uterus, cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..2078
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10090"
+                     /tissue_type="uterus"
+     gene            1..2078
+                     /gene="estrogen receptor"
+     CDS             191..1990
+                     /gene="estrogen receptor"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="AAA37580.1"
+                     /translation="MTMTLHTKASGMALLHQIQGNELEPLNRPQLKMPMERALGEVYV
+                     DNSKPTVFNYPEGAAYEFNAAAAAAAAASAPVYGQSGIAYGPGSEAAAFSANSLGAFP
+                     QLNSVSPSPLMLLHPPPQLSPFLHPHGQQVPYYLENEPSAYAVRDTGPPAFYRSNSDN
+                     RRQNGRERLSSSNEKGNMIMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQ
+                     GHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLKHKRQRD
+                     DLEGRNEMGASGDMRAANLWPSPLVIKHTKKNSPALSLTADQMVSALLDAEPPMIYSE
+                     YDPSRPFSEASMMGLLTNLADRELVHMINWAKRVPGFGDLNLHDQVHLLECAWLEILM
+                     IGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFV
+                     CLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHRRL
+                     AQLLLILSHIRHMSNKGMEHLYNMKCKNVVPLYDLLLEMLDAHRLHAPASRMGVPPEE
+                     PSQTQLATTSSTSAHSLQTYYIPPEAEGFPNTI"
+ORIGIN      
+        1 atcacacacc gcgccactcg atcattcgag cacattcctt ccttccgtct tactgtctca
+       61 gcccttgact tctacaaacc catggaacat ttctggaaag acgctcttga accagcaggg
+      121 tggcccacgc gctgctgagc cctctgcgtg cgcggggagc cagtctgtaa ctcgccggct
+      181 gccacttacc atgaccatga cccttcacac caaagcctcg ggaatggcct tgctgcacca
+      241 gatccaaggg aacgagctgg agcccctcaa ccgcccgcag ctcaagatgc ccatggagag
+      301 ggccctgggc gaggtatacg tggacaacag caagcccact gtgttcaact accccgaggg
+      361 cgccgcctac gagttcaacg ccgccgccgc cgccgccgcc gccgcctcgg cgccggtcta
+      421 cggccagtcg ggcatcgcct acggccccgg gtcggaggcg gccgccttca gtgccaacag
+      481 cctgggggct ttcccccagc tcaacagcgt gtcgcctagc ccgctgatgc tgctgcaccc
+      541 gccgccgcag ctgtctcctt tcctgcaccc gcacggccag caggtgccct actacctgga
+      601 gaacgagccc agcgcctacg ccgtgcgcga caccggccct cccgccttct acaggtctaa
+      661 ttctgacaat cgacgccaga atggccgaga gagactgtcc agcagtaacg agaaaggaaa
+      721 catgatcatg gagtctgcca aggagactcg ctactgtgcc gtgtgcaatg actatgcctc
+      781 tggctaccat tatggggtct ggtcctgcga aggctgcaag gctttcttta agagaagcat
+      841 tcaaggacac aatgactaca tgtgtccagc tacaaaccaa tgcaccattg acaagaaccg
+      901 gaggaagagt tgccaggcct gtcggctgcg caagtgttac gaagtgggca tgatgaaagg
+      961 cggcatacgg aaagaccgcc gaggagggag aatgttgaag cacaagcgtc agagagatga
+     1021 cttggaaggc cgaaatgaaa tgggtgcttc aggagacatg agggctgcca acctttggcc
+     1081 aagccctctt gtgattaagc acactaagaa gaatagccct gccttgtcct tgacagctga
+     1141 ccagatggtc agtgccttgt tggatgctga accgcccatg atctattctg aatatgatcc
+     1201 ttctagaccc ttcagtgaag cctcaatgat gggcttattg accaacctag cagataggga
+     1261 gctggttcat atgatcaact gggcaaagag agtgccaggc tttggggact tgaatctcca
+     1321 tgatcaggtc caccttctcg agtgtgcctg gctggagatt ctgatgattg gtctcgtctg
+     1381 gcgctccatg gaacacccgg ggaagctcct gtttgctcct aacttgctcc tggacaggaa
+     1441 tcaaggtaaa tgtgtggaag gcatggtgga gatctttgac atgttgcttg ctacgtcaag
+     1501 tcggttccgc atgatgaacc tgcagggtga agagtttgtg tgcctcaaat ccatcatttt
+     1561 gcttaattcc ggagtgtaca cgtttctgtc cagcaccttg aagtctctgg aagagaagga
+     1621 ccacatccac cgtgtcctgg acaagatcac agacactttg atccacctga tggccaaagc
+     1681 tggcctgact ctgcagcagc agcatcgccg cctagctcag ctccttctca ttctttccca
+     1741 tatccggcac atgagtaaca aaggcatgga gcatctctac aacatgaaat gcaagaacgt
+     1801 tgtgcccctc tatgacctgc tcctggagat gttggatgcc caccgccttc atgccccagc
+     1861 cagtcgcatg ggagtgcccc cagaggagcc cagccagacc cagctggcca ccaccagctc
+     1921 cacttcagca cattccttac aaacctacta catacccccg gaagcagagg gcttccccaa
+     1981 cacgatctga gagctcccag gctccccgaa aggttctgag aatccctgca acattttacc
+     2041 catgtcatgt atgactagca gaattctgtc tcctgcgt
+//
+

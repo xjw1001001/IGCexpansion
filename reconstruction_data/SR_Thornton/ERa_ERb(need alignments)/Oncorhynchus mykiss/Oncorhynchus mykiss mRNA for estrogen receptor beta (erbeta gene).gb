@@ -1,0 +1,99 @@
+LOCUS       AJ289883                2508 bp    mRNA    linear   VRT 15-APR-2005
+DEFINITION  Oncorhynchus mykiss mRNA for estrogen receptor beta (erbeta gene).
+ACCESSION   AJ289883
+VERSION     AJ289883.1
+KEYWORDS    erbeta gene; estrogen receptor beta; transcriptional enhancer.
+SOURCE      Oncorhynchus mykiss (rainbow trout)
+  ORGANISM  Oncorhynchus mykiss
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Protacanthopterygii;
+            Salmoniformes; Salmonidae; Salmoninae; Oncorhynchus.
+REFERENCE   1
+  AUTHORS   Haugg,M., Ackermann,G. and Fent,K.
+  TITLE     Molecular cloning of an estrogen receptor beta subtype from rainbow
+            trout
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2508)
+  AUTHORS   Haugg,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUL-2000) Haugg M., Environmental Microbiology and
+            Molecular Ecotoxicology, Eawag, Ueberlandstr. 133, 8600 Duebendorf,
+            SWITZERLAND
+FEATURES             Location/Qualifiers
+     source          1..2508
+                     /organism="Oncorhynchus mykiss"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8022"
+                     /cell_line="RTG-2"
+     gene            1..2508
+                     /gene="erbeta"
+     CDS             362..2068
+                     /gene="erbeta"
+                     /function="transcriptional enhancer"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="CAC06714.1"
+                     /db_xref="GOA:P57782"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="InterPro:IPR021064"
+                     /db_xref="UniProtKB/Swiss-Prot:P57782"
+                     /translation="MHQQSPVDDVTALNSSALTMSEYPEGESPLQLQDVDSSRVGGHI
+                     LSPIFNSSSPSLPVESHPVCIQSPYTDLGHDFTTLPFYSPALLGYGTSPLSECSSVRQ
+                     SLSPTLFWPPHSQVSSLALHQQHTRLQQNHPTGGTWTELTPHDHSEEEYRKPLVKRVA
+                     DAEETSTSLRGKADMHYCAVCSDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATN
+                     QCTIDKNRRKSCQACRLRKCYEVGMMKCGLRRDRGSYQQRGAQQKRLARFSGRMRTSG
+                     PRSQEMKSVPCPLSGNEVVNMALTPEELIARIMDAEPPEIYLMKDMKKPFTEANVMMS
+                     LTNLADKELVHMISWAKKVPGFVELSLFDQVHLLECCWLEVLMLGLMWRSVNHPGKLI
+                     FSPDLSLSRDEGSCVQGFVEIFDMLLAATSRFRELKLQREEYVCLKAMILLNSNMCLS
+                     SSEGGEELQRRSKLLCLLDSVTDALVWAISKTGLSFQQRSTRLAHLLMLLSHIRHLSN
+                     KGMDHLHCMKMKKMVPLYDLLLEMLDAHIMHGSRLSHSGPAPKESTGVQEATLSVLKN
+                     DL"
+ORIGIN      
+        1 gagaccagag cacactttta acatgtatcc tcctgacagc tcatcaaaag acgggccgtt
+       61 ttcccttcca aatgctttta ccagcgatca aatcaagcaa tattgttctc gtctgggata
+      121 attatcgact tcaagcctta cagtggacca tctgttgaca tcgattgcaa caggtacttt
+      181 tgctctggat atgttttggc aagctgcctg tctgcactga agcgagggtt caaaagtcct
+      241 cggcagactc acgttggcag tctggaggga cggtgtggct aactgcctct ctcaaatagt
+      301 ctacaatact gtgtaggcta tgtcgcgttt cagttttgat gattaaggag ttcaacatga
+      361 catgcatcaa cagtcccctg ttgatgatgt gacagcgctg aactcatctg ccctcaccat
+      421 gtccgagtat cccgagggag aaagcccgct tcagctgcag gacgtggact ccagcagggt
+      481 ggggggtcac atcctctctc ctatctttaa ctcctcctca ccatccctgc cggtggagag
+      541 ccatcccgtc tgcatccaat caccctacac agacctcggc catgacttca ccactctgcc
+      601 cttctacagt cccgctctgc tgggttacgg cacatcgccc ctgtccgagt gctcatcagt
+      661 gagacagtca ctaagcccca ccctcttttg gccacctcat agccaagttt cgtcacttgc
+      721 attgcatcaa caacacactc gacttcaaca aaaccatcca acgggtggga cttggacaga
+      781 acttacacca catgatcaca gtgaagagga atacagaaag ccgctggtga agagagtagc
+      841 agatgcagag gagacttcta cctctttaag aggtaaagct gacatgcact actgtgccgt
+      901 ctgtagtgat tacgcctctg ggtaccatta tggcgtgtgg tcgtgtgaag gatgcaaagc
+      961 cttcttcaag aggagtatac aaggacacaa tgactacatc tgccctgcca ccaaccagtg
+     1021 caccatcgac aagaaccgcc gcaaaagctg ccaggcctgc cgactccgga agtgttatga
+     1081 agttggaatg atgaaatgtg ggttacggcg agatcgtggc agctaccaac aaagaggagc
+     1141 acagcagaag cgactggcac gattctctgg caggatgaga accagtggcc caagatctca
+     1201 agagatgaaa agtgtcccat gtcccctcag tggaaatgag gtggttaaca tggcattgac
+     1261 ccctgaagaa ctaatcgctc gcatcatgga tgcagagcca cctgagattt acctcatgaa
+     1321 agacatgaag aagccattta ctgaggccaa cgtcatgatg tcactgacca acctggctga
+     1381 caaagagctc gttcacatga tcagctgggc caagaaggtc ccaggttttg tggagctcag
+     1441 tctttttgac caggtgcatt tgttagagtg ctgctggtta gaggtgctga tgctgggact
+     1501 gatgtggcgc tctgttaatc acccaggaaa gctcatcttc tctccagacc tcagtctcag
+     1561 cagggacgaa ggcagctgtg tgcaggggtt tgtggagatc ttcgatatgc tgctggcagc
+     1621 cacatccaga ttcagagaac tcaaattaca gagagaggag tacgtttgtc tcaaagccat
+     1681 gattctcctt aactccaaca tgtgtctgag ttcgtcggag ggaggagagg agctccagag
+     1741 gcggtcaaag ctgctgtgtc tgcttgactc ggtgacggat gctttggtat gggccatctc
+     1801 gaagactggc ctgagctttc agcagcgctc cactagacta gcccatctgc tcatgctgct
+     1861 ctcccacata aggcacctca gtaacaaagg catggaccac ctgcactgca tgaagatgaa
+     1921 gaagatggtt cctctgtatg acctgctcct ggagatgctg gacgctcata tcatgcacgg
+     1981 ctcacgtctg tctcactccg gtcctgctcc caaagagagc acaggcgtcc aggaggccac
+     2041 tctatcagtg ctgaagaatg atctgtagtt tcgggaggat ggacaacaaa aacagctaca
+     2101 caaaaagcgt ggaataggat ttcacaaatt gaaaaacatc actgatgtct tgaatgttct
+     2161 catgtgaaat ctatattttc tctctttttt tcagacagga tggacatggt gtccaatttg
+     2221 tactttatct tttctctttc tataaaataa gctttctgtt aaataaaaca aaccagcagc
+     2281 acgatgacgc ctatagcatc actatagcaa ctgctgtaga tagagcagct attgacgaca
+     2341 ctctcagaag aagaagaaac acatccgatt ccatcgcttg taaaatgaca gtatggacga
+     2401 tgagagagat ttgtgtgcag tgtgagcaaa gactgaattc tggtccgaag cttttttttc
+     2461 tgtcacttta tttttaacaa attgtttaaa aaaaaaaaaa aaaaaaaa
+//
+
