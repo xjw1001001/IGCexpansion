@@ -1,0 +1,89 @@
+LOCUS       XM_003919538             774 bp    mRNA    linear   PRI 29-AUG-2016
+DEFINITION  PREDICTED: Papio anubis ribonuclease A family member 3 (RNASE3),
+            mRNA.
+ACCESSION   XM_003919538
+VERSION     XM_003919538.3
+DBLINK      BioProject: PRJNA169345
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_018158.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Aug 29, 2016 this sequence version replaced gi:685552815.
+            
+            ##RefSeq-Attributes-START##
+            frameshifts :: corrected 1 indel
+            ##RefSeq-Attributes-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Papio anubis Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-107               AHZZ01082078.1     2134-2240           c
+            108-313             AHZZ01082078.1     1700-1905           c
+            314-774             AHZZ01082078.1     1238-1698           c
+FEATURES             Location/Qualifiers
+     source          1..774
+                     /organism="Papio anubis"
+                     /mol_type="mRNA"
+                     /isolate="1X1155"
+                     /db_xref="taxon:9555"
+                     /chromosome="7"
+                     /sex="female"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+     gene            1..774
+                     /gene="RNASE3"
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 5 Proteins, and 100% coverage of the
+                     annotated genomic feature by RNAseq alignments, including
+                     10 samples with support for all annotated introns"
+                     /db_xref="GeneID:101013711"
+     CDS             113..595
+                     /gene="RNASE3"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon"
+                     /codon_start=1
+                     /product="LOW QUALITY PROTEIN: eosinophil cationic
+                     protein"
+                     /protein_id="XP_003919587.1"
+                     /db_xref="GeneID:101013711"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHSRPPQFTKAQWFAKQHIN
+                     MNPPRCTIAMRVINRFEQRCKDENTFLRTTFANVVKVCYNRSMRCPRNRTLHNCHRSR
+                     YRVPLLHCDLINPGAQNISTCRYADRPGRRFYVVACESRDPRDSPRYPVVPVHLDTII
+                     "
+ORIGIN      
+        1 aggagatgct ttatttaaac agttccaagt aagggagacc agctgcccct gaaccccaga
+       61 acaaccagct ggatcagttc tcacaggagc tgcagctcag agacagggaa acatggttcc
+      121 aaaactgttc acttcccaaa tttgtctgct tcttctgttg gggctcatgg gtgtggaggg
+      181 ctcactccat tccagacccc cacagtttac gaaggctcag tggtttgcca agcagcacat
+      241 caatatgaac ccccctcgat gcaccattgc aatgcgggta ataaatagat ttgaacagcg
+      301 ttgcaaagac gaaaatactt ttcttcgtac aacttttgca aatgtagtta aggtttgtta
+      361 taaccgaagt atgcgctgcc ctcgtaacag aactctccac aattgtcatc gtagtcgcta
+      421 ccgggtgcct ttactccact gtgacctcat aaatccaggt gcacagaata tttcaacctg
+      481 caggtatgca gacagaccag gacggaggtt ctatgtagtt gcatgtgaaa gcagagatcc
+      541 acgggattct ccacggtatc cagtggttcc agttcacctg gataccatca tctaagctcc
+      601 tgtatcagca ctcctcatca tcactcacct gccaggctcc tcaatcatag ccaagatccc
+      661 attcctccat gtaccctggg tgtcagcatc tgtcctcatc agtctccata ccccttcagg
+      721 tttcctaagc tgaagtccct tgtggactct gcaataaact gctttgcaaa ttca
+//
+

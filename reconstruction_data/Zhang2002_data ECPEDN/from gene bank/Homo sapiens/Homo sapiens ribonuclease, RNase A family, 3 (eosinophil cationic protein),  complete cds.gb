@@ -1,0 +1,125 @@
+LOCUS       BC096060                 679 bp    mRNA    linear   PRI 04-OCT-2006
+DEFINITION  Homo sapiens ribonuclease, RNase A family, 3 (eosinophil cationic
+            protein), mRNA (cDNA clone MGC:116695 IMAGE:40000109), complete
+            cds.
+ACCESSION   BC096060
+VERSION     BC096060.1
+KEYWORDS    MGC.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 679)
+  AUTHORS   Strausberg,R.L., Feingold,E.A., Grouse,L.H., Derge,J.G.,
+            Klausner,R.D., Collins,F.S., Wagner,L., Shenmen,C.M., Schuler,G.D.,
+            Altschul,S.F., Zeeberg,B., Buetow,K.H., Schaefer,C.F., Bhat,N.K.,
+            Hopkins,R.F., Jordan,H., Moore,T., Max,S.I., Wang,J., Hsieh,F.,
+            Diatchenko,L., Marusina,K., Farmer,A.A., Rubin,G.M., Hong,L.,
+            Stapleton,M., Soares,M.B., Bonaldo,M.F., Casavant,T.L.,
+            Scheetz,T.E., Brownstein,M.J., Usdin,T.B., Toshiyuki,S.,
+            Carninci,P., Prange,C., Raha,S.S., Loquellano,N.A., Peters,G.J.,
+            Abramson,R.D., Mullahy,S.J., Bosak,S.A., McEwan,P.J.,
+            McKernan,K.J., Malek,J.A., Gunaratne,P.H., Richards,S.,
+            Worley,K.C., Hale,S., Garcia,A.M., Gay,L.J., Hulyk,S.W.,
+            Villalon,D.K., Muzny,D.M., Sodergren,E.J., Lu,X., Gibbs,R.A.,
+            Fahey,J., Helton,E., Ketteman,M., Madan,A., Rodrigues,S.,
+            Sanchez,A., Whiting,M., Madan,A., Young,A.C., Shevchenko,Y.,
+            Bouffard,G.G., Blakesley,R.W., Touchman,J.W., Green,E.D.,
+            Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J., Myers,R.M.,
+            Butterfield,Y.S., Krzywinski,M.I., Skalska,U., Smailus,D.E.,
+            Schnerch,A., Schein,J.E., Jones,S.J. and Marra,M.A.
+  CONSRTM   Mammalian Gene Collection Program Team
+  TITLE     Generation and initial analysis of more than 15,000 full-length
+            human and mouse cDNA sequences
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (26), 16899-16903 (2002)
+   PUBMED   12477932
+REFERENCE   2  (bases 1 to 679)
+  CONSRTM   NIH MGC Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAY-2005) National Institutes of Health, Mammalian
+            Gene Collection (MGC), Bethesda, MD 20892-2590, USA
+  REMARK    NIH-MGC Project URL: http://mgc.nci.nih.gov
+COMMENT     Contact: MGC help desk
+            Email: cgapbs-r@mail.nih.gov
+            Tissue Procurement: Baylor Human Genome Sequencing Center
+            cDNA Library Preparation: Baylor Human Genome Sequencing Center
+            cDNA Library Arrayed by: The I.M.A.G.E. Consortium (LLNL)
+            DNA Sequencing by: Sequencing Group at the Stanford Human Genome
+            Center, Stanford University School of Medicine, Stanford, CA  94305
+            Web site:       http://www-shgc.stanford.edu
+            Contact:  (Dickson, Mark) mcd@paxil.stanford.edu
+            Dickson, M., Schmutz, J., Grimwood, J., Rodriquez, A., and Myers,
+            R. M.
+            
+            Clone distribution: MGC clone distribution information can be found
+            through the I.M.A.G.E. Consortium/LLNL at: http://image.llnl.gov
+            Series: IRAM Plate: 2 Row: a Column: 4.
+            
+            Differences found between this sequence and the human reference
+            genome (build 36) are described in misc_difference features below
+            and these differences were also compared to chimpanzee genome
+            (build 2).
+FEATURES             Location/Qualifiers
+     source          1..679
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /clone="MGC:116695 IMAGE:40000109"
+                     /tissue_type="PCR rescued clones"
+                     /clone_lib="NIH_MGC_282"
+                     /note="Vector: pCR-Blunt II-TOPO; Clone identification
+                     sequence tag: NA"
+     gene            1..679
+                     /gene="RNASE3"
+                     /gene_synonym="ECP"
+                     /db_xref="GeneID:6037"
+                     /db_xref="HGNC:HGNC:10046"
+                     /db_xref="MIM:131398"
+     misc_difference 1..3
+                     /gene="RNASE3"
+                     /gene_synonym="ECP"
+                     /note="3 bases at the 5' end do not align to the human
+                     genome."
+     CDS             43..525
+                     /gene="RNASE3"
+                     /gene_synonym="ECP"
+                     /codon_start=1
+                     /product="ribonuclease, RNase A family, 3 (eosinophil
+                     cationic protein)"
+                     /protein_id="AAH96060.1"
+                     /db_xref="GeneID:6037"
+                     /db_xref="HGNC:HGNC:10046"
+                     /db_xref="MIM:131398"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTRAQWFAIQHIS
+                     LNPPRCTIAMRAINNYRWRCKNQNTFLRTTFANVVNVCGNQSIRCPHNRTLNNCHRSR
+                     FRVPLLHCDLINPGAQNISNCRYADRPGRRFYVVACDNRDPRDSPRYPVVPVHLDTTI
+                     "
+     misc_difference 413
+                     /gene="RNASE3"
+                     /gene_synonym="ECP"
+                     /note="'G' in cDNA is 'C' in the human genome; amino acid
+                     difference: 'R' in cDNA, 'T' in the human genome. The
+                     chimpanzee genome agrees with the cDNA sequence,
+                     suggesting that this difference is unlikely to be due to
+                     an artifact."
+     misc_difference 679
+                     /gene="RNASE3"
+                     /gene_synonym="ECP"
+                     /note="1 base at the 3' end does not align to the human
+                     genome."
+ORIGIN      
+        1 ccctcagttc tcacaggagc cacagctcag agactgggaa acatggttcc aaaactgttc
+       61 acttcccaaa tttgtctgct tcttctgttg gggcttatgg gtgtggaggg ctcactccat
+      121 gccagacccc cacagtttac gagggctcag tggtttgcca tccagcacat cagtctgaac
+      181 ccccctcgat gcaccattgc aatgcgggca attaacaatt atcgatggcg ttgcaaaaac
+      241 caaaatactt ttcttcgtac aacttttgct aatgtagtta atgtttgtgg taaccaaagt
+      301 atacgctgcc ctcataacag aactctcaac aattgtcatc ggagtagatt ccgggtgcct
+      361 ttactccact gtgacctcat aaatccaggt gcacagaata tttcaaactg caggtatgca
+      421 gacagaccag gaaggaggtt ctatgtagtt gcatgtgaca acagagatcc acgggattct
+      481 ccacggtatc ctgtggttcc agttcacctg gataccacca tctaagctcc tgtatcagca
+      541 gtcctcatca tcactcatct gccaagctcc tcaatcatag ccaagatccc atccctccat
+      601 gtactctggg tatcagcaac tgtcctcatc agtctccata ccccttcagc tttcctgagc
+      661 tgaagtccct tgtgaaccg
+//
+

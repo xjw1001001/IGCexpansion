@@ -1,0 +1,89 @@
+LOCUS       XM_010376457             707 bp    mRNA    linear   PRI 21-NOV-2014
+DEFINITION  PREDICTED: Rhinopithecus roxellana ribonuclease, RNase A family, 2
+            (liver, eosinophil-derived neurotoxin) (RNASE2), mRNA.
+ACCESSION   XM_010376457
+VERSION     XM_010376457.1
+DBLINK      BioProject: PRJNA266995
+KEYWORDS    RefSeq.
+SOURCE      Rhinopithecus roxellana (golden snub-nosed monkey)
+  ORGANISM  Rhinopithecus roxellana
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Colobinae; Rhinopithecus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_010819782.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rhinopithecus roxellana Annotation
+                                           Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..707
+                     /organism="Rhinopithecus roxellana"
+                     /mol_type="mRNA"
+                     /isolate="Xiao Hai"
+                     /db_xref="taxon:61622"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /tissue_type="blood"
+                     /country="China: Beijing"
+                     /collection_date="Jul-2012"
+     gene            1..707
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 5 Proteins, and 34%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /db_xref="GeneID:104672623"
+     STS             13..692
+                     /gene="RNASE2"
+                     /db_xref="UniSTS:482837"
+     STS             14..670
+                     /gene="RNASE2"
+                     /db_xref="UniSTS:487018"
+     CDS             53..535
+                     /gene="RNASE2"
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_010374759.1"
+                     /db_xref="GeneID:104672623"
+                     /translation="MAPKLFTSPICLLLLLGLMGVEGSLHAKPRQFTWAQWFEIQHIN
+                     MTSGQCTNAMLVINNYQRRCKNQNTFLLTTFADVVHVCGNPSMPCPSNTSLNNCHHSG
+                     VQVPLIHCNLTTPSRKISNCSYTQTTANKSYIVACNNSDPLRDRPQYPVVPVHLDRVI
+                     "
+     STS             493..696
+                     /gene="RNASE2"
+                     /standard_name="RH69113"
+                     /db_xref="UniSTS:8093"
+     STS             558..698
+                     /gene="RNASE2"
+                     /standard_name="D14S1288"
+                     /db_xref="UniSTS:81456"
+ORIGIN      
+        1 caaccagctg gatcagttct cacaggagcc gcagcgcaga gactgggaaa acatggctcc
+       61 aaaactgttc acttccccaa tttgtctgct tcttctgttg gggcttatgg gtgtggaagg
+      121 ctcacttcat gccaaaccca gacaatttac ctgggctcag tggtttgaaa tccagcatat
+      181 aaatatgacc tctggccaat gcaccaatgc aatgctggta attaacaatt atcaacggcg
+      241 atgcaaaaat caaaatactt ttcttcttac aacttttgct gatgtagttc atgtctgtgg
+      301 taacccaagc atgccctgcc ctagcaacac aagtctcaac aattgtcatc atagtggagt
+      361 ccaggtgcct ttaatccact gtaacctcac aactccaagt cgaaagattt caaattgcag
+      421 ctatacacag acaacagcaa acaagtccta catagttgca tgtaacaaca gcgatccact
+      481 acgggaccgt ccacagtatc cagtggttcc agttcacctg gacagagtca tctaagctcc
+      541 tgtatcagca ctcctcgtca tcactcatct gccaagctcc tcaatcatag ccaagatccc
+      601 atccctccat gtaccctggg tatcagcatc tgtcctcatc agtatccata ccccttcagg
+      661 tttcctgagc tgaagtccct tgtgaacctt gcaataaact gctttgc
+//
+

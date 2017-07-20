@@ -1,0 +1,93 @@
+LOCUS       XM_012077545             766 bp    mRNA    linear   PRI 30-MAR-2015
+DEFINITION  PREDICTED: Cercocebus atys ribonuclease, RNase A family, 2 (liver,
+            eosinophil-derived neurotoxin) (RNASE2), transcript variant X1,
+            mRNA.
+ACCESSION   XM_012077545
+VERSION     XM_012077545.1
+DBLINK      BioProject: PRJNA279144
+KEYWORDS    RefSeq.
+SOURCE      Cercocebus atys (sooty mangabey)
+  ORGANISM  Cercocebus atys
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Cercocebus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_012001627.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cercocebus atys Annotation Release
+                                           100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..766
+                     /organism="Cercocebus atys"
+                     /mol_type="mRNA"
+                     /isolate="FAK"
+                     /db_xref="taxon:9531"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="blood"
+     gene            1..766
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 24 ESTs, 6 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 11 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:105593922"
+     STS             65..744
+                     /gene="RNASE2"
+                     /db_xref="UniSTS:482837"
+     STS             66..722
+                     /gene="RNASE2"
+                     /db_xref="UniSTS:487018"
+     CDS             105..587
+                     /gene="RNASE2"
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_011932935.1"
+                     /db_xref="GeneID:105593922"
+                     /translation="MVPKLFTSPICLLLLLELMGVEGSLHAKPGQFTWAQWFEIQHIN
+                     MTSGQCTNAMLVINNYQRRCKNQNTFLLTTFADVVHVCGNPSMPCPSNTSLNNCHHSG
+                     VQVPLIHCNLTTPSRRISNCRYTQTTANKYYIVACNNRDPVRDPPQYPVVPVHLDRVI
+                     "
+     STS             545..748
+                     /gene="RNASE2"
+                     /standard_name="RH69113"
+                     /db_xref="UniSTS:8093"
+     STS             610..765
+                     /gene="RNASE2"
+                     /standard_name="D14S1192"
+                     /db_xref="UniSTS:65394"
+     STS             610..750
+                     /gene="RNASE2"
+                     /standard_name="D14S1288"
+                     /db_xref="UniSTS:81456"
+ORIGIN      
+        1 tttatttaaa cagttccaag tagggaagaa cagttgcccc tgaacgccag aagaactagc
+       61 tggatcagtt ctcacaggag ccgcagcgtg gagactggga aaacatggtt ccaaaactgt
+      121 tcacttcccc aatttgtctg cttcttctgt tggagcttat gggtgtggaa ggctcacttc
+      181 atgccaaacc cggacaattt acctgggctc agtggtttga aatccagcat ataaatatga
+      241 cctctggcca atgcaccaat gcaatgctgg taattaacaa ttatcaacgg cgatgcaaaa
+      301 atcaaaatac ttttcttctt acaacttttg ctgatgtagt tcatgtctgt ggtaacccaa
+      361 gcatgccctg ccctagcaac acaagtctca acaattgtca tcatagtgga gtccaggtgc
+      421 ctttaatcca ctgtaacctc acaactccaa gtcgaaggat ttcaaattgc aggtatacac
+      481 agacaacagc aaacaagtac tacatagttg catgtaacaa ccgcgatcca gtacgggacc
+      541 ctccacagta tccagtggtt ccagttcact tggatagagt catctaagct cctgtatcag
+      601 cactcctcat catcactcat ctgccaagct cctcaatcat agccaagatc ccatccctcc
+      661 atgtaccccg ggtatcagca tctgtcctca tcagtatcca caccccttca ggtttcctga
+      721 gctgaagtcc cttgtgaacc ctgcgataaa ctgctttgca aattca
+//
+

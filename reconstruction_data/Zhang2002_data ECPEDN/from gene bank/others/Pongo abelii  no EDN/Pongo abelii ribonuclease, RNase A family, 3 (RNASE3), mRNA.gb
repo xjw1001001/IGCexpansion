@@ -1,0 +1,90 @@
+LOCUS       XM_002824527             714 bp    mRNA    linear   PRI 23-SEP-2014
+DEFINITION  PREDICTED: Pongo abelii ribonuclease, RNase A family, 3 (RNASE3),
+            mRNA.
+ACCESSION   XM_002824527
+VERSION     XM_002824527.3
+DBLINK      BioProject: PRJNA37793
+KEYWORDS    RefSeq.
+SOURCE      Pongo abelii (Sumatran orangutan)
+  ORGANISM  Pongo abelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002887017.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Sep 23, 2014 this sequence version replaced gi:395745649.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Pongo abelii Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..714
+                     /organism="Pongo abelii"
+                     /mol_type="mRNA"
+                     /isolate="ISIS 71"
+                     /db_xref="taxon:9601"
+                     /chromosome="14"
+                     /sex="female"
+                     /tissue_type="blood"
+                     /country="USA: Gladys Porter Zoo, Brownsville, TX"
+     gene            1..714
+                     /gene="RNASE3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 18 ESTs, 8 Proteins"
+                     /db_xref="GeneID:100460311"
+     STS             14..692
+                     /gene="RNASE3"
+                     /db_xref="UniSTS:482837"
+     STS             15..670
+                     /gene="RNASE3"
+                     /db_xref="UniSTS:487018"
+     CDS             53..535
+                     /gene="RNASE3"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_002824573.1"
+                     /db_xref="GeneID:100460311"
+                     /translation="MVPKLFTSQICLLLLLGLSGVGGSLHAKPRQFTRAQWFAIQHVS
+                     LNPPQCATAMRVINNYQRRCKDQNTFLRTTFANVVNVCGNPNITCPSNRSRNNCHHSG
+                     VQVPFIYCNLTTPSPQNISNCSYANITGRRFYIVACDNRDPRDSPQYPVVPVHLDTII
+                     "
+     STS             493..696
+                     /gene="RNASE3"
+                     /standard_name="RH69113"
+                     /db_xref="UniSTS:8093"
+     STS             558..713
+                     /gene="RNASE3"
+                     /standard_name="D14S1192"
+                     /db_xref="UniSTS:65394"
+     STS             558..698
+                     /gene="RNASE3"
+                     /standard_name="D14S1288"
+                     /db_xref="UniSTS:81456"
+ORIGIN      
+        1 acaaccaggt ggatcagttc tcacaggagt cacagctcag agactgggaa acatggttcc
+       61 aaaactgttc acttcccaaa tttgtctgct tcttctgttg gggcttagtg gtgtgggggg
+      121 ctcactccat gccaaacccc gacagtttac gagggctcag tggtttgcca tccagcacgt
+      181 cagtctgaac cctcctcaat gcgccactgc aatgcgggta attaacaatt atcaacggcg
+      241 ttgcaaagac caaaatactt ttcttcgtac aacttttgct aatgtagtta atgtttgtgg
+      301 taacccaaat ataacctgtc ctagtaacag aagtcgcaac aattgtcatc atagtggagt
+      361 ccaggtgcct ttcatctact gtaacctcac aactccaagt ccacagaata tttcaaactg
+      421 cagctatgca aacataacag gaaggaggtt ctatatagtt gcatgtgaca acagagatcc
+      481 acgggattct ccacagtatc ctgtggttcc agttcacctg gataccatca tctaagctcc
+      541 tgtatcagca ctgctcatca tcactcatct gccaagctcc tcaatcatag ccaagatccc
+      601 attcttccat gtactctggg tatcagcatc tgtcctcatc agtctccata ccccttcagc
+      661 tttcctgagc cgaagtccct tgtgaaccct gcaataaact gctttgcaaa ttca
+//
+

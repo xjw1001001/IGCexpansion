@@ -1,0 +1,73 @@
+LOCUS       XM_012077543             720 bp    mRNA    linear   PRI 30-MAR-2015
+DEFINITION  PREDICTED: Cercocebus atys ribonuclease, RNase A family, 3
+            (RNASE3), mRNA.
+ACCESSION   XM_012077543
+VERSION     XM_012077543.1
+DBLINK      BioProject: PRJNA279144
+KEYWORDS    RefSeq.
+SOURCE      Cercocebus atys (sooty mangabey)
+  ORGANISM  Cercocebus atys
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Cercocebus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_012001627.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cercocebus atys Annotation Release
+                                           100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..720
+                     /organism="Cercocebus atys"
+                     /mol_type="mRNA"
+                     /isolate="FAK"
+                     /db_xref="taxon:9531"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="blood"
+     gene            1..720
+                     /gene="RNASE3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 15 ESTs, 9 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 12 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:105593920"
+     CDS             59..541
+                     /gene="RNASE3"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_011932933.1"
+                     /db_xref="GeneID:105593920"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTKAQWFAKQHIN
+                     MNPPRCTIAMRVINRFEQRCKDENTFLRTTFANVVKVCYNRSMRCPRNRTLHNCHRSS
+                     YRVPLLHCDLINPGAQNISTCRYADRPRRKFYVVACENRNPRDSRRYPVVPVHLDTII
+                     "
+ORIGIN      
+        1 cccagaacaa ccagctggat cagttctcac aggagctgca gctcagagac agggaaacat
+       61 ggttccaaaa ttgttcactt cccaaatttg tctgcttctt ctgttggggc ttatgggtgt
+      121 ggagggctca ctccatgcca gacccccaca gtttacgaag gctcagtggt ttgccaagca
+      181 gcacatcaat atgaaccccc ctcgatgcac cattgcaatg cgggtaataa atagatttga
+      241 acagcgttgc aaagacgaaa atacttttct tcgtacaact tttgcaaatg tagttaaggt
+      301 ttgttataac cgaagtatgc gctgccctcg taacagaact ctccacaatt gtcatcgtag
+      361 tagctaccgg gtgcctttac tccactgtga cctcataaat ccaggtgcac agaatatttc
+      421 aacctgcagg tatgctgaca gaccaagaag gaagttctat gtagttgcat gtgaaaacag
+      481 aaatccacgt gattctcgac ggtatccagt ggtgccagtt cacctggata ccatcatcta
+      541 agctcctgta tcagcactcc tcatcatcac tcatctgcca ggatcctcaa tcatagccaa
+      601 gatcccatcc ctccacgtac cctgggtatc agtatctgtc ctcttcagtc tccatacccc
+      661 ttcaggtttc ctgaactgaa gtgccttgtg aacccgacaa taaactgctt tgcaaattca
+//
+

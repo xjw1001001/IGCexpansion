@@ -1,0 +1,74 @@
+LOCUS       XM_017891233             721 bp    mRNA    linear   PRI 24-AUG-2016
+DEFINITION  PREDICTED: Rhinopithecus bieti eosinophil cationic protein
+            (LOC108541653), mRNA.
+ACCESSION   XM_017891233
+VERSION     XM_017891233.1
+DBLINK      BioProject: PRJNA339282
+KEYWORDS    RefSeq.
+SOURCE      Rhinopithecus bieti (black snub-nosed monkey)
+  ORGANISM  Rhinopithecus bieti
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Colobinae; Rhinopithecus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_016810073.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Rhinopithecus bieti Annotation
+                                           Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..721
+                     /organism="Rhinopithecus bieti"
+                     /mol_type="mRNA"
+                     /isolate="Rb0"
+                     /db_xref="taxon:61621"
+                     /chromosome="Unknown"
+                     /sex="male"
+                     /tissue_type="blood"
+     gene            1..721
+                     /gene="LOC108541653"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 10 ESTs, 11 Proteins, and
+                     67% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 2 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:108541653"
+     CDS             61..543
+                     /gene="LOC108541653"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_017746722.1"
+                     /db_xref="GeneID:108541653"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTKAQWFAIQHIN
+                     MNPPRCTIAMRVINNYQGRCKNQNTFLRTTFPNVVNVCHNRSIRCPHNSTLYNCHRSR
+                     VRVPLLHCDLINPGAQNVSTCRYADRPGRRFYVVACESRDPRDSPRYPVVPVHLDTII
+                     "
+ORIGIN      
+        1 accccagaac aaccagctgg atcagttctc acaggagctg ccgctcagag attgggaaac
+       61 atggttccaa aattgttcac ttcccaaatt tgtctgcttc ttctgttggg gcttatgggt
+      121 gtggagggct cactccatgc cagaccgcca cagtttacga aggctcagtg gtttgccatc
+      181 cagcacatca atatgaaccc ccctcgatgc accattgcaa tgcgggtaat aaataattat
+      241 caagggcgtt gcaaaaacca aaatactttt cttcgtacaa cttttcctaa cgtagttaat
+      301 gtttgtcata accgaagtat acgctgccct cataacagta ctctctacaa ttgtcatcgt
+      361 agtagagtcc gggtgccttt actccactgt gacctcataa atccaggcgc acagaatgtt
+      421 tcaacctgca ggtatgcaga cagaccagga cggaggttct atgtagttgc atgtgaaagc
+      481 agagatccac gggattctcc acggtatcca gtggtgccag ttcacctgga taccatcatc
+      541 taagctcctg tatcagcact cctcatcatc actcatctgc caggctcctc aatcatagcc
+      601 aagatcccat ccctccatgt accttgggta tcagcatctg tcctcatcag tctccatacc
+      661 ccttcaggtt tcctgaactg aagtgccttg tgaaccgcca acaagctgct gtgcaaattc
+      721 a
+//
+

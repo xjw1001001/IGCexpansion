@@ -1,0 +1,51 @@
+LOCUS       PTU24103                 483 bp    DNA     linear   PRI 17-JUN-1995
+DEFINITION  Pan troglodytes eosinophil cationic protein gene, complete cds.
+ACCESSION   U24103
+VERSION     U24103.1
+KEYWORDS    ribonuclease.
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1  (bases 1 to 483)
+  AUTHORS   Rosenberg,H.F., Dyer,K.D., Tiffany,H.L. and Gonzalez,M.
+  TITLE     Rapid evolution of a unique family of primate ribonuclease genes
+  JOURNAL   Nat. Genet. 10 (2), 219-223 (1995)
+   PUBMED   7663519
+REFERENCE   2  (bases 1 to 483)
+  AUTHORS   Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-APR-1995) Helene F. Rosenberg, Laboratory of Host
+            Defenses, NIAID, National Institutes of Health, Building 10 Room
+            11N104, 9000 Rockville Pike, Bethesda, MD 20892, USA
+FEATURES             Location/Qualifiers
+     source          1..483
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+     CDS             1..483
+                     /note="ribonuclease"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="AAC50150.1"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTRAQWFAIQHIS
+                     LNPPRCTIAMRVINNYRWRCKNQNTFLRTTFANVVNVCGNQSIRCPHNRTLNNCHQSR
+                     FRVPLLHCDLINPGAQNISNCGYADRPGRRFYVVACDNRDPRDSPRYPVVPVHLDTTI
+                     "
+     sig_peptide     1..81
+     mat_peptide     82..480
+                     /product="eosinophil cationic protein"
+                     /note="ribonuclease"
+ORIGIN      
+        1 atggttccaa aactgttcac ttcccaaatt tgtctgcttc ttctgttggg gcttatgggt
+       61 gtggagggct cactccatgc cagaccccca cagtttacga gggctcagtg gtttgccatc
+      121 cagcacatca gtctgaaccc ccctcgatgc accattgcaa tgcgggtaat taacaattat
+      181 cgatggcgtt gcaaaaacca aaatactttt cttcgtacaa cttttgctaa tgtagttaat
+      241 gtttgtggta accaaagtat acgctgccct cataacagaa ccctcaacaa ttgtcatcag
+      301 agtagattcc gggtgccttt actccactgt gacctcataa atccaggtgc acagaatatt
+      361 tcaaactgcg ggtatgcaga cagaccagga aggaggttct atgtagttgc atgtgacaac
+      421 agagatccac gggattctcc acggtatcct gtggttccag ttcacctgga taccaccatc
+      481 taa
+//
+

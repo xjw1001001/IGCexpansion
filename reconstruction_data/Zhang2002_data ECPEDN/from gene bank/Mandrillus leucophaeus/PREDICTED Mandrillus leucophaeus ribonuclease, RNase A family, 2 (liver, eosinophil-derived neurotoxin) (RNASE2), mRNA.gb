@@ -1,0 +1,73 @@
+LOCUS       XM_011976208             659 bp    mRNA    linear   PRI 30-MAR-2015
+DEFINITION  PREDICTED: Mandrillus leucophaeus ribonuclease, RNase A family, 2
+            (liver, eosinophil-derived neurotoxin) (RNASE2), mRNA.
+ACCESSION   XM_011976208
+VERSION     XM_011976208.1
+DBLINK      BioProject: PRJNA279492
+KEYWORDS    RefSeq.
+SOURCE      Mandrillus leucophaeus (drill)
+  ORGANISM  Mandrillus leucophaeus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Mandrillus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_012101621.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mandrillus leucophaeus Annotation
+                                           Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..659
+                     /organism="Mandrillus leucophaeus"
+                     /mol_type="mRNA"
+                     /isolate="KB7577"
+                     /db_xref="taxon:9568"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="heart"
+     gene            1..659
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 26 ESTs, 8 Proteins"
+                     /db_xref="GeneID:105536743"
+     CDS             1..483
+                     /gene="RNASE2"
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_011831598.1"
+                     /db_xref="GeneID:105536743"
+                     /translation="MVPKLFTSPICLLLLLGLMGVEGSLHAKPGQFTWAQWFEIQHIN
+                     MTSGQCTNAMLVINNYQRRCKNQNTFLLTTFADVVHVCGNPSMPCPSNTSLNNCHHSG
+                     VQVPLIHCNLTTPSRRISNCRYTQTTANKYYIVACNNSDPVRDPPQYPVVPVHLDRVI
+                     "
+     STS             506..646
+                     /gene="RNASE2"
+                     /standard_name="D14S1288"
+                     /db_xref="UniSTS:81456"
+ORIGIN      
+        1 atggttccaa aactgttcac ttccccaatt tgtctgcttc ttctgttggg gcttatgggt
+       61 gtggaaggct cacttcatgc caaacccgga caatttacct gggctcagtg gtttgaaatc
+      121 cagcatataa atatgacctc tggccaatgc accaatgcaa tgctggtaat taacaattat
+      181 caacggcgat gcaaaaatca aaatactttt cttcttacaa cttttgctga tgtagttcat
+      241 gtctgtggta acccaagcat gccctgccct agcaacacaa gtctcaacaa ttgtcatcat
+      301 agtggagtcc aggtgccttt aatccactgt aacctcacaa ctccaagtcg aaggatttca
+      361 aattgcaggt atacacagac aacagcaaac aagtactaca tagttgcatg taacaacagc
+      421 gatccagtac gggaccctcc acagtatcca gtagttccag ttcacttgga tagagtcatc
+      481 taagctcctg tatcagcact cctcatcatc actcatctgc caagctcctc aatcatagcc
+      541 aagatcccat ccctccatgt accccaggta tcagcatctg tcctcatcag tatccatacc
+      601 ccttcaggtt tcctgagctg aagtcccttg tgaaccctgc gataaactgc tttgcaaat
+//
+

@@ -1,0 +1,79 @@
+LOCUS       XM_011930955             689 bp    mRNA    linear   PRI 30-MAR-2015
+DEFINITION  PREDICTED: Colobus angolensis palliatus ribonuclease, RNase A
+            family, 2 (liver, eosinophil-derived neurotoxin) (RNASE2), mRNA.
+ACCESSION   XM_011930955
+VERSION     XM_011930955.1
+DBLINK      BioProject: PRJNA279495
+KEYWORDS    RefSeq.
+SOURCE      Colobus angolensis palliatus
+  ORGANISM  Colobus angolensis palliatus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Colobinae; Colobus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_012122709.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Colobus angolensis palliatus
+                                           Annotation Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..689
+                     /organism="Colobus angolensis palliatus"
+                     /mol_type="mRNA"
+                     /isolate="OR3802"
+                     /sub_species="palliatus"
+                     /db_xref="taxon:336983"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="heart"
+     gene            1..689
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 18 ESTs, 5 Proteins"
+                     /db_xref="GeneID:105503838"
+     CDS             1..513
+                     /gene="RNASE2"
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_011786345.1"
+                     /db_xref="GeneID:105503838"
+                     /translation="MAPKLFTSPICLLLLLGLMGVEGSLHGKPRQFTWAQWFEIQHIN
+                     MTSGQCTNAMLRINNYPRRVKNQTTFLRRCKNQNTFLLTTFADVVRVCGNPSMPCPSN
+                     PSLNNCHHSGVQVPLIQCNLTTPSGNISNCRYTQTTANRSYIVACNNSDPLRDRPQYP
+                     VVPVHLDRVN"
+     STS             471..674
+                     /gene="RNASE2"
+                     /standard_name="RH69113"
+                     /db_xref="UniSTS:8093"
+     STS             536..676
+                     /gene="RNASE2"
+                     /standard_name="D14S1288"
+                     /db_xref="UniSTS:81456"
+ORIGIN      
+        1 atggctccaa aactgttcac ttccccaatt tgtctgcttc ttctgttggg gcttatgggt
+       61 gtggaaggct cacttcatgg caaaccccga caatttacct gggctcagtg gtttgaaatc
+      121 cagcatataa atatgacctc tggccaatgc accaatgcaa tgctgagaat taacaattat
+      181 ccacggcgag tgaaaaatca aactactttt cttcggcgat gcaaaaatca aaatactttt
+      241 cttcttacaa cttttgctga tgtagttcgt gtctgtggta acccaagcat gccctgccct
+      301 agcaacccaa gtctcaacaa ttgtcatcat agtggagtcc aggtgccttt aatccagtgt
+      361 aacctcacaa ctccaagtgg aaacatttca aattgcaggt atacacagac aacagcaaac
+      421 aggtcctaca tcgttgcatg taacaacagc gatccactac gggaccgtcc acagtatcca
+      481 gtggttccag ttcacctgga cagagtcaac taagctcctg tatcagcact cctcgtcatc
+      541 actcatctgc caagctcctc aatcatagcc aagatcccat ccctccatgt accctgggta
+      601 tcagcatctg tcctcatcag tatccatacc ccttcaggtt tcctgagctg aagtcccttg
+      661 tgaaccttgc aataaactgc tttgcaaat
+//
+

@@ -1,0 +1,71 @@
+LOCUS       HUMEDNB                  718 bp    mRNA    linear   PRI 19-FEB-2004
+DEFINITION  Homo sapiens eosinophil derived neurotoxin (EDN) mRNA, complete
+            cds.
+ACCESSION   M28129
+VERSION     M28129.1
+KEYWORDS    EDN gene; eosinophil-derived neurotoxin.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 718)
+  AUTHORS   Barker,R.L., Loegering,D.A., Ten,R.M., Hamann,K.J., Pease,L.R. and
+            Gleich,G.J.
+  TITLE     Eosinophil cationic protein cDNA. Comparison with other toxic
+            cationic proteins and ribonucleases
+  JOURNAL   J. Immunol. 143 (3), 952-955 (1989)
+   PUBMED   2745977
+COMMENT     On Oct 8, 1994 this sequence version replaced gi:341833.
+FEATURES             Location/Qualifiers
+     source          1..718
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /cell_line="mononuclear cord blood cells stimulated with
+                     EL4 supernatants"
+                     /cell_type="eosinophil"
+                     /note="vector lambda ZAP"
+     gene            1..718
+                     /gene="EDN"
+     5'UTR           1..49
+                     /gene="EDN"
+     CDS             50..535
+                     /gene="EDN"
+                     /note="bp 179..187, 305..313, 323..331, 380..388, 404..412
+                     glycosylation sites; preproprotein"
+                     /codon_start=1
+                     /product="eosinophil derived neurotoxin"
+                     /protein_id="AAA50284.1"
+                     /translation="MVPKLFTSQICLLLLLGLLAVEGSLHVKPPQFTWAQWFETQHIN
+                     MTSQQCTNAMQVINNYQRRCKNQNTFLLTTFANVVNVCGNPNMTCPSNKTRKNCHHSG
+                     SQVPLIHCNLTTPSPQNISNCRYAQTPANMFYIVACDNRDQRRDPPQYPVVPVHLDRI
+                     I"
+     sig_peptide     50..118
+                     /gene="EDN"
+     misc_feature    119..532
+                     /gene="EDN"
+                     /note="encodes eosinophil derived neurotoxin proprotein"
+     mat_peptide     131..532
+                     /gene="EDN"
+                     /product="eosinophil derived neurotoxin"
+     3'UTR           536..713
+                     /gene="EDN"
+     regulatory      693..698
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="EDN"
+ORIGIN      
+        1 ggcagctgga tcagttctca caggagctac agcgcggaga ctgggaaaca tggttccaaa
+       61 actgttcact tcccaaattt gtctgcttct tctgttgggg cttctggctg tggagggctc
+      121 actccatgtc aaacctccac agtttacctg ggctcaatgg tttgaaaccc agcacatcaa
+      181 tatgacctcc cagcaatgca ccaatgcaat gcaggtcatt aacaattatc aacggcgatg
+      241 caaaaaccaa aatactttcc ttcttacaac ttttgctaac gtagttaatg tttgtggtaa
+      301 cccaaatatg acctgtccta gtaacaaaac tcgcaaaaat tgtcaccaca gtggaagcca
+      361 ggtgccttta atccactgta acctcacaac tccaagtcca cagaatattt caaactgcag
+      421 gtatgcgcag acaccagcaa acatgttcta tatagttgca tgtgacaaca gagatcaacg
+      481 acgagaccct ccacagtatc cggtggttcc agttcacctg gatagaatca tctaagctcc
+      541 tgtatcagca ctcctcatca tcactcatct gccaagctcc tcaatcatag ccaagatccc
+      601 atctctccat atactttggg tatcagcatc tgtcctcatc agtctccata ccccttcagc
+      661 tttcctgagc tgaagtgcct tgtgaaccct gcaataaact gctttgcaaa ttcaaaaa
+//
+

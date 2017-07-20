@@ -1,0 +1,51 @@
+LOCUS       PPU24101                 483 bp    DNA     linear   PRI 17-JUN-1995
+DEFINITION  Pongo pygmaeus eosinophil cationic protein gene, complete cds.
+ACCESSION   U24101
+VERSION     U24101.1
+KEYWORDS    ribonuclease.
+SOURCE      Pongo pygmaeus (Bornean orangutan)
+  ORGANISM  Pongo pygmaeus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pongo.
+REFERENCE   1  (bases 1 to 483)
+  AUTHORS   Rosenberg,H.F., Dyer,K.D., Tiffany,H.L. and Gonzalez,M.
+  TITLE     Rapid evolution of a unique family of primate ribonuclease genes
+  JOURNAL   Nat. Genet. 10 (2), 219-223 (1995)
+   PUBMED   7663519
+REFERENCE   2  (bases 1 to 483)
+  AUTHORS   Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-APR-1995) Helene F. Rosenberg, Laboratory of Host
+            Defenses, NIAID, National Institutes of Health, Building 10, Room
+            11N104, 9000 Rockville Pike, Bethesda, MD 20892, USA
+FEATURES             Location/Qualifiers
+     source          1..483
+                     /organism="Pongo pygmaeus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9600"
+     CDS             1..483
+                     /note="ribonuclease"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="AAC50147.1"
+                     /translation="MVPKLFTSQICLLLLLGLSGVGGSLHAKPRQFTRAQWFAIQHVS
+                     LNPPQCTTAMRVINNYQRRCKDQNTFLRTTFANVVNVCGNPNITCPRNRTLHNCHRSR
+                     FQVPLLHCNLTNPGAQNISNCKYADRTERRFYVVACDNRDPRDSPRYPVVPVHLDTTI
+                     "
+     sig_peptide     1..81
+     mat_peptide     82..480
+                     /product="eosinophil cationic protein"
+                     /note="ribonuclease"
+ORIGIN      
+        1 atggttccaa aactgttcac ttcccaaatt tgtctgcttc ttctgttggg gcttagtggt
+       61 gtggggggct cactccatgc caaaccccga cagtttacga gggctcagtg gtttgccatc
+      121 cagcacgtca gtctgaaccc tcctcaatgc accactgcaa tgcgggtaat taacaattat
+      181 caacggcgtt gcaaagacca aaatactttt cttcgtacaa cttttgctaa tgtagttaat
+      241 gtttgtggta acccaaatat aacctgtcct cgtaacagaa ctctccacaa ttgtcatcgg
+      301 agtagattcc aggtgccttt actccactgt aacctcacaa atccaggtgc acagaatatt
+      361 tcaaactgca agtatgcaga cagaacagaa aggaggttct atgtagttgc atgtgacaac
+      421 agagatccac gggattctcc acggtatcct gtggttccag ttcacctgga taccaccatc
+      481 taa
+//
+

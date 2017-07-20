@@ -1,0 +1,94 @@
+LOCUS       XM_003901509             768 bp    mRNA    linear   PRI 29-AUG-2016
+DEFINITION  PREDICTED: Papio anubis ribonuclease A family member 2 (RNASE2),
+            mRNA.
+ACCESSION   XM_003901509
+VERSION     XM_003901509.2
+DBLINK      BioProject: PRJNA169345
+KEYWORDS    RefSeq.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_018158.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Sep 18, 2014 this sequence version replaced gi:402875535.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Papio anubis Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..768
+                     /organism="Papio anubis"
+                     /mol_type="mRNA"
+                     /isolate="1X1155"
+                     /db_xref="taxon:9555"
+                     /chromosome="7"
+                     /sex="female"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+     gene            1..768
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 29 ESTs, 7 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 22 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:101014412"
+     STS             67..746
+                     /gene="RNASE2"
+                     /db_xref="UniSTS:482837"
+     STS             68..724
+                     /gene="RNASE2"
+                     /db_xref="UniSTS:487018"
+     CDS             107..589
+                     /gene="RNASE2"
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_003901558.1"
+                     /db_xref="GeneID:101014412"
+                     /translation="MVPKLFTSPICLLLLLGLMGVEGSLHAKPGQFTWAQWFEIQHIN
+                     MTSGQCTNAMLVINNYQRRCKNQNTFLLTTFADVVHVCGNPSMPCPSNTSLNNCHHSG
+                     VQVPLIHCNLTTPSRRISNCRYTQTTANKYYIVACNNSDPVRDPPQYPVVPVHLDRVI
+                     "
+     STS             547..750
+                     /gene="RNASE2"
+                     /standard_name="RH69113"
+                     /db_xref="UniSTS:8093"
+     STS             612..767
+                     /gene="RNASE2"
+                     /standard_name="D14S1192"
+                     /db_xref="UniSTS:65394"
+     STS             612..752
+                     /gene="RNASE2"
+                     /standard_name="D14S1288"
+                     /db_xref="UniSTS:81456"
+ORIGIN      
+        1 gctttattta aacagttcca agtagggaag aacagttgcc cctgaacgcc ataagaacta
+       61 gctggatcag ttctcacagg agccgcagcg cggagactgg gaaaacatgg ttccaaaact
+      121 gttcacttcc ccaatttgtc tgcttcttct gttggggctt atgggtgtgg aaggctcact
+      181 tcatgccaaa cccggacaat ttacctgggc tcagtggttt gaaatccagc atataaatat
+      241 gacctctggc caatgcacca atgcaatgct ggtaattaac aattatcaac ggcgatgcaa
+      301 aaatcaaaat acttttcttc ttacaacttt tgctgatgta gttcatgtct gtggtaaccc
+      361 aagcatgccc tgccctagca acacaagtct caacaattgt catcatagtg gagtccaggt
+      421 gcctttaatc cactgtaacc tcacaactcc aagtcgaagg atttcaaatt gcaggtatac
+      481 acagacaaca gcaaacaagt actacatagt tgcatgtaac aacagcgatc cagtacggga
+      541 ccctccacag tatccagtgg ttccagttca cttggataga gtcatctaag ctcctgtatc
+      601 agcactcctc atcatcactc atctgccaag ctcctcaatc atagccaaga tcccatccct
+      661 ccatgtaccc cgggtatcag catctgtcct catcagtatc catacccctt caggtttcct
+      721 gagctgaagt cccttgtgaa ccctgcgata aactgctttg caaattca
+//
+

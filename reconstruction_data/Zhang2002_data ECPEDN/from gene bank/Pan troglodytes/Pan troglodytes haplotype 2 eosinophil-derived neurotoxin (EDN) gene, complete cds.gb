@@ -1,0 +1,80 @@
+LOCUS       AF294018                1214 bp    DNA     linear   PRI 19-DEC-2000
+DEFINITION  Pan troglodytes haplotype 3 eosinophil-derived neurotoxin (EDN)
+            gene, complete cds.
+ACCESSION   AF294018
+VERSION     AF294018.1
+KEYWORDS    .
+SOURCE      Pan troglodytes (chimpanzee)
+  ORGANISM  Pan troglodytes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Pan.
+REFERENCE   1  (bases 1 to 1214)
+  AUTHORS   Zhang,J. and Rosenberg,H.F.
+  TITLE     Sequence variation at two eosinophil-associated ribonuclease loci
+            in humans
+  JOURNAL   Genetics 156 (4), 1949-1958 (2000)
+   PUBMED   11102386
+REFERENCE   2  (bases 1 to 1214)
+  AUTHORS   Zhang,J. and Rosenberg,H.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2000) LHD/NIAID/NIH, Building 10, Room 11N104,
+            9000 Rockville Pike, Bethesda, MD 20892, USA
+FEATURES             Location/Qualifiers
+     source          1..1214
+                     /organism="Pan troglodytes"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9598"
+                     /haplotype="3"
+     gene            1..1214
+                     /gene="EDN"
+     mRNA            join(245..314,541..1209)
+                     /gene="EDN"
+                     /product="eosinophil-derived neurotoxin"
+     5'UTR           join(245..314,541..545)
+                     /gene="EDN"
+     exon            245..314
+                     /gene="EDN"
+                     /number=1
+     intron          315..540
+                     /gene="EDN"
+                     /number=1
+     exon            541..1209
+                     /gene="EDN"
+                     /number=2
+     CDS             546..1031
+                     /gene="EDN"
+                     /note="eosinophil-associated ribonuclease"
+                     /codon_start=1
+                     /product="eosinophil-derived neurotoxin"
+                     /protein_id="AAG31588.1"
+                     /translation="MVPKLFTSQICLLLLLGLLAVEGSLHVKPPQFTWAQWFETQHIN
+                     MTSQQCTNAMQVINNYQRRCKNQNTFLLTTFANVVNVCGNPNMTCPSNKTCKNCHQSG
+                     SQVPLIHCNLTTPSPQNISNCRYAQTPANMFYIVACDNRDQRRDPPQYPVVPVHLDRI
+                     I"
+     3'UTR           1032..1209
+                     /gene="EDN"
+ORIGIN      
+        1 gcaaaactct gtcttacaca ggatgacttg gaattagagt ccttatagca gaaagagcag
+       61 cagggctgtc cttgggtatc cgttgctcag ccaagtcatc aaataaaaag gatgattgca
+      121 caagtggact atgtaccaat ctgtgggttt ctgcatggcc aagagccaga ccctccctcc
+      181 gggctctgct ggcccaaccc accaagggat gctttattta aacagttcca agtaggggag
+      241 accagctgcc cctgaacccc agaacaacca gctggatcag ttctcacagg agctacagcg
+      301 cggagactgg gtaagtcaac gatccccaga gctgggacag aaggggcagc aatggggcag
+      361 caactgaggg agaagagagc tgacgttagt gcttaggaga cgttgcacac tttggggaca
+      421 ggaagtaaag gaaatgggac cccagagtgg ccgcagaggg gcctgtgggg taagacacta
+      481 cagtttgtgt cataaccaag acccgatcag ggagtagtta cttctcttct tttcttacag
+      541 gaaacatggt tccaaaactg ttcacttccc aaatttgtct gcttcttctg ttggggcttc
+      601 tggctgtgga gggctcactc catgtcaaac ctccacagtt tacctgggct caatggtttg
+      661 aaacccagca catcaatatg acatcccagc aatgcaccaa tgcaatgcag gtcattaaca
+      721 attatcaacg gcgatgcaaa aaccaaaata ctttccttct tacaactttt gctaacgtag
+      781 ttaatgtttg tggtaaccca aatatgacct gtcctagtaa caaaacttgc aaaaattgtc
+      841 atcaaagtgg aagccaggtg cctttaatcc actgtaacct cacaactcca agtccacaga
+      901 atatttcaaa ctgcaggtat gcgcagacac cagcaaacat gttctatata gttgcatgtg
+      961 acaacagaga tcaacgacgg gaccctccac agtatccggt ggttccagtt cacctggata
+     1021 gaatcatcta agctcctgta tcagcactcc tcatcatcac tcatctgcca agctcctcaa
+     1081 tcatagccaa gatcccatct ctccatatac tttgggtatc agcatctgtc ctcatcagtc
+     1141 tccatacccc ttcagctttc ctgagctgaa gtgccttgtg aaccctgcaa taaactgctt
+     1201 tgcaaattca tctg
+//
+

@@ -1,0 +1,104 @@
+LOCUS       NC_018438                486 bp    DNA     linear   CON 04-NOV-2016
+DEFINITION  Gorilla gorilla gorilla chromosome 14, gorGor4, whole genome
+            shotgun sequence.
+ACCESSION   NC_018438 REGION: complement(24437572..24438057) GPC_000002517
+VERSION     NC_018438.2
+DBLINK      BioProject: PRJNA350851
+            BioSample: SAMEA2272491
+            Assembly: GCF_000151905.2
+KEYWORDS    WGS; RefSeq.
+SOURCE      Gorilla gorilla gorilla (western lowland gorilla)
+  ORGANISM  Gorilla gorilla gorilla
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Gorilla.
+REFERENCE   1  (bases 1 to 486)
+  AUTHORS   Scally,A., Dutheil,J.Y., Hillier,L.W., Jordan,G.E., Goodhead,I.,
+            Herrero,J., Hobolth,A., Lappalainen,T., Mailund,T.,
+            Marques-Bonet,T., McCarthy,S., Montgomery,S.H., Schwalie,P.C.,
+            Tang,Y.A., Ward,M.C., Xue,Y., Yngvadottir,B., Alkan,C.,
+            Andersen,L.N., Ayub,Q., Ball,E.V., Beal,K., Bradley,B.J., Chen,Y.,
+            Clee,C.M., Fitzgerald,S., Graves,T.A., Gu,Y., Heath,P., Heger,A.,
+            Karakoc,E., Kolb-Kokocinski,A., Laird,G.K., Lunter,G., Meader,S.,
+            Mort,M., Mullikin,J.C., Munch,K., O'Connor,T.D., Phillips,A.D.,
+            Prado-Martinez,J., Rogers,A.S., Sajjadian,S., Schmidt,D., Shaw,K.,
+            Simpson,J.T., Stenson,P.D., Turner,D.J., Vigilant,L., Vilella,A.J.,
+            Whitener,W., Zhu,B., Cooper,D.N., de Jong,P., Dermitzakis,E.T.,
+            Eichler,E.E., Flicek,P., Goldman,N., Mundy,N.I., Ning,Z.,
+            Odom,D.T., Ponting,C.P., Quail,M.A., Ryder,O.A., Searle,S.M.,
+            Warren,W.C., Wilson,R.K., Schierup,M.H., Rogers,J., Tyler-Smith,C.
+            and Durbin,R.
+  TITLE     Insights into hominid evolution from the gorilla genome sequence
+  JOURNAL   Nature 483 (7388), 169-175 (2012)
+   PUBMED   22398555
+REFERENCE   2  (sites)
+  AUTHORS   Lowe,T.M. and Eddy,S.R.
+  TITLE     tRNAscan-SE: a program for improved detection of transfer RNA genes
+            in genomic sequence
+  JOURNAL   Nucleic Acids Res. 25 (5), 955-964 (1997)
+   PUBMED   9023104
+  REMARK    This is the methods paper for tRNAscan-SE.
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            FR853085.2.
+            On Nov 4, 2016 this sequence version replaced gi:401623074.
+            Assembly name: gorGor4
+            The genomic sequence for this RefSeq record is from the
+            whole-genome assembly released by the Wellcome Trust Sanger
+            Institute on 2014/12/19. The original whole-genome shotgun project
+            has the accession CABD000000000.3.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Gorilla gorilla Annotation Release
+                                           101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..486
+                     /organism="Gorilla gorilla gorilla"
+                     /mol_type="genomic DNA"
+                     /sub_species="gorilla"
+                     /db_xref="taxon:9595"
+                     /chromosome="14"
+     gene            <1..>486
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /db_xref="GeneID:101147913"
+     mRNA            <1..>486
+                     /gene="RNASE2"
+                     /product="ribonuclease A family member 2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 mRNAs, 13 Proteins"
+                     /transcript_id="XM_004054860.1"
+                     /db_xref="GeneID:101147913"
+     CDS             1..486
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_004054908.1"
+                     /db_xref="GeneID:101147913"
+                     /translation="MVPKLFTSQICLLLLLGLLAVEGSLHVKPPQFTWAQWFETQHIN
+                     MTSQQCTNAMRVINNYQRRCKNQNTFLLTTFANVVNVCGNPNMTCPSNKTRKNCHHSG
+                     SQVPLIHCNLTTPSPQNISNCRYAQTPANMFYIVACDNRDQRRDPPQYPVVPVHLDRI
+                     I"
+ORIGIN      
+        1 atggttccaa aactgttcac ttcccaaatt tgtctgcttc ttctgttggg gcttctggca
+       61 gtggagggct cactccatgt caaacctcca cagtttacct gggctcaatg gtttgaaacc
+      121 cagcacatca atatgacctc ccagcaatgc accaatgcaa tgcgggtcat taacaattat
+      181 caacggcgat gcaaaaacca aaatactttc cttcttacaa cttttgctaa cgtagttaat
+      241 gtttgtggta acccaaatat gacctgtcct agtaacaaaa ctcgcaaaaa ttgtcatcac
+      301 agtggaagcc aggtgccttt aatccactgt aacctcacaa ctccaagtcc acagaatatt
+      361 tcaaactgca ggtatgcgca gacaccagca aacatgttct atatagttgc atgtgacaac
+      421 agagatcaac gacgggaccc tccacagtat ccagtggttc cagttcacct ggatagaatc
+      481 atctaa
+//
+

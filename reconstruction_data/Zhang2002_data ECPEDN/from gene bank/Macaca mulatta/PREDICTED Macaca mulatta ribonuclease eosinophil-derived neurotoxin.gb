@@ -1,0 +1,79 @@
+LOCUS       XM_001094839             754 bp    mRNA    linear   PRI 21-DEC-2015
+DEFINITION  PREDICTED: Macaca mulatta ribonuclease, RNase A family, 2 (liver,
+            eosinophil-derived neurotoxin) (RNASE2), mRNA.
+ACCESSION   XM_001094839
+VERSION     XM_001094839.3
+DBLINK      BioProject: PRJNA16397
+KEYWORDS    RefSeq.
+SOURCE      Macaca mulatta (Rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_014805028.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Dec 21, 2015 this sequence version replaced gi:297297403.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca mulatta Annotation Release
+                                           102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..754
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /isolate="17573"
+                     /db_xref="taxon:9544"
+                     /chromosome="7"
+                     /sex="female"
+                     /country="USA: Southwest National Primate Research Center
+                     at the Southwest Foundation for Biomedical Research, San
+                     Antonio, TX"
+                     /note="derived from Indian origin rhesus"
+     gene            1..754
+                     /gene="RNASE2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 28 ESTs, 6 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 9 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:706466"
+     CDS             93..575
+                     /gene="RNASE2"
+                     /codon_start=1
+                     /product="non-secretory ribonuclease"
+                     /protein_id="XP_001094839.1"
+                     /db_xref="GeneID:706466"
+                     /translation="MVPKLFTSPICLLLLLGLMGVEGSLHAKPGQFTWAQWFEIQHIN
+                     MTSGQCTNAMLVINNYQRRCKNQNTFLLTTFADVVHVCGNPSMPCPSNTSLNNCHHSG
+                     VQVPLIHCNLTTPSRRISNCRYTQTTANKYYIVACNNSDPVRDPPQYPVVPVHLDRVI
+                     "
+ORIGIN      
+        1 gttccaagta gggaagaaca gttgcccctg aaggccagaa caaccagctg gatcagttct
+       61 cacaggagcc gcagcgcgga gactgggaaa acatggttcc aaaactgttc acttccccaa
+      121 tttgtctgct tcttctgttg gggcttatgg gtgtggaagg ctcacttcat gccaaacccg
+      181 gacaatttac ctgggctcag tggtttgaaa tccagcatat aaatatgacc tctggccaat
+      241 gcaccaatgc aatgctggta attaacaatt atcaacggcg atgcaaaaat caaaatactt
+      301 ttcttcttac aacttttgct gatgtagttc atgtctgtgg taacccaagc atgccctgcc
+      361 ctagcaacac aagtctcaac aattgtcatc atagtggagt ccaggtgcct ttaatccact
+      421 gtaacctcac aactccaagt cgaaggattt caaattgcag gtatacacag acaacagcaa
+      481 acaagtacta catagttgca tgtaacaaca gcgatccagt acgggaccct ccacagtatc
+      541 cagtggttcc agttcacttg gatagagtca tctaagctcc tgtatcagca ctcctcatca
+      601 tcactcatct gccaagctcc tcaatcatag ccaagatccc atccctccat gtaccctggg
+      661 tatcagcatc tgtcctcatc agtatccata ccccttcagg tttcctgagc tgaagtccct
+      721 tgtgaaccct gcaataaact gctttgcaaa ttca
+//
+

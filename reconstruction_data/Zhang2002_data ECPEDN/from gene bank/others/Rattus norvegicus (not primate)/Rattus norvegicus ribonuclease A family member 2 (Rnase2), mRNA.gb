@@ -1,0 +1,120 @@
+LOCUS       NM_001007015             650 bp    mRNA    linear   ROD 02-MAR-2017
+DEFINITION  Rattus norvegicus ribonuclease A family member 2 (Rnase2), mRNA.
+ACCESSION   NM_001007015 XM_579169
+VERSION     NM_001007015.1
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 1 to 650)
+  AUTHORS   Premzl M.
+  TITLE     Comparative genomic analysis of eutherian ribonuclease A genes
+  JOURNAL   Mol. Genet. Genomics 289 (2), 161-167 (2014)
+   PUBMED   24337645
+REFERENCE   2  (bases 1 to 650)
+  AUTHORS   Cho S, Beintema JJ and Zhang J.
+  TITLE     The ribonuclease A superfamily of mammals and birds: identifying
+            new members and tracing evolutionary histories
+  JOURNAL   Genomics 85 (2), 208-220 (2005)
+   PUBMED   15676279
+REFERENCE   3  (bases 1 to 650)
+  AUTHORS   Ishihara K, Asai K, Nakajima M, Mue S and Ohuchi K.
+  TITLE     Preparation of recombinant rat eosinophil-associated ribonuclease-1
+            and -2 and analysis of their biological activities
+  JOURNAL   Biochim. Biophys. Acta 1638 (2), 164-172 (2003)
+   PUBMED   12853122
+REFERENCE   4  (bases 1 to 650)
+  AUTHORS   Nakajima M, Hirakata M, Nittoh T, Ishihara K and Ohuchi K.
+  TITLE     Expression and purification of recombinant rat
+            eosinophil-associated ribonucleases, homologues of human eosinophil
+            cationic protein and eosinophil-derived neurotoxin, and their
+            characterization
+  JOURNAL   Int. Arch. Allergy Immunol. 125 (3), 241-249 (2001)
+   PUBMED   11490157
+REFERENCE   5  (bases 1 to 650)
+  AUTHORS   Singhania NA, Dyer KD, Zhang J, Deming MS, Bonville CA, Domachowske
+            JB and Rosenberg HF.
+  TITLE     Rapid evolution of the ribonuclease A superfamily: adaptive
+            expansion of independent gene clusters in rats and mice
+  JOURNAL   J. Mol. Evol. 49 (6), 721-728 (1999)
+   PUBMED   10594173
+REFERENCE   6  (bases 1 to 650)
+  AUTHORS   Nittoh T, Hirakata M, Mue S and Ohuchi K.
+  TITLE     Identification of cDNA for rat homologues of human major basic
+            protein and eosinophil cationic protein
+  JOURNAL   Int. Arch. Allergy Immunol. 117 (SUPPL 1), 5-9 (1998)
+   PUBMED   9758888
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AB005291.1.
+            On Apr 19, 2005 this sequence version replaced gi:62661284.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB005291.1, BF543868.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2689594, SAMEA2689599
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..650
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /strain="Sprague-Dawley"
+                     /db_xref="taxon:10116"
+                     /chromosome="15"
+                     /map="15p14"
+     gene            1..650
+                     /gene="Rnase2"
+                     /gene_synonym="Ear4; R14; R15; R5; Raf1"
+                     /note="ribonuclease A family member 2"
+                     /db_xref="GeneID:474169"
+                     /db_xref="RGD:1359432"
+     CDS             59..526
+                     /gene="Rnase2"
+                     /gene_synonym="Ear4; R14; R15; R5; Raf1"
+                     /EC_number="3.1.27.5"
+                     /note="ribonuclease 5; ribonuclease 14; ribonuclease A f1;
+                     ribonuclease 15; pre-eosinophil-associated ribonuclease-2;
+                     eosinophil-associated, ribonuclease A family, member 4;
+                     ribonuclease, RNase A family, 2 (liver, eosinophil-derived
+                     neurotoxin)"
+                     /codon_start=1
+                     /product="ribonuclease A family member 2 precursor"
+                     /protein_id="NP_001007016.1"
+                     /db_xref="GeneID:474169"
+                     /db_xref="RGD:1359432"
+                     /translation="MGVKPLESRLCLLLLLGLVSMLASCQRPTPSQWFAIQHIYNSSY
+                     PQCNAAMLRVNSYTGRCKGINTFLHTSFASVVDVCGNPHITCKDGRSTNCHNSSSQVS
+                     VTFCNLTTPARIYTQCRYQTTGSVKFYRVACNNRTSQESPMYPVVPVHLDEIF"
+     sig_peptide     59..133
+                     /gene="Rnase2"
+                     /gene_synonym="Ear4; R14; R15; R5; Raf1"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     STS             390..606
+                     /gene="Rnase2"
+                     /gene_synonym="Ear4; R14; R15; R5; Raf1"
+                     /standard_name="RH133047"
+                     /db_xref="UniSTS:216330"
+     regulatory      632..637
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="Rnase2"
+                     /gene_synonym="Ear4; R14; R15; R5; Raf1"
+     polyA_site      650
+                     /gene="Rnase2"
+                     /gene_synonym="Ear4; R14; R15; R5; Raf1"
+                     /note="8 A nucleotides"
+ORIGIN      
+        1 tgatttccag gacagccagc actcagttcc acaggagcca caacgcacac tgggaaacat
+       61 gggtgtgaag ccgcttgagt ccagactttg tctccttctg ctgctgggac ttgtctcaat
+      121 gcttgcctca tgccagcgac caaccccttc ccagtggttt gccatccagc acatctataa
+      181 tagctcctac ccccaatgta atgctgccat gctgcgtgtc aacagttata caggaagatg
+      241 taagggcata aatacttttc ttcacacaag ttttgctagt gttgttgatg tgtgtggcaa
+      301 tccacatata acctgtaaag acgggagaag tacaaattgt cataacagtt cctctcaggt
+      361 atctgtaact ttctgtaacc tcacaactcc ggcaaggatt tatacccaat gcagatacca
+      421 aactacagga tcggtgaagt tctacagagt tgcctgtaac aatagaactt cacaggagag
+      481 tcccatgtat ccagtggttc ctgttcacct ggatgagata ttttagttca atgccagcac
+      541 tttgtacctt agctcatctg ctactgccaa gatcacagta gtgaagatcc agttcctctg
+      601 tctgcactgc ctaaccagac cttttctaac caataaacac ctttgcattc
+//
+

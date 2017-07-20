@@ -1,0 +1,74 @@
+LOCUS       XM_011976206             714 bp    mRNA    linear   PRI 30-MAR-2015
+DEFINITION  PREDICTED: Mandrillus leucophaeus ribonuclease, RNase A family, 3
+            (RNASE3), mRNA.
+ACCESSION   XM_011976206
+VERSION     XM_011976206.1
+DBLINK      BioProject: PRJNA279492
+KEYWORDS    RefSeq.
+SOURCE      Mandrillus leucophaeus (drill)
+  ORGANISM  Mandrillus leucophaeus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Mandrillus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_012101621.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mandrillus leucophaeus Annotation
+                                           Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..714
+                     /organism="Mandrillus leucophaeus"
+                     /mol_type="mRNA"
+                     /isolate="KB7577"
+                     /db_xref="taxon:9568"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="heart"
+     gene            1..714
+                     /gene="RNASE3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 15 ESTs, 9 Proteins"
+                     /db_xref="GeneID:105536741"
+     CDS             53..535
+                     /gene="RNASE3"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_011831596.1"
+                     /db_xref="GeneID:105536741"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTKAQWFAKQHIS
+                     MNPPRCTIAMRVINRFEQRCKDENTFLRTTFANVVKVCYNRSMRCPRNRTLHNCHRSS
+                     YRVPLLHCDLINPGAQNISTCRYADRPRRKFYVVACENRNPRDSRRYPVVPVHLDTII
+                     "
+     STS             558..713
+                     /gene="RNASE3"
+                     /standard_name="D14S1192"
+                     /db_xref="UniSTS:65394"
+ORIGIN      
+        1 acaaccagct ggatcagttc tcacaggagc tgcagctcag agacagggaa acatggttcc
+       61 aaaattgttc acttcccaaa tttgtctgct tcttctgttg gggcttatgg gtgtggaggg
+      121 ctcgctccat gccagacccc cacagtttac gaaggctcag tggtttgcca agcagcacat
+      181 cagtatgaac ccccctcgat gcaccattgc aatgcgggta ataaatagat ttgaacagcg
+      241 ttgcaaagac gaaaatactt ttcttcgtac aacttttgca aatgtagtta aggtttgtta
+      301 taaccgaagt atgcgctgcc ctcgtaacag aactctccac aattgtcatc gtagtagcta
+      361 ccgggtgcct ttactccact gtgacctcat aaatccaggt gcacagaata tttcaacctg
+      421 caggtatgct gacagaccaa gacggaagtt ctatgtagtt gcatgtgaaa acagaaatcc
+      481 acgggattct cgacggtatc cagtggtgcc agttcacctg gataccatca tctaagctcc
+      541 tgtatcagca ctcctcatca tcactcatct gccaggctcc tcaatcatag ccaagatccc
+      601 atccctccac gtaccctggg tatcagtatc tgtcctcttc agtctccata ccccttcagg
+      661 tttcctgaac tgaagtgcct tgtgaacccc acaataaact gctttgcaaa ttca
+//
+

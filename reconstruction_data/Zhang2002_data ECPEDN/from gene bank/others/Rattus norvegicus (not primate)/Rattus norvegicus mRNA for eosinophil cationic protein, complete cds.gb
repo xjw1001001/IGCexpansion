@@ -1,0 +1,63 @@
+LOCUS       D88586                   711 bp    mRNA    linear   ROD 27-DEC-2006
+DEFINITION  Rattus norvegicus mRNA for eosinophil cationic protein, complete
+            cds.
+ACCESSION   D88586
+VERSION     D88586.1
+KEYWORDS    eosinophil cationic protein.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1
+  AUTHORS   Nittoh,T., Hirakata,M., Mue,S. and Ohuchi,K.
+  TITLE     Identification of cDNA encoding rat eosinophil cationic
+            protein/eosinophil-associated ribonuclease
+  JOURNAL   Biochim. Biophys. Acta 1351 (1-2), 42-46 (1997)
+   PUBMED   9116043
+REFERENCE   2  (bases 1 to 711)
+  AUTHORS   Nittoh,T., Hirakata,M., Mue,S. and Ohuchi,K.
+  TITLE     Identification of cDNA encoding rat eosinophil cationic protein
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 711)
+  AUTHORS   Ohuchi,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-OCT-1996) Kazuo Ohuchi, Faculty of Pharmaceutical
+            Sciences, Tohoku University, Pathophysiological Biochemistry; Aoba
+            Aramaki Aoba-ku, Sendai, Miyagi 980-77, Japan
+            (E-mail:ohuchi-k@phi.pharm.tohoku.ac.jp, Tel:+81-22-217-6860,
+            Fax:+81-22-217-6859)
+FEATURES             Location/Qualifiers
+     source          1..711
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /strain="Sprague-Dawley"
+                     /db_xref="taxon:10116"
+                     /tissue_type="bone marrow"
+                     /note="Common name: Rat"
+     CDS             64..531
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="BAA13648.1"
+                     /translation="MGLKLLESRLCLLLSLGLVLMLASCQPPTPSQWFEIQHIYNRAY
+                     PRCNDAMRHRNRFTGHCKDINTFLHTSFASVVGVCGNRNIPCGNRTYRNCHNSRYRVS
+                     ITFCNLTTPARIYTQCRYQTTRSRKFYTVGCDPRTPRDSPMYPVVPVHLDRIF"
+     regulatory      687..692
+                     /regulatory_class="polyA_signal_sequence"
+     polyA_site      711
+                     /note="8 A nucleotides"
+ORIGIN      
+        1 acctctgatt tccaggacag ccagcactca gttccacagg agccacaacg cacactggga
+       61 aacatgggtc tgaagctgct cgagtccaga ctttgtctcc ttctgtcgct gggacttgtc
+      121 ttgatgcttg cctcatgcca gccaccaacc ccttcccagt ggtttgaaat ccagcacatc
+      181 tataataggg cttatccccg atgtaatgat gcaatgcgac acagaaacag attcacagga
+      241 cattgtaagg acataaatac ttttcttcat acaagttttg ctagtgttgt tggtgtgtgt
+      301 ggcaatagaa acatcccctg tggaaacagg acatatagaa attgtcataa cagtcgatat
+      361 cgggtatcta taactttctg taacctcaca actccggcaa ggatttatac ccaatgtaga
+      421 taccaaacta caagatccag gaagttctac acagttggct gtgacccgag gactccacgg
+      481 gacagtccca tgtatccagt ggttccggtt cacttggata ggatatttta gctccggtgc
+      541 cagcactttg tacctgagct catcggctcc tgccaagatc acagtagtga agatccagtt
+      601 cctctgtctg cactgcatat cagctcctgt cctcatgaaa cctgtccctg actcctttta
+      661 gtatagctta acagattttt gtaatcaata aacacctttg catatgcatc t
+//
+
