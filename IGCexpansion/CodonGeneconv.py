@@ -1545,7 +1545,6 @@ class ReCodonGeneconv:
         filename.write(repr(result))
         filename.close()
         return result       
-            
     
 if __name__ == '__main__':
     paralog = ['YAL056W', 'YOR371C']

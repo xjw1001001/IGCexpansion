@@ -1,0 +1,81 @@
+LOCUS       AB240529                2028 bp    mRNA    linear   VRT 04-DEC-2007
+DEFINITION  Eublepharis macularius ERb mRNA for estrogen receptor beta,
+            complete cds.
+ACCESSION   AB240529
+VERSION     AB240529.1
+KEYWORDS    .
+SOURCE      Eublepharis macularius
+  ORGANISM  Eublepharis macularius
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Lepidosauria; Squamata; Bifurcata; Gekkota; Eublepharidae;
+            Eublepharinae; Eublepharis.
+REFERENCE   1
+  AUTHORS   Endo,D., Kanaho,Y. and Park,M.K.
+  TITLE     Expression of sex steroid hormone-related genes in the embryo of
+            the leopard gecko
+  JOURNAL   Gen. Comp. Endocrinol. 155 (1), 70-78 (2008)
+   PUBMED   17543964
+REFERENCE   2  (bases 1 to 2028)
+  AUTHORS   Endo,D. and Park,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-NOV-2005) Contact:Daisuke Endo The University of
+            Tokyo, Graduate School of Science, Department of Biological
+            Sciences; Hongo, 7-3-1, Bunkyo, Toyko 113-0033, Japan
+FEATURES             Location/Qualifiers
+     source          1..2028
+                     /organism="Eublepharis macularius"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:481883"
+     gene            1..2028
+                     /gene="ERb"
+     CDS             424..1929
+                     /gene="ERb"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="BAE79509.1"
+                     /translation="MWNTSPIYIPSSYMENRHEYSAMAFYSPAMMNYNIPGNFSDSES
+                     AALRQTSSPSVLWAAPGHISPLTLHCQPSVLYSEQPKSPWGEARPVDHVLPIHRENLK
+                     RKSSGSDCTSPVMNSPGSKRDAHFCAVCSDYASGYHYGVWSCEGCKAFFKRSIQGHND
+                     YICPATNQCAIDKNRRKSCQACRLRKCYEVGMMKCGSRRERCGYRIIRRHRNSEDPVP
+                     CLGKVKKNPENAAQAKELLVNTLSPEQFVSILLEAEPPDVLVSRPNKPFTEASMMMSL
+                     TKLADKELVHMIGWAKKIPGFIELSLYDQVRLLESCWLEVLMVGLMWRSIEHPGKLIF
+                     APDLVLDRDEGKCVEIFDMLLATTSRFRELKLQHKEYLCVKTMILLNSNMLPLSSTAE
+                     EPESSKKLHHLLNTVTDALVWVIAKSGIPLPQQTTRLANLLMLLSHVRHVSNKGMEHL
+                     LSVKCKNVVPVYDLLLEMLNAHSVRSQRKTTVSTLKYSPSEPTETSDETPQ"
+ORIGIN      
+        1 cgaattgggc ccgacgtcgc atgctcccgg ccgccatggc cgcgggatta ctcactatag
+       61 ggctcgagcg gccgcccggg caggtctaga attcagcggc cgcttaattt cctagaagaa
+      121 aagatctgga tcccttatgg tgagtgccag gtcccccacc tcccgcccag acagtaaggg
+      181 aaccctactc tcaagggaca atttcagtca ccaacttgct atgacccaga tatggtagat
+      241 cggattaagc ggagcaaacc agcaggatat tccaccagct cctcaaccac aatcagagtc
+      301 ataggcctgg cggaactgct gctactcaac agtgaactta ggagtcatct tgtagatcaa
+      361 ggtcctacat acatgtaggc ttccctgtta ccattccttt cagctgcagc cagtctgctc
+      421 ttaatgtgga acaccagtcc aatctatatc ccgtcctcct acatggaaaa caggcatgaa
+      481 tattccgcaa tggcattcta cagccctgct atgatgaact ataacattcc aggcaatttc
+      541 agcgattctg aaagcgctgc tctgaggcag acgtctagcc cgagcgtgtt gtgggctgca
+      601 ccggggcaca tctctccttt gactttgcac tgccagccat cagttttata ctcagagcaa
+      661 ccaaaaagtc catggggtga agcaagacct gtggatcatg tcctgcctat acacagagag
+      721 aacctgaaga ggaaatccag cggcagtgac tgcacaagcc ctgtcatgaa cagccccggc
+      781 tcaaaacggg atgcgcattt ctgtgccgtg tgcagcgact acgcctcggg atatcattac
+      841 ggcgtttggt cgtgtgaagg gtgtaaagcg ttcttcaaaa gaagcattca agggcacaat
+      901 gattacattt gtccggctac aaatcaatgc gcgatagata aaaacaggcg gaagagctgc
+      961 caggcgtgcc ggctccggaa atgttacgaa gtaggaatga tgaaatgcgg gtcgagacgg
+     1021 gagcgctgtg ggtatcgtat catacgccgc catcgtaact cggaagatcc ggtgccttgc
+     1081 ttaggtaaag tgaaaaagaa tcctgaaaat gccgcccaag cgaaagagct ccttgttaat
+     1141 acactcagcc cagaacagtt cgtttcaata ttacttgaag ccgagccccc cgatgtgttg
+     1201 gtgagccgtc ccaacaagcc gtttacggaa gcttccatga tgatgtcttt gacgaaactt
+     1261 gcagacaaag aactggtcca tatgattggc tgggccaaaa aaattcccgg tttcatagag
+     1321 ctaagcctgt atgaccaagt caggctcttg gaaagctgtt ggttggaagt cttaatggtg
+     1381 ggcctgatgt ggagatctat tgaacatccc ggcaagctaa tctttgcacc agaccttgtg
+     1441 ctagacaggg acgaggggaa gtgcgtggag atctttgaca tgctcctggc tacgacttca
+     1501 aggtttcgag agctgaaatt gcagcacaaa gaatatctgt gtgtcaagac tatgatcctt
+     1561 ctcaattcca acatgttgcc actatcatcc acggctgaag aaccagaaag cagtaagaag
+     1621 ttgcaccatc tcctgaacac agttactgat gctttagtgt gggtcattgc aaaaagtggg
+     1681 atcccgctgc cgcaacagac cactcgcctg gccaacttgc ttatgctgct ttctcatgtc
+     1741 cggcacgtga gtaacaaagg gatggagcac cttcttagcg tgaagtgcaa gaatgttgtc
+     1801 cccgtctatg atttgcttct agagatgctc aacgctcaca gtgtccgaag ccagaggaaa
+     1861 acgacagtct ccactctcaa gtatagtccg tcagaaccaa cagagacctc agacgaaaca
+     1921 ccgcagtgat ttcctactaa cggggaacca aatagatcaa cgattaagac atttagttct
+     1981 ttcttttttt ttataaagag aggagagacc aatccttgat ttctttcc
+//
+

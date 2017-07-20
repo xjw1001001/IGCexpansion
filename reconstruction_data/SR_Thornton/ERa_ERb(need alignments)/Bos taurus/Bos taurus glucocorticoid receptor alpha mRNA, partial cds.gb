@@ -1,0 +1,84 @@
+LOCUS       AY238475                1753 bp    mRNA    linear   MAM 26-JUL-2016
+DEFINITION  Bos taurus glucocorticoid receptor alpha mRNA, partial cds.
+ACCESSION   AY238475
+VERSION     AY238475.2
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 1753)
+  AUTHORS   James,E.R., Robertson,L., Ehlert,E., Fitzgerald,P., Droin,N. and
+            Green,D.R.
+  TITLE     Presence of a transcriptionally active glucocorticoid receptor
+            alpha in lens epithelial cells
+  JOURNAL   Invest. Ophthalmol. Vis. Sci. 44 (12), 5269-5276 (2003)
+   PUBMED   14638726
+REFERENCE   2  (bases 1 to 1753)
+  AUTHORS   James,E.R. and Robertson,L.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-FEB-2003) Ophthalmology, Medical University of South
+            Carolina, 171 Ashley Avenue, Charleston, SC 29425, USA
+REFERENCE   3  (bases 1 to 1753)
+  AUTHORS   James,E.R. and Robertson,L.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-DEC-2003) Ophthalmology, Medical University of South
+            Carolina, 171 Ashley Avenue, Charleston, SC 29425, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Dec 3, 2003 this sequence version replaced gi:29569849.
+FEATURES             Location/Qualifiers
+     source          1..1753
+                     /organism="Bos taurus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9913"
+     CDS             <1..1753
+                     /note="cytosolic/nuclear receptor; transcription factor;
+                     GR alpha"
+                     /codon_start=2
+                     /product="glucocorticoid receptor alpha"
+                     /protein_id="AAO85271.2"
+                     /translation="APDLEFSSGSPSKETSESPWSSDLLIDENCLLSPLAGEDDPFLL
+                     EGSSNEDCKPLVLPDTKPKIKDNGDLILPSPSSVPLPQVKTEKEDFIELCTPGVIKQE
+                     KLGPVYCQASFSGANIIGNKMSAISVHGVSTSGGQMYHYDMNTASLSQQQDQKPIFNV
+                     IPPIPVGSENWNRCQGSGDDNLTSLGTLNFSGRSVFSNGYSSPGMRPDVSSPPSSSSA
+                     ATGPPSKLCLVCSDEASGCHYGVLTCGSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRR
+                     KNCPACRYRKCLQAGMNLEARKTKKKIKGIQQTSTGVSQETSENPSNRTVVPAALPQL
+                     TPTLVSLLEVIEPEVLYAGYDSSVPDSTWRIMTTLNMLGGRQVIAAVKWAKAIPGFRN
+                     LHLDDQMTLLQYSWMFLMAFALGWRSYKQSSGNMLCFAPDLVINEQRMTLPYMYDQCK
+                     HMLYVSSELNRLQVSYEEYLCMKTLLLLSSVPKEGLKSQELFDEIRMTYIKELGKAIV
+                     KREGNSSQNWQRFYQLTKLLDSMHEVVENLLHYCFQTFLDKTMSIEFPEMLAEIITNQ
+                     IPKYSNGNIKKLLFHQK"
+ORIGIN      
+        1 agctccggat ttggagtttt cttctgggtc cccaagtaaa gagacaagtg agagtccttg
+       61 gagctcagac ctcttgatag atgaaaactg tttgctttct cctttggcag gagaggatga
+      121 tccattcctt ctggaaggaa gctcgaatga ggactgtaag cctcttgttt taccggacac
+      181 taagcctaaa attaaagata atggagattt gatcttacca agtcctagca gtgtgccact
+      241 gccccaagtg aaaacagaaa aagaagattt tatcgaactc tgcacccctg gggtaattaa
+      301 gcaggagaaa ctgggcccag tttattgtca ggccagcttt tctggggcca atataattgg
+      361 taataaaatg tctgccattt ctgttcacgg tgtgagtacc tctgggggcc agatgtacca
+      421 ctacgacatg aatacagcat ccctttctca acagcaggat cagaaaccta tttttaatgt
+      481 cattccacca attcctgtcg gttcagaaaa ttggaataga tgccaagggt ctggagatga
+      541 taacttgact tccttgggga ctttgaactt ctctggtcga tctgtttttt ctaacggcta
+      601 ttcaagccct ggaatgagac cagacgtaag ttctcctcca tccagttcct cagcagctac
+      661 gggaccacct tccaaactct gcctagtctg ctctgatgaa gcttcaggat gtcattatgg
+      721 ggtcttgact tgtggaagct gtaaagtatt cttcaaaaga gcagtggaag gacagcacaa
+      781 ttatctttgt gctggaagaa atgattgtat cattgataaa attcgaagaa aaaactgccc
+      841 agcatgccgc tacagaaaat gtcttcaagc tggaatgaac ttggaagcac gaaaaacaaa
+      901 gaaaaaaata aaaggaattc agcagaccag cacaggagtt tcgcaagaaa cttctgaaaa
+      961 tccttctaac agaacagtag ttcctgcagc attaccacaa ctcaccccaa cactggtgtc
+     1021 actgctggag gtcattgaac ctgaagtgtt gtatgcaggg tatgacagct cggttccaga
+     1081 ctctacttgg aggatcatga ccacactcaa catgttaggt gggcggcaag tgattgcagc
+     1141 agtgaaatgg gcaaaggcaa taccaggatt caggaacttg cacctggatg accaaatgac
+     1201 cctcctgcaa tactcatgga tgtttctcat ggcatttgcc ctggggtgga gatcatataa
+     1261 acaatccagt ggaaacatgc tatgttttgc tcctgatctg gttattaatg agcagagaat
+     1321 gactctaccc tacatgtatg accaatgtaa acatatgcta tatgtttcct ctgagttaaa
+     1381 caggcttcag gtatcttacg aagagtatct ctgtatgaaa accttactgc tcctctcttc
+     1441 agttcccaag gaaggcttga agagtcaaga actatttgat gaaattagaa tgacctatat
+     1501 caaagagcta ggaaaagcca ttgtcaagag ggaaggaaac tccagtcaga actggcagcg
+     1561 cttttatcaa ctgacaaaac ttttggactc tatgcatgaa gtggttgaaa atctccttca
+     1621 ctattgcttc caaacatttt tggataagac gatgagtatt gaattcccag agatgctagc
+     1681 tgaaatcatc accaatcaga taccaaaata ttcaaatgga aatatcaaaa aacttctgtt
+     1741 tcatcagaaa tga
+//
+

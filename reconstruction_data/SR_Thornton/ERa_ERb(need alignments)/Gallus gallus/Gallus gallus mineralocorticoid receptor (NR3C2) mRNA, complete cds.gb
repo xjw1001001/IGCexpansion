@@ -1,0 +1,131 @@
+LOCUS       FJ808618                3820 bp    mRNA    linear   VRT 10-MAY-2010
+DEFINITION  Gallus gallus mineralocorticoid receptor (NR3C2) mRNA, complete
+            cds.
+ACCESSION   FJ808618
+VERSION     FJ808618.1
+KEYWORDS    .
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+REFERENCE   1  (bases 1 to 3820)
+  AUTHORS   Proszkowiec-Weglarz,M. and Porter,T.E.
+  TITLE     FUNCTIONAL CHARACTERIZATION OF CHICKEN GLUCOCORTICOID AND
+            MINERALOCORTICOID RECEPTORS
+  JOURNAL   Am. J. Physiol. Regul. Integr. Comp. Physiol. (2010) In press
+   PUBMED   20181832
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 3820)
+  AUTHORS   Proszkowiec-Weglarz,M. and Porter,T.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAR-2009) Department of Animal and Avian Sciences,
+            University of Maryland, Animal Science Building 142, College Park,
+            MD 20742, USA
+FEATURES             Location/Qualifiers
+     source          1..3820
+                     /organism="Gallus gallus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9031"
+                     /chromosome="4"
+     gene            1..3820
+                     /gene="NR3C2"
+     5'UTR           <1..397
+                     /gene="NR3C2"
+     CDS             398..3358
+                     /gene="NR3C2"
+                     /note="nuclear hormone receptor; nuclear receptor
+                     subfamily 3, group C, member 2"
+                     /codon_start=1
+                     /product="mineralocorticoid receptor"
+                     /protein_id="ACO37437.1"
+                     /translation="MSLLVMETKGYHSYPEGLDMERRWGQVPQSVEYSSLGPGEQADA
+                     SNYMEIVNVSCAAGTFANSSAPGNKEKPELLSCLQQDSSHPAVLPSDIKTETESKELS
+                     ATVAESMGLYMDSIRDADYPYDQQNQGSPGKIYQNVEQLVKLYKENGHCSSPLHSPSR
+                     PLRSLMADSGSAMNGGAMHAVVKSPIVCQEKSPSGCSPQNMASSVCSPAGVNSVSSTT
+                     ANFGNFAMHSPIGQGTPLSRSPNVESRGSMLHSPAHVSNVGSPLSSPISSMKSPISSP
+                     PSHCSVKSPVSSPNNITMRSSVSSPANMNSRSSIASPSNANNRSTRSSPAVSTVGGSS
+                     ICSPVNSSLGFPASSTPAGPSRSQDTVPSPETKDKGAQEIPFPKMEEMENAISNNSQM
+                     NLVQFIKPEPDGSFGSACIGENSKISSDCPFSVPVKQESAKHPCSGASFKGNQTVNPF
+                     PFTDGSYFSFMDDKDYYSLSGILGPPVSSFDSSCEGSGFPNPGLPVGIKQEPDDGSYY
+                     QDSSIPSSAIVGVNSGGQSFHYRIGAQGTISLSRPVAREQAFQHLSSFPPVSTLVETW
+                     KSHSELASRRSDGYPVLEYIPENVSSSSLRSVSSGSSRPSKVCLVCGDEASGCHYGVV
+                     TCGSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRLQKCLQAGMNLGARKSK
+                     KLGKLKGMHEEQPQQRQQPPPQSPEEGTTYIAPVTEPPVNTALVPHMSAISPALTPSP
+                     VKILESIEPEIVYAGYDSSKPDTAEYLLSTLNRLAGKQMIQVVKWAKILPGFRNLPLE
+                     DQITLIQYSWMCLSSFALSWRSYKHTNSQFLYFAPDLIFDEERMRQSAMFELCQGMHQ
+                     ISLQFVRLQLSFEEYTIMKVLLLLSTVPKDGLKSQAAFEEMRANYIKELKKMVTKCPS
+                     NSGQSWQRFYQLTKLLDSMHDLVSDLLEFCFYTFRESQALKVEFPAMLVEIISDQLPK
+                     VESGNAKPLYFHKK"
+     3'UTR           3359..3820
+                     /gene="NR3C2"
+     polyA_site      3801
+                     /gene="NR3C2"
+ORIGIN      
+        1 atcgcttaca gcgctggaaa atcaagagaa acctttgcag agcaccagcc cctgctgctt
+       61 tgctgtccct gtaacgtgac agcatgaggt ctttggtggt gctgcagggt tgggctagca
+      121 ctgtccagca taagctttca ggcaggaatt tgggtctttt ttgatggctg gtcatctttg
+      181 tctgagaacc tgtcggtctg acttatctgt gagacctttt cccatggtgt ggttgagaag
+      241 agattgatgg ggcgggaagc ggggctggca ggcagacaga cagggataga cagagtgagc
+      301 ggatatgcct tgtttcctta ggaaattagg aaatttcctt agtaaattgc actgtcctgc
+      361 cacttattaa tatcactttt tttttttttt tttgcatatg tctttactag ttatggagac
+      421 aaaaggatac cacagctacc ctgaaggctt agatatggag agacggtggg gtcaagttcc
+      481 tcagtctgtg gagtattctt ccctaggtcc tggagagcag gctgatgcca gtaactatat
+      541 ggagattgtg aatgtgagct gtgctgccgg cacctttgca aacagcagcg ctccaggaaa
+      601 caaggaaaaa cctgagcttc tctcctgcct gcagcaggac agcagccatc ccgctgttct
+      661 gccctctgac atcaaaactg aaacagagtc gaaggaactg tcagcgacgg tggccgaatc
+      721 catgggtttg tatatggatt cgatccgaga cgccgactac ccatatgacc agcagaacca
+      781 ggggagcccg ggtaagatct accagaacgt ggagcagctg gtgaagctct acaaggagaa
+      841 cggccactgt tcctctcccc tgcacagccc cagcaggccc ctgcggtccc tgatggcgga
+      901 ctcgggaagc gccatgaatg gcggtgccat gcacgctgtt gtcaaaagcc ccatcgtgtg
+      961 tcaagagaaa agtccctcag gctgcagtcc tcagaacatg gcttcctcgg tgtgtagtcc
+     1021 tgctggtgtt aactcagtgt cctcaactac tgctaacttt gggaactttg ctatgcacag
+     1081 ccccattggg cagggaactc ccttgtcacg atcacccaac gttgagagcc gggggtccat
+     1141 gttgcacagc cccgctcacg ttagcaacgt ggggtctcca ctttctagcc ctataagtag
+     1201 catgaaatca ccaatttcta gtcctcccag tcactgcagc gtgaaatctc ccgtctccag
+     1261 tcctaacaat atcactatgc ggtcttctgt gtccagccct gcaaacatga actcgagaag
+     1321 ctctattgcc agcccttcca atgccaacaa caggtccact cgctccagcc cggcggttag
+     1381 cactgtgggg ggatcttcga tctgtagccc agtcaacagc tctctaggat tccctgcttc
+     1441 cagcacgccg gctggaccta gcagaagcca agatactgtc cccagtccag aaacaaaaga
+     1501 caagggtgct caagaaatcc cgtttcccaa aatggaggaa atggagaatg ccatctcaaa
+     1561 caacagccag atgaacctcg ttcagttcat aaagcccgaa ccagacggtt cattcggtag
+     1621 cgcatgcatt ggagaaaaca gtaaaataag ttctgattgc ccgttttcgg taccggtgaa
+     1681 gcaagagtca gctaaacatc cttgttccgg tgcctctttt aaagggaatc aaacagtaaa
+     1741 tccttttcca tttacagatg gctcatattt ttctttcatg gatgacaaag actactactc
+     1801 tctttctggg attttaggac cacctgtatc ttcctttgat agcagttgcg aaggtagcgg
+     1861 ttttccaaat ccaggcctcc ctgtggggat taagcaggag cctgacgatg gcagctatta
+     1921 ccaagacagt agcataccat cctctgccat tgttggtgta aattcaggcg gacagtcatt
+     1981 tcactacagg atcggtgccc agggcacgat atctctgtcg cggcctgttg ctagagagca
+     2041 agcatttcag cacttgagct ccttccctcc cgtcagcacg ctagtggaga cctggaagtc
+     2101 tcattcggag ctggcatcca gaagaagtga tgggtatcca gttctagagt acattccaga
+     2161 aaatgtgtcc agctcttcat tgagaagtgt atcatctggt tcttcgaggc cttccaaagt
+     2221 gtgtttggtg tgtggagatg aggcatctgg atgtcattac ggggtagtta catgtggcag
+     2281 ctgtaaagtc ttcttcaaga gagctgtaga aggacagcat aattatctgt gtgcgggaag
+     2341 gaacgactgc ataattgata agattcggag gaagaactgc ccagcctgtc gattacagaa
+     2401 atgtctgcaa gctggaatga atctaggagc ccggaagtcc aaaaaactgg gcaaattgaa
+     2461 agggatgcac gaggaacagc cacagcagcg gcagcagccg ccaccccaaa gcccggagga
+     2521 agggacgaca tacatcgctc cagtaactga gccccctgta aacacagcac ttgtccccca
+     2581 catgtctgcc atctcaccag cacttactcc ctctcctgtt aagatccttg aaagcattga
+     2641 accggagatc gtgtacgcag gatatgacag ctcaaaacca gacacagccg agtacctgct
+     2701 ttccacctta aaccgcctgg ctggcaagca gatgattcag gtggtaaagt gggcaaagat
+     2761 acttccagga tttagaaact tgcctctcga ggaccaaatt actttaattc agtattcgtg
+     2821 gatgtgtctg tcatcgtttg ccttgagttg gagatcatac aaacatacaa acagccagtt
+     2881 cctctacttt gctccagacc tgatttttga tgaggaacgg atgcgccagt ctgcaatgtt
+     2941 tgaactgtgc caggggatgc atcagatcag tctgcaattc gttcgcttgc agctcagctt
+     3001 tgaggagtac accatcatga aagttttgct gctgctgagt acagttccca aggatggtct
+     3061 caaaagccaa gctgcatttg aagaaatgag ggcaaattac attaaagaac taaagaagat
+     3121 ggtaactaaa tgtccaagta actctgggca aagctggcag agattctacc aactgactaa
+     3181 acttcttgac tccatgcatg atcttgttag tgacttattg gaattctgtt tctacacctt
+     3241 ccgagagtct caggcactga aagtagagtt tccagccatg ctggtggaaa tcatcagtga
+     3301 ccagctacca aaggtggaat ccgggaatgc caagcccctg tactttcaca agaagtgata
+     3361 gaaaatgtct taaacgcaag aactttgcct taagtttccc tgtgttattc cacacccatg
+     3421 aaggacccaa gaaaccatat tttaaacatg ctatttacac ttgttctgca gtctctgaat
+     3481 agtctaaaat catatgaagg gtttggggaa tggaaaacag ttgacttgga tttggcaaga
+     3541 cctagatgtt tggaaattac cccataaccc taaaacactt agaaaatgtt cctgttcctc
+     3601 tggatgaaaa gccatatcta gtcaataact ctttgatttt gatattttaa cggatggagt
+     3661 tttaaatatg ccatgtagtt tctggtatcg tttgcttgtt ttaaaagggt tcaagaacta
+     3721 atgagaactt tttaaagctt acccttggtt tgcacataaa acgtaaagtc aatatggggc
+     3781 attaatattt cttttcttgc aaaaaaaaaa aaaaaaaaaa
+//
+

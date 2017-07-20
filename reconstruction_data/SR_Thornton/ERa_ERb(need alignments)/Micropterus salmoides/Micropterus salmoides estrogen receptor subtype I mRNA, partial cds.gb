@@ -1,0 +1,95 @@
+LOCUS       AF253062                2043 bp    mRNA    linear   VRT 28-SEP-2010
+DEFINITION  Micropterus salmoides estrogen receptor subtype I mRNA, partial
+            cds.
+ACCESSION   AF253062 AY211020
+VERSION     AF253062.2
+KEYWORDS    .
+SOURCE      Micropterus salmoides (largemouth bass)
+  ORGANISM  Micropterus salmoides
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Centrarchiformes; Centrarchoidei;
+            Centrarchidae; Micropterus.
+REFERENCE   1  (bases 1 to 2043)
+  AUTHORS   Bowman,C.J., Kroll,K.J., Gross,T.G. and Denslow,N.D.
+  TITLE     Estradiol-induced gene expression in largemouth bass (Micropterus
+            salmoides)
+  JOURNAL   Mol. Cell. Endocrinol. 196 (1-2), 67-77 (2002)
+   PUBMED   12385826
+REFERENCE   2  (bases 1 to 2043)
+  AUTHORS   Sabo-Attwood,T., Kroll,K.J. and Denslow,N.D.
+  TITLE     Differential expression of largemouth bass (Micropterus salmoides)
+            estrogen receptor isotypes alpha, beta, and gamma by estradiol
+  JOURNAL   Mol. Cell. Endocrinol. 218 (1-2), 107-118 (2004)
+   PUBMED   15130515
+REFERENCE   3  (bases 1 to 2043)
+  AUTHORS   Bowman,C.J., Sabo-Attwood,T.L. and Denslow,N.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-APR-2000) Pharmacology, University of Florida, Box
+            100267, Gainesville, FL 32610, USA
+REFERENCE   4  (bases 1 to 2043)
+  AUTHORS   Sabo-Attwood,T. and Denslow,N.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JAN-2003) ICBR, University of Florida, 1600 SW Archer
+            Rd., PO Box 100156, Gainesville, FL 32610, USA
+COMMENT     On Feb 9, 2004 this sequence version replaced gi:12005786.
+FEATURES             Location/Qualifiers
+     source          1..2043
+                     /organism="Micropterus salmoides"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:27706"
+     CDS             79..1962
+                     /note="nuclear receptor"
+                     /codon_start=1
+                     /product="estrogen receptor alpha"
+                     /protein_id="AAG44622.2"
+                     /translation="MCKRQSPAQSKQPCGTVLRPRIGPAFTELETLSPQHPSPPLRAP
+                     LSDMYPEESRGSGGGATVDFLEGTYDYVAPTPVPTPLYSHSGYYSAPLDAQGPPSDGS
+                     LQSLGSGPTSPLVFVPSSPRLSPFMHPPSHHYLETTSTPVYRSSVLSSQQPVPREDQC
+                     ATSDESYCVGESGAGAGGFEMAKEMRFCAVCSDYASGYHYGVWSCEGCKAFFKRSIQG
+                     HNDYMCPATNQCTIDRNRRKSCQACRLRKCYEVGMMKGGVRKDRGRVLRRDKRRAGTN
+                     DRDKASKDLEYRTVPPQDRRKHSSSSAGGGGGKSSVTGMSPDQVLLLLQGAEPPMLCS
+                     RQKLSRPYTEVTIMTLLTSMADKELVHMITWAKKLPGFLQLSLHDQVQLLESSWLEVL
+                     MIGLIWRSIHCPGKLIFAQDLILDRNEGDCVEGFVEIFDMLLATASRFRMLKLKPEEF
+                     VCLKAIILLNSGAFSFCTGTMEPLHNSVEVHNMLDTITDALIHHISQSGCSAQQQSRR
+                     QAQLLLLLSHIRHMSNKGMEHLYSMKCKNKVPLYDLLLEMLDAHRIHRPDRPAQFWSQ
+                     ADGEPPFITVNNCNSSSNGGVSSSVGSSSGPRVSHESPSRGPTGPGVLQYGGSRSDCT
+                     HIL"
+ORIGIN      
+        1 agagacgaga gaggcaagca gagagggagt gagaagacgt gcagtcccag tgtttcacag
+       61 ccgatatgag gatgattcat gtgtaagagg cagagcccgg cgcagagcaa gcaaccttgt
+      121 ggaacagtac tcagacccag gattggccca gccttcacag agctggagac cctctcccca
+      181 caacatccct cgcctccgct gcgtgcccct ctcagtgaca tgtaccccga agagagccgg
+      241 gggtccggag ggggagccac tgtggacttt ctggaaggga cctacgatta tgtcgccccc
+      301 acccctgtcc caactcctct ttacagccac tcaggctact actctgcacc tctggatgcc
+      361 caagggccac cctcagatgg cagccttcag tccctgggga gtgggcctac cagtcctctt
+      421 gtgtttgtgc cgtccagccc cagactcagc ccctttatgc acccgcccag ccaccactat
+      481 ctggaaacca cctcaacacc agtctacagg tctagtgtcc tctccagcca gcagccagtt
+      541 cccagagagg accagtgtgc caccagtgac gagtcctact gtgtggggga gtcaggggct
+      601 ggagccgggg ggtttgagat ggccaaggag atgcgtttct gtgccgtgtg cagtgactat
+      661 gcctctgggt accactacgg ggtgtggtcc tgtgagggct gcaaggcctt ctttaagagg
+      721 agcatccagg gtcacaatga ctacatgtgc ccagcaacca atcagtgtac tattgacagg
+      781 aatcggagga agagttgcca ggcttgccgt cttaggaagt gttatgaagt aggcatgatg
+      841 aaaggaggtg tgcgcaagga ccgtggccgt gttttgcgcc gtgacaaacg acgtgctgga
+      901 accaatgaca gagacaaggc ctctaaggat ctggagtaca gaacagtgcc ccctcaggac
+      961 aggaggaaac acagcagcag cagtgccggt ggtggaggag gaaaatcatc agtgaccgga
+     1021 atgtctcctg accaggtgct cctcctgctc cagggtgctg agcccccaat gctgtgctcc
+     1081 cgtcagaagc tgagccgacc ctacaccgag gtcaccataa tgacactgct caccagcatg
+     1141 gctgacaagg agctggtcca catgatcacc tgggccaaga agcttccagg tttcctgcag
+     1201 ctgtccctcc atgaccaggt gcagctgctg gagagctcgt ggctggaggt gctgatgatt
+     1261 gggctcatat ggcggtccat ccactgcccc ggcaaactca tcttcgcaca ggacctcata
+     1321 ctggacagga atgaaggcga ctgtgtggaa ggctttgttg agatctttga catgctgctg
+     1381 gccactgcct cccgcttccg catgctcaaa ctcaaacctg aggagtttgt ctgcctcaaa
+     1441 gctatcatcc tgctcaactc tggtgccttc tctttctgca ccggcacaat ggagcccctc
+     1501 cacaacagcg tggaagtgca caacatgctg gacaccatca cagacgcgct catacatcat
+     1561 atcagccaat caggatgctc ggctcagcag cagtcgaggc ggcaggccca gctgctgctc
+     1621 ctgctctccc acatcaggca catgagcaac aaaggtatgg agcatctcta cagcatgaag
+     1681 tgcaagaaca aagtgcctct gtacgacctt ctgctggaga tgctggacgc tcaccgcata
+     1741 caccgcccag acagaccagc tcagttctgg tcccaggctg acggagagcc tcccttcatc
+     1801 accgtcaaca actgcaacag tagcagcaat ggcggcgtct cctcttcagt cggttccagt
+     1861 tcaggacccc gagtcagcca cgagagcccg agcagaggac ccacaggtcc aggagtcctg
+     1921 caatacggag ggtcccgctc cgactgcacc cacatcctat gaggccgagc acaagcaaca
+     1981 tctgaaggtc aaaagtaatt tgtacggatg atgtgtgtag tacggaatga aagataaagg
+     2041 ttg
+//
+

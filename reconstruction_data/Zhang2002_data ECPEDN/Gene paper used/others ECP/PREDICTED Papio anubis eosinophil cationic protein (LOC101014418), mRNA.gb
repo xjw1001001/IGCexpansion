@@ -1,0 +1,76 @@
+LOCUS       XM_003918847             758 bp    mRNA    linear   PRI 29-AUG-2016
+DEFINITION  PREDICTED: Papio anubis eosinophil cationic protein (LOC101014418),
+            mRNA.
+ACCESSION   XM_003918847
+VERSION     XM_003918847.3
+DBLINK      BioProject: PRJNA169345
+KEYWORDS    RefSeq.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003901591.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Aug 29, 2016 this sequence version replaced gi:685620295.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Papio anubis Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..758
+                     /organism="Papio anubis"
+                     /mol_type="mRNA"
+                     /isolate="1X1155"
+                     /db_xref="taxon:9555"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+     gene            1..758
+                     /gene="LOC101014418"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 14 ESTs, 6 Proteins, and
+                     94% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 10 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:101014418"
+     CDS             97..579
+                     /gene="LOC101014418"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_003918896.1"
+                     /db_xref="GeneID:101014418"
+                     /translation="MVPKLFTSQICLLLLLGLMGVECSLHARPPQFTKAQWFAIQHIN
+                     VNPPRCTIAMRVINNYQRRCKNQNTFLRTTFANVVSACRNQSIRCPRNRTLHNCHRSS
+                     YRVPLLHCDLINPGAQNISTCRYADRPGRRFYVVACESRDPRDSPRYPVVPVHLDTII
+                     "
+ORIGIN      
+        1 aaacagttcc aagtaaggga gaccagctgc ccctgaaccc cagaacaacc agctggatca
+       61 gttctcacag gagccacagt gtagagactg ggaaacatgg ttccaaaatt gttcacttcc
+      121 caaatttgtc tgcttcttct gttggggctt atgggtgtgg agtgctcact ccatgccaga
+      181 cccccacagt ttacgaaggc tcagtggttt gccatccagc acatcaatgt gaacccccct
+      241 cgatgcacca ttgcaatgcg ggtaataaat aattatcaac ggcgttgcaa aaaccaaaat
+      301 acttttcttc gtacaacttt tgcaaatgta gttagtgctt gtcgtaacca aagtatacgc
+      361 tgccctcgta acagaactct ccacaattgt catcgtagta gctaccgggt gcctttactc
+      421 cactgtgacc tcataaatcc aggtgcacag aatatttcaa cctgcaggta tgcagacaga
+      481 ccaggacgga ggttctatgt agttgcatgt gaaagcagag atccacggga ttctccacgg
+      541 tatccagtgg ttccagttca cctggatacc atcatctaag ctcctgtatc agcactcctc
+      601 atcatcactc acctgccagg ctcctcaatc atagccaaga tcccattcct ccatgtaccc
+      661 tgggtgtcag catctgtcct catcagtctc catacccctt caggtttcct gagctgaagt
+      721 cccttgtgga ctctgcaata aactgctttg caaattca
+//
+

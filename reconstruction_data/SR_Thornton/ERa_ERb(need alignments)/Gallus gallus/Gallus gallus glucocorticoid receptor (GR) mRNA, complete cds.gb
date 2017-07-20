@@ -1,0 +1,96 @@
+LOCUS       DQ227738                2521 bp    mRNA    linear   VRT 07-MAY-2007
+DEFINITION  Gallus gallus glucocorticoid receptor (GR) mRNA, complete cds.
+ACCESSION   DQ227738
+VERSION     DQ227738.1
+KEYWORDS    .
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+REFERENCE   1  (bases 1 to 2521)
+  AUTHORS   Kwok,A.H., Wang,Y., Wang,C.Y. and Leung,F.C.
+  TITLE     Cloning of chicken glucocorticoid receptor (GR) and
+            characterization of its expression in pituitary and extrapituitary
+            tissues
+  JOURNAL   Poult. Sci. 86 (2), 423-430 (2007)
+   PUBMED   17234861
+REFERENCE   2  (bases 1 to 2521)
+  AUTHORS   Kwok,A.H.Y., Wang,Y., Wang,C.Y. and Leung,F.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-SEP-2005) Department of Zoology, The University of
+            Hong Kong, Pokfulam Road, Hong Kong, China
+FEATURES             Location/Qualifiers
+     source          1..2521
+                     /organism="Gallus gallus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9031"
+                     /chromosome="13"
+     gene            1..2521
+                     /gene="GR"
+     CDS             6..2324
+                     /gene="GR"
+                     /codon_start=1
+                     /product="glucocorticoid receptor"
+                     /protein_id="ABB05045.1"
+                     /translation="MDSKELLKSSDQDETRKNALMSTKGGIVMDFHPPFRGGASAQAP
+                     VSAAPLPVSSQSDSAQQPALADFSKGLVNNVPPPDLSKAVSLSMGLYMGETDAKVMGN
+                     DLGFSQQGQTGISSGETDFRLLEESIASLNKSSSLAEDAKGAVSSEAPLEPDFVGMAG
+                     RGPLEPGASVQSQVGSNGGSLKLSSEDQSTLDILQDLELPSVSPGKEPNGSPWRLDPL
+                     LDDGGLLSPISADDTFLLEGNLGEDCKPPILSDTKPKINDRGDLLPSSKMPMPQVKTE
+                     KEDFIELCTPGIKQENVGPIYCQANFSGSNMLGTKVSAISIHGVSTSGGQMYHYDLNT
+                     ASLSQQQDQKPIFNIIPSLPAGSENWNRCQGSGDEALAPLGTLNLSGRPAFSNGYSSP
+                     GLRSDVSSSPSTTSATAGPPPKLCLVCSDEASGCHYGVLTCGSCKVFFKRAVEGQHNY
+                     LCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEARKTKKKIKGIQQTTATGTREAAE
+                     AAGNKSVVPASLPQLTPTLVSLLEVIEPEVLYSGYDSTLPDSSWRIMSTLNMLGGRQV
+                     VAAVKWAKAIPGFRNLHLDDQMTLLQYSWMFLMAFALGWRSYKQSNGNLLCFAPDLII
+                     NEQRMNLPCMYEQCKHMLMVARELSRLQVSYEEYLCMKTLLLLSTIPKEGLKSQTLFE
+                     EIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSMHDVVENLLSFCFQTFLDKSM
+                     SIEFPEMLAEIISNQIPKYSNGNIKKLLFHQK"
+ORIGIN      
+        1 aaatcatgga ttccaaagaa ttgcttaagt cgtcagacca agacgaaacc aggaaaaatg
+       61 cgctcatgag taccaaagga gggatcgtga tggacttcca tccgcccttc aggggtggag
+      121 cctctgcaca agcccctgta tctgcagctc ctctcccggt gtcttctcag tcagactctg
+      181 ctcagcaacc tgctctggct gacttctcaa aaggattggt aaacaatgtg cctccgccag
+      241 acctgtccaa ggcagtgtcg ctatccatgg gactgtatat gggtgaaaca gatgcgaaag
+      301 tgatgggaaa cgaccttgga ttttcacagc agggccaaac tggcatctct tctggagaaa
+      361 cggacttcag gctcctggag gaaagcattg caagcttgaa caagtcctcg agcctggcgg
+      421 aggacgcgaa gggagcagtg tcgtccgagg cgccgctgga gccggacttt gtgggcatgg
+      481 ctggccgcgg gcccctggag ccgggggctt cggtccaaag ccaggtcggc tccaatggcg
+      541 gcagcctgaa gctgtcctct gaagaccaaa gcaccctgga tatcctccag gatttggaat
+      601 tgccatcggt atcgcctggc aaagagccga atgggagtcc gtggcggctg gacccgttgc
+      661 tcgatgacgg aggcttgctg tcccccatct ccgctgacga cacgttcctc ctggagggaa
+      721 acctggggga agactgcaag ccccccattt tgtctgacac taaacctaaa attaatgacc
+      781 gtggtgacct tttacccagt tccaaaatgc cgatgcctca agtgaaaacg gaaaaggaag
+      841 acttcattga actctgtact cctggcataa agcaagaaaa cgtgggccca atttactgtc
+      901 aggcaaactt ctccgggtct aatatgctgg gtactaaagt ctctgccatc tctatccatg
+      961 gtgtcagcac ctctggggga cagatgtatc actatgattt aaatactgca tccctctctc
+     1021 agcagcagga tcagaaacca atttttaata tcattccatc tcttcctgcc ggttcagaaa
+     1081 attggaatag gtgccaggga tcaggggacg aggctttagc tcccttggga acgctcaacc
+     1141 tttctggcag acctgctttc tctaatggct attcaagccc tggactgaga tcagatgtaa
+     1201 gctcttctcc atccacaacc tcagcgactg cgggaccacc tcccaagctc tgcctcgtat
+     1261 gctctgacga ggcctctggg tgccattatg gtgttcttac ttgtggcagc tgcaaagtgt
+     1321 tcttcaaaag agccgtggaa gggcagcaca actatctctg cgctggaagg aacgattgca
+     1381 ttattgacaa aattcggcgg aagaactgcc cggcgtgccg ctatcggaaa tgtctccagg
+     1441 caggcatgaa cctcgaagct cgcaagacga agaagaagat aaaaggcatt cagcagacca
+     1501 ctgccacggg cacgagggaa gctgccgaag ctgctggaaa taagagcgtg gttcccgcgt
+     1561 cgctgccgca gctcacaccc accctggtgt cactgctgga ggtgatcgag ccggaggtgc
+     1621 tgtactcagg ctatgacagc acgctgcccg actccagctg gcgcatcatg tcaaccctca
+     1681 acatgttagg aggacggcaa gtggtagctg cggtcaagtg ggcaaaggca ataccaggtt
+     1741 tcagaaactt acacctggat gaccaaatga cccttctgca gtactcctgg atgttcctaa
+     1801 tggcttttgc tttaggatgg aggtcataca aacaatcaaa tggaaatctc ctgtgctttg
+     1861 caccagatct gattattaat gagcagagaa tgaatctacc ctgtatgtat gaacaatgca
+     1921 aacatatgct gatggttgct cgcgagctgt cacggctgca agtctcatat gaagagtatc
+     1981 tctgcatgaa aacgttgctt ctcctctcta caattcccaa ggaaggcctg aagagccaaa
+     2041 ctttgtttga agaaattcgc atgacataca taaaagagct gggaaaggcc atcgtgaaaa
+     2101 gagaagggaa ctcaagccag aactggcagc ggttctatca gctgacgaag ctgttggact
+     2161 ctatgcacga tgtggttgaa aatcttctga gcttttgctt ccagacgttt ttggataaat
+     2221 ccatgagtat tgagttccca gaaatgttgg cagaaatcat cagcaaccag ataccaaaat
+     2281 actcaaatgg aaatataaag aagctcttat ttcatcagaa gtgactgcct taatacaaaa
+     2341 gggttgcctt aagaaaacgt caaatgatag cttttttctt cttcttcttt tttttttttt
+     2401 tttttgtaaa gacagaacct accagacttg ttaattttgt ccttgcagcg gtgtttcttt
+     2461 tgtaattatg cactacatgt ggtttacaga gggccaagat ttaggctata gaagcagcgg
+     2521 a
+//
+

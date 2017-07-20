@@ -1,0 +1,153 @@
+LOCUS       BC044349                3111 bp    mRNA    linear   VRT 15-JUL-2006
+DEFINITION  Danio rerio estrogen receptor 2a, mRNA (cDNA clone MGC:55251
+            IMAGE:2601181), complete cds.
+ACCESSION   BC044349
+VERSION     BC044349.1
+KEYWORDS    MGC.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1  (bases 1 to 3111)
+  AUTHORS   Strausberg,R.L., Feingold,E.A., Grouse,L.H., Derge,J.G.,
+            Klausner,R.D., Collins,F.S., Wagner,L., Shenmen,C.M., Schuler,G.D.,
+            Altschul,S.F., Zeeberg,B., Buetow,K.H., Schaefer,C.F., Bhat,N.K.,
+            Hopkins,R.F., Jordan,H., Moore,T., Max,S.I., Wang,J., Hsieh,F.,
+            Diatchenko,L., Marusina,K., Farmer,A.A., Rubin,G.M., Hong,L.,
+            Stapleton,M., Soares,M.B., Bonaldo,M.F., Casavant,T.L.,
+            Scheetz,T.E., Brownstein,M.J., Usdin,T.B., Toshiyuki,S.,
+            Carninci,P., Prange,C., Raha,S.S., Loquellano,N.A., Peters,G.J.,
+            Abramson,R.D., Mullahy,S.J., Bosak,S.A., McEwan,P.J.,
+            McKernan,K.J., Malek,J.A., Gunaratne,P.H., Richards,S.,
+            Worley,K.C., Hale,S., Garcia,A.M., Gay,L.J., Hulyk,S.W.,
+            Villalon,D.K., Muzny,D.M., Sodergren,E.J., Lu,X., Gibbs,R.A.,
+            Fahey,J., Helton,E., Ketteman,M., Madan,A., Rodrigues,S.,
+            Sanchez,A., Whiting,M., Madan,A., Young,A.C., Shevchenko,Y.,
+            Bouffard,G.G., Blakesley,R.W., Touchman,J.W., Green,E.D.,
+            Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J., Myers,R.M.,
+            Butterfield,Y.S., Krzywinski,M.I., Skalska,U., Smailus,D.E.,
+            Schnerch,A., Schein,J.E., Jones,S.J. and Marra,M.A.
+  CONSRTM   Mammalian Gene Collection Program Team
+  TITLE     Generation and initial analysis of more than 15,000 full-length
+            human and mouse cDNA sequences
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (26), 16899-16903 (2002)
+   PUBMED   12477932
+REFERENCE   2  (bases 1 to 3111)
+  CONSRTM   NIH MGC Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-2003) National Institutes of Health, Mammalian
+            Gene Collection (MGC), Bethesda, MD 20892-2590, USA
+  REMARK    NIH-MGC Project URL: http://mgc.nci.nih.gov
+COMMENT     Contact: MGC help desk
+            Email: cgapbs-r@mail.nih.gov
+            Tissue Procurement: Dr. Sumio Sugano and Dr. Ko-ichi Kawakami
+            cDNA Library Preparation: Dr. Sumio Sugano and Dr. Ko-ichi Kawakami
+            cDNA Library Arrayed by: The I.M.A.G.E. Consortium (LLNL)
+            DNA Sequencing by: Institute for Systems Biology
+            http://www.systemsbiology.org
+            contact: amadan@systemsbiology.org
+            Anup Madan, Jessica Fahey, Erin Helton, Mark Ketteman, Anuradha
+            Madan, Stephanie Rodrigues, Amy Sanchez and Michelle Whiting
+            
+            Clone distribution: MGC clone distribution information can be found
+            through the I.M.A.G.E. Consortium/LLNL at: http://image.llnl.gov
+            Series: IRAK Plate: 101 Row: d Column: 18
+            This clone was selected for full length sequencing because it
+            passed the following selection criteria: matched mRNA gi: 27881835.
+FEATURES             Location/Qualifiers
+     source          1..3111
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /strain="AB"
+                     /db_xref="taxon:7955"
+                     /clone="MGC:55251 IMAGE:2601181"
+                     /tissue_type="Whole body, adult, (one male and one female,
+                     including unfertilized eggs)"
+                     /clone_lib="Sugano Kawakami zebrafish DRA"
+                     /lab_host="DH10B"
+                     /note="Vector: pME18S-FL3"
+     gene            1..3111
+                     /gene="esr2a"
+                     /gene_synonym="ER[b]2"
+                     /gene_synonym="ER[b]a"
+                     /gene_synonym="zfER-beta2"
+                     /gene_synonym="zfER[b]2"
+                     /db_xref="GeneID:317734"
+                     /db_xref="ZFIN:ZDB-GENE-030116-2"
+     CDS             139..1800
+                     /gene="esr2a"
+                     /gene_synonym="ER[b]2"
+                     /gene_synonym="ER[b]a"
+                     /gene_synonym="zfER-beta2"
+                     /gene_synonym="zfER[b]2"
+                     /codon_start=1
+                     /product="estrogen receptor 2a"
+                     /protein_id="AAH44349.1"
+                     /db_xref="GeneID:317734"
+                     /db_xref="ZFIN:ZDB-GENE-030116-2"
+                     /translation="MSEYPEGDSPLLQLQEVDSGRVGGHILSPIFNSSSPSLPVENHP
+                     ICIPSPYTDLGHDFSTLPFYSPALLGYSTSPLSDCSSVRQSLSPTLFWPPHSHVSSLT
+                     LQQQSRLQQNHATSGTWTEHTPHDHVEEENSKPLVKRVADTEETSVSLRGKADMHYCA
+                     VCSDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRK
+                     CYEVGMMKCGLRRDRSSYQQRGAQQKRLVRFSGRMRMTGPRSQEIKSIPRPLSGNEVV
+                     RISLSPEELISRIMEAEPPEIYLMKDMKKPFTEANVMMSLTNLADKELVHMISWAKKI
+                     PGFVELSLFDQVHLLECCWLEVLMLGLMWRSVNHPGKLIFSPDLCLSRDESSCVQGLV
+                     EIFDMLLAATSRFRELKLQREEYVCLKAMILLNSNMCLGSSEGGEDLQSRSKLLCLLD
+                     SVTDALVWAISKTGLSFQQRSTRLAHLLMLLSHIRHVSNKGMDHLHCMKMKKMVPLYD
+                     LLLEMLDAHIMHSSRLSHSGPRAPAAHKDNKSVQEAFPCSSQHGP"
+ORIGIN      
+        1 agagacagtg tggtataccg ccttgctcac tgtcttgcta caacactgag gagtatcgag
+       61 gactgagaag ttcaccatga cacacatcaa cagtcccccg ttactgatgc gacagctctg
+      121 aactcatccg ccttcaccat gtccgagtat cccgaaggag acagtcctct tcttcagctg
+      181 caggaagtgg actcaggccg tgtgggaggt cacatcctct cccccatctt caactcatcc
+      241 tctccatctc tgccagtgga gaatcacccc atctgcatcc catcgcccta cacagacctt
+      301 ggccacgact tcagcactct gcccttttac agtcccgctc tgctggggta cagcacatcg
+      361 cctttatcgg actgctcgtc tgtgcgccag tcgctaagcc cgactttatt ttggccacct
+      421 cacagccatg tttcctcact cacattgcaa caacagagtc gacttcaaca gaaccatgct
+      481 actagtggga cttggacaga acatacacca catgatcatg ttgaagagga aaacagcaaa
+      541 ccactggtga agcgggtagc agatacagag gagacgtctg tgtctctgag aggtaaagct
+      601 gacatgcact actgtgccgt ctgcagtgat tacgcctctg gatatcatta tggagtgtgg
+      661 tcgtgtgaag gctgcaaagc ctttttcaag aggagtatac aaggacacaa tgactacatc
+      721 tgtcctgcca caaaccaatg cactatcgac aagaaccgcc gcaaaagctg ccaggcctgc
+      781 cgactccgaa agtgctatga agttggaatg atgaaatgtg ggttgcggcg agatcgtagc
+      841 agctaccaac aaagaggagc acagcagaaa cgactggtcc gattctctgg cagaatgaga
+      901 atgactggtc cgaggtctca agagataaag agtatcccgc gtcctctcag tgggaatgag
+      961 gtggtgcgca tatcactgag cccagaggag ctaatctccc ggatcatgga agcagagccg
+     1021 ccggagattt atctcatgaa agacatgaag aagcccttca ctgaggcaaa cgtcatgatg
+     1081 tcactgacca acctggctga caaagagctt gtgcacatga tcagctgggc caagaagatc
+     1141 ccaggttttg tggagctcag tcttttcgat caggtgcatt tgttggagtg ctgctggtta
+     1201 gaggtgctta tgctgggatt gatgtggcgc tccgttaatc accctggaaa gctcattttc
+     1261 tctccagacc tctgtctcag cagggatgaa agcagctgtg tgcaggggtt ggtggagatc
+     1321 tttgatatgc tgctggcagc cacgtccaga ttcagagagt tgaagttaca gagagaagag
+     1381 tacgtgtgtc tcaaagccat gatcctcctg aactccaaca tgtgtctggg ctcgtctgag
+     1441 ggaggagaag atctgcagag ccgctccaag ctgctgtgtc tgctggactc ggtgactgac
+     1501 gctctggttt gggccatctc gaagaccggc cttagcttcc agcagcgctc caccagactg
+     1561 gcccatctgc tcatgctgct ctcacacata cgccacgtca gtaacaaagg catggaccac
+     1621 ctgcactgca tgaagatgaa gaagatggtt cctctgtatg acctgctcct ggagatgctg
+     1681 gacgctcaca tcatgcacag ctcccgtttg tctcactccg gccctcgagc ccctgctgct
+     1741 cacaaagaca acaagagtgt ccaggaggcc tttccctgca gctcacagca cggaccctaa
+     1801 acacggccct cacagtcaca caaacacagt acttaaggat gatctgtagt ttcgggagga
+     1861 tggacaacca aaacacccac ataaaagcaa ggagtaggat ttcacaagac gaaaagcatc
+     1921 atggatatct tgaatgtttt tcctgttttt aaatgttggc aattgctgtg aaatctcttt
+     1981 attgtttcca cacaactctg acaacttttt aatgatttta tgtagcacaa ctgcaaaaga
+     2041 aaagaaaaaa agaaatgaat acccacattg gatttcaaga gatttttgga aacttcatta
+     2101 cacggtgaac tataatttct ggcattatat gcataatgga ggccatctag taggagaaaa
+     2161 ccaagtaaac caatcatgcc caccttcttt tttaaaagaa ccagttcaaa ctcaattgag
+     2221 agagtgcatt ggtgccatga cccggatgac agtaggtttt attaaatctg tcatctctgg
+     2281 ccttgagaga ctgtggcctt tagcattagc cttgttagca gcctgcctct caagtactca
+     2341 ccagttcaga tcccgctgta agtaggacgg ggttataatg tccatgaaag ttttggcctc
+     2401 attttcatga catccgtgac aacatggaca agagcagtgt gcgatctcta ctttttctct
+     2461 ttcttacata agcttgctgc tttcacattt tgtaaaatga aacaaaatat cgtaaactca
+     2521 ttactttcga caatactggc agtaaaatca aatttgattt agtctgttgt aaatggacag
+     2581 aatcattcct gatagatgag acaaagcatt gtatgctgag tgagcaaacc atattctgga
+     2641 ctaagggcaa gcagtatttt agacttacaa aacaaaaaac ctgaatgatt gaatgaatgt
+     2701 cagctggatg tttcatttac atctgttgtt attgagaaat ggaaccattg caaaatggcc
+     2761 tcgtgcacat tttagtgatt aattcttttt tgcaaacaaa catttatgta caggagtgac
+     2821 agccgcattt tacagccatc gccgtgacca tatcttgaac attggagggt ttgtgttaga
+     2881 aattataaag taggacattt caggcctaat tctagtggaa aggtatttgc aaaaaaaaaa
+     2941 ttacaaaatc aatttgtaaa cctaatatgt ttcacattca gttagaaaag actataatta
+     3001 ggtaacatct cagttcacaa tgatgaaatc tgagttaaaa agcatcatta ctgctggcta
+     3061 ttgaatattt ctaccataaa accatttgta taacaaaaaa aaaaaaaaaa a
+//
+

@@ -1,0 +1,60 @@
+LOCUS       DQ195097                1377 bp    mRNA    linear   MAM 26-JUL-2016
+DEFINITION  Canis familiaris glucocorticoid receptor mRNA, partial cds.
+ACCESSION   DQ195097
+VERSION     DQ195097.1
+KEYWORDS    .
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (bases 1 to 1377)
+  AUTHORS   Peters,I.R., Ray,L. and Day,M.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-SEP-2005) School of Clinical Veterinary Science,
+            University of Bristol, Langford House, Langford, Bristol BS40 5DU,
+            United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..1377
+                     /organism="Canis lupus familiaris"
+                     /mol_type="mRNA"
+                     /sub_species="familiaris"
+                     /db_xref="taxon:9615"
+     CDS             <1..1327
+                     /codon_start=2
+                     /product="glucocorticoid receptor"
+                     /protein_id="ABA40754.1"
+                     /translation="MNTASLSQQQDQKPIFNVIPPIPVGSENWNRCQGSGDDNLASLG
+                     TLNFPGRSVFSNGYSSPGMRPDVSSPPSSSSAATGPPPKLCLVCSDEASGCHYGVLTC
+                     GSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEARKTKKK
+                     IKGIQQATPGASQETSENPANKTIVPATLPQLTPTLVSLLEVIEPEVLYAGYDSSVPD
+                     STWRIMTTLNMLGGRQVIAAVKWAKAIPGFRNLHLDDQMTLLQYSWMFLMAFALGWRS
+                     YRQSSGSMLCFAPDLIINEQRMTLPCMYDQCKHMLFVSSELQRLQVSYEEYLCMKTLL
+                     LLSSVPKEGLKSQELFDEIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSMHDV
+                     VENLLNFCFQTFLDKTMSIEFPEMLAEIITNQIPKYSSGNIKKLLFHQK"
+ORIGIN      
+        1 catgaataca gcatcccttt ctcaacagca ggatcagaag cctattttta atgtcattcc
+       61 accaattcct gttggttcag aaaattggaa taggtgccaa ggatctggcg atgataactt
+      121 ggcttccttg gggactttga acttccctgg tcggtcggtg ttttctaatg gctattcaag
+      181 ccctggaatg agaccagatg tcagctctcc tccatccagc tcctcagcgg caacgggacc
+      241 acctcccaaa ctctgcctcg tgtgttctga cgaggcctcg gggtgtcatt acggggtctt
+      301 gacttgtgga agctgcaaag tgttcttcaa gagagcggtg gaaggacaac acaattatct
+      361 ttgtgctgga agaaatgatt gtatcattga taagattcga agaaaaaact gtccagcatg
+      421 ccgctatcgg aaatgtcttc aagctgggat gaacttggaa gctcgaaaaa caaagaaaaa
+      481 gataaaagga attcagcagg ccactccagg agcatcacaa gaaacttctg aaaatcctgc
+      541 taacaaaaca atagttcctg caacattacc acagctcacc cctaccctgg tgtccctgct
+      601 ggaggtcatt gaacccgagg tgttatacgc agggtatgac agctctgtcc cagattcgac
+      661 ttggcggatc atgaccacac tcaacatgtt aggtgggcgg caagtgatcg cagcagtgaa
+      721 atgggccaag gcaataccag gattcaggaa cttacacctg gatgaccaaa tgaccctact
+      781 gcagtattca tggatgttcc tcatggcatt tgccctgggg tggagatcat atagacaatc
+      841 aagtggaagc atgctgtgtt ttgctcctga tctgattatt aatgagcaga gaatgaccct
+      901 cccctgcatg tatgaccaat gtaaacacat gctgtttgtt tcctccgagt tacagaggct
+      961 tcaggtctct tatgaagagt atctctgtat gaaaacctta ctgcttctct cttcagttcc
+     1021 taaggaaggt ttgaagagcc aagaactgtt tgatgaaatt agaatgacct acatcaaaga
+     1081 gctaggaaaa gccattgtca agagggaagg gaactccagc cagaactggc aacgctttta
+     1141 tcaactgaca aaactcttgg actccatgca tgatgtggtt gaaaatctcc ttaacttttg
+     1201 cttccaaaca tttttggata agaccatgag tattgaattc ccagagatgt tagctgaaat
+     1261 catcaccaat cagataccaa aatattcaag tggaaatatc aaaaaacttc tgtttcatca
+     1321 aaagtgactg ccttaataag aaaggttgcc ttaaagaaag ttgaatttat agctttt
+//
+

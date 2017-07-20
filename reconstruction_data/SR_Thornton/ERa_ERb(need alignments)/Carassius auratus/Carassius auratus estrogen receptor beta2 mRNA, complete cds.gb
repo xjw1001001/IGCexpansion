@@ -1,0 +1,90 @@
+LOCUS       AF177465                2650 bp    mRNA    linear   VRT 21-FEB-2000
+DEFINITION  Carassius auratus estrogen receptor beta2 mRNA, complete cds.
+ACCESSION   AF177465
+VERSION     AF177465.1
+KEYWORDS    .
+SOURCE      Carassius auratus (goldfish)
+  ORGANISM  Carassius auratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Carassius.
+REFERENCE   1  (bases 1 to 2650)
+  AUTHORS   Ma,C.H., Dong,K.W. and Yu,K.L.
+  TITLE     cDNA cloning and expression of a novel estrogen receptor
+            beta-subtype in goldfish (Carassius auratus)
+  JOURNAL   Biochim. Biophys. Acta 1490 (1-2), 145-152 (2000)
+   PUBMED   10786629
+REFERENCE   2  (bases 1 to 2650)
+  AUTHORS   Ma,C.H., Dong,K.W. and Yu,K.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-AUG-1999) Department of Zoology, University of Hong
+            Kong, Pokfulam Road, Hong Kong, China
+FEATURES             Location/Qualifiers
+     source          1..2650
+                     /organism="Carassius auratus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7957"
+                     /tissue_type="brain/pituitary"
+     CDS             126..1958
+                     /codon_start=1
+                     /product="estrogen receptor beta2"
+                     /protein_id="AAF35170.1"
+                     /translation="MSSSTGPAPASASPVQANRGNSPNILPLLYTSQLGMDSQTICIP
+                     SPYVEACQDYSPPHGGEISHGALTLYSPVSSPVLGYTHPPVSESLVPLNSAIFWPPHP
+                     THSTPSLHCPSPLAYRETHAHTTWEDAKTHINQSSSVLTHAKLLGQQLDGDDGLNPSP
+                     GILGKGDTHFCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKS
+                     RRKSCQACRLRKCYEVGMMKCGVRRERCSYRGGRHRRNPPIRDSSGGAIGVRGHSQPH
+                     LEFPLSPTHPLFPLGDRAEGCGQNLSPEQLVNCILEAEPPQIYLREPIKKPYTEASMM
+                     MSLTNLADKELVLMISWAKKIPGFVELTLSDQVHLLECCWLDILMLGLMWRSVDHPGK
+                     LIFSPDLKLNRDEGTCVEGIMEIFDMLLATTSRFRELKLQREEYVCLKAMILLNSSNC
+                     SRLPQTPEDVESRGKVLRLLDSVTDALVWTISRTGLSSHQQSIRLAHLLMLLSHIRHL
+                     SNKGIEHLSTMKRKNVVLLYDLLLEMLDANTSQSSRMLAAHTKASLRMDTQQTTEILH
+                     TSKQQPALKESNQDTRHSPQAEGTVDKTLHRVDKTLHRVDVDTD"
+ORIGIN      
+        1 aattcggcac gagctccagc tcacctcacc tgctgcctgc atgctgtcgc aagcacttcc
+       61 tctgacacag ttgggcctac aattcagtag tctgttaagc caggacctcg cttgagttct
+      121 ccagaatgag ctcctccact ggtccggccc cagcgtcagc ctcccctgtc caggccaatc
+      181 gagggaactc gcctaacatc ttaccacttc tgtacacgtc ccagctcggc atggacagcc
+      241 agaccatctg cattccatct ccgtatgtgg aagcctgtca ggattattca ccaccgcacg
+      301 ggggagagat cagccacgga gccttaacgc tctacagccc cgtgtcctca ccagtgctgg
+      361 ggtacactca tcctcctgtg tccgaaagcc tggtcccttt aaattcagca atcttctggc
+      421 ctccccaccc cacacactct acgccgtctc tgcactgccc gtctccactg gcctacaggg
+      481 aaacacatgc acacaccacc tgggaggacg ccaagacaca cattaaccag agcagttctg
+      541 tccttactca tgcaaagctg ttagggcagc aactggatgg tgatgatggc ttgaatccct
+      601 caccaggcat tttgggtaaa ggagacacac acttctgtgc ggtgtgtcat gactacgcct
+      661 ctgggtatca ctatggtgtc tggtcatgtg aggggtgcaa ggctttcttc aaacggagca
+      721 ttcaaggtca caatgattat atttgtccag ccaccaacca gtgcaccatt gacaagagcc
+      781 gacgcaagag ctgccaggcc tgtcgactcc gcaagtgcta tgaagtgggc atgatgaagt
+      841 gtggtgtgag acgggagcgc tgcagttacc gaggtggacg tcatcgtcgc aaccccccga
+      901 tcagagacag ctcaggtggg gcgatagggg tcagaggtca ttcccagcct catttagaat
+      961 ttcccctcag tcccactcat ccactcttcc ctttggggga cagagctgag gggtgtggcc
+     1021 agaacctctc cccagagcag ttggtcaact gtattctgga ggcggagcct cctcagattt
+     1081 acctgagaga gccaataaag aagccgtaca cggaggccag catgatgatg tcactaacca
+     1141 accttgctga caaggaactg gtgctcatga tcagctgggc gaagaagata ccaggttttg
+     1201 tggagctgac tttgtcagat caggtgcatc tgttggaatg ctgctggctg gatatattga
+     1261 tgttgggact gatgtggaga tccgtggatc atcccgggaa actcatcttc tcacccgatc
+     1321 tcaaactcaa cagggatgaa gggacctgcg ttgaaggcat catggagatc tttgacatgc
+     1381 tgctggccac cacctccaga ttcagagaac tgaagcttca gagagaggaa tacgtctgcc
+     1441 ttaaagccat gatccttctc aactccagta actgttcaag attgccacag actcctgaag
+     1501 atgtggagag ccgtgggaag gttctgaggc tgctggactc ggtgactgat gctctagttt
+     1561 ggaccatctc cagaacaggc ttgtcctcac atcaacagtc catccggctc gcccatctcc
+     1621 tgatgctgct ctcacatatt cgtcacctca gcaacaaagg catcgagcat ctgtcaacca
+     1681 tgaagagaaa aaatgtggtg ctgctgtatg atcttctgct ggagatgctg gatgccaaca
+     1741 catcccagag cagccggatg ctagcggctc acacgaaagc ctctctccgg atggacacac
+     1801 aacagaccac agagatcctc cacacatcca aacagcagcc tgcattgaaa gagagcaacc
+     1861 aggataccag acacagtcca caagctgaag ggacagtgga taagacatta catcgagtgg
+     1921 ataagacatt acatcgagtg gacgtggaca cagactgaca atatgccttt tgtgggataa
+     1981 aatctcccag catgcagcat cggatatgaa tccaatttct aagccacttg cgtagggtcg
+     2041 tgggggtttc aaagcagacc tggaaaaaaa aaacccttag atgaccaaac agggctttca
+     2101 aatggcactc attgccctaa tcccttcgaa gggtttactg cgaagggatg agaaaaactg
+     2161 ttccttgcaa accacttctg catcattttg aaatcaaaag tcatcatctg catcaaagtg
+     2221 tccatcagtt gtacctgttg tacctgttga aatccatcat tccgatatgt ccttcagaag
+     2281 tggatttatc tcatttagaa tgcagcatga aataattttc taacattttc ccacacactc
+     2341 catattttgt caatggctgg acaaacacag tcccaaacta atgtgattgg ttgagccaat
+     2401 gccactattg agcaggctga gacgctcaaa ttaacaggat gttaatagct ccactgtgtt
+     2461 tagtttttgg ggaattaacc taatttaaag cttaaaacag gaaaaaatat actgacgaca
+     2521 cactgacaca acagtacgtt tctacagcta ccaaaactaa attcatttta ttgtattcag
+     2581 ctgcataata aataaatatg tgggaaataa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     2641 aaaaaaaaaa
+//
+

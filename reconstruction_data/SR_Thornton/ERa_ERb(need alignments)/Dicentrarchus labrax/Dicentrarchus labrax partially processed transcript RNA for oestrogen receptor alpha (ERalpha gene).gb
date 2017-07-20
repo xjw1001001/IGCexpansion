@@ -1,0 +1,169 @@
+LOCUS       AJ505009                3812 bp    RNA     linear   VRT 14-NOV-2006
+DEFINITION  Dicentrarchus labrax partially processed transcript RNA for
+            oestrogen receptor alpha (ERalpha gene).
+ACCESSION   AJ505009
+VERSION     AJ505009.1
+KEYWORDS    ERalpha gene; oestrogen receptor alpha.
+SOURCE      Dicentrarchus labrax (European seabass)
+  ORGANISM  Dicentrarchus labrax
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Moronidae; Dicentrarchus.
+REFERENCE   1
+  AUTHORS   Halm,S., Martinez-Rodriguez,G., Rodriguez,L., Prat,F.,
+            Mylonas,C.C., Carrillo,M. and Zanuy,S.
+  TITLE     Cloning, characterisation, and expression of three oestrogen
+            receptors (ERalpha, ERbeta1 and ERbeta2) in the European sea bass,
+            Dicentrarchus labrax
+  JOURNAL   Mol. Cell. Endocrinol. 223 (1-2), 63-75 (2004)
+   PUBMED   15279912
+REFERENCE   2  (bases 1 to 3812)
+  AUTHORS   Martinez,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-AUG-2002) Martinez G., C.S.I.C., Instituto Ciencias
+            Marinas de Andalucia, Avda. Republica Saharaui, 2, 11510 Puerto
+            Real - Cadiz, SPAIN
+FEATURES             Location/Qualifiers
+     source          1..3812
+                     /organism="Dicentrarchus labrax"
+                     /mol_type="transcribed RNA"
+                     /db_xref="taxon:13489"
+                     /dev_stage="pre-vitellogenic and vitellogenic"
+                     /tissue_lib="ovary"
+     gene            1..3812
+                     /gene="ERalpha"
+     precursor_RNA   1..3812
+                     /gene="ERalpha"
+     mRNA            join(1..127,868..1296,1374..1717,2192..3812)
+                     /gene="ERalpha"
+     exon            1..127
+                     /gene="ERalpha"
+                     /number=1
+     CDS             join(117..127,868..1296,1374..1717,2192..3327)
+                     /gene="ERalpha"
+                     /codon_start=1
+                     /product="oestrogen receptor alpha"
+                     /protein_id="CAD43599.1"
+                     /db_xref="GOA:Q6A4C2"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001292"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="UniProtKB/TrEMBL:Q6A4C2"
+                     /translation="MCKRQSPAQSRQHCGPVVRPRISPAGFTELETLSPQRPSPPLRA
+                     PLSDMYPEESRGSGGAATVDFLEGTYDYAAPTPAPTPLYSHSTPGYYSAPLDAHGPPS
+                     DGSLQSLGSGPTSPLVFVPSSPRLSPFMHPPTHHYLETTSTPVYRSSVPSSQQPVSRE
+                     DPCGTSDDSYSVGESGAGARAGGFEMAKDMRFCAVCSDYASGYHYGVWSCEGCKAFFK
+                     RSIQGHNDYMCPATNQCTIDRNRRKSCQACRLRKCYEVGMMKGGVRKDRGRVLRRDKR
+                     RTRAGDKEKASKDLEHRTVPPQDRRKHSSSSSSSSSAVGGGGKSSMIGMPPEQVLLLL
+                     QGAEPPMLCSRQKLSRPYTEVTMMTLLTSMADKELVHMIAWAKKLPGFLQLSLHDQVQ
+                     LLESSWLEVLMIGLIWRSIHCPGKLIFAQDLILDRSEGDCVEGMAEIFDMLLATASRF
+                     RMLKLKPEEFVCLKAIILLNSGAFSFCTGTMEPLHDTAAVQNMLDTITDALIHHISQS
+                     GCSAQQQSRRQAQLLLLLSHIRHMSNKGMEHLYSMKCKNKVPLYDLLLEMLDAHRIQR
+                     PDRPAQSWSQADGEPPFTITTNNNNNNISGGGSTSSAGSSSGPRVSHESPSRGPTCPG
+                     VLQYGGSRSDCTHIL"
+     intron          128..867
+                     /gene="ERalpha"
+                     /number=1
+     exon            868..1296
+                     /gene="ERalpha"
+                     /number=2
+     intron          1297..1373
+                     /gene="ERalpha"
+                     /number=2
+     exon            1374..1600
+                     /gene="ERalpha"
+                     /number=3
+     exon            1601..1717
+                     /gene="ERalpha"
+                     /number=4
+     intron          1718..2191
+                     /gene="ERalpha"
+                     /number=4
+     exon            2192..2394
+                     /gene="ERalpha"
+                     /number=5
+     exon            2395..2548
+                     /gene="ERalpha"
+                     /number=6
+     exon            2549..2670
+                     /gene="ERalpha"
+                     /number=7
+     exon            2671..2821
+                     /gene="ERalpha"
+                     /number=8
+     exon            2822..3005
+                     /gene="ERalpha"
+                     /number=9
+     exon            3006..3812
+                     /gene="ERalpha"
+                     /number=10
+ORIGIN      
+        1 actagttctc ctcgtgccga ttcggcacga gcgagagagg caagcagaca gagagagaga
+       61 gagagagaca gggagaagac tcaaacagtg tcgcacagca gatacgagga tgattcatgt
+      121 gtaagaggtg agttgtgtat cccggtagat tttggctttc tttttttgcc cccgttgttt
+      181 aaaaccattg tcctaatgtt tctcatttcc acagtgattt gatttactgg agagtctcag
+      241 gtgtattcaa taatctggct acaaatagac cggtcatacg tcacgctggt agtgtgcaga
+      301 gtatcatcta aattacacat ctttgcggct agttgagagt tgttttttgt ttttttatct
+      361 ggattttagc tgcaagattt tcaatgtcag aaaaaggtga aaagggaaga gaacatttca
+      421 tggtggtgtg agagacagaa tagggaagtt atttgggaat cactgctttt attgtccatc
+      481 ctctttctct ttcccaccag gctttccttc ctcctacaca ttagatgatg agatgtatta
+      541 gaggaaaaga agcgaaggct ccgctgacaa aaaaaaacct ttaaggaggt tgggaggagt
+      601 ctttttggat atctttttct tttttttcct ttagagcttt gtgggcggaa gctcaaggca
+      661 gatagggcag agggactggg ataatagtgg acccttcaag ttgcctgaca ggctttatta
+      721 taaaaaacaa ggcaagagag acagagagag tgaggaaaga gtgaagggag agggagagta
+      781 gcactcgtct ccactcctcc cggcaaatgg gagagcaagt ctaaatcatg ttgcatatca
+      841 gtgctgttgt gctgtgatgt tgctcaggca gagcccggcg cagagcaggc agcattgcgg
+      901 accagtagtc agacccagga tcagcccagc aggcttcaca gagctggaga ccctctcccc
+      961 gcaacgtccc tcgcctccac tgcgtgcccc cctcagtgac atgtaccccg aagagagccg
+     1021 ggggtctgga ggggcagcca ctgtggactt cctggaaggg acgtatgact atgccgcccc
+     1081 cacccctgcc ccgactcctc tttacagcca ctccacccct ggctactact ctgctcctct
+     1141 ggatgcccac ggaccaccct cagatggcag ccttcagtcc cttggcagtg ggcctacgag
+     1201 tcctcttgtg tttgtgccct ccagcccccg actcagcccc tttatgcacc cgccaaccca
+     1261 ccactatctg gaaaccacct caacacccgt ctacagaaag gatcaagctt tgccctggtt
+     1321 tctaattcca gagattaagg actttgtcaa ggaccttgag aaaggaacaa tacgtccagc
+     1381 gtcccgtcca gtcagcagcc ggtttccaga gaggatccgt gtggcaccag tgacgactca
+     1441 tacagtgtgg gggagtcggg ggctggagct cgggccggtg ggtttgagat ggccaaagat
+     1501 atgcgtttct gtgccgtgtg cagtgactat gcctcggggt accactacgg ggtgtggtcc
+     1561 tgtgagggct gcaaggcctt ctttaagagg agcatccagg gtcacaatga ctatatgtgc
+     1621 ccagccacca atcagtgtac tattgacagg aatcggagga agagctgcca ggcctgccgt
+     1681 cttaggaagt gttacgaagt gggcatgatg aaaggaggtt ggttgaaaca cccgcaaact
+     1741 gccatttgct gtttattaca acattcagtt gcagtattgt ttctcactct tttctttttt
+     1801 ggttaaaatg tttaatttga tttccaaact aattgccgtt tatcatcgtg gctttttttg
+     1861 ctgagaggac tggtacaaac atgagagggc tggtggatgc agataagctt gagaccaact
+     1921 ttaacgtgac cttgaagtga tttcctctta aggagtacaa ctactgatta acacacaccc
+     1981 acattttttt gttttcatac ttcttgaatc acacagacat ccatataatc tgtactgttg
+     2041 gactttgtgg taagaacagg aaattaagag tgacgtgtaa gaaaaagcct gatgagtgtg
+     2101 tgtgtgtgtg tgtgtgtgtg tgtgtgtgtg tgtgtctttt ctctgtgtaa ctgcgtgtta
+     2161 tcctgcatta aacccctgct gtgtacttaa ggggtgcgca aggaccgcgg tcgtgttttg
+     2221 cgacgtgaca agcgacggac ccgcgccggt gacaaagaaa aggcctctaa ggacctggag
+     2281 cacagaacag tgccccctca ggacaggagg aaacacagca gcagcagcag cagcagcagc
+     2341 agtgctgtcg gtggaggagg aaaatcatct atgatcggca tgcctcctga gcaggtgctc
+     2401 ctcctgctcc agggtgctga gcccccaatg ctgtgctccc gtcagaagct gagccgacct
+     2461 tacactgagg tcaccatgat gaccctgctc accagcatgg ccgataagga gctggtccac
+     2521 atgatcgcct gggccaagaa gcttccaggt ttcctgcagc tgtccctcca cgaccaggtg
+     2581 caactgctgg agagctcgtg gctggaggtg ctgatgatcg ggctcatctg gaggtccatc
+     2641 cattgccccg gcaaactcat ctttgcacag gacctcatac tggacaggag cgaaggcgac
+     2701 tgcgtggaag gtatggctga gatcttcgac atgctgctgg ccaccgcctc ccgcttccgc
+     2761 atgctcaaac taaaacccga ggagtttgtc tgcctcaaag ctatcatctt actcaactct
+     2821 ggtgccttct ctttctgcac cggcacaatg gagccactcc acgacaccgc ggcggtgcag
+     2881 aacatgctcg acaccatcac agacgctctc atacatcaca tcagccaatc tgggtgttcg
+     2941 gctcagcagc agtcgaggcg acaggcccag ctgctccttc tgctctccca catcagacac
+     3001 atgagcaaca aaggaatgga gcacctctac agcatgaagt gcaagaacaa agtgcctctg
+     3061 tacgacctgc tgctggagat gctggacgct caccgcatcc aacgcccaga cagaccagct
+     3121 cagtcctggt cccaggctga cggagagcct cccttcacca tcaccaccaa caacaacaac
+     3181 aacaacatca gcggcggcgg ctccacctcc tcagctggtt ccagttcagg accccgagtc
+     3241 agccacgaga gcccgagcag aggccccaca tgtccgggtg tcctgcagta cggagggtcc
+     3301 cgctccgact gcacccacat cctatgagac agagcacatc aagcaagagc ggaggtcaat
+     3361 agtcattttt atggatggcg cgtgtggcac agaatgaaag ataaaaagtt ttatttgagt
+     3421 taatttcatg aggtaattat ttataaatta agtgatttta tagttgtagc tgtttaggga
+     3481 gacgttattt tttccttttg cactactccg gttcgttttg agcttcaatg ctgttaatct
+     3541 tctatgctgc ctttcataat atctgtgatt ctgagtcggt ctctaacagc tttacagtgc
+     3601 agctttctat ttacaggtgt taggtcatat tgtggcactc ttgtcagcta cggtgatttg
+     3661 agatgacgag cagctaattg tttttctttg tattcgcttc aaccaaagtg cacttcctct
+     3721 tgggtttaag gggctattgg gcattttttt tacatttaca tttaaaggat gatcacacac
+     3781 taaactatga taaaactggt taaaaaaaaa aa
+//
+

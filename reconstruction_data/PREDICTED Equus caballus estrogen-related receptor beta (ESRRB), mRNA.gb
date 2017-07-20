@@ -1,0 +1,91 @@
+LOCUS       XM_005605364            1614 bp    mRNA    linear   MAM 20-NOV-2015
+DEFINITION  PREDICTED: Equus caballus estrogen-related receptor beta (ESRRB),
+            mRNA.
+ACCESSION   XM_005605364
+VERSION     XM_005605364.2
+DBLINK      BioProject: PRJNA19129
+KEYWORDS    RefSeq.
+SOURCE      Equus caballus (horse)
+  ORGANISM  Equus caballus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Perissodactyla; Equidae; Equus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_001867395.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Nov 20, 2015 this sequence version replaced gi:545202535.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Equus caballus Annotation Release
+                                           102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.4
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1614
+                     /organism="Equus caballus"
+                     /mol_type="mRNA"
+                     /isolate="Twilight"
+                     /db_xref="taxon:9796"
+                     /chromosome="24"
+                     /sex="female"
+                     /breed="thoroughbred"
+     gene            1..1614
+                     /gene="ESRRB"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 10 Proteins, and 100% coverage of
+                     the annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100058699"
+     CDS             114..1538
+                     /gene="ESRRB"
+                     /codon_start=1
+                     /product="steroid hormone receptor ERR2"
+                     /protein_id="XP_005605421.1"
+                     /db_xref="GeneID:100058699"
+                     /translation="MRLRGLGNIQIGTGDQEPLSSNAPFQWMINFLRVGALLLNRMSA
+                     DDRHLSSSCGSFIKTEPSSPSSGIDALSHHSPSGSSDASGGFGLALGAHANGLDSPPM
+                     FAGAGLGGTPCRKSYEDCASGIMEDSAIKCEYMLNAIPKRLCLVCGDIASGYHYGVAS
+                     CEACKAFFKRTIQGNIEYSCPATNECEITKRRRKSCQACRFMKCLKVGMLKEGVRLDR
+                     VRGGRQKYKRRLDSESSPYLSLQISPPAKKPLTKIVSYLLVAEPDKLYAMPPPGMPEG
+                     DIKALTTLCDLADRELVVIIGWAKHIPGFSNLSLGDQMSLLQSAWMEILILGIVYRSL
+                     PYDDKLVYAEDYIMDEEHSRLAGLLELYRAILQLVRRYKKLKVEKEEFVTLKALALAN
+                     SDSMYIEDLEAVQKLQDLLHEALQDYELSQRHEEPRRTGKLLLTLPLLRQTAAKAVQH
+                     FYSVKLQGKVPMHKLFLEMLEAKV"
+ORIGIN      
+        1 tgcagagccc agggagctga tggggcacct gccagagata taaacgggcc cagaggagcc
+       61 cctcaactgg agtgctctct gccgacataa gggaaacttg gggcacgtag gagatgcgtc
+      121 tcagaggact cgggaacatt cagattggaa ccggagacca ggagcctcta tcttcaaatg
+      181 ctccattcca gtggatgata aacttcttga gagtaggagc cttgctgctg aacagaatgt
+      241 ctgcagacga ccggcacctg agctccagct gcgggtcctt catcaagacg gagccgtcca
+      301 gcccgtcctc gggcatcgac gccctcagcc accacagccc cagtggctca tccgacgcca
+      361 gcggtggctt cggcctggcc ctgggtgccc acgccaacgg tctggactcg ccgcccatgt
+      421 ttgcaggcgc tgggctggga ggcaccccgt gccgcaagag ctacgaggac tgtgccagcg
+      481 gcatcatgga ggactcggcc atcaagtgcg agtacatgct taacgccatc cccaagcgcc
+      541 tgtgcctcgt gtgtggggac attgcctctg gctaccacta cggtgtggcc tcctgcgagg
+      601 cctgcaaggc cttcttcaag aggaccatac aagggaacat cgagtacagc tgcccggcca
+      661 ccaacgagtg tgagatcacg aaacggaggc gcaagtcctg ccaggcctgc cgcttcatga
+      721 aatgcctcaa agtggggatg ctgaaggaag gagtgcgtct cgacagagtg cgtggaggcc
+      781 gccagaaata caagcgacgg ctggactcgg agagcagccc ctacctgagc ttgcagattt
+      841 ccccacctgc taaaaagcca ttgaccaaga tcgtgtcgta cctgctggtg gctgagccag
+      901 acaagctcta cgctatgcct ccccctggca tgcccgaggg ggacatcaag gccctgacca
+      961 ctctgtgtga cctggcagac agggagctcg tggtcatcat tggctgggcc aagcacatcc
+     1021 caggcttctc gaacctctcc ctgggggacc agatgagcct gctgcagagt gcctggatgg
+     1081 agatcctcat cctgggcatc gtgtaccgtt cgctgcccta tgacgacaag ctggtgtatg
+     1141 ctgaggacta catcatggac gaggagcact cccgcctggc cggcctgctg gagctctacc
+     1201 gggccatcct gcagctggta cgcaggtaca agaagctcaa ggtggagaag gaggagtttg
+     1261 tgacgctcaa ggcactggcc ctggccaact cagattccat gtacatcgag gatctggagg
+     1321 cagtccagaa gctgcaggac ctgctgcacg aggcgctgca ggactacgag ctgagccagc
+     1381 gccacgagga gccgcggagg acgggcaagc tgctgctgac gctgcccctg ctgcggcaga
+     1441 cggccgccaa ggccgtgcag cacttctaca gcgtcaaact gcagggcaag gtgcccatgc
+     1501 acaaactctt cctggagatg ctggaggcca aggtctgatg gcccggcacg cgtaccggct
+     1561 cctgcccgcg gacggacaca caaacggacg gactgacgca gagacctcca cagc
+//
+

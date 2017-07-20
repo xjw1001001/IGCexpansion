@@ -1,0 +1,83 @@
+LOCUS       AB251458                1743 bp    mRNA    linear   VRT 14-OCT-2006
+DEFINITION  Kryptolebias marmoratus ERa mRNA for estrogen receptor alpha,
+            complete cds.
+ACCESSION   AB251458
+VERSION     AB251458.1
+KEYWORDS    .
+SOURCE      Kryptolebias marmoratus (mangrove rivulus)
+  ORGANISM  Kryptolebias marmoratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Rivulidae; Kryptolebias.
+REFERENCE   1
+  AUTHORS   Orlando,E.F., Katsu,Y., Miyagawa,S. and Iguchi,T.
+  TITLE     Cloning and differential expression of estrogen receptor and
+            aromatase genes in the self-fertilizing hermaphrodite and male
+            mangrove rivulus, Kryptolebias marmoratus
+  JOURNAL   J. Mol. Endocrinol. 37 (2), 353-365 (2006)
+   PUBMED   17032750
+REFERENCE   2  (bases 1 to 1743)
+  AUTHORS   Katsu,Y., Orlando,E.F., Miyagawa,S. and Iguchi,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-FEB-2006) Yoshinao Katsu, National Institutes of
+            Natural Sciences, Okazaki Institute for Integrative Bioscience;
+            5-1, Higashiyama, Myodaiji, Okazaki, Aichi 444-8787, Japan
+            (E-mail:katsu@nibb.ac.jp, Tel:81-564-59-5235, Fax:81-564-59-5236)
+FEATURES             Location/Qualifiers
+     source          1..1743
+                     /organism="Kryptolebias marmoratus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:37003"
+                     /note="synonym: Rivulus marmoratus"
+     gene            1..1743
+                     /gene="ERa"
+     CDS             1..1743
+                     /gene="ERa"
+                     /codon_start=1
+                     /product="estrogen receptor alpha"
+                     /protein_id="BAF03498.1"
+                     /translation="MYPEESRGSGGVAAVDFLEGTYDYAAPTPAPTPLYSNSTTGYFS
+                     APLDAHGPPSNGSLQSLGSGPTSPLVFVPTSPRLSPFMHPPGHYLETASTPVYRSSHQ
+                     PASREDQCDPRDEACSVGELGGAAGAGGFEMAKETRFCAVCSDYASGYHYGVWSCEGC
+                     KAFFKRSIQGHNDYMCPATNQCTIDRNRRKSCQACRLRKCYEVGMMKGGVRKDRGRVL
+                     RRDKRRGGIGDRDKVAKGLEHKAAASHDGRRRSSSSSSIGGGGGGRSSLLNLPPEQVL
+                     LLLQGAEPPILCSRQKLSRPYTEVTMMTLLTSMADKELVHMIAWAKKLPGFLQLSLHD
+                     QVLLLESSWLEILMIGLIWRSIHCPGKLIFAQDLILDRSEGDCVEGMAEIFDMLLATA
+                     SRFRMLKLKPEEFVCLKAIILLNSGAFSFCTGTMEPLHDGAAVQNMLDTITDALIHHI
+                     SQSGYSVQEQARRQAQLLLLLSHIRHMSNKGMEHLYSMKCKNKVPLYDLLLEMLDAHR
+                     LHRPVKSSQSLSQAERVAPSSSSSSCCGDGGGSSSAGCSSGPRGISENPSRTPSGPSV
+                     LQYGGSRPDCTNAL"
+ORIGIN      
+        1 atgtaccctg aagagagccg gggctctgga ggggtagctg ctgtggactt cctagagggg
+       61 acgtatgact atgctgcccc cacccctgcc cctactcctc tctacagcaa ctccaccact
+      121 gggtacttct ctgctcctct ggacgcccac ggacccccgt ctaatggcag ccttcagtct
+      181 ctaggaagtg ggccaactag tccacttgtg tttgtgccca ccagtccaag gctcagcccc
+      241 tttatgcatc ctcctggtca ctatctggaa accgcctcaa cacccgtcta cagatccagc
+      301 caccagccag cctccagaga ggaccagtgt gacccccgtg acgaggcatg cagtgtgggg
+      361 gagttaggag gtgcagccgg cgccgggggg tttgagatgg ccaaagagac acgtttctgt
+      421 gccgtgtgca gcgactatgc ttcggggtac cactacgggg tgtggtcctg cgagggctgc
+      481 aaggccttct tcaagaggag cattcagggt cacaatgact atatgtgccc agcgaccaat
+      541 cagtgtacta ttgacaggaa tcggaggaag agctgccagg cttgtcgtct taggaagtgt
+      601 tacgaagtgg gtatgatgaa aggaggtgtg cgcaaagacc gtggtcgcgt tttgcggcgc
+      661 gacaaaagac ggggagggat tggagacaga gacaaggttg ccaaaggctt ggagcacaaa
+      721 gcagcagcca gtcatgatgg gaggagacgc agcagcagca gcagcagcat cggaggagga
+      781 ggaggaggaa gatcttcgtt actgaatctt cctcctgaac aggtgctgct cctgctccag
+      841 ggcgccgagc caccgatcct gtgttcccgt cagaagctga gccgacccta caccgaagtc
+      901 accatgatga ccctgctcac cagcatggcc gacaaggagc tggtccacat gatcgcctgg
+      961 gccaagaagc ttccaggttt cctgcagttg tctctccacg atcaggttct gctgctggag
+     1021 agctcgtggc tggagatcct catgatcggg ctcatctgga ggtcaatcca ctgcccagga
+     1081 aagctcattt ttgcacagga cctcatattg gacaggagcg agggcgactg cgttgagggt
+     1141 atggcggaga tcttcgacat gctgctggcc accgcctctc gcttccgcat gctcaaactc
+     1201 aaacccgagg aatttgtctg ccttaaagcc atcatcctgc tcaactctgg tgccttttct
+     1261 ttctgcaccg gcacgatgga gccccttcac gacggcgcgg cggtgcagaa catgctggac
+     1321 accatcaccg acgcgctcat acaccacatc agccagtcgg gatactcggt tcaggagcag
+     1381 gcgagacgac aggcccagct gctcctgctg ctgtcccaca tcagacacat gagcaacaaa
+     1441 ggcatggaac atctgtacag catgaaatgc aagaacaaag tgcctctgta cgacctgctg
+     1501 ctggagatgc tcgatgctca ccgcctccac cgtccagtca aatcatctca gtccctgtcc
+     1561 caagctgaaa gagtcgcccc ttcctcctcc tcctcctcct gctgcggtga tggtggcggc
+     1621 tcctcctctg caggttgcag ttcaggacct cgaggcatca gtgaaaaccc gagcagaacc
+     1681 ccgtcaggcc cgagcgtcct gcagtacgga ggctcccgtc ctgactgcac caacgccctg
+     1741 tga
+//
+

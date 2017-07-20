@@ -1,0 +1,99 @@
+LOCUS       AB037185                2821 bp    mRNA    linear   VRT 20-OCT-2000
+DEFINITION  Danio rerio ER mRNA for estrogen receptor, complete cds.
+ACCESSION   AB037185
+VERSION     AB037185.1
+KEYWORDS    estrogen receptor.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1
+  AUTHORS   Morimoto,J., Miyasho,T., Iwano,H., Teraoka,H., Hiraga,T. and
+            Yokota,H.
+  TITLE     Zebrafish (Danio rerio) Estrogen Receptor
+  JOURNAL   Published Only in Database (2000)
+REFERENCE   2  (bases 1 to 2821)
+  AUTHORS   Morimoto,J., Miyasho,T., Iwano,H., Teraoka,H., Hiraga,T. and
+            Yokota,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-JAN-2000) Junko Morimoto, Rakuno Gakuen University,
+            Veterinary Biochemistry; 582-1 Bunkyoudaimidorimati, Ebetsu,
+            Hokkaido 069-8501, Japan (E-mail:h-yokota@rakuno.ac.jp,
+            Tel:011-386-1111(ex.4341), Fax:011-387-5890)
+FEATURES             Location/Qualifiers
+     source          1..2821
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7955"
+                     /sex="female"
+                     /dev_stage="adult"
+     gene            1..2821
+                     /gene="ER"
+     CDS             195..1904
+                     /gene="ER"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="BAB16893.1"
+                     /translation="MYPKEEHSAGGISSSVNYLDGAYEYPNPTQAFGTSSPAEPASVG
+                     YYPAPPDPHEEHLQTLGGGSSSPLMFAPSSPQLSPYLSHHGGHHTTPHQVSYYLDSSS
+                     STVYRSSVVSSQQAAVGLCEELCSATDRQELYTGSRAAGGFDSGKETRFCAVCSDYAS
+                     GYHYGVWSCEGCKAFFKRSIQGHNDYVCPATNQCTIDRNRRKSCQACRLRKCYEVGMM
+                     KGGIRKDRGGRSVRRERRRSSNEDRDKSSSDQCSRAGVRTTGPQDKRKKRSGGVVSTL
+                     CMPPDQVLLLLLGAEPPAVCSRQKHSRPYTEITMMSLLTNMADKELVHMIAWAKKVPG
+                     FQDLSLHDQVQLLESSWLEVLMIGLIWRSIHSPGKLIFAQDLILDRSEGECVEGMAEI
+                     FDMLLATVARFRSLKLKLEEFVCLKAIILINSGAFSFCSSPVEPLMDNFMVQCMLDNI
+                     TDALIYCISKSGASLQLQSRRQAQLLLLLSHIRHMSNKGMEHLYRMKCKNRVPLYDLL
+                     LEMLDAQRFQSSGKVQRVWSQSEKNPPSTPTTSSSSSNNSPRGGAAAIQSNGACHSHS
+                     PDP"
+ORIGIN      
+        1 agtcagagat acatcagtga gagagagaaa gcatccagcc tgtaatggga ctcaagtaaa
+       61 acatcagagg agtgaacatt ttgaccagcg gagaggctgt tggtgccagg cagcgacgca
+      121 ggaccagccc gagtcctgag agagaagccc tggaggaacc ttcctcgcca cctgccgccc
+      181 acaaactctc acccatgtac cctaaggagg agcacagcgc ggggggcatc agctcctctg
+      241 tcaactacct agatggagct tatgagtacc cgaaccccac acaggccttc ggcacctcgt
+      301 cgcctgcaga gcctgcttca gtgggatact acccggctcc cccagacccc cacgaggaac
+      361 atctacagac gcttggcggt ggatcaagca gccccctcat gttcgcaccc tccagcccac
+      421 agctgtcccc gtatctgagc catcacggag gacaccacac cacccctcat caggtgtcct
+      481 actacctgga ctcctcgtcc agcaccgtct acaggtccag tgtggtgtcc tctcagcagg
+      541 cagccgtggg cctgtgtgag gagctgtgca gtgccactga caggcaggag ttgtacactg
+      601 gatccagagc ggctggaggc tttgattcgg ggaaagagac tcgcttctgt gcggtgtgca
+      661 gtgactacgc ctctggatat cattacggag tctggtcgtg tgagggatgc aaagctttct
+      721 tcaagagaag cattcaaggt cacaatgact atgtttgtcc agcgaccaac cagtgcacta
+      781 ttgacagaaa ccgtcgaaag agctgccaag catgcagact gcgcaagtgt tatgaagtag
+      841 gcatgatgaa aggaggtatt cgtaaagatc gcggagggcg ttctgtcagg cgtgagagaa
+      901 ggagaagcag taatgaagat cgagacaaga gcagcagtga tcagtgcagc cgtgctggcg
+      961 tgaggacgac tggcccacag gacaagagga agaagcgcag tggtggggtg gtcagcactt
+     1021 tatgcatgcc gcctgaccag gtgctgctgc tgctgctggg ggctgagcca cccgctgtct
+     1081 gctcacgaca gaaacacagc cggccctaca cagagatcac catgatgtcc ctgctcacca
+     1141 acatggctga caaagaactc gtccacatga tcgcctgggc caagaaagtg ccaggattcc
+     1201 aggatctgtc tctgcatgac caggttcagt tgttggagag ctcttggctg gaggtgttga
+     1261 tgattggcct catatggagg tccattcatt cccctggaaa actcatcttt gctcaggatc
+     1321 tcatcctgga taggagtgaa ggagaatgcg ttgagggcat ggctgagatt ttcgacatgc
+     1381 tcttggcaac tgtggctcga tttcggagtc tcaagctcaa gctggaggaa tttgtgtgtc
+     1441 tcaaagccat catactcatc aattctggtg cattttcatt ctgctccagt ccagtggagc
+     1501 cgctgatgga caacttcatg gtgcagtgca tgctggacaa catcactgat gccctcattt
+     1561 actgcatcag taaatcagga gcgtcgctgc agctgcagtc ccgtcgccag gcccagctcc
+     1621 tgctgctgct ctcacacatc agacacatga gcaacaaagg aatggagcac ttataccgaa
+     1681 tgaaatgtaa gaatcgagtg ccgctgtatg acctgttgct ggagatgctg gacgctcagc
+     1741 ggttccagtc ttcagggaag gtgcagcgag tgtggtctca gagcgagaaa aaccctccat
+     1801 ctacacccac aaccagcagc agcagcagca acaacagtcc aagaggagga gctgcagcca
+     1861 ttcagtccaa cggcgcctgt cacagccata gccctgaccc ctgacctgtg cactgccacc
+     1921 atatacacat tatacacaat ttgaagagca gaaatgagga ctaggacttc agtctcttct
+     1981 tgtgccttac gagagtctac tattgaaacc gagacgttcg aaagagaatt tgtttataga
+     2041 aaaaaaagtc tgtaaataag aataagcctc ccaaacacta tatattgagg atctttttac
+     2101 ggttgatttc gctcggtttt tgtggaagct gattacagga atttgttttt cccatacact
+     2161 tgagagaaac agagagagat gctaattcat cttttattct tttacaattt gtgaccgttt
+     2221 gacatcacaa actcacataa agctctcata ctgatcatat ggcagtcaaa aaatactgat
+     2281 ttaattttca ataaattaat atattataat agtatattag tgttaaaata gtattttgta
+     2341 tttttagagt attttattgt cataaataat gttaatgcaa tagtaattat ccatttatga
+     2401 ccagatatta caaagtttta agaaacagat ctgaaaatga aatttccaac ttttaaatgt
+     2461 tgaatgcaga aatgaaaaag ttccacatcc acacagtagg ctaccaaaaa acaagtaaat
+     2521 taagtttaaa cgctgctctg atttcctcat ctacattctt tatagtatag cttatgtttg
+     2581 cattgcaaaa aaagaaaaaa aaagaatgaa agaagggata attgtttttt taactactca
+     2641 agttcttcta gttgacgcat gtgccaactt tttcttgcca atcttaagcc aattgtaatg
+     2701 tttcgttttt agttcaattt ggaatttcca caactttggc agagatcggg ggatcagagt
+     2761 gagcgctcct acttggcccc accctgatca agaaaggcat aaattaaagc gctctgactg
+     2821 c
+//
+

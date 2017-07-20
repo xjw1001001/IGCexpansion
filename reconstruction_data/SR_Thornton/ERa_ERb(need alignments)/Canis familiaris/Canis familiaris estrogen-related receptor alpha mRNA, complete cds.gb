@@ -1,0 +1,65 @@
+LOCUS       AY533243                1269 bp    mRNA    linear   MAM 22-FEB-2004
+DEFINITION  Canis familiaris estrogen-related receptor alpha mRNA, complete
+            cds.
+ACCESSION   AY533243
+VERSION     AY533243.1
+KEYWORDS    .
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (bases 1 to 1269)
+  AUTHORS   Lu,P. and Colitz,C.
+  TITLE     Dog estrogen related receptor alpha (Estrra) mRNA
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1269)
+  AUTHORS   Lu,P. and Colitz,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2004) Veterinary Clinical Sciences, The Ohio
+            State University Veterinary Hospital, 1900 Coffey Road, Columbus,
+            OH 43210, USA
+FEATURES             Location/Qualifiers
+     source          1..1269
+                     /organism="Canis lupus familiaris"
+                     /mol_type="mRNA"
+                     /sub_species="familiaris"
+                     /db_xref="taxon:9615"
+     CDS             1..1269
+                     /note="Estrra"
+                     /codon_start=1
+                     /product="estrogen-related receptor alpha"
+                     /protein_id="AAS20260.1"
+                     /translation="MSSQVVGIEPLYIKAEPASPDSPKGSSETETEPPVALAPGPAPT
+                     RCLPGHKEEEDGEGAGPGEQGGGKLVLSSLPKRLCLVCGDVASGYHYGVASCEACKAF
+                     FKRTIQGSIEYSCPASNECEITKRRRKACQACRFTKCLRVGMLKEGVRLDRVRGGRQK
+                     YKRRPEVDPLPFPGSFPAGPLAVAGGPRKTAPVNALVSHLLVVEPEKLYAMPDPAGPD
+                     GHLPAVATLCDLFDREIVVTISWAKSIPGFSSLSLSDQMSVLQSVWMEVLVLGVAQRS
+                     LPLQDELAFAEDLVLDEEGARAAGLGELGAVLLQLVRRLQALRLEREEYVLLKALALA
+                     NSDSVHIEDAEAVEQLREALHEALLEYEAGRAGPGGGAERRRAGRLLLTLPLLRQTAG
+                     KVLAHFYGVKLEGKVPMHKLFLEMLEAMMD"
+ORIGIN      
+        1 atgtccagcc aggtggtggg cattgagcct ctctacatca aggcagagcc agcaagcccc
+       61 gacagcccaa agggttcctc ggagaccgag actgagcccc ctgtggccct ggctcctggc
+      121 ccagctccca cccgctgcct cccaggccac aaggaagagg aggatgggga gggggctggg
+      181 cctggcgagc agggtggtgg aaagctggtg ctcagctccc tgcccaaacg cctctgtctc
+      241 gtctgtgggg atgtggcttc tggctaccac tatggtgtgg cgtcctgtga ggcctgcaaa
+      301 gccttcttca agaggaccat ccaggggagc attgagtaca gctgtccggc ttccaacgag
+      361 tgcgagatca ccaagcggag acgcaaggcc tgccaggcct gtcgcttcac caagtgcctg
+      421 cgggtgggca tgctcaagga gggagtacgt ctggaccgtg tccgaggtgg gcgccagaag
+      481 tacaagcggc ggcccgaggt ggacccgtta cccttcccag gctccttccc tgctggaccc
+      541 ctggcagtag ctggaggtcc tcggaaaact gctcctgtaa atgcactggt gtctcacctg
+      601 ctggtggtag agcccgagaa gctctatgcc atgcctgacc cagcgggccc tgacggacac
+      661 ctcccagctg tggctaccct ctgtgacctc tttgaccgag agattgtggt caccatcagc
+      721 tgggccaaga gtatcccagg cttctcgtca ctgtcactgt ctgaccagat gtcagtactg
+      781 cagagtgtat ggatggaggt cttggtgttg ggtgtggccc agcgctcatt gccactgcag
+      841 gatgaactgg cctttgctga ggacctggtc ctggatgaag agggggcacg agcagctggc
+      901 ttgggggaac ttggggccgt cctgctgcag ctggtgaggc gactgcaggc cctgaggctg
+      961 gagcgtgagg aatatgtcct gctgaaggct ctggcccttg ccaattcaga ctccgtgcac
+     1021 attgaggatg ccgaggctgt ggagcagctg cgagaagctc tacatgaggc cctgctggaa
+     1081 tatgaagccg gccgggcagg ccccggaggg ggtgctgagc ggcggcgggc aggcaggctg
+     1141 ctgctcacac taccgctcct acgccagaca gcgggcaaag tgctggccca tttctacggg
+     1201 gtgaagctgg agggcaaggt gcccatgcac aagctgttct tggagatgct cgaggccatg
+     1261 atggactga
+//
+

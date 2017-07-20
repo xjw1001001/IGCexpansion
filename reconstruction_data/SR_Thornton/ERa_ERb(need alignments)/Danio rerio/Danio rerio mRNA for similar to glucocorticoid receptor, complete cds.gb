@@ -1,0 +1,94 @@
+LOCUS       AB218424                2262 bp    mRNA    linear   VRT 01-APR-2006
+DEFINITION  Danio rerio mRNA for similar to glucocorticoid receptor, complete
+            cds.
+ACCESSION   AB218424
+VERSION     AB218424.1
+KEYWORDS    .
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1
+  AUTHORS   Ozawa,T.
+  TITLE     zebrafish glucocorticoid receptor
+  JOURNAL   Unpublished
+REFERENCE   2
+  AUTHORS   Ozawa,T., Shimada,Y. and Tanaka,T.
+  TITLE     Molecular Cloning and Characterization of full-length cDNA encoding
+            a novel Glucocorticoid Receptor Gene of Danio rerio (zebrafish)
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2262)
+  AUTHORS   Tanaka,T. and Ozawa,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUN-2005) Toshio Tanaka, Mie University Graduate
+            School of Medicine, Department of Molecular and Cellular
+            Pharmacology, Pharmacogenomics and Pharmacoinformatics; 2-174
+            Edobashi, Tsu City, Mie 514-8507, Japan
+            (E-mail:tanaka@doc.medic.mie-u.ac.jp,
+            URL:http://pharma.medic.mie-u.ac.jp/, Tel:81-59-231-5411,
+            Fax:81-59-232-1765)
+FEATURES             Location/Qualifiers
+     source          1..2262
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7955"
+     CDS             7..2247
+                     /codon_start=1
+                     /product="similar to glucocorticoid receptor"
+                     /protein_id="BAE92737.1"
+                     /translation="MDQGGLENGKKRDERLNTLDYNKRATEGILPRRIQSTMSVAPTS
+                     MVPQAGPMMQPVSGDIPNGLSNSPTLEEHTSSVSSIFGDDSELKLLGKEQRALQQQTL
+                     VPFTLGDSLSGLEASIADLNNPSPSMDSLIGGVDPNLFPLKTEDFSPMIKGDMDLDQD
+                     SFGHIGKDVDVGNHKLFSDNTLDLLQDFELDGSPSDFYVADDAFLSTIGEDALLSELP
+                     TNLDRDSKAAVSGSNTLNGTASSSLSTANTSILPNIKVEKDSIIQLCTPGVIKQENTG
+                     ASYCQGGLHSTPINICGVTTSSGQSFLFGNSSPTAVVGLQKDQKPDFNMYTPLTSSGD
+                     GWSRSQGFGNVSGMQQRASLCFSKNFSSSPYSRPEDSTATSSAGGKTGTHKICLVCSD
+                     EASGCHYGVLTCGSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRFRKCLMA
+                     GMNLEARKSKSKARQAGKVIQQQSIPERNLPPLPEARALVPKPMPQLVPTMLSLLKAI
+                     EPDTLYAGYDSTIPDTSVRLMTTLNRLGGRQVISAVKWAKALPGFRNLHLDDQMTLLQ
+                     CSWLFIMSFGLGWRSYQHCNGNMLCFAPDLVINEERMKLPYMSDQCEQMLKISNEFVR
+                     LQVSTEEYLCMKVLLLLNTVPKDGLKSQSVFDELRMSYIKELGKAIVKREENSSQNWQ
+                     RFYQLTKLLDSMHDLVGGLLNFCFYTFVNKSLSVEFPEMLAEIISNQLPKFKDGSVKP
+                     LLFHQK"
+ORIGIN      
+        1 tgcaaaatgg atcaaggagg actggagaat ggcaaaaagc gagatgagcg tttaaataca
+       61 ttggattaca acaaacgagc aactgagggg atattaccaa gaagaataca aagcaccatg
+      121 tctgtggccc ctacatctat ggttcctcaa gccggtccaa tgatgcagcc agtttctggg
+      181 gacattccca atggcctgag caattcgccc actctggagg agcacaccag ctcggtgtcc
+      241 tccatctttg gcgacgattc cgaactcaaa ctgcttggga aggagcagag ggccctgcaa
+      301 cagcagacct tggtcccctt cactttgggt gacagtcttt caggtctgga ggccagcatt
+      361 gcagacctta acaacccctc tccctcaatg gattccctga ttggtggagt cgatcccaat
+      421 cttttcccct taaaaacaga ggacttttct cccatgatta aaggcgatat ggaccttgac
+      481 caagattcct ttggacacat tgggaaagat gttgatgttg gcaatcataa gctctttagt
+      541 gacaacactc tggacctcct gcaggacttt gagctggatg gatcgccatc agacttctac
+      601 gttgctgacg atgcgtttct ctccaccata ggtgaagatg ctctcctttc agagctgccg
+      661 acaaatttag acagggactc gaaggctgcg gtttccggga gcaacacgct caatggcaca
+      721 gcttcttcca gcctcagcac agccaacacc agcatcttgc ccaatataaa ggtggagaaa
+      781 gactctataa tccagctgtg caccccaggg gtcatcaaac aggagaacac cggtgcgagc
+      841 tattgtcaag gagggctcca cagcaccccc attaacatat gcggggtcac cacttcaagc
+      901 ggacagagct tcctctttgg gaacagctcg cccacagctg tcgtcggtct gcagaaagat
+      961 cagaagccgg actttaacat gtacacccct ctgacctctt caggagatgg ttggagcagg
+     1021 agccagggct ttgggaatgt cagtggaatg cagcagaggg ccagtttatg cttttccaaa
+     1081 aacttctcaa gcagccccta ttccaggcct gaagacagca ctgccacatc gtcagctggt
+     1141 ggaaagactg gcacacacaa gatctgtctg gtttgctcag atgaggcttc tggctgccat
+     1201 tatggagttc tcacttgcgg aagctgtaaa gtcttcttta aaagggctgt tgaagggcaa
+     1261 cacaattacc tgtgtgctgg gcgaaacgat tgcatcattg acaaaatccg ccggaagaac
+     1321 tgccctgcct gtcgtttccg caaatgcctc atggcaggca tgaacctaga ggcacgtaaa
+     1381 agcaagtcaa aggcacgtca agccggaaag gtaatccagc agcagtccat tccggagcgc
+     1441 aaccttcctc cactgccgga ggcccgcgca ctggtgccca aaccaatgcc tcagctggtg
+     1501 cccactatgc tatcactact aaaggccatt gagccagaca ccctctatgc cggatatgac
+     1561 agcactatac cagacacatc cgtccgcctc atgactacgt tgaacaggct gggtggccgg
+     1621 caggtcatct ctgctgtcaa atgggctaaa gctctgccag ggttccggaa ccttcatctg
+     1681 gatgatcaga tgaccctcct gcagtgttcc tggctgttca tcatgtcttt tggactgggc
+     1741 tggaggtcct accagcactg taacggaaac atgctgtgtt tcgctccaga cctggtgatc
+     1801 aatgaagaga ggatgaagtt gccctacatg agtgatcagt gtgaacagat gttgaagatc
+     1861 tccaatgaat ttgtgcgact gcaagtgtcc actgaggagt atctgtgcat gaaagtcctt
+     1921 ctgctcctga acacagtgcc gaaggatggg ttgaagagcc agtcagtgtt tgatgaacta
+     1981 cgaatgtctt acattaaaga attgggcaag gctattgtga agagagagga gaactccagc
+     2041 cagaactggc aacggttcta tcagctcact aagctactgg actccatgca cgacttggtg
+     2101 ggtggactcc tgaacttctg cttctacacc tttgtgaata aatctctgag cgtggagttt
+     2161 cccgaaatgc ttgcagaaat catcagcaac cagttaccaa aattcaaaga tgggagtgtt
+     2221 aaaccgctgc tctttcacca gaaatgaatc tcctcccaac ag
+//
+

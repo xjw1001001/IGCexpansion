@@ -1,0 +1,93 @@
+LOCUS       AJ414566                1925 bp    mRNA    linear   VRT 21-OCT-2008
+DEFINITION  Danio rerio mRNA for estrogen receptor beta1 protein.
+ACCESSION   AJ414566
+VERSION     AJ414566.1
+KEYWORDS    estrogen receptor beta1 gene; estrogen receptor beta1 protein.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1
+  AUTHORS   Menuet,A., Pellegrini,E., Anglade,I., Blaise,O., Laudet,V., Kah,O.
+            and Pakdel,F.
+  TITLE     Molecular characterization of three estrogen receptor forms in
+            zebrafish: binding characteristics, transactivation properties, and
+            tissue distributions
+  JOURNAL   Biol. Reprod. 66 (6), 1881-1892 (2002)
+   PUBMED   12021076
+REFERENCE   2  (bases 1 to 1925)
+  AUTHORS   Menuet,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-SEP-2001) Menuet A., UMR CNRS 6026- EMR, university
+            of Rennes, Campus de Beaulieu, Rennes/35042, FRANCE
+FEATURES             Location/Qualifiers
+     source          1..1925
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7955"
+     gene            1..1925
+                     /gene="estrogen receptor beta1"
+     CDS             80..1858
+                     /gene="estrogen receptor beta1"
+                     /function="estrogen-binding"
+                     /codon_start=1
+                     /product="estrogen receptor beta1 protein"
+                     /protein_id="CAC93848.1"
+                     /db_xref="GOA:Q90WS9"
+                     /db_xref="HSSP:1UOM"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="InterPro:IPR021064"
+                     /db_xref="UniProtKB/TrEMBL:Q90WS9"
+                     /db_xref="ZFIN:ZDB-GENE-030116-1"
+                     /translation="MSSSPGPAPVLDSSKADRGASPALLPRLYASPLGMDNQTVCIPS
+                     PYVEACQDYSPPHGGEFNHGALTLYSPVSSAVLGFHRPPVSESLVPLSPTILWPPHSL
+                     HCPPPLAYSETRSHSAWEEAKTHTLSQSSSVLSHTKLLGQQLEGDNGLNPSASIVGKG
+                     DTHFCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKSRRKSCQ
+                     ACRLRKCYEVGMMKCGVRRERCSYRGARHRRNPQIRDSSGGVVGLRGQSQQHLEFPLS
+                     PSQHLFPSGGRAEGRALNYSPEQLVSCILEAEPPQIYLREPVKKPYTEASMMMSLTSL
+                     ADKELVLMISWAKKIPGFVELTLSDQVHLLECCWLDILMLGLMWRSVDHPGKLIFTPD
+                     LKLNREEGNCVEGIMEIFDMLLATTSRFRELKLQREEYVCLKAMILLNSNNCSSLPQT
+                     PEDVESRGKVLNLLDSVTDALVWIISRTGLSSQQQSIRLAHLLMLLSHIRHLSNKGIE
+                     HLSNMKRKNVVLLYDLLLEMLDANASQSSRMLEDRQQSPENLHTSRPQPDLKDSDQET
+                     PHSPRAEEMVNKTLHSSLLREDMDTN"
+ORIGIN      
+        1 cacatcacct gctgcctgct aacgttgggc ctgagatgca gtagtgtgtc aggccagggt
+       61 ctctcttgtg ttctccagca tgagctcctc ccctggacct gcccctgtcc tggactccag
+      121 caaggccgat cgaggggcct cgcctgccct cttaccccgg ctctacgcct ccccgctcgg
+      181 catggacaac cagaccgtct gcattccttc cccatatgtg gaggcctgtc aggattactc
+      241 tccaccgcat gggggagagt tcaaccacgg agccctaacg ctctacagcc ccgtctcctc
+      301 tgcagtgctc ggcttccatc gtcctcctgt gtccgaaagc ctcgtcccgc ttagtcccac
+      361 aatcctgtgg ccgcctcact ctctgcactg cccgcctccg ctggcctaca gcgaaacacg
+      421 ttcacacagc gcctgggagg aggccaagac acacacgctc agccagagca gttctgtcct
+      481 tagtcataca aagctgttag gacagcagct agaaggtgac aatggcttga atccctccgc
+      541 gagcattgtg ggtaaaggag acactcactt ctgcgccgtg tgccatgact acgcttctgg
+      601 atatcactat ggtgtctggt catgtgaagg gtgcaaggct ttcttcaagc gcagcattca
+      661 aggtcacaat gactatattt gtccagccac caaccagtgc actattgaca agagcagacg
+      721 caagagctgt caggcctgtc gactccgcaa gtgctatgaa gtgggcatga tgaagtgtgg
+      781 tgtgaggagg gagcgctgca gttatcgagg tgctcgacat cgtcgtaacc cccaaatcag
+      841 agacagctct ggcggggttg taggactcag aggtcaatcc cagcagcatc tagagttccc
+      901 cctcagtccc tctcagcacc tctttccttc agggggcaga gccgagggac gggccctgaa
+      961 ctattcccct gaacaattgg ttagctgtat tctagaggcg gagccacctc aaatttacct
+     1021 gagagagccg gtgaaaaagc cgtacactga ggctagcatg atgatgtcac taacaagcct
+     1081 cgccgacaag gagctggtgc tcatgattag ctgggcgaag aagataccag gttttgtaga
+     1141 gttgactttg tcagatcagg tgcatttgct ggaatgctgc tggctggata ttctgatgtt
+     1201 aggattgatg tggagatctg tggatcatcc tgggaaactc atcttcaccc ctgacctcaa
+     1261 gctcaacagg gaggaaggga attgtgttga aggcatcatg gagatttttg acatgctgct
+     1321 ggccaccacc tctcgattca gagagctgaa gctgcagaga gaggaatacg tctgtctcaa
+     1381 agccatgatc ctgctcaact ctaataactg ttcgagtttg ccacagactc ctgaggatgt
+     1441 ggagagtcgc gggaaggtgc tgaatctgct ggactcagtg accgatgctc tggtgtggat
+     1501 catctccaga acgggtctgt cctcacaaca acagtccatc cggctagctc atctgctaat
+     1561 gctgctctca cacatccgac acctcagcaa caagggcatc gagcatctat ctaacatgaa
+     1621 gaggaaaaac gtggtgctac tgtacgatct tctgctagag atgctggacg caaacgcgtc
+     1681 tcagagcagc cggatgctgg aagacagaca acagagccca gaaaaccttc acacatccag
+     1741 accgcagcct gacctgaaag acagcgacca ggagacccca cacagtccac gggctgagga
+     1801 gatggtgaac aagacattgc attctagtct gcttcgagag gacatggaca caaactgaca
+     1861 gtcacagact tttgtggggg ggggggggac tctggatctg gcatttcatt catccatcca
+     1921 tcagt
+//
+

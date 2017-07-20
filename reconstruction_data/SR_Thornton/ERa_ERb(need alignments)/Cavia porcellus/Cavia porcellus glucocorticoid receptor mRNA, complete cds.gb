@@ -1,0 +1,84 @@
+LOCUS       GPIGCR                  2316 bp    mRNA    linear   ROD 26-JAN-1995
+DEFINITION  Cavia porcellus glucocorticoid receptor mRNA, complete cds.
+ACCESSION   L13196
+VERSION     L13196.1
+KEYWORDS    glucocorticoid receptor.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricomorpha; Caviidae; Cavia.
+REFERENCE   1  (bases 1 to 2316)
+  AUTHORS   Keightley,M.C. and Fuller,P.J.
+  TITLE     Unique sequences in the guinea pig glucocorticoid receptor induce
+            constitutive transactivation and decrease steroid sensitivity
+  JOURNAL   Mol. Endocrinol. 8 (4), 431-439 (1994)
+   PUBMED   8052264
+COMMENT     Original source text: Cavia porcellus adult liver cDNA to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..2316
+                     /organism="Cavia porcellus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10141"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+     CDS             1..2316
+                     /codon_start=1
+                     /product="glucocorticoid receptor"
+                     /protein_id="AAA61612.1"
+                     /translation="MDLKESVTSSKEVPSSVLGSERRNVIDFYKTVRGGATVKVSASS
+                     PSLAAAAQSDSKQRRLLVDFPKGSGSNAQQPDLSKAVSLSMGLYMGETETKVMGNDLG
+                     FPQQGQISLPSGETDFRLLEESIANLSRSTSVPENPKNSASAVSGTPTEEFPKTQSDL
+                     SSEQENLKSQAGTNGGNVKFPPDQSTFDILKDLEFSSGSPGKERSESPWRPDLLMDES
+                     CLLSPLAGEDDPFLLEGNSNEDCKPLILPDTKPKIKDNGDGILSSSNSVPQPQVKIGK
+                     EDFIELCTPGVIKQEKLGPVYCQASFSGANIIGNKMSAISVHGVSTSGGQMYHYDMNT
+                     ASLSQQQDQKPIFNVIPPIPVGSENWNRCQGSGEDNLTSLGTVNFPGRSVFSNGYSSP
+                     GLRPDVSSPPSSSSTTTGPPPKLCLVCSDELSGCHYGVLTCGSCKVFFKRAVEGQHNY
+                     LCAGRNDCIIDKIRRENCPACRYRKCLQAGMNLQARKTKKKIKGIQQATTGVSQNTSE
+                     NPNKTIVPATLPQLTPTLVSLLEVIEPEVIHSGYDSTSPDSTWRIMTTLNMLGGRQVI
+                     AAVKWAKAIPGFKNLHLDDQMTLLQYSWMFLMAFALGWRSYKQSNGSLLCFAPDLIIN
+                     EQRMSLPWMYDQCRYMLYVSSELKRLQVSYEEYLCMKTLLLLSSVPKEGLKSQELFDE
+                     IRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSLHEIVGNLLNICFKTFLDKTMN
+                     IEFPEMLAEIITNQLPKYSNGDIKKLLFHQK"
+ORIGIN      
+        1 atggacctca aggaatcggt aacctccagt aaagaagtcc ccagcagtgt gcttggttca
+       61 gagaggagga atgtgattga cttctataaa accgtaagag gaggagctac tgtgaaggtt
+      121 tctgcatctt caccctcact ggctgctgct gctcagtcag actccaagca gcgaagactt
+      181 ctggttgatt ttccaaaagg ctcaggaagt aatgcacagc aaccagatct gtccaaagct
+      241 gtttcacttt caatgggact gtatatggga gagacagaaa caaaagtgat gggaaatgac
+      301 ctgggattcc cacagcaggg ccaaatcagc cttccctctg gagaaacaga ctttcggctc
+      361 ctggaagaaa gcattgcaaa tctcagtagg tcgaccagtg ttccagaaaa ccccaagaat
+      421 tcagcatctg ctgtgtctgg aactcccaca gaggagtttc ccaaaactca atctgatcta
+      481 tcttcagaac aggaaaacct aaaaagccaa gctggcacca atggtggcaa tgtaaagttt
+      541 cccccagacc aaagcacctt tgacatcttg aaggatttgg agttttcttc tgggtcccca
+      601 gggaaagaga ggagtgagag tccttggaga ccagacctgt tgatggatga aagctgtttg
+      661 ctttctcctt tggcaggaga ggatgatcca ttccttttgg aaggaaactc gaatgaagac
+      721 tgcaagcctc tcattttacc ggacactaaa cctaaaatta aggataatgg agatgggatc
+      781 ttatcaagct ccaacagtgt accacagccc caagtgaaaa tcggaaaaga agatttcatt
+      841 gaactttgca cccctggggt aattaagcag gagaaactgg gcccagttta ctgtcaggca
+      901 agcttttctg gggcaaatat aattgggaat aaaatgtctg ccatttctgt acatggcgtg
+      961 agtacttctg gaggacagat gtaccactat gacatgaata cagcatccct ttctcagcag
+     1021 caggatcaga aacctatttt taatgtcatt ccaccaattc ctgttgggtc agaaaattgg
+     1081 aataggtgcc aaggatctgg agaggataat ctgacttcct tggggactgt gaactttcct
+     1141 ggccgatcag ttttttctaa tggctattca agccctggat tgaggccgga tgtaagctct
+     1201 cctccatcta gctcctcaac aacaacggga ccacctccca aactctgcct ggtgtgctct
+     1261 gatgaactct ctggatgtca ttatggggtc ttgacatgtg gaagctgcaa agtattcttc
+     1321 aaaagagcag tggaaggaca gcacaattat ctttgtgctg gaagaaatga ttgtatcatt
+     1381 gataaaattc gaagagaaaa ctgcccagcc tgtcgctatc gaaaatgtct tcaagctgga
+     1441 atgaacctgc aagctcgaaa aacaaagaaa aaaataaaag gaattcagca agccactaca
+     1501 ggagtctcac aaaatacttc tgaaaatcct aacaaaacaa tagttcctgc aacattacca
+     1561 caactcaccc ctacgctggt gtcactcttg gaagtcattg aacctgaggt gatacattca
+     1621 ggatatgaca gcaccagtcc agattcaacc tggaggatca tgaccacact caacatgttg
+     1681 ggtgggcgcc aagtgattgc agcagtgaaa tgggcaaagg caatcccagg attcaaaaac
+     1741 ttacacctgg atgaccaaat gaccctcctg cagtactcat ggatgtttct catggcattt
+     1801 gcactggggt ggagatcata caaacaatca aatggaagtt tgctgtgttt tgctcctgat
+     1861 ctgattatta atgagcagag aatgtctcta ccctggatgt atgaccaatg tagatatatg
+     1921 ctatatgttt cctctgagtt aaaaaggctt caggtatctt atgaagagta tctctgtatg
+     1981 aagactttac tccttctctc ttcagttccc aaagaaggtt tgaagagcca agagctattt
+     2041 gatgaaatca gaatgaccta catcaaagag ctaggaaaag ccattgtcaa aagggaagga
+     2101 aactccagcc agaactggca aaggttttat caactgacaa aacttttgga ctcattgcat
+     2161 gaaatagttg gaaacctcct taacatttgc ttcaaaacat ttttggataa gaccatgaat
+     2221 attgaattcc ctgagatgtt agctgaaatc atcaccaatc aactaccaaa atattcaaat
+     2281 ggagacatca aaaaactact atttcatcaa aaatga
+//
+

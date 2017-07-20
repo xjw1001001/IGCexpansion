@@ -1,0 +1,78 @@
+LOCUS       AF442965                1770 bp    mRNA    linear   VRT 06-NOV-2002
+DEFINITION  Coturnix japonica estrogen receptor alpha mRNA, complete cds.
+ACCESSION   AF442965
+VERSION     AF442965.1
+KEYWORDS    .
+SOURCE      Coturnix japonica (Japanese quail)
+  ORGANISM  Coturnix japonica
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Perdicinae; Coturnix.
+REFERENCE   1  (bases 1 to 1770)
+  AUTHORS   Ichikawa,K., Yamamoto,I., Tsukada,A., Saito,N. and Shimada,K.
+  TITLE     cDNA cloning and mRNA expression of estrogen receptor alpha in
+            Japanese quail
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1770)
+  AUTHORS   Ichikawa,K., Yamamoto,I., Tsukada,A., Saito,N. and Shimada,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-NOV-2001) Laboratory of Animal Physiology, Graduate
+            School of Bioagricultural Sciences, Nagoya University, Furo-cho,
+            Chikusa, Nagoya, Aichi 464-8601, Japan
+FEATURES             Location/Qualifiers
+     source          1..1770
+                     /organism="Coturnix japonica"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:93934"
+                     /sex="female"
+                     /tissue_type="liver"
+     CDS             1..1770
+                     /note="nuclear receptor"
+                     /codon_start=1
+                     /product="estrogen receptor alpha"
+                     /protein_id="AAN63674.1"
+                     /translation="MTMTLHTKASGVTLLHQIQGTELETLSRPQLKIPLERSLSDMYV
+                     ESNKTGVFNYPEGATYDFGTTAPVYGSTTLSYAPTSESFGSSSLAGFHSLNNVPPSPV
+                     VFLQTAPQLSPFIHHHSQQVPYYLENEQGSFGMRETAPPAFYRPSSDNRRHSIRERMS
+                     SASEKGSLSMESTKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYMCPAT
+                     NQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMMKQKRQREEQESRNGEAS
+                     STELRAPTLWTSPLVVKHNKKNSPALSLTAEQMVSALLEAEPPIVYSEYDPNRPFNEA
+                     SMMTLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEH
+                     PGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATAARFRMMNLQGEEFVCLKSIILLNS
+                     GVYTFLSSTLKSLEERDYIHRVLDKITDTLIHFMAKSGLSLQQQHRRLAQLLLILSHI
+                     RHMSNKGMEHLYNMKCKNVVPLYDLLLEMLDAHRLHAPAARSAAPMEEENRSQLTTAP
+                     ASSHSLQSFYINSKEEESMQNTI"
+ORIGIN      
+        1 atgaccatga cccttcacac caaagcctct ggagttaccc tgctgcacca gattcaaggc
+       61 actgaactgg agactctgag cagacctcag ctgaagattc ccctggaacg atcgctcagc
+      121 gacatgtacg tggaaagcaa caagacagga gtttttaact acccagaagg ggccacctac
+      181 gattttggta ctaccgctcc agtgtacggc tctactacac tcagttatgc ccctacttct
+      241 gaatcttttg ggtccagcag cctggcagga tttcactctc tgaacaatgt cccaccaagc
+      301 ccagtggtgt tcttgcaaac ggcaccccag ctctcaccct tcatccatca ccacagccag
+      361 caggtaccct actaccttga aaacgaacag ggcagcttcg ggatgaggga aactgctcct
+      421 ccagccttct acaggccaag ctctgataat aggcgccaca gcattcgaga gaggatgtct
+      481 agtgccagtg agaaagggag tctgtccatg gagtccacca aggagacccg gtactgtgct
+      541 gtgtgcaacg actatgcttc aggctaccat tatggggtct ggtcttgtga gggctgcaaa
+      601 gcttttttca aaagaagtat tcaagggcac aatgactaca tgtgtcctgc cactaaccag
+      661 tgtactattg acaagaacag aagaaagagc tgccaggcct gccgactaag aaaatgctat
+      721 gaagtgggaa tgatgaaagg tggaatccgg aaagaccgca gaggtgggcg aatgatgaaa
+      781 cagaaacgtc aaagagagga gcaggagtcc aggaacgggg aggcttcttc tacagagctg
+      841 cgagctccca ccctttggac aagtccacta gtggttaaac ataacaagaa gaacagtcca
+      901 gccctgtctc tgacagcaga acagatggtc agtgccttgc tggaagctga gccacccata
+      961 gtttactctg aatatgaccc caatagacca ttcaacgaag catctatgat gaccctgttg
+     1021 accaaccttg cagacagaga attagtgcac atgatcaact gggcaaagag agttccagga
+     1081 tttgtggatt taacactcca tgatcaggtc catctactgg aatgtgcctg gttagagata
+     1141 ctgatgatcg gcttagtctg gcgctccatg gaacacccgg gaaagctttt atttgcacct
+     1201 aatctattac tggacaggaa tcaagggaaa tgtgtagagg gcatggtgga aatctttgac
+     1261 atgctactgg ctactgctgc tcggtttcgg atgatgaacc ttcaagggga ggaatttgtg
+     1321 tgccttaagt ccatcatcct gctcaattct ggtgtgtaca cttttctttc cagcaccttg
+     1381 aaatctctgg aagagagaga ctatatccac cgtgttctgg acaaaatcac agatactctg
+     1441 atacacttca tggcaaagtc aggtctttct ctgcagcagc agcaccggcg actggctcag
+     1501 ctcctcctca tcctctctca catcaggcat atgagcaaca aaggaatgga gcacctgtac
+     1561 aatatgaagt gtaaaaatgt agttccgctc tatgacctct tactggagat gctggacgct
+     1621 catcgcctac atgcgccagc agccaggagt gctgcaccaa tggaagagga gaaccgaagc
+     1681 cagctgacaa ctgcaccagc ttcatctcat tccctgcagt ccttttacat taacagcaaa
+     1741 gaagaggaga gtatgcagaa tacaatataa
+//
+

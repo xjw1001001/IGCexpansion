@@ -1,0 +1,247 @@
+LOCUS       AH002607                4509 bp    DNA     linear   PRI 01-AUG-2016
+DEFINITION  Homo sapiens androgen receptor (AR) gene, complete cds.
+ACCESSION   AH002607 M35844 M35845 M35846 M35847 M35848 M35849 M35850 M35851
+VERSION     AH002607.2
+KEYWORDS    androgen receptor.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 1769; 1955 to 2106; 2323 to 2439; 2620 to 2907; 3137
+            to 3281; 3493 to 3623; 3847 to 4004; 4209 to 4509)
+  AUTHORS   Tilley,W.D., Marcelli,M., Wilson,J.D. and McPhaul,M.J.
+  TITLE     Characterization and expression of a cDNA encoding the human
+            androgen receptor
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 86 (1), 327-331 (1989)
+   PUBMED   2911578
+REFERENCE   2  (bases 1770 to 1810; 1911 to 1954; 2107 to 2179; 2280 to 2322;
+            2440 to 2479; 2580 to 2619; 2908 to 2957; 3058 to 3136; 3282 to
+            3343; 3444 to 3492; 3624 to 3688; 3789 to 3846; 4005 to 4054; 4155
+            to 4208)
+  AUTHORS   Marcelli,M., Tilley,W.D., Wilson,C.M., Griffin,J.E., Wilson,J.D.
+            and McPhaul,M.J.
+  TITLE     Definition of the human androgen receptor gene structure permits
+            the identification of mutations that cause androgen resistance:
+            premature termination of the receptor protein at amino acid residue
+            588 causes complete androgen resistance
+  JOURNAL   Mol. Endocrinol. 4 (8), 1105-1116 (1990)
+   PUBMED   2293020
+COMMENT     On or before Aug 1, 2016 this sequence version replaced gi:178873,
+            gi:178874, gi:178875, gi:178876, gi:178877, gi:178878, gi:178879,
+            gi:178880, gi:178881.
+FEATURES             Location/Qualifiers
+     source          1..4509
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /map="Xq11.2-q12"
+                     /sex="male"
+                     /tissue_type="prostate"
+     gene            163..4364
+                     /gene="AR"
+     CDS             join(163..1769,1955..2106,2323..2439,2620..2907,
+                     3137..3281,3493..3623,3847..4004,4209..4364)
+                     /gene="AR"
+                     /codon_start=1
+                     /product="androgen receptor"
+                     /protein_id="AAA51772.1"
+                     /db_xref="GDB:G00-120-556"
+                     /translation="MEVQLGLGRVYPRPPSKTYRGAFQNLFQSVREVIQNPGPRHPEA
+                     ASAAPPGASLLLLQQQQQQQQQQQQQQQQQQQQETSPRQQQQQQGEDGSPQAHRRGPT
+                     GYLVLDEEQQPSQPQSALECHPERGCVPEPGAAVAASKGLPQQLPAPPDEDDSAAPST
+                     LSLLGPTFPGLSSCSADLKDILSEASTMQLLQQQQQEAVSEGSSSGRARERSGAPTSS
+                     KDNYLGGTSTISDNAKELCKAVSVSMGLGVEALEHLSPGEQLRGDCMYAPLLGVPPAV
+                     RPTPCAPLAECKGSLLDDSAGKSTEDTAEYSPFKGGYTKGLEGESLGCSGSAAAGSSG
+                     TLELPSTLSLYKSGALDEAAAYQSRDYYNFPLALAGPPPPPPPPHPHARIKLENPLDY
+                     GSAWAAAAAQCRYGDLASLHGAGAAGPGSGSPSAAASSSWHTLFTAEEGQLYGPCGGG
+                     GGGGGGGGGGGGGGGGGGGGEAGAVAPYGYTRPPQGLAGQESDFTAPDVWYPGGMVSR
+                     VPYPSPTCVKSEMGPWMDSYSGPYGDMRLETARDHVLPIDYYFPPQKTCLICGDEASG
+                     CHYGALTCGSCKVFFKRAAEGKQKYLCASRNDCTIDKFRRKNCPSCRLRKCYEAGMTL
+                     GARKLKKLGNLKLQEEGEASSTTSPTEETTQKLTVSHIEGYECQPIFLNVLEAIEPGV
+                     VCAGHDNNQPDSFAALLSSLNELGERQLVHVVKWAKALPGFRNLHVDDQMAVIQYSWM
+                     GLMVFAMGWRSFTNVNSRMLYFAPDLVFNEYRMHKSRMYSQCVRMRHLSQEFGWLQIT
+                     PQEFLCMKALLLFSIIPVDGLKNQKFFDELRMNYIKELDRIIACKRKNPTSCSRRFYQ
+                     LTKLLDSVQPIARELHQFTFDLLIKSHMVSVDFPEMMAEIISVQVPKILSGKVKPIYF
+                     HTQ"
+     exon            <163..1769
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=1
+     intron          1770..>1810
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=1
+     gap             1811..1910
+                     /estimated_length=unknown
+     intron          <1911..1954
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=1
+     exon            1955..2106
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=2
+     intron          2107..>2179
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=2
+     gap             2180..2279
+                     /estimated_length=unknown
+     intron          <2280..2322
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=2
+     exon            2323..2439
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=3
+     intron          2440..>2479
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=3
+     gap             2480..2579
+                     /estimated_length=unknown
+     intron          <2580..2619
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=3
+     exon            2620..2907
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=4
+     intron          2908..>2957
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=4
+     gap             2958..3057
+                     /estimated_length=unknown
+     intron          <3058..3136
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=4
+     exon            3137..3281
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=5
+     intron          3282..>3343
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=5
+     gap             3344..3443
+                     /estimated_length=unknown
+     intron          <3444..3492
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=5
+     exon            3493..3623
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=6
+     intron          3624..>3688
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=6
+     gap             3689..3788
+                     /estimated_length=unknown
+     intron          <3789..3846
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=6
+     exon            3847..4004
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=7
+     intron          4005..>4054
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=7
+     gap             4055..4154
+                     /estimated_length=unknown
+     intron          <4155..4208
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=7
+     exon            4209..>4364
+                     /gene="AR"
+                     /note="G00-120-556"
+                     /number=8
+ORIGIN      
+        1 tttttgcgtg gttgctcccg aagtttcctt ctctggagct tcccgcacgt gggcagctag
+       61 ctgcagcgac taccgcatca tcacagcctg ttgaactctt ctgagcaaga gaaggggagg
+      121 cggggtaagg gaagtaggtg gaagattcag ccaagctcaa ggatggaagt gcagttaggg
+      181 ctgggaaggg tctaccctcg gccgccgtcc aagacctacc gaggagcttt ccagaatctg
+      241 ttccagagcg tgcgcgaagt gatccagaac ccgggcccca ggcacccaga ggccgcgagc
+      301 gcagcacctc ccggcgccag tttgctgctg ctgcagcagc agcagcagca gcagcagcag
+      361 cagcagcagc agcagcagca gcagcagcag caagagacta gccccaggca gcagcagcag
+      421 cagcagggtg aggatggttc tccccaagcc catcgtagag gccccacagg ctacctggtc
+      481 ctggatgagg aacagcaacc ttcacagccg cagtcggccc tggagtgcca ccccgagaga
+      541 ggttgcgtcc cagagcctgg agccgccgtg gccgccagca aggggctgcc gcagcagctg
+      601 ccagcacctc cggacgagga tgactcagct gccccatcca cgttgtccct gctgggcccc
+      661 actttccccg gcttaagcag ctgctccgct gaccttaaag acatcctgag cgaggccagc
+      721 accatgcaac tccttcagca acagcagcag gaagcagtat ccgaaggcag cagcagcggg
+      781 agagcgaggg agcgctcggg ggctcccact tcctccaagg acaattactt agggggcact
+      841 tcgaccattt ctgacaacgc caaggagttg tgtaaggcag tgtcggtgtc catgggcctg
+      901 ggtgtggagg cgttggagca tctgagtcca ggggaacagc ttcgggggga ttgcatgtac
+      961 gccccacttt tgggagttcc acccgctgtg cgtcccactc cttgtgcccc attggccgaa
+     1021 tgcaaaggtt ctctgctaga cgacagcgca ggcaagagca ctgaagatac tgctgagtat
+     1081 tcccctttca agggaggtta caccaaaggg ctagaaggcg agagcctagg ctgctctggc
+     1141 agcgctgcag cagggagctc cgggacactt gaactgccgt ctaccctgtc tctctacaag
+     1201 tccggagcac tggacgaggc agctgcgtac cagagtcgcg actactacaa ctttccactg
+     1261 gctctggccg gaccgccgcc ccctccgccg cctccccatc cccacgctcg catcaagctg
+     1321 gagaacccgc tggactacgg cagcgcctgg gcggctgcgg cggcgcagtg ccgctatggg
+     1381 gacctggcga gcctgcatgg cgcgggtgca gcgggacccg gttctgggtc accctcagcc
+     1441 gccgcttcct catcctggca cactctcttc acagccgaag aaggccagtt gtatggaccg
+     1501 tgtggtggtg gtgggggtgg tggcggcggc ggcggcggcg gcggcggcgg cggcggcggc
+     1561 ggcggcggcg gcgaggcggg agctgtagcc ccctacggct acactcggcc ccctcagggg
+     1621 ctggcgggcc aggaaagcga cttcaccgca cctgatgtgt ggtaccctgg cggcatggtg
+     1681 agcagagtgc cctatcccag tcccacttgt gtcaaaagcg aaatgggccc ctggatggat
+     1741 agctactccg gaccttacgg ggacatgcgg taagtttttc cttccagaaa tgtcgctttc
+     1801 ggcccaggga nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     1861 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn cattcagtga
+     1921 catgtgttgc attggttttt tgtgtctttt ccagtttgga gactgccagg gaccatgttt
+     1981 tgcccattga ctattacttt ccaccccaga agacctgcct gatctgtgga gatgaagctt
+     2041 ctgggtgtca ctatggagct ctcacatgtg gaagctgcaa ggtcttcttc aaaagagccg
+     2101 ctgaaggtaa agggtcttgc acatgcagct tctctttccc tttctcgttt accttccaga
+     2161 gagagacact aacctttcan nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     2221 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnna
+     2281 acttattatc aggtcaatca actcttgttt gtgttctccc agggaaacag aagtacctgt
+     2341 gcgccagcag aaatgattgc actattgata aattccgaag gaaaaattgt ccatcttgtc
+     2401 gtcttcggaa atgttatgaa gcagggatga ctctgggagg taagatactt ttctttctct
+     2461 tcctcctcct tcctctctcn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     2521 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnc
+     2581 cactgatgat aaattcaagt ctctcttcct tcccaatagc ccggaagctg aagaaacttg
+     2641 gtaatctgaa actacaggag gaaggagagg cttccagcac caccagcccc actgaggaga
+     2701 caacccagaa gctgacagtg tcacacattg aaggctatga atgtcagccc atctttctga
+     2761 atgtcctgga agccattgag ccaggtgtag tgtgtgctgg acacgacaac aaccagcccg
+     2821 actcctttgc agccttgctc tctagcctca atgaactggg agagagacag cttgtacacg
+     2881 tggtcaagtg ggccaaggcc ttgcctggta aggaaaaggg aagtgggagc atgagataag
+     2941 ggggatcata tttagtgnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3001 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnntgc
+     3061 ccaacaggga gtcagactta gctcaacccg tcagtagtac ccagactgac cactgcctct
+     3121 gcctcttctt ctccaggctt ccgcaactta cacgtggacg accagatggc tgtcattcag
+     3181 tactcctgga tggggctcat ggtgtttgcc atgggctggc gatccttcac caatgtcaac
+     3241 tccaggatgc tctacttcgc ccctgatctg gttttcaatg agtaagtgct cctggggccc
+     3301 agagacctca ctaaaataca gcagcttggc cagacctggt tggnnnnnnn nnnnnnnnnn
+     3361 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3421 nnnnnnnnnn nnnnnnnnnn nnntattgta aacttcccct cattcctttt tcctctgtgt
+     3481 atctcttccc aggtaccgca tgcacaagtc ccggatgtac agccagtgtg tccgaatgag
+     3541 gcacctctct caagagtttg gatggctcca aatcaccccc caggaattcc tgtgcatgaa
+     3601 agcactgcta ctcttcagca ttagtaagtg cctagaagtg cagggaatgc ccctgacgag
+     3661 agattcagag aggaccactt ttgccattnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3721 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     3781 nnnnnnnntc taatgctcct tcgtgggcat gcttcccctc cccattctgt cttcatccca
+     3841 catcagttcc agtggatggg ctgaaaaatc aaaaattctt tgatgaactt cgaatgaact
+     3901 acatcaagga actcgatcgt atcattgcat gcaaaagaaa aaatcccaca tcctgctcaa
+     3961 gacgcttcta ccagctcacc aagctcctgg actccgtgca gcctgtaagc aaacgatgga
+     4021 gggtgcttta tcagggagaa cagcctgata gagcnnnnnn nnnnnnnnnn nnnnnnnnnn
+     4081 nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn nnnnnnnnnn
+     4141 nnnnnnnnnn nnnncagagg ccacctcctt gtcaaccctg tttttctccc tcttattgtt
+     4201 ccctacagat tgcgagagag ctgcatcagt tcacttttga cctgctaatc aagtcacaca
+     4261 tggtgagcgt ggactttccg gaaatgatgg cagagatcat ctctgtgcaa gtgcccaaga
+     4321 tcctttctgg gaaagtcaag cccatctatt tccacaccca gtgaagcatt ggaaacccta
+     4381 tttccccacc ccagctcatg ccccctttca gatgtcttct gcctgttata actctgcact
+     4441 actcctctga gtgccttggg gaatttcctc tattgatgta cagtctgtca tgaacatgtt
+     4501 cctgaattc
+//
+

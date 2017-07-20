@@ -1,0 +1,75 @@
+LOCUS       AB006590                1740 bp    mRNA    linear   PRI 05-FEB-1999
+DEFINITION  Homo sapiens mRNA for estrogen receptor beta, complete cds.
+ACCESSION   AB006590
+VERSION     AB006590.1
+KEYWORDS    estrogen receptor beta.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Ogawa,S., Inoue,S., Watanabe,T., Hiroi,H., Orimo,A., Hosoi,T.,
+            Ouchi,Y. and Muramatsu,M.
+  TITLE     The complete primary structure of human estrogen receptor beta (hER
+            beta) and its heterodimerization with ER alpha in vivo and in vitro
+  JOURNAL   Biochem. Biophys. Res. Commun. 243 (1), 122-126 (1998)
+   PUBMED   9473491
+REFERENCE   2  (bases 1 to 1740)
+  AUTHORS   Ogawa,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-AUG-1997) Sumito Ogawa, Saitama Medical School,
+            Department of 2nd Biochemistry; 38 Morohongo, Moroyama, Iruma-gun,
+            Saitama 350-0495, Japan (E-mail:suogawa@saitama-med.ac.jp,
+            Tel:81-492-76-1490, Fax:81-492-94-9751)
+FEATURES             Location/Qualifiers
+     source          1..1740
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+     CDS             99..1691
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="BAA24953.1"
+                     /translation="MDIKNSPSSLNSPSSYNCSQSILPLEHGSIYIPSSYVDSHHEYP
+                     AMTFYSPAVMNYSIPSNVTNLEGGPGRQTTSPNVLWPTPGHLSPLVVHRQLSHLYAEP
+                     QKSPWCEARSLEHTLPVNRETLKRKVSGNRCASPVTGPGSKRDAHFCAVCSDYASGYH
+                     YGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYEVGMVKCG
+                     SRRERCGYRLVRRQRSADEQLHCAGKAKRSGGHAPRVRELLLDALSPEQLVLTLLEAE
+                     PPHVLISRPSAPFTEASMMMSLTKLADKELVHMISWAKKIPGFVELSLFDQVRLLESC
+                     WMEVLMMGLMWRSIDHPGKLIFAPDLVLDRDEGKCVEGILEIFDMLLATTSRFRELKL
+                     QHKEYLCVKAMILLNSSMYPLVTATQDADSSRKLAHLLNAVTDALVWVIAKSGISSQQ
+                     QSMRLANLLMLLSHVRHASNKGMEHLLNMKCKNVVPVYDLLLEMLNAHVLRGCKSSIT
+                     GSECSPAEDSKSKEGSQNPQSQ"
+ORIGIN      
+        1 gttgacagcc attatacttg cccacgaatc tttgagaaca ttataatgac ctttgtgcct
+       61 cttcttgcaa ggtgttttct cagctgttat ctcaagacat ggatataaaa aactcaccat
+      121 ctagccttaa ttctccttcc tcctacaact gcagtcaatc catcttaccc ctggagcacg
+      181 gctccatata cataccttcc tcctatgtag acagccacca tgaatatcca gccatgacat
+      241 tctatagccc tgctgtgatg aattacagca ttcccagcaa tgtcactaac ttggaaggtg
+      301 ggcctggtcg gcagaccaca agcccaaatg tgttgtggcc aacacctggg cacctttctc
+      361 ctttagtggt ccatcgccag ttatcacatc tgtatgcgga acctcaaaag agtccctggt
+      421 gtgaagcaag atcgctagaa cacaccttac ctgtaaacag agagacactg aaaaggaagg
+      481 ttagtgggaa ccgttgcgcc agccctgtta ctggtccagg ttcaaagagg gatgctcact
+      541 tctgcgctgt ctgcagcgat tacgcatcgg gatatcacta tggagtctgg tcgtgtgaag
+      601 gatgtaaggc cttttttaaa agaagcattc aaggacataa tgattatatt tgtccagcta
+      661 caaatcagtg tacaatcgat aaaaaccggc gcaagagctg ccaggcctgc cgacttcgga
+      721 agtgttacga agtgggaatg gtgaagtgtg gctcccggag agagagatgt gggtaccgcc
+      781 ttgtgcggag acagagaagt gccgacgagc agctgcactg tgccggcaag gccaagagaa
+      841 gtggcggcca cgcgccccga gtgcgggagc tgctgctgga cgccctgagc cccgagcagc
+      901 tagtgctcac cctcctggag gctgagccgc cccatgtgct gatcagccgc cccagtgcgc
+      961 ccttcaccga ggcctccatg atgatgtccc tgaccaagtt ggccgacaag gagttggtac
+     1021 acatgatcag ctgggccaag aagattcccg gctttgtgga gctcagcctg ttcgaccaag
+     1081 tgcggctctt ggagagctgt tggatggagg tgttaatgat ggggctgatg tggcgctcaa
+     1141 ttgaccaccc cggcaagctc atctttgctc cagatcttgt tctggacagg gatgagggga
+     1201 aatgcgtaga aggaattctg gaaatctttg acatgctcct ggcaactact tcaaggtttc
+     1261 gagagttaaa actccaacac aaagaatatc tctgtgtcaa ggccatgatc ctgctcaatt
+     1321 ccagtatgta ccctctggtc acagcgaccc aggatgctga cagcagccgg aagctggctc
+     1381 acttgctgaa cgccgtgacc gatgctttgg tttgggtgat tgccaagagc ggcatctcct
+     1441 cccagcagca atccatgcgc ctggctaacc tcctgatgct cctgtcccac gtcaggcatg
+     1501 cgagtaacaa gggcatggaa catctgctca acatgaagtg caaaaatgtg gtcccagtgt
+     1561 atgacctgct gctggagatg ctgaatgccc acgtgcttcg cgggtgcaag tcctccatca
+     1621 cggggtccga gtgcagcccg gcagaggaca gtaaaagcaa agagggctcc cagaacccac
+     1681 agtctcagtg acgcctggcc ctgaggtgaa ctggcccaca gaggtcacaa gctgaagcgt
+//
+

@@ -1,0 +1,56 @@
+LOCUS       AY172105                1013 bp    mRNA    linear   ROD 24-JUL-2016
+DEFINITION  Cavia porcellus estrogen receptor 2 (ESR2) mRNA, partial cds.
+ACCESSION   AY172105
+VERSION     AY172105.1
+KEYWORDS    .
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricomorpha; Caviidae; Cavia.
+REFERENCE   1  (bases 1 to 1013)
+  AUTHORS   Zhang,X. and Harris,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-OCT-2002) Cell Biology, Wyeth, 500 Arcola Road,
+            Collegeville, PA 19426, USA
+FEATURES             Location/Qualifiers
+     source          1..1013
+                     /organism="Cavia porcellus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10141"
+                     /tissue_type="lung"
+     gene            <1..1013
+                     /gene="ESR2"
+     CDS             <1..1008
+                     /gene="ESR2"
+                     /note="ER beta; contains ER beta ligand binding domains"
+                     /codon_start=1
+                     /product="estrogen receptor 2"
+                     /protein_id="AAN85119.1"
+                     /translation="NRRKSCQACRLRKCYEVGMVKCGSRRERCGYRVVRRQRSPGEQL
+                     HCLSKAKKHGGHTPRAKELLLSALSPEQLVLTLLEAEPPNVLVSRPSAPFTEASMMMS
+                     LTKLADKELVHMIGWAKKIPGFVELSLLDQVRLLESCWMEVLMVGLMWRSIDHPGKLI
+                     FAPDLVLDRDEGKCVEGILEIFDMLLATTSRFRELKLQHKEYLCVKAMILLNSNMYPL
+                     AAATQEMESSRKLTHLLNSVTDALVWVIAKSGISSQQQSIRLANLLMLLSHVRHISNK
+                     GMEHLLSMKCKNVVPVYDLLLEMLNAHTLRGYKSPVPGSECSSEEDSKNKEGSQNSQS
+                     Q"
+ORIGIN      
+        1 aaccggcgta aaagctgcca ggcctgccga cttcgaaagt gctatgaagt aggaatggtg
+       61 aagtgtggct cccggagaga gaggtgcggg taccgagtgg tgcgaagaca gagaagtccc
+      121 ggggagcagc tgcactgcct gagcaaggcc aagaagcacg ggggccacac gccccgggca
+      181 aaggagctgc tgctgagtgc gctgagcccc gagcagctgg tgctcaccct gctggaggcc
+      241 gagccgccca acgtgctggt gagccggccc agcgctccct tcaccgaggc ctccatgatg
+      301 atgtcgctca ccaagctggc cgacaaggag ttggtacaca tgatcggctg ggccaagaaa
+      361 attccgggct ttgtggagct cagcctgctg gaccaagtgc ggctcttgga gagctgctgg
+      421 atggaggtgc tgatggtggg gctgatgtgg cgctcaattg accaccccgg caagctcatc
+      481 ttcgctccag acctcgttct ggacagggat gaggggaaat gtgtagaagg aattctggaa
+      541 atctttgaca tgctcctggc aacaacttca aggttccgtg agctaaaact ccagcacaaa
+      601 gagtatctgt gtgtcaaggc catgatcctg ctcaactcca atatgtaccc tttggctgca
+      661 gcgacccagg agatggagag cagccggaag ctgactcacc tgctgaactc ggtgacagac
+      721 gctctggtct gggtgatcgc caagagcggc atctcctccc agcagcagtc cattcgcctg
+      781 gccaatctcc tgatgcttct gtctcatgtc aggcacatca gtaacaaggg catggaacac
+      841 ctgctcagca tgaagtgcaa aaatgtggtc ccagtgtacg atctgctgtt ggagatgctg
+      901 aacgctcaca cgcttcgtgg gtacaagtcc ccggtccctg ggtccgagtg cagttcggaa
+      961 gaggacagca agaacaagga gggctcacag aattcgcagt ctcagtgacg gcc
+//
+

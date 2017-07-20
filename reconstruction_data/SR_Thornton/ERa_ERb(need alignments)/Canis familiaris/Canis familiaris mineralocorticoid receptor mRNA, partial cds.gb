@@ -1,0 +1,43 @@
+LOCUS       DQ195095                 567 bp    mRNA    linear   MAM 28-SEP-2005
+DEFINITION  Canis familiaris mineralocorticoid receptor mRNA, partial cds.
+ACCESSION   DQ195095
+VERSION     DQ195095.1
+KEYWORDS    .
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+REFERENCE   1  (bases 1 to 567)
+  AUTHORS   Peters,I.R., Ray,L. and Day,M.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-SEP-2005) School of Clinical Veterinary Science,
+            University of Bristol, Langford House, Langford, Bristol BS40 5DU,
+            United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..567
+                     /organism="Canis lupus familiaris"
+                     /mol_type="mRNA"
+                     /sub_species="familiaris"
+                     /db_xref="taxon:9615"
+     CDS             <1..>567
+                     /codon_start=1
+                     /product="mineralocorticoid receptor"
+                     /protein_id="ABA40752.1"
+                     /translation="PDTAENLLSTLNRLAGKQMIQVVKWAKVLPGFRNLPLEDQITLI
+                     QYSWMCLSSFALSWRSYKHTNSQFLYFAPDLVFNEEKMHQSAMYELCQGMHQISLQFV
+                     RLQLTFEEYTIMKVLLLLSTIPKDGLKSQAAFEEMRTNYIKELRKMVTKCPSNSGQSW
+                     QRFYQLTKLLDSMHDLVSDLLEFCFYTFR"
+ORIGIN      
+        1 cccgacacgg ccgaaaacct cctctccacg ctgaaccgcc tggcgggcaa gcagatgatc
+       61 caagtggtga agtgggcgaa ggtacttcca ggatttcgaa acttgcctct tgaggaccaa
+      121 attaccctaa tccagtattc ttggatgtgt ctatcatcat ttgccttgag ctggagatcg
+      181 tacaaacata caaacagcca atttctctat tttgcgccag acctagtctt taatgaagag
+      241 aagatgcatc agtctgccat gtatgaacta tgccagggga tgcaccaaat cagccttcag
+      301 ttcgttcgac tgcagctcac ctttgaagag tacactataa tgaaagttct gctgctgcta
+      361 agcacaattc caaaggacgg cctcaaaagc caggctgcat ttgaagaaat gaggacaaat
+      421 tacatcaaag aactgaggaa gatggtaact aagtgtccca gcaactctgg gcagagctgg
+      481 caaaggttct accaactgac caagcttctg gactccatgc atgatctggt gagcgacctg
+      541 ctggagttct gcttctacac cttccgg
+//
+

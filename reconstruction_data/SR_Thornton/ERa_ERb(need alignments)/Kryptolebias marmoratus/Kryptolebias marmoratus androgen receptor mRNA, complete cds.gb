@@ -1,0 +1,93 @@
+LOCUS       DQ339105                2473 bp    mRNA    linear   VRT 19-JUN-2006
+DEFINITION  Kryptolebias marmoratus androgen receptor mRNA, complete cds.
+ACCESSION   DQ339105
+VERSION     DQ339105.1
+KEYWORDS    .
+SOURCE      Kryptolebias marmoratus (mangrove rivulus)
+  ORGANISM  Kryptolebias marmoratus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Cyprinodontiformes;
+            Rivulidae; Kryptolebias.
+REFERENCE   1  (bases 1 to 2473)
+  AUTHORS   Seo,J.S., Lee,Y.M., Jung,S.O., Kim,I.C., Yoon,Y.D. and Lee,J.S.
+  TITLE     Nonylphenol modulates expression of androgen receptor and estrogen
+            receptor genes differently in gender types of the hermaphroditic
+            fish Rivulus marmoratus
+  JOURNAL   Biochem. Biophys. Res. Commun. 346 (1), 213-223 (2006)
+   PUBMED   16759644
+REFERENCE   2  (bases 1 to 2473)
+  AUTHORS   Seo,J.S., Lee,Y.-M., Kim,I.-C., Yoon,Y.-D. and Lee,J.-S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-DEC-2005) Molecular and Environmental Bioscience,
+            Hanyang University, 17, Haengdangdong, Seongdonggu, Seoul 133-791,
+            South Korea
+FEATURES             Location/Qualifiers
+     source          1..2473
+                     /organism="Kryptolebias marmoratus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:37003"
+     CDS             103..2331
+                     /note="gonad androgen receptor"
+                     /codon_start=1
+                     /product="androgen receptor"
+                     /protein_id="ABC68612.1"
+                     /translation="MSQSGRRLSCGNFSPPGARKAEAVSAVGMAQKSEGSPVRFGRSW
+                     TGSGVGRLKGSEPEGGYGATCDLEPRCCQSAPREELMHCRVGDARSVSACATISETAR
+                     ELCRAVTVSLGLMVMEPSDVDAAAAAAAGGARPACVAASDLMSGGDYFFCTDPASASQ
+                     SCPGAQTAAVSEYRCPERDKQPVDMFKSSETLTSSGRTSSASGPNFALCEAEDSVRAA
+                     AASPSSCPFAPDSLAQFGHATAERPCRAYSSSHDGAREVAEDEPPGYHQPEQYGVRVK
+                     CEGSEASGAPWSGNYTFNRRHNTQLWGSRQCANESAASATFICNPYEGGVVRPEHWYP
+                     GGMLRTPHPHNPGDVKSEVGEWLDVVYNDSRFEASGEHMFPMEFFFPPQRTCLICSDE
+                     ASGCHYGALTCGSCKVFFKRAAEGKQKYLCASKNDCTIDKLRRKNCPSCRLKKCFEAG
+                     MTLGARKLKKIGQQKNPEEDHSVHEPADVPHNISPKAGPNFNSQLVFLNILESIEPEV
+                     VNAGHDCGQPDSAAGLLTSLNELGERQLVKVVKWAKGLPGFRNLHVDDQMTVIQQSWM
+                     GVMVFVLIWRSYKNVNGRMLYFAPDLVFNEHRMHVSTMYEHCMRMRHLSQEFVLLQIT
+                     QEEFLCMKALLLFSIIPVEGLKSQKYFDELRLTYINELDRLINYQMTTNCPQRFYQLT
+                     RLLDSLQMTVRKLHQFTFDLFVQAQSLHTKVSFPEMIGEIISVRVPKILAGLAKPILF
+                     HK"
+ORIGIN      
+        1 agcagcggat caacgattac acccggacct gattggggag gtggggggga caacttttcg
+       61 tcgcgcaaag tccgctccga ctgaactaac tccgtgcggg aaatgagcca aagtggccga
+      121 cgcttatcct gtggcaactt ttcgcctccc ggggcgagga aagcggaggc ggtgagcgcc
+      181 gtgggcatgg cgcagaaatc tgagggcagt ccggtccggt tcggccgaag ctggacggga
+      241 agtggtgtcg gcaggctcaa aggctccgaa cctgaaggcg gttacggagc aacctgcgac
+      301 ctggagccgc gctgctgtca gtccgcgcct cgggaggagt tgatgcactg ccgagtgggc
+      361 gacgctcgct ccgtctccgc ctgcgccacc atctcagaga cggcccggga gctgtgccga
+      421 gccgtgaccg tgtcgctggg tctcatggtg atggagccga gcgacgtgga cgcagccgcg
+      481 gccgccgctg ccggcggcgc gcgccccgcg tgcgtcgccg cgagtgacct aatgagcgga
+      541 ggggactatt tcttctgcac cgaccccgcg tctgccagcc agagctgtcc cggagcccag
+      601 acggcggctg tcagcgagta caggtgtccc gagcgagaca agcaacctgt ggacatgttc
+      661 aaaagttcgg agactctgac ctcctccggc cggacctcgt cggcgagcgg gccaaacttc
+      721 gcgctgtgcg aggctgagga ctcggtccga gccgccgccg cctccccctc ctcctgcccc
+      781 tttgccccgg acagcctggc tcagttcggc cacgccaccg ccgagaggcc gtgccgggct
+      841 tacagcagct cccacgacgg agcgcgggag gtggcggagg acgagccgcc cgggtaccac
+      901 cagccggagc agtacggtgt ccgggtcaag tgcgagggca gcgaggcgtc cggagcgccg
+      961 tggagcggca actacacctt caacaggagg cacaacacgc agctctgggg gtccaggcag
+     1021 tgcgcgaacg agtccgccgc gagcgcgacg ttcatctgta acccgtatga gggcggcgtg
+     1081 gttcggcccg agcactggta ccccggcggg atgctgagga ccccccatcc ccacaacccc
+     1141 ggagacgtga agagcgaggt gggcgaatgg ctggacgtgg tctacaacga ctccaggttt
+     1201 gaggcgagtg gagagcacat gtttcccatg gagttcttct tcccccctca gaggacgtgc
+     1261 ctgatttgtt cggacgaggc gtctggctgc cattacggtg cgctcacgtg tggcagctgc
+     1321 aaggttttct tcaagagagc tgcagaagga aaacagaaat acctgtgcgc gagcaaaaac
+     1381 gactgcacca ttgataagtt gaggagaaag aactgcccct cttgtcggct gaagaagtgt
+     1441 tttgaagctg gaatgactct tggagcacgc aagctaaaga agattggaca acagaaaaac
+     1501 ccagaggagg atcattctgt tcacgaacca gcagacgtgc cccacaacat ttctcctaag
+     1561 gcgggtccga actttaactc ccagctggtt ttcctcaaca tcctggagtc cattgagccc
+     1621 gaggtggtga atgcaggaca cgactgcggc cagccagact ctgctgccgg cctgctcacc
+     1681 agcctgaatg agctgggaga gagacaactg gtcaaagtgg tcaaatgggc aaaggggctg
+     1741 ccaggtttta gaaacttgca cgtggatgac cagatgactg tcatccagca gtcgtggatg
+     1801 ggggtgatgg tgtttgtgct gatatggagg tcctataaga acgtcaacgg caggatgctt
+     1861 tactttgccc cggacctcgt ctttaacgaa caccggatgc acgtctccac catgtatgag
+     1921 cactgcatgc ggatgaggca tctttcccag gagtttgtgc tgctgcagat cactcaggag
+     1981 gagttcctct gcatgaaggc cctgctgctc ttcagcatca ttcccgttga gggcttgaaa
+     2041 agccagaagt acttcgatga gctgcgcctg acctacatca atgaactgga ccgtctcatc
+     2101 aattatcaaa tgacaacaaa ctgcccccag aggttctacc agctcacgcg cctcctggac
+     2161 tccctgcaga tgacggtaag gaagctccat cagtttacgt tcgacctctt cgtccaggct
+     2221 cagtcactcc acaccaaggt cagctttcca gagatgatcg gagaaatcat ctcggtacgc
+     2281 gtcccaaaga tcctggcagg tttggctaaa ccgatcttgt ttcacaagta gaaggatttt
+     2341 ccttcttcca ccccagcaga acgtgtctaa aaacgctgcc tcgatgaact tcaaaacaaa
+     2401 aggctgtgaa ctgtttctgc acatcttcag tctgattgct tttaaaacca aaaaaaaaaa
+     2461 aaaaaaaaaa aaa
+//
+

@@ -1,0 +1,113 @@
+LOCUS       XM_003472337            2693 bp    mRNA    linear   ROD 14-JUL-2015
+DEFINITION  PREDICTED: Cavia porcellus estrogen receptor 2 (ER beta) (Esr2),
+            mRNA.
+ACCESSION   XM_003472337
+VERSION     XM_003472337.3
+DBLINK      BioProject: PRJNA73553
+KEYWORDS    RefSeq.
+SOURCE      Cavia porcellus (domestic guinea pig)
+  ORGANISM  Cavia porcellus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Hystricomorpha; Caviidae; Cavia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NT_176399.1) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Jul 14, 2015 this sequence version replaced gi:514465799.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Cavia porcellus Annotation Release
+                                           102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2693
+                     /organism="Cavia porcellus"
+                     /mol_type="mRNA"
+                     /strain="inbred line 2N"
+                     /specimen_voucher="Broad:Sequencing.Sample:289.1, Broad
+                     Institute, Cambridge, MA"
+                     /db_xref="taxon:10141"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..2693
+                     /gene="Esr2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 Protein, and 98% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:100731304"
+     CDS             148..1851
+                     /gene="Esr2"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="XP_003472385.1"
+                     /db_xref="GeneID:100731304"
+                     /translation="MSLCAPSCKEFSQLLPVQDMDIKNSPSSLHSPSSYNCSQSVLPL
+                     EHGPLYIPSSYVDNRHEYSAVTFYSPAVMNYSIPSGVSNTEGVPGRQTTSPSMLWPAP
+                     GHLSPLAIHCQSSLLYAEPQKSPWCEARSLEHTLPINRETLKRKVSAGSCASPAASPA
+                     SKRDAHFCAVCSDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRK
+                     SCQACRLRKCYEVGMVKCGSRRERCGYRVVRRQRSPGEQLHCLSKAKKHGGHTPRAKE
+                     LLLSALSPEQLVLTLLEAEPPNVLVSRPSAPFTEASMMMSLTKLADKELVHMIGWAKK
+                     IPGFVELSLLDQVRLLESCWMEVLMVGLMWRSIDHPGKLIFAPDLVLDRSSEDPHSHG
+                     MQMKNDASRDEGKCVEGILEIFDMLLATTSRFRELKLQHKEYLCVKAMILLNSNMYPL
+                     AAATQEMESSRKLTHLLNSVTDALVWVIAKSGISSQQQSIRLANLLMLLSHVRHISNK
+                     GMEHLLSMKCKNVVPVYDLLLEMLNAHTLRGYKSPVPGSECSSEEDSKNKEGSQNSQS
+                     Q"
+ORIGIN      
+        1 gagccggggt gcagccgggt cccccgcctc ctcggcgagc gccccgtggc ccgagccccg
+       61 cggggagcgc agctgcgggg cgcgcggctg ccgccgcctc cacgcgcgag ccaccattcc
+      121 agcctgtgag tctttgagaa cattataatg tctctttgtg ccccttcttg caaggagttc
+      181 tcccagctgc tacctgttca agacatggat atcaaaaact caccgtccag ccttcactcc
+      241 ccctcctcct acaactgcag tcaatctgtt ctcccgctgg agcatggccc tctgtacatc
+      301 ccttcctcct atgtagacaa tcgccatgaa tactcggccg tgacattcta tagccctgct
+      361 gtaatgaatt acagcattcc cagtggggtc agtaacacag aaggtgtgcc tggtcgacag
+      421 accacaagtc ccagtatgtt atggccagct ccggggcacc tctctcctct agcaatccat
+      481 tgccagtcgt cacttctgta cgcagagcct caaaagagcc cttggtgtga agcaagatca
+      541 ctagagcaca ccttgcctat aaacagggag acgctgaaaa ggaaggtgag tgcaggcagt
+      601 tgtgccagcc cagctgccag ccccgcttct aagagggatg ctcacttctg cgcagtctgc
+      661 agcgattatg cgtctgggta tcactatgga gtctggtcat gtgaaggatg taaggccttt
+      721 tttaaaagaa gcattcaagg acataatgat tatatttgtc ctgctacgaa tcagtgtacc
+      781 atagataaga accggcggaa aagctgccag gcctgccgac ttcgaaagtg ctatgaagta
+      841 ggaatggtga agtgtggctc ccggagagag aggtgcgggt accgagtggt gcgaagacag
+      901 agaagtcccg gggagcagct gcactgcctg agcaaggcca agaagcacgg gggccacacg
+      961 ccccgggcaa aggagctgct gctgagtgcg ctgagccccg agcagctggt gctcaccctg
+     1021 ctggaggccg agccgcccaa cgtgctggtg agccggccca gcgctccctt caccgaggcc
+     1081 tccatgatga tgtcgctcac caagctggcc gacaaggagt tggtacacat gatcggctgg
+     1141 gccaagaaaa ttccgggctt tgtggagctc agcctgctgg accaagtgcg gctcttggag
+     1201 agctgctgga tggaggtgct gatggtgggg ctgatgtggc gctcaattga ccaccccggc
+     1261 aagctcatct tcgctccaga cctcgttctg gacaggtcct cagaagaccc tcattcgcac
+     1321 ggcatgcaga tgaagaatga tgcctcaagg gatgagggga aatgtgtaga aggaattctg
+     1381 gaaatctttg acatgctcct ggcaacaact tcaaggttcc gtgagctaaa actccagcac
+     1441 aaagagtatc tgtgtgtcaa ggccatgatc ctgctcaact ccaatatgta ccctttggct
+     1501 gcagcgaccc aggagatgga gagcagccgg aagctgactc acctgctgaa ctcggtgaca
+     1561 gacgctctgg tctgggtgat cgctaagagc ggcatctcct cccagcagca gtccattcgc
+     1621 ctggccaatc tcctgatgct tctgtctcat gtcaggcaca tcagtaacaa gggcatggaa
+     1681 cacctgctca gcatgaagtg caaaaatgtg gtcccagtgt acgatctgct gttggagatg
+     1741 ctgaacgctc acacgcttcg tgggtacaag tccccggtcc ctgggtccga gtgcagttcg
+     1801 gaagaggaca gcaagaacaa ggagggctca cagaattcgc agtctcagtg atgcccagcc
+     1861 ctgagaaaac accttacagg tttcagaatg aatggtggaa atctgattgg aaatgttgca
+     1921 agctagaggg gagagagatg ccagtctata ggagtctaat ccctactggg caaccttcgc
+     1981 ttcactggga actgaccttc atgtgctctc ctctgcgtca tgggaaactc atgatgacaa
+     2041 cccattaact aatgtcacat gcccacctca caggtctgtg aggactgata tcgtgttaca
+     2101 ggattttgtc aaagactaga gggatggggt caaggtggga tgtgagccac gttcttagac
+     2161 cttgtcactg tctttatgcc cccttatgcc tcctgatttg cattcacaga gcttgctaat
+     2221 tctttggggc atgtgtccgt gcgatgtgtg tgatcacttt catgaagagc tgtgggaagt
+     2281 ataaatctct gtcctcctgg agtgggacct tctcgaaacc ctaatgccct gagccctaga
+     2341 atgtgtgcta cagaaaggcc ttgggtttgc agggaaggtt ctgtctggtg tgggccacag
+     2401 tcagggtgtc cctctggggt cttgtgaata cactttccag tctgcatagc agaggtaacc
+     2461 gccatagctg ccacatccac catgtccatc acccagggga gaccagggca tctcgggctg
+     2521 tggatgtgca tggtgtgttc tgtggagaaa tggtacaagc gtgcagccca cacatcactg
+     2581 caaggccacc ccattagacg tgagcatgaa gacatggttt gtgaactctc cccccaaaag
+     2641 agtgtcaggg gtaattattt atagctaaca tgaatttttt taaaccccag gga
+//
+

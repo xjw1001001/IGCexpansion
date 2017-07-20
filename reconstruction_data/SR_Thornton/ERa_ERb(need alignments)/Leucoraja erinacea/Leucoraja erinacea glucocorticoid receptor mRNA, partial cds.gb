@@ -1,0 +1,55 @@
+LOCUS       DQ382338                 956 bp    mRNA    linear   VRT 20-APR-2006
+DEFINITION  Leucoraja erinacea glucocorticoid receptor mRNA, partial cds.
+ACCESSION   DQ382338
+VERSION     DQ382338.1
+KEYWORDS    .
+SOURCE      Leucoraja erinacea (little skate)
+  ORGANISM  Leucoraja erinacea
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Chondrichthyes;
+            Elasmobranchii; Batoidea; Rajiformes; Rajidae; Leucoraja.
+REFERENCE   1  (bases 1 to 956)
+  AUTHORS   Bridgham,J.T., Carroll,S.M. and Thornton,J.W.
+  TITLE     Evolution of hormone-receptor complexity by molecular exploitation
+  JOURNAL   Science 312 (5770), 97-101 (2006)
+   PUBMED   16601189
+REFERENCE   2  (bases 1 to 956)
+  AUTHORS   Carroll,S.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JAN-2006) Center for Ecology and Evolutionary
+            Biology, University of Oregon, 335 Pacific Hall, Eugene, OR 97401,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..956
+                     /organism="Leucoraja erinacea"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7782"
+     CDS             <1..956
+                     /note="GR"
+                     /codon_start=3
+                     /product="glucocorticoid receptor"
+                     /protein_id="ABD46744.1"
+                     /translation="RNDCIIDKIRRKNCPACRFRKCLQAGMNLDARKTKKKMKAPHSS
+                     TSETTTKAVSQDLTLVRPSLPVLSPSVTSILEMIEPDLLYAGYDSSLPDTPNRLLSGL
+                     NNLGGLQMISVVKWAKTLPGFRSLHLDDQMMLLQYSWMSLMVFSLAWRSYKHSNSSML
+                     FFAPDLIFNEERMQQSTMYSLCKGMGNIAVDFRNLKVAYEEYLCMKALLLLGTIPTDG
+                     LKSQATFDEIRTSYIKELGKAIVKKEGNSSQNWHRFYQLTKLLDSMHDLVEGLLQFCF
+                     YTFMQSKTLSVEFPEMLVEIISNQLPKVMAGMAKHLRFHHK"
+ORIGIN      
+        1 gaaggaatga ctgcatcatt gacaagattc gccgaaagaa ctgcccagct tgtcgtttca
+       61 gaaagtgcct ccaagctggg atgaaccttg atgctcggaa gacaaagaag aaratgaagg
+      121 cgccacacag cagcacctca gaaaccacaa caaaggcagt atcacaggac cttactctcg
+      181 tgcgcccttc attgcctgtc ttaagtccat ctgtaacctc gatccttgag atgattgagc
+      241 cagatctgtt gtatgcagga tatgacagct ctttgcccga tacgcctaac cggcttctgt
+      301 caggattgaa taacttgggt gggctacaga tgatctcggt tgtgaaatgg gcaaaaactc
+      361 tgccaggatt cagatcctta cacctggatg accaaatgat gttactgcaa tattcttgga
+      421 tgtcccttat ggttttcagt cttgcttgga gatcttataa acactccaat agtagcatgc
+      481 tcttctttgc accagatctc atcttcaatg aggagcggat gcagcagtca actatgtaca
+      541 gtttgtgcaa aggaatgggc aacattgcag tagatttcag aaaccttaag gttgcctatg
+      601 aagaatatct atgcatgaag gcattactgc tgcttggcac aataccaaca gatggcttga
+      661 agagccaggc tacgtttgat gagattcgaa cctcgtacat aaaagagctg gggaaagcca
+      721 tagtgaagaa agagggaaac tcgagccaaa actggcatcg tttttatcag ctgactaaac
+      781 ttttggattc aatgcatgat ttggtggaag ggctcttgca gttttgtttt tataccttta
+      841 tgcaatcaaa gacactcagc gtggagttcc ccgaaatgtt ggtggagatt attagcaacc
+      901 agttaccaaa agtcatggct ggaatggcca aacacctccg gtttcaccac aagtga
+//
+

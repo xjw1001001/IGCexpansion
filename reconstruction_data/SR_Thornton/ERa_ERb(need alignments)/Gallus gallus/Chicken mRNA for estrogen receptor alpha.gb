@@ -1,0 +1,115 @@
+LOCUS       X03805                  2085 bp    mRNA    linear   VRT 18-APR-2005
+DEFINITION  Chicken mRNA for estrogen receptor.
+ACCESSION   X03805
+VERSION     X03805.1
+KEYWORDS    DNA binding protein; estrogen receptor; receptor; steroid hormone
+            receptor; unidentified reading frame.
+SOURCE      Gallus gallus (chicken)
+  ORGANISM  Gallus gallus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Phasianinae; Gallus.
+REFERENCE   1  (bases 1 to 2085)
+  AUTHORS   Krust,A., Green,S., Argos,P., Kumar,V., Walter,P., Bornert,J.M. and
+            Chambon,P.
+  TITLE     The chicken oestrogen receptor sequence: homology with v-erbA and
+            the human oestrogen and glucocorticoid receptors
+  JOURNAL   EMBO J. 5 (5), 891-897 (1986)
+   PUBMED   3755102
+COMMENT     Data kindly reviewed (23-JUL-1986) by S. Green.
+FEATURES             Location/Qualifiers
+     source          1..2085
+                     /organism="Gallus gallus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9031"
+     mRNA            1..2085
+                     /product="ER mRNA"
+     CDS             69..131
+                     /note="unnamed protein product; open reading frame 1 (aa
+                     1-20)"
+                     /codon_start=1
+                     /protein_id="CAA27431.1"
+                     /translation="MYCCFNMISAEPQNRFWCFF"
+     CDS             177..200
+                     /note="unnamed protein product; open reading frame 2 (aa
+                     1-7)"
+                     /codon_start=1
+                     /protein_id="CAA27432.1"
+                     /translation="MFLAHCH"
+     CDS             203..1972
+                     /note="unnamed protein product; chicken estrogen receptor
+                     (aa 1-589)"
+                     /codon_start=1
+                     /protein_id="CAA27433.1"
+                     /db_xref="GOA:P06212"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001292"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="UniProtKB/Swiss-Prot:P06212"
+                     /translation="MTMTLHTKASGVTLLHQIQGTELETLSRPQLKIPLERSLSDMYV
+                     ESNKTGVFNYPEGATYDFGTTAPVYGSTTLSYAPTSESFGSSSLAGFHSLNNVPPSPV
+                     VFLQTAPQLSPFIHHHSQQVPYYLENEQGSFGMREAAPPAFYRPSSDNRRHSIRERMS
+                     STNEKGSLSMESTKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYMCPAT
+                     NQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGEMMKQKRQREEQDSRNGEAS
+                     STELRAPTLWTSPLVVKHNKKNSPALSLTAEQMVSALLEAEPPIVYSEYDPNRPFNEA
+                     SMMTLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEH
+                     PGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATAARFRMMNLQGEEFVCLKSIILLNS
+                     GVYTFLSSTLKSLEERDYIHRVLDKITDTLIHLMAKSGLSLQQQHRRLAQLLLILSHI
+                     RHMSNKGMEHLYNMKCKNVVPLYDLLLEMLDAHRLHAPAARSAAPMEEENRNQLTTAP
+                     ASSHSLQSFYINSKEEESMQNTI"
+     misc_feature    203..313
+                     /note="aa 1-37 => highly conserved region A"
+     misc_feature    314..721
+                     /note="conserved region B (aa 38-173)"
+     misc_feature    722..970
+                     /note="highly conserved region C (aa 174-256) pot.
+                     DNA-binding domain"
+     misc_feature    971..1087
+                     /note="conserved region D (aa 257-295)"
+     misc_feature    1088..1840
+                     /note="highly conserved region E (aa 296-546) certain
+                     estrogen binding domain"
+     misc_feature    1841..1969
+                     /note="conserved region F (aa 547-589)"
+ORIGIN      
+        1 tctccctttc cagtgctcac cctgcatttg ttagtatact cctgcttgcc gagatcagag
+       61 gaatacctat gtattgctgc tttaacatga tttctgctga gcctcagaat aggttctggt
+      121 gtttttttta ggtggactgc cagctgccga tcttgctgtt gacagtaaaa gcagatatgt
+      181 tccttgctca ctgccattag caatgaccat gacccttcac accaaagcct ctggagttac
+      241 cctgctgcac cagattcaag gcactgagct ggagactctg agcagacctc agctgaagat
+      301 tcccctggaa cgatcgctca gcgacatgta cgtggaaagc aacaagacag gagtttttaa
+      361 ctacccagaa ggggccacct acgattttgg tactaccgct ccagtgtacg gctctactac
+      421 actcagttat gcccctactt ctgaatcttt tgggtcaagc agcctggcag gatttcactc
+      481 tctgaacaat gtcccaccaa gcccagtggt gttcttgcaa acggcacccc agctctcacc
+      541 cttcatccat caccacagcc agcaggtacc ctactacctt gaaaatgaac agggcagctt
+      601 tgggatgagg gaagctgctc ctccagcctt ctacaggcca agctctgata ataggcgcca
+      661 cagcattcgt gagaggatgt ctagtaccaa tgagaaaggg agcctgtcca tggagtccac
+      721 caaggagacc cggtactgtg ctgtgtgcaa cgactatgct tcaggctacc actatggggt
+      781 ctggtcttgt gagggctgca aagctttttt caaaagaagt attcaagggc acaatgacta
+      841 catgtgtcct gccactaacc agtgtactat tgacaagaac agaagaaaga gttgccaggc
+      901 ctgccgacta agaaaatgct atgaagtggg aatgatgaaa ggtggaatcc ggaaagaccg
+      961 cagaggcggc gaaatgatga aacagaaacg tcaaagagag gaacaggatt ccaggaacgg
+     1021 ggaggcttct tctacagagc tgcgagctcc aaccctttgg acaagtccac tggtggttaa
+     1081 acataacaag aagaacagtc cggctctgtc tctgacagca gaacagatgg tcagtgcctt
+     1141 gctggaagct gagccaccta tagtttattc tgaatatgac cccaatagac cattcaacga
+     1201 agcatctatg atgaccctgt tgaccaacct tgcagacaga gaattagtgc acatgatcaa
+     1261 ctgggcaaag agagttccag gatttgtgga tttaacactc catgatcagg tccatctgct
+     1321 ggaatgtgcc tggttagaga tattgatgat cggcttagtc tggcgctcca tggaacaccc
+     1381 aggaaagctt ttatttgcac ctaatctatt actggacagg aatcaaggga aatgtgtaga
+     1441 gggcatggtg gaaatctttg acatgctact ggctactgct gctcggtttc ggatgatgaa
+     1501 ccttcaaggg gaggaatttg tgtgccttaa gtccatcatc ctgctcaatt ctggtgtgta
+     1561 cacttttctt tctagcacct tgaaatctct ggaagagagg gactatatcc accgtgttct
+     1621 ggacaaaatc acagatactc tgatacacct aatggcaaag tcaggtcttt ctctgcagca
+     1681 gcaacaccgg cgactagctc agctcctcct tatcctctct cacatcaggc atatgagcaa
+     1741 caaaggaatg gagcacctgt acaatatgaa gtgtaaaaat gtagttccgc tctacgacct
+     1801 cttactggag atgctggacg ctcaccgcct acatgcaccg gcagccagga gtgctgcacc
+     1861 aatggaagag gagaaccgaa accaactgac aaccgcacca gcttcatctc attccctgca
+     1921 gtccttttac attaacagca aagaagagga gagtatgcag aatacaatat aaacaaaagt
+     1981 cagcatataa taatggtatg agaaacccag cagcgtacta cctagctcat gcttcatttc
+     2041 atctatagtg ccacatatgt caacactcca atgacattag ccacc
+//
+

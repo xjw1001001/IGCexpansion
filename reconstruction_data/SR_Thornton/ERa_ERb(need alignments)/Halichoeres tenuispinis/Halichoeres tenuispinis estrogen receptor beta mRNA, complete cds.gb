@@ -1,0 +1,82 @@
+LOCUS       AY305027                2195 bp    mRNA    linear   VRT 24-JUN-2003
+DEFINITION  Halichoeres tenuispinis estrogen receptor beta mRNA, complete cds.
+ACCESSION   AY305027
+VERSION     AY305027.1
+KEYWORDS    .
+SOURCE      Halichoeres tenuispinis (Chinese wrasse)
+  ORGANISM  Halichoeres tenuispinis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Labriformes; Labridae; Halichoeres.
+REFERENCE   1  (bases 1 to 2195)
+  AUTHORS   Park,J.-G. and Kim,S.-J.
+  TITLE     Molecular cloning and expression of two estrogen receptor subtypes
+            in protogynous wrasse, Halichoeres tenuispinis
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2195)
+  AUTHORS   Park,J.-G. and Kim,S.-J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2003) Life Science, Cheju National University,
+            Ara Dong, Jeju, South Korea
+FEATURES             Location/Qualifiers
+     source          1..2195
+                     /organism="Halichoeres tenuispinis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:217853"
+                     /tissue_type="liver"
+     CDS             133..2148
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAP72179.1"
+                     /translation="MASSPGLDTDPLPLLRLQEVDSSKASERPSSPGLLPAVYSPRQG
+                     MDSHTVYIPSPYTDNNQEYNHGSGSVSFYSPSVLSYARPSATDSPSSLCGPLSPSAFW
+                     PPHSQPNLPSLTLRCPQPLGYNESGLHAPWLESKPHNISSSSSIIGCNKPLGKRSEEG
+                     VNGVNPSLCSSVVGKADMHFCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICP
+                     ATNQCTIDKNRRKSCQACRLRKCYEVGMMKCGVRRERCSYRGTRHRRGGLQPRDPTGR
+                     GLVRVGLGSRAQRHLHLEGPLTPVTPLPQMSHVHHAAMSPEEFIMRIMEAEPPEIYLM
+                     EEQKKPFTEASMMMSLTNLADKELVLMISWAKKIPGFVELCLADQIHLLKCCWLEILM
+                     LGLMWRSVDHPGKLIFSPDFKLNREEGQCVEGIMEIFDMLLAATSRFRELKLQREEYV
+                     CLKAMILLNSNLCSSSPQTEEELESRNKLLRLLDSVIDALVWAISKLGLSTQQQTLRL
+                     GHLTMLLSHIRHVSNKGMDHLSTMKRKNVVLVYDLLLEMLDANTSSSGSSQSSSSPNS
+                     DSYSDLHQYPQHPSHLQPHQTTADHNNMPAHRQAEGQILEEELHTLPLQSSPPFHSQM
+                     ATHMDRNEYVHPQQHWSMDAEDAGPSVGSYMTSDRGVMEGALEVAGL"
+ORIGIN      
+        1 gtaacagctt aactgcaggg ccacacagtc tgaagagtga agacgtgtct acctccagaa
+       61 catgctgtaa agaaaccagc agaatcagcg ttctcctcct caacatccac agacttgtag
+      121 attcctcctg atatggcctc ctcccctggg ctggacacag accctttacc actgctgcgg
+      181 ctccaggagg tggactccag caaagcctct gagaggccca gctcccctgg tctcctgcct
+      241 gctgtgtaca gccctcgtca gggtatggac agccacaccg tctacatccc ctccccatac
+      301 acggacaata accaagagta caaccatggc agtggatctg tgagctttta cagcccgtct
+      361 gtgctgagct acgcccgacc atcagccaca gacagcccgt catctctgtg tggccccctt
+      421 agtccttcag ccttctggcc ccctcacagt caacctaact tgccctcact gacactgcgc
+      481 tgcccacagc ctctgggcta caatgaatcc ggcttacacg caccctggct ggagtccaaa
+      541 ccccacaaca tcagcagcag cagctccatc atcggctgta acaagccgct agggaagaga
+      601 tcggaggaag gagtgaatgg tgtaaacccc tcgttgtgct cctctgtggt ggggaaagcc
+      661 gacatgcact tctgcgctgt gtgtcacgac tacgcctcgg ggtatcacta cggtgtgtgg
+      721 tcctgcgagg gctgtaaagc atttttcaag aggagtatcc aaggacacaa cgactacatc
+      781 tgccctgcaa caaatcaatg cactatcgac aagaaccggc gtaagagctg ccaagcctgc
+      841 cgcctacgta aatgctacga agtgggcatg atgaaatgtg gtgtaagacg tgaacgctgc
+      901 agctatcgag gaacccgaca ccgccgtggt ggactccagc ctcgggatcc cacaggcagg
+      961 ggtttggtca gagtggggct tggttctcga gcccaaaggc atctccacct tgagggtccc
+     1021 ctcacccctg tcacccccct ccctcagatg agccacgtac accacgcagc catgagccca
+     1081 gaggaattca tcatgcgcat catggaagca gagccaccag agatctacct catggaggag
+     1141 cagaagaagc cttttaccga ggccagcatg atgatgtccc tcacaaacct ggcagacaag
+     1201 gagctggtgc ttatgatcag ctgggctaaa aagatccctg gctttgtcga gctgtgtcta
+     1261 gctgatcaga ttcacctcct aaagtgctgc tggttggaaa ttctgatgct gggcctgatg
+     1321 tggaggtctg tggatcatcc tgggaaacta atcttctctc ctgacttcaa actcaacaga
+     1381 gaggagggtc agtgtgtgga gggcatcatg gagatctttg acatgctgct ggctgccacc
+     1441 tctcggtttc gtgagctgaa gcttcagagg gaggagtacg tctgtctgaa ggccatgatc
+     1501 ctcctcaact ccaatctgtg ttcgagctcg cctcagacgg aggaggagct ggagagcagg
+     1561 aacaagctgc tccgtctgct ggactctgtg attgatgctc ttgtctgggc catctccaaa
+     1621 ctgggcttgt cgacccagca gcagactctg cgcctcggac acctcaccat gctgctctcc
+     1681 cacatccgcc acgtcagtaa caaaggcatg gatcatcttt ccaccatgaa gaggaagaat
+     1741 gtggtcctgg tgtacgacct cctcctcgag atgctggacg ccaacacttc cagcagcggc
+     1801 agcagccagt cgtcatcctc accgaactcg gactcgtact cagacctgca tcagtacccc
+     1861 cagcatccgt ctcacctgca gccacaccag accacagcag accacaacaa catgcctgca
+     1921 cacaggcagg ctgaaggcca gatcctggag gaggagctac acactctgcc cctccaatcg
+     1981 tctcctccgt tccacagtca gatggcgacc cacatggaca gaaatgagta cgttcatccg
+     2041 cagcaacact ggtccatgga tgcagaggat gcaggtccgt cagtgggatc atacatgacc
+     2101 tctgatcgag gggtcatgga aggtgctctg gaggtggcag gactgtaaga gaagctgaac
+     2161 atcagtggtt ttttttcctc cacccaaaga cagag
+//
+

@@ -1,0 +1,84 @@
+LOCUS       XM_011767066             939 bp    mRNA    linear   PRI 30-MAR-2015
+DEFINITION  PREDICTED: Macaca nemestrina ribonuclease, RNase A family, 3
+            (RNASE3), mRNA.
+ACCESSION   XM_011767066
+VERSION     XM_011767066.1
+DBLINK      BioProject: PRJNA279145
+KEYWORDS    RefSeq.
+SOURCE      Macaca nemestrina (pig-tailed macaque)
+  ORGANISM  Macaca nemestrina
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_012011801.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca nemestrina Annotation Release
+                                           100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..939
+                     /organism="Macaca nemestrina"
+                     /mol_type="mRNA"
+                     /isolate="M95218"
+                     /db_xref="taxon:9545"
+                     /chromosome="Unknown"
+                     /sex="female"
+                     /tissue_type="blood"
+     gene            1..939
+                     /gene="RNASE3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 13 ESTs, 10 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 11 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:105496557"
+     STS             209..817
+                     /gene="RNASE3"
+                     /db_xref="UniSTS:483746"
+     CDS             278..760
+                     /gene="RNASE3"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_011765368.1"
+                     /db_xref="GeneID:105496557"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTKAQWFAIQHIN
+                     VNPPRCTIAMRVINNYQRRCKNQNTFLRTTFANTANVCRNQSIRCPRNRTLHNCHRSS
+                     YRVPLLHCDLINPGAQNISTCRYADRPGRRFYVVACESRDPRDSPRYPVVPVHLDTII
+                     "
+     STS             783..938
+                     /gene="RNASE3"
+                     /standard_name="D14S1192"
+                     /db_xref="UniSTS:65394"
+ORIGIN      
+        1 ctccttagag cagaaagagc agcagggctg tccttgggta tccgttgctc agccaagtca
+       61 tcagataaaa aggctgattg cacaagtgga ccatgtgtca atctgtgggt ttctgcatga
+      121 ccaagagtga gaccctccct cctggctctg ctggcccaac ccaccaggag atgctttatt
+      181 taaacagttc caagtaaggg agaccagctg accctgaacc ccagaacaac caactggatc
+      241 agttctcaca ggagccacag tgcagagact gggaaacatg gttccaaaat tgttcacttc
+      301 ccaaatttgt ctgcttcttc tgttggggct tatgggtgtg gagggctcac tccatgccag
+      361 acccccacag tttacgaagg ctcagtggtt tgccatccag cacatcaatg tgaacccccc
+      421 tcgatgcacc attgcaatgc gggtaataaa taattatcaa cggcgttgca aaaaccaaaa
+      481 tacttttctt cgtacaactt ttgcaaatac agctaatgtt tgtcgtaacc aaagtatacg
+      541 ctgccctcgt aacagaactc tccacaattg tcatcgtagt agctaccggg tgcctttact
+      601 ccactgtgac ctcataaatc caggtgcaca gaatatttca acctgcaggt atgcagacag
+      661 accaggacgg aggttctatg tagttgcatg tgaaagcaga gatccacggg attctccacg
+      721 gtatccagtg gttccagttc acctggatac catcatctaa gctcctgtat cagcactcct
+      781 catcatcact catctgccaa gctcctcaat catagccaag atcccatccc tccatgtacc
+      841 ctgggtatca gcatctgtcc tcttcagtct ccatacccct tcaggtttcc tgaactgaag
+      901 tgccttgtga accccacaat aaactgcttt gcaaattca
+//
+

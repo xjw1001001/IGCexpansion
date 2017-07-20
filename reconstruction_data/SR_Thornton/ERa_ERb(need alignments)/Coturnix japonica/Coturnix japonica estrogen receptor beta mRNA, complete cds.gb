@@ -1,0 +1,79 @@
+LOCUS       AF045149                1419 bp    mRNA    linear   VRT 01-MAY-1999
+DEFINITION  Coturnix japonica estrogen receptor beta mRNA, complete cds.
+ACCESSION   AF045149
+VERSION     AF045149.2
+KEYWORDS    .
+SOURCE      Coturnix japonica (Japanese quail)
+  ORGANISM  Coturnix japonica
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Galloanserae; Galliformes;
+            Phasianidae; Perdicinae; Coturnix.
+REFERENCE   1  (bases 423 to 858)
+  AUTHORS   Lakaye,B., Foidart,A., Grisar,T. and Balthazart,J.
+  TITLE     Partial cloning and distribution of estrogen receptor beta in the
+            avian brain
+  JOURNAL   Neuroreport 9 (12), 2743-2748 (1998)
+   PUBMED   9760113
+REFERENCE   2  (bases 1 to 1419)
+  AUTHORS   Foidart,A., Lakaye,B., Grisar,T., Ball,G.F. and Balthazart,J.
+  TITLE     Sequence and neuroanatomical distribution of estrogen receptor beta
+            in the quail brain
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 423 to 858)
+  AUTHORS   Lakaye,B., Foidart,A., Grisar,T. and Balthazart,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JAN-1998) Laboratory of Neurochemistry, University of
+            Liege, 17 Place Delcour, Liege B-4020, Belgium
+REFERENCE   4  (bases 1 to 1419)
+  AUTHORS   Lakaye,B., Foidart,A., Grisar,T. and Balthazart,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-SEP-1998) Biochemistry, University of Liege, 17 Place
+            Delcour, Liege B-4020, Belgium
+  REMARK    Sequence update by submitter
+COMMENT     On May 1, 1999 this sequence version replaced gi:3641502.
+FEATURES             Location/Qualifiers
+     source          1..1419
+                     /organism="Coturnix japonica"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:93934"
+     CDS             1..1419
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAC36463.2"
+                     /translation="MAFCSPAMMNYNIASNFGDSESASVRQTSSPSLLWSAPGHLSPL
+                     TLHCQLSLLYAEQPKSPWCEARPLEPVLPVSRETLKRKTNGSDCTSPIASNPGSKRDA
+                     HFCAVCSDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQAC
+                     RLRKCYEVGMMKCGSRRERCGYRILRRHRNSEDCMGKTKKYNEAATRVKEILLSTVSP
+                     EQFVLTLLEAEPPNVLVSRPSKPFTEASMMMSLTKLADKELVHMIGWAKKIPGFIDLS
+                     LYDQVRLLESCWLEVLMIGLMWRSIDHPGKLIFAPDLVLDRDEGKCVEGILEIFDMLL
+                     AMTSRFRELKLQHKEYLCVKAMILLNSSMFPLSAEEPESNRKLHHLLNVVTDALVWVI
+                     AKSGIPSQQQTTRLANLLMLLSHVRHASNKGMEHLLSMKCKNVVPVYDLLLEMLNAHT
+                     LRGQRKSPVTHPDFEQVSHFQV"
+ORIGIN      
+        1 atggcattct gtagtcctgc tatgatgaat tacaacatag ccagcaattt tggtgattca
+       61 gagagtgcat ctgtgagaca aacatcgagc ccaagcctgt tatggtctgc tcctggccac
+      121 ctctcccctc tgacactgca ctgtcagtta tcgcttctgt atgcagagca gcctaagagc
+      181 ccgtggtgtg aagcgagacc gctggaacca gtgctgcccg tttccagaga gactttaaaa
+      241 agaaaaacca atggcagtga ctgtacaagc cctattgcaa gtaatcctgg ctcaaaaaga
+      301 gatgcccact tctgcgcagt ctgcagtgac tatgcttcag gatatcacta tggagtctgg
+      361 tcatgtgaag gctgtaaagc attctttaaa agaagtattc aaggacataa tgattacatc
+      421 tgcccagcta ccaatcaatg cacgatagac aaaaacaggc gcaaaagctg ccaggcatgc
+      481 cggctacgga aatgctatga agtgggaatg atgaaatgtg gctcaagaag agaacgttgt
+      541 gggtatcgaa tcctgcgccg ccatcgtaat tcggaagatt gcatgggcaa aaccaagaag
+      601 tacaacgagg ctgcaacccg tgtaaaagag attctcctca gcacagtcag tccagaacag
+      661 tttgtcttaa ctctgcttga agctgagcca cccaacgtgt tggtgagtcg tccgagcaaa
+      721 ccattcaccg aggcctccat gatgatgtcc ctgacaaaac tggcagacaa agagctggtt
+      781 cacatgattg gatgggccaa aaaaattcct ggcttcattg atctcagtct ctatgaccaa
+      841 gtcaggctgt tggaaagctg ctggctggaa gttttaatga ttggtttaat gtggagatcg
+      901 atcgaccatc ctgggaaatt aattttcgca ccggaccttg tactggacag ggacgagggg
+      961 aaatgcgtag agggaatttt ggaaatcttt gatatgctcc tggccatgac ctcgaggttc
+     1021 cgagagctga aactgcagca caaggagtat ctgtgtgtca aggcaatgat cctcctcaat
+     1081 tccagcatgt ttcccttgtc agcagaagaa cccgaaagca acaggaagct gcaccacctg
+     1141 ctcaatgtgg tcacagatgc tctggtgtgg gttattgcaa agagtgggat cccttcccag
+     1201 cagcaaacaa ctcgcctggc caacctgttg atgctgctct cccatgtcag acatgcaagt
+     1261 aacaagggca tggagcatct gctgagcatg aagtgcaaaa acgtggtccc agtgtatgac
+     1321 ctgctgctgg aaatgttgaa cgcgcacacg ctccgagggc aaaggaagtc cccagtcaca
+     1381 catcctgact ttgaacaagt ttcacatttc caggtctga
+//
+

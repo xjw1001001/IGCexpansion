@@ -1,0 +1,55 @@
+LOCUS       DQ382341                 903 bp    mRNA    linear   VRT 20-APR-2006
+DEFINITION  Leucoraja erinacea progesterone receptor mRNA, partial cds.
+ACCESSION   DQ382341
+VERSION     DQ382341.1
+KEYWORDS    .
+SOURCE      Leucoraja erinacea (little skate)
+  ORGANISM  Leucoraja erinacea
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Chondrichthyes;
+            Elasmobranchii; Batoidea; Rajiformes; Rajidae; Leucoraja.
+REFERENCE   1  (bases 1 to 903)
+  AUTHORS   Bridgham,J.T., Carroll,S.M. and Thornton,J.W.
+  TITLE     Evolution of hormone-receptor complexity by molecular exploitation
+  JOURNAL   Science 312 (5770), 97-101 (2006)
+   PUBMED   16601189
+REFERENCE   2  (bases 1 to 903)
+  AUTHORS   Carroll,S.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JAN-2006) Center for Ecology and Evolutionary
+            Biology, University of Oregon, 335 Pacific Hall, Eugene, OR 97401,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..903
+                     /organism="Leucoraja erinacea"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7782"
+     CDS             <1..903
+                     /note="PR"
+                     /codon_start=1
+                     /product="progesterone receptor"
+                     /protein_id="ABD46747.1"
+                     /translation="VLGARKLRKFSKLKNIGNNPSSLQSEMTLSSVSPVAMPKITLHS
+                     AGGVQFTPTLVSILQIIEPEVVYAGYDNSQPDSSNYLLTSLNRLCERQLVAVVKWAKS
+                     VPGFRNLHIDDQMTLIQYSWMGLMVFAMGWRSYKHVKGKMLYFAPDLIFNEQRMQKSA
+                     MYDLCIAMRQISQEFIHLQVSQEEFLCMKTLILLNTIPLEGLKSQTYFEEMRRDYIRE
+                     LSRAINLQDKSVQSSSQRLYQLTKLMDSMHELVKKLHQFCLNTFVQSQALSVEFPEMM
+                     SEIITTQLPKILAGLVKPLLLHKK"
+ORIGIN      
+        1 gtgttgggag cccgaaagct aaggaaattc agtaaattaa agaacatcgg caacaaccca
+       61 tcttcactgc agtccgaaat gacactttca agtgtcagtc cagtcgcaat gccaaagatc
+      121 acattacatt ccgctggagg agtccagttc acgccgacac tcgtttccat tttacagata
+      181 attgaacccg aagttgttta tgcaggctat gataacagtc agccggactc gtctaactat
+      241 ctgctaacca gcctgaatag gctttgcgaa aggcagcttg tagctgttgt taaatgggcc
+      301 aaatctgtac caggatttcg gaatttgcac atagatgatc aaatgaccct cattcagtac
+      361 tcgtggatgg gcctgatggt atttgcaatg ggatggagat catataaaca cgtcaaagga
+      421 aagatgctgt actttgctcc ggatctgatt tttaatgagc aacgaatgca aaagtcggcg
+      481 atgtatgatc tgtgtatagc aatgcgccaa atctcacaag aatttattca tcttcaagta
+      541 tctcaagagg aatttttatg catgaaaacc ttaatactgc ttaatacaat tcccttggaa
+      601 ggactcaaga gccagaccta ctttgaagag atgcgaagag actacattag ggagttgagc
+      661 agagccatta acttgcagga taaaagtgtg cagagcagct ctcaacgtct ttaccagctc
+      721 acaaagctca tggactcgat gcatgaactt gtcaagaagc tgcatcagtt ctgcttgaat
+      781 acatttgttc agtcccaggc gctgagtgtg gagtttccag agatgatgtc agagattata
+      841 accacacagt tacccaagat cctggctggg ctggtgaagc cactgctcct ccacaagaaa
+      901 tga
+//
+

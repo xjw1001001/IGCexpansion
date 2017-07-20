@@ -1,0 +1,78 @@
+LOCUS       AF110402                1611 bp    mRNA    linear   MAM 11-APR-1999
+DEFINITION  Bos taurus breed Holstein estrogen receptor-beta mRNA, complete
+            cds.
+ACCESSION   AF110402
+VERSION     AF110402.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 1611)
+  AUTHORS   Rosenfeld,C.S., Yuan,X., Manikkam,M., Calder,M.D., Garverick,H.A.
+            and Lubahn,D.B.
+  TITLE     Cloning, sequencing, and localization of bovine estrogen
+            receptor-beta within the ovarian follicle
+  JOURNAL   Biol. Reprod. 60 (3), 691-697 (1999)
+   PUBMED   10026117
+REFERENCE   2  (bases 1 to 1611)
+  AUTHORS   Yuan,X., Rosenfeld,C.S., Manikkam,M., Calder,M.D., Garverick,H.A.
+            and Lubahn,D.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-DEC-1998) Biochemistry, University of
+            Missouri-Columbia, 163A Animal Sciences Research Center, 920 E.
+            Campus Drive, Columbia, MO 65211, USA
+FEATURES             Location/Qualifiers
+     source          1..1611
+                     /organism="Bos taurus"
+                     /mol_type="mRNA"
+                     /strain="breed Holstein"
+                     /db_xref="taxon:9913"
+                     /tissue_type="ovarian follicle"
+                     /note="RT-PCR"
+     CDS             28..1611
+                     /function="steroid receptor"
+                     /codon_start=1
+                     /product="estrogen receptor-beta"
+                     /protein_id="AAD24432.1"
+                     /translation="MDVKNSPSSLNSPVSYNCGQSILPLEPGPIYLPSSYVESRHEYS
+                     AVTFYSPAVMNYSIPNNSEDGPGRQTTSPNVLWPTPGHLSPLAIHCQPSVLYAEPQKS
+                     PWRETRSLEHTLPVNRETLKRKASGSSCASPATSPSSKRDAHFCAVCSDYASGYHYGV
+                     WSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYEVGMVKCGSRR
+                     ERCGYRIVRRQRNSDEQLHCLSKTKRNGGPMTRVKELLLSALSPEQLVLTLLEAEPPH
+                     VLISRPSTPFTEASMMMSLTKLADKELVHMISWAKKIPGFVELSLYDQVRLLESCWLE
+                     VLMVGLMWRSIDHPGKLIFAPDLILDRDEGKCVEGILEIFDMLLATTSRFRELKLQHK
+                     EYLCVKAMILLNSSMYPSATAPQEADSGRKLTHLLNAVTDALVWVIAKSGMSSQQQSM
+                     RLANLLMLLSHVRHASNKGMEHLLNMKCKNVVPVYDLLLEMLNAHTLRGNKSLVTGSE
+                     RNLVEDSESKEGSQKPQAQ"
+ORIGIN      
+        1 ttttcctagc tgttacctac tcaagacatg gatgtcaaaa actcaccatc tagccttaac
+       61 tctcctgtct cctataactg cggtcaatcc atcctacccc tggagccagg ccccatctat
+      121 ttaccctctt cctatgtaga gagccgccat gaatactcag ccgtgacatt ctatagccct
+      181 gctgtgatga attacagtat tcccaataac tcagaagatg ggcctggtcg acagaccaca
+      241 agcccaaatg tattgtggcc aactcctgga cacctctctc ctttagccat ccattgccag
+      301 ccgtcagttc tgtatgcaga acctcaaaag agtccttggc gtgaaaccag atcattagaa
+      361 cacaccttac ctgtgaacag ggagacattg aaaaggaagg ctagtgggag cagttgtgcc
+      421 agccctgcta ctagtccaag ttcaaagagg gatgcccact tctgtgctgt ctgcagtgat
+      481 tatgcgtcgg gatatcacta tggagtctgg tcgtgtgaag gatgtaaggc cttttttaaa
+      541 agaagtattc aaggacataa tgattatatt tgtccagcta caaatcagtg taccatagat
+      601 aagaaccgac gtaaaagctg tcaggcctgt cgacttcgga agtgctatga ggttggaatg
+      661 gtgaagtgtg gctctcggag agaaaggtgt gggtaccgca tagtgcgaag gcagagaaat
+      721 tctgatgagc agctgcactg cctgagcaaa accaagagga acggtggacc catgacccga
+      781 gtgaaagagc tgctgctgag cgccctgagc ccagagcagc tggtgcttac gctcctggag
+      841 gccgagccgc cccacgtgct cataagccgc cccagcacgc ccttcactga ggcctccatg
+      901 atgatgtccc tcaccaagct ggccgacaag gaactggtac acatgatcag ctgggccaag
+      961 aagattccgg gcttcgtgga gctcagcctg tacgaccaag tgcggctttt ggagagctgc
+     1021 tggttggagg tgctcatggt ggggctgatg tggcgctcca tcgaccaccc tggcaagctc
+     1081 atctttgctc cagacctcat tctggacagg gatgaaggga aatgtgttga aggaattcta
+     1141 gaaatctttg acatgctcct ggcaacgact tcaaggtttc gtgagttaaa actccaacac
+     1201 aaagaatatc tctgtgtcaa ggccatgatc ctcctcaact ccagtatgta cccttcagct
+     1261 acagcacccc aggaggctga cagtggccgg aagctgactc acctgctgaa tgctgtgacg
+     1321 gacgctctgg tctgggtgat tgccaagagt ggcatgtcct cccagcagca gtccatgcgc
+     1381 ctggctaacc tgctgatgct cctgtctcac gtcaggcacg ccagtaacaa gggcatggaa
+     1441 cacctgctca acatgaagtg caaaaacgtg gtccccgtct acgatctgct gctggagatg
+     1501 ctgaatgccc acacacttcg cggcaacaag tctttggtca cagggtctga gcgcaacctg
+     1561 gtggaggaca gtgagagcaa agagggctcc cagaaacccc aggctcagtg a
+//
+

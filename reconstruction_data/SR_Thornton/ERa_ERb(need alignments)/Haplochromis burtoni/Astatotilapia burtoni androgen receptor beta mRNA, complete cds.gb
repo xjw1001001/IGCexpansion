@@ -1,0 +1,110 @@
+LOCUS       AY082342                2681 bp    mRNA    linear   VRT 29-NOV-2005
+DEFINITION  Astatotilapia burtoni androgen receptor beta mRNA, complete cds.
+ACCESSION   AY082342
+VERSION     AY082342.2
+KEYWORDS    .
+SOURCE      Haplochromis burtoni (Burton's mouthbrooder)
+  ORGANISM  Haplochromis burtoni
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Cichlomorphae; Cichliformes;
+            Cichlidae; African cichlids; Pseudocrenilabrinae; Haplochromini;
+            Haplochromis.
+REFERENCE   1  (bases 1 to 2681)
+  AUTHORS   Vagell,M.E., White,R.B. and Fernald,R.D.
+  TITLE     Cloning and characterization of two androgen receptor genes in a
+            cichlid fish, Haplochromis burtoni
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2681)
+  AUTHORS   Vagell,M.E. and Fernald,R.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAR-2002) Psychology, Stanford University, 450 Serra
+            Mall, Bldg. 420, Stanford, CA 94305-2130, USA
+REFERENCE   3  (bases 1 to 2681)
+  AUTHORS   Vagell,M.E. and Fernald,R.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-NOV-2005) Psychology, Stanford University, 450 Serra
+            Mall, Bldg. 420, Stanford, CA 94305-2130, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Nov 29, 2005 this sequence version replaced gi:19879684.
+FEATURES             Location/Qualifiers
+     source          1..2681
+                     /organism="Haplochromis burtoni"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8153"
+                     /tissue_type="brain"
+     CDS             344..2635
+                     /note="ARb; nuclear steroid receptor; ligand-activated
+                     transcription factor"
+                     /codon_start=1
+                     /product="androgen receptor beta"
+                     /protein_id="AAL92878.2"
+                     /translation="MSQTSRQLFCAKIWPEDRKSYTGNVVTAASMAQKTEESRVYFTK
+                     TPTGSSAGSLAESENANLYGSGNIIPLACDMEKRCCQTAAAPQEELSAECRVGDIRSF
+                     SACATISETARELCKAVSVSLGLTMESGDTSEAHVSLPPCAANDQMSAEYLFGVEAVP
+                     ANCPGAPASLSDYRCPERDERPPHDHKQQVKMFKSSEPAAAFHHLTSTATSVNAQNFT
+                     LCLADDITPKEIDHLDLACAASCPYAPAAPEPLAQFGPAAAQRPCGAYNSVEEAGDVV
+                     DAVENRSTGFQAERYGVKVKSEGSASAGASWVSRPNYSFGDKYNSQFWGSRQCMNVQS
+                     SGANPPFICNPYDGTVMRREQWYPGGMLRTPYPNSNYMKGEVGEWLDVTYNDTRFESS
+                     REHMFPMEFFFPPQRTCLICSDEASGCHYGALTCGSCKVFFKRAAEGKQKYLCASKND
+                     CTIDKLRRKNCPSCRLKKCFEAGMTLGARKLKKIGQQKSPEEEHGAQDPVDPHVSPKS
+                     GVQLNSHLVFLNILESIEPEVVNAGHDYGQPDSAATLLTSLNELGERQLVKVVKWAKG
+                     LPGFRNLHVDDQMTIIQQSWMGVMVCALGWRSYKNASGRMLYFAPDLVFNEHRMHVST
+                     MYEHCIRMRHLSQEFEMLQITQEEFLCMKALLLFSIIPVEGLKSQKYFDELRLTYINE
+                     LDRLINFQTTTNTSQRFYQLTRLMDSLQMTVKKLHQFTFDLFVQAQSLHTKVSFPEMI
+                     GEIISVHVPKILAGLAKPILFHK"
+     misc_feature    659..844
+                     /note="CDD: pfam02166; Region: androgen receptor"
+     misc_feature    1631..1789
+                     /note="CDD: pfam00105; Region: C4 type zinc finger"
+     misc_feature    2003..2560
+                     /note="CDD: pfam00104; Region: ligand-binding domain of
+                     nuclear hormone receptor"
+ORIGIN      
+        1 caacatgcct tttggcgtga tgacaaatag aacttgatta ttaaagtaca catattaaat
+       61 catttggcgc cttggtttta ttgtaaccta ttggagggga aagtgccatg tttgacggac
+      121 acagagtcct tccctgaatt ccccttttaa tcaactacaa gtcgagcgcc tgactctgaa
+      181 catctcagtt taggaggagt ttgtgagtct tgcggctcac ttaggacctt ttaccaaaac
+      241 gcttttcaca acgtgagagt tgggctgttg tgctgctgag aactgcgaag actttttgac
+      301 gtgcaaagtc cagtatcctg gcaaagcaaa cactttctgg gacatgagcc aaacgagcag
+      361 acagttattt tgtgccaaaa tctggccaga ggataggaaa tcatacacag gcaacgtcgt
+      421 gaccgctgcc agtatggcgc aaaaaactga agaaagtcgc gtctatttca ccaaaacccc
+      481 gactggaagc agtgccggga gtttggcaga atccgagaat gcaaacctgt acggatccgg
+      541 aaacattatt ccgctagcct gtgacatgga gaaacgctgc tgccagacag ctgctgctcc
+      601 tcaggaggag ttaagcgctg agtgccgagt gggcgacatt cgctcctttt ctgcctgcgc
+      661 cacaatctca gaaacagcca gggagctctg caaagctgtg tccgtgtctc tgggtctgac
+      721 catggagtcc ggtgacacga gcgaggcgca cgtttctctc cccccgtgtg ccgcaaatga
+      781 ccaaatgagc gcagagtatt tattcggggt ggaagccgtg cctgcgaact gtcccggagc
+      841 cccggcttct ctctccgatt acaggtgtcc cgagcgagat gagcgcccgc cacacgacca
+      901 caagcaacag gtgaaaatgt tcaaaagttc agagcccgcg gcggcttttc atcacctcac
+      961 ttccacggcg acatctgtga acgcgcaaaa cttcacgctg tgcctggctg atgacataac
+     1021 tccgaaagag atagatcatc tggacttagc gtgcgctgcc tcttgccctt acgccccagc
+     1081 tgcgccggag cctttggcac agttcggccc cgcggctgca cagaggccat gcggagctta
+     1141 caactccgtg gaggaagccg gagacgtcgt ggatgccgtg gagaataggt ccacggggtt
+     1201 tcaggcagaa cggtacggcg tcaaagtcaa atctgaggga agtgcatctg caggggcgtc
+     1261 gtgggtcagc aggcctaatt acagcttcgg cgacaagtac aactcgcagt tttgggggtc
+     1321 gaggcagtgc atgaacgtgc agagctcggg agcgaacccc ccgtttatat gcaatccata
+     1381 tgacgggacc gtaatgcgcc gtgaacagtg gtaccctggc ggaatgctga ggacgcctta
+     1441 tcccaactcc aactacatga agggtgaagt cggcgaatgg ctggatgtca cttacaacga
+     1501 caccaggttt gagtccagta gagaacacat gtttcccatg gagttcttct ttcccccaca
+     1561 gaggacatgc cttatctgct cggacgaggc atctggctgc cattacggtg cactcacctg
+     1621 tggcagctgc aaggttttct tcaaaagggc tgccgaaggc aagcagaaat acctgtgtgc
+     1681 cagcaagaat gactgcacta ttgataagct aagaagaaag aactgcccct cctgtcgcct
+     1741 gaagaagtgc tttgaagctg ggatgactct tggagcacgt aagctgaaga agattggaca
+     1801 acaaaaaagc ccagaagaag agcatggtgc tcaggatcca gtggatccac atgtctctcc
+     1861 taaatctggt gtgcaactga actcccacct ggtcttcctc aacatcctgg agtccattga
+     1921 gccagaggtt gtgaatgcag gccatgacta tggccagccg gactccgctg ccaccctgct
+     1981 caccagcctc aacgaactgg gagagagaca acttgtcaaa gtggtcaaat gggcaaaagg
+     2041 attgccaggt ttcagaaatc tccatgtgga tgaccagatg actatcattc agcagtcatg
+     2101 gatgggggtg atggtgtgtg ccttgggatg gaggtcctat aagaatgcca gtggcaggat
+     2161 gctatacttt gccccagacc ttgtgttcaa tgaacacaga atgcacgttt ccaccatgta
+     2221 cgagcactgc atacggatga ggcatctctc tcaggagttt gagatgttgc agatcaccca
+     2281 ggaagagttt ctctgcatga aggccttgct cctctttagc attattcccg ttgagggtct
+     2341 gaagagtcag aagtactttg acgaattgcg tctcacctac atcaacgaac tcgaccgcct
+     2401 catcaacttt caaacgacta cgaacacatc tcagaggttc taccagctca cacgactcat
+     2461 ggactctctc caaatgaccg taaagaagct ccatcagttt acctttgacc tttttgtcca
+     2521 ggctcagtca cttcacacca aggtcagctt tccagagatg attggagaaa taatctcagt
+     2581 acatgtacca aagatcttgg caggtttggc taaaccaatc ttgtttcata agtagaagga
+     2641 gatttttttt taaaaaaatc tgaaaaaaaa aaaaaaaaaa a
+//
+

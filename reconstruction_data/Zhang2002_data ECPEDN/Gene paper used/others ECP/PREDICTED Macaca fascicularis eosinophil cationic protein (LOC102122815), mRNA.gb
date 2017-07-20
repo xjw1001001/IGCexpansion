@@ -1,0 +1,77 @@
+LOCUS       XM_005560718             786 bp    mRNA    linear   PRI 25-JAN-2016
+DEFINITION  PREDICTED: Macaca fascicularis eosinophil cationic protein
+            (LOC102122815), mRNA.
+ACCESSION   XM_005560718
+VERSION     XM_005560718.2
+DBLINK      BioProject: PRJNA215851
+KEYWORDS    RefSeq.
+SOURCE      Macaca fascicularis (crab-eating macaque)
+  ORGANISM  Macaca fascicularis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_005092973.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Jan 25, 2016 this sequence version replaced gi:544446023.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca fascicularis Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Macaca fascicularis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9541"
+                     /chromosome="7"
+                     /sex="female"
+                     /dev_stage="5.8 year-old"
+                     /country="Indonesia: Tinjil, Java South Coast"
+     gene            1..786
+                     /gene="LOC102122815"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 16 ESTs, 10 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 13 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:102122815"
+     CDS             125..607
+                     /gene="LOC102122815"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_005560775.1"
+                     /db_xref="GeneID:102122815"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPQFTKAQWFAIQHIN
+                     VNPPRCTIAMRVINNYQRRCKNQNTFLRTTFANTANVCRNQSIRCPRNRTLHNCHRSR
+                     YRVPLLHCDLINPAAQNISTCRYADRPGRRFYVVACESRDPRDSPRYPVVPVHLDTII
+                     "
+ORIGIN      
+        1 gcccaaccca ccaggagatg ctttatttaa acagttccaa gtaagggaga ccagctgacc
+       61 ctgaacccca gaacaaccaa ctggatcagt tctcacagga gccacagtgc agagactggg
+      121 aaacatggtt ccaaaattgt tcacttccca aatttgtctg cttcttctgt tggggcttat
+      181 gggtgtggag ggctcactcc atgccagacc cccacagttt acgaaggctc agtggtttgc
+      241 catccagcac atcaatgtga acccccctcg atgcaccatt gcaatgcggg taataaataa
+      301 ttatcaacgg cgttgcaaaa accaaaatac ttttcttcgt acaacttttg caaatacagc
+      361 taatgtttgt cgtaaccaaa gtatacgctg ccctcgtaac agaactctcc acaattgtca
+      421 tcgtagtaga taccgggtgc ctttactcca ctgtgacctc ataaatccag ctgcacagaa
+      481 tatttcaacc tgcaggtatg cagacagacc aggacggagg ttctatgtag ttgcatgtga
+      541 aagcagagat ccacgggatt ctccacggta tccagtggtt ccagttcacc tggataccat
+      601 catctaagct cctgtatcag cactcctcat catcactcat atgccaggct cctcaatcat
+      661 agccaagatc ccatccctcc atgtaccctg ggtatcagca tctgtcctct tcagtctcca
+      721 taccccttca ggtttcctga actgaagtgc cttgtgaacc ccacaataaa ttgctttgca
+      781 aattca
+//
+

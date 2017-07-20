@@ -1,0 +1,96 @@
+LOCUS       AJ489524                1926 bp    mRNA    linear   VRT 26-JUL-2016
+DEFINITION  Dicentrarchus labrax partial mRNA for estrogen receptor beta 2
+            (erbeta2 gene).
+ACCESSION   AJ489524
+VERSION     AJ489524.1
+KEYWORDS    erbeta2 gene; estrogen receptor beta 2.
+SOURCE      Dicentrarchus labrax (European seabass)
+  ORGANISM  Dicentrarchus labrax
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Moronidae; Dicentrarchus.
+REFERENCE   1
+  AUTHORS   Halm,S., Martinez-Rodriguez,G., Rodriguez,L., Prat,F.,
+            Mylonas,C.C., Carrillo,M. and Zanuy,S.
+  TITLE     Cloning, characterisation, and expression of three oestrogen
+            receptors (ERalpha, ERbeta1 and ERbeta2) in the European sea bass,
+            Dicentrarchus labrax
+  JOURNAL   Mol. Cell. Endocrinol. 223 (1-2), 63-75 (2004)
+   PUBMED   15279912
+REFERENCE   2  (bases 1 to 1926)
+  AUTHORS   Halm,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUN-2002) Halm S., Physiology of Fish Reproduction,
+            Instituto de Acuicultura Torre de la Sal, Ribera de Cabanes, 12595
+            Torre de la Sal (Castellon), SPAIN
+FEATURES             Location/Qualifiers
+     source          1..1926
+                     /organism="Dicentrarchus labrax"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:13489"
+                     /sex="female"
+                     /tissue_type="ovary"
+                     /dev_stage="adult"
+     gene            <1..1926
+                     /gene="erbeta2"
+     CDS             <1..1827
+                     /gene="erbeta2"
+                     /codon_start=1
+                     /product="estrogen receptor beta 2"
+                     /protein_id="CAD33852.1"
+                     /db_xref="GOA:Q6KF57"
+                     /db_xref="HSSP:1A52"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="InterPro:IPR021064"
+                     /db_xref="UniProtKB/TrEMBL:Q6KF57"
+                     /translation="ITSPYTDSSHEYNHGHGPLTFYSPSVLSYARPPINDSPSAFWPS
+                     HSHPNMPSLTLHCPQPLVYHEPSPHAPWLEPKAHSINSSSSIISCNKPLVKRAEEGVE
+                     GMNSSCSSAAGKADMHFCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATN
+                     QCTIDKNRRKSCQACRLRKCYEVGMMKCGVRRERCSYRGARHRRGGLQTRDPTGKGLV
+                     RLGLGSRAQRHLHLEAPLAPLAPLPQVNHVHHSAMSPEEFISRIMEAEPPEIYLMEDL
+                     KKPFTEASMMMSLTNLADKELVLMISWAKKIPGFVELSLTDQIHLLKCCWLEILMLGL
+                     MWRSVDHPGKLIFSPDFKLNREEGQCVEGIMEIFDMLLAATSRFRELKLQREEYVCLK
+                     AMILLNSNLCTSAPQTAEELESRNKLLRLLDSVIDALVWAISKMGLSTQQQTLRLGHL
+                     TMLLSHIRHVSNKGMDHLSTMKRKNVVLVYDLLLEMLDANTSSSGSQPSSSPSSDTYS
+                     DQQQQPQPPSHLQPGSHQCNTDHGTVPPHGPGVDQILDGHLQALPLQSSPPFQSLEVP
+                     HMDSNDYIPPEQWSLDAGDAGPSVEPADYIIPDRVVMETALV"
+ORIGIN      
+        1 atcacctccc cttacacgga cagtagccac gagtacaacc acggccatgg acctctgacc
+       61 ttttacagcc cgtctgtgct gagctatgcc aggcccccca taaatgacag cccatcagcc
+      121 ttctggccct cccacagcca ccccaacatg ccctcactga ctctgcactg ccctcagcct
+      181 ctcgtctacc atgaacccag cccacatgcg ccctggctgg agcccaaagc ccacagcatc
+      241 aactccagca gctccatcat cagctgtaac aagcctctgg tgaagagagc agaggaagga
+      301 gtggaaggca tgaactcctc ctgttcctct gcagcaggga aagccgacat gcacttctgc
+      361 gccgtgtgcc acgactacgc ctctgggtac cactacggtg tgtggtcctg cgagggttgc
+      421 aaggcttttt tcaagaggag catccaaggg cacaacgact acatctgccc cgccacaaat
+      481 caatgcacta ttgacaagaa cagacgtaaa agctgccagg cctgccgcct tcgtaaatgc
+      541 tacgaagtgg gcatgatgaa gtgcggtgta aggcgtgaac gctgcagcta cagaggggcc
+      601 cgacaccgcc gcggtggact ccagactcgg gacccaactg gcaagggttt ggtccgtttg
+      661 gggctgggtt ctcgggccca gcggcatctc cacctggagg ctcctctcgc cccacttgcc
+      721 cccctccctc aggtgaacca cgtgcaccac tcggccatga gtccagagga gttcatctcg
+      781 cgcatcatgg aggcggaacc tccagagatc tacctcatgg aggacctgaa gaagcccttc
+      841 accgaggcta gcatgatgat gtccctcacc aacctggcag acaaggaact ggtcctcatg
+      901 atcagctggg ctaagaagat ccctggcttt gtggagctga gtctgactga ccagatccac
+      961 ctgctgaagt gctgctggct ggagatcctg atgttgggcc tgatgtggag gtcagtggat
+     1021 cacccaggaa aactcatctt ctctccagac ttcaaactga acagggagga gggacagtgc
+     1081 gtggagggca tcatggagat tttcgacatg ctgctggcag ccacctctcg gttccgcgag
+     1141 ctgaagcttc agcgggagga gtacgtctgt ctgaaggcca tgatcctcct caactccaat
+     1201 ctgtgcacaa gcgcccctca gacagcagag gagctggaga gcaggaacaa gctgctgcgt
+     1261 ctgctggact cggtgatcga tgctctggtc tgggccattt ccaaaatggg cctgtcgacc
+     1321 cagcagcaga ctctacgcct cggacacctc accatgctgc tctcccacat ccgccacgtc
+     1381 agtaacaaag gcatggacca tctgtccacc atgaagagga agaacgtggt gctggtgtac
+     1441 gacctcctcc tggagatgct agacgccaac acgtccagca gtggcagtca gccgtcgtcc
+     1501 tcgccaagct ccgacactta ctctgaccag cagcagcagc cgcaacctcc gtctcacctg
+     1561 cagccgggct cacaccagtg caacaccgac cacggcactg tgcctccaca tggccccggc
+     1621 gtagaccaga tcctggacgg acacctgcag gctctgcccc tgcagtcctc accgccattt
+     1681 cagagtttag aggtgcccca catggacagc aatgattaca tccctccgga gcagtggtca
+     1741 ctggacgcgg gagacgccgg tccatcggtg gaaccagcag actacatcat cccagatcga
+     1801 gttgtcatgg aaactgcctt ggtgtaaagg gactgtaagg gacaaactga gactggacct
+     1861 taatggcttt tcatccccca aagatcaaga agaggaaaca aaaatggatt taaaaaaaaa
+     1921 aaaaaa
+//
+

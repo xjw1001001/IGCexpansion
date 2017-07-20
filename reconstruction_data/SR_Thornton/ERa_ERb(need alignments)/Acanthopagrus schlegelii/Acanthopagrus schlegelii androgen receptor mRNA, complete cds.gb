@@ -1,0 +1,87 @@
+LOCUS       AY219702                2316 bp    mRNA    linear   VRT 21-JUL-2003
+DEFINITION  Acanthopagrus schlegelii androgen receptor mRNA, complete cds.
+ACCESSION   AY219702
+VERSION     AY219702.1
+KEYWORDS    .
+SOURCE      Acanthopagrus schlegelii (black porgy)
+  ORGANISM  Acanthopagrus schlegelii
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Sparidae; Acanthopagrus.
+REFERENCE   1  (bases 1 to 2316)
+  AUTHORS   He,C.L., Du,J.L., Lee,Y.H., Huang,Y.S., Nagahama,Y. and Chang,C.F.
+  TITLE     Differential messenger RNA transcription of androgen receptor and
+            estrogen receptor in gonad in relation to the sex change in
+            protandrous black porgy, Acanthopagrus schlegeli
+  JOURNAL   Biol. Reprod. 69 (2), 455-461 (2003)
+   PUBMED   12672663
+REFERENCE   2  (bases 1 to 2316)
+  AUTHORS   He,C.-L. and Chang,C.-F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JAN-2003) Department of Aquaculture, National Taiwan
+            Ocean University, Keelung 20224, Taiwan
+FEATURES             Location/Qualifiers
+     source          1..2316
+                     /organism="Acanthopagrus schlegelii"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:72011"
+     CDS             1..2316
+                     /codon_start=1
+                     /product="androgen receptor"
+                     /protein_id="AAO61694.1"
+                     /translation="MSQTSRQLSCTKVWPRGEKIKTGDAASARSMAQNTEESPLRVSK
+                     HLTGNGAGRMRGSDNADPNTYGFGHMIPLACGMEKHCCQTAAASQEELLNADCRVGDS
+                     RSFSACATISETARELCKAVSVSLGLAMECSDSSDMDAALPQCAANDHVRGEYLFGVG
+                     NAPLSCPGGQAAVSDYKCAEERPLHGHKQQQQQLMEMFKSSETAAHLQHLTSARTPVD
+                     EQNFTMCKAEDSTPEETAHLDPVRAASCPYAQSAQPGSMTHFDPPAQERPWRLYKPPD
+                     EAGDFMEVMESSFATTSGYQPEQYSMKIKCEDTESAGALWGGNHSFNDRYNSQCWGPR
+                     HCVSAHGAGADSALCNPYERSAARPEHWYPGGMLRSPYPNSSYMKSEVGEWPDVPYND
+                     PRFDASREHMFPMEFFFPAQRMCMICSDEASGCHYGALTCGSCKVFFKRAAEGKQKYL
+                     CASKNDCTIDKLRRKNCPSCRLRKCFEAGMTLGARKLKKIGQQKNPDGDHPPQEPAEV
+                     MPNISPKTGLSFNSQVVFLNILESIEPEVAYAGHDYGQPDSAATLLTSLNELGEKQLV
+                     KVVKWAKGLPGFRNLHVDDQMTVIQYSWMGVMVFGLGWRSYKNVNGRMLYFAPDLVFN
+                     EHRMHISSMYEHCIRMRHLSQEFLLLQITQEEFLCMKALLLFSIIPVEGLKSQKYFDE
+                     LRLTYINELDRLISYRMSANCSQRFYQLTRLLDSLQMTVKKLHQFTFDLFVQAQSLPT
+                     KVSFPEMIGEIISVHVPKILAGLAKPILFHD"
+ORIGIN      
+        1 atgagccaaa ccagccgaca gttatcttgt accaaagttt ggccgcgggg tgagaaaata
+       61 aagacaggcg acgcagcgag cgctcgcagc atggcgcaaa acaccgaaga aagtccgctc
+      121 cgtgtctcca aacacctaac ggggaacggt gccggcagga tgagaggatc cgacaacgca
+      181 gacccgaaca cttacgggtt cggacacatg atcccgctcg cctgtggcat ggaaaaacac
+      241 tgttgtcaaa cagctgctgc ttctcaggag gagttgttaa acgctgactg ccgtgtgggc
+      301 gacagccgct ctttttctgc ctgcgccaca atctcagaga cagccaggga gctgtgcaaa
+      361 gctgtttctg tgtcgctggg attggccatg gagtgcagtg actccagcga catggacgct
+      421 gctctccccc agtgcgcagc gaatgaccac gttcgaggag agtatttgtt cggggttgga
+      481 aacgcgcctc tgagctgtcc cggcggccag gctgctgtca gcgactacaa gtgcgccgaa
+      541 gagcggccgc tgcacggaca caagcagcag cagcagcagc tgatggaaat gtttaaaagt
+      601 tcagagaccg ctgcgcacct gcagcacctc acctccgctc ggacacctgt agacgagcag
+      661 aacttcacaa tgtgcaaggc tgaggacagc actccagagg agacggctca cctggaccca
+      721 gtgcgcgcag cttcctgccc gtacgcccaa tccgcgcagc cgggcagcat gacacacttc
+      781 gacccaccgg ctcaagagag accgtggcgg ctctacaagc cccccgacga agcgggagac
+      841 ttcatggaag tcatggagag cagtttcgca acaacaagtg gttatcagcc ggagcagtac
+      901 agcatgaaaa tcaaatgcga agacaccgaa tctgccggag cgttgtgggg cggtaaccac
+      961 agctttaatg acaggtacaa ctcccagtgt tggggtccga ggcactgcgt gagcgcacac
+     1021 ggcgcaggag ccgacagcgc gttatgtaat ccatacgaga ggagcgcagc gcggccggaa
+     1081 cactggtacc cgggcgggat gctgaggtcg ccatatccca actccagcta catgaagagt
+     1141 gaggtgggcg agtggcccga tgttccctat aatgacccca ggttcgacgc cagcagggag
+     1201 cacatgttcc caatggagtt cttctttcca gctcagagga tgtgcatgat ctgttcagac
+     1261 gaggcgtctg gctgccatta cggtgcgctc acctgtggca gctgcaaggt tttcttcaaa
+     1321 agagctgcag aaggcaaaca gaaatacctg tgcgcaagca aaaacgactg cactattgat
+     1381 aagctcagaa gaaagaactg tccgtcctgt cggctgagga agtgcttcga agctggaatg
+     1441 actctgggag cacgtaaact gaagaagatt gggcaacaga agaacccgga cggggatcat
+     1501 cctcctcagg agcctgcgga ggttatgccc aatatctctc ctaaaaccgg cctgagcttc
+     1561 aactcccaag tggtctttct gaacatcctg gagtccattg agcccgaggt ggcgtacgcc
+     1621 ggacacgact acggccaacc ggactcggcc gccaccttgc tcaccagcct caacgagctg
+     1681 ggggagaaac agctggtgaa agtggtcaaa tgggcaaaag gattgccagg ttttagaaat
+     1741 ctccatgtgg acgaccaaat gactgtcatc cagtattcat ggatgggggt gatggtgttt
+     1801 ggcctcggat ggaggtccta taagaacgtc aacggcagga tgctgtactt cgctccagat
+     1861 cttgtgttca atgaacaccg gatgcacatc tcctccatgt acgagcactg catacggatg
+     1921 agacatcttt cacaggagtt ccttctgctg cagatcactc aggaggagtt cctctgcatg
+     1981 aaggccctgc ttctcttcag cattattcca gtcgagggtt tgaagagtca gaagtacttt
+     2041 gacgagctgc gtctcaccta catcaacgag ctcgatcgcc tcatcagcta tcgaatgagc
+     2101 gccaattgtt ctcagaggtt ctaccagctc acccgactac tggactctct gcagatgacg
+     2161 gtgaagaagc tccatcagtt tacattcgac cttttcgtcc aggctcagtc actccccacg
+     2221 aaggtcagct ttccagagat gatcggagag ataatctctg tgcacgtacc aaagatcctg
+     2281 gcaggtttgg ctaaaccaat cctgttccac gactag
+//
+

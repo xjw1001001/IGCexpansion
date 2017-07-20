@@ -1,0 +1,79 @@
+LOCUS       XM_002804975             772 bp    mRNA    linear   PRI 21-DEC-2015
+DEFINITION  PREDICTED: Macaca mulatta eosinophil cationic protein
+            (LOC100425237), mRNA.
+ACCESSION   XM_002804975
+VERSION     XM_002804975.2
+DBLINK      BioProject: PRJNA16397
+KEYWORDS    RefSeq.
+SOURCE      Macaca mulatta (Rhesus monkey)
+  ORGANISM  Macaca mulatta
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Macaca.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_014805028.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Dec 21, 2015 this sequence version replaced gi:297297399.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Macaca mulatta Annotation Release
+                                           102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.5
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..772
+                     /organism="Macaca mulatta"
+                     /mol_type="mRNA"
+                     /isolate="17573"
+                     /db_xref="taxon:9544"
+                     /chromosome="7"
+                     /sex="female"
+                     /country="USA: Southwest National Primate Research Center
+                     at the Southwest Foundation for Biomedical Research, San
+                     Antonio, TX"
+                     /note="derived from Indian origin rhesus"
+     gene            1..772
+                     /gene="LOC100425237"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 2 ESTs, 8 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 11 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:100425237"
+     CDS             112..594
+                     /gene="LOC100425237"
+                     /codon_start=1
+                     /product="eosinophil cationic protein"
+                     /protein_id="XP_002805021.1"
+                     /db_xref="GeneID:100425237"
+                     /translation="MVPKLFTSQICLLLLLGLMGVEGSLHARPPEFTRAQWFAIQHIN
+                     MNPPSCNIAMRVINKYQRCCEKQNTFLRTTFANVVNVCRNPSIPCVHNRTLQNCHHSS
+                     VQVPLLQCEHINRGAQNVSTCEYADRQGQSFYVVACENRDPRDPPQYPVVPVLLDRII
+                     "
+ORIGIN      
+        1 tatttaaaca gttccaagta agggagacca gctgccaagg gagacccctg aaccccagaa
+       61 caaccagctg gatcagttct cacaggagct gcagctcaga gactgggaaa catggttcca
+      121 aaattgttca cttcccaaat ttgtctgctt cttctgttgg ggcttatggg tgtggagggc
+      181 tcactccatg ccagaccccc agagtttaca agggctcagt ggtttgccat ccagcacatc
+      241 aatatgaacc ccccttcatg caacattgca atgcgggtaa ttaacaagta tcaacggtgt
+      301 tgcgaaaagc aaaatacttt tcttcgtaca acttttgcaa atgtagttaa tgtttgtcgt
+      361 aacccaagta taccctgcgt tcataacaga actctccaaa attgtcatca tagtagcgtc
+      421 caggtgcctt tactccagtg tgaacacata aatagaggtg cacagaatgt ttcaacctgc
+      481 gagtatgcag acagacaagg acagagtttc tatgtagttg catgtgaaaa cagagatcca
+      541 cgggatcctc cacagtatcc agtggttcca gtactcctgg acagaatcat ctaagctcct
+      601 gtatcagcac tcctcatcat cactcatctg ccaagctcct caatcatagc caagatccca
+      661 tccctccatg taccctgggt atcagcatct gtcctcttca gtctccacac cccttcaggt
+      721 ttcctgaact gaagtgcctt gtgaacctcc aacaagctgc tgtgcaaatt ca
+//
+

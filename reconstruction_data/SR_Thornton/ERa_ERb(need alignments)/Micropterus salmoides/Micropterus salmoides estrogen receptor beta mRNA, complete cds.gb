@@ -1,0 +1,84 @@
+LOCUS       AY211021                2188 bp    mRNA    linear   VRT 27-MAY-2004
+DEFINITION  Micropterus salmoides estrogen receptor beta mRNA, complete cds.
+ACCESSION   AY211021
+VERSION     AY211021.1
+KEYWORDS    .
+SOURCE      Micropterus salmoides (largemouth bass)
+  ORGANISM  Micropterus salmoides
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Centrarchiformes; Centrarchoidei;
+            Centrarchidae; Micropterus.
+REFERENCE   1  (bases 1 to 2188)
+  AUTHORS   Sabo-Attwood,T., Kroll,K.J. and Denslow,N.D.
+  TITLE     Differential expression of largemouth bass (Micropterus salmoides)
+            estrogen receptor isotypes alpha, beta, and gamma by estradiol
+  JOURNAL   Mol. Cell. Endocrinol. 218 (1-2), 107-118 (2004)
+   PUBMED   15130515
+REFERENCE   2  (bases 1 to 2188)
+  AUTHORS   Sabo-Attwood,T. and Denslow,N.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JAN-2003) ICBR, University of Florida, 1600 SW Archer
+            Rd., P.O. Box 100156, Gainesville, FL 32610, USA
+FEATURES             Location/Qualifiers
+     source          1..2188
+                     /organism="Micropterus salmoides"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:27706"
+     CDS             111..2123
+                     /note="nuclear receptor"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAO39210.1"
+                     /translation="MASSPGLDADPLPLLQLQEVDSSKASQRPSSPGLLPAVYSPPLG
+                     MDSHTVCIPSPYTDSSHEYNHSHGPLTFYSPSVLSYARPPITDSPSSLCPPLSPSAFW
+                     PSHSHPNMPSLTLRCPQPLVYNEPSPHAHWPEPKAHSINPSSSILGCNKPLGKRLEEG
+                     VEGVNSSLCSSAVGKADMHFCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICP
+                     ATNQCTIDKNRRKSCQACRLRKCYEVGMMKCGVRRERCSYRGARHRRGGLQPRDPTGR
+                     GLVRMGLGSRAQRHLHLEAPLAPLTSLPQANHVHPSAMSPEEFISRIMEAEPPEIYLM
+                     EDMKKPFTEASMMMSLTNLADKELVLMISWAKKIPGFVDLSLADQIHLLKCCWLEILM
+                     LGLMWRSVDYPGKLIFSPDFKLNREEGQCVEGFMEIFDMLLAATSRFRELKLQREEYV
+                     CLKAMILLNSNLCTSSPQTAEELESRNKLLRLLDSVIDALVWAISKLGLSTQQQTLRL
+                     GHLTMLLSHIRHVSNKGMDHLSTMKRKNVVLVYDLLLEMLDANTSSSGSQPSSSPSSD
+                     TYSDQHQYPQPPSHLQPDSDQTGADHTTVPPHEPAEAPILDGHLQTLTLHSSPPFQSL
+                     VVAHIDSNDYIHQEQWSLDTADAGPPVEPTDYIVSDRVVMETALLG"
+ORIGIN      
+        1 agccacacag cctgaagaag atttgtctac actagaatat gcaatagagg agccagctgc
+       61 gtcatcaaat tcatcatcac tgtcaacata tacggttgat tctccctgac atggcctcct
+      121 cccccgggct ggatgctgac ccgttaccac tgcttcagct ccaggaggtg gactccagca
+      181 aagcctctca gaggccgagc tccccgggac tcctgcccgc cgtgtacagc ccacctctgg
+      241 gcatggacag ccacaccgtc tgtatcccct ctccgtacac ggacagtagc cacgagtaca
+      301 accacagcca cggacctctg accttctaca gcccatctgt gctgagctac gccaggccac
+      361 ctatcactga cagcccgtca tctctgtgcc ccccacttag cccatcagcc ttctggccct
+      421 cccacagcca ccccaacatg ccctcgctga ctctgcgctg ccctcagcct cttgtctaca
+      481 atgaacccag cccacatgca cactggccgg agcccaaagc ccacagcatc aaccccagca
+      541 gctccatcct cggttgtaac aagccgctgg ggaagagatt agaggaagga gtggaaggcg
+      601 tgaactcctc cttgtgttct tctgcggtgg ggaaagccga catgcacttc tgcgctgtgt
+      661 gccacgacta cgcgtccggg taccactacg gtgtgtggtc ttgtgagggc tgcaaggctt
+      721 tcttcaagag gagcatccag ggacacaatg actacatctg ccccgccaca aatcagtgca
+      781 ctatcgacaa gaaccgccgt aaaagctgcc aggcctgccg cttacgtaaa tgctacgaag
+      841 tgggcatgat gaagtgcggt gtaaggcgtg aacgctgcag ctatcgagga gcccgacacc
+      901 gccgtggtgg actccagcct cgggatccca caggcagggg tttggtccgg atggggcttg
+      961 gttctcgtgc ccagcggcat ctccaccttg aggctcccct tgccccgctc acctccctcc
+     1021 ctcaggcgaa ccatgtccac ccctcggcca tgagcccaga agagttcatc tcccgcatca
+     1081 tggaggcgga gccccctgag atctacctca tggaggacat gaagaagccc ttcaccgagg
+     1141 ccagcatgat gatgtccctc accaacctgg cagacaagga actggtcctc atgatcagct
+     1201 gggctaaaaa gatccctggc tttgtggacc tgagtctagc cgaccagatc cacctgctga
+     1261 agtgctgctg gctagagatc ctgatgttgg gcctgatgtg gaggtcggtg gattatcctg
+     1321 gaaaactcat cttctctcca gacttcaaac tcaacaggga ggagggacag tgtgttgagg
+     1381 gcttcatgga gattttcgac atgctgcttg cagccacctc ccggtttcgt gagctgaagc
+     1441 ttcagaggga ggagtacgtc tgtctgaagg ccatgatcct cctcaactcc aatctgtgta
+     1501 cgagctcccc tcagacagct gaagagctgg agagcaggaa caagctgctg cgtctgctgg
+     1561 actctgtgat tgatgctctg gtctgggcca tttccaaact tggcttgtcg acccagcagc
+     1621 agactctgcg cctcggacac ctcaccatgc tgctctccca catccgccac gtcagtaaca
+     1681 aaggcatgga tcatctgtcc accatgaaga ggaagaatgt ggtgctagtg tacgacctcc
+     1741 tcctggagat gctggacgcc aacacatcca gcagcggcag tcaaccatcg tcctcgccga
+     1801 gctctgacac ttactccgac cagcaccagt acccccagcc tccgtctcac ctacagccgg
+     1861 actcagacca gaccggcgct gaccacacca ctgtgcctcc acatgaacct gctgaagccc
+     1921 cgatcctcga cggacacctg cagactctga ccctccattc atcacctcca ttccagagtt
+     1981 tagttgtggc tcacattgac agcaatgatt acatccacca ggagcagtgg tcactggaca
+     2041 cagcagatgc aggtccacca gtggaaccaa cagactacat cgtctctgat cgagttgtta
+     2101 tggaaactgc cttactgggg tgacaggact gaagggacaa actgagactc agccttaatg
+     2161 gctttccatc ccccagagat tgagaaaa
+//
+
