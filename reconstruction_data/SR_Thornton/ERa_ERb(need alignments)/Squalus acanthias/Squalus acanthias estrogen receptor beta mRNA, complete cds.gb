@@ -1,0 +1,72 @@
+LOCUS       AF147746                1795 bp    mRNA    linear   VRT 31-MAY-2001
+DEFINITION  Squalus acanthias estrogen receptor beta mRNA, complete cds.
+ACCESSION   AF147746
+VERSION     AF147746.1
+KEYWORDS    .
+SOURCE      Squalus acanthias (spiny dogfish)
+  ORGANISM  Squalus acanthias
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Chondrichthyes;
+            Elasmobranchii; Squalimorphii; Squaliformes; Squalidae; Squalus.
+REFERENCE   1  (bases 1 to 1795)
+  AUTHORS   Sikora,R., Betka,M. and Callard,G.V.
+  TITLE     Molecular Cloning and Stage-Related Expression of an Estrogen
+            Receptor Beta Subtype During Spermatogenesis in the Dogfish Shark
+            (Squalus Acanthias) Testis
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1795)
+  AUTHORS   Sikora,R., Betka,M. and Callard,G.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-MAY-1999) Biology, Boston University, 5 Cummington
+            Street, Boston, MA 02215, USA
+FEATURES             Location/Qualifiers
+     source          1..1795
+                     /organism="Squalus acanthias"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7797"
+     CDS             103..1731
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAK57823.1"
+                     /translation="MATSPRKESSQMPELQELRPGTVENHIKNSPTGLTTQPQYSSTL
+                     PGLSEHGPVCIPSSYVENRHEFPTLAFYSPSILGYSMPSDASGPDGTIVRQSLSPSMY
+                     WSSTGHVSPITLHCQQPIMYAEPPKSPWDDLRSGDQHLLNRENLKKKPAPPGSSVNGV
+                     CSRRDAHFCAVCNDFASGYHYGVWSCEGCKAFFKRSIQGHNAYICPATNQCTIDKNRR
+                     KSCQACRLRKCYEVGMMKSETRRDRCSYRLTRQNRLSSAQAQHWSRGKRSGESDTTNI
+                     SDTCLNELAPEKLLSSLLEAEPPNVYSLNHPNKPYTEVSMMMSLTNLADRELVHMIAW
+                     AKKVPGFVELDLHDQVQLLECCWLEVLMVGLMWRSIEYPGKLLFAPDLILDRDEGQCV
+                     EGILEIFDMLLAATSRFRDLKLQHEEYLCLKAMVLLNSSMFPRSGVTEEHENREKLHK
+                     ILDTITDTLIWCMSKSGIPPQQQATRLAHLLMLLSHIRHASNKGMEHLYSMKCKNVVP
+                     FYDLLLEMLDAHVIYSRTKPSDDHDCGQSKGDNL"
+ORIGIN      
+        1 cgcccaccac ggccgccttt gctggacggt gagaagacgc aatggtttta tgagcgacga
+       61 tctccaaaca agttctttct ccgagggacc tgcgcatcaa gcatggccac ctcaccaaga
+      121 aaagaatcgt cgcagatgcc tgagctacaa gaactgagac ctgggacagt agaaaaccac
+      181 atcaaaaact ctcctacggg tctaaccact cagccccaat acagtagtac tttgccaggt
+      241 ctgtctgagc acggccctgt ttgcattccc tcgtcatatg tggaaaacag gcatgaattc
+      301 cccactcttg ccttctacag cccctccata ctgggataca gcatgcccag cgatgccagt
+      361 ggtcctgatg gcaccatcgt gaggcaaagt ttgagtccat cgatgtattg gtcctccact
+      421 ggccacgtct ctcccataac cctacactgc cagcagccaa tcatgtacgc cgaaccgccc
+      481 aagagtcctt gggatgacct gagatcagga gatcaacatc tgttgaacag ggagaatttg
+      541 aaaaaaaaac ctgcgccacc cgggtcctcc gtgaacggcg tgtgttccag gcgtgacgct
+      601 cacttctgtg ccgtttgcaa tgatttcgcc tcgggatatc actacggtgt ctggtcctgt
+      661 gagggctgca aagccttctt caaaagaagc attcaaggac acaacgctta catctgcccg
+      721 gctaccaacc agtgcacaat cgacaagaac aggcggaaaa gctgccaggc ctgtcgactc
+      781 cgcaaatgct atgaagttgg gatgatgaaa tctgagacgc ggagagatcg ctgtagctac
+      841 cgcttgacac gacagaaccg cctctccagc gcacaggcgc aacattggag cagagggaag
+      901 aggagcggcg agagcgacac aaccaacatc agcgacacct gcctcaacga gctggctccc
+      961 gagaagctgc tcagctcact gctggaggct gagcccccca acgtgtactc gttaaatcat
+     1021 cccaacaagc cctacaccga ggtctccatg atgatgtcac tgaccaacct ggcagacagg
+     1081 gagctggttc acatgatagc ctgggccaag aaagttccag gtttcgttga gctggatctc
+     1141 cacgaccagg tacaactgct ggagtgttgt tggttggagg ttttaatggt gggcttgatg
+     1201 tggagatcga ttgaatatcc cggcaagctc ctgttcgccc cggatctcat tctggacagg
+     1261 gatgagggac agtgtgtgga aggcattctg gaaatttttg acatgttact ggcagcaact
+     1321 tcaaggttca gagacttgaa actccaacac gaggaatatc tctgtctcaa agccatggtg
+     1381 ctcctcaact ccagtatgtt tcctcgctct ggagtcaccg aggaacatga aaacagggag
+     1441 aagcttcaca agattctgga cacgataaca gacaccttga tttggtgcat gtccaagagt
+     1501 ggaatcccac cacagcagca agccacccgc ctggcacatc tactgatgct gctctcacac
+     1561 atcaggcacg ccagtaacaa aggcatggaa cacctgtaca gcatgaagtg caagaacgtg
+     1621 gtgccattct acgacctgct gctggagatg ctcgacgccc acgtcattta cagccgcaca
+     1681 aaaccttcgg atgatcacga ctgcggccaa tcgaagggcg acaacctctg atctctgccc
+     1741 ccggtaatgc ccaaaccaga aaacattcct cctcctgctc cacctcccac acctg
+//
+

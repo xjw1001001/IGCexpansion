@@ -1,0 +1,86 @@
+LOCUS       Z37167                  1788 bp    mRNA    linear   MAM 18-APR-2005
+DEFINITION  S.scrofa mRNA for estradiol receptor.
+ACCESSION   Z37167
+VERSION     Z37167.1
+KEYWORDS    estradiol receptor.
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (bases 1 to 1788)
+  AUTHORS   Bokenkamp,D., Jungblut,P.W. and Thole,H.H.
+  TITLE     The C-terminal half of the porcine estradiol receptor contains no
+            post-translational modification: determination of the primary
+            structure
+  JOURNAL   Mol. Cell. Endocrinol. 104 (2), 163-172 (1994)
+   PUBMED   7988744
+REFERENCE   2  (bases 1 to 1788)
+  AUTHORS   Boekenkamp,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-1994) Dirk Boekenkamp, Max-Planck-Institut fuer
+            experimentelle Endokrinologie, Feodor-Lynen Strasse 7, Hannover,
+            30625, Germany
+FEATURES             Location/Qualifiers
+     source          1..1788
+                     /organism="Sus scrofa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9823"
+                     /sex="female"
+                     /tissue_type="Uterus"
+     CDS             1..1788
+                     /codon_start=1
+                     /product="estradiol receptor"
+                     /protein_id="CAA85524.1"
+                     /db_xref="GOA:Q29040"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001292"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="UniProtKB/Swiss-Prot:Q29040"
+                     /translation="MTMTLHTKASGMALLHQIQANELEPLNRPQLKIPLERPLGEVYV
+                     DSSKPAVYNYPEGAAYDFNAAAAASAPVYGQSGLAYGPGSEAAAFGANGLGGFQPLNS
+                     VSPSPLVLLHPPPQLSPFLHPHGQQVPYYLENEPSGYAVREAGPPAFYRPNSDNRRQG
+                     GRERLASTSDKGSMAMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHND
+                     YMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLKHKRQRDDGEG
+                     RNEAVPPGDMRSANLWPSPLLIKHTKKNSPVLSLTADQMISALLEAEPPIIYSEYDPT
+                     RPLSEASMMGLLTNLADRELVHMINWAKRVPGFLDLSLHDQVHLLECAWLEILMIGLV
+                     WRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEFVCLKS
+                     IILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHRRLAQLL
+                     LILSHFRHMSNKGMEHLYNMKCKNVVPLYDLLLEMLDAHRLHAPTNLGGPPPEDMSQS
+                     QLATSGSTPSHSLQMYYITGEAENFPTTI"
+ORIGIN      
+        1 atgaccatga ccctacacac caaagcgtcc ggcatggccc tgctgcacca gatccaagcc
+       61 aacgagctgg agcccctgaa ccgcccgcag ctcaagatcc ccctggagcg gcccctgggc
+      121 gaggtgtacg tggacagcag caagcccgcc gtgtataact accccgaggg cgccgcgtac
+      181 gacttcaacg ccgcggccgc cgcctccgcg cccgtctacg gccagtcggg cctcgcctac
+      241 ggcccggggt cggaggcggc ggcgttcggc gccaacggct tggggggctt ccagccgctc
+      301 aacagcgtgt ctccgagccc gctggtgctg ctgcacccgc cgccgcagct ctcgcccttc
+      361 ctgcaccccc acggccaaca ggtgccctat tacctggaga atgagccgag cggctatgcg
+      421 gtgcgcgagg ccggccctcc cgccttctac aggccaaatt cagataatcg gcgccagggt
+      481 ggcagagaga gattggccag caccagtgac aagggaagca tggccatgga atctgccaag
+      541 gagactcgct actgtgcagt gtgcaatgac tatgcctcag gctaccatta tggagtttgg
+      601 tcttgcgagg gctgtaaggc cttcttcaag agaagtattc aaggacataa tgactacatg
+      661 tgtccagcta ccaaccagtg cacaattgat aagaacagga ggaagagctg tcaggcctgc
+      721 cggctacgca agtgctacga agtgggcatg atgaaagggg ggatacggaa agaccggaga
+      781 ggagggagaa tgttgaagca caagcgccag agagatgatg gagagggcag gaatgaagcg
+      841 gtgccccctg gagacatgag atctgccaac ctttggccaa gccctctctt gattaaacac
+      901 actaagaaga acagcccggt cttgtccctg acagccgacc agatgatcag tgccttgttg
+      961 gaggctgagc cccccataat ctattccgag tatgatccta ccagacccct cagtgaggct
+     1021 tcaatgatgg gcttgctgac caacctcgca gacagggagc tggtacacat gatcaactgg
+     1081 gcaaagaggg tgccaggatt tttggattta agcctccatg atcaagtgca tcttctggaa
+     1141 tgtgcctggc tagagatcct catgattggt cttgtctggc gctccatgga gcacccaggg
+     1201 aagctcctgt ttgctcctaa cttgctcctg gacaggaacc agggcaagtg tgtcgaggga
+     1261 atggtggaga tctttgacat gttgctggct acatcatctc gcttccgtat gatgaatctc
+     1321 cagggagagg agtttgtgtg cctcaaatcc atcattttgc ttaattctgg agtgtacacg
+     1381 tttctgtcca gcaccctgaa gtctctggaa gagaaggacc atatccaccg tgtcctggac
+     1441 aagatcacag acaccttgat ccacctgatg gccaaagcgg gcctgactct gcagcagcag
+     1501 caccggcgtc tcgcgcagct cctcctcatc ctgtctcact tcaggcacat gagtaacaaa
+     1561 ggcatggagc atctgtacaa catgaagtgc aagaacgtgg tgcccctcta tgacctgctg
+     1621 ctggagatgc tggacgccca ccgcctgcac gccccaacca accttggggg cccacccccg
+     1681 gaggacatga gccagagcca gctggccacc tcgggctcaa ctccatcgca ttccttgcaa
+     1741 atgtattaca tcacagggga ggcggagaac ttccccacca caatctga
+//
+

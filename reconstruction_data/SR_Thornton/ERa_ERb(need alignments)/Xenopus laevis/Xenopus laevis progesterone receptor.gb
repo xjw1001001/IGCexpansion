@@ -1,0 +1,94 @@
+LOCUS       AF279335                2611 bp    mRNA    linear   VRT 26-DEC-2000
+DEFINITION  Xenopus laevis progesterone receptor (XPR-1) mRNA, complete cds.
+ACCESSION   AF279335
+VERSION     AF279335.1
+KEYWORDS    .
+SOURCE      Xenopus laevis (African clawed frog)
+  ORGANISM  Xenopus laevis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae;
+            Xenopus; Xenopus.
+REFERENCE   1  (bases 1 to 2611)
+  AUTHORS   Tian,J., Kim,S., Heilig,E. and Ruderman,J.V.
+  TITLE     Identification of XPR-1, a progesterone receptor required for
+            Xenopus oocyte activation
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 97 (26), 14358-14363 (2000)
+   PUBMED   11114187
+REFERENCE   2  (bases 1 to 2611)
+  AUTHORS   Tian,J. and Ruderman,J.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUN-2000) Cell Biology, Harvard Medical School, 240
+            Longwood Ave., Boston, MA 02115, USA
+FEATURES             Location/Qualifiers
+     source          1..2611
+                     /organism="Xenopus laevis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8355"
+     gene            1..2611
+                     /gene="XPR-1"
+     CDS             358..2556
+                     /gene="XPR-1"
+                     /note="steroid hormone receptor"
+                     /codon_start=1
+                     /product="progesterone receptor"
+                     /protein_id="AAG42362.1"
+                     /translation="MEEISQTPGDDPARTGTQVLPEDSSLDSLLYQRPEHEGSYLKGE
+                     GPSSPDNNDLENVLDSILDSSSASSHLHSWTHFAAPEVSRVTPHMCPSDEAKALSIHH
+                     TSSLEETSLWAAPTLVERKEPGDSMPLKGKNSLEETKEPNSSLTMDSDETVTSILPIL
+                     PPDLNLNNMPILPLNPAYLAVRARQILGGEEGGQRSSPDTFQTSIPYANLQPNMKQIS
+                     YFYPDTQPDFRIKKESSTVSLYKAAAKESTLGQDYGSSPQNPSTPDPDPSLNFILYKN
+                     DSACDYDSFKISYGNTSEGSGCVLPSTSAQTIYQPLSLNGHQHITFQPTSMKETYLSE
+                     IQLPYVSYIRSDGNPDPGSPFSFETFPQKICLICGDEASGCHYGVLTCGSCKVFFKRA
+                     IEGQHNYLCAGRNDCIVDKIRRKNCPSCRLRKCCQAGMVLGGRKFKKFGRIKTGREID
+                     TVVLQSPPTLSLECQQILIRRISNSSAQEIQFTPELLQILQSIEPEVVYAGYDNTQPE
+                     TPSALLSSLNQLCERQLVCVVKWSKSLPGFRNLHIDDQITLLQYSWMSLMVFALGWRS
+                     YQHVSGQMLYFAPDLILNEQRMKDSSFYTLCLSMWQLPQEFMKLQVTHEEFLCMKALL
+                     LLNTIPLEGLKSQTNFDEMRSNYIRELAKAIGLRHKGVIASSQRFYQLTKLMDSMHEL
+                     VKQLHLYCLNTFLQSRSLSVEFPEMMSEVISAQLPKILAGMVKPLVFHKK"
+ORIGIN      
+        1 ggagaatagt gagactgaag agaagcgcac agactgtgac actggataga gggagcgcag
+       61 ttggcactga gtatcgcact gacctcgcct agagaccggg gtagcgccgc ctgacagtca
+      121 cacagcagag gagaccggtg ccagtccgtt tggcagacag acagcccgat aaagagagag
+      181 ttctgactcc ccgagagctt caggtgagcc ccaaagagcg tttggcacag gactggagaa
+      241 gaatcgcagc tgctgccact tgttgcgcct actgacacaa gaacgaaaag gcgcagtgct
+      301 atgagctgag aacttatttg cgccacttgg taggaacctg taagaacccc cgacactatg
+      361 gaggagataa gtcagacacc tggagatgat cctgcaagaa ctgggaccca ggtacttccc
+      421 gaggactcct cattggacag tcttttgtac cagagacccg aacatgaggg ctcctatctg
+      481 aaaggggaag ggccttcatc tcctgataac aatgacttgg agaacgtgct ggactctatc
+      541 ctggattcct cctcagcctc ctctcacctc cactcctgga ctcattttgc tgcccctgag
+      601 gtatctcggg taactcctca catgtgtccc tctgatgaag ctaaagctct cagtatccac
+      661 catacttctt ccctggagga aaccagtctt tgggctgcac ctacactagt tgaaaggaaa
+      721 gaacctggag actctatgcc cctgaaaggg aaaaactctt tggaagagac caaagaaccc
+      781 aactcatcat tgaccatgga tagtgatgaa actgttacat cgatcctgcc catattgcca
+      841 ccagatctga acctgaacaa tatgcccatc ctgccactga acccagcata cctagcagtc
+      901 agggctcgcc agattctggg cggggaagaa ggtggccaaa ggtcttctcc tgacactttc
+      961 cagacttcga ttccatatgc aaatcttcag cccaacatga aacaaatttc ttatttttat
+     1021 cctgatacac agccagattt cagaattaaa aaggaaagct ctacagtctc tctgtataaa
+     1081 gcagcagcca aagaaagcac attgggtcag gattacggat cgtctcccca gaatccttca
+     1141 actcccgatc cagatccttc cttgaatttc attctgtaca aaaatgattc tgcctgtgat
+     1201 tatgacagtt ttaagatttc ttatgggaac acaagtgagg gctcaggctg tgttctgccc
+     1261 tcaacctcag cccagaccat ctaccagccc ttgagcctca atggtcatca gcatattact
+     1321 ttccaaccaa catcaatgaa agagacatat ttatccgaaa tccagctccc ctatgtgtct
+     1381 tatatcagga gcgatgggaa cccagaccca ggcagtccct tcagctttga gacgtttccg
+     1441 cagaagatct gcttgatctg cggtgatgaa gcttcagggt gtcactatgg agtcctgact
+     1501 tgtggcagct gcaaggtctt ctttaaaaga gccatagaag ggcagcacaa ctatctgtgt
+     1561 gcgggtagga atgactgcat cgtggataag atcaggagga agaactgtcc ttcctgccga
+     1621 ctgagaaagt gttgccaagc aggaatggta cttggaggac gaaaatttaa aaagttcggt
+     1681 cgaattaaaa ctgggagaga aatcgataca gttgttcttc agtcgccacc gaccctgtcg
+     1741 ctggaatgtc agcagattct aataaggaga atatccaaca gttccgctca ggaaatccag
+     1801 ttcaccccag agttgctcca gatcttgcag agtatagagc ctgaggttgt atatgctggt
+     1861 tacgataaca cacagcccga gaccccaagt gcattgttga gtagtctcaa tcagctttgt
+     1921 gaacgacaac tcgtttgtgt agtaaaatgg tccaagtccc ttcccgggtt tagaaactta
+     1981 cacatcgatg accagattac ccttttgcaa tattcttgga tgagcctgat ggtgtttgcc
+     2041 ttgggatgga ggtcgtatca acatgtcagt gggcaaatgc tgtattttgc tccagatttg
+     2101 atattaaatg aacaaagaat gaaagattcg tcattctata ccctgtgcct ctccatgtgg
+     2161 cagctgccgc aagagtttat gaaattacaa gttacccacg aggagttcct gtgcatgaag
+     2221 gctttgctgc tgctcaacac aattcctttg gaaggactta aaagtcagac taattttgat
+     2281 gagatgaggt caaactacat aagagagctg gccaaggcta ttggcttaag acataaaggt
+     2341 gtgattgcca gctcccagcg tttctatcaa ctaaccaaac tcatggactc catgcatgaa
+     2401 cttgtaaagc agcttcacct ttattgtctc aacacattcc tgcagtcaag atcgcttagc
+     2461 gtggaatttc ctgaaatgat gtcggaagtg atctctgccc agttacccaa gatcctagct
+     2521 gggatggtaa aaccacttgt gtttcacaaa aagtgaacat catatttctt tcatcgccct
+     2581 aaaattattt aattaatatc tgtcttgtga g
+//
+

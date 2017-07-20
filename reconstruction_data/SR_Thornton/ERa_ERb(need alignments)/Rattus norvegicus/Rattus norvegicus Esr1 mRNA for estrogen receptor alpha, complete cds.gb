@@ -1,0 +1,91 @@
+LOCUS       AB477039                2078 bp    mRNA    linear   ROD 11-DEC-2015
+DEFINITION  Rattus norvegicus Esr1 mRNA for estrogen receptor alpha, complete
+            cds.
+ACCESSION   AB477039
+VERSION     AB477039.1
+KEYWORDS    .
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1
+  AUTHORS   Ishii,H., Kobayashi,M. and Sakuma,Y.
+  TITLE     Alternative promoter usage and alternative splicing of the rat
+            estrogen receptor alpha gene generate numerous mRNA variants with
+            distinct 5'-ends
+  JOURNAL   J. Steroid Biochem. Mol. Biol. 118 (1-2), 59-69 (2010)
+   PUBMED   19833204
+  REMARK    DOI:10.1016/j.jsbmb.2009.10.001
+REFERENCE   2  (bases 1 to 2078)
+  AUTHORS   Ishii,H., Kobayashi,M. and Sakuma,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JAN-2009) Contact:Hirotaka Ishii Nippon Medical
+            School, Department of Physiology; 1-1-5 Sendagi, Bunkyo, Tokyo
+            113-8602, Japan
+FEATURES             Location/Qualifiers
+     source          1..2078
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /strain="Wistar"
+                     /db_xref="taxon:10116"
+                     /sex="female"
+                     /tissue_type="uterus"
+                     /dev_stage="10-week-old"
+     gene            1..2078
+                     /gene="Esr1"
+     CDS             216..2018
+                     /gene="Esr1"
+                     /note="rat estrogen receptor alpha 0/B isoform"
+                     /codon_start=1
+                     /product="estrogen receptor alpha"
+                     /protein_id="BAI48013.1"
+                     /translation="MTMTLHTKASGMALLHQIQGNELEPLNRPQLKMPMERALGEVYV
+                     DNSKPAVFNYPEGAAYEFNAAAAAAAAGASAPVYGQSSITYGPGSEAAAFGANSLGAF
+                     PQLNSVSPSPLMLLHPPPQLSPFLHPHGHQVPYYLENEPSAYAVRDTGPPAFYRSNSD
+                     NRRQNGRERLSSSSEKGNMIMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSI
+                     QGHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLKHKRQR
+                     DDLEGRNEMGTSGDMRAANLWPSPLVIKHTKKNSPALSLTADQMVSALLDAEPPLIYS
+                     EYDPSRPFSEASMMGLLTNLADRELVHMINWAKRVPGFGDLNLHDQVHLLECAWLEIL
+                     MIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEF
+                     VCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKITDTLIHLMAKAGLTLQQQHRR
+                     LAQLLLILSHIRHMSNKGMEHLYNMKCKNVVPLYDLLLEMLDAHRLHAPASRMGVPPE
+                     EPSQSQLTTTSSTSAHSLQTYYIPPEAEGFPNTI"
+ORIGIN      
+        1 acacatccac acacgctctg ccttgatcac acaccgcgcc actcgatcat tcgagcacat
+       61 tccttccttc cgtcttactg tctcagctct tgacttctac aaacccatgg aacatttctg
+      121 gaaagacgct tttgaaccag cagggtggct catccgctgc tgagccctct gcgtgcgcgg
+      181 gaagccagtc tgtacctcgg cggctgccac tgaccatgac catgaccctt cacaccaaag
+      241 cctcgggaat ggccttgttg caccagatcc aagggaacga gctggagccc ctcaatcgcc
+      301 cgcagctcaa gatgcccatg gagagggctc tgggcgaggt gtacgtggac aacagcaagc
+      361 ccgccgtgtt caactacccc gagggcgccg cctacgagtt caacgccgcc gccgccgccg
+      421 cggccgccgg ggcctcggct ccggtctatg gccagtcgag catcacttac ggtccggggt
+      481 ccgaggcggc cgcctttggt gccaatagtc tgggggcttt cccccagctc aacagcgtgt
+      541 cgcccagtcc gctgatgctg ctgcacccgc cgccgcagct gtcgccgttc ctgcacccgc
+      601 atggccacca ggtgccctac tacctggaga acgagcccag cgcctacgct gtacgcgaca
+      661 ccggccctcc cgccttctac aggtccaatt ctgacaatcg acgccagaat ggccgagaga
+      721 gactctccag cagcagcgag aagggaaaca tgatcatgga gtctgccaag gagactcgct
+      781 actgtgctgt gtgtaacgac tatgcctctg gctaccatta tggggtctgg tcctgtgaag
+      841 gctgcaaggc tttctttaag agaagcattc aaggacataa tgactacatg tgtccagcta
+      901 caaaccaatg caccatcgat aagaaccgga ggaagagttg ccaggcctgc cggctgcgca
+      961 agtgttacga agtgggcatg atgaaaggcg ggatacgaaa agaccgccga ggagggagaa
+     1021 tgttgaagca caagcgtcag agagatgact tggaaggccg aaatgaaatg ggcacttcag
+     1081 gagacatgag agctgccaac ctttggccaa gtccacttgt gatcaagcac actaagaaga
+     1141 atagccccgc cctgtccttg acagctgacc agatggtcag tgccttattg gatgctgaac
+     1201 cacctttgat ctattctgaa tatgatcctt ctagaccctt cagtgaagcc tcaatgatgg
+     1261 gcttattgac caacctggca gacagggagc tggttcatat gatcaactgg gcaaagagag
+     1321 tgccaggctt tggggacttg aatctccacg atcaagttca ccttctggag tgtgcctggt
+     1381 tggagatcct gatgattggt ctggtctggc gctccatgga acacccgggg aagctcctgt
+     1441 ttgctcctaa cttgctcttg gacaggaatc aaggtaaatg tgtagaaggc atggtggaga
+     1501 tctttgacat gttgctggct acgtcaagtc gattccgcat gatgaacctg cagggagaag
+     1561 agtttgtgtg cctcaaatca atcattttgc ttaattctgg agtgtacaca tttctatcca
+     1621 gcaccttgaa gtctctggaa gagaaggacc acatccaccg agtcctggac aagatcacag
+     1681 acactttgat ccacttgatg gccaaagctg gcctgactct gcagcaacag catcgccgtc
+     1741 tggcccagct cctcctcatc ctttcccata tccggcacat gagtaacaaa ggcatggagc
+     1801 atctctacaa catgaaatgc aagaatgtcg tgcctctcta tgacctgctg ctggagatgc
+     1861 tggatgctca tcgtcttcat gcccccgcca gtcgcatggg agtgcccccg gaggagccta
+     1921 gccagagcca gctgaccacc accagctcca cttcagcaca ttccttacaa acctactaca
+     1981 tccccccgga agcagagggc ttccccaaca ccatctgaga actcccaggc tccccacaag
+     2041 gttctgcgaa tccctgaaac gttttaccca tgtcctgt
+//
+

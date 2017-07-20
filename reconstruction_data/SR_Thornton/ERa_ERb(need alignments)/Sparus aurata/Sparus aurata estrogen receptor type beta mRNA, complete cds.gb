@@ -1,0 +1,80 @@
+LOCUS       AF136980                2180 bp    mRNA    linear   VRT 18-MAY-1999
+DEFINITION  Sparus aurata estrogen receptor type beta mRNA, complete cds.
+ACCESSION   AF136980
+VERSION     AF136980.1
+KEYWORDS    .
+SOURCE      Sparus aurata (gilthead seabream)
+  ORGANISM  Sparus aurata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Sparidae; Sparus.
+REFERENCE   1  (bases 1 to 2180)
+  AUTHORS   Socorro,S., Power,D.M., Olsson,P.-E. and Canario,A.V.M.
+  TITLE     Two estrogen receptors expressed in teleost fish: cDNA cloning,
+            characterization and tissue distribution
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2180)
+  AUTHORS   Socorro,S., Power,D.M. and Canario,A.V.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-1999) Centro de Ciencias do Mar, Universidade do
+            Algarve, Campus de Gambelas, Faro 8000-810, Portugal
+FEATURES             Location/Qualifiers
+     source          1..2180
+                     /organism="Sparus aurata"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8175"
+                     /tissue_type="ovary"
+     CDS             286..1965
+                     /codon_start=1
+                     /product="estrogen receptor type beta"
+                     /protein_id="AAD31033.1"
+                     /translation="MAVACSPEKDQSLLQLQKVDSSRVILSPVLSSPMETNQPICIPS
+                     PYTDRGHDFPTIPFYSATNFSYANPPAISDRPSVHQTLSPSLFWPSHGHVGTTLPLHH
+                     LQARPQHGQAVQSPWVELSPLDNVLTSSKSARRRSQENEEGEVSSGGKADLHFCAVCH
+                     DYASGYHYGVWSCEGCKAFFKRSIQRHNDYICPATNQCTIDKNRRKSCQACRLHKCYN
+                     VGMTKCGMRKERGNFRDPQMRRVTRLSSQGRTSGPSVLNGPAVGPLNTPQPPALTSKQ
+                     LIERIMEAEPPEIYLMKDMRRPLTEANIMMSLTNLADKELVHMITWAKKIPGFLELGL
+                     LDQVHLLECCWLEVLMIGLMWRSVDHPGKLIFSPDLSLSREEGSCVQGFLEIFDMLIA
+                     ATSRVRELKLQREEYVCLKAMILLNSNMCLSSSEGSEELQSRSKLLRLLDAVTDALVW
+                     AIAKTGLTFRQQYTRLAHLLMLLSHIRHVSNKGMDHLHGMKMKNMVPLYDLLLEMLDA
+                     HIMHSSRLPRRSPQQETVEQCDAPARPHSPGTSGPTNTWTPSCTGGRGEPQ"
+ORIGIN      
+        1 cgggtcgcca tactgtcaca actttgtcag caactggtgt gtccggacca agaggtggaa
+       61 aggtttgcca cacatctgac tccacatgcc acgacttgac gatgtgagac tcatggctgg
+      121 actgagactg agcacagaac accttccctc ccctagtgta gacggactgc agtcctgtgt
+      181 gttcaacatt ctttgcatca tctgacagca tcgactgaca ggttgatcat gtgattcatc
+      241 tcaacactgg catttcactt ggtactgaga ttgtctgaag ttgtgatggc cgttgcctgc
+      301 tctccagaga aggatcagtc cctcctccag ctccagaagg tggactccag tcgagttatt
+      361 ctctccccgg tcctcagctc ccctatggaa accaaccagc ccatctgcat cccctcccct
+      421 tacaccgacc gtggccacga cttccccacc atacctttct acagtgcaac taatttcagc
+      481 tatgccaatc cgccggccat ttcagaccgc ccctctgtcc atcagacact aagcccctcc
+      541 ttattttggc ccagccatgg ccatgtgggg accaccttac ccctgcacca cctccaggct
+      601 cgacctcagc acgggcaggc ggttcagagt ccatgggtgg agctgtcgcc actggacaat
+      661 gtgttaacaa gcagtaagag tgcaaggagg cgttctcagg agaacgagga gggtgaggtg
+      721 tcatcgggcg ggaaggcgga cctccacttc tgtgctgtgt gccacgacta cgcctcaggc
+      781 taccactacg gcgtctggtc gtgtgagggg tgtaaggcct tcttcaagag gagcatccaa
+      841 agacacaacg actacatctg cccagcaacc aatcaatgca ctatagacaa gaaccgccgt
+      901 aagagctgcc aggcgtgtcg ccttcacaaa tgctacaacg ttggcatgac caagtgtgga
+      961 atgcgaaagg aacgtggaaa cttcagggac ccccagatga ggcgagtgac ccgtctgtcc
+     1021 tcacagggca gaactagcgg accaagcgtg ttaaatggac cagcagtggg tccgttaaac
+     1081 acaccccaac ctcccgcact gacttcaaag cagctgattg agcggattat ggaggcagag
+     1141 ccgccagaga tctacctcat gaaggacatg aggaggccgc tgactgaagc aaacatcatg
+     1201 atgtcgctca ccaacctggc cgataaggag ctggttcaca tgatcacctg ggccaagaag
+     1261 attccagggt ttttagagct cggcctcttg gaccaggtgc acctgttgga gtgctgctgg
+     1321 ctggaggtgc tgatgatcgg actgatgtgg aggtcagtgg accatccagg gaaacttatc
+     1381 ttctcccctg acctcagctt gagcagagaa gaggggagct gtgtccaggg cttcttggag
+     1441 atctttgata tgctgatagc cgccacatcc agggtgagag agctcaagct ccagagggag
+     1501 gagtacgtct gcctcaaggc catgatcctc cttaactcca acatgtgcct cagctcctca
+     1561 gagggcagcg aggagctgca gagtcgctcc aagctgctgc gtcttctgga cgccgtcacg
+     1621 gacgctcttg tgtgggccat cgccaaaacc ggcctcactt tccgccaaca gtacacccgc
+     1681 ctcgcccacc tgctcatgct gctctctcac atccgccacg tcagtaacaa aggcatggac
+     1741 cacctccacg gcatgaaaat gaagaacatg gtgccgttgt atgacctgct gctggagatg
+     1801 ctggacgccc atatcatgca cagctcccgt ctgcctcgcc ggtcacccca gcaggagacc
+     1861 gtggaacagt gcgacgctcc tgcccggcca cacagccccg gtacctccgg ccccacgaac
+     1921 acctggactc ccagctgcac cggaggcaga ggtgaaccgc agtagccgga tcagaattca
+     1981 gatgcaatga cttttcacgc tttacacaag actagttcac tgcggagcgc tgctttcttt
+     2041 gaactctcac tttgacacac cgtgcacttt cagttcttca aatttcactc tgcagacaga
+     2101 ccaacctagc agtattcatc ggctttccac cacatattaa aaagccagag tggatcagga
+     2161 acaaaaaaaa aaaaaaaaaa
+//
+

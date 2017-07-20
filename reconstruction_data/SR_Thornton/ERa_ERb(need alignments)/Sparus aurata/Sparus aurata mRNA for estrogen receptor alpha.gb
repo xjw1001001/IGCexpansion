@@ -1,0 +1,100 @@
+LOCUS       AJ006039                2369 bp    mRNA    linear   VRT 16-APR-2005
+DEFINITION  Sparus aurata mRNA for estrogen receptor.
+ACCESSION   AJ006039
+VERSION     AJ006039.1
+KEYWORDS    estrogen receptor.
+SOURCE      Sparus aurata (gilthead seabream)
+  ORGANISM  Sparus aurata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Eupercaria; Spariformes; Sparidae; Sparus.
+REFERENCE   1
+  AUTHORS   Munoz-Cueto,J.A., Burzawa-Gerard,E., Kah,O., Valotaire,Y. and
+            Pakdel,F.
+  TITLE     Cloning and sequencing of the gilthead sea bream estrogen receptor
+            cDNA
+  JOURNAL   DNA Seq. 10 (2), 75-84 (1999)
+   PUBMED   10376207
+REFERENCE   2  (bases 1 to 2369)
+  AUTHORS   Munoz-Cueto,J.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAY-1998) Munoz-Cueto J.A., Department of Animal
+            Biology, Vegetal Biology and Ecology, Faculty of Marine Sciences.
+            University of Cadiz, Poligono Rio San Pedro, Puerto Real,
+            11510-Cadiz, SPAIN
+FEATURES             Location/Qualifiers
+     source          1..2369
+                     /organism="Sparus aurata"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8175"
+                     /tissue_type="liver"
+     5'UTR           1..186
+     CDS             187..1926
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="CAB51479.1"
+                     /db_xref="GOA:Q9PVZ9"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001292"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="UniProtKB/Swiss-Prot:Q9PVZ9"
+                     /translation="MYPEDSRVSGGVATVDFLEGTYDYAAPTPAPTPLYSHSTPGYYS
+                     APLDAHGPPSDGSLQSLGSGPNSPLVFVPSSPHLSPFMQPANHHYLETTSTPIYSVPS
+                     SQHSVSREDQCGTSDDSYSVGESGAGAGAAGFEMAKEMRFCAVCSDYASGYHYGVWSC
+                     EGCKAFFKRSIQGHNDYMCPATNQCTIDRNRRKSCQACRLRKCYEVGMMKGGVRKDRG
+                     RVLRRDKRRTGTSDRDKASKGLEHRTAPPQDRRKHISSSAGGGGGKSSVISMPPDQVL
+                     LLLRGAEPPMLCSRQKVNRPYTEVTVMTLLTSMADKELVHMIAWAKKLPGFLQLSLHD
+                     QVQLLESSWLEVLMIGLIWRSIHCPGKLIFAQDLILDRSEGDCVEGMAEIFDMLLATA
+                     SRFRMLKLKPEEFVCLKAIILLNSGAFSFCTGTMEPLHDSAAVQNMLDTITDALIHHI
+                     NQSGCSAQQQSRRQAQLLLLLSHIRHMSNKGMEHLYSMKCKNKVPLYDLLLEMLDAHR
+                     VHRPDRPAETWSQADREPLFTSRNSSSSSGGGGGGSSSAGSTSGPQVNLESPTGPGVL
+                     QLRVHPHPMKPTE"
+     3'UTR           1927..2369
+     regulatory      2295..2300
+                     /regulatory_class="polyA_signal_sequence"
+ORIGIN      
+        1 ggaagtctaa atcatgttgc atatcagtgc tgttgtgctg tgatgttgct caggcagagc
+       61 ccgacacaga gcagcaggca gccctgtgga ccagtagtca gacccaggat cagcccagtc
+      121 ttgtcagagc tggagaccat ctccctgcag cgtccctcgc cgccactgcg tgcccccctc
+      181 gtcgacatgt accccgaaga cagccgggtg tctggagggg ttgccactgt ggacttcctg
+      241 gaagggacgt acgactatgc tgcccccacc cctgccccga ctcctcttta ttcccactcc
+      301 acccctggct actactctgc tcctctggac gcacacggac caccctcaga tgggagcctt
+      361 cagtccctgg gcagcgggcc caacagccct ctagtgtttg tgccctccag cccccatctc
+      421 agccccttca tgcaaccggc caaccaccac tatctggaaa ccacctcaac acccatctac
+      481 agtgtcccat ccagtcagca ttcagtttca agagaggacc agtgtggcac cagtgacgac
+      541 tcatacagtg tgggggagtc aggggctgga gcgggagccg ctgggtttga gatggccaaa
+      601 gagatgcgtt tctgtgccgt gtgcagcgat tatgcctctg ggtaccatta cggggtgtgg
+      661 tcctgtgagg gctgcaaggc cttctttaag aggagcatac agggtcacaa tgactatatg
+      721 tgcccagcaa ccaatcagtg tactattgac aggaatcgga ggaagagctg ccaggcttgc
+      781 cgtcttagga agtgttacga agtgggcatg atgaaaggag gtgtgcgcaa agaccgtgga
+      841 cgcgttctgc ggcgtgacaa gcgacgaact ggtaccagtg acagagacaa ggcctctaag
+      901 ggtctggagc acagaacagc gccccctcag gacaggagga aacacatcag cagcagtgct
+      961 ggtggtggag gaggaaagtc atcggtgatc agcatgcctc ctgaccaggt gctcctcctg
+     1021 ctccggggtg cagagccccc aatgctgtgc tcccgtcaga aggtgaaccg accctatacc
+     1081 gaggtcaccg tgatgaccct gctcaccagc atggctgata aggagctagt ccacatgatc
+     1141 gcatgggcca agaagcttcc aggtttccta cagctgtccc tccacgacca ggtgcagctg
+     1201 ctggagagct cgtggctgga ggtgctgatg atcgggctca tctggaggtc catccactgc
+     1261 cccggcaaac tcatcttcgc acaggacctc atactggaca ggagtgaggg cgactgtgtt
+     1321 gaaggcatgg ccgagatctt cgacatgctg cttgcaactg cctcccgttt ccgcatgctc
+     1381 aaactcaaac ctgaggagtt tgtctgcctc aaagctatca tcctgctcaa ctctggtgcc
+     1441 ttctcttttt gcactggcac aatggagccc ctccacgaca gtgctgcagt gcagaacatg
+     1501 ctcgacacca tcaccgacgc tctcatacat cacatcaacc aatctggatg ctcggctcag
+     1561 cagcagtcga gacggcaggc ccagctgctc ctcctgctct cccacatcag acacatgagc
+     1621 aacaaaggca tggagcatct ctacagcatg aagtgcaaga acaaggtgcc tctgtacgac
+     1681 ctgctgctgg agatgctgga cgctcaccgc gtccaccgcc ccgacagacc agctgagacc
+     1741 tggtcccagg ctgacagaga gcctctcttc acctccagaa acagcagcag cagcagcggt
+     1801 ggtggtggtg gaggctcctc atcagctggc tccacttcag gaccacaggt caaccttgag
+     1861 agccccacag gtcccggcgt cctgcagctc cgagtgcacc cacatcctat gaaacctaca
+     1921 gaatgaaagc taaaggttgt ataataattc atttgaagag ataattattt atgaattatg
+     1981 tgatttttgt agctgtagtt gtttagggag acatttttcc tttgcactac tccggttcac
+     2041 gtcaatacga gcttcagcac agttaatctt ctgcgcagcc tttcagaaaa tctgtgattt
+     2101 cgagctttac aatacagctt cttatttcca ggtgttagtg tatattgtgg cactctgtca
+     2161 gctacagtga ttggaaatga cgagcagcta attttttgtg tgtttttgct tcaaccaaag
+     2221 tgcacttcct cttgggttta aggggctgtt gggcattatt tttacttcta aatataacga
+     2281 tgataaaact ggttaataaa atggatgttt gaggactgaa aaaaaaaaaa aaaaaaaaaa
+     2341 aaaaaaaaaa aaaaaaaaaa aaaaaaaaa
+//
+

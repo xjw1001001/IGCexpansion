@@ -1,0 +1,79 @@
+LOCUS       AF164957                1581 bp    mRNA    linear   MAM 19-APR-2002
+DEFINITION  Sus scrofa estrogen receptor beta mRNA, complete cds.
+ACCESSION   AF164957
+VERSION     AF164957.2
+KEYWORDS    .
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (bases 1 to 1581)
+  AUTHORS   Kowalski,A.A., Graddy,L.G., Vale-Cruz,D.S., Choi,I.,
+            Katzenellenbogen,B.S., Simmen,F.A. and Simmen,R.C.
+  TITLE     Molecular cloning of porcine estrogen receptor-beta complementary
+            DNAs and developmental expression in periimplantation embryos
+  JOURNAL   Biol. Reprod. 66 (3), 760-769 (2002)
+   PUBMED   11870084
+REFERENCE   2  (bases 1 to 1581)
+  AUTHORS   Kowalski,A.A., Graddy,L.G. and Simmen,R.C.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUL-1999) Animal Science, University of Florida,
+            Shealy Drive, Building 459, Gainesville, FL 32611, USA
+REFERENCE   3  (bases 1 to 1581)
+  AUTHORS   Kowalski,A.A., Graddy,L.G. and Simmen,R.C.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUL-2001) Animal Science, University of Florida,
+            Shealy Drive, Building 459, Gainesville, FL 32611, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jul 13, 2001 this sequence version replaced gi:5566377.
+FEATURES             Location/Qualifiers
+     source          1..1581
+                     /organism="Sus scrofa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9823"
+                     /dev_stage="embryo"
+     CDS             1..1581
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAD45381.2"
+                     /translation="MDIKNSPSNLNSPVSYNCSQSVLPLEPGPIYIPSSYVESCHEYS
+                     AMTFYSPAVVNYSISSNSEVGPGRQATSPNVLWPTPGHLSPLAIHCQPSLLYAEPQKS
+                     PWCDTRSLEHTLPVNRETLKRKASGSSCASPVTSPSSKRDAHFCAVCSDYASGYHYGV
+                     WSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACRLRKCYEVGMVKCGSRR
+                     ERCGYRIVRKQRNSEGHLHCLSRAKKNGDHTTRVKELLLSTLSPEQLVLTLLEAEPPH
+                     VLVSRPSTPFTEASMMMSLTKLADKELVHMISWAKKIPGFMELSLYDQVRLLESCWLE
+                     VLMVGLMWRSIDHPGKLIFAPDLVLDRDEGKCVEGILEIFDMLLATTSRFRELKLQHK
+                     EYLCVKAMILLNSSMYPSAAAQEAESSRKLTHLLNAVTDALVWVIARSGISSQQQSVR
+                     LANLLMLLSHVRHASNKGTEHLLNMKCKNVVPVYDLLLEMLNAHTLRGNKSLVTGSER
+                     SRMEESESKEGSQKPQAQ"
+ORIGIN      
+        1 atggatataa aaaactcacc atctaacctt aactctcctg tctcctacaa ctgcagtcaa
+       61 tctgtcctgc ccctggagcc aggccccata tatatccctt cctcctatgt agaaagctgc
+      121 catgaatatt cagccatgac attttatagc cctgctgtgg tgaattacag tatttccagt
+      181 aactccgaag ttgggcctgg tcgacaggcc acaagcccca atgtgttgtg gccaactcct
+      241 ggacacctct ctcctttagc catccattgc cagccgtcac ttctgtatgc agaacctcaa
+      301 aagagtcctt ggtgtgacac aagatcacta gaacacacct tacctgtgaa cagagagaca
+      361 ttgaaaagga aggctagtgg gagcagttgt gccagccctg ttaccagtcc aagttcaaag
+      421 agggatgccc acttctgtgc tgtctgcagt gattatgcgt caggatatca ctatggagtc
+      481 tggtcatgtg aaggatgtaa ggcctttttt aaaagaagca ttcaaggaca taatgattat
+      541 atttgtccag ctacaaacca gtgtacgata gataagaacc ggcgtaaaag ctgccaggcc
+      601 tgccgacttc gaaagtgcta tgaagtcgga atggtgaagt gtggctcccg gagagaacgg
+      661 tgtgggtacc gcatagtgcg aaagcagaga aattctgagg ggcatctgca ctgcctgagc
+      721 agagccaaga agaatggtga tcacacaacc cgagtgaagg agctgctcct gagcaccctg
+      781 agcccagagc agctggtgct cacgctcctg gaggccgagc caccccacgt gctggtgagc
+      841 cgccccagca cgcccttcac cgaggcctcc atgatgatgt ccctgaccaa gctggccgac
+      901 aaggaactgg tacacatgat cagctgggcc aagaaaattc cgggcttcat ggagctcagc
+      961 ctgtacgacc aagtgcggct cctggagagc tgctggttgg aggtgctcat ggtggggctg
+     1021 atgtggcgct ccatcgacca ccccggcaag ctcatctttg ctccagacct cgttctggac
+     1081 agggatgaag ggaaatgtgt agaaggaatt ctggaaatct ttgacatgct cctggcaacg
+     1141 acttcaaggt ttcgtgagtt aaaactccaa cacaaggagt atctctgtgt caaggccatg
+     1201 atcctcctca actccagtat gtatccttca gctgcagccc aagaggctga gagcagccgg
+     1261 aagctgactc atctgctgaa tgccgtgact gatgccttgg tctgggtgat cgccaggagt
+     1321 ggtatctcct cccagcagca gtctgtccgc ctggccaacc tcctcatgct cctttctcat
+     1381 gtcagacatg ccagtaacaa gggcacggaa cacttgctca acatgaagtg caaaaatgtg
+     1441 gtccccgtct acgacctgct gctggagatg ctgaatgccc acactcttcg tggcaacaag
+     1501 tccttggtca cggggtctga gcgcagccgg atggaggaga gtgagagcaa agagggctcc
+     1561 cagaaacccc aggctcagtg a
+//
+

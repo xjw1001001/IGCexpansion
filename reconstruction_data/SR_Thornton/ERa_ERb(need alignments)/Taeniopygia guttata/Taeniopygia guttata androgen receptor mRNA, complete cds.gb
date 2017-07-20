@@ -1,0 +1,105 @@
+LOCUS       BK005685                2445 bp    mRNA    linear   VRT 03-FEB-2006
+DEFINITION  TPA_exp: Taeniopygia guttata androgen receptor mRNA, complete cds.
+ACCESSION   BK005685
+VERSION     BK005685.1
+KEYWORDS    Third Party Data; TPA; TPA:experimental.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Passeroidea;
+            Estrildidae; Estrildinae; Taeniopygia.
+REFERENCE   1  (bases 1 to 2445)
+  AUTHORS   Luo,M., Yu,Y., Kim,H., Kudrna,D., Itoh,Y., Agate,R.J., Melamed,E.,
+            Goicoechea,J.L., Talag,J., Mueller,C., Wang,W., Currie,J.,
+            Sisneros,N.B., Wing,R.A. and Arnold,A.P.
+  TITLE     Utilization of a zebra finch BAC library to determine the structure
+            of an avian androgen receptor genomic region
+  JOURNAL   Genomics 87 (1), 181-190 (2006)
+   PUBMED   16321505
+  REMARK    Erratum:[Genomics. 2006 May;87(5):678-9]
+REFERENCE   2  (bases 1 to 2445)
+  AUTHORS   Luo,M., Yu,Y., Kim,H., Kudrna,D., Itoh,Y., Agate,R.J.,
+            Goicoechea,J.L., Talag,J., Mueller,C., Wang,W., Currie,J.,
+            Ammiraju,J.S.S., Sisneros,N.B., Arnold,A.P. and Wing,R.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2005) Physiological Science, University of
+            California, Los Angeles, 621 Charles Young Drive South, Los
+            Angeles, CA 90095-1606, USA
+PRIMARY     TPA_SPAN            PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-910               AC153487.1         33031-33940
+            662-1090            AY847476.1         19-447
+            911-1064            AC153487.1         50857-51010
+            1060-2445           AF532914.1         9-1394
+            1065-1175           AC153487.1         57513-57623
+            1176-1466           AC153487.1         60654-60944
+            1467-1613           AC153487.1         62957-63103
+            1614-1741           AC153487.1         64278-64405
+            1742-1899           AC153487.1         64603-64760
+            1899-2426           AC153487.1         65029-65556
+FEATURES             Location/Qualifiers
+     source          1..2445
+                     /organism="Taeniopygia guttata"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:59729"
+     CDS             1..2055
+                     /codon_start=1
+                     /product="androgen receptor"
+                     /protein_id="DAA05742.1"
+                     /translation="MEVQLGVGRVYPRPAGRTFRGAFQSFFQSVCDAFQPPREEQGAG
+                     QPPPSAPCPPSPRAPPDSPACLLPPPGCLPPPEPRAPGKALPAAGPAMGSSFPCAGEL
+                     RELLGEAAAIPMLPPPESEPADKEDPLGDSARQLCRAVSASMGLALEALETPAEQLPR
+                     EDCMFAVPAGPPRAPRPPARDSSPAFEAVLAAEPPAGPGLPRGFGRVKLESAAGPATG
+                     GGWGGPCRFGAELVPPGPAPPWPTFFAEEGQLYGPCPEPPAGPADCPADAWYPPGRAP
+                     FAAPAPGIKSELQPWVEGYAGAYGDLRLETGREHVLPIDYYFPPQKTCLICGDEASGC
+                     HYGALTCGSCKVFFKRAAEGKQKYLCASRNDCTIDKFRRKNCPSCRLRKCYEAGMTLG
+                     ARKLKKLGNLKAQDDMEGASSSSPTEEQTPKLVMTRIDGYECQPIFLNVLEAIEPGVV
+                     CAGHDNSQPDSFSNLLSSLNELGERQLVYVVKWAKALPGFRNLHVDDQMSIIQYSWMG
+                     LMVFAMGWRSFTNVNSRMLYFAPDLVFNEYRMHKSRMYSQCIRMRHLSQEFGWLQITP
+                     QEFLCMKALLFFSIIPVDGLKNQKLFDELRMNYIKELDRIIACKRKNPTSCSRRFYQL
+                     TKVLDSVHPIAKDLHQFTFDLLIKAHMVSVDYPEMMAEIISVQVPKILSGKVKPIYFH
+                     AQ"
+ORIGIN      
+        1 atggaggtgc agctgggggt cggtcgcgtc tacccgcgac cggcgggcag gaccttccgc
+       61 ggggcttttc agagcttctt ccagagcgtc tgcgacgctt tccagccgcc gcgagaggag
+      121 cagggcgccg ggcagccgcc tccaagcgct ccctgcccgc cgagtccccg agcgccgccg
+      181 gactcccccg cctgcctgct gcccccgccg ggctgcctgc cgccccccga gccccgcgcc
+      241 cccggtaagg cgctgccggc cgccggcccc gccatgggct cgtccttccc ctgcgccgga
+      301 gagctgaggg agctgctggg cgaggcggct gcgattccga tgctgccgcc gcccgagtcc
+      361 gagccggcgg acaaggaaga tccgctgggc gacagtgccc ggcagctgtg ccgcgccgtg
+      421 tccgcctcca tggggctggc gctggaggcg ctggagactc cggccgagca gctgccccgc
+      481 gaggactgca tgttcgccgt gcccgccggg ccgccccgcg ccccgcgccc gcccgcccgc
+      541 gactcctcgc ccgccttcga ggccgtgctg gccgccgagc cgcccgccgg gccggggctg
+      601 ccccgcggct tcggccgcgt caagctggag agcgcggcgg ggccggccac gggcggcggc
+      661 tggggcggcc cgtgtcgctt cggggccgag ctggtcccgc cgggccccgc gcccccctgg
+      721 cccaccttct ttgccgagga ggggcagctc tacgggccgt gccccgagcc gcccgccggg
+      781 cccgccgact gccctgccga tgcctggtac ccaccgggcc gagcgccgtt cgccgccccc
+      841 gcccccggca tcaagagcga gctgcagccc tgggtcgagg gctacgccgg cgcttacggc
+      901 gacctccggt tggagactgg ccgtgagcat gtcctgccca ttgactatta cttcccacct
+      961 cagaagacct gtctgatctg tggggatgaa gcgtccgggt gccactacgg agccctcaca
+     1021 tgtgggagct gcaaagtgtt cttcaaacgg gcagctgaag gtaagcagaa gtacctctgt
+     1081 gccagcagga atgactgcac catcgacaag ttcagacgga aaaactgccc ctcgtgccgc
+     1141 ctgcggaagt gctacgaggc cgggatgact ctcggagccc gcaagctgaa gaaactgggt
+     1201 aacctgaagg cacaggacga catggaggga gccagctcgt ccagcccaac ggaggagcaa
+     1261 actcccaagc tggtgatgac acgcatcgat ggctacgagt gccagcccat cttcctcaac
+     1321 gtcctggagg ccatcgagcc tggtgtggtg tgtgctggcc acgacaacag ccagcctgac
+     1381 tccttctcca acctgctgag cagcctcaat gagcttgggg agcggcagct ggtctacgtg
+     1441 gtcaaatggg caaaggccct gccgggattt cgcaacctgc atgtggacga ccagatgtca
+     1501 ataatccagt actcttggat gggcctgatg gtgtttgcta tggggtggag atccttcacc
+     1561 aatgtcaact ccaggatgct ttacttcgct ccagacctgg tcttcaatga gtaccgcatg
+     1621 cacaaatcca ggatgtacag ccagtgcatc aggatgcggc acctctccca ggaatttggg
+     1681 tggcttcaga tcacacccca ggagttcctc tgtatgaagg ctctcctctt cttcagtatt
+     1741 attccagtgg acggcctgaa gaaccagaag ctctttgatg agctccgcat gaattacatt
+     1801 aaggaacttg accgtatcat tgcctgcaag aggaagaacc ccacctcctg ctcccggagg
+     1861 ttttaccagc tcaccaaggt cctggactcc gtgcatccga ttgccaagga tctgcatcag
+     1921 tttacatttg atctcctaat caaggcacac atggtgagcg tggactaccc agaaatgatg
+     1981 gctgagatca tctctgtgca ggttcccaag atcctgtctg gaaaagtcaa gcctatctac
+     2041 ttccacgcac agtgatcttt cagagggacc cccgtgctgc cacccccatt ccagccatct
+     2101 cctgcctgtt acttctgcac tactgtcctg cagtgccttg gggaatccct ctgcggtggt
+     2161 ggccaagggg acaggcagtg gcagacctgc tgggattcct gaaattacta ttttcctgag
+     2221 gtacctctga actgaacccc tggtgccggc ctctacctgg ctgcagctgc tcacggtgct
+     2281 ggcagggact ggtggggcag tggcagtgtc tgagtgttct cctctgtttg tcactgtgac
+     2341 tccagcagcc caaggccacg ggacagcaga agtgccagtg gttggtgggt ttggggtgat
+     2401 ttttataaaa agaacacaac accaaaaaaa aaaaaaaaaa aaaaa
+//
+

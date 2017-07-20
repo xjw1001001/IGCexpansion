@@ -1,0 +1,331 @@
+LOCUS       NM_012689               2090 bp    mRNA    linear   ROD 04-JUN-2017
+DEFINITION  Rattus norvegicus estrogen receptor 1 (Esr1), mRNA.
+ACCESSION   NM_012689 XM_346530
+VERSION     NM_012689.1
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 1 to 2090)
+  AUTHORS   Ishii H, Hattori Y, Munetomo A, Watanabe H, Sakuma Y and Ozawa H.
+  TITLE     Characterization of rodent constitutively active estrogen receptor
+            alpha variants and their constitutive transactivation mechanisms
+  JOURNAL   Gen. Comp. Endocrinol. 248, 16-26 (2017)
+   PUBMED   28412386
+REFERENCE   2  (bases 1 to 2090)
+  AUTHORS   Sa SI and Fonseca BM.
+  TITLE     Dynamics of progesterone and estrogen receptor alpha in the
+            ventromedial hypothalamus
+  JOURNAL   J. Endocrinol. 233 (2), 197-207 (2017)
+   PUBMED   28283583
+  REMARK    GeneRIF: This study evaluated the metabolism of progesterone
+            receptors and estrogen receptor alpha in the ventrolateral division
+            of the ventromedial hypothalamic nucleus.
+REFERENCE   3  (bases 1 to 2090)
+  AUTHORS   Zhao Y, Yi FZ, Zhao YH, Chen YJ, Ma H and Zhang M.
+  TITLE     The Distinct Effects of Estrogen and Hydrostatic Pressure on
+            Mesenchymal Stem Cells Differentiation: Involvement of Estrogen
+            Receptor Signaling
+  JOURNAL   Ann Biomed Eng 44 (10), 2971-2983 (2016)
+   PUBMED   27256361
+  REMARK    GeneRIF: Mechanobiological effects of hydrostatic pressure are
+            closely associated with ERalpha activity. MAPK molecules and
+            F-actin were likely to be important mediator molecules in the
+            ER-mediated mechanotransduction of BMSCs.
+REFERENCE   4  (bases 1 to 2090)
+  AUTHORS   Ananda H, Kumar KS, Hegde M and Rangappa KS.
+  TITLE     Induction of apoptosis and downregulation of ERalpha in
+            DMBA-induced mammary gland tumors in Sprague-Dawley rats by
+            synthetic 3,5-disubstituted isoxazole derivatives
+  JOURNAL   Mol. Cell. Biochem. 420 (1-2), 141-150 (2016)
+   PUBMED   27473146
+  REMARK    GeneRIF: Induction of apoptosis and downregulation of ERalpha in
+            DMBA-induced mammary gland tumors in Sprague-Dawley rats by
+            synthetic 3,5-disubstituted isoxazole derivatives.
+REFERENCE   5  (bases 1 to 2090)
+  AUTHORS   Grissom EM and Daniel JM.
+  TITLE     Evidence for Ligand-Independent Activation of Hippocampal Estrogen
+            Receptor-alpha by IGF-1 in Hippocampus of Ovariectomized Rats
+  JOURNAL   Endocrinology 157 (8), 3149-3156 (2016)
+   PUBMED   27254005
+  REMARK    GeneRIF: IGF-1 activates ERalpha in ligand-independent manner in
+            the hippocampus via phosphorylation at S118 resulting in increased
+            association of ERalpha with steroid receptor coactivator 1 and
+            elevation of ER-regulated proteins.
+REFERENCE   6  (bases 1 to 2090)
+  AUTHORS   Scully KM, Gleiberman AS, Lindzey J, Lubahn DB, Korach KS and
+            Rosenfeld MG.
+  TITLE     Role of estrogen receptor-alpha in the anterior pituitary gland
+  JOURNAL   Mol. Endocrinol. 11 (6), 674-681 (1997)
+   PUBMED   9171231
+REFERENCE   7  (bases 1 to 2090)
+  AUTHORS   Friend KE, Ang LW and Shupnik MA.
+  TITLE     Estrogen regulates the expression of several different estrogen
+            receptor mRNA isoforms in rat pituitary
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 92 (10), 4367-4371 (1995)
+   PUBMED   7753813
+REFERENCE   8  (bases 1 to 2090)
+  AUTHORS   Smith EP, Boyd J, Frank GR, Takahashi H, Cohen RM, Specker B,
+            Williams TC, Lubahn DB and Korach KS.
+  TITLE     Estrogen resistance caused by a mutation in the estrogen-receptor
+            gene in a man
+  JOURNAL   N. Engl. J. Med. 331 (16), 1056-1061 (1994)
+   PUBMED   8090165
+  REMARK    Erratum:[N Engl J Med 1995 Jan 12;332(2):131]
+REFERENCE   9  (bases 1 to 2090)
+  AUTHORS   Spreafico E, Bettini E, Pollio G and Maggi A.
+  TITLE     Nucleotide sequence of estrogen receptor cDNA from Sprague-Dawley
+            rat
+  JOURNAL   Eur. J. Pharmacol. 227 (3), 353-356 (1992)
+   PUBMED   1473557
+REFERENCE   10 (bases 1 to 2090)
+  AUTHORS   Koike,S., Sakai,M. and Muramatsu,M.
+  TITLE     Molecular cloning and characterization of rat estrogen receptor
+            cDNA
+  JOURNAL   Nucleic Acids Res. 15 (6), 2499-2513 (1987)
+   PUBMED   3031601
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from Y00102.1.
+            On Dec 17, 2003 this sequence version replaced gi:34853479.
+            
+            Summary: acts as a transcriptional activator when bound to
+            estrogen; may play a role in myocardial regulation [RGD, Feb 2006].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: Y00102.1, AB477039.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2689600, SAMEA2689601
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2090
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /strain="W"
+                     /db_xref="taxon:10116"
+                     /chromosome="1"
+                     /map="1q11"
+     gene            1..2090
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /note="estrogen receptor 1"
+                     /db_xref="GeneID:24890"
+                     /db_xref="RGD:2581"
+     misc_feature    18..20
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /note="upstream in-frame stop codon"
+     STS             175..275
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /standard_name="RH94746"
+                     /db_xref="UniSTS:119993"
+     CDS             210..2012
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /note="estrogen receptor protein; estradiol receptor;
+                     nuclear receptor subfamily 3 group A member 1; Er alpha;
+                     estrogen receptor 1 (alpha); estrogen receptor alpha
+                     c-terminus splice variant 1-2; estrogen receptor alpha
+                     variant delta 4; estrogen receptor alpha i45c; trunctaed
+                     estrogen receptor product-1; estrogen receptor alpha
+                     i45aS; estrogen receptor alpha i45aL; estrogen receptor
+                     alpha i56e; truncated estrogen receptor product-2;
+                     C-terminally-truncated estrogen receptor alpha product-1;
+                     estrogen receptor alpha i56b; estrogen receptor alpha
+                     i56a; estrogen receptor alpha i56dS; estrogen receptor
+                     alpha i56c; estrogen receptor alpha i56dL"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="NP_036821.1"
+                     /db_xref="GeneID:24890"
+                     /db_xref="RGD:2581"
+                     /translation="MTMTLHTKASGMALLHQIQGNELEPLNRPQLKMPMERALGEVYV
+                     DNSKPAVFNYPEGAAYEFNAAAAAAAAGASAPVYGQSSITYGPGSEAAAFGANSLGAF
+                     PQLNSVSPSPLMLLHPPPHVSPFLHPHGHQVPYYLENEPSAYAVRDTGPPAFYRSNSD
+                     NRRQNGRERLSSSSEKGNMIMESAKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSI
+                     QGHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLKHKRQR
+                     DDLEGRNEMGTSGDMRAANLWPSPLVIKHTKKNSPALSLTADQMVSALLDAEPPLIYS
+                     EYDPSRPFSEASMMGLLTNLADRELVHMINWAKRVPGFGDLNLHDQVHLLECAWLEIL
+                     MIGLVWRSMEHPGKLLFAPNLLLDRNQGKCVEGMVEIFDMLLATSSRFRMMNLQGEEF
+                     VCLKSIILLNSGVYTFLSSTLKSLEEKDHIHRVLDKINDTLIHLMAKAGLTLQQQHRR
+                     LAQLLLILSHIRHMSNKGMEHLYNMKCKNVVPLYDLLLEMLDAHRLHAPASRMGVPPE
+                     EPSQSQLTTTSSTSAHSLQTYYIPPEAEGFPNTI"
+     misc_feature    210..776
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Modulating (transactivation AF-1), mediates
+                     interaction with MACROD1. {ECO:0000250}"
+     misc_feature    312..746
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Interaction with DDX5, self-association.
+                     {ECO:0000250}"
+     misc_feature    312..350
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Required for interaction with NCOA1.
+                     {ECO:0000250}"
+     misc_feature    534..536
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by CDK2. {ECO:0000250}; propagated
+                     from UniProtKB/Swiss-Prot (P06211.1); phosphorylation
+                     site"
+     misc_feature    540..542
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by CDK2. {ECO:0000250}; propagated
+                     from UniProtKB/Swiss-Prot (P06211.1); phosphorylation
+                     site"
+     misc_feature    576..578
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P03372};
+                     propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     phosphorylation site"
+     misc_feature    723..725
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by CK2. {ECO:0000250}; propagated
+                     from UniProtKB/Swiss-Prot (P06211.1); phosphorylation
+                     site"
+     misc_feature    777..1154
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Mediates interaction with DNTTIP2. {ECO:0000250}"
+     misc_feature    975..1154
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Hinge"
+     misc_feature    1002..1004
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Asymmetric dimethylarginine, by PRMT1.
+                     {ECO:0000250}; propagated from UniProtKB/Swiss-Prot
+                     (P06211.1); methylation site"
+     misc_feature    1008..2009
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Interaction with AKAP13. {ECO:0000250}"
+     misc_feature    1014..2009
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Self-association. {ECO:0000250}"
+     misc_feature    1155..2009
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Transactivation AF-2. {ECO:0000250}"
+     misc_feature    1155..1877
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     Region: Steroid-binding"
+     misc_feature    1833..1835
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by Tyr-kinases. {ECO:0000250};
+                     propagated from UniProtKB/Swiss-Prot (P06211.1);
+                     phosphorylation site"
+     STS             681..1025
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /standard_name="Esr1"
+                     /db_xref="UniSTS:257222"
+     STS             732..979
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /standard_name="Esr1"
+                     /db_xref="UniSTS:257223"
+     STS             1401..1853
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /standard_name="Esr1"
+                     /db_xref="UniSTS:275685"
+     STS             1704..2003
+                     /gene="Esr1"
+                     /gene_synonym="ER-alpha; Esr; RNESTROR"
+                     /standard_name="Esr1"
+                     /db_xref="UniSTS:256888"
+ORIGIN      
+        1 ccacacacgc tctgccttga tcacacaccg cgccactcga tcattcgagc acattccttc
+       61 cttccgtctt actgtctcag ctcttgactt ctacaaaccc atggaacatt tctggaaaga
+      121 cgcttttgaa ccagcagggt ggctcatccg ctgctgagcc ctctgcgtgc gcgggaagcc
+      181 aatctgtacc tcggcggctg ccactgacca tgaccatgac ccttcacacc aaagcctcgg
+      241 gaatggcctt gttgcaccag atccaaggga acgagctgga gcccctcaat cgcccgcagc
+      301 tcaagatgcc catggagagg gctctgggcg aggtgtacgt ggacaacagc aagcccgccg
+      361 tgttcaacta ccccgagggc gccgcctacg agttcaacgc cgccgccgcc gccgcggccg
+      421 ccggggcctc ggctccggtc tatggccagt cgagcatcac ttacggtccg gggtccgagg
+      481 cggccgcctt tggtgccaat agtctggggg ctttccccca gctcaacagc gtgtcgccca
+      541 gtccgctgat gctgctgcac ccgccgccgc acgtgtcgcc gttcctgcac ccgcatggcc
+      601 accaggtgcc ctactacctg gagaacgagc ccagcgccta cgctgtacgc gacaccggcc
+      661 ctcccgcctt ctacaggtcc aattctgaca atcgacgcca gaatggccga gagagactct
+      721 ccagcagcag cgagaaggga aacatgatca tggagtctgc caaggagact cgctactgtg
+      781 ctgtgtgtaa cgactatgcc tctggctacc attatggggt ctggtcctgt gaaggctgca
+      841 aggctttctt taagagaagc attcaaggac ataatgacta catgtgtcca gctacaaacc
+      901 aatgcaccat cgataagaac cggaggaaga gttgccaggc ctgccggctg cgcaagtgtt
+      961 acgaagtggg catgatgaaa ggcgggatac gaaaagaccg ccgaggaggg agaatgttga
+     1021 agcacaagcg tcagagagat gacttggaag gccgaaatga aatgggcact tcaggagaca
+     1081 tgagagctgc caacctttgg ccaagtccac ttgtgatcaa gcacactaag aagaatagcc
+     1141 ccgccctgtc cttgacagct gaccagatgg tcagtgcctt attggatgct gaaccacctt
+     1201 tgatctattc tgaatatgat ccttctagac ccttcagtga agcctcaatg atgggcttat
+     1261 tgaccaacct ggcagacagg gagctggttc atatgatcaa ctgggcaaag agagtgccag
+     1321 gctttgggga cttgaatctc cacgatcaag ttcaccttct ggagtgtgcc tggttggaga
+     1381 tcctgatgat tggtctggtc tggcgctcca tggaacaccc ggggaagctc ctgtttgctc
+     1441 ctaacttgct cttggacagg aatcaaggta aatgtgtaga aggcatggtg gagatctttg
+     1501 acatgttgct ggctacgtca agtcgattcc gcatgatgaa cctgcaggga gaagagtttg
+     1561 tgtgcctcaa atcaatcatt ttgcttaatt ctggagtgta cacatttcta tccagcacct
+     1621 tgaagtctct ggaagagaag gaccacatcc accgagtcct ggacaagatc aacgacactt
+     1681 tgatccactt gatggccaaa gctggcctga ctctgcagca acagcatcgc cgtctggccc
+     1741 agctcctcct catcctttcc catatccggc acatgagtaa caaaggcatg gagcatctct
+     1801 acaacatgaa atgcaagaat gtcgtgcctc tctatgacct gctgctggag atgctggatg
+     1861 ctcatcgtct tcatgccccc gccagtcgca tgggagtgcc cccggaggag cctagccaga
+     1921 gccagctgac caccaccagc tccacttcag cacattcctt acaaacctac tacatccccc
+     1981 cggaagcaga gggcttcccc aacaccatct gagaactccc aggctcccca caaggttctg
+     2041 cgaatccctg aaacgtttta cccatgtcct gtatgacttt agcagaattc
+//
+

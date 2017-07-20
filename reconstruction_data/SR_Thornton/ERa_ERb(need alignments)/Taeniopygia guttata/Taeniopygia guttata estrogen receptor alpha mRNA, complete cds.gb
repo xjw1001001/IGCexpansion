@@ -1,0 +1,127 @@
+LOCUS       ZFIER                   2792 bp    mRNA    linear   VRT 15-OCT-1997
+DEFINITION  Taeniopygia guttata estrogen receptor mRNA, complete cds.
+ACCESSION   L79911
+VERSION     L79911.1
+KEYWORDS    estrogen receptor.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Passeroidea;
+            Estrildidae; Estrildinae; Taeniopygia.
+REFERENCE   1  (bases 1 to 2792)
+  AUTHORS   Jacobs,E.C., Arnold,A.P. and Campagnoni,A.T.
+  TITLE     Zebra finch estrogen receptor cDNA: cloning and mRNA expression
+  JOURNAL   J. Steroid Biochem. Mol. Biol. 59 (2), 135-145 (1996)
+   PUBMED   9010328
+REFERENCE   2  (bases 1 to 2792)
+  AUTHORS   Jacobs,E.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JUL-1996) Neuroscience, UCLA, 760 Westwood Blvd, NPI,
+            Rm 73-346, Los Angeles, CA 90095, USA
+FEATURES             Location/Qualifiers
+     source          1..2792
+                     /organism="Taeniopygia guttata"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:59729"
+                     /sex="female"
+                     /tissue_type="hypothalamus-preoptic area"
+                     /dev_stage="adult"
+     exon            <1..560
+                     /note="Exon boundaries based on alignment to chicken ER"
+                     /number=1
+     5'UTR           <1..132
+     misc_feature    127..237
+                     /note="domain A"
+     CDS             133..1896
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="AAB81108.1"
+                     /translation="MTLHTKTSGVTLLHQIQGTELETLSRPQLKIPLERSLSDMYVET
+                     NKTGVFNYPEGATYDFGTTAPVYSSTTLSYAPTSESFGSSSLAGFHSLNSVPPSPVVF
+                     LQTAPHWSPFIHHHSQQVPYYLENDQGSFGMREAAPPAFYRPNSDNRRHSIRERMSSA
+                     NEKGSLSMESTKETRYCAVCNDYASGYHYGVWSCEGCKAFFKRSIQGHNDYMCPATNQ
+                     CTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRVMKQKRQREEQDSRNGEASST
+                     ELRAPTLWASPLVVKHNKKNSPALSLTAEQMVSALLEAEPPLVYSEYDPNRPFNEASM
+                     MTLLTNLADRELVHMINWAKRVPGFVDLTLHDQVHLLECAWLEILMIGLVWRSMEHPG
+                     KLLFAPNLLLDRNQGKCVEGMVEIFDMLLATAARFRMMNLQGEEFVCLKSIILLNSGV
+                     YTFLSSTLKSLEEKDYIHRVLDKITDTLIHLMAKSGLSLQQQHRRLAQLLLILSHIRH
+                     MSNKGMEHLYNMKCKNVVPLYDLLLEMLDAHRLHAPAARSAAPMEEENRSQLTTASAS
+                     SHSLQSFYINSKEEENMQNTL"
+     misc_feature    238..645
+                     /note="domain B"
+     exon            561..751
+                     /number=2
+     misc_feature    646..894
+                     /note="domain C; DNA binding domain"
+     exon            752..868
+                     /number=3
+     exon            869..1204
+                     /number=4
+     misc_feature    895..1011
+                     /note="domain D"
+     misc_feature    1012..1764
+                     /note="domain E: ligand binding domain"
+     exon            1205..1343
+                     /number=5
+     exon            1344..1477
+                     /number=6
+     exon            1478..1661
+                     /number=7
+     exon            1662..>2792
+                     /number=8
+     misc_feature    1765..1893
+                     /note="domain F"
+     3'UTR           1897..>2792
+     regulatory      2737..2743
+                     /regulatory_class="polyA_signal_sequence"
+ORIGIN      
+        1 ggaaatttga atattctccc tcctggcttt ttgctttaga atgagaagac tgcaggtgga
+       61 ctgccagctg ccgatctcac tgttgacagt gaaagcagat atgttccttg ctcactgcca
+      121 ttagtactga ccatgaccct tcacaccaaa acctctggag ttaccctgct gcaccagatt
+      181 caaggcactg aactggagac actgagcaga cctcagctga agattcccct ggaaagatct
+      241 ctcagcgaca tgtacgtgga gaccaacaag acaggagttt ttaactaccc agaaggagcc
+      301 acctatgact ttggtactac ggctccagtc tacagctcta ctacgctcag ctatgcccct
+      361 acgtccgaat cttttgggtc cagcagtctg gcaggatttc actccctgaa cagtgtccca
+      421 ccaagcccag tggtgttctt gcaaacggca ccccactggt cgcccttcat ccatcatcac
+      481 agccaacagg taccctatta ccttgaaaat gatcagggca gctttgggat gagggaagct
+      541 gctcctccag ccttctacag gccaaactcc gataacaggc gccacagcat ccgggagagg
+      601 atgtccagtg ccaacgagaa ggggagcctg tccatggagt ccaccaagga aacccggtac
+      661 tgcgccgtct gcaacgacta cgcttcaggc taccactacg gcgtctggtc ttgcgagggc
+      721 tgcaaagcct ttttcaaaag gagtattcaa gggcacaatg actacatgtg tcctgctact
+      781 aaccagtgca ccattgacaa gaacagaagg aagagttgcc aggcctgccg actgagaaaa
+      841 tgttacgaag tgggaatgat gaaaggtgga atccgaaaag accgcagagg tgggcgagtg
+      901 atgaaacaaa aacgccaaag agaggagcag gattccagga atggggaggc ttcttcaaca
+      961 gagctgcgag ctcccaccct ttgggcaagt ccactggtgg ttaaacataa caagaagaac
+     1021 agcccagccc tgtccctgac agcagaacag atggtcagtg ccttgctgga agctgagcca
+     1081 cccctagttt attctgaata tgacccaaac agaccattca atgaagcttc tatgatgacc
+     1141 ctgttgacca accttgcaga cagagaattg gtgcacatga tcaactgggc aaagagagtt
+     1201 ccaggatttg tggatttaac actccatgat caggtccatc tactggaatg tgcatggtta
+     1261 gagatactga tgatcggctt agtgtggcgc tccatggaac acccaggaaa gcttttgttt
+     1321 gcacctaacc tgttactgga caggaatcaa gggaaatgtg tagagggcat ggtggaaatc
+     1381 tttgacatgc tgctggctac tgctgctcgg tttcgcatga tgaaccttca aggggaggaa
+     1441 tttgtgtgcc ttaagtccat catcctgctc aattctggtg tgtacacttt tctttccagc
+     1501 accttgaaat ctctggaaga gaaagactat attcaccgtg tcctggataa aatcacagat
+     1561 actctgatac acttaatggc taagtcaggt ctttctctgc agcagcaaca cagacgactg
+     1621 gctcagctcc tcctcatcct ctctcatatc agacacatga gcaacaaagg aatggagcac
+     1681 ctgtacaata tgaagtgtaa gaatgtagtt ccgctctacg atctcttgct ggagatgctg
+     1741 gatgctcacc gactgcacgc cccagcagcc aggagtgctg cacccatgga agaggagaac
+     1801 cgaagccagc tgacaactgc atcagcttca tctcattcct tgcagtcttt ttatataaac
+     1861 agcaaagaag aggagaatat gcagaataca ttataaacag aagtcagcat atcgtggtat
+     1921 gagaaaccca gccgtgttct acctagctta tgcttcattt catctatagt gccacctttg
+     1981 aaaacactcc agtgacaaca gacaccagca ttttccatat gagtgtttgt caagcgcttg
+     2041 cctaaactga ttgcttatcc taaatggaag acatttcatt gctatggata gccagcaagg
+     2101 attgtctggc taacttgatt taaaatttgc agtgttttaa tttaattttg catgttattt
+     2161 gggtaactaa gtcctcatct gaaccataca ttcattttac tataaattga taggccatac
+     2221 cacccatgca tattggtatc ctcatgagtg gtggtctttg ttaatatcca tccaaaatca
+     2281 tgacctcacg tcgtccttca cttgcttgaa actttgaagc agtttggtag agattctgga
+     2341 tgacttcttg ggcagcgtaa agagaaagtt gtctggcacc ttagtgtgcc atagggaagc
+     2401 tgcactgcga gggactgcct tggtagtcta gttagattcc tgcctctttt ctttctacag
+     2461 tataaaggaa ctgctgtctg agaattatag tattttacct tgctggctta catcaccaga
+     2521 caactccctt tcaacattct gaccaaattt tagataccct taccataact tctagatgaa
+     2581 ttgctttgaa tgcatattat cttgtctgat cctagaaagt taaattgttt tgttgcccaa
+     2641 gagtgtacat ccagggcaac atagcaaaca gcgataacat agagaatcat aacactctct
+     2701 aatcagacca gatgattaca aaaatcatca ggtcttaaat aaaggtcttc atgcacatac
+     2761 aggatccagc actattaaaa aaaaaaaaaa aa
+//
+

@@ -1,0 +1,92 @@
+LOCUS       AY566178                2318 bp    mRNA    linear   VRT 30-SEP-2005
+DEFINITION  Pimephales promelas estrogen receptor beta mRNA, complete cds.
+ACCESSION   AY566178
+VERSION     AY566178.1
+KEYWORDS    .
+SOURCE      Pimephales promelas (fathead minnow)
+  ORGANISM  Pimephales promelas
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Pimephales.
+REFERENCE   1  (bases 1 to 2318)
+  AUTHORS   Filby,A.L. and Tyler,C.R.
+  TITLE     Molecular characterization of estrogen receptors 1, 2a, and 2b and
+            their tissue and ontogenic expression profiles in fathead minnow
+            (Pimephales promelas)
+  JOURNAL   Biol. Reprod. 73 (4), 648-662 (2005)
+   PUBMED   15930325
+REFERENCE   2  (bases 1 to 2318)
+  AUTHORS   Filby,A.L., Brown,J.A. and Tyler,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAR-2004) Environmental and Molecular Fish Biology
+            Group, School of Biological and Chemical Sciences, University of
+            Exeter, Hatherly Laboratories, Prince of Wales Road, Exeter, Devon
+            EX4 4PS, United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..2318
+                     /organism="Pimephales promelas"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:90988"
+                     /sex="female"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+     5'UTR           1..214
+     CDS             215..1978
+                     /note="steroid hormone receptor"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAT45195.1"
+                     /translation="MSSSPGPVPASVSPALADRGDSPNLLPRLYSSPHGMDNQTICIP
+                     SPYLEGCQDYSPPHGGEFNHGALTLYSPVSSAVLGYPHPPVSESLVPLSPTIFWPSHT
+                     THSGLSLHCPPPLAYSETFSHTAWEDAKTHTFNQSSSVLTHAKLLGQQVEGADGLNPS
+                     PGIVGKGDTHFCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDK
+                     SRRKSCQACRLRKCYETGMMKCGVRRERCSYRGARHRRNPQIRDSLGGALGVRGCSQP
+                     NLEIPLNPTDHLFPSGGRAEGCVLTFSPEQLVNCILEAEPPLICLKEPVKKPYTEASM
+                     MMSLTTLADKELVLMISWAKKIPGFVELTLSDQVHLLEGCWLDILMLGLMWRSVDHPG
+                     KLIFSPDLKLNRGEWNCVEGIMEIFDMLLATTSRFRELKLQREEYVCLKAMILLNSNN
+                     CSSLSQTPEGVESRGKVLRLLDSVTDALVWSISRTGLSSQQQSIRLAHLLMLLSHIRH
+                     LSNKGIEHLSSMKRKNVVLLYDLLLEMLDANTSQSSRMLGTHTETSLRPDAQQTPEIL
+                     HTSRPQPAPRESDRETRHSPQ"
+     3'UTR           1979..2318
+ORIGIN      
+        1 gagctgtttg catgtccctc tcttgcgtct gtcgctcact tcagtgctgc tctttctttt
+       61 tgtgcgcgca gtaaatcaga tcgataagac acacagctga tcaaacagat ctgctcccca
+      121 gctcacatca cctgcttgct gctgtcgcaa gagcttcctc tgacacagtt gggcctgtga
+      181 tgcagtagtc tgagttctac ttgagttctc cagaatgagc tcctctcctg gtccagtccc
+      241 tgcgtcagtc tcccctgccc tggctgatcg aggggactcg cctaacctct taccccgtct
+      301 gtactcttcc ccacacggca tggacaacca gacgatctgc attccatctc cgtatttgga
+      361 aggctgccag gattattcac caccgcacgg gggagagttc aaccatggag ctttaacact
+      421 ctacagcccg gtgtcctccg cagtgctagg gtaccctcat ccccctgtgt ctgaaagcct
+      481 ggtcccgctc agtcccacaa tcttctggcc ttcccacacc acacactctg gactgtctct
+      541 gcactgccca cctccgctgg cctacagcga aacattctca cacactgcct gggaggacgc
+      601 caagacacac acgtttaacc agagcagttc tgtccttact catgcaaagc tgttagggca
+      661 gcaagtggaa ggtgctgatg gcttgaatcc ttctccaggc attgtgggta aaggagacac
+      721 acacttttgt gcggtgtgtc atgactacgc ctctgggtat cactatggtg tctggtcatg
+      781 tgaggggtgc aaggctttct tcaaacggag cattcaagga cacaatgact atatttgtcc
+      841 agccaccaac cagtgcacca ttgacaagag ccgacgcaag agctgccagg cctgtcgact
+      901 ccgcaagtgt tatgaaacgg gcatgatgaa gtgtggtgtg aggcgggaac gctgcagtta
+      961 ccgtggtgct cgtcatcggc gaaaccccca gattagagac agcttgggtg gggcgttagg
+     1021 ggtcagaggt tgttcccagc ctaatttaga aattcctctc aatcccactg atcacctctt
+     1081 cccttctggg ggcagagctg aggggtgtgt cctgaccttc tcccctgagc agttggtgaa
+     1141 ctgtattctg gaggcggagc ctcctctgat ttgcctgaaa gagccagtga aaaagccgta
+     1201 cactgaggcc agcatgatga tgtcactcac caccctcgct gacaaggaac tggtgctcat
+     1261 gatcagctgg gccaagaaga taccaggttt cgtggagctg acgctttcag atcaggtgca
+     1321 tctattggaa ggctgctggc tggatattct gatgttggga ttgatgtgga gatctgtgga
+     1381 tcatcccggg aaactcatct tctcacctga cctcaaactg aacaggggtg aatggaattg
+     1441 tgttgaaggc atcatggaga tctttgacat gctgctagcc accacctcca gattcagaga
+     1501 actgaagcta cagagggagg aatacgtctg tctcaaagcc atgatccttc tcaactccaa
+     1561 taactgttca agcttgtcac agactcctga aggtgtggag agtcgtggga aggttctgag
+     1621 gctgctggac tctgtgactg acgctctagt ttggagcatc tccagaacgg gcctgtcctc
+     1681 tcagcaacag tccatccggc tcgcccatct gctgatgctg ctctcacaca ttcgacacct
+     1741 cagcaacaaa ggaattgagc acctgtcgag catgaagaga aaaaacgtgg tgctgctgta
+     1801 cgatcttctg ctggagatgc tggacgccaa cacgtcccag agcagccgga tgctggggac
+     1861 acacacagaa acctctctcc ggccggacgc acaacagacc ccagagatcc tccacacgtc
+     1921 caggccgcag cctgcaccga gagagagcga ccgggagaca cggcacagtc cacagtgagt
+     1981 ggatactagt agtgatgtga cgttcggcac cgaaacttgt atcaaaaaaa aatgaaacaa
+     2041 ctcacatgaa ccactgtacc agagcttgac tcgttttggc ataaccatgt gatcggtgac
+     2101 gtccgaagct tcgtttcgag ccacaaccac gtgactgctt catattctga ttcaaaaatt
+     2161 gcgcagattt cgagtgtcat gcggctcggt agtgaaaaga ggccattcgg aagtctgaca
+     2221 gcattttcag gtcgtatcaa gtcccatgtg agagaatatt ctcaaaggca ggggaagtac
+     2281 taaataaaaa agaaacagac agccctcaaa aaaaaaaa
+//
+

@@ -1,0 +1,203 @@
+LOCUS       NM_012754               2555 bp    mRNA    linear   ROD 10-JUL-2017
+DEFINITION  Rattus norvegicus estrogen receptor 2 (Esr2), mRNA.
+ACCESSION   NM_012754
+VERSION     NM_012754.1
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 1 to 2555)
+  AUTHORS   Dumasia K, Kumar A, Deshpande S and Balasinor NH.
+  TITLE     Estrogen signaling, through estrogen receptor beta, regulates DNA
+            methylation and its machinery in male germ line in adult rats
+  JOURNAL   Epigenetics 12 (6), 476-483 (2017)
+   PUBMED   28362134
+  REMARK    GeneRIF: Activation of estrogen signaling through ERb could
+            therefore cause DNA methylation defects leading to impaired male
+            fertility. These results define a role for estrogen in epigenetic
+            regulation of male germ line, suggesting that epigenetic insults by
+            exposure to environmental estrogens could potentially affect male
+            fertility
+REFERENCE   2  (bases 1 to 2555)
+  AUTHORS   Mitrovic N, Zaric M, Drakulic D, Martinovic J, Stanojlovic M,
+            Sevigny J, Horvat A, Nedeljkovic N and Grkovic I.
+  TITLE     17beta-Estradiol upregulates ecto-5'-nucleotidase (CD73) in
+            hippocampal synaptosomes of female rats through action mediated by
+            estrogen receptor-alpha and -beta
+  JOURNAL   Neuroscience 324, 286-296 (2016)
+   PUBMED   26987957
+  REMARK    GeneRIF: Study supports that regulatory estradiol action at the
+            activity and protein abundance of ecto-5'-nucleotidase is mediated
+            by estrogen ERalpha and ERbeta in the hippocampal synaptosomes
+REFERENCE   3  (bases 1 to 2555)
+  AUTHORS   Zhang CG, Zhang B, Deng WS, Duan M, Chen W and Wu ZY.
+  TITLE     Role of estrogen receptor beta selective agonist in ameliorating
+            portal hypertension in rats with CCl4-induced liver cirrhosis
+  JOURNAL   World J. Gastroenterol. 22 (18), 4484-4500 (2016)
+   PUBMED   27182159
+  REMARK    GeneRIF: Estrogen receptor beta selective agonist
+            diarylpropionitrile ameliorating portal hypertension in rats with
+            CCl4-induced liver cirrhosis.
+REFERENCE   4  (bases 1 to 2555)
+  AUTHORS   Li P, Xu Y, Gan Y, Wang L, Ouyang B, Zhang C, Luo L, Zhao C and
+            Zhou Q.
+  TITLE     Estrogen Enhances Matrix Synthesis in Nucleus Pulposus Cell through
+            the Estrogen Receptor beta-p38 MAPK Pathway
+  JOURNAL   Cell. Physiol. Biochem. 39 (6), 2216-2226 (2016)
+   PUBMED   27832635
+  REMARK    GeneRIF: Estradiol can enhance matrix synthesis of nucleus pulposus
+            cells and the ERbeta/p38 MAPK pathway is involved in this
+            regulatory process.
+REFERENCE   5  (bases 1 to 2555)
+  AUTHORS   Pinceti E, Shults CL, Rao YS, Mott NN and Pak TR.
+  TITLE     Phosphorylation Alters Oestrogen Receptor beta-Mediated
+            Transcription in Neurones
+  JOURNAL   J. Neuroendocrinol. 27 (12), 861-871 (2015)
+   PUBMED   26440063
+  REMARK    GeneRIF: data demonstrate that phosphorylated forms of ERb are
+            present in the brain of aged female rats and that phosphorylation
+            of ERb could differentially alter ERb-mediated gene expression.
+REFERENCE   6  (bases 1 to 2555)
+  AUTHORS   Petersen DN, Tkalcevic GT, Koza-Taylor PH, Turi TG and Brown TA.
+  TITLE     Identification of estrogen receptor beta2, a functional variant of
+            estrogen receptor beta expressed in normal rat tissues
+  JOURNAL   Endocrinology 139 (3), 1082-1092 (1998)
+   PUBMED   9492041
+REFERENCE   7  (bases 1 to 2555)
+  AUTHORS   Prins GS, Marmer M, Woodham C, Chang W, Kuiper G, Gustafsson JA and
+            Birch L.
+  TITLE     Estrogen receptor-beta messenger ribonucleic acid ontogeny in the
+            prostate of normal and neonatally estrogenized rats
+  JOURNAL   Endocrinology 139 (3), 874-883 (1998)
+   PUBMED   9492016
+REFERENCE   8  (bases 1 to 2555)
+  AUTHORS   Witkowska HE, Carlquist M, Engstrom O, Carlsson B, Bonn T,
+            Gustafsson JA and Shackleton CH.
+  TITLE     Characterization of bacterially expressed rat estrogen receptor
+            beta ligand binding domain by mass spectrometry: structural
+            comparison with estrogen receptor alpha
+  JOURNAL   Steroids 62 (8-9), 621-631 (1997)
+   PUBMED   9292936
+REFERENCE   9  (bases 1 to 2555)
+  AUTHORS   Kuiper GG, Carlsson B, Grandien K, Enmark E, Haggblad J, Nilsson S
+            and Gustafsson JA.
+  TITLE     Comparison of the ligand binding specificity and transcript tissue
+            distribution of estrogen receptors alpha and beta
+  JOURNAL   Endocrinology 138 (3), 863-870 (1997)
+   PUBMED   9048584
+REFERENCE   10 (bases 1 to 2555)
+  AUTHORS   Kuiper GG, Enmark E, Pelto-Huikko M, Nilsson S and Gustafsson JA.
+  TITLE     Cloning of a novel receptor expressed in rat prostate and ovary
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 93 (12), 5925-5930 (1996)
+   PUBMED   8650195
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from U57439.1.
+            
+            Summary: binds estrogen and mediates transcriptional activation
+            [RGD, Feb 2006].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: U57439.1, AB190769.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMD00052296, SAMEA2689601
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2555
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /strain="Sprague-Dawley"
+                     /db_xref="taxon:10116"
+                     /chromosome="6"
+                     /map="6q24"
+     gene            1..2555
+                     /gene="Esr2"
+                     /gene_synonym="ER-beta; Erb2; ERbeta"
+                     /note="estrogen receptor 2"
+                     /db_xref="GeneID:25149"
+                     /db_xref="RGD:2582"
+     misc_feature    312..314
+                     /gene="Esr2"
+                     /gene_synonym="ER-beta; Erb2; ERbeta"
+                     /note="upstream in-frame stop codon"
+     CDS             417..1874
+                     /gene="Esr2"
+                     /gene_synonym="ER-beta; Erb2; ERbeta"
+                     /note="nuclear receptor subfamily 3 group A member 2;
+                     estrogen receptor 2 beta; estrogen receptor 2 (ER beta)"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="NP_036886.1"
+                     /db_xref="GeneID:25149"
+                     /db_xref="RGD:2582"
+                     /translation="MTFYSPAVMNYSVPGSTSNLDGGPVRLSTSPNVLWPTSGHLSPL
+                     ATHCQSSLLYAEPQKSPWCEARSLEHTLPVNRETLKRKLSGSSCASPVTSPNAKRDAH
+                     FCPVCSDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACR
+                     LRKCYEVGMVKCGSRRERCGYRIVRRQRSSSEQVHCLSKAKRNGGHAPRVKELLLSTL
+                     SPEQLVLTLLEAEPPNVLVSRPSMPFTEASMMMSLTKLADKELVHMIGWAKKIPGFVE
+                     LSLLDQVRLLESCWMEVLMVGLMWRSIDHPGKLIFAPDLVLDRDEGKCVEGILEIFDM
+                     LLATTSRFRELKLQHKEYLCVKAMILLNSSMYPLASANQEAESSRKLTHLLNAVTDAL
+                     VWVIAKSGISSQQQSVRLANLLMLLSHVRHISNKGMEHLLSMKCKNVVPVYDLLLEML
+                     NAHTLRGYKSSISGSECSSTEDSKNKESSQNLQSQ"
+     STS             426..698
+                     /gene="Esr2"
+                     /gene_synonym="ER-beta; Erb2; ERbeta"
+                     /standard_name="Esr2"
+                     /db_xref="UniSTS:256862"
+     STS             2096..2271
+                     /gene="Esr2"
+                     /gene_synonym="ER-beta; Erb2; ERbeta"
+                     /standard_name="RH94710"
+                     /db_xref="UniSTS:119957"
+ORIGIN      
+        1 cgggggagct ggcccagggg gagcggctgg tgctgccact ggcatcccta ggcacccagg
+       61 tctgcaataa agtctggcag ccactgcatg gctgagcgac aaccagtggc tgggagtccg
+      121 gctctgtggc tgaggaaagc acctgtctgc atttagagaa tgcaaaatag agaatgttta
+      181 cctgccagtc attacatctg agtcccatga gtctctgaga acataatgtc catctgtacc
+      241 tcttctcaca aggagttttc tcagctgcga ccctctgaag acatggagat caaaaactca
+      301 ccgtcgagcc ttagttccct gcttcctata actgtagcca gtccatccta cccctggagc
+      361 acggccccat ctacatccct tcctcctacg tagacaaccg ccatgagtat tcagctatga
+      421 cattctacag tcctgctgtg atgaactaca gtgttcccgg cagcaccagt aacctggacg
+      481 gtgggcctgt ccgactgagc acaagcccaa atgtgctatg gccaacttct gggcacctgt
+      541 ctcctttagc gacccattgc caatcatcgc tcctctatgc agaacctcaa aagagtcctt
+      601 ggtgtgaagc aagatcacta gagcacacct tacctgtaaa cagagagaca ctgaagagga
+      661 agcttagtgg gagcagttgt gccagccctg ttactagtcc aaacgcaaag agggatgctc
+      721 acttctgccc cgtctgcagc gattatgcat ctgggtatca ttacggcgtt tggtcatgtg
+      781 aaggatgtaa ggcctttttt aaaagaagca ttcaaggaca taatgattat atctgtccag
+      841 ccacgaatca gtgtaccata gacaagaacc ggcgtaaaag ctgccaggcc tgccgacttc
+      901 gcaagtgtta tgaagtagga atggtcaagt gtggatccag gagagaacgg tgtgggtacc
+      961 gtatagtgcg gaggcagaga agttctagcg agcaggtaca ctgcctgagc aaagccaaga
+     1021 gaaacggtgg gcatgcaccc cgggtgaagg agctactgct gagcaccttg agtccagagc
+     1081 aactggtgct caccctcctg gaagctgaac cacccaatgt gctggtgagc cgtcccagca
+     1141 tgcccttcac cgaggcctcc atgatgatgt ccctcactaa gctggcggac aaggaactgg
+     1201 tgcacatgat tggctgggcc aagaaaatcc ctggctttgt ggagctcagc ctgttggacc
+     1261 aagtccggct cttagaaagc tgctggatgg aggtgctaat ggtgggactg atgtggcgct
+     1321 ccatcgacca ccccggcaag ctcattttcg ctcccgacct cgttctggac agggatgagg
+     1381 ggaagtgcgt agaagggatt ctggaaatct ttgacatgct cctggcgacg acgtcaaggt
+     1441 tccgtgagtt aaaactccag cacaaggagt atctctgtgt gaaggccatg atcctcctca
+     1501 actccagtat gtaccccttg gcttctgcaa accaggaggc agaaagtagc cggaagctga
+     1561 cacacctact gaacgcggtg acagatgccc tggtctgggt gattgcgaag agtggtatct
+     1621 cctcccagca gcagtcagtc cgactggcca acctcctgat gcttctttct cacgtcaggc
+     1681 acatcagtaa caagggcatg gaacatctgc tcagcatgaa gtgcaaaaat gtggtcccgg
+     1741 tgtatgacct gctgctggag atgctgaatg ctcacacgct tcgagggtac aagtcctcaa
+     1801 tctcggggtc tgagtgcagc tcaacagagg acagtaagaa caaagagagc tcccagaacc
+     1861 tacagtctca gtgatggcca ggcctgaggc ggacagacta cagagatggt caaaagtgga
+     1921 acatgtaccc tagcatctgg gggttcctct tagggctgcc ttggttacgc accccttacc
+     1981 cacactgcac ttcccaggag tcagggtggt tgtgtggcgg tgttcctcat accaggatgt
+     2041 accaccgaat gccaagttct aacttgtata gccttgaagg ctctcggtgt acttactttc
+     2101 tgtctccttg cccacttgga aacatctgaa aggttctgga actaaaggtc aaagtctgat
+     2161 ttggaaggat tgtccttagt caggaaaagg aatatggcat gtgacacagc tataagaaat
+     2221 ggactgtagg actgtgtggc cataaaatca acctttggat ggcgtcttct agaccacttg
+     2281 attgtaggat tgaaaaccac attgacaatc agctcatttc gcattcctgc ctcacgggtc
+     2341 tgtgaggact cattaatgtc atgggttatt ctatcaaaga ccagaaagat agtgcaagct
+     2401 tagatgtacc ttgttcctcc tcccagaccc ttgggttaca tccttagagc ctgcttattt
+     2461 ggtctgtctg aatgtggtca ttgtcatggg ttaagattta aatctctttg taatattggc
+     2521 ttccttgaag ctatgtcatc tttctctctc tcccg
+//
+

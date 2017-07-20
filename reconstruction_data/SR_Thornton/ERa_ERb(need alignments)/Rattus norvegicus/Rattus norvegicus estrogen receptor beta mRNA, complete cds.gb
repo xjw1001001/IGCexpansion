@@ -1,0 +1,91 @@
+LOCUS       RNU57439                2555 bp    mRNA    linear   ROD 12-JUN-1996
+DEFINITION  Rattus norvegicus estrogen receptor beta mRNA, complete cds.
+ACCESSION   U57439
+VERSION     U57439.1
+KEYWORDS    .
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 8 to 2555)
+  AUTHORS   Kuiper,G.G., Enmark,E., Pelto-Huikko,M., Nilsson,S. and
+            Gustafsson,J.A.
+  TITLE     Cloning of a novel receptor expressed in rat prostate and ovary
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 93 (12), 5925-5930 (1996)
+   PUBMED   8650195
+REFERENCE   2  (bases 1 to 2555)
+  AUTHORS   Enmark,E.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAY-1996) Eva L. Enmark, Center for Biotechnology,
+            NOVUM, Karolinska, Institute, NOVUM, Huddinge, S-141 57, Sweden
+FEATURES             Location/Qualifiers
+     source          1..2555
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /strain="Sprague-Dawley"
+                     /db_xref="taxon:10116"
+                     /sex="male"
+                     /tissue_type="prostate"
+     CDS             417..1874
+                     /note="nuclear receptor superfamily member"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="AAC52602.1"
+                     /translation="MTFYSPAVMNYSVPGSTSNLDGGPVRLSTSPNVLWPTSGHLSPL
+                     ATHCQSSLLYAEPQKSPWCEARSLEHTLPVNRETLKRKLSGSSCASPVTSPNAKRDAH
+                     FCPVCSDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACR
+                     LRKCYEVGMVKCGSRRERCGYRIVRRQRSSSEQVHCLSKAKRNGGHAPRVKELLLSTL
+                     SPEQLVLTLLEAEPPNVLVSRPSMPFTEASMMMSLTKLADKELVHMIGWAKKIPGFVE
+                     LSLLDQVRLLESCWMEVLMVGLMWRSIDHPGKLIFAPDLVLDRDEGKCVEGILEIFDM
+                     LLATTSRFRELKLQHKEYLCVKAMILLNSSMYPLASANQEAESSRKLTHLLNAVTDAL
+                     VWVIAKSGISSQQQSVRLANLLMLLSHVRHISNKGMEHLLSMKCKNVVPVYDLLLEML
+                     NAHTLRGYKSSISGSECSSTEDSKNKESSQNLQSQ"
+     misc_feature    726..923
+                     /note="encodes DNA binding domain"
+ORIGIN      
+        1 cgggggagct ggcccagggg gagcggctgg tgctgccact ggcatcccta ggcacccagg
+       61 tctgcaataa agtctggcag ccactgcatg gctgagcgac aaccagtggc tgggagtccg
+      121 gctctgtggc tgaggaaagc acctgtctgc atttagagaa tgcaaaatag agaatgttta
+      181 cctgccagtc attacatctg agtcccatga gtctctgaga acataatgtc catctgtacc
+      241 tcttctcaca aggagttttc tcagctgcga ccctctgaag acatggagat caaaaactca
+      301 ccgtcgagcc ttagttccct gcttcctata actgtagcca gtccatccta cccctggagc
+      361 acggccccat ctacatccct tcctcctacg tagacaaccg ccatgagtat tcagctatga
+      421 cattctacag tcctgctgtg atgaactaca gtgttcccgg cagcaccagt aacctggacg
+      481 gtgggcctgt ccgactgagc acaagcccaa atgtgctatg gccaacttct gggcacctgt
+      541 ctcctttagc gacccattgc caatcatcgc tcctctatgc agaacctcaa aagagtcctt
+      601 ggtgtgaagc aagatcacta gagcacacct tacctgtaaa cagagagaca ctgaagagga
+      661 agcttagtgg gagcagttgt gccagccctg ttactagtcc aaacgcaaag agggatgctc
+      721 acttctgccc cgtctgcagc gattatgcat ctgggtatca ttacggcgtt tggtcatgtg
+      781 aaggatgtaa ggcctttttt aaaagaagca ttcaaggaca taatgattat atctgtccag
+      841 ccacgaatca gtgtaccata gacaagaacc ggcgtaaaag ctgccaggcc tgccgacttc
+      901 gcaagtgtta tgaagtagga atggtcaagt gtggatccag gagagaacgg tgtgggtacc
+      961 gtatagtgcg gaggcagaga agttctagcg agcaggtaca ctgcctgagc aaagccaaga
+     1021 gaaacggtgg gcatgcaccc cgggtgaagg agctactgct gagcaccttg agtccagagc
+     1081 aactggtgct caccctcctg gaagctgaac cacccaatgt gctggtgagc cgtcccagca
+     1141 tgcccttcac cgaggcctcc atgatgatgt ccctcactaa gctggcggac aaggaactgg
+     1201 tgcacatgat tggctgggcc aagaaaatcc ctggctttgt ggagctcagc ctgttggacc
+     1261 aagtccggct cttagaaagc tgctggatgg aggtgctaat ggtgggactg atgtggcgct
+     1321 ccatcgacca ccccggcaag ctcattttcg ctcccgacct cgttctggac agggatgagg
+     1381 ggaagtgcgt agaagggatt ctggaaatct ttgacatgct cctggcgacg acgtcaaggt
+     1441 tccgtgagtt aaaactccag cacaaggagt atctctgtgt gaaggccatg atcctcctca
+     1501 actccagtat gtaccccttg gcttctgcaa accaggaggc agaaagtagc cggaagctga
+     1561 cacacctact gaacgcggtg acagatgccc tggtctgggt gattgcgaag agtggtatct
+     1621 cctcccagca gcagtcagtc cgactggcca acctcctgat gcttctttct cacgtcaggc
+     1681 acatcagtaa caagggcatg gaacatctgc tcagcatgaa gtgcaaaaat gtggtcccgg
+     1741 tgtatgacct gctgctggag atgctgaatg ctcacacgct tcgagggtac aagtcctcaa
+     1801 tctcggggtc tgagtgcagc tcaacagagg acagtaagaa caaagagagc tcccagaacc
+     1861 tacagtctca gtgatggcca ggcctgaggc ggacagacta cagagatggt caaaagtgga
+     1921 acatgtaccc tagcatctgg gggttcctct tagggctgcc ttggttacgc accccttacc
+     1981 cacactgcac ttcccaggag tcagggtggt tgtgtggcgg tgttcctcat accaggatgt
+     2041 accaccgaat gccaagttct aacttgtata gccttgaagg ctctcggtgt acttactttc
+     2101 tgtctccttg cccacttgga aacatctgaa aggttctgga actaaaggtc aaagtctgat
+     2161 ttggaaggat tgtccttagt caggaaaagg aatatggcat gtgacacagc tataagaaat
+     2221 ggactgtagg actgtgtggc cataaaatca acctttggat ggcgtcttct agaccacttg
+     2281 attgtaggat tgaaaaccac attgacaatc agctcatttc gcattcctgc ctcacgggtc
+     2341 tgtgaggact cattaatgtc atgggttatt ctatcaaaga ccagaaagat agtgcaagct
+     2401 tagatgtacc ttgttcctcc tcccagaccc ttgggttaca tccttagagc ctgcttattt
+     2461 ggtctgtctg aatgtggtca ttgtcatggg ttaagattta aatctctttg taatattggc
+     2521 ttccttgaag ctatgtcatc tttctctctc tcccg
+//
+

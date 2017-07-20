@@ -1,0 +1,105 @@
+LOCUS       X72211                  2510 bp    mRNA    linear   VRT 18-APR-2005
+DEFINITION  X.laevis mRNA for glucocorticoid receptor.
+ACCESSION   X72211
+VERSION     X72211.1
+KEYWORDS    cytoplasm; glucocorticoid receptor; nucleus; stress-related
+            protein; transcriptional factor.
+SOURCE      Xenopus laevis (African clawed frog)
+  ORGANISM  Xenopus laevis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae;
+            Xenopus; Xenopus.
+REFERENCE   1
+  AUTHORS   Gao,X., Kalkhoven,E., Peterson-Maduro,J., van der Burg,B. and
+            Destree,O.H.
+  TITLE     Expression of the glucocorticoid receptor gene is regulated during
+            early embryogenesis of Xenopus laevis
+  JOURNAL   Biochim. Biophys. Acta 1218 (2), 194-198 (1994)
+   PUBMED   8018720
+REFERENCE   2  (bases 1 to 2510)
+  AUTHORS   Xiangming,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-1993) G. Xiangming, Hubrecht Laboratorium,
+            Uppdalalaan 8, 3584 CT, Utrecht, NETHERLANDS
+FEATURES             Location/Qualifiers
+     source          1..2510
+                     /organism="Xenopus laevis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8355"
+                     /cell_type="whole embryo"
+                     /tissue_type="embryo"
+                     /dev_stage="embryonic stage 17"
+     gene            1..2510
+                     /gene="xGR"
+     CDS             106..2436
+                     /gene="xGR"
+                     /codon_start=1
+                     /product="glucocorticoid receptor protein"
+                     /protein_id="CAA51010.1"
+                     /db_xref="GOA:P49844"
+                     /db_xref="InterPro:IPR000536"
+                     /db_xref="InterPro:IPR001409"
+                     /db_xref="InterPro:IPR001628"
+                     /db_xref="InterPro:IPR001723"
+                     /db_xref="InterPro:IPR008946"
+                     /db_xref="InterPro:IPR013088"
+                     /db_xref="UniProtKB/Swiss-Prot:P49844"
+                     /translation="MDPKDLLKPSSGSPAVRGSPHYNDKPGNVIEFFGNYRGGVSVSV
+                     SASCPTSTASQSNTRQQQHFQKQLTATGDSTNGLNNNVPQPDLSKAVSLSMGLYMGES
+                     DTKVMSSDIAFPSQEQIGISTGETDFSLLEESIANLQAKSLAPDKLIEISEDPGGFKC
+                     DISAQPRPSMGQGGSNGSSSTNLFPKDQCTFDLLRDLGISPDSPLDGKSNPWLDPLFD
+                     EQEAFNLLSPLGTGDPFFMKSEVLSEGSKTLSLEDGTQRLGDHAKDMLLPSADRPISQ
+                     VKTEKEDYIELCTPGVVNEEKFGPVYCVGNFSGSGLFGNKSSAISVHGVSTSGGQMYH
+                     YDLNTATISQQDVKPVFNLGSPGTSIAEGWNRCHGSGNDTAASPGNVNFPNRSVFSNG
+                     YSSPGIRSDASPSPSTSSTSTGPPPKLCLVCSDEASGCHYGVLTCGSCKVFFKRAVEG
+                     QHNYLCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEARKTKKKIKGIQQSTTATAR
+                     ESPETSMTRTLVPASVAQLTPTLISLLEVIEPEVLYSGYDSSIPDTTRRLMSSLNMLG
+                     GRQVVSAVRWAKAIPGFRNLHLDDQMTLLQYSWMFLMVFALGWRSYKQTNGSILYFAP
+                     DLVITEDRMHLPFMQERCQEMLKIAGEMSSLQISYDEYLCMKVLLLMCTIPKEGLKSH
+                     ALFEEIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSMHEVAENLLAFCFLSFL
+                     DKSMSIEFPDMLSEIISNQIPKYSSGNLKKLLFHQK"
+ORIGIN      
+        1 cgcctcctgt cacagccccg ggcacacact ctcctgactc cgagaagcga cagtcctgct
+       61 gcgggcgagc gcgcgccgag gttccgtgct gggctgctgt ccccaatgga ccccaaagac
+      121 cttttaaagc cctccagtgg atcaccggca gtgaggggat cacctcatta caatgacaag
+      181 ccggggaatg tgattgaatt ctttggaaat tataggggag gagttagtgt gagcgtctct
+      241 gcatcttgcc caacctcaac tgcttcacag tcaaacacta ggcagcagca gcattttcaa
+      301 aaacagctga ctgcgactgg ggactcaact aatggattga ataataatgt gcctcagcca
+      361 gatttatcta aagcagtctc gctctcaatg ggactctaca tgggggagtc agacacaaaa
+      421 gtgatgagca gtgatatcgc ctttccatcc caagagcaaa ttggtatctc cacaggagaa
+      481 actgatttta gtctcttgga ggagagcatt gccaacttgc aggctaagtc attggcccca
+      541 gataaactca tagagatctc agaggatcct gggggtttta aatgtgacat atctgcccaa
+      601 ccaaggcctt ccatgggtca agggggcagc aatgggagca gctctaccaa tctgttcccc
+      661 aaagaccaat gcacctttga cctactacgg gacctgggta tctccccaga ctcacccctg
+      721 gacggtaaat caaatccttg gctagaccca ctttttgacg agcaggaagc atttaacctg
+      781 ttgtccccac tgggcaccgg tgatcctttt ttcatgaaat ctgaagtact gagcgagggt
+      841 agcaaaactc tcagcctcga ggatggcaca cagagactcg gtgatcatgc caaggacatg
+      901 ctgttgccca gtgcagaccg gccaatttct caagtcaaga cagaaaagga agactacatt
+      961 gagctatgta cacctggcgt ggtgaatgag gaaaaatttg gtcctgtgta ttgtgtaggc
+     1021 aatttttctg gatctggctt atttggtaac aaatcttcag ctatttctgt ccatggcgtc
+     1081 agcacttcag gtgggcagat gtaccactat gacttgaaca ctgccaccat ctcgcaacag
+     1141 gatgttaagc cagtctttaa tcttggctca cctgggacta gcattgcaga aggctggaat
+     1201 aggtgccatg gatctgggaa cgacactgcc gcttctccag ggaatgtcaa ttttccaaac
+     1261 agatctgttt tttcaaatgg ctattcaagc cccggaataa gatctgatgc aagtccttct
+     1321 ccatccacct cttctaccag cacggggcct ccacccaagc tctgtttggt gtgctctgac
+     1381 gaggcttctg ggtgccacta tggagtactg acttgtggca gctgtaaagt tttctttaag
+     1441 agagcagttg aaggtcagca taactatctt tgcgctggac ggaatgactg cattattgat
+     1501 aaaataagaa ggaagaactg ccctgcttgt cgctaccgga aatgtcttca agctggaatg
+     1561 aatctagaag ctcggaagac aaagaagaaa atcaaaggaa ttcagcaatc tactacagct
+     1621 acagcacggg agtctcctga aacttctatg acgaggacct tggtacctgc ttctgtggca
+     1681 caactcacac ctaccctgat ctcattactg gaggttattg agccagaagt gttatattct
+     1741 ggatacgaca gctccatacc agacacaacc aggaggctta tgtcgtctct caacatgctt
+     1801 ggtgggcgcc aagtggtgtc tgctgtcaga tgggcaaagg caattccagg tttcagaaac
+     1861 ttgcacctgg atgaccaaat gacccttctt cagtactcat ggatgttttt gatggtgttt
+     1921 gcacttggat ggcgatctta caaacaaacc aatggaagta ttctgtattt tgcgccagat
+     1981 ctcgtcatta ctgaggacag gatgcaccta ccctttatgc aagagagatg tcaggagatg
+     2041 ttgaagattg caggtgaaat gtccagtctt caaatttcat atgatgaata tctctgcatg
+     2101 aaagtcttgt tgctcatgtg cacaattcca aaggaaggcc tgaagagcca cgctctgttt
+     2161 gaggaaattc gtatgacata cattaaagag ctgggaaaag ccatagtaaa gcgggaagga
+     2221 aattccagtc aaaactggca gcgcttttac caactgacaa agctattgga ctccatgcat
+     2281 gaggtggctg agaatctact agccttttgc ttcctttcct tcctggataa atcaatgagc
+     2341 atcgaatttc cggatatgtt gtcagaaatc atcagcaatc agataccaaa atattcatct
+     2401 ggaaacctca aaaaactgtt atttcatcaa aagtgactgc cttaatggaa catatatata
+     2461 taaatatatc tataagtata aaaaaaaagt tgccttaagg aaagaaaaaa
+//
+

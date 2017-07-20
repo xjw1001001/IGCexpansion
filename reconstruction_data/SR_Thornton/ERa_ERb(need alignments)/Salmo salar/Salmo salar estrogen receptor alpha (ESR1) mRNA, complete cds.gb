@@ -1,0 +1,88 @@
+LOCUS       DQ009007                1936 bp    mRNA    linear   VRT 12-SEP-2005
+DEFINITION  Salmo salar estrogen receptor alpha (ESR1) mRNA, complete cds.
+ACCESSION   DQ009007
+VERSION     DQ009007.2
+KEYWORDS    .
+SOURCE      Salmo salar (Atlantic salmon)
+  ORGANISM  Salmo salar
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Protacanthopterygii;
+            Salmoniformes; Salmonidae; Salmoninae; Salmo.
+REFERENCE   1  (bases 1 to 1936)
+  AUTHORS   Ladstein,S., Yadetie,F. and Male,R.
+  TITLE     Molecular cloning and characterization of estrogen receptor alpha
+            in Atlantic salmon (Salmo salar)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1936)
+  AUTHORS   Ladstein,S. and Male,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-APR-2005) Department of Molecular Biology, University
+            of Bergen, Thormoehlensgt. 55, Bergen 5008, Norway
+REFERENCE   3  (bases 1 to 1936)
+  AUTHORS   Ladstein,S., Yadetie,F. and Male,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-SEP-2005) Department of Molecular Biology, University
+            of Bergen, Thormoehlensgt. 55, Bergen 5008, Norway
+  REMARK    Sequence update by submitter
+COMMENT     On Sep 12, 2005 this sequence version replaced gi:63002573.
+FEATURES             Location/Qualifiers
+     source          1..1936
+                     /organism="Salmo salar"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8030"
+                     /tissue_type="liver"
+     gene            1..1936
+                     /gene="ESR1"
+     CDS             65..1936
+                     /gene="ESR1"
+                     /note="nuclear hormone receptor"
+                     /codon_start=1
+                     /product="estrogen receptor alpha"
+                     /protein_id="AAY25396.3"
+                     /translation="MLVRQSHTQISKPLGAPLRSRTTLESHAISPPKLSPQQPTTPNS
+                     NMYPEETRRGGGAAAFNYLDGGYDYTAPTQGPAPLYYSTTPQDAHGPPSDGSMQSLGS
+                     SPTGPLVFVSSSPQLSPFLHPPGHHGLPSQSYYLETSSTPLYRSSVVTNQLSASEEKL
+                     CITSNRQQSYAAAGSGVRVFEMANETRYCAVCSDFASGYHYGVWSCEGCKAFFKRSIQ
+                     GHNDYMCPATNQCTMDRNRRKSCQACRLRKCYEVGMVKGGLRKDRGGRVLRKDKRYCG
+                     PAGDREKPYGDLEHRTAPPQDGGRNSSSSSLSGGGGWCGPRITMPPEQVLFLLQGAEP
+                     PALCSRQKVARPYTEVTMMTLLTSMADKELVHMIAWAKKVPGFQELSLHDQVQLLESS
+                     WLEVLMIGLIWRSIHCPGKLIFAQDLILDRSEGDCVEGMAEIFDMLLATVSRFRMLKL
+                     KPEEFVCLKAIILLNSGAFSFCSNSVESLHNSSAVESMLDNITDALIHHISHSGASVQ
+                     QQPRRQAQLLLLLSHIRHMSNKGMEHLYSIKCKNKVPLYDLLLEMLDGHRLQSPGKVA
+                     QAGEQTEGPSTTTTTSTGSSIGPMRGSQDTHIRSPGSGVLQYGSPSSDQMPIPLEQK"
+ORIGIN      
+        1 tcccacccct tagtgagcca gtctaaatca agctgcttgt cactgctgtt gttctgtgaa
+       61 tgtgatgctg gtcagacagt cccatacgca gatttccaaa cctctcggag ctcctctcag
+      121 atcccgaacg accctggaga gccacgccat ctccccccca aaactctcac cacagcagcc
+      181 gaccaccccc aacagcaaca tgtaccctga ggagacacgc agaggtggtg gggcggccgc
+      241 ctttaactac ctggacggag ggtatgacta cacagcccct acccaaggcc cggcccccct
+      301 ctattactcc accacccccc aggatgctca cggacccccc tcggatggca gcatgcaatc
+      361 cctgggcagc agtcccaccg gcccactggt gtttgtgtcc tccagccccc agctcagccc
+      421 cttcctccac cccccaggcc accatggtct ccccagccag tcatactacc tggagacttc
+      481 ttccacaccc ttatacaggt cgagtgtggt aaccaatcag ctgtcagcgt cagaggagaa
+      541 gctctgcatc acctccaata ggcagcagtc gtacgctgcg gcagggtcag gggtcagggt
+      601 gtttgagatg gccaacgaga cgaggtactg tgcggtctgc agcgactttg cctctgggta
+      661 ccactacgga gtttggtcct gcgagggctg caaagccttc ttcaaaagga gcatccaagg
+      721 tcacaatgac tacatgtgcc ctgcaactaa ccagtgtaca atggacagga atcgtaggaa
+      781 gagctgccaa gcatgccgcc tcagaaagtg ttatgaagtg gggatggtga aaggaggctt
+      841 gcgtaaggac cgtggtgggc gggttctcag gaaggacaag cggtattgtg gccctgctgg
+      901 tgacagagag aaaccctatg gtgacctgga gcacaggaca gcgccccctc aggacggggg
+      961 taggaacagc agcagcagca gcctcagtgg tggtggagga tggtgtgggc ccagaatcac
+     1021 catgcctcct gaacaggtgc tgttcctgct gcagggggca gagcctccgg ccctgtgttc
+     1081 tcgtcagaag gtggcccgcc cctacacaga ggtcaccatg atgaccctgc tcaccagcat
+     1141 ggccgacaag gagctggtgc acatgatcgc ttgggctaag aaagtaccag gtttccagga
+     1201 gctgtctctc catgaccagg tgcagctgct ggagagttcc tggctggagg tgctgatgat
+     1261 cggactcata tggaggtcca tccactgccc tgggaaactc atctttgccc aggacctcat
+     1321 actggacagg agtgaagggg actgtgtgga gggtatggct gagatcttcg acatgctcct
+     1381 ggccactgtg tctcgcttcc gcatgctcaa actgaagcct gaggagtttg tgtgcctcaa
+     1441 agccatcatc ttgctcaact ctggtgcctt ctccttctgt tccaactctg tggagtccct
+     1501 tcacaacagc tcggcagtgg aaagcatgct ggacaacatc accgacgccc tcatccacca
+     1561 catcagccat tcaggagcct ctgtgcagca gcagccaaga cggcaggccc agctcctgct
+     1621 cctgctctca cacatcagac atatgagcaa caaaggcatg gagcaccttt acagcataaa
+     1681 atgtaagaac aaagtgcctc tgtacgacct gctcctggag atgctggacg gtcaccggct
+     1741 ccaatcccca ggcaaagtgg cccaagctgg ggaacagacc gagggcccct ctaccaccac
+     1801 taccacctcc acaggctcca gcatagggcc gatgcgaggt agccaggata cccacatcag
+     1861 aagccctggt tcgggggtac tccagtatgg ctcccccagc tcagaccaga tgcccattcc
+     1921 tctagaacag aaatag
+//
+

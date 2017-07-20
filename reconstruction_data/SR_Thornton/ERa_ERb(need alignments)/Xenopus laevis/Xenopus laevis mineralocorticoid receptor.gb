@@ -1,0 +1,192 @@
+LOCUS       BC081082                4725 bp    mRNA    linear   VRT 25-JAN-2007
+DEFINITION  Xenopus laevis mineralocorticoid receptor, mRNA (cDNA clone
+            MGC:82139 IMAGE:7012230), complete cds.
+ACCESSION   BC081082
+VERSION     BC081082.1
+KEYWORDS    MGC.
+SOURCE      Xenopus laevis (African clawed frog)
+  ORGANISM  Xenopus laevis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae;
+            Xenopus; Xenopus.
+REFERENCE   1  (bases 1 to 4725)
+  AUTHORS   Klein,S.L., Strausberg,R.L., Wagner,L., Pontius,J., Clifton,S.W.
+            and Richardson,P.
+  TITLE     Genetic and genomic tools for Xenopus research: The NIH Xenopus
+            initiative
+  JOURNAL   Dev. Dyn. 225 (4), 384-391 (2002)
+   PUBMED   12454917
+REFERENCE   2  (bases 1 to 4725)
+  AUTHORS   Strausberg,R.L., Feingold,E.A., Grouse,L.H., Derge,J.G.,
+            Klausner,R.D., Collins,F.S., Wagner,L., Shenmen,C.M., Schuler,G.D.,
+            Altschul,S.F., Zeeberg,B., Buetow,K.H., Schaefer,C.F., Bhat,N.K.,
+            Hopkins,R.F., Jordan,H., Moore,T., Max,S.I., Wang,J., Hsieh,F.,
+            Diatchenko,L., Marusina,K., Farmer,A.A., Rubin,G.M., Hong,L.,
+            Stapleton,M., Soares,M.B., Bonaldo,M.F., Casavant,T.L.,
+            Scheetz,T.E., Brownstein,M.J., Usdin,T.B., Toshiyuki,S.,
+            Carninci,P., Prange,C., Raha,S.S., Loquellano,N.A., Peters,G.J.,
+            Abramson,R.D., Mullahy,S.J., Bosak,S.A., McEwan,P.J.,
+            McKernan,K.J., Malek,J.A., Gunaratne,P.H., Richards,S.,
+            Worley,K.C., Hale,S., Garcia,A.M., Gay,L.J., Hulyk,S.W.,
+            Villalon,D.K., Muzny,D.M., Sodergren,E.J., Lu,X., Gibbs,R.A.,
+            Fahey,J., Helton,E., Ketteman,M., Madan,A., Rodrigues,S.,
+            Sanchez,A., Whiting,M., Madan,A., Young,A.C., Shevchenko,Y.,
+            Bouffard,G.G., Blakesley,R.W., Touchman,J.W., Green,E.D.,
+            Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J., Myers,R.M.,
+            Butterfield,Y.S., Krzywinski,M.I., Skalska,U., Smailus,D.E.,
+            Schnerch,A., Schein,J.E., Jones,S.J. and Marra,M.A.
+  CONSRTM   Mammalian Gene Collection Program Team
+  TITLE     Generation and initial analysis of more than 15,000 full-length
+            human and mouse cDNA sequences
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (26), 16899-16903 (2002)
+   PUBMED   12477932
+REFERENCE   3  (bases 1 to 4725)
+  AUTHORS   Klein,S. and Gerhard,D.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2004) National Institutes of Health, Xenopus Gene
+            Collection (XGC), National Institute of Child Health and Human
+            Development, 6100 Executive Boulevard, Room 4B01, Rockville, MD
+            20892-7510, USA
+  REMARK    NIH-MGC Project
+COMMENT     Contact: XGC help desk
+            Email: cgapbs-r@mail.nih.gov
+            Tissue Procurement: Dr. Igor Dawid
+            cDNA Library Preparation: Life Technologies, Inc.
+            cDNA Library Arrayed by: The I.M.A.G.E. Consortium (LLNL)
+            DNA Sequencing by: Genome Sequence Centre,
+            BC Cancer Agency, Vancouver, BC, Canada
+            info@bcgsc.bc.ca
+            Martin Hirst, Thomas Zeng, Ryan Morin, Michelle Moksa, Johnson
+            Pang, Diana Mah, Jing Wang, Kieth Fichter, Eric Chuah, Allen
+            Delaney, Rob Kirkpatrick, Agnes Baross, Sarah Barber, Mabel
+            Brown-John, Steve S. Chand, William Chow, Ryan Babakaiff, Dave
+            Wong, Corey Matsuo, Jaclyn Beland, Susan Gibson, Luis delRio, Ruth
+            Featherstone, Malachi Griffith, Obi Griffith, Ran Guin, Nancy Liao,
+            Kim MacDonald,  Mike R. Mayo, Josh Moran, Diana Palmquist, JR
+            Santos, Duane Smailus, Jeff Stott, Miranda Tsai, George Yang,
+            Jacquie Schein, Asim Siddiqui,Steven Jones, Rob Holt, Marco Marra.
+            
+            Clone distribution: MGC clone distribution information can be found
+            through the I.M.A.G.E. Consortium/LLNL at: http://image.llnl.gov
+            Series: IRAK Plate: 162 Row: l Column: 13
+            This clone was selected for full length sequencing because it
+            passed the following selection criteria: matched mRNA gi: 51703903.
+FEATURES             Location/Qualifiers
+     source          1..4725
+                     /organism="Xenopus laevis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8355"
+                     /clone="MGC:82139 IMAGE:7012230"
+                     /tissue_type="Kidney, adult Xenopus"
+                     /clone_lib="NICHD_XGC_Kid1"
+                     /lab_host="DH10B"
+                     /note="Vector: pCMV-SPORT6"
+     gene            1..4725
+                     /gene="Nr3c2"
+                     /db_xref="GeneID:399290"
+     CDS             68..3007
+                     /gene="Nr3c2"
+                     /codon_start=1
+                     /product="Nr3c2 protein"
+                     /protein_id="AAH81082.1"
+                     /db_xref="GeneID:399290"
+                     /translation="METKGYKNFQEGVNMERQWGQVPRDFSSPNSRQQTPENTYMEIV
+                     NVNCDSDSFPQNNAKADSKEKQDLLPCLQQDSSKPSLLTQELKPELESKELSAAVAES
+                     MGLYMDSVRDSDYPYDQQNQQGTNGSGTIFQSMNPFYKQTTQGTFPADCQTRSLRSAI
+                     ESDKSMNGKLKSNTVKSPLSYSEKNLSVGSPSVMALPVCSPTGISSTSCSTTFGNFTV
+                     HSPVNQVTPKSCSPHTDNRCSIAHSPAGTVESPLSSPVSSMRSPISSPPSHASLKSPV
+                     SSPNNITVRPSVSSPGNINTRSSLSSPSNANNRSTISSPAASSMGSSICSPASSTLGF
+                     LPGVMPTDGGTASDGIISAETKDKGAQQIMFPKVEEMGNEIADSTVSLVKFIKPDPDA
+                     IFSSTCFGDTVSSDPAFSIPIKQESCKNTCSSALFKGSQSANPFPFMDGSYFAFMDDK
+                     DYYSLSGILGPPVSSFGDGFEGNGFSNQSLNVAIKQETEDSSFYPENNMPSSAIVGVN
+                     SCGQSFHYRIGAQGTISLSRPLNRDQSFQNLSSFPPMSSLVESWKTQSELAQNTLSSR
+                     RNDGFPVPGYIPENMSSTTLRSMSTGPSRPSKVCLVCGDEASGCHYGVVTCGSCKVFF
+                     KRAVEGQHSYLCAGRNDCIIDKIRRKNCPACRLQKCLQAGMNLGARKSKKLGKLKGVH
+                     EEHPQQPLQQTPTASPKEDTTLTSSSKEPSANSNSLVPLISAVSPAITLSAAVILENI
+                     EPEIVYAGYDNTQPDTAENLLSSLNQLAGKQMVQVVKWAKVIPGFRNLPLEDQITLIQ
+                     YSWMCLSSFALSWRSYKHASSQFLYFAPDLIFNEERMRQSAMYDLCQGMQQISLEFSR
+                     LQLTFEEYTLMKVLLLLSTVPKDGLKCQAAFEEMRVNYIKELRKVLLKSPHNSGQSWQ
+                     RYFQLTKLLDSMQDLVGDLLEFCFYTFRESQALKVEFPAMLVEIISDQLPKVESGIAK
+                     PLYFHRK"
+ORIGIN      
+        1 cttccagcct ggggggtgtg tgtgtttgtg ctgggagcag ccgccggcca tggcatagac
+       61 acaaggcatg gagacaaaag gatataagaa tttccaggaa ggagtcaaca tggagaggca
+      121 atggggccag gttcctcggg atttctcctc tccaaattcc agacagcaga ctcctgagaa
+      181 tacttacatg gaaatagtca atgtgaactg tgattctgat agtttccctc aaaataatgc
+      241 aaaagcagac agtaaagaga aacaagatct cctcccttgc cttcagcaag acagcagtaa
+      301 gcctagtttg ttgacacaag aacttaaacc tgagctagag tcaaaagaac tatctgcagc
+      361 tgtagctgag tcaatgggtt tgtacatgga ttctgttcgg gattcggatt acccctacga
+      421 tcagcagaac caacaaggca caaatgggtc tggaactatt tttcaaagca tgaatccgtt
+      481 ttacaagcaa acgacacaag gtacttttcc agcagattgt cagactcggt cgctaaggtc
+      541 agctatagaa tcagacaaat ccatgaatgg taaattaaag agcaatactg taaagagtcc
+      601 cttgtcttac agtgaaaaaa acttgtcagt cggtagcccc tctgttatgg cacttcctgt
+      661 ttgcagtccc actggaatta gttcaacttc ttgttccacc acttttggaa attttacagt
+      721 ccacagtcct gttaaccagg taactccaaa atcatgctcc ccacatacag ataatagatg
+      781 ctccatagct catagccctg ctggtactgt ggaatcaccc ttatctagcc cagtgagtag
+      841 catgagatca cctatttcaa gccctccaag tcatgccagc ttaaaatctc cagtttctag
+      901 tccaaataat atcacagtga gaccttctgt gtctagtcct gggaatataa acacaagaag
+      961 ctctctttcc agcccttcca atgccaataa taggtccact atttcgagcc cagctgcaag
+     1021 ttccatggga tcatctattt gcagtcctgc aagtagtaca ttgggattcc ttcctggagt
+     1081 aatgcctaca gatggtggga ctgcttctga tggcattatt agtgcagaaa cgaaggataa
+     1141 aggtgctcag cagatcatgt ttcctaaagt tgaagaaatg ggtaatgaaa ttgctgattc
+     1201 tactgttagc cttgtaaaat ttattaaacc ggaccctgat gcgattttta gcagtacttg
+     1261 tttcggagat actgtttctt cagatccagc tttctcaatt ccaataaagc aggagtcatg
+     1321 taaaaacact tgttctagtg ctctttttaa aggcagccag tcagcaaatc catttccatt
+     1381 catggatggt tcatattttg ctttcatgga tgacaaagat tattattctc tgtctggaat
+     1441 tttaggacca cctgtctcat cttttggtga cggatttgaa ggtaatggct tttcgaacca
+     1501 aagcctaaat gtggcaatta aacaagagac tgaggatagc agtttttatc cagagaacaa
+     1561 tatgccttct tcagctattg ttggtgtaaa ttcatgtggc cagtcatttc actaccgaat
+     1621 cggagcgcaa ggcactatct ctttatcccg acctcttaat agagaccagt ctttccaaaa
+     1681 tttaagttca tttcctccta tgagttcact ggtcgagagc tggaaaacac aatctgaact
+     1741 ggctcaaaat actctgtcat ccaggagaaa tgatggcttt ccagttccag gatacattcc
+     1801 agaaaacatg tccagcacaa cattaaggag catgtcaact ggaccctcaa gaccttccaa
+     1861 agtatgtcta gtgtgtgggg atgaggcctc tggatgtcac tatggagtag ttacctgtgg
+     1921 aagctgcaaa gtctttttca aaagagcagt ggaagggcag cacagttatt tgtgtgcagg
+     1981 aagaaatgac tgcattattg acaagattcg gaggaagaac tgtcccgcat gcagactgca
+     2041 gaaatgcctc caagcaggaa tgaatttagg agctcggaag tcaaaaaagt tgggcaaatt
+     2101 aaaaggagtg cacgaagagc acccgcagca gccacttcag caaacaccaa ctgcgagccc
+     2161 caaggaggac acaacgttga cctcttcatc aaaagagcct tcagcaaatt caaactccct
+     2221 tgttcctctt atatctgctg tgtctcctgc aatcactctt tcagcagccg tgatccttga
+     2281 aaatatcgag ccggaaattg tatatgctgg ctatgacaac acgcagccag atacagctga
+     2341 aaaccttttg tccagtttaa accaacttgc tgggaagcag atggttcagg tggtgaaatg
+     2401 ggcaaaagtg attccaggat ttagaaattt gcctctggag gaccaaatta ctttaatcca
+     2461 gtactcctgg atgtgtctat catcatttgc cttgagctgg agatcttata aacatgccag
+     2521 cagtcaattc ctgtattttg ctccagacct gatatttaat gaagagagga tgcgccagtc
+     2581 tgccatgtat gatctgtgcc aaggtatgca gcagattagc ctggaattta gccgtttgca
+     2641 gctaaccttt gaggagtaca cactaatgaa agttttgctg ctgctaagca cagtacccaa
+     2701 agatggactt aaatgccagg ctgcatttga agaaatgagg gtgaattaca ttaaagaact
+     2761 gagaaaagta ttattaaaga gtccacacaa ctctggacaa agctggcagc gatatttcca
+     2821 gttaacaaaa cttctagact ccatgcagga tcttgttggg gacttgttgg aattctgctt
+     2881 ctacacattc agggaatctc aggcactaaa agtggaattt cctgccatgc ttgtggaaat
+     2941 aataagtgat caactaccaa aggtggaatc tgggattgcc aagcctttgt actttcacag
+     3001 aaaatgactg gaacagtctt aaaggagaac tttgccttaa gtttcctctt atattccacc
+     3061 ctcaagccct tgctcctagg aaactgtgct ttggcattct gaaaacagaa tctgatttac
+     3121 tctctccgag ctggaagaaa acacattgct gagcatctga gaactgaaga aaacggtgaa
+     3181 acgatggaag gtgtacacga cagattcccg ttccaatgga taaaaagcca tatctagtta
+     3241 ataactgttc cattttgata ttctaactct tgaagtttta attacgccat ggaggttctg
+     3301 gttttgtttc ctttaaaaag gttcttggat gtacaagaac ggtctaatgc ttatccatgg
+     3361 ccagcacaag agagtatggt caatatgagg cattacgttt tattttgttc tataaggaaa
+     3421 aaaaagtcaa actgttctta aaaatattaa gaaacattag atgttgaatt atcacatccc
+     3481 acttgtgacc tttgatgtcc cgtgttatca acaatactgt agataaaaga cttgggctct
+     3541 ttaatgttag cggctcacat ttaaataaca gccggcgtga gatcaacctc cagcaaattt
+     3601 aatacgaccc ttaggttgat aaataggcat ttaatgatta agctgttaaa ataaaagccc
+     3661 ctgtctccgt ttatagtacc catattgtgc tggctttaaa gataattttt ttgcggtcta
+     3721 ttatgtactg tatattgctg tatgtacaaa ttgtgaagga tctgaatcaa atatatggaa
+     3781 attttgtaaa tgagaaaaag aaaaatctaa tgacttgtag gatgaacgga aagcctaaga
+     3841 aagtattttt tggaagaatt ctattttgat ggagactatt taagtactat ctttgtctaa
+     3901 ataaggtaat ttttttttgt aaagtgaaat gttttgcatg gataatgact tgtttacagc
+     3961 gtatttaaaa aaaaaaggga aagctgtgcc ttttttagca tcataactaa tttaccattt
+     4021 tacaatatct gtttgtaaat agactcactt taaatcccag tttcagttct atttaagatt
+     4081 ttatactttt ctgtaaaaag gaaaaaaaaa tggttcaacc tttttttttt tgtgaactgc
+     4141 ctgcaagaag gatcggagca cactttttag gaattctcct taatgttttc ttttggatga
+     4201 caaagttggt tccaggctat tctgattcat acagctacag ggtattatgg gggcctctct
+     4261 gtgcccgcgg tgtatgccca tgtaacaagt ccttttatcc taaaatccat ctttatggaa
+     4321 cattttgtga ttacaagttc cctctccccc ccccccctat atgtatatat atattttggt
+     4381 tttatataga tatgtttttg gagggggaaa tccccctaaa actgatggca cttgacgttg
+     4441 tacaaataag aggaaaaaaa gaggtatgat ggggcatgcc aaaaatatcc tttagagtgc
+     4501 actttacttt cttctgtatc aagtgatctt aatatcccaa atattgtatt tttcatcatg
+     4561 agagcaaagt tttaatcaat agtaccagtt gccatgacat ctgtggccag ggtatattta
+     4621 tgatggtata taggacttct gagaatgata tgcattttgt acaggatcag cactatatga
+     4681 aaataaactt taatttgttt tgaaaaaaaa aaaaaaaaaa aaaaa
+//
+

@@ -1,0 +1,89 @@
+LOCUS       AB435407                2524 bp    mRNA    linear   VRT 09-MAY-2008
+DEFINITION  Xenopus laevis gER beta1 mRNA for gonad estrogen receptor beta1,
+            complete cds.
+ACCESSION   AB435407
+VERSION     AB435407.1
+KEYWORDS    .
+SOURCE      Xenopus laevis (African clawed frog)
+  ORGANISM  Xenopus laevis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae;
+            Xenopus; Xenopus.
+REFERENCE   1
+  AUTHORS   Iwabuchi,J., Arai,K. and Miyata,S.
+  TITLE     Isolation of novel isoforms of the estrogen receptor genes in
+            Xenopus gonad and brain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2524)
+  AUTHORS   Iwabuchi,J., Arai,K. and Miyata,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2008) Contact:Shohei Miyata Nihon University;
+            Sakurajosui, Setagaya-ku, Tokyo 156-8550, Japan
+FEATURES             Location/Qualifiers
+     source          1..2524
+                     /organism="Xenopus laevis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8355"
+     gene            1..2524
+                     /gene="gER beta1"
+     CDS             220..1866
+                     /gene="gER beta1"
+                     /codon_start=1
+                     /product="gonad estrogen receptor beta1"
+                     /protein_id="BAG31996.1"
+                     /translation="MSTYIHKEYSQLQPMQHILHGKADIKNSPSTINSSVPYSGTVPA
+                     NQSPLYTPSSYLDSRHDYSSITFCSPSLMNYNVPGSDSESSVLRQAVSPGLLWTTPDH
+                     MSPVTLHCQSSLLYAEAPTSPWFEAKSEEHILPLNRESLKRKSMGSECANNIGSNPGS
+                     KRDTHFCSVCSDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKS
+                     CQACRLRKCFEVGMMKCGTRRERCGYRIVRHRRHSEDQMHCVGKNKKLPDNIQRVKEI
+                     SASALGPEQFVLIISDAEPPNVMLMNRLCKPFTEASMMMSLTKLADKELVLMIGWAKK
+                     IPGFVELSLYDQVRLLESCWLEVLMMGLMWRSIDHPGKLLFAPDLTLDRDEGKCVEGI
+                     LEIFDMLLATTSRLRELKLQHKEYLCLKVMILLNSHMFPLTSSDEESESSRKLHHLLN
+                     TVTDALVWVIAKSGIPFRQQSTRLANLLMLLSHVRHASNKGMEHLLSMKCKNVVPVYD
+                     LLLEMLNANTLRDHRKPTLAISGNSSKAEGDARDTGQPTQ"
+ORIGIN      
+        1 acaagagagg tatccattgg aacagataca caggtggtcc caaaatccgg cagagagtgg
+       61 ggagaagaca gtttacaaat gtttaaacac tgcatggcat gtgataataa aatataggac
+      121 tgctttgctt tgttggacct caacttcttc tatattgcta tatacaagtg cacggaagac
+      181 aatgtgaggc ttcaataaac acttatcctt tgtttaaaaa tgtccaccta catacacaag
+      241 gaatattccc aactacagcc gatgcagcat attcttcatg gaaaagcaga tatcaagaat
+      301 tctccctcca ccataaactc ttcagtgccg tacagtggca ctgtgcctgc gaaccaaagt
+      361 ccattgtaca ctccctcttc ttacttggat agcaggcatg actactcctc aataacattc
+      421 tgcagcccat ctcttatgaa ctataatgtt cctggaagtg attcagaaag ttctgtgctg
+      481 agacaggcgg taagcccggg attgctgtgg acaactccag accatatgtc ccctgtgaca
+      541 ttgcactgcc agtcttcact cctgtatgcc gaggcgccaa caagcccatg gtttgaagct
+      601 aaatcagaag aacatattct gccactcaat agggagtcac tgaaaaggaa atctatgggg
+      661 agcgaatgtg caaataatat tggcagcaac cccggctcaa agagagacac tcacttctgc
+      721 tctgtgtgca gtgattatgc ctctggatat cattatggag tgtggtcctg tgaaggctgc
+      781 aaagcttttt tcaagagaag tattcaaggg cacaatgatt acatctgtcc ggccacaaac
+      841 cagtgcacaa tagacaaaaa cagacgaaaa agttgccaag cttgccggct gagaaaatgc
+      901 tttgaagtag gaatgatgaa atgcggaacg aggcgggaac gttgcggcta tcgcattgta
+      961 cgtcatcgaa gacactcgga ggatcagatg cactgcgtgg ggaaaaacaa aaagttgcct
+     1021 gacaatatac agcgtgtaaa agaaatcagt gcaagcgcct tggggcctga acagtttgtt
+     1081 cttatcatta gtgatgctga acctcccaat gtgatgttaa tgaaccgtct ctgcaaacca
+     1141 ttcacagaag cctctatgat gatgtcttta accaagcttg ctgacaagga actagtcctt
+     1201 atgatcggat gggcaaagaa aattccaggt tttgtggagt tgagtttgta tgaccaagta
+     1261 cgtctgctgg agagctgttg gctggaggtg ctaatgatgg gactaatgtg gagatcaatt
+     1321 gatcaccctg gcaaactttt atttgccccg gatctaaccc tcgacaggga tgaagggaag
+     1381 tgcgtggaag gaattctgga gatatttgat atgctgctag caacaacttc aagactgaga
+     1441 gagcttaaac ttcaacataa agagtatctg tgcctcaagg ttatgatcct ccttaactct
+     1501 catatgttcc cgttgaccag ttcagatgaa gagtctgaga gcagtaggaa actgcaccac
+     1561 ctgttgaaca cagtgaccga tgctttggtt tgggttattg ccaagagtgg aattcctttc
+     1621 cgccagcagt caactcgttt agctaattta ctcatgcttc tttctcatgt taggcatgcc
+     1681 agcaataaag gcatggaaca tctgctcagc atgaaatgca agaacgtggt acctgtgtat
+     1741 gatttgctgc tggagatgct caatgcaaat actctgaggg accataggaa gcccacactg
+     1801 gctatttccg gcaacagttc caaagctgag ggtgacgcga gggacacagg ccaacccacc
+     1861 cagtgattct taaaccagga cttgcgtgta aggaatattt accataggtt tccaagagag
+     1921 gactcttctt gcctacagaa gctgctgtag ttgttgagtt gaaagaccca aatggataca
+     1981 ttttcacttg gaatattttg tgttattcct ttgagaatta aattattcaa gggatcctca
+     2041 ggtgagtttt gtacatatcc gattggcagc actttgcctt acgttgatac atatgtggcg
+     2101 tatccagtta tgggagctac caaattagtt attagatcct ccattaatca agtaatgcag
+     2161 ctgcaaaaac cacatggata ttcatttgag cagatcaacc tttgattcaa acaaaattcc
+     2221 atcaccagtg cccttacaaa cgacttaaac tgtctataat aagggctcta ttcatgtctt
+     2281 aaactagaaa caatgccatt tatattttgt attgcgtagt aaaacccttc ttaaaaagaa
+     2341 gaaacgagtt gtacaaaagt acgtcatatg atttgcagat aattgtatat gcaactttta
+     2401 tatttgatat gtgaaattgc atgtggtgtt ttagcaggtg tggcacttat gttttacttg
+     2461 cttgttccct ttgatcaaaa ggataacagc agtctagaaa aaaaaaaaaa aaaaaaaaaa
+     2521 aaaa
+//
+

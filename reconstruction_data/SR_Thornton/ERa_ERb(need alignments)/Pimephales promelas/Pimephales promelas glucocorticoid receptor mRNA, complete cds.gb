@@ -1,0 +1,106 @@
+LOCUS       AY533141                2571 bp    mRNA    linear   VRT 18-DEC-2006
+DEFINITION  Pimephales promelas glucocorticoid receptor mRNA, complete cds.
+ACCESSION   AY533141
+VERSION     AY533141.1
+KEYWORDS    .
+SOURCE      Pimephales promelas (fathead minnow)
+  ORGANISM  Pimephales promelas
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Pimephales.
+REFERENCE   1  (bases 1 to 2571)
+  AUTHORS   Filby,A.L. and Tyler,C.R.
+  TITLE     Cloning and characterization of cDNAs for hormones and/or receptors
+            of growth hormone, insulin-like growth factor-I, thyroid hormone,
+            and corticosteroid and the gender-, tissue-, and
+            developmental-specific expression of their mRNA transcripts in
+            fathead minnow (Pimephales promelas)
+  JOURNAL   Gen. Comp. Endocrinol. 150 (1), 151-163 (2007)
+   PUBMED   16970945
+REFERENCE   2  (bases 1 to 2571)
+  AUTHORS   Filby,A.L. and Tyler,C.R.
+  TITLE     Molecular characterization of a suite of key genes controlling
+            growth, thyroid and interrenal function and their responses to
+            oestrogen in the fathead minnow (Pimephales promelas)
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2571)
+  AUTHORS   Filby,A.L. and Tyler,C.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2004) Environmental and Molecular Fish Biology
+            Group, School of Biological and Chemical Sciences, University of
+            Exeter, Hatherly Laboratories, Prince of Wales Road, Exeter, Devon
+            EX4 4PS, United Kingdom
+FEATURES             Location/Qualifiers
+     source          1..2571
+                     /organism="Pimephales promelas"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:90988"
+                     /tissue_type="liver"
+                     /dev_stage="adult"
+     5'UTR           1..262
+     CDS             263..2500
+                     /note="steroid hormone receptor"
+                     /codon_start=1
+                     /product="glucocorticoid receptor"
+                     /protein_id="AAT02177.1"
+                     /translation="MDQGGLKNGAKRDERLNILDYSNSPVEGILRSGIQSAMSVAPTS
+                     MVPQPSPLMQPVSADLPNGLSNSPTLEEHTTSTLGFFMEDSELQKAVGKEQRAQQQQA
+                     LCSFTLGDSFSGLEASIADINSSSPSIDSMIGGVDPNLFPLKTEQFSPMDKCDIDLDQ
+                     DSFGPMGKDVDVGNHKLFSDNTLDLLQDFELDGSPSDFYVADDAFLSTIGEDAMLGDL
+                     STNAERDSKASISVNSTLNGMSTSSTTTTSLANVKVEKDSIIQLCTPGVIKKENVGGT
+                     NYCQMGLHSTPINICGVTTSSGQSFLFGAGPSTAALSQQKDQKPIFNVYTPLTSSEDS
+                     WSRGKGFGNASGMQQRASECFSKNYTSPYARPEDSTATPSTVGKSGTGVHKICLVCSD
+                     EASGCHYGVLTCGSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRFRKCLMA
+                     GMNLEARKTKKGRQTGKVIQQPTIPERNLSPLPEARALVPKPMPQLVPTMLSLLKAIE
+                     PETIYAGYDSTVPDTSTRLMTTLNRLGGRQVISAVKWAKALPGFRNLHLDDQMTLLQS
+                     SWLFLMSFGLGWRSYQQCNGNMLCFAPDLVINEERMKLPYMNDQCEQMLKISNEFVRL
+                     QVSNEEYLCMKVLLLLSTVPKDGLKSQTVFDELRMSYIKELGKAIVKREENSSQNWQR
+                     FYQLTKLLDSMHDMVGGLLNFCFFTFVNKSLSVEFPEMLAEIISNQLPRFRAGSVKAL
+                     LFHHK"
+     3'UTR           2501..2571
+ORIGIN      
+        1 gtcttttctc atggccgaaa atgagaaaat tccctggatt acccagatgg ggttttgaat
+       61 ttggactaaa aagctggacg atatccgacc cgcgaccttt ttcacgccgt ttgcgattta
+      121 tcttgctcgt ctgaaacgac ctcagactgc ggcgaaggct tatgttgttg ctaatcgctt
+      181 tcagcagaca actctactct aaaacaatgt cagatgatgc aacaaatcaa aacaggaaca
+      241 taaatatcaa aagtaacgca agatggatca aggaggactg aagaatggcg ccaagagaga
+      301 tgagcgtttg aatatattag attacagcaa cagcccagtt gaaggaattt tacgaagcgg
+      361 aatacaaagt gccatgtctg tcgctcccac gtcaatggtt cctcaaccta gtccactgat
+      421 gcagccagtt tccgcggacc ttcccaatgg cctgagcaat tcacccactc ttgaggagca
+      481 caccacctcc actcttggct tcttcatgga agattcagaa cttcagaaag cggtcgggaa
+      541 ggagcagaga gctcaacaac aacaggccct gtgctctttc actttgggag acagcttctc
+      601 aggtctggag gccagcattg cagacatcaa tagctcctcc ccttcaatag actccatgat
+      661 cggtggagtc gaccccaatc tctttccttt aaaaacagag caattttctc ccatggataa
+      721 atgcgacatt gacctagacc aagattcctt tggtccaatg gggaaagatg ttgatgttgg
+      781 caatcataag ctatttagtg acaatactct ggacctcctg caggactttg agttggacgg
+      841 atcgccctct gatttctatg tggcagatga cgcgttcctc tccaccatag gtgaagatgc
+      901 tatgctcgga gacttgtcga caaatgcaga gagagactca aaggcctcga tctctgtaaa
+      961 cagcacgctc aatggcatga gcacttccag caccaccact accagcctgg ccaatgtgaa
+     1021 agtagagaag gactctataa tccagctgtg tactccaggg gtcatcaaaa aggagaacgt
+     1081 aggtgggact aactactgtc agatgggtct ccacagcaca cctattaaca tttgtggtgt
+     1141 caccacttca agtggacaga gctttctctt tggggccggt ccttccacag ctgctctcag
+     1201 ccagcagaaa gatcagaagc ctatcttcaa cgtgtacacc cctctgacct cttcagaaga
+     1261 cagttggagc aggggaaagg gctttgggaa tgcaagcgga atgcaacaga gggccagcga
+     1321 atgcttttcc aaaaactaca caagccccta tgccaggcct gaagacagca ctgccacacc
+     1381 ctcgactgtt ggaaaatccg gcacaggcgt acataagatc tgtctggtgt gctcggatga
+     1441 agcttcgggc tgccattatg gcgtcctcac ttgtggaagc tgtaaagtct tctttaagag
+     1501 agcagttgaa gggcaacaca attacctgtg cgccggacgg aacgattgca tcattgacaa
+     1561 aatccgccgg aagaactgcc ctgcctgtcg tttccgcaaa tgcctcatgg caggcatgaa
+     1621 ccttgaggcc cgtaaaacca agaagggacg tcaaacaggc aaggtaatcc agcagccgac
+     1681 gattccagag cgcaatcttt ccccactgcc cgaggcccgg gcactggtac ccaaacccat
+     1741 gcctcagctg gtgcccacca tgctgtcact actgaaggcc attgagccgg aaaccatcta
+     1801 tgccggatac gacagcaccg taccggacac gtccacccgc ctcatgacca ctctgaacag
+     1861 gctgggcggc cggcaagtca tctctgcggt taaatgggcc aaagctctgc caggcttccg
+     1921 gaaccttcac ctggacgatc agatgaccct cctgcaaagc tcctggctgt tcctcatgtc
+     1981 ttttggacta ggttggagat cataccagca gtgtaatgga aacatgctgt gtttcgcacc
+     2041 agacctagtg atcaatgaag agaggatgaa gttgccctac atgaatgatc agtgtgaaca
+     2101 gatgctgaag atctcaaatg agtttgtgag actgcaagtg tccaatgagg agtacctgtg
+     2161 catgaaagtc cttctgctcc tgagcacagt acccaaggat ggtttgaaga gccagacagt
+     2221 gtttgatgag ctacgaatgt cttacattaa agaactgggc aaggccattg tgaagagaga
+     2281 ggagaactcc agccagaact ggcagcgatt ctatcagctc actaagctac tggactccat
+     2341 gcacgatatg gtgggtggac tcctgaactt ctgtttcttc acgtttgtca ataaatccct
+     2401 cagcgtggag tttcccgaaa tgcttgcgga gatcatcagc aatcagttac caagatttag
+     2461 agccgggagt gtcaaggcac tgctctttca ccacaagtga atctcctccc agcagcagga
+     2521 cacaatgcct taaacatcca ccccatcctc actcctactc caccccgaga c
+//
+

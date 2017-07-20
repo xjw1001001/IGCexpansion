@@ -1,0 +1,82 @@
+LOCUS       AY310902                1774 bp    mRNA    linear   VRT 28-JAN-2004
+DEFINITION  Xenopus tropicalis estrogen receptor alpha mRNA, complete cds.
+ACCESSION   AY310902
+VERSION     AY310902.1
+KEYWORDS    .
+SOURCE      Xenopus tropicalis (tropical clawed frog)
+  ORGANISM  Xenopus tropicalis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae;
+            Xenopus; Silurana.
+REFERENCE   1  (bases 1 to 1774)
+  AUTHORS   Wu,K.H., Tobias,M.L., Thornton,J.W. and Kelley,D.B.
+  TITLE     Estrogen receptors in Xenopus: duplicate genes, splice variants,
+            and tissue-specific expression
+  JOURNAL   Gen. Comp. Endocrinol. 133 (1), 38-49 (2003)
+   PUBMED   12899845
+  REMARK    Erratum:[Gen Comp Endocrinol. 2003 Dec;134(3):347]
+REFERENCE   2  (bases 1 to 1774)
+  AUTHORS   Wu,K.H., Tobias,M.L. and Kelley,D.B.
+  TITLE     Estrogen receptor expression in laryngeal muscle in relation to
+            estrogen-dependent increases in synapse strength
+  JOURNAL   Neuroendocrinology 78 (2), 72-80 (2003)
+   PUBMED   12915759
+REFERENCE   3  (bases 1 to 1774)
+  AUTHORS   Wu,K.H., Tobias,M.L., Thornton,J.W. and Kelley,D.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAY-2003) Biological Sciences, Columbia University,
+            New York, NY 10027, USA
+FEATURES             Location/Qualifiers
+     source          1..1774
+                     /organism="Xenopus tropicalis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8364"
+                     /tissue_type="liver"
+     CDS             40..1671
+                     /note="ERalpha"
+                     /codon_start=1
+                     /product="estrogen receptor alpha"
+                     /protein_id="AAQ84780.1"
+                     /translation="MLFFCLFIIMLSIPVASVFIAAAAAPVYSSASLSYAASSETFGS
+                     SSLTGLHTLNNVPPSPVVFLQTPQLSPFIHHHGQQVPYYLESEQGTFAVREAAPPTFY
+                     RSSSDNRRQSGRERMTSANDKGPPSMESTKETRYCAVCSDYASGYHYGVWSCEGCKAF
+                     FKRSIQGHNDYMCPATNQCTIDKNRRKSCQACRLRKCYEVGMMKGGIRKDRRGGRMLK
+                     HKRQKEEQEQKNDVTPSEIRTTSIWVNPSVKSMKLSPVLSLTAEQLISALMEAEPPIV
+                     YSEHDSTKPLSEASMMTLLTNLADKELVHMINWAKRVPGFVDLTLHDQVHLLECAWLE
+                     ILMVGLIWRSVEHPGKLSFAPNLLLDRNQGRCVEGLVEIFDMLVTTATRFRMMRLRGE
+                     EFICLKSIILLNSGVYTFLSSTLESLEDTDLIHIILDKIIDTLVHFMAKSGLSLQQQQ
+                     RRLAQLLLILSHIRHMSNKGMEHLYSMKCKNVVPLYDLLLEMLDAHRMHTPKDKATAQ
+                     EEDSRSPLTTTANGASPCLQPFYTSTEEVSLQSTV"
+ORIGIN      
+        1 gctgctactg ctgcttgaat atctgttctt gttctgttca tgctgttttt ttgcttgttc
+       61 attatcatgt tgtctattcc tgtggcgtct gttttcattg ctgctgctgc tgcaccggtg
+      121 tatagctctg ctagtctcag ctatgctgcc agctcagaga cattcggatc tagcagtctg
+      181 actgggctac atactttgaa caatgtgcct ccaagtcctg tagtgttcct tcaaactcca
+      241 cagctatcac cgtttatcca ccaccatggc caacaagtgc catactattt ggagagtgaa
+      301 cagggaactt tcgcagtaag ggaagcagca cccccaacat tttacaggtc aagttcagac
+      361 aacagaaggc agagtggaag ggaacgcatg acatcagcta atgataaggg ccctccatcc
+      421 atggaatcta ccaaggaaac acgatattgt gctgtttgca gtgactatgc atctgggtac
+      481 cattatggcg tctggtcctg tgaaggttgc aaagcttttt ttaaaagaag catacaagga
+      541 cataatgact atatgtgccc tgcaaccaat cagtgcacca tagacaagaa cagaagaaaa
+      601 agctgccaag cctgccgact gagaaaatgc tatgaagtgg gcatgatgaa agggggtatt
+      661 cgaaaggatc gcaggggagg acgtatgttg aaacataagc ggcagaaaga agaacaagag
+      721 cagaaaaatg atgtgactcc atcagagatt aggacaacat ccatctgggt gaatccttca
+      781 gtgaaaagca tgaagctgag cccagtactg tcgcttacag ctgagcagct tatcagtgcc
+      841 ttaatggagg cggagccacc tatagtatat tctgagcatg actcaaccaa accactcagt
+      901 gaagcttcca tgatgactct gcttacaaac cttgctgata aggagctagt acacatgatt
+      961 aactgggcaa agagggtgcc agggtttgtg gacttaacac tccatgacca ggtgcacctt
+     1021 ctggaatgtg cttggctgga gatccttatg gtcggtttaa tctggagatc tgtggaacat
+     1081 ccaggcaaac tttcatttgc accaaatctg ttactggaca ggaatcaggg acgctgcgtg
+     1141 gaaggcttag tggagatttt tgacatgctg gtcactacag cgacaagatt tcgcatgatg
+     1201 aggttacgtg gggaagaatt tatatgtctg aaatctatca ttcttctaaa ttctggtgtt
+     1261 tatactttcc tgtctagcac attagaatct cttgaagata cagacttaat tcatattatt
+     1321 ttggataaaa taatagacac attagtccac tttatggcta aaagtgggct ctctctgcag
+     1381 cagcagcaaa ggcgactggc tcagcttctt ctcattcttt cacacataag gcatatgagc
+     1441 aataagggca tggaacactt atacagcatg aagtgtaaga atgttgtccc cttatatgat
+     1501 ttactgttgg aaatgctgga tgcccatcgc atgcacacac caaaggacaa agcgaccgct
+     1561 caggaggaag atagccggag tccgcttacc actactgcaa atggtgcatc accttgctta
+     1621 cagccctttt acacaagcac ggaagaagtg agcttacaaa gcacagtatg agagcgattg
+     1681 tcagcctttt ttaaatgctt ttttttttaa atgttatttt tttttcattt ggccttcaat
+     1741 ggccatgaaa ttcccagcag aatactacct aaca
+//
+

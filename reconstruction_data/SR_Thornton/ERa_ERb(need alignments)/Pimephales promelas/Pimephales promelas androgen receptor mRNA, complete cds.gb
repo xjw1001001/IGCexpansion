@@ -1,0 +1,114 @@
+LOCUS       AY727529                3221 bp    mRNA    linear   VRT 12-JUL-2005
+DEFINITION  Pimephales promelas androgen receptor mRNA, complete cds.
+ACCESSION   AY727529 AY004868
+VERSION     AY727529.1
+KEYWORDS    .
+SOURCE      Pimephales promelas (fathead minnow)
+  ORGANISM  Pimephales promelas
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Pimephales.
+REFERENCE   1  (bases 1 to 3221)
+  AUTHORS   Wilson,V.S., Cardon,M.C., Thornton,J., Korte,J.J., Ankley,G.T.,
+            Welch,J., Gray,L.E. Jr. and Hartig,P.C.
+  TITLE     Cloning and in vitro expression and characterization of the
+            androgen receptor and isolation of estrogen receptor alpha from the
+            fathead Minnow (Pimephales promelas)
+  JOURNAL   Environ. Sci. Technol. 38 (23), 6314-6321 (2004)
+   PUBMED   15597887
+REFERENCE   2  (bases 1 to 3221)
+  AUTHORS   Korte,J.J., Jensen,K.M., Kahl,M.D., Makynen,E.A. and Ankley,G.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUL-2000) Mid-Continent Ecology Division, United
+            States Environmental Protection Agency, 6201 Congdon Blvd., Duluth,
+            MN 55804, USA
+REFERENCE   3  (bases 1 to 3221)
+  AUTHORS   Wilson,V.S., Cardon,M.C., Thornton,J., Korte,J.J., Ankley,G.T.,
+            Welch,J., Gray,L.E. Jr. and Hartig,P.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-AUG-2004) Reproductive Toxicology Division, U.S. EPA,
+            MD-72; 2525 Highway 54, RTP, NC 27711, USA
+COMMENT     On Oct 3, 2004 this sequence version replaced gi:9652562.
+FEATURES             Location/Qualifiers
+     source          1..3221
+                     /organism="Pimephales promelas"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:90988"
+                     /sex="male"
+                     /tissue_type="viscera; testis"
+     CDS             287..2806
+                     /codon_start=1
+                     /product="androgen receptor"
+                     /protein_id="AAF88138.2"
+                     /translation="MEACESPEAVFHGSYQSLFQNVRVKRANNESLDISSSKKCGFLQ
+                     ETASREMRLSKLSPRRGILRSPEKECESTISVIQLAASRIHFLKSSTESKSDSSLSSS
+                     GSGLADATESSDSRAGFLRGAESGQKGYGAAEVHKHELGSGRDASVASCSRACSSGIT
+                     ISETARELCKAVSVSLGLAMESSELGEVGPHHAPPLTTESSSDEMYMPLLDCSVSEPG
+                     AGAKDREYALAMGQRDRGLELRGRDKVLGMFKSSDLVQLAGDVTTSQYSNASKSHLTS
+                     ALQEVHEFASMSGDIANPSSEGTAASDMDATHAASCQFEQLLPASMAHFVHPEFENGP
+                     SQSFAKPSAMSGEFTENYANQYNVKIKAEMMPRDLNGTWAYPHRYADDSNGQYGPPKQ
+                     RTTYATDHETPFISNPYEYGQSGSLVPRERPPPEQWYPVGMLGRPPYPNVPCVKNEVG
+                     EWLDVTSLTDGRFDAGRSDIFPMEFFLPPQRTCLICSDEASGCHYGALTCGSCKVFFK
+                     RAAEGKQKYLCASRNDCTIDKLRRKNCPSCRLRRCFEAGMTLGARKLRKIGQVKGPDE
+                     VGSVQGPSESAQCLSPKPCLTFHSQLIFLNILEAIEPEVVNAGHDHAQPDSAAALLTS
+                     LNELGERQLVKVVKWAKGLPGFRNLHVDDQMTVIQHTWMGVMVFALGWRSYKNANARM
+                     LYFAPDLVFNDRRMHISSMYEHCIQMKHLSQEFVLLQVTQEEFLCMKALLLFSIIPVE
+                     GLKSQKYFDELRLTYINELDRLINYGRKSNCAMRFQQLTRMMDSLQPIVQKLHQFTFD
+                     LFVQARSLPTKVSFPEMIAEIISVQVPKILAGLSKPILFHK"
+ORIGIN      
+        1 ggaacgaggg acgtgtctga cttgacgctc tgatgatcgg atgcaccaaa cgaacatttt
+       61 tggaaaactt ttctcgttga cgttgattaa gagccgcctg tgcttgtcct ctgcgattac
+      121 acaagtgctc gtttgattat ttttgcttac acactctctc gccctgcgca gctcctctgt
+      181 ctgactggaa cttttttcta agtaattcgt cgatgagtca ccttaaaacc ctcacggctt
+      241 gtgtgttgta ctccgtttct agactatcga ggttccgttc gggttgatgg aggcttgcga
+      301 gtccccagag gcagtttttc acggatctta ccaaagcctt ttccaaaacg tgcgcgtaaa
+      361 gagagcgaac aacgagagtt tggacatttc tagctccaag aagtgcggct tcctgcagga
+      421 gaccgcgtcg agggaaatgc gtttaagcaa gctgtccccc cgcagaggaa ttctacgctc
+      481 ccccgaaaaa gagtgcgaga gtacgatttc ggtgatacag ttagcggcaa gccgcattca
+      541 ttttctcaag agttcaacag aaagcaaaag cgactcatct ctgtcatcta gcggctcggg
+      601 cctcgcagac gccaccgaaa gcagcgacag tcgcgcaggt ttcctacggg gcgccgagag
+      661 tgggcagaag ggctacggtg cagctgaagt tcacaagcac gagttgggct cgggccgtga
+      721 cgcgagtgtg gcgagttgta gtcgcgcatg cagtagcggc atcaccattt cggagacagc
+      781 gcgagagctg tgcaaagccg tgtcagtgtc tttgggctta gctatggagt ccagcgaact
+      841 aggcgaggtg ggaccgcacc atgcaccgcc actgaccact gaaagtagta gtgatgaaat
+      901 gtatatgcct ttgctcgact gctcagtgag cgaacctggg gcaggagcga aagacagaga
+      961 gtacgctctc gcgatgggac agagagacag aggcttagag ctgcgaggca gggacaaagt
+     1021 gctcgggatg tttaaaagta gcgatctggt gcagctagca ggggatgtga caacctcgca
+     1081 gtacagcaac gcgtctaaat cccatttaac atcggctttg caggaagtgc acgagttcgc
+     1141 cagcatgtcc ggggacattg ccaacccgag ttcagaaggt acggcagcat cggatatgga
+     1201 cgcgacgcac gcagcttcgt gtcagttcga acaactgttg cccgcgagca tggcccattt
+     1261 cgtccacccg gagttcgaaa acggaccgag ccaaagcttc gcgaagccct cggcgatgtc
+     1321 cggagagttt acggagaatt acgcgaatca gtataatgtc aaaattaagg cagagatgat
+     1381 gccccgtgat ctgaatggca cctgggcgta cccgcatagg tacgctgatg actcgaatgg
+     1441 ccagtacggg cctccaaaac agaggaccac ttacgctact gaccacgaaa cgccgtttat
+     1501 ttctaaccca tacgagtacg gccaaagcgg gtctctggtt ccgcgggagc gacctccgcc
+     1561 cgaacagtgg tacccggtcg ggatgttggg ccgtcccccg taccctaacg tgccctgtgt
+     1621 gaaaaacgag gtgggcgaat ggctggatgt aacatcgtta acagatggca ggtttgatgc
+     1681 ggggcggagt gacattttcc caatggagtt tttccttcct cctcaaagga catgcctaat
+     1741 ctgctctgat gaagcttctg gatgtcacta tggagccctc acttgtggaa gctgcaaagt
+     1801 gttcttcaag agagctgctg aggggaagca gaagtatctc tgcgctagca ggaatgactg
+     1861 caccatagat aaactgagga ggaagaactg cccgtcctgc cgtctgagga ggtgttttga
+     1921 ggctgggatg accctgggag cccgcaagct gagaaagatt ggacaggtga aaggtccgga
+     1981 tgaggtcggc tccgttcagg gcccgtcaga gagtgcccag tgcctgtcgc ccaagccctg
+     2041 cttgacgttc cactcgcagc tgatcttcct gaacatcctg gaggccatcg agccagaggt
+     2101 ggtgaacgcc ggccacgatc acgctcagcc tgactcggct gctgctctcc tcaccagcct
+     2161 taacgagttg ggagagaggc aacttgtcaa ggtagtaaaa tgggccaaag gacttccagg
+     2221 tttccgtaac ctgcatgtgg atgatcagat gacagtcata caacacactt ggatgggagt
+     2281 gatggtcttt gctctgggtt ggagatccta caagaacgct aatgcgcgga tgctgtattt
+     2341 cgctccagac ctggtcttca atgatcgtag gatgcatatc tccagcatgt acgagcactg
+     2401 tattcagatg aagcacctct cacaggagtt tgtgctgctg caggtcacac aggaagagtt
+     2461 cctctgcatg aaggccctcc tcctcttcag catcattcca gtggaggggc tgaagagtca
+     2521 gaagtatttt gatgagctgc gtctgacata tataaacgag cttgatcgtt taatcaacta
+     2581 tggcaggaag agcaactgtg ccatgcgctt ccaacagctg acccgaatga tggactcact
+     2641 gcaaccaatt gttcagaagt tgcaccagtt cacctttgac ctctttgtcc aagcccggtc
+     2701 cttgcccaca aaggtcagct ttcccgaaat gattgcagaa ataatctcag tccaggtgcc
+     2761 aaagatcctc gccggcctgt ctaaaccaat cctgtttcac aaatgacatg actacgcccc
+     2821 tgatccgcca atccatacca accccaccca ggtcatatga gccagtctgt tcggcctgat
+     2881 ccagtttgat ccagcctaaa ccagcctacg atgcttttaa tgtggactcg aatcgagcga
+     2941 tgagactgaa tgatacagat ttttgatttc taacctcccc ccccccccct ttctatatca
+     3001 gtctcgtctc cctcggtttg aaaaatggcc ctgaaaagta gtgggaccat tacatcatta
+     3061 cagttgtcta tcttctcctc agagatcatt tgagctcatt ttctcaaact gacagcacgg
+     3121 ttttgttctt tctttcgacc agcagttatc cttcaagagt tacagcgtgt tgcccggtgg
+     3181 atatgttgga aaaaaatatc actgcagttt caccctcgtg c
+//
+

@@ -1,0 +1,125 @@
+LOCUS       XLU67129                3513 bp    mRNA    linear   VRT 21-DEC-1998
+DEFINITION  Xenopus laevis androgen receptor alpha isoform (X1 alpha AR) mRNA,
+            complete cds.
+ACCESSION   U67129
+VERSION     U67129.1
+KEYWORDS    .
+SOURCE      Xenopus laevis (African clawed frog)
+  ORGANISM  Xenopus laevis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Amphibia; Batrachia; Anura; Pipoidea; Pipidae; Xenopodinae;
+            Xenopus; Xenopus.
+REFERENCE   1  (bases 1 to 3513)
+  AUTHORS   Fischer,L., Catz,D. and Kelley,D.
+  TITLE     An androgen receptor mRNA isoform associated with hormone-induced
+            cell proliferation
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 90 (17), 8254-8258 (1993)
+   PUBMED   7690145
+REFERENCE   2  (bases 1 to 3513)
+  AUTHORS   Fischer,L.M., Catz,D. and Kelley,D.B.
+  TITLE     Androgen-directed development of the Xenopus laevis larynx: control
+            of androgen receptor expression and tissue differentiation
+  JOURNAL   Dev. Biol. 170 (1), 115-126 (1995)
+   PUBMED   7601302
+REFERENCE   3  (bases 1 to 3513)
+  AUTHORS   Kamenetz,F.R., Catz,D.S., Fischer,L.M. and Kelley,D.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-1996) Biological Sciences, Columbia University,
+            911 Fairchild Building - Mail Code:2432, New York, NY 10027, USA
+REFERENCE   4  (bases 1 to 3513)
+  AUTHORS   Kelley,D.B., Kamenetz,F.R., Kelley,D.B. and Badea,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-DEC-1998) Biological Sciences, Columbia University,
+            911 Fairchild Building, Room 9.11, New York, NY 10027, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Dec 21, 1998 this sequence version replaced gi:1532179.
+FEATURES             Location/Qualifiers
+     source          1..3513
+                     /organism="Xenopus laevis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8355"
+                     /clone="FK1"
+     gene            1..3513
+                     /gene="Xl alpha AR"
+     CDS             176..2548
+                     /gene="Xl alpha AR"
+                     /note="steroid hormone receptor"
+                     /codon_start=1
+                     /product="androgen receptor alpha isoform"
+                     /protein_id="AAC97386.1"
+                     /translation="MEVHIGLGGVYKQPPGKMIRGAFENLFLSVREALQGERRALEGS
+                     QAPAGWSEAPGTHRWSEASPQDGTPLNPWVTHPPAPWREAQAEAAPQNPAGRTEGAQF
+                     PALGDCPTELKEILGEQSGRILESEETPAEKEGFSGPPEGISDSAKELCKAVSVSLGL
+                     SMEALEHLSAGAGEAQQRGDCMYAHPPDTHKCQVAEEDKSDTRDGPFRRSSQSNFATG
+                     KSPEDGGGGGGGSSSAGGSEEKEQPCTDLALPEPAGGYRHRAMELTPSLTLYKPTAFM
+                     EESPGYPSRDFYSFQMALAPHGRIKVENPMEYGGGAWGAAGRYSELSGFAHCGATAGW
+                     HTLFEEGQSSGSFAEAGPYSYPRSHGPAGADGEFPSDAWYPAPTMIGRVPYSGPMKTE
+                     MAPWMEGYPGAFGEMRLEGGRDHLLPIDYYFPPQKTCLICGDEASGCHYGALTCGSCK
+                     VFFKRAAEGKQKYLCASRNDCTIDKFRRKNCPSCRLRKCYEAGMTLGARKLKKLGNLK
+                     AQEELDGSSVQGEGSKELSPGMGIPQLEGYSCQPIFLNVLEAIEPVVVCAGHDNNQPD
+                     SFALLLSSLNELGERQLVHVVKWAKALPGFRNLHVSDQMTVIQYSWMGLMIFAMGWRS
+                     FKNVNSRMLYFAPDLVFNEYRMHKSRMYSQCVRLRHLSQEFGWLQITPEEFLCMKALL
+                     LFSIIPVEGLKDQKCFDELRMNYIKELDRVISCKRNNPASSSRRFFQLTKLLDSVQPI
+                     ARELHQFTFDLFVKAQMVSVDYPEMMSEIISVQVPKILSGRVKPLYFHIS"
+ORIGIN      
+        1 agtgttgtgc gagcagctag cagggaactg acgacccgcc accgacgagc ctgccactag
+       61 cgctgaaggg gagcagcctt tgcccttgtt gcccactggg cactaagact ttaggagacg
+      121 cgtggtgggc gggcactgtc cctgttggca ctgtccttat tacagggcgg ggggaatgga
+      181 ggtgcacata gggctcggcg gggtatacaa acagcctccc gggaagatga tcagaggcgc
+      241 atttgagaac ctcttcctga gtgtgcggga ggcgctacaa ggggagcgta gagccctcga
+      301 gggatcccag gcgcccgcag gttggagcga agcccccggc acacaccgct ggagcgaagc
+      361 ctctccgcaa gacgggaccc ccctgaatcc ctgggtcaca cacccgcctg ccccttggag
+      421 agaggctcaa gcagaagcag cgccgcaaaa tcccgcgggt cgcacagaag gtgcgcagtt
+      481 ccctgcgctg ggagactgtc ccactgagct gaaggagatc ctgggggagc agagcggaag
+      541 aatactggag agcgaagaga cccccgccga gaaggaaggt ttctcggggc cccccgaagg
+      601 catctctgat agcgccaagg agctgtgcaa agcggtgtcc gtgtccctgg ggctgagcat
+      661 ggaggcgctg gagcatctga gcgcaggagc aggggaggcg cagcagagag gggactgtat
+      721 gtacgcgcac ccgccggaca cccacaagtg ccaagtggca gaggaagaca agagcgacac
+      781 ccgggacggg ccattcagga ggagcagtca gagcaacttt gcaactggca agagcccaga
+      841 ggatggcggc ggcggcggtg gcggcagcag cagcgcgggg ggctcggaag agaaggagca
+      901 gccctgcaca gacttggcac tgccagagcc ggccggaggg tacagacacc gagctatgga
+      961 gctgacgcct agcctcaccc tgtacaagcc cactgccttc atggaggaga gccctggata
+     1021 tcccagcaga gacttctaca gctttcagat ggcgctggca cctcacggcc ggataaaggt
+     1081 ggaaaacccc atggagtacg gcggcggcgc ttggggggca gcgggcaggt acagcgaact
+     1141 gtcaggcttt gcccattgcg gtgccaccgc cggctggcac actctctttg aagaaggtca
+     1201 gtccagcggc tcctttgccg aggccggtcc ctacagctac cctcgcagcc acggacctgc
+     1261 cggagctgat ggcgaatttc cctccgacgc ctggtacccg gcaccgacca tgataggcag
+     1321 ggtgccctac agtgggccca tgaagaccga gatggcacct tggatggaag gataccctgg
+     1381 ggcctttggg gaaatgaggc ttgaaggagg aagagatcac ctgttgccca ttgattatta
+     1441 cttcccaccg caaaaaacct gtctgatctg tggcgatgag gcctctggct gccactatgg
+     1501 agcccttacg tgtggcagct gcaaagtctt cttcaagaga gcagctgaag ggaaacagaa
+     1561 atatctttgc gccagcagaa atgactgcac aattgacaag tttcggagga aaaactgccc
+     1621 atcttgtcgc ttgaggaaat gttatgaagc tgggatgaca ttaggagctc gaaagctaaa
+     1681 gaagctgggg aaccttaagg cacaggaaga gttggatgga tcttcagtgc agggagaagg
+     1741 aagcaaagaa ctctcccctg gtatgggtat tccacagctt gagggctaca gctgccagcc
+     1801 tatcttcctg aatgtgctgg aggccattga acctgttgtg gtgtgtgctg gacatgacaa
+     1861 caaccaacca gacagctttg ctttgctctt gagcagcctc aatgagcttg gagagcgtca
+     1921 gcttgtgcac gttgtaaagt gggcaaaggc tttgccaggt ttcagaaatc tacatgtaag
+     1981 cgaccaaatg accgttattc agtactcctg gatgggactc atgatatttg ccatgggttg
+     2041 gagatcattc aagaacgtca actccaggat gctctatttt gccccagacc tggtgtttaa
+     2101 cgagtatcgc atgcacaagt cacgtatgta cagtcagtgc gtccggctgc gacacctctc
+     2161 acaggagttt ggctggcttc agatcactcc ggaggagttc ctctgcatga aggctctcct
+     2221 tctctttagc attattcctg tggaaggtct gaaggaccag aagtgctttg atgagttgcg
+     2281 gatgaattat atcaaggagc tggacagagt catctcttgc aagaggaaca atccagcatc
+     2341 cagctctcga cgctttttcc agctcaccaa actccttgat tctgtgcagc cgattgcccg
+     2401 tgagcttcac cagttcactt ttgacctgtt tgtgaaggcc cagatggtga gcgtggatta
+     2461 tcccgaaatg atgtcagaga tcatatccgt gcaggtgccc aagatcctgt ctggcagagt
+     2521 caagccactc tacttccaca tctcatgaga tgcccaatgg gggtgagccc cataatacct
+     2581 tgcagtgtgc cttaagggtc accatatgca aaaaggactc tatcaaggac tttcagcacg
+     2641 ccagtgcaag aggcatgtcc tctgagcatc accctagctg tatattcttc tgcagaatgg
+     2701 ggtcttactg tatttacaat gccctctgtg tgatttggca ctgacccatg ggttatagga
+     2761 ggactgctgc tcttggcata agtgttttta ttcccaattt acaagggttt tgtcacctgt
+     2821 gtatgcagca gaaagggatt tcaggtctgg aattcctggg gcactgcaag acttacatta
+     2881 ttagattata cttatataca caaacatgct tgtgtgccaa taccagtgca cacaatgcag
+     2941 gactgaggcc acacatatac aggtctcaaa gtgcaaaata tatataacgc actataatgg
+     3001 gtttccttca tccatgttgc agacccccaa ctcaccagca tcttgccgga gggttacagt
+     3061 tctgcaactc ttggagtgac aaaggttgcc tgtccttgta acagagcgtc gcattcccaa
+     3121 ctctctggct gaaaagtgca gctccaaaca caagcccttc tgtataattt tttttctata
+     3181 tcttctaacc taattgattc tgactgtgtg agctcctttt gcagccagaa gactttgggt
+     3241 agcaattttt atattaaggg ggaaaaaaag ttgtgctaaa ctgcttctgt ctcgatagag
+     3301 tctgcatatt ttatccataa cgttgtgctc ctgtttgttc cggcttctcc aatgaattca
+     3361 gccacaaaac tggctttttt ctgctcaagg gcatgtatag agatttccct aaagcagcct
+     3421 ctttttatag gggcgacctg ctgatgcttc atttgtgcct ctggagtggc acttgctaaa
+     3481 tgtcataaga taactacaga attcctgcag ccc
+//
+

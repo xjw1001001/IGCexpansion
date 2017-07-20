@@ -1,0 +1,99 @@
+LOCUS       AB070630                2850 bp    mRNA    linear   VRT 28-FEB-2002
+DEFINITION  Paralichthys olivaceus ERb mRNA for estrogen receptor beta,
+            complete cds.
+ACCESSION   AB070630
+VERSION     AB070630.1
+KEYWORDS    .
+SOURCE      Paralichthys olivaceus (Japanese flounder)
+  ORGANISM  Paralichthys olivaceus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Carangaria; Pleuronectiformes; Pleuronectoidei;
+            Paralichthyidae; Paralichthys.
+REFERENCE   1
+  AUTHORS   Kitano,T., Sakimura,N., Takamune,K., Nagahama,Y. and Abe,S.
+  TITLE     Role of estrogen receptor in gonadal sex differentiation in
+            Japanese flounder (Paralichthys olivaceus)
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2850)
+  AUTHORS   Kitano,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-AUG-2001) Takeshi Kitano, Kumamoto University,
+            Graduate School of Science and Technology; 2-39-1 Kurokami,
+            Kumamoto, Kumamoto 860-8555, Japan
+            (E-mail:tkitano@kumamoto-u.ac.jp, Tel:81-96-342-3031)
+FEATURES             Location/Qualifiers
+     source          1..2850
+                     /organism="Paralichthys olivaceus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8255"
+                     /clone_lib="Uni-ZAP ovarian cDNA"
+                     /country="Japan:Kumamoto"
+     gene            1..2850
+                     /gene="ERb"
+     CDS             551..2248
+                     /gene="ERb"
+                     /codon_start=1
+                     /product="estrogen receptor beta"
+                     /protein_id="BAB85623.1"
+                     /translation="MAAASAEKDQPLLQLQEVDSSRVRSCVLSPILSTSSPGLSLDGS
+                     QPICIPSPYTELGHDFATIPFYGPTIFSYAAPSIPDCPSVHQSLSPSLFWPSHGHMGP
+                     PMTLHRSQGRSQQGQPIQSPWGELTPRDGVLANSKGVRRRSQESEDGVVSSGGKSDLH
+                     YCAVCHDYASGYHYGVWSCEGCKAFFKRSIQGHNDYICPATNQCTIDKNRRKSCQACR
+                     LRKCYEVGMTKCGMRKDHGSYRNPKTRRLTRLSSQGRASGPKALTGPVVALMNELQPP
+                     ALTPEQLIERIMEAEPPVIYLMKDMSGPLTEANVMMSLTHLADKELVHMITWAKKIPG
+                     FVELGLLDQVHLLECCWLEVLMMGLMWRSVDHPGKLIFSPDLSLSREEGSCVQGFSEI
+                     FDMLIAATSRVRELKLQREEYVCLKAMILLNSNMCLSSSEGSEELHSRSKLLLLLDAV
+                     TDALVWAIAKTGLTFRQQYTRLAHLLMLLSHIRHVSNKGMDHLHCMKMKNMVPLYDLL
+                     LEMLDAHIMHSSRLPHHASPQPEFTDQGEVPARPGSSGNGSSNTWTPSTSGDGGEPQ"
+ORIGIN      
+        1 ctgaagatcc tcagcttcgt cttttaagaa ccagtctcac ggaagctgaa gccactcgga
+       61 gctcgaccag cggctctgat cacacctcca cccgggaacc agcgcatgac accacggctg
+      121 gacttcactc cgttaccccc cccccccccc tcctcctccg gtgcaacttt tctctgcaaa
+      181 ctgcttcttc tgccttaaag tcctgacact atctgatgtg agaccggacg aggaacgagc
+      241 gctgaacatc ttctccctct ctctcctgga ttgtttcaca agctcaactc cggcttcagc
+      301 gtcgttctca gcgttgtgtt gatgatgtga tgtgtcccag cgctcacacg tctcactgag
+      361 cagactccga cacacacttg gttccagaca tgaatcagga ttttctccat agctacgatc
+      421 cagttctctc ataatgacgt caccgcagtg aacgacagaa gaaaaagaaa gagaatgacc
+      481 gtgtccctgc tctgtcaagt ttgttggtga tggagtaaat ctaccgatac tgagactgtc
+      541 tgtagtcgtg atggccgccg cctctgcaga gaaggaccag ccgctcctgc agctgcagga
+      601 agtcgactcc agccgagtga gaagttgcgt cctgtctccg atcctcagca cgtcctctcc
+      661 cggtctgtcc ctcgacggca gccagcccat ctgcatcccg tccccttaca cggaactcgg
+      721 ccacgacttc gccaccatcc ccttctacgg tccgaccatc ttcagctacg ctgctcccag
+      781 catcccagac tgtccctctg tccatcagtc cctcagcccg tctttgttct ggcccagcca
+      841 cggccacatg gggccgccca tgaccctgca ccgctcacag ggtcgatccc agcaaggcca
+      901 gcccatccag agtccgtggg gggagctgac gccacgggac ggcgtcttag caaacagtaa
+      961 gggcgtgagg aggcgttccc aggagagcga ggacggcgtg gtgtcgtcgg gcggcaagtc
+     1021 cgacctccac tactgcgccg tgtgtcacga ctacgcctcg ggctaccact acggagtgtg
+     1081 gtcgtgtgag gggtgtaagg ccttcttcaa gaggagcatc caaggacaca acgactacat
+     1141 ctgcccagca accaatcagt gcactataga caagaatcgc cgtaagagct gtcaggcctg
+     1201 tcgcctccga aagtgctacg aagtcggcat gaccaagtgt gggatgcgaa aggatcacgg
+     1261 aagctacagg aaccccaaga cgaggcgact gacgcgtctg tcgtcgcagg gccgagccag
+     1321 cggaccgaag gctttaactg gaccggtggt ggcgctgatg aacgagctgc agcctccagc
+     1381 actgacccca gagcagctga tcgagcggat aatggaggcg gagccgcctg tcatctacct
+     1441 catgaaggac atgagcgggc cgctgacgga ggccaacgtc atgatgtcgc tcacccacct
+     1501 ggccgataag gagctggttc acatgatcac ctgggccaag aagattccag ggtttgtgga
+     1561 gctgggcctg ttggaccagg tgcacctgct ggagtgctgc tggctggagg tgctgatgat
+     1621 gggactgatg tggaggtcag tggaccatcc agggaaactc atcttctccc cggacctcag
+     1681 cctgagcaga gaagagggga gctgcgtcca gggcttctcc gagatctttg atatgctcat
+     1741 cgctgccacg tccagggtga gagagctcaa gctgcagagg gaggagtacg tctgcctcaa
+     1801 ggccatgatt ctcctaaact ccaacatgtg cctcagctcg tccgagggca gcgaggagct
+     1861 gcacagtcgc tccaagttgc ttcttcttct ggacgctgtc acggacgctc tggtgtgggc
+     1921 catcgctaaa actggcctca ccttccgcca gcagtacacc cgcctcgcac acctgctcat
+     1981 gctgctctct cacatccgcc atgtcagtaa caaaggcatg gaccacctcc actgcatgaa
+     2041 aatgaagaac atggtgcctc tgtacgactt gttgctggag atgttggacg cccacatcat
+     2101 gcacagctcc cgcctgcctc accacgcctc cccccagccg gagttcacgg accaggggga
+     2161 ggttcccgct cgacccggca gctctggaaa cggctcctcc aacacctgga ctcccagcac
+     2221 ctctggagac ggaggtgaac cccagtagac gaatagagga actggcacga gatgaagttt
+     2281 cacttctttg cacagagaaa tccacaggac tgatgtggag tcgcgtgagc ttctcaaatc
+     2341 cttcgtttca gctttagaag agagaccaaa ctttttgcac agtgaaaaac cagagtggaa
+     2401 tgagaagaag aacaaagtta acagttaatg atccacttct tgtgcagcag cgggacgtta
+     2461 gtatcatttg ctaaagtcat cttgacagga gatggctgga gcagatgctg ggatgttatt
+     2521 agcagagatc gagccacgcg attacatcag atatgagcag gaagtaaaag cctctgtcac
+     2581 actttgatta ttacatttta ttttgcagaa catcagagat ctcttaactg tgagtaacag
+     2641 atcttgtgcc agttaaagtt tggtgaatgc ctctgcagag aaatctccct ccatatttgt
+     2701 ttgcaggttc atgaaagtaa accacttctt ttttttttat gtgtttgcgg ggtgcttgtt
+     2761 ttagtgtttt tctttgttct accatggata tattgtttgg gttaaagaaa taaacttttt
+     2821 atacctcgaa aaaaaaaaaa aaaaaaaaaa
+//
+
