@@ -1,2 +1,2 @@
 #!/bin/bash
-python ./IGCexpansion/CodonGeneconv.py
+python Run_rebuild_ECPEDN.py
