@@ -9,7 +9,6 @@ Rhinopithecus bieti
 Colobus angolensis
 Gorilla gorilla
 Pan troglodytes
-Pan paniscus
 Homo sapiens
 Pongo pygmaeus
 

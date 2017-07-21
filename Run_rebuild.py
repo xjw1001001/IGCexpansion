@@ -13,6 +13,8 @@ def main(args):
     MG94_tau.get_mle(True, True, 0, 'BFGS')
     MG94_tau.site_reconstruction()
     MG94_tau_series = MG94_tau.reconstruction_series
+    MG94_tau.get_individual_summary(summary_path = './test/Summary/')
+    MG94_tau.get_SitewisePosteriorSummary(summary_path = './test/Summary/')
 
     #MG94
     MG94 = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = {5:0.0}, clock = None, save_path = './test/save/')

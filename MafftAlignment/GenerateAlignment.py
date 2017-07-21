@@ -70,7 +70,7 @@ def GapRemovedFasta(align, output_fasta):
     with open(output_fasta, 'w+') as f:
         for rec in align:
             f.write('>' + str(rec.id) + '\n')
-            f.write(str(rec.seq)[:-3] + '\n')
+            f.write(str(rec.seq.upper())[:-3] + '\n')
 
     
 if __name__ == '__main__':

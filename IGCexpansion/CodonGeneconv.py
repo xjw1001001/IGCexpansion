@@ -1480,6 +1480,15 @@ class ReCodonGeneconv:
                         maxprob_number[sites][nodes_num] = np.argmax(states_matrix[sites,0:16,nodes_num])
                     elif self.Model == 'MG94':
                         maxprob_number[sites][nodes_num] = np.argmax(states_matrix[sites,0:3721,nodes_num])
+            if self.tau == 0:
+                f = open('./test/Ancestral_reconstruction/matrix/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + self.Model +'.txt' ,'w')
+            else:
+                f = open('./test/Ancestral_reconstruction/matrix/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + self.Model +'+IGC.txt' ,'w')
+            f.write(repr(states_matrix))
+            f.write(repr(maxprob_number))
+            f.write('\n')
+            f.write(repr([len(set(maxprob_number[sites])) for sites in range(self.nsites)]))
+            f.close()
             self.get_reconstruction_result(states_matrix, maxprob_number, DNA_or_protein = 'DNA')            
         else:
             print ('Need to implement this for old package')
