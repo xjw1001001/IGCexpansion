@@ -133,7 +133,7 @@ class ReCodonGeneconv:
         else:
             obs_to_state = deepcopy(self.nt_to_state)
             obs_to_state['-'] = -1
-
+        
         # change the number of sites for calculation if requested
         if self.nsites is None:
             self.nsites = len(self.name_to_seq[self.name_to_seq.keys()[0]])
@@ -141,7 +141,7 @@ class ReCodonGeneconv:
             for name in self.name_to_seq:
                 self.name_to_seq[name] = self.name_to_seq[name][: self.nsites]
         print ('number of sites to be analyzed: ', self.nsites)
-
+        
         # assign observable parameters
         suffix_len = len(self.paralog[0])
         self.observable_names = [n for n in self.name_to_seq.keys() if n[:-suffix_len] in self.node_to_num.keys()]
@@ -1557,29 +1557,13 @@ if __name__ == '__main__':
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = '../test/save/')
+    #MG94_tau.get_individual_summary(summary_path = '../test/Summary/')
     #MG94_tau.get_mle(True, True, 0, 'BFGS')
-    MG94_tau.site_reconstruction()
-    MG94_tau_series = MG94_tau.reconstruction_series
+    #MG94_tau.site_reconstruction()
+    #MG94_tau_series = MG94_tau.reconstruction_series
     
-    #MG94
-    MG94 = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = {5:0.0}, clock = None, save_path = '../test/save/')
-    #MG94.get_mle(True, True, 0, 'BFGS')
-    MG94.site_reconstruction()
-    MG94_series = MG94.reconstruction_series
-    result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
-    
-    #HKY+tau
-    HKY_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = Force, clock = None, save_path = '../test/save/')
-    #HKY_tau.get_mle(True, True, 0, 'BFGS')
-    HKY_tau.site_reconstruction()
-    HKY_tau_series = HKY_tau.reconstruction_series
-    
-    #MG94
-    HKY = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = {4:0.0}, clock = None, save_path = '../test/save/')
-    #HKY.get_mle(True, True, 0, 'BFGS')
-    HKY.site_reconstruction()
-    HKY_series = HKY.reconstruction_series
-    result = HKY_tau.find_differences_between(HKY_tau_series, HKY_series)
+
+   
     
 #test.get_sitewise_loglikelihood_summary('../test/YLR406C_YDL075W_sitewise_lnL.txt')
 

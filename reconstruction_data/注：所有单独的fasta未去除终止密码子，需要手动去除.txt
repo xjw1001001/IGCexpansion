@@ -1,0 +1,4 @@
+EDNECP步骤：
+1.获取所有EDNECP gb文件
+2.将CDSfasta拷贝至一个文件，进行MAFFA alignment，参数是alignment method 5
+3.去除gap和终止子

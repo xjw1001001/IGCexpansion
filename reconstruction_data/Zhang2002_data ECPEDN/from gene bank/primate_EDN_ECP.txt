@@ -1,0 +1,16 @@
+Saguinus oedipus
+Mandrillus leucophaeus
+Cercocebus atys
+Papio anubis
+Macaca mulatta
+Macaca fascicularis
+Macaca nemestrina
+Rhinopithecus bieti
+Colobus angolensis
+Gorilla gorilla
+Pan troglodytes
+Pan paniscus
+Homo sapiens
+Pongo pygmaeus
+
+注：树中节点从左往右赋N0-N1-Etc
