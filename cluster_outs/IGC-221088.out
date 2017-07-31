@@ -1,0 +1,6 @@
+number of sites to be analyzed:  156
+Successfully loaded parameter value from ./test/save/MG94_EDN_ECP_nonclock_save.txt
+Traceback (most recent call last):
+  File "Run_rebuild_ECPEDN.py", line 20, in <module>
+    G94_tau.get_mle(True, True, 0, 'BFGS')
+NameError: name 'G94_tau' is not defined
