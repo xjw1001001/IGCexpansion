@@ -1535,7 +1535,7 @@ class ReCodonGeneconv:
         for nodes_num in range(len(reconstruction_series1['data'])):
             for paralog in self.paralog:
                 result[reconstruction_series1['data'][nodes_num]['name'] + '_' + paralog] = {'location':[], 'model_1': [], 'model_2': [], 'differences': 0}
-                for sites in range(len(reconstruction_series1['data'][nodes_num])):
+                for sites in range(len(reconstruction_series1['data'][nodes_num][paralog])):
                     if reconstruction_series1['data'][nodes_num][paralog][sites] == reconstruction_series2['data'][nodes_num][paralog][sites]:
                         continue
                     else:
@@ -1543,8 +1543,8 @@ class ReCodonGeneconv:
                         result[reconstruction_series1['data'][nodes_num]['name'] + '_' + paralog]['model_1'].append(reconstruction_series1['data'][nodes_num][paralog][sites])
                         result[reconstruction_series1['data'][nodes_num]['name'] + '_' + paralog]['model_2'].append(reconstruction_series2['data'][nodes_num][paralog][sites])
                         result[reconstruction_series1['data'][nodes_num]['name'] + '_' + paralog]['differences'] += 1
-                        flag += 1
-                        print (flag)
+                        flag += 1       
+        print (flag)
         filename.write('Total differences:' + str(flag)+ '\n')
         if flag >= 1:
             f = open('./test/Ancestral_reconstruction/desired_result/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + reconstruction_series1['model'] + '_' + reconstruction_series2['model'] +'.txt' ,'w')
