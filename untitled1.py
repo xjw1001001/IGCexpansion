@@ -18,6 +18,7 @@ A[85]=states_matrix_IGC[85,:,:]
 A[87]=states_matrix_IGC[87,:,:]
 A[90]=states_matrix_IGC[90,:,:]
 A[92]=states_matrix_IGC[92,:,:]
+A[93]=states_matrix_IGC[93,:,:]
 A[95]=states_matrix_IGC[95,:,:]
 A[99]=states_matrix_IGC[99,:,:]
 A[102]=states_matrix_IGC[102,:,:]
@@ -43,6 +44,7 @@ B[85]=states_matrix[85,:,:]
 B[87]=states_matrix[87,:,:]
 B[90]=states_matrix[90,:,:]
 B[92]=states_matrix[92,:,:]
+B[93]=states_matrix[93,:,:]
 B[95]=states_matrix[95,:,:]
 B[99]=states_matrix[99,:,:]
 B[102]=states_matrix[102,:,:]
@@ -54,8 +56,49 @@ B[128]=states_matrix[128,:,:]
 B[122]=states_matrix[122,:,:]
 B[155]=states_matrix[155,:,:]
 
-for site in A.keys():
-     np.save('./test/Ancestral_reconstruction/matrix/likelihood_IGC_' + str(site+1) + 'th.npy', A[site])
-for site in B.keys():
-     np.save('./test/Ancestral_reconstruction/matrix/likelihood_no_IGC_' + str(site+1) + 'th.npy', B[site])
 
+
+
+
+
+
+IGClikelihood={}
+sitelist = [18,26,29,47,55,61,65,76,84,85,87,90,92,93,95,99,102,115,120,125,128,122,155]
+for site in sitelist:  
+    IGClikelihood[site]={}  
+    for node in range(len(self.node_to_num)):   
+        IGClikelihood[site][node]={}      
+        for i in bn.argpartition(-A[site][:,node], 7)[:7]:  
+            IGClikelihood[site][node][i] = A[site][i,node]
+f = open('./test/Ancestral_reconstruction/matrix/IGClikelihooddict.txt', 'wb')
+pickle.dump(IGClikelihood, f)
+f.close()
+
+NoIGClikelihood={}
+sitelist = [18,26,29,47,55,61,65,76,84,85,87,90,92,93,95,99,102,115,120,125,128,122,155]
+for site in sitelist:  
+    NoIGClikelihood[site]={}  
+    for node in range(len(self.node_to_num)):     
+        NoIGClikelihood[site][node]={}      
+        for i in bn.argpartition(-B[site][:,node], 7)[:7]:      
+            NoIGClikelihood[site][node][i] = B[site][i,node]
+            
+f = open('./test/Ancestral_reconstruction/matrix/NoIGClikelihooddict.txt', 'wb')
+pickle.dump(NoIGClikelihood, f)
+f.close()
+
+sites=930
+state_1, state_2 = divmod(sites, 61)
+state_1 = self.state_to_codon[int(state_1)]
+state_2 = self.state_to_codon[int(state_2)]
+[state_1,state_2]
+
+import numpy as np
+AIGCmax=np.load('./test/Ancestral_reconstruction/matrix/EDNECPwithIGC.npy')
+AnoIGCmax=np.load('./test/Ancestral_reconstruction/matrix/EDNECPwithoutIGC.npy')
+
+import cPickle as pickle
+f1 = file('./test/Ancestral_reconstruction/matrix/IGClikelihooddict.txt', 'rb') 
+f2 = file('./test/Ancestral_reconstruction/matrix/NoIGClikelihooddict.txt', 'rb') 
+AIGClikelihood = pickle.load(f1) 
+AnoIGClikelihood = pickle.load(f2) 

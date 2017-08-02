@@ -13,3 +13,29 @@ Homo sapiens
 Pongo pygmaeus
 
 注：树中节点从左往右赋N0-N1-Etc
+
+'Cercocebus_atys': 22,
+ 'Colobus_angolensis': 12,
+ 'Gorilla_gorilla': 13,
+ 'Homo_sapiens': 20,
+ 'Macaca_fascicularis': 24,
+ 'Macaca_mulatta': 23,
+ 'Macaca_nemestrina': 18,
+ 'Mandrillus_leucophaeus': 21,
+ 'N0': 0,
+ 'N1': 2,
+ 'N10': 15,
+ 'N11': 17,
+ 'N2': 3,
+ 'N3': 4,
+ 'N4': 6,
+ 'N5': 5,
+ 'N6': 9,
+ 'N7': 7,
+ 'N8': 14,
+ 'N9': 10,
+ 'Pan_troglodytes': 19,
+ 'Papio_anubis': 16,
+ 'Pongo_pygmaeus': 8,
+ 'Rhinopithecus_bieti': 11,
+ 'Saguinus_oedipus': 1
