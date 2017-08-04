@@ -102,3 +102,26 @@ f1 = file('./test/Ancestral_reconstruction/matrix/IGClikelihooddict.txt', 'rb')
 f2 = file('./test/Ancestral_reconstruction/matrix/NoIGClikelihooddict.txt', 'rb') 
 AIGClikelihood = pickle.load(f1) 
 AnoIGClikelihood = pickle.load(f2) 
+
+from Bio import SeqIO
+seq_dictMAPL = SeqIO.to_dict(SeqIO.parse( './reconstruction_data/mafft-win/MAPLreconst EDNECP.fasta', "fasta" ))
+seq_dictIGC = SeqIO.to_dict(SeqIO.parse( './reconstruction_data/mafft-win/ancestral_reconstruction_EDN_ECP_MG94+IGC.fasta', "fasta" ))
+seq_dictIGC_tau_0 = SeqIO.to_dict(SeqIO.parse( './reconstruction_data/mafft-win/ancestral_reconstruction_EDN_ECP_MG94.fasta', "fasta" ))
+
+seq_dictIGC['N1ECP'].seq#like string
+
+flag=0
+result = {}
+for nodes in seq_dictIGC_tau_0.keys():
+    result[nodes] = {}
+    for site in range(len(seq_dictMAPL[nodes].seq)):
+        if seq_dictMAPL[nodes].seq[site] == seq_dictIGC_tau_0[nodes].seq[site]:
+            continue
+        else:
+            
+            result[nodes][site] = {}
+            result[nodes][site]['IGC'] = seq_dictMAPL[nodes].seq[site]
+            result[nodes][site]['PAML'] = seq_dictIGC_tau_0[nodes].seq[site]
+            flag=flag+1
+print (flag)    
+

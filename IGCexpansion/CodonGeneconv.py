@@ -1520,6 +1520,13 @@ class ReCodonGeneconv:
                     state_2 = int(state_2)
                     self.reconstruction_series['data'][nodes_num][self.paralog[0]]+=self.state_to_codon[state_1]
                     self.reconstruction_series['data'][nodes_num][self.paralog[1]]+=self.state_to_codon[state_2]
+        filename = open('./test/Ancestral_reconstruction/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +self.reconstruction_series['model'] + '.fasta' ,'w')
+        for nodes_num in range(len(self.reconstruction_series['data'])):
+            filename.write('>'+self.reconstruction_series['data'][nodes_num]['name']+self.paralog[0]+'\n')
+            filename.write(self.reconstruction_series['data'][nodes_num][self.paralog[0]]+'\n')
+            filename.write('>'+self.reconstruction_series['data'][nodes_num]['name']+self.paralog[1]+'\n')
+            filename.write(self.reconstruction_series['data'][nodes_num][self.paralog[1]]+'\n')
+        filename.close()
         
     def find_differences_between(self, reconstruction_series1, reconstruction_series2):#the series must from one tree
         assert(len(reconstruction_series1['data'])==len(reconstruction_series2['data']))
