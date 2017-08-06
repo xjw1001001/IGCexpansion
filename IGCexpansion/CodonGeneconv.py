@@ -1397,6 +1397,22 @@ class ReCodonGeneconv:
         else:
             return out        
 
+    def Expected_tau_for_sitewise_and_branchwise(self, display = False):
+        if self.GeneconvTransRed is None:
+            self.GeneconvTransRed = self.get_geneconvTransRed()
+
+        self.scene_ll = self.get_scene()
+        requests = [{'property' : 'SDNTRAN', 'transition_reduction' : self.GeneconvTransRed}]
+        j_in = {
+            'scene' : self.scene_ll,
+            'requests' : requests
+            }        
+        j_out = jsonctmctree.interface.process_json_in(j_in)
+
+        status = j_out['status']
+        ExpectedGeneconv = {self.edge_list[i] : j_out['responses'][0][i] for i in range(len(self.edge_list))}
+        return ExpectedGeneconv
+
     def get_individual_summary(self, summary_path, file_name = None):
         if file_name == None:
             if not self.Force:
@@ -1444,9 +1460,9 @@ class ReCodonGeneconv:
             f=open('./test/Ancestral_reconstruction/model_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +self.Model +'_tau=0'+method+'.txt', 'w+')
         else:
             f=open('./test/Ancestral_reconstruction/model_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +self.Model +'_IGC'+method+'.txt', 'w+')
-        f.write(self.ll)
+        f.write(repr(self.ll))
         f.write('/n')
-        f.write(2*len(self.x)-2*self.ll)
+        f.write(repr(2*len(self.x)-2*self.ll))
         f.close()
         
     def save_x(self):
