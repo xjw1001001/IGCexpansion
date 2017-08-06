@@ -125,3 +125,36 @@ for nodes in seq_dictIGC_tau_0.keys():
             flag=flag+1
 print (flag)    
 
+#find the max
+tt=7
+likelihood_temp=[]
+argmatrix=np.zeros((156,25,tt))  
+likelihood_matrix=np.zeros((156,25,tt))  
+
+for site in range(self.nsites):
+    likelihood_temp.append([])
+    for node in range(len(self.node_to_num)):
+        likelihood_temp[site].append([])
+        likelihood_temp[site][node]={}
+        for i in range(tt):      
+            likelihood_temp[site][node][np.argpartition(-states_matrix[site,0:3721,node], tt)[i]]=states_matrix[site,0:3721,node][np.argpartition(-states_matrix[site,0:3721,node], tt)[i]]
+#sort
+likelihood_dict=[]
+for site in range(self.nsites):
+    likelihood_dict.append([])
+    for node in range(len(self.node_to_num)):
+        likelihood_dict[site].append([])
+        likelihood_dict[site][node]=sorted(likelihood_temp[site][node].items(), lambda x, y: cmp(x[1], y[1]), reverse=True)
+        for i in range(tt):  
+            (argmatrix[site,node,i],likelihood_matrix[site,node,i])=likelihood_dict[site][node][i]
+self.likelihood_dict=likelihood_dict
+#save as numpy
+if self.tau == 0:
+    model = self.Model + '_tau=0'
+else:
+    model = self.Model + '_IGC'
+
+for node in range(len(self.node_to_num)):    
+    np.savetxt(open('./test/Ancestral_reconstruction/matrix/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
+    np.savetxt(open('./test/Ancestral_reconstruction/matrix/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
+        
