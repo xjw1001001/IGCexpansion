@@ -45,5 +45,4 @@ if __name__ == '__main__':
     HKY.site_reconstruction()
     HKY_series = HKY.reconstruction_series
     result = HKY_tau.find_differences_between(HKY_tau_series, HKY_series)
-    '''
     
