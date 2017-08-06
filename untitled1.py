@@ -110,7 +110,7 @@ seq_dictIGC_tau_0 = SeqIO.to_dict(SeqIO.parse( './reconstruction_data/mafft-win/
 
 seq_dictIGC['N1ECP'].seq#like string
 
-flag=0
+flag=0#paml reubild
 result = {}
 for nodes in seq_dictIGC_tau_0.keys():
     result[nodes] = {}

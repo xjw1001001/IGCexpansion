@@ -1520,7 +1520,7 @@ class ReCodonGeneconv:
                     state_2 = int(state_2)
                     self.reconstruction_series['data'][nodes_num][self.paralog[0]]+=self.state_to_codon[state_1]
                     self.reconstruction_series['data'][nodes_num][self.paralog[1]]+=self.state_to_codon[state_2]
-        filename = open('./test/Ancestral_reconstruction/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +self.reconstruction_series['model'] + '.fasta' ,'w')
+        filename = open('./test/Ancestral_reconstruction/series/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +self.reconstruction_series['model'] + '.fasta' ,'w')
         for nodes_num in range(len(self.reconstruction_series['data'])):
             filename.write('>'+self.reconstruction_series['data'][nodes_num]['name']+self.paralog[0]+'\n')
             filename.write(self.reconstruction_series['data'][nodes_num][self.paralog[0]]+'\n')
@@ -1533,11 +1533,6 @@ class ReCodonGeneconv:
         #下一句为直接调试时调用
         #filename = open('../test/Ancestral_reconstruction/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + reconstruction_series1['model'] + '_' + reconstruction_series2['model'] +'.txt' ,'w')
         #下一句为用Run_rebuild.py运行时调用
-        filename = open('./test/Ancestral_reconstruction/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + reconstruction_series1['model'] + '_' + reconstruction_series2['model'] +'.txt' ,'w')
-        filename.write(repr(reconstruction_series1))
-        filename.write(repr(reconstruction_series2))
-        filename.write('\n')
-        result = {}
         flag = 0
         for nodes_num in range(len(reconstruction_series1['data'])):
             for paralog in self.paralog:
@@ -1551,14 +1546,12 @@ class ReCodonGeneconv:
                         result[reconstruction_series1['data'][nodes_num]['name'] + '_' + paralog]['model_2'].append(reconstruction_series2['data'][nodes_num][paralog][sites])
                         result[reconstruction_series1['data'][nodes_num]['name'] + '_' + paralog]['differences'] += 1
                         flag += 1       
-        print (flag)
-        filename.write('Total differences:' + str(flag)+ '\n')
+        
         if flag >= 1:
             f = open('./test/Ancestral_reconstruction/desired_result/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + reconstruction_series1['model'] + '_' + reconstruction_series2['model'] +'.txt' ,'w')
+            f.write('Total differences:' + str(flag)+ '\n')
             f.write(repr(result))
             f.close()
-        filename.write(repr(result))
-        filename.close()
         return result       
     
 if __name__ == '__main__':
