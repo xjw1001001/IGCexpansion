@@ -1298,7 +1298,7 @@ class ReCodonGeneconv:
                 }            
             j_out = jsonctmctree.interface.process_json_in(j_in)
             status = j_out['status']
-            SitewiseExpectedDirectionalNumGeneconv = [np.matrix(j_out['responses'][0]).T, np.matrix(j_out['responses'][1]).T]
+            SitewiseExpectedDirectionalNumGeneconv = [np.matrix(j_out['responses'][0]), np.matrix(j_out['responses'][1])]
             return SitewiseExpectedDirectionalNumGeneconv
         else:
             print ('Need to implement this for old package')
@@ -1401,6 +1401,7 @@ class ReCodonGeneconv:
         if self.GeneconvTransRed is None:
             self.GeneconvTransRed = self.get_geneconvTransRed()
         
+        #get number
         self.scene_ll = self.get_scene()
         requests = [{'property' : 'DDNTRAN', 'transition_reduction' : self.GeneconvTransRed}]
         j_in = {
@@ -1408,21 +1409,21 @@ class ReCodonGeneconv:
             'requests' : requests
             }        
         j_out = jsonctmctree.interface.process_json_in(j_in)
-
+        
         #j_out['responses'][0]:site*branch (发生IGC次数期望)
         status = j_out['status']
-        ExpectedIGCnum = j_out['responses'][0]
+        ExpectedIGCnum = np.array(j_out['responses'][0])
         
-
+        #get time
         if self.Model == 'MG94':                                
             heterogeneous_states = [(a, b) for (a, b) in list(product(range(len(self.codon_to_state)), repeat = 2)) if a != b]
         elif self.Model == 'HKY':
             heterogeneous_states = [(a, b) for (a, b) in list(product(range(len(self.nt_to_state)), repeat = 2)) if a != b]
         dwell_request = [dict(
-            property = 'SDWDWEL',
+            property = 'DDWDWEL',
             state_reduction = dict(
                 states = heterogeneous_states,
-                weights = [2] * len(heterogeneous_states)
+                weights = [2] * len(heterogeneous_states)#
             )
         )]
         
@@ -1431,10 +1432,32 @@ class ReCodonGeneconv:
             'requests' : dwell_request,
             }        
         j_out = jsonctmctree.interface.process_json_in(j_in)
-
+        
         status = j_out['status']
-        ExpectedDwellTime = {self.edge_list[i] : j_out['responses'][0][i] for i in range(len(self.edge_list))}
-    
+        HetDwelltime = np.array(j_out['responses'][0])
+        
+        Expected_tau=np.zeros((self.nsites,len(self.edge_to_blen)))
+        for site in range(self.nsites):
+            for branch in range(len(self.edge_list)):
+                if HetDwelltime[site,branch] != 0:
+                    Expected_tau[site,branch] = ExpectedIGCnum[site,branch] / (self.edge_to_blen[self.edge_list[branch]] * HetDwelltime[site,branch])
+                else:
+                    Expected_tau[site,branch] = 0
+        SiteExpectedDirectionalNumGeneconv = self._SitewiseExpectedDirectionalNumGeneconv()#1->2 0 2->1 1
+        
+        self.scene_ll = self.get_scene()
+
+        if self.tau == 0:
+                model = self.Model + '_tau=0'
+        else:
+                model = self.Model + '_IGC'
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), ExpectedIGCnum)
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum1->2/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[0])
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum2->1/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[1])
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Expected_tau/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Expected_tau)
+        
+        
+       
     def get_individual_summary(self, summary_path, file_name = None):
         if file_name == None:
             if not self.Force:
@@ -1483,7 +1506,7 @@ class ReCodonGeneconv:
         else:
             f=open('./test/Ancestral_reconstruction/model_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +self.Model +'_IGC'+method+'.txt', 'w+')
         f.write(repr(self.ll))
-        f.write('/n')
+        f.write('\n')
         f.write(repr(2*len(self.x)-2*self.ll))
         f.close()
         
@@ -1560,8 +1583,8 @@ class ReCodonGeneconv:
                 model = self.Model + '_IGC'
             
             for node in range(len(self.node_to_num)):    
-                np.savetxt(open('./test/Ancestral_reconstruction/matrix/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
-                np.savetxt(open('./test/Ancestral_reconstruction/matrix/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
+                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
+                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
             
             self.get_reconstruction_result(states_matrix, maxprob_number, DNA_or_protein = 'DNA')            
         else:
