@@ -1400,19 +1400,41 @@ class ReCodonGeneconv:
     def Expected_tau_for_sitewise_and_branchwise(self, display = False):
         if self.GeneconvTransRed is None:
             self.GeneconvTransRed = self.get_geneconvTransRed()
-
+        
         self.scene_ll = self.get_scene()
-        requests = [{'property' : 'SDNTRAN', 'transition_reduction' : self.GeneconvTransRed}]
+        requests = [{'property' : 'DDNTRAN', 'transition_reduction' : self.GeneconvTransRed}]
         j_in = {
             'scene' : self.scene_ll,
             'requests' : requests
             }        
         j_out = jsonctmctree.interface.process_json_in(j_in)
 
+        #j_out['responses'][0]:site*branch (发生IGC次数期望)
         status = j_out['status']
-        ExpectedGeneconv = {self.edge_list[i] : j_out['responses'][0][i] for i in range(len(self.edge_list))}
-        return ExpectedGeneconv
+        ExpectedIGCnum = j_out['responses'][0]
+        
 
+        if self.Model == 'MG94':                                
+            heterogeneous_states = [(a, b) for (a, b) in list(product(range(len(self.codon_to_state)), repeat = 2)) if a != b]
+        elif self.Model == 'HKY':
+            heterogeneous_states = [(a, b) for (a, b) in list(product(range(len(self.nt_to_state)), repeat = 2)) if a != b]
+        dwell_request = [dict(
+            property = 'SDWDWEL',
+            state_reduction = dict(
+                states = heterogeneous_states,
+                weights = [2] * len(heterogeneous_states)
+            )
+        )]
+        
+        j_in = {
+            'scene' : self.scene_ll,
+            'requests' : dwell_request,
+            }        
+        j_out = jsonctmctree.interface.process_json_in(j_in)
+
+        status = j_out['status']
+        ExpectedDwellTime = {self.edge_list[i] : j_out['responses'][0][i] for i in range(len(self.edge_list))}
+    
     def get_individual_summary(self, summary_path, file_name = None):
         if file_name == None:
             if not self.Force:
@@ -1586,6 +1608,7 @@ class ReCodonGeneconv:
         #下一句为直接调试时调用
         #filename = open('../test/Ancestral_reconstruction/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' + reconstruction_series1['model'] + '_' + reconstruction_series2['model'] +'.txt' ,'w')
         #下一句为用Run_rebuild.py运行时调用
+        result = {}
         flag = 0
         for nodes_num in range(len(reconstruction_series1['data'])):
             for paralog in self.paralog:
