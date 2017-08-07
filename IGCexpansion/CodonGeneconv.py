@@ -1678,8 +1678,8 @@ class ReCodonGeneconv:
             #find the max
             tt=7
             likelihood_temp=[]
-            argmatrix=np.zeros((156,25,tt))  
-            likelihood_matrix=np.zeros((156,25,tt))  
+            argmatrix=np.zeros((self.nsites,len(self.node_to_num),tt))  
+            likelihood_matrix=np.zeros((self.nsites,len(self.node_to_num),tt))  
             
             for site in range(self.nsites):
                 likelihood_temp.append([])
