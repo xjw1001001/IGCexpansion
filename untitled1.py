@@ -108,6 +108,8 @@ seq_dictMAPL = SeqIO.to_dict(SeqIO.parse( './reconstruction_data/mafft-win/MAPLr
 seq_dictIGC = SeqIO.to_dict(SeqIO.parse( './reconstruction_data/mafft-win/ancestral_reconstruction_EDN_ECP_MG94+IGC.fasta', "fasta" ))
 seq_dictIGC_tau_0 = SeqIO.to_dict(SeqIO.parse( './reconstruction_data/mafft-win/ancestral_reconstruction_EDN_ECP_MG94.fasta', "fasta" ))
 
+
+
 seq_dictIGC['N1ECP'].seq#like string
 
 flag=0#paml reubild
