@@ -1,0 +1,2 @@
+IGCexpansion/CodonGeneconv.py:276: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if not x == None:
