@@ -349,6 +349,8 @@ class ReCodonGeneconv:
         col = []
         rate_geneconv = []
         rate_basic = []
+        rate_geneconv_no1to2 = []
+        rate_geneconv_no2to1 = []
 
         for i, pair in enumerate(product(self.codon_nonstop, repeat = 2)):
             # use ca, cb, cc to denote codon_a, codon_b, codon_c, where cc != ca, cc != cb
@@ -366,6 +368,8 @@ class ReCodonGeneconv:
                         row.append((sa, sb))
                         col.append((sa, sc))
                         rate_geneconv.append(Qb)
+                        rate_geneconv_no1to2.append(Qb)
+                        rate_geneconv_no2to1.append(Qb)
                         rate_basic.append(0.0)
 
                     # (ca, cb) to (cc, cb)
@@ -374,6 +378,8 @@ class ReCodonGeneconv:
                         row.append((sa, sb))
                         col.append((sc, sb))
                         rate_geneconv.append(Qb)
+                        rate_geneconv_no1to2.append(Qb)
+                        rate_geneconv_no2to1.append(Qb)
                         rate_basic.append(0.0)
 
                         
@@ -386,6 +392,8 @@ class ReCodonGeneconv:
                 else:
                     Tgeneconv = self.tau
                 rate_geneconv.append(Qb + Tgeneconv)
+                rate_geneconv_no1to2.append(Qb)
+                rate_geneconv_no2to1.append(Qb + Tgeneconv)
                 rate_basic.append(0.0)
                 
                 # (ca, cb) to (cb, cb)
@@ -393,6 +401,8 @@ class ReCodonGeneconv:
                 col.append((sb, sb))
                 Qb = Qbasic[sa, sb]
                 rate_geneconv.append(Qb + Tgeneconv)
+                rate_geneconv_no1to2.append(Qb + Tgeneconv)
+                rate_geneconv_no2to1.append(Qb)
                 rate_basic.append(0.0)
 
             else:
@@ -407,17 +417,23 @@ class ReCodonGeneconv:
                         row.append((sa, sb))
                         col.append((sa, sc))
                         rate_geneconv.append(Qb)
+                        rate_geneconv_no1to2.append(Qb)
+                        rate_geneconv_no2to1.append(Qb)
                         rate_basic.append(0.0)
                     # (ca, ca) to (cc, ca)
                         row.append((sa, sb))
                         col.append((sc, sa))
                         rate_geneconv.append(Qb)
+                        rate_geneconv_no1to2.append(Qb)
+                        rate_geneconv_no2to1.append(Qb)
                         rate_basic.append(0.0)
 
                     # (ca, ca) to (cc, cc)
                         row.append((sa, sb))
                         col.append((sc, sc))
                         rate_geneconv.append(0.0)
+                        rate_geneconv_no1to2.append(0.0)
+                        rate_geneconv_no2to1.append(0.0)
                         rate_basic.append(Qb)
                 
         process_geneconv = dict(
@@ -430,7 +446,17 @@ class ReCodonGeneconv:
             col = col,
             rate = rate_basic
             )
-        return [process_basic, process_geneconv]
+        process_no1to2 = dict(
+            row = row,
+            col = col,
+            rate = rate_geneconv_no1to2
+            )
+        process_no2to1 = dict(
+            row = row,
+            col = col,
+            rate = rate_geneconv_no2to1
+            )
+        return [process_basic, process_geneconv, process_no1to2, process_no2to1]
 
     def get_MG94Basic(self):
         Qbasic = np.zeros((61, 61), dtype = float)
@@ -1281,7 +1307,7 @@ class ReCodonGeneconv:
                 }            
             j_out = jsonctmctree.interface.process_json_in(j_in)
             status = j_out['status']
-            SitewiseExpectedpointMutation = np.matrix(j_out['responses'][0]).T
+            SitewiseExpectedpointMutation = np.matrix(j_out['responses'][0])
             return SitewiseExpectedpointMutation
         else:
             print ('Need to implement this for old package')
@@ -1446,17 +1472,113 @@ class ReCodonGeneconv:
         SiteExpectedDirectionalNumGeneconv = self._SitewiseExpectedDirectionalNumGeneconv()#1->2 0 2->1 1
         
         self.scene_ll = self.get_scene()
-
+        
         if self.tau == 0:
                 model = self.Model + '_tau=0'
         else:
                 model = self.Model + '_IGC'
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), ExpectedIGCnum)
-        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum1->2/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[0])
-        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum2->1/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[1])
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum1_2/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[0])
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum2_1/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[1])
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Expected_tau/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Expected_tau)
         
         
+        #posterior probability no 1->2
+        lnposterior_no_1to2 = np.zeros((self.nsites,len(self.edge_list)))
+        for branch in range(1,len(self.edge_list)):
+            #site logll
+            j_in = {
+                'scene' : self.scene_ll,
+                'requests' : [{"property" : "DNNLOGL"}],
+                }        
+            j_out = jsonctmctree.interface.process_json_in(j_in)#TODO:sitewise aic
+            sitewise_logll = j_out['responses'][0]
+                       
+            #getll with tau = 0 for one side
+            #get scene with branch
+            process_definitions = [{'row_states':i['row'], 'column_states':i['col'], 'transition_rates':i['rate']} for i in self.processes]
+            edge_processes = self.tree['process']
+            edge_processes[branch]=2#no 1->2
+            scene = dict(
+                node_count = len(self.edge_to_blen) + 1,
+                process_count = len(self.processes),
+                state_space_shape = [61, 61],
+                tree = {
+                    'row_nodes' : self.tree['row'],
+                    'column_nodes' : self.tree['col'],
+                    'edge_rate_scaling_factors' : self.tree['rate'],
+                    'edge_processes' : edge_processes
+                    },
+                root_prior = {'states':self.prior_feasible_states,
+                              'probabilities': self.prior_distribution},
+                process_definitions = process_definitions,
+                observed_data = {
+                    'nodes':self.observable_nodes,
+                    'variables':self.observable_axes,
+                    'iid_observations':self.iid_observations
+                    }            
+                )
+            j_in = {
+                'scene' : scene,
+                'requests' : [{"property" : "DNNLOGL"}],
+                }        
+            j_out = jsonctmctree.interface.process_json_in(j_in)
+            sitewise_NoIGC_1to2_logll = j_out['responses'][0]
+            
+            for site in range(self.nsites):
+                lnposterior_no_1to2[site,branch] = (sitewise_NoIGC_1to2_logll[site]-
+                                   0.5*self.tau*HetDwelltime[site,branch]*self.edge_to_blen[self.edge_list[branch]]-
+                                                           sitewise_logll[site])
+                
+        #posterior probability no 2->1
+        lnposterior_no_2to1 = np.zeros((self.nsites,len(self.edge_list)))
+        for branch in range(1,len(self.edge_list)):
+            #site logll
+            j_in = {
+                'scene' : self.scene_ll,
+                'requests' : [{"property" : "DNNLOGL"}],
+                }        
+            j_out = jsonctmctree.interface.process_json_in(j_in)#TODO:sitewise aic
+            sitewise_logll = j_out['responses'][0]
+                       
+            #getll with tau = 0 for one side
+            #get scene with branch
+            process_definitions = [{'row_states':i['row'], 'column_states':i['col'], 'transition_rates':i['rate']} for i in self.processes]
+            edge_processes = self.tree['process']
+            edge_processes[branch]=3#no 2->1
+            scene = dict(
+                node_count = len(self.edge_to_blen) + 1,
+                process_count = len(self.processes),
+                state_space_shape = [61, 61],
+                tree = {
+                    'row_nodes' : self.tree['row'],
+                    'column_nodes' : self.tree['col'],
+                    'edge_rate_scaling_factors' : self.tree['rate'],
+                    'edge_processes' : edge_processes
+                    },
+                root_prior = {'states':self.prior_feasible_states,
+                              'probabilities': self.prior_distribution},
+                process_definitions = process_definitions,
+                observed_data = {
+                    'nodes':self.observable_nodes,
+                    'variables':self.observable_axes,
+                    'iid_observations':self.iid_observations
+                    }            
+                )
+            j_in = {
+                'scene' : scene,
+                'requests' : [{"property" : "DNNLOGL"}],
+                }        
+            j_out = jsonctmctree.interface.process_json_in(j_in)
+            sitewise_NoIGC_2to1_logll = j_out['responses'][0]
+            
+            for site in range(self.nsites):
+                lnposterior_no_2to1[site,branch] = (sitewise_NoIGC_2to1_logll[site]-
+                                   0.5*self.tau*HetDwelltime[site,branch]*self.edge_to_blen[self.edge_list[branch]]-
+                                                           sitewise_logll[site])
+        
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/posterior/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'_no1to2.txt', 'w+'), lnposterior_no_1to2)
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/posterior/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'_no2to1.txt', 'w+'), lnposterior_no_2to1)
        
     def get_individual_summary(self, summary_path, file_name = None):
         if file_name == None:
@@ -1583,8 +1705,8 @@ class ReCodonGeneconv:
                 model = self.Model + '_IGC'
             
             for node in range(len(self.node_to_num)):    
-                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
-                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
+                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
+                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
             
             self.get_reconstruction_result(states_matrix, maxprob_number, DNA_or_protein = 'DNA')            
         else:
