@@ -1,0 +1,66 @@
+LOCUS       EU482033                1491 bp    mRNA    linear   INV 01-MAR-2009
+DEFINITION  Platynereis dumerilii estrogen receptor mRNA, complete cds.
+ACCESSION   EU482033
+VERSION     EU482033.1
+KEYWORDS    .
+SOURCE      Platynereis dumerilii (Dumeril's clam worm)
+  ORGANISM  Platynereis dumerilii
+            Eukaryota; Metazoa; Lophotrochozoa; Annelida; Polychaeta; Palpata;
+            Aciculata; Phyllodocida; Nereididae; Platynereis.
+REFERENCE   1  (bases 1 to 1491)
+  AUTHORS   Bridgham,J.T., Brown,J., Rodriguez-Mari,A. and Thornton,J.W.
+  TITLE     Evolution of a new function by degenerative mutation in
+            cephalochordate steroid receptors
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1491)
+  AUTHORS   Keay,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-FEB-2008) Center for Ecology and Evolutionary
+            Biology, University of Oregon, 5289 University of Oregon, Eugene,
+            OR 97403, USA
+FEATURES             Location/Qualifiers
+     source          1..1491
+                     /organism="Platynereis dumerilii"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:6359"
+     CDS             1..1491
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="ACC94156.1"
+                     /translation="MADDSQGPYTPQRSPEEEWGGQTSEPSPIDLGGHANADQLPSDG
+                     DSKDVQKCQICSDLASGFHYGVWSCEGCKAFFKRSLQDPVDYVCPATNNCTIDKHRRK
+                     SCQACRFRKCLEVGMMKRRERRTTKKVKSPGSPEEKITKKVRTPNTKPNPKEKGPPVE
+                     NNGQSRRVLQLEETVAVESVKTEAVSPQECSPSGHTSQEDLSVPMTSASQSFNLTPPP
+                     STSSSTSSPSNGTSSLQIDASTFKIDPGLPLDQPHPLVVILEENDLPPKICKEPLTAE
+                     SEETEYSLLHRLIGLADMELVDVVNWAKVLPGFSGLELRDRIAILESCWMELLCIGAA
+                     WRSRLNTTFQVNFAENLHFNEETAKKAKMSSIVGEIWQISQQFRYLELSNHEFMLLRV
+                     VTMLNAESIRLSCLDAMHKIRQQYLEALHFECGRTLGKISESSCVRMAQILCILPFAR
+                     QVSLKAITHLFNMHNQHAVPVGDLVAEMLVAQKELMTNEDSAKIIT"
+ORIGIN      
+        1 atggcagacg acagccaagg gccttacaca ccccagagat ctccagagga agagtggggc
+       61 ggccagacca gtgaacccag ccccattgat ctggggggcc acgcaaatgc tgatcaactg
+      121 ccttcagacg gtgacagcaa agatgtgcag aagtgccaga tttgcagtga cctggcctca
+      181 ggcttccact acggggtgtg gtcgtgcgag ggttgcaagg ctttcttcaa aagaagtttg
+      241 caagaccccg tggattacgt gtgtccggcc acaaacaact gcacgatcga caagcaccga
+      301 cggaaaagtt gccaagcttg ccgattccgc aagtgccttg aagtgggcat gatgaaaagg
+      361 cgagaaaggc gcacaacaaa gaaagttaag agtcctggaa gtccagaaga gaagatcacc
+      421 aaaaaggtta gaaccccaaa caccaagccc aacccaaaag agaaaggccc gccagtggag
+      481 aacaacggtc agagtcggag ggttttgcag ttggaagaaa cagttgcggt tgaatctgtg
+      541 aagactgagg ctgtgagtcc ccaagagtgt agtccgtccg gccacacttc tcaagaagat
+      601 ctttcagtgc ctatgacctc cgcctcccaa tcatttaatc tcacgcctcc cccttccacc
+      661 tcatcgtcca cctcctcccc ttccaacggc acgtcctcct tacagatcga cgcctccacc
+      721 ttcaagatcg accccggact gccgctggac caaccccacc ccctcgtagt tattctagaa
+      781 gagaacgatc tcccgcccaa gatctgcaag gaacctctca cggccgagag cgaagagacc
+      841 gagtactccc tcctgcacag gctgattggt ctggccgaca tggagctggt tgacgtcgtc
+      901 aactgggcca aagtattgcc tgggttctcg gggctagaac tcagagaccg cattgcaatt
+      961 cttgagtcgt gctggatgga gttgttgtgc atcggtgcag cttggaggtc tcggctaaat
+     1021 actacattcc aggttaattt cgcagaaaac ctccatttca atgaagaaac tgcaaaaaag
+     1081 gcgaaaatgt catcgatagt cggggaaata tggcagatat ctcaacagtt caggtatttg
+     1141 gagctttcca accatgagtt catgctgttg agggtcgtca ccatgctgaa cgctgagtcc
+     1201 atccgactgt catgtctgga cgccatgcat aaaatccggc aacagtattt ggaagcgctt
+     1261 cactttgagt gtggacggac gctggggaag attagcgaga gtagttgtgt gaggatggcc
+     1321 cagatacttt gcattttgcc gtttgcacgc caggtcagct tgaaagccat cactcacttg
+     1381 tttaacatgc acaaccagca tgccgtaccc gttggggatc tcgtcgcgga gatgttggtc
+     1441 gcccagaagg agttaatgac caacgaggac tcggctaaaa tcatcacata a
+//
+

@@ -1,0 +1,80 @@
+LOCUS       AY327135                1434 bp    mRNA    linear   INV 15-OCT-2003
+DEFINITION  Aplysia californica estrogen receptor (ER) mRNA, complete cds.
+ACCESSION   AY327135
+VERSION     AY327135.1
+KEYWORDS    .
+SOURCE      Aplysia californica (California sea hare)
+  ORGANISM  Aplysia californica
+            Eukaryota; Metazoa; Lophotrochozoa; Mollusca; Gastropoda;
+            Heterobranchia; Euthyneura; Euopisthobranchia; Aplysiomorpha;
+            Aplysioidea; Aplysiidae; Aplysia.
+REFERENCE   1  (bases 1 to 1434)
+  AUTHORS   Thornton,J.W., Need,E. and Crews,D.
+  TITLE     Resurrecting the ancestral steroid receptor: ancient origin of
+            estrogen signaling
+  JOURNAL   Science 301 (5640), 1714-1717 (2003)
+   PUBMED   14500980
+REFERENCE   2  (bases 1 to 1434)
+  AUTHORS   Thornton,J.W. and Need,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2003) Center for Ecology and Evolutionary
+            Biology, University of Oregon, 5289 University of Oregon, Eugene,
+            OR 97403, USA
+FEATURES             Location/Qualifiers
+     source          1..1434
+                     /organism="Aplysia californica"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:6500"
+     gene            1..1434
+                     /gene="ER"
+     CDS             1..1434
+                     /gene="ER"
+                     /note="nuclear receptor superfamily member; one of several
+                     sequence variants identified in the N-terminal domain
+                     (amino acids 1-83) and C-terminal extension (amino acids
+                     427-478)"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="AAQ95045.1"
+                     /translation="MVSPSPCMPVLPLSGAGGGGEGTAGSAHLQAATSTTPEAGSGTL
+                     PHNFLMDVHGPGTLGASPSSHMKQEVGGAVPGSSIQAKLCQVCSDNASGFHYGVWSCE
+                     GCKAFFKRSIQGPVDYICPATNTCTIDKHRRKSCQACRLRRCYEVGMNKGSQRKEKRN
+                     SGNTSSLKGKRCRADSSDSAVNSTNNGASSSKSSKRSRSASILEALQKADLPVMDSYH
+                     NHNLPATRVHLLNTLIKLADRELVYLINWAKHVPGYTCLTLGDQVHLIECCWMELLLL
+                     NCAFRSMEHEGRTLVFAPDFHLERQQWALTGMGDVLEQVSAVSEQMLLHGLNKEELLL
+                     LQATVLVNAEVRPLDSFLKIQEMRQLILDVFMEVAGRHQGFGNWRHAPSILLLLTHIR
+                     QAGERGITYFQKLKMEGCVTFCDLLTEMLDAHNSSGERRRLQQQQQQPQQQSHAHHHH
+                     PPPPLPHHHHHSTQSSPQHSRAFPYHH"
+     misc_feature    250..447
+                     /gene="ER"
+                     /note="Region: DNA-binding domain"
+     misc_feature    601..1281
+                     /gene="ER"
+                     /note="Region: ligand-binding domain"
+ORIGIN      
+        1 atggtctctc ccagcccatg catgccggtt ctgcctctca gcggtgcggg cgggggcggg
+       61 gagggcacgg caggctctgc tcacttgcag gcagccacct ccaccacacc tgaggcgggc
+      121 tcgggtaccc tgccccacaa cttcctcatg gatgtacacg ggccggggac gctcggagcc
+      181 agcccgtcct cacacatgaa gcaggaggtt ggcggagctg ttcctgggag tagcattcaa
+      241 gcaaaactgt gccaggtgtg cagtgacaat gcctcgggct ttcattatgg cgtgtggtcc
+      301 tgtgagggct gcaaggcctt cttcaaacgg agtatacagg ggccagtgga ctatatctgc
+      361 cccgccacca atacttgtac catagacaaa cacagaagga aaagctgcca agcttgccgg
+      421 ttacgacggt gttatgaagt ggggatgaac aaaggaagtc aacgcaaaga gaaaagaaat
+      481 agtgggaaca caagcagttt gaaaggcaag agatgcagag cggattcctc ggattctgcc
+      541 gtcaactcca caaacaatgg tgcatcctcc tctaagtcaa gcaagcgttc ccggagtgcg
+      601 tccatcctgg aggcgctgca gaaagcggac ctgccggtga tggacagcta ccacaaccac
+      661 aacctgccgg ccacgcgtgt gcacctgctc aacacactca tcaagctggc cgacagggag
+      721 ctcgtctacc tgatcaactg ggccaagcac gtgcctggct acacctgctt gactctgggt
+      781 gaccaggtgc acctgatcga gtgctgctgg atggagttgc tcctcctgaa ctgcgcattc
+      841 cgctccatgg agcacgaggg acgcacgctg gtctttgctc cagactttca cttagaaaga
+      901 caacagtggg cactgaccgg gatgggcgat gtcctggagc aggtgtcggc agtgtccgag
+      961 cagatgttgc tgcacggtct caacaaagag gagctgctcc tccttcaagc tacagtatta
+     1021 gttaatgcag aggtccgtcc cttggacagt ttcctgaaaa tccaagagat gcgtcagtta
+     1081 atcctggatg tgttcatgga ggtggccggt cggcaccagg gcttcggcaa ctggcgccac
+     1141 gcgccctcca tcctgctcct gctgactcac atccggcagg cgggcgagcg gggcatcacc
+     1201 tacttccaga aactcaagat ggagggctgc gtgaccttct gcgacctcct caccgagatg
+     1261 ctggacgcgc acaattcctc gggcgagcgg cggcggctgc aacagcaaca gcaacaacca
+     1321 caacaacagt ctcacgcaca ccaccatcat cctcctcctc ctcttcctca ccatcatcac
+     1381 cacagcactc agtcctcgcc acaacactct cgggcttttc catatcatca ctaa
+//
+

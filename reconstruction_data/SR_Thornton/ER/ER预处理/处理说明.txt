@@ -1,6 +1,8 @@
 和EDNECP以及yeast data 相比，Thoronton的ER更加跨物种
 我们按照thoronton文章中的accesion number下下来他们蛋白质对应的核苷酸序列
 选择Thoronton的ERaERb中排列比较良好的部分以及下下来的核苷酸序列对应良好的部分组成了一个species tree：
+得到了ERnucleotide_THoronton.fasta
+然后去掉部分节点就得到我们需要处理的ERaERb_derived_from_thoronton.fasta
 AcaSchERa
 AcaSchERaT
 AcaSchERb
@@ -45,10 +47,6 @@ MusMusERa
 MusMusERaT
 MusMusERb
 MusMusERbT
-OreNilERa
-OreNilERaT
-OreNilERb
-OreNilERbT
 OryLatERa
 OryLatERaT
 OryLatERb
