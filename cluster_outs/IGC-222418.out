@@ -1,0 +1,8 @@
+number of sites to be analyzed:  156
+Successfully loaded parameter value from ./test/save/MG94_EDN_ECP_nonclock_save.txt
+Traceback (most recent call last):
+  File "Run_rebuild_ECPEDN.py", line 22, in <module>
+    MG94_tau.Expected_tau_for_sitewise_and_branchwise()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 1580, in Expected_tau_for_sitewise_and_branchwise
+    np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/posterior/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'_no1to2.txt', 'w+'), lnposterior_no_1to2)
+IOError: [Errno 2] No such file or directory: './test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/posterior/EDN_ECP_MG94_IGC_no1to2.txt'
