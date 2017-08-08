@@ -1,0 +1,72 @@
+LOCUS       DQ533956                1655 bp    mRNA    linear   INV 12-JUN-2006
+DEFINITION  Octopus vulgaris estrogen receptor mRNA, complete cds.
+ACCESSION   DQ533956
+VERSION     DQ533956.1
+KEYWORDS    .
+SOURCE      Octopus vulgaris (common octopus)
+  ORGANISM  Octopus vulgaris
+            Eukaryota; Metazoa; Lophotrochozoa; Mollusca; Cephalopoda;
+            Coleoidea; Neocoleoidea; Octopodiformes; Octopoda; Incirrata;
+            Octopodidae; Octopus.
+REFERENCE   1  (bases 1 to 1655)
+  AUTHORS   Keay,J., Bridgham,J.T. and Thornton,J.W.
+  TITLE     The Octopus vulgaris estrogen receptor is a constitutive
+            transcriptional activator: evolutionary and functional implications
+  JOURNAL   Endocrinology 147 (8), 3861-3869 (2006)
+   PUBMED   16690796
+REFERENCE   2  (bases 1 to 1655)
+  AUTHORS   Keay,J., Bridgham,J.T. and Thornton,J.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-MAY-2006) Center for Ecology and Evolutionary
+            Biology, University of Oregon, 5289 University of Oregon, Eugene,
+            OR 97403, USA
+FEATURES             Location/Qualifiers
+     source          1..1655
+                     /organism="Octopus vulgaris"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:6645"
+     CDS             124..1590
+                     /note="ER"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="ABG00286.1"
+                     /translation="MIDKQVTAADDIKMLSPDRCAHIHGSTGHAATAASSSSGHSATT
+                     SSSTTTSSSTSSSSSSSSSSSSSSSSSSANPQTPTSTTLEMADMQTAGESGGVQLATT
+                     VAGDTALLTTDFKKKYDSVVAGSSTGNTTRLCQVCDDNASGFHYGVWSCEGCKAFFKR
+                     SIQGPVDYVCPATNSCTIDKHRRKSCQACRLRKCYEVGMNKGSQRKERKNSSNQTKVK
+                     RSSADFSDSTVNSTSGNQPAKSQRLSKSSSLVEELSKNDFAVPECKLNPSIPLTKNYI
+                     LQLLIQVADKDLVQLINWAKHIPGYADLSLSDQVHLIECCWMELVLLNCAYRSMEYEG
+                     KRLAFASNLILEKHHWEILGMTQILEQVAAVSEQLLQFGINREELLLLEATILVNAEV
+                     RRLAGFSKIDDIRQIILNALIDTAQKYHPDNPRHVPSALLLLSHVRQASDRSIIYLQK
+                     QKDEGHVTFCELITEMLEAQNSSNDIVAPRADVIGMGT"
+ORIGIN      
+        1 gtcatcatgt tatatctatt ttgacaggga atacaacagt gccaagcact gaaccattga
+       61 tgccttttta atgttaccaa acctaaaaca acagggtgga agaaaccatt ggcgagagga
+      121 gagatgatcg ataagcaggt aacagcggca gatgacatca agatgctctc acctgatagg
+      181 tgtgctcaca tccatggatc tactggccat gctgccacag cagcttcttc atcttcaggc
+      241 cattctgcca caacatcctc ctccaccacc acttcctcct ccacctcatc gtcatcatca
+      301 tcatcatcat cgtcatcgtc atcatcatct tcatcatcag ctaatcctca aacacccaca
+      361 tcaactactc tggaaatggc tgacatgcaa actgctggtg aaagtggagg agtacaattg
+      421 gccacgactg tagctggaga cacagctcta ctaactactg actttaagaa aaaatatgat
+      481 agtgttgttg caggtagtag cacgggtaac actaccaggt tatgtcaggt gtgtgatgac
+      541 aatgcttcag gatttcatta tggtgtatgg tcttgtgaag gttgtaaagc tttctttaaa
+      601 cgaagtattc aaggtccagt tgattatgtg tgtcctgcca ctaacagctg tacaattgat
+      661 aaacatcgac gtaagagttg ccaagcttgt cgcttacgca aatgttatga agtgggcatg
+      721 aataaaggta gccaaaggaa ggagagaaaa aacagttcca accaaactaa agtaaaacga
+      781 agcagtgccg acttctcaga ttcaacagtg aattcaacca gtggaaacca accagcaaag
+      841 agtcagcgtt tatcaaagtc ttcctctttg gttgaagaac tctccaagaa tgattttgcc
+      901 gtccctgaat gcaagctgaa tcccagtatt cctctgacca aaaattatat tttacagctt
+      961 ctgatccagg ttgcagataa agatttagtt cagttgataa actgggccaa acacatacct
+     1021 ggttatgctg atttatcttt gtctgaccaa gtacatctta tagaatgctg ttggatggag
+     1081 ttagtgttac ttaactgtgc atatcgttcc atggaatatg agggaaaacg gcttgctttt
+     1141 gcctcaaatc taatcttaga aaagcaccac tgggagattc taggaatgac ccagatcttg
+     1201 gaacaagtag cagctgttag tgagcaactt ttacagtttg gtattaatcg agaagaattg
+     1261 ttattacttg aagctactat cttagtaaat gcagaggtgc gacgattggc tggttttagt
+     1321 aaaattgatg acatccggca aatcatttta aatgcattga ttgacactgc ccagaagtat
+     1381 cacccagata acccgcggca tgttccgtcc gccctactgc tgctcagtca tgtacgtcaa
+     1441 gcctctgatc gtagtatcat ttatctacag aaacagaaag acgaaggtca tgtgacattt
+     1501 tgtgaactga taactgagat gctggaagca cagaacagtt ccaacgatat tgtagcaccc
+     1561 agagcagatg ttattggaat gggcacttga ggaggagtgt tgctactaaa caatctatga
+     1621 atgtgaaaaa aaaaaaaaaa aaaaaaaaaa aaaaa
+//
+

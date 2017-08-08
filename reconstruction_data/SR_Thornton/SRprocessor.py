@@ -6,8 +6,8 @@ Created on Mon Aug 07 21:43:37 2017
 """
 
 from Bio import SeqIO
-seq_dictprotein = SeqIO.to_dict(SeqIO.parse('./ER/processed alignmentER.fasta', "fasta" ))
-seq_dictnucleotide = SeqIO.to_dict(SeqIO.parse( './ER/ERaERb.fasta', "fasta" ))
+seq_dictprotein = SeqIO.to_dict(SeqIO.parse('./ER/ERpreprocess/processed alignmentER.fasta', "fasta" ))
+seq_dictnucleotide = SeqIO.to_dict(SeqIO.parse( './ER/ERpreprocess/ERaERb.fasta', "fasta" ))
 seq_dictprotein.keys()
 seq_dictprotein.values()
 
@@ -20,10 +20,11 @@ codon_nonstop  = [a for a in codon_to_protein.keys() if not codon_to_protein[a]=
 codon_to_state = {a.upper() : i for (i, a) in enumerate(codon_nonstop)}
 state_to_codon = {i : a.upper() for (i, a) in enumerate(codon_nonstop)}
 
+outgroup = 'Branchiostoma_floridaeERa'
 species_keys=[]
 Thoronton_keys = []
 for keys in seq_dictprotein.keys():
-    if keys[-1] != 'T':
+    if keys[-1] != 'T' and keys != outgroup:
         species_keys.append(keys)
         Thoronton_keys.append(keys + 'T')
 
@@ -34,6 +35,7 @@ for keys in Thoronton_keys:
 nucleotide_dict={}
 for keys in species_keys:
     nucleotide_dict[keys] = str(seq_dictnucleotide[keys].seq)
+nucleotide_dict[outgroup] = str(seq_dictnucleotide[outgroup].seq)
 
 protein_dict={}
 alligned_nucleotide_dict={}
@@ -54,8 +56,20 @@ for keys in species_keys:
                 alligned_nucleotide_dict[keys + 'T']+='---'
             j=j+1
 
-f1=open('./ER/ERnucleotide.fasta','w+')
-f2=open('./ER/ERnucleotide_Thoronton.fasta','w+')
+protein_dict[outgroup] = str(seq_dictprotein[outgroup].seq)
+alligned_nucleotide_dict[outgroup] = ''
+j=0
+for i in range(len(protein_dict[outgroup])):
+    if protein_dict[outgroup][i] == '-':
+        alligned_nucleotide_dict[outgroup]+='---'
+    else:
+        alligned_nucleotide_dict[outgroup]+=nucleotide_dict[outgroup][3*j:3*j+3]
+        j=j+1
+
+
+
+f1=open('./ER/ERpreprocess/ERnucleotide.fasta','w+')
+f2=open('./ER/ERpreprocess/ERnucleotide_Thoronton.fasta','w+')
 for keys in alligned_nucleotide_dict.keys():
     f1.write('>'+keys+'\n')
     f1.write(alligned_nucleotide_dict[keys])
