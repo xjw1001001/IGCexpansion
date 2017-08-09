@@ -1,3 +1,6 @@
+seqfile = /Users/xjw1001001/Desktop/PAML/output/YDR418W_YEL054C/YDR418W_YEL054C_partitioned.fasta
+treefile = /Users/xjw1001001/Desktop/PAML/output/YDR418W_YEL054C/YDR418W_YEL054C_tree.newick
+outfile = /Users/xjw1001001/Desktop/PAML/output/YDR418W_YEL054C/out/YDR418W_YEL054C_codeml
 
         noisy = 9
       verbose = 1

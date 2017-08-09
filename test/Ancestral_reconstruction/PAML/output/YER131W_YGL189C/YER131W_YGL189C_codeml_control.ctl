@@ -1,3 +1,6 @@
+seqfile = /Users/xjw1001001/Desktop/PAML/output/YER131W_YGL189C/YER131W_YGL189C_partitioned.fasta
+treefile = /Users/xjw1001001/Desktop/PAML/output/YER131W_YGL189C/YER131W_YGL189C_tree.newick
+outfile = /Users/xjw1001001/Desktop/PAML/output/YER131W_YGL189C/out/YER131W_YGL189C_codeml
 
         noisy = 9
       verbose = 1

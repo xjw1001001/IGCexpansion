@@ -1,3 +1,6 @@
+seqfile = /Users/xjw1001001/Desktop/PAML/output/EDN_ECP/primateoutcome_processed.fasta
+treefile = /Users/xjw1001001/Desktop/PAML/output/EDN_ECP/primate_EDN_ECP_separate.newick
+outfile = /Users/xjw1001001/Desktop/PAML/output/EDN_ECP/out/EDN_ECP_codeml
 
         noisy = 9
       verbose = 1

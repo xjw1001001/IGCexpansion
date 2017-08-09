@@ -1,3 +1,6 @@
+seqfile = /Users/xjw1001001/Desktop/PAML/output/YLR333C_YGR027C/YLR333C_YGR027C_partitioned.fasta
+treefile = /Users/xjw1001001/Desktop/PAML/output/YLR333C_YGR027C/YLR333C_YGR027C_tree.newick
+outfile = /Users/xjw1001001/Desktop/PAML/output/YLR333C_YGR027C/out/YLR333C_YGR027C_codeml
 
         noisy = 9
       verbose = 1

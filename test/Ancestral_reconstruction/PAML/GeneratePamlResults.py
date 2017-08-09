@@ -9,7 +9,7 @@ def partition_seqfile(seqfile, partitioned_seqfile):
     align = AlignIO.read(seqfile, 'fasta')
     align_length = align.get_alignment_length()
     with open(partitioned_seqfile, 'w+') as f:
-        f.write('    '.join([' ', '13', str(align_length), 'GC \n']))
+        f.write('    '.join([' ', '13', str(align_length), 'GC \n']))#13 for Yeast, 25 for EDN
         with open(seqfile, 'r') as g:
             for line in g:
                 if line[0] == '>':
@@ -20,9 +20,10 @@ def partition_seqfile(seqfile, partitioned_seqfile):
     
 
 if __name__ == '__main__':
-    path = '/Users/xji3/GitFolders/YeastIGCTract/PAMLAnalyses/'
+    #yeast datas
+    path = '/Users/xjw1001001/Desktop/PAML/'
     
-    pair_file = './Filtered_pairs.txt'
+    pair_file = '/Users/xjw1001001/Desktop/PAML/Filtered_pairs.txt'
     pairs = []
     with open(pair_file, 'r') as f:
         for line in f.readlines():
@@ -39,60 +40,81 @@ if __name__ == '__main__':
         all_baseml_ctl_lines = f.readlines()
     
 
-    codeml_dir = '/Users/xji3/Downloads/paml4.8/bin/codeml'
-    baseml_dir = '/Users/xji3/Downloads/paml4.8/bin/baseml'
+
 
     #pairs = [pairs[0]]
     for pair in pairs:
+        codeml_dir = path + 'output/' + '_'.join(pair) + '/codeml'
+        baseml_dir = path + 'output/' + '_'.join(pair) + '/baseml'
+
         print 'Now run paml on pair ' + ' '.join(pair)
-        seqfile = path + '/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_input.fasta'
+        seqfile = path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_input.fasta'
         partitioned_seqfile = seqfile.replace('input.fasta', 'partitioned.fasta')
         if not os.path.isdir(path + 'output/' + '_'.join(pair)):
             os.mkdir(path + 'output/' + '_'.join(pair))
             
         if not os.path.isfile(seqfile):
-            mafft_aligned_file = '../MafftAlignment/' + '_'.join(pair) + '/' + '_'.join(pair) + '_input.fasta'
+            mafft_aligned_file = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/MafftAlignment/' + '_'.join(pair) + '/' + '_'.join(pair) + '_input.fasta'
             os.system(' '.join(['cp', mafft_aligned_file, seqfile]))
 
         #if not os.path.isfile(partitioned_seqfile):
         partition_seqfile(seqfile, partitioned_seqfile)
-            
+        
         treefile = path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_tree.newick'        
         with open(treefile, 'w+') as f:
             for line in all_tree_lines:
-                new_line = line.replace(tree_pair[0], '__'+pair[0])
-                new_line = new_line.replace(tree_pair[1], '__'+pair[1])
+                new_line = line.replace(tree_pair[0], ''+pair[0])
+                new_line = new_line.replace(tree_pair[1], ''+pair[1])
                 f.write(new_line)
 
 
-        outfile_baseml = path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml'
+        outfile_baseml = path + 'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_baseml'
+        outfile_codeml = path + 'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml'
         baseml_ctlfile = path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml_control.ctl'
+        codeml_ctlfile = path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_codeml_control.ctl'
         with open(baseml_ctlfile, 'w+') as f:
             f.writelines(['seqfile = ' + partitioned_seqfile + '\n', 'treefile = ' + treefile + '\n', 'outfile = ' + outfile_baseml + '\n'])
             f.writelines(all_baseml_ctl_lines)
 
-##        baseml_cmd = [baseml_dir, './output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml_control.ctl']
-##        subprocess.check_output(baseml_cmd)
+        with open(codeml_ctlfile, 'w+') as f:
+            f.writelines(['seqfile = ' + partitioned_seqfile + '\n', 'treefile = ' + treefile + '\n', 'outfile = ' + outfile_codeml + '\n'])
+            f.writelines(all_codeml_ctl_lines)
         
+        baseml_cmd = [baseml_dir, path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml_control.ctl']
+        codeml_cmd = [codeml_dir, path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_codeml_control.ctl']
+        #subprocess.check_output(baseml_cmd)
+        #workpath =path + 'output/' + '_'.join(pair) + '/out/'
+        #os.chdir(workpath)
+        #os.system(' '.join(codeml_cmd))
 
     summary_mat = []
     finished_list = []
-    label = ['HKY_baseml_tree_length', 'HKY_baseml_lnL', 'HKY_baseml_kappa', 'HKY_r2', 'HKY_r3']
+    label = ['MG94_baseml_tree_length', 'MG94_baseml_lnL', 'MG94_baseml_kappa', 'MG94_r2', 'MG94_r3']
     footer = ' '.join(label)
 
 
     #pairs = pairs[0:2]
     for pair in pairs:
-        #codeml_result = codeml.read('/Users/xji3/Genconv_Copy/NewClusterPackRun/NewPairsAlignment/' + '_'.join(pair) + '/' + '_'.join(pair) + '_codeml')
-        baseml_result = baseml.read('/Users/xji3/GitFolders/YeastIGCTract/PAMLAnalyses/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
-        parameter_list = baseml_result['parameters']['parameter list'].split(' ')
-        summary_mat.append([baseml_result['tree length'],
-                            baseml_result['lnL'],
+        codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
+        #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
+        parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
+        summary_mat.append([codeml_result['NSsites'][0]['tree length'],
+                            codeml_result['NSsites'][0]['lnL'],
                             float(parameter_list[-1]),
                             float(parameter_list[-3]),
                             float(parameter_list[-2])]
                            )
         finished_list.append(pair)
-
+    
+    codeml_result = codeml.read('/Users/xjw1001001/Desktop/PAML/output/EDN_ECP/out/EDN_ECP_codeml')
+    #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
+    parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
+    summary_mat.append([codeml_result['NSsites'][0]['tree length'],
+                        codeml_result['NSsites'][0]['lnL'],
+                        float(parameter_list[-1]),
+                        float(parameter_list[-3]),
+                        float(parameter_list[-2])]
+                       )
+    finished_list.append(['EDN','ECP'])
     header = ' '.join(['_'.join(pair) for pair in finished_list])  # column labels
-    np.savetxt(open('/Users/xji3/GitFolders/YeastIGCTract/PAMLAnalyses/output/paml_summary.txt', 'w+'), np.matrix(summary_mat).T, delimiter = ' ', footer = footer, header = header)
+    np.savetxt(open(path+'output/paml_summary.txt', 'w+'), np.matrix(summary_mat).T, delimiter = ' ', footer = footer, header = header)
