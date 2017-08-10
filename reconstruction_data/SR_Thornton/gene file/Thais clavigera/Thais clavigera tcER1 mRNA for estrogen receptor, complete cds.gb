@@ -1,0 +1,96 @@
+LOCUS       AB077032                2379 bp    mRNA    linear   INV 31-AUG-2006
+DEFINITION  Thais clavigera tcER1 mRNA for estrogen receptor, complete cds.
+ACCESSION   AB077032
+VERSION     AB077032.2
+KEYWORDS    .
+SOURCE      Reishia clavigera
+  ORGANISM  Reishia clavigera
+            Eukaryota; Metazoa; Lophotrochozoa; Mollusca; Gastropoda;
+            Caenogastropoda; Hypsogastropoda; Neogastropoda; Muricoidea;
+            Muricidae; Reishia.
+REFERENCE   1
+  AUTHORS   Kajiwara,M., Kuraku,S., Kurokawa,T., Kato,K., Toda,S., Hirose,H.,
+            Takahashi,S., Shibata,Y., Iguchi,T., Matsumoto,T., Miyata,T.,
+            Miura,T. and Takahashi,Y.
+  TITLE     Tissue preferential expression of estrogen receptor gene in the
+            marine snail, Thais clavigera
+  JOURNAL   Gen. Comp. Endocrinol. 148 (3), 315-326 (2006)
+   PUBMED   16782100
+REFERENCE   2  (bases 1 to 2379)
+  AUTHORS   Takahashi,Y., Kukaku,S., Kato,K., Kurokawa,T., Takahashi,S.,
+            Sato,M., Horiguchi,T., Iguchi,T., Miyata,T. and Miura,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-DEC-2001) Yuji Takahashi, Tokyo University of
+            Pharmacy and Life Science, School of Life Science; 1432-1,
+            Horinouchi, Hachioji, Tokyo 192-0293, Japan
+            (E-mail:yuji@ls.toyaku.ac.jp, Tel:81-426-76-7015,
+            Fax:81-426-76-6811)
+COMMENT     On Jun 30, 2006 this sequence version replaced gi:29420470.
+FEATURES             Location/Qualifiers
+     source          1..2379
+                     /organism="Reishia clavigera"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:272940"
+                     /tissue_type="ganglion"
+                     /country="Japan:Ibaraki, Hiraiso"
+     gene            1..2379
+                     /gene="tcER1"
+     CDS             310..1893
+                     /gene="tcER1"
+                     /note="nuclear receptor"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="BAC66480.2"
+                     /translation="MLHGVGTREPSDNKTSGGGGGDLGQTHSRLASGGPPPTGASPAG
+                     GGGGGAGPGPGPGPGGVLGMPGHSVMSTSGGGGGGGHLQAPSSTTPESSSGVGGGGGG
+                     GLGVGPTFYRMEPPLSISEIKQEIPAGSSTSAKLCQVCNDNASGFHYGVWSCEGCKAF
+                     FKRSIQGPVDYMCPATNNCTIDKHRRKSCQACRLRKCYEVGMNKGSQRKDRKSSGGSG
+                     SSTPRGKRCRADSTDAVNSTSGAGASKSMKRSQTASILEALQKADLPVLESYHNHDQP
+                     LDRVHLLNTLIKLADRELVYLINWAKHVPGYTDLSLSDQVHLIECCWMELLLLNCAFR
+                     SMDYDGRRLVFAPDFHLDKPLWVVMGMTEILEQVSAVTEQMVHYAVTKEEQLLLKATI
+                     LVNAEVRRLASFDKIMEMRQMIVDALMEVAQKSHPEDTRRVPSLLLLLTHVRQAGERG
+                     IAYFQALKHGGSVAFCDLLTEMLDAHNSATSAAAAAAAAAATVTSPAVTASMPSTSSA
+                     GIDQKTLSLGPPHLPPGPS"
+ORIGIN      
+        1 catgccgctg tgatagactg gactaggcct agtgcagtca ggtaaacacg ccccaaggag
+       61 ttcagagtgt agaccttcac ctgccgaaac ataggccatt gataggaggt gggaacgagg
+      121 gttacatcat tccccccccc ccccccctct tccccccagc tccccttctc ctcgcggtga
+      181 cgtccgtgcc gttttgtgtg gtggtggtgg tggtggtatg tgttccgcca tggtgaggag
+      241 tgaacagttg cagtgcagcc gttacgtaat gtggcgcaga taggatggcg gcggctggct
+      301 tcggcagtta tgcttcatgg tgtcggcaca agagaaccat cagacaacaa gaccagcggc
+      361 ggcggtggtg gtgacctcgg ccagacccat agtcgcctgg catcaggggg gcccccccct
+      421 actggggcca gcccggcagg gggaggggga gggggggctg gcccaggccc ggggccaggg
+      481 ccaggagggg tgctgggaat gccgggccac tccgtcatga gcaccagcgg aggagggggg
+      541 ggaggaggac accttcaggc cccttcctcc accacccccg agagcagcag cggtgtgggg
+      601 ggtggcggcg ggggtggtct gggcgtaggc cccaccttct accgtatgga accccctctc
+      661 agcatcagcg aaatcaagca ggagatcccc gctgggagca gcacttcagc caaactgtgt
+      721 caagtgtgca acgacaatgc ttcaggcttc cattacgggg tgtggtcctg cgagggatgc
+      781 aaggctttct tcaaacgctc tatacaaggt cctgtggact acatgtgtcc agccaccaac
+      841 aactgcacca tagacaaaca tcgacggaaa agctgccagg catgtcggct acgcaaatgc
+      901 tacgaagtgg gcatgaacaa aggcagccaa aggaaagacc gcaaaagcag cggtggcagc
+      961 ggtagctcaa ctccaagggg caaacgttgt cgagcggatt caacggatgc cgtcaattca
+     1021 accagtggtg ccggggcatc gaagagtatg aagcggtccc agacggcctc tatcctggag
+     1081 gccctgcaga aggcggacct gccggtgctg gagagttacc acaaccacga ccagcccctg
+     1141 gacagggtcc acctcctcaa caccctcatc aagctggctg accgtgagct ggtctatctc
+     1201 atcaactggg caaagcatgt gccaggttac acagacttgt ccctgagtga ccaggttcat
+     1261 ctgatagagt gctgttggat ggaactgctg ctactcaact gtgcctttcg ctccatggat
+     1321 tacgacggtc ggcgcctcgt ctttgccccg gacttccatc tagacaagcc gctgtgggtg
+     1381 gtgatgggga tgacggagat cctggagcag gtgtcggcgg tgacggagca gatggtgcac
+     1441 tatgctgtca ccaaggagga gcagttgctg ctgaaggcca ccatcctcgt caacgccgag
+     1501 gttcgacggc ttgccagctt cgacaaaatc atggagatgc gtcagatgat cgtggacgct
+     1561 ttgatggaag tggcccagaa gtcccatcca gaggacactc gccgcgtccc ctccctgctg
+     1621 ctgctgttga cccacgtgcg acaggccggg gagcggggca tcgcctactt ccaggcgctg
+     1681 aagcacggtg ggagcgtggc gttctgcgac ctgttgacag aaatgctgga cgctcacaat
+     1741 tcggccacct ctgccgccgc tgctgctgcc gctgccgccg ccactgtcac gtccccggca
+     1801 gtgactgctt ccatgccatc cacgtcctcc gcgggcattg accaaaagac cctgagtcta
+     1861 ggcccacccc atttaccacc gggcccctca tgactggccc agggaagtct gtggtaaaat
+     1921 gagggcgcat tcgtgaagag aaggaggggg tgttgtgggg gtgagaacct gagggcagca
+     1981 gttggcttca gcagtattcg gtgccaagta ttgtgtgtga ctactactgt acagctgtaa
+     2041 ggtgcgggga gggagggaga gtgaggaggg tgagggagga ggaggaccgt gaccacttgt
+     2101 gttgtttttc tctctttctc tccgttggtt ttcacccctg ttggtgcaat gagattatcc
+     2161 agtgtctgtt caacgccagt cctagaagtc ataacgtagt tctcctcctg ttaggtgcgt
+     2221 gtgtcgacac ttctactact actactacgt tgtgttcgct gtgctgtttt ggaggagtcc
+     2281 acaacccccc tgtgccgggc agatatatat atatatatat atatataaac cattcagata
+     2341 gtgagtgaaa tgggggttga aagagaaaaa aaaaaaaaa
+//
+

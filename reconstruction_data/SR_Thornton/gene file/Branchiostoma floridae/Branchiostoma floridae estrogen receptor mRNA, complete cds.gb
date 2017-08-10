@@ -1,0 +1,73 @@
+LOCUS       EU371730                1566 bp    mRNA    linear   INV 07-SEP-2008
+DEFINITION  Branchiostoma floridae estrogen receptor mRNA, complete cds.
+ACCESSION   EU371730
+VERSION     EU371730.1
+KEYWORDS    .
+SOURCE      Branchiostoma floridae (Florida lancelet)
+  ORGANISM  Branchiostoma floridae
+            Eukaryota; Metazoa; Chordata; Cephalochordata; Branchiostomidae;
+            Branchiostoma.
+REFERENCE   1  (bases 1 to 1566)
+  AUTHORS   Bridgham,J.T., Brown,J.E., Rodriguez-Mari,A., Catchen,J.M. and
+            Thornton,J.W.
+  TITLE     Evolution of a new function by degenerative mutation in
+            cephalochordate steroid receptors
+  JOURNAL   PLoS Genet. 4 (9), E1000191 (2008)
+   PUBMED   18787702
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1566)
+  AUTHORS   Bridgham,J.T. and Brown,J.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JAN-2008) Center for Ecology and Evolutionary
+            Biology, University of Oregon, 335 Pacific Hall, Eugene, OR 97403,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..1566
+                     /organism="Branchiostoma floridae"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7739"
+     CDS             1..1566
+                     /note="BfER"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="ACB10650.1"
+                     /translation="MAYPDIHIIPPQGQTPRMTTPTKAALKQSPMSPVMSVHGMRQNG
+                     RIQNGMMQQHHHPDILTLHNGGRIQVGQVGDLCPDQFSKGRDSPASSGSSIENNQPQV
+                     KELDNKARAVCRVCGDHASGFHYGVWSCEGCKAFFKRSIQQGQTDYICPGTNQCTIDR
+                     NRRKSCQACRYRKCLMVGMTKDGRRSGERRGPRRKRTHNQIDVSSTADSCKSSVSPLP
+                     SSASAFDKSRSASPTENNSFDSDGDSSTGRELRTASHQRLKALIDALDVKEGEHRGEE
+                     NHPTGQQAGNWQEISNPELIESVSSLVDRELTGIICWGKKIPGYSKLSLNDQVLLMES
+                     TWLDLLILDLVWCSIRHKGEKLLLSGGVLVNRNTISNRRNNSSGDDMEVLEMCDQILS
+                     IATKFYEFDLQRREYLCLKAITLVHGSLKGLESDTQVRQLQDDLTDALMDVCSERHAL
+                     GSRRPAKMLLLLSHLRQVSARASSHLGAVRNGLKVPLYDILLDILTDQVSEGQRDQQA
+                     GHHEVASSPEKER"
+ORIGIN      
+        1 atggcctatc cagacatcca catcattccc ccacaaggcc agactcccag gatgaccaca
+       61 cccaccaagg cagcactgaa gcagagcccc atgtctcctg tcatgtctgt ccacgggatg
+      121 aggcagaatg gaagaatcca gaacgggatg atgcagcagc accatcaccc agacatactc
+      181 accctgcaca atgggggaag aatacaagtt ggacaagttg gagatttgtg tccagaccag
+      241 ttctctaaag gcagggactc tccagccagc agtggcagct cgatagagaa caatcagcct
+      301 caggtgaaag agctggacaa taaggcccgt gcagtttgcc gagtctgtgg ggaccatgct
+      361 tcaggcttcc actatggagt ctggtcatgt gagggctgca aggctttctt caaacggagc
+      421 attcagcaag gtcagacaga ttacatctgc ccaggcacca accagtgcac cattgacagg
+      481 aatagacgaa aaagctgcca ggcctgtcgc tacagaaagt gcctcatggt gggcatgacc
+      541 aaagacggtc gaagaagtgg tgagagaaga gggcccagaa gaaagcggac acataaccaa
+      601 attgacgtga gttccacagc agatagctgt aagtcctcag tatcaccact cccgtcctca
+      661 gctagtgcct ttgacaagtc ccgctcagcc tcgcctacag aaaataacag ttttgacagc
+      721 gacggtgaca gctcaacagg aagggaattg cggacagcct ctcaccagcg actaaaagca
+      781 ctgattgatg ccctggacgt caaggaaggg gaacatagag gagaagagaa tcaccccaca
+      841 ggccagcagg caggcaactg gcaggaaatc tccaacccag aactgatcga gtctgtcagc
+      901 agcctggtgg acagggagct gactgggatt atctgctggg ggaagaaaat tccagggtac
+      961 tccaagctat cattaaatga ccaggttcta ctgatggagt ccacatggct cgacctgctc
+     1021 atcctggacc tggtgtggtg ctccatcaga cacaaggggg agaaactgct gctgtctggg
+     1081 ggagtccttg tcaatagaaa caccatttcc aaccggagaa acaattcttc tggtgacgat
+     1141 atggaagtcc tagagatgtg tgaccaaatc ctatccattg ctaccaagtt ctacgagttt
+     1201 gatctacaga ggagagaata cctgtgtcta aaggccatca cccttgttca tggatctctg
+     1261 aaggggttgg aaagtgacac ccaggtacgc caactgcagg atgacctgac agatgccctg
+     1321 atggacgtct gcagcgaacg ccacgccctg ggctcacggc gtcctgcaaa gatgctgctg
+     1381 ctgctatcac acctgcgaca ggtgagcgcc agggcatcct ctcacctcgg cgctgtcaga
+     1441 aatggtctga aggttccgtt gtatgacatt ctcctggaca ttctcactga ccaggtgtct
+     1501 gagggccagc gtgaccagca ggctggtcac catgaagtgg ccagcagccc agagaaagag
+     1561 agatga
+//
+
