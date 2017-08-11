@@ -1704,9 +1704,11 @@ class ReCodonGeneconv:
             else:
                 model = self.Model + '_IGC'
             
+            np.save('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/npy/' + 'arg_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.npy', argmatrix)
+            np.save('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/npy/' + 'likelihood_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.npy', likelihood_matrix)
             for node in range(len(self.node_to_num)):    
-                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
-                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
+                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'arg_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
+                np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'likelihood_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
             
             self.get_reconstruction_result(states_matrix, maxprob_number, DNA_or_protein = 'DNA')            
         else:
