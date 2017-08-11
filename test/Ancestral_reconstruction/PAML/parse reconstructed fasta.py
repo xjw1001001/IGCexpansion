@@ -28,9 +28,8 @@ for pair in paralog_list:
     with open('/Users/xjw1001001/Desktop/PAML/output/' + '_'.join(pair) +'/out/construct.fasta','r') as f:
         for line in f.readlines():
             primalline.append(line)
-            if 'node #14' in line:
-                continue
             sline = '>' + line
+            sline=sline.replace('node #14','Root'+pair[0])
             sline=sline.replace(' ','')
             sline=sline.replace('\n','')
             sline=sline.replace('node#15','N0'+pair[0])
