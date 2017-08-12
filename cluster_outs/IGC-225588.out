@@ -1,0 +1,15 @@
+number of sites to be analyzed:  156
+Traceback (most recent call last):
+  File "Run_rebuild_ECPEDN.py", line 19, in <module>
+    MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 97, in __init__
+    self.initialize_parameters()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 110, in initialize_parameters
+    self.initialize_by_save(save_file)
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 1655, in initialize_by_save
+    self.update_by_x()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 284, in update_by_x
+    self.unpack_x_process(Force_process = Force_process, transformation = transformation)
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 302, in unpack_x_process
+    assert(len(self.x_process) == 6)
+AssertionError
