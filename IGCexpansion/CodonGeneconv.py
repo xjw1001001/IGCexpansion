@@ -1676,7 +1676,7 @@ class ReCodonGeneconv:
                         maxprob_number[sites][nodes_num] = np.argmax(states_matrix[sites,0:3721,nodes_num])
                         
             #find the max
-            tt=7
+            tt=30
             likelihood_temp=[]
             argmatrix=np.zeros((self.nsites,len(self.node_to_num),tt))  
             likelihood_matrix=np.zeros((self.nsites,len(self.node_to_num),tt))  

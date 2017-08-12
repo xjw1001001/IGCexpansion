@@ -85,36 +85,17 @@ for pair in plist:
     site_multianalysis_dict['_'.join(pair)] = {}
     for site in site_list_dict['_'.join(pair)]:
         site_information_dict['_'.join(pair)][site] = {}
-        site_multianalysis_dict['_'.join(pair)][site] = {}
-        node_flag = [0 for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0]))]
+        site_multianalysis_dict['_'.join(pair)][site] = {}        
         for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0])):
-            #首先比较arg1
-            if dict_all['_'.join(pair)]['IGC']['arg'][site,node,0] != dict_all['_'.join(pair)]['tau=0']['arg'][site,node,0]:
-                node_flag[node] = 1
-                continue
-            #arg1相等,比较似然
-            elif abs(dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,0] - dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,0])>0.05:
-                node_flag[node] = 1
-                continue
-            #在上面都相等，似然相差小于0.05，比较第二大的arg，且在似然大于0.05时发现不同报告
-            elif dict_all['_'.join(pair)]['IGC']['arg'][site,node,1] != dict_all['_'.join(pair)]['tau=0']['arg'][site,node,1]:
-                if dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,1]>0.05 or dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,1]>0.05:
-                    node_flag[node] = 1
-                    continue  
-        
-        for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0])):
-            if node_flag[node] == 1:
-                site_information_dict['_'.join(pair)][site][num_to_node[node]] = {}
-                #记录似然
-                site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'] = []
-                site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'] = []
-                for i in range(len(dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,:])):
-                    if dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]>0.05:
-                        site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'].append((state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site,node,i]),dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]))
-                
-                for i in range(len(dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,:])):
-                    if dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,i]>0.05:
-                        site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'].append((state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node,i]),dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,i]))
+            site_information_dict['_'.join(pair)][site][num_to_node[node]] = {}
+            #记录似然
+            site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'] = {}
+            site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'] = {}
+            for i in range(len(dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,:])):
+                site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'][state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site,node,i])]=dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]
+            
+            for i in range(len(dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,:])):
+                site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'][state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node,i])]=dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,i]
         for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0])):
             site_multianalysis_dict['_'.join(pair)][site][num_to_node[node]] = {}
             #记录似然
@@ -161,7 +142,7 @@ for pair in plist:
                                     if site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0]==site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] or site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] == site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1]:
                                         flag = 1
                 if flag == 1:
-                    multi_site_dict['_'.join(pair)][site][branch]=[]
+                    multi_site_dict['_'.join(pair)][site][branch]={}
                     for i in range(i0):
                         for j in range(i1):
                             for k in range(2):#paralog
@@ -172,7 +153,13 @@ for pair in plist:
                                 if count >= 2: 
                                     if site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0] != site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] and site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0]==site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1]:
                                         if site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0]==site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] or site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] == site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1]:
-                                            multi_site_dict['_'.join(pair)][site][branch].append(site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] + ' ' + pair[0]+' '+site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1] + ' ' + pair[1])
+                                            event = site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] + ' ' + pair[0]+' '+site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1] + ' ' + pair[1]
+                                            multi_site_dict['_'.join(pair)][site][branch][event] = {}
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node2 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[1]]['IGC'][(event[5:8],event[8 + len(pair[0]) + 7:8 + len(pair[0]) + 10])]
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherwise arg'] = state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node_to_num[branch[0]],0])
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherarg prob'] = dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node_to_num[branch[0]],0]
 
 
 
@@ -189,36 +176,17 @@ for pair in plist:
     site_multianalysis_dict['_'.join(pair)] = {}
     for site in site_list_dict['_'.join(pair)]:
         site_information_dict['_'.join(pair)][site] = {}
-        site_multianalysis_dict['_'.join(pair)][site] = {}
-        node_flag = [0 for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0]))]
+        site_multianalysis_dict['_'.join(pair)][site] = {}        
         for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0])):
-            #首先比较arg1
-            if dict_all['_'.join(pair)]['IGC']['arg'][site,node,0] != dict_all['_'.join(pair)]['tau=0']['arg'][site,node,0]:
-                node_flag[node] = 1
-                continue
-            #arg1相等,比较似然
-            elif abs(dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,0] - dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,0])>0.05:
-                node_flag[node] = 1
-                continue
-            #在上面都相等，似然相差小于0.05，比较第二大的arg，且在似然大于0.05时发现不同报告
-            elif dict_all['_'.join(pair)]['IGC']['arg'][site,node,1] != dict_all['_'.join(pair)]['tau=0']['arg'][site,node,1]:
-                if dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,1]>0.05 or dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,1]>0.05:
-                    node_flag[node] = 1
-                    continue  
-        
-        for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0])):
-            if node_flag[node] == 1:
-                site_information_dict['_'.join(pair)][site][num_to_node[node]] = {}
-                #记录似然
-                site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'] = []
-                site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'] = []
-                for i in range(len(dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,:])):
-                    if dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]>0.05:
-                        site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'].append((state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site,node,i]),dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]))
-                
-                for i in range(len(dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,:])):
-                    if dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,i]>0.05:
-                        site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'].append((state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node,i]),dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,i]))
+            site_information_dict['_'.join(pair)][site][num_to_node[node]] = {}
+            #记录似然
+            site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'] = {}
+            site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'] = {}
+            for i in range(len(dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,:])):
+                site_information_dict['_'.join(pair)][site][num_to_node[node]]['IGC'][state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site,node,i])]=dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]
+            
+            for i in range(len(dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,:])):
+                site_information_dict['_'.join(pair)][site][num_to_node[node]]['tau=0'][state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node,i])]=dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node,i]
         for node in range(len(dict_all['_'.join(pair)]['IGC']['arg'][0,:,0])):
             site_multianalysis_dict['_'.join(pair)][site][num_to_node[node]] = {}
             #记录似然
@@ -266,7 +234,7 @@ for pair in plist:
                                     if site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0]==site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] or site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] == site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1]:
                                         flag = 1
                 if flag == 1:
-                    multi_site_dict['_'.join(pair)][site][branch]=[]
+                    multi_site_dict['_'.join(pair)][site][branch]={}
                     for i in range(i0):
                         for j in range(i1):
                             for k in range(2):#paralog
@@ -277,10 +245,26 @@ for pair in plist:
                                 if count >= 2: 
                                     if site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0] != site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] and site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0]==site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1]:
                                         if site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0]==site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] or site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] == site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1]:
-                                            multi_site_dict['_'.join(pair)][site][branch].append(site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] + ' ' + pair[0]+' '+site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1] + ' ' + pair[1])
+                                            event = site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][0] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][0] + ' ' + pair[0]+' '+site_multianalysis_dict['_'.join(pair)][site][branch[0]]['IGC'][i][0][1] + '->' + site_multianalysis_dict['_'.join(pair)][site][branch[1]]['IGC'][j][0][1] + ' ' + pair[1]
+                                            multi_site_dict['_'.join(pair)][site][branch][event] = {}
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node2 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[1]]['IGC'][(event[5:8],event[8 + len(pair[0]) + 7:8 + len(pair[0]) + 10])]
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherwise arg'] = state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node_to_num[branch[0]],0])
+                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherarg prob'] = dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node_to_num[branch[0]],0]
 
 
 
+
+#dict_all['_'.join(pair)][model]['arg']
 #EXCEL 表: dataset, site, branch, event, node1 prob in IGC, node1 prob dif, node 2 prob in IGC, node1 otherwise arg, node1 otherarg prob 
 #EDN_ECP    10  'N3','N7'   'TCC->TGT EDN TGT->TGT ECP'
-
+f=open('IGCevent_result.txt','w+')
+f.write('dataset\tsite\tbranch\tevent\tnode1 prob in IGC\tnode1 prob dif\tnode 2 prob in IGC\tnode1 otherwise arg\tnode1 otherarg prob')
+for paralog in multi_site_dict.keys():
+    for site in multi_site_dict[paralog].keys():
+        for branch in multi_site_dict[paralog][site].keys():
+            f.write(str(paralog) + '\t' + str(site) + '\t' + str(branch) + '\t' + str(multi_site_dict[paralog][site][branch]) + '\t')
+            
+f.close()
+    
