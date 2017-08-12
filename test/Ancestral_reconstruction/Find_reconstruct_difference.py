@@ -40,6 +40,7 @@ pair_to_state  = {pair:i for i, pair in enumerate(product(codon_nonstop, repeat 
 ##IGC and PAML and IGC_0 yeast
 tree = Yeast_newicktree
 outgroup = 'kluyveri'
+
 ktree, edge_list, node_to_num = read_newick(tree, 'N1')
 for pair in paralog_list:
     seq_dict={}
@@ -129,9 +130,11 @@ for pair in paralog_list:
 
 ##IGC and PAML and IGC_0 EDNECP
 tree = EDNECP_newicktree
-ktree, edge_list, node_to_num = read_newick(tree, 'N1')
-pair = ['EDN', 'ECP']
 outgroup = 'Saguinus_oedipus'
+pair = ['EDN', 'ECP']
+ktree, edge_list, node_to_num = read_newick(tree, 'N1')
+
+
 
 seq_dict={}
 Model = ['IGC','IGC_0','PAML']

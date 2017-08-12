@@ -10,10 +10,10 @@ from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 # AIC=2k-2ln(L)
     
 if __name__ == '__main__':
-    paralog = ['EDN', 'ECP']
+    paralog = ['EDNX', 'ECPX']
     Force = None
-    alignment_file = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/primateoutcome processed.fasta'
-    newicktree = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/primate_EDN_ECP.newick'
+    alignment_file = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/xiangEDNECP.fasta'
+    newicktree = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/xiangEDNECP.newick'
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
