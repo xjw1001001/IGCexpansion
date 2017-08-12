@@ -17,7 +17,7 @@ if __name__ == '__main__':
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
-    #MG94_tau.get_mle(True, True, 0, 'BFGS')
+    MG94_tau.get_mle(True, True, 0, 'BFGS')
     MG94_tau.site_reconstruction()
     MG94_tau.Expected_tau_for_sitewise_and_branchwise()
     MG94_tau_series = MG94_tau.reconstruction_series

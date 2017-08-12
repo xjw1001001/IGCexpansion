@@ -281,5 +281,6 @@ for pair in plist:
 
 
 
-#EXCEL 表: dataset, site, branch, node1 prob in IGC, node1 prob dif, node 2 prob in IGC, node1 otherwise arg, node1 otherarg prob 
+#EXCEL 表: dataset, site, branch, event, node1 prob in IGC, node1 prob dif, node 2 prob in IGC, node1 otherwise arg, node1 otherarg prob 
+#EDN_ECP    10  'N3','N7'   'TCC->TGT EDN TGT->TGT ECP'
 
