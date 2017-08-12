@@ -12,7 +12,7 @@ EDNECP_newicktree ='/Users/xjw1001001/Documents/GitHub/IGCexpansion2/reconstruct
 Yeast_newicktree = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/YeastTree.newick'
 series_path = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/'
 
-paralog_list = [['YLR406C', 'YDL075W'],
+paralog_list = [['YLR406C', 'YDL075W'],#TODO: other data
  ['YER131W', 'YGL189C'],
  ['YML026C', 'YDR450W'],
  ['YNL301C', 'YOL120C'],

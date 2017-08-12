@@ -9,7 +9,7 @@ import numpy as np
 
 path = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/'
 reconstruct_path = 'matrix/reconstruction_likelihood/npy/'
-paralog_list = [['YLR406C', 'YDL075W'],#pair
+paralog_list = [['YLR406C', 'YDL075W'],#pair#TODO: other data
  ['YER131W', 'YGL189C'], ['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
  ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'],
  ['YDR418W', 'YEL054C'], ['YBL087C', 'YER117W'], ['YLR333C', 'YGR027C'], ['YMR142C', 'YDL082W'],
@@ -38,6 +38,14 @@ def state_to_compositecodons(state):
     state_1 = int(state_1)
     state_2 = int(state_2)
     return (state_to_codon[state_1],state_to_codon[state_2])
+
+#read PAML reconstruct resule #TODO: other data
+PAMLseq_dict = {}
+name_to_seq = {}
+for pair in paralog_list:
+    PAMLseq_dict['_'.join(pair)] = SeqIO.to_dict(SeqIO.parse( '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/' + 'PAMLfasta/PAML_'+'_'.join(pair)+'.fasta', "fasta" ))
+    name_to_seq['_'.join(pair)] = {name:str(PAMLseq_dict['_'.join(pair)][name].seq) for name in PAMLseq_dict['_'.join(pair)].keys()}
+
 
 dict_all = {}
 for pair in paralog_list:
@@ -265,7 +273,7 @@ for pair in plist:
 #EXCEL 表: dataset, site, branch, event, node1 prob in IGC, node1 prob dif, node 2 prob in IGC, node1 otherwise arg, node1 otherarg prob 
 #EDN_ECP    10  'N3','N7'   'TCC->TGT EDN TGT->TGT ECP'
 f=open('IGCevent_result.txt','w+')
-f.write('dataset\tsite\tbranch\tevent\tnode1 prob in IGC\tnode1 prob dif\tnode2 prob in IGC\tnode1 otherwise arg\tnode1 otherarg prob\n')
+f.write('dataset\tsite\tbranch\tevent\tnode1 prob in IGC\tnode1 prob dif\tnode2 prob in IGC\tnode1 tau=0 arg\tnode1 otherarg prob\tnode1 PAML arg\n')
 for paralog in multi_site_dict.keys():
     for site in multi_site_dict[paralog].keys():
         for branch in multi_site_dict[paralog][site].keys():
@@ -275,6 +283,10 @@ for paralog in multi_site_dict.keys():
             f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node2 prob in IGC']) + '\t')
             f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node1 otherwise arg']) + '\t')
             f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node1 otherarg prob'])+ '\t')
+            if branch[0] == 'N0':
+                f.write(name_to_seq[paralog][branch[0]+paralog[0:(len(paralog)-1)/2]][3*site:3*site+3]+'\t')
+            else:
+                f.write(name_to_seq[paralog][branch[0]+paralog[0:(len(paralog)-1)/2]][3*site:3*site+3]+', '+name_to_seq[paralog][branch[0]+paralog[(len(paralog)+1)/2:len(paralog)]][3*site:3*site+3]+'\t')
             f.write('\n')
 f.close()
     
