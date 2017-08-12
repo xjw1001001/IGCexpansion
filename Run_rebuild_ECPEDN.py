@@ -10,7 +10,7 @@ from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 # AIC=2k-2ln(L)
     
 if __name__ == '__main__':
-    paralog = ['EDNX', 'ECPX']
+    paralog = ['EDN', 'ECP']
     Force = None
     alignment_file = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/xiangEDNECP.fasta'
     newicktree = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/xiangEDNECP.newick'
