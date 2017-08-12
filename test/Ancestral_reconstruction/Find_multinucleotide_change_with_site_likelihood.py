@@ -157,7 +157,10 @@ for pair in plist:
                                             multi_site_dict['_'.join(pair)][site][branch][event] = {}
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node2 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[1]]['IGC'][(event[5:8],event[8 + len(pair[0]) + 7:8 + len(pair[0]) + 10])]
-                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
+                                            if not (event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5]) in site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'].keys():
+                                                multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
+                                            else:
+                                                multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherwise arg'] = state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node_to_num[branch[0]],0])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherarg prob'] = dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node_to_num[branch[0]],0]
 
@@ -194,8 +197,7 @@ for pair in plist:
             for i in range(len(dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,:])):
                 if dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]>0.05:
                     site_multianalysis_dict['_'.join(pair)][site][num_to_node[node]]['IGC'].append((state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site,node,i]),dict_all['_'.join(pair)]['IGC']['likelihood'][site,node,i]))
-
-
+    
     #在   site_list_dict 中指示的位点寻找IGC中出现多核酸替换，且疑似IGC，组成 multi_site_dict 
     multi_site_dict['_'.join(pair)] = {}
     for site in site_list_dict['_'.join(pair)]:
@@ -249,7 +251,10 @@ for pair in plist:
                                             multi_site_dict['_'.join(pair)][site][branch][event] = {}
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node2 prob in IGC'] = site_information_dict['_'.join(pair)][site][branch[1]]['IGC'][(event[5:8],event[8 + len(pair[0]) + 7:8 + len(pair[0]) + 10])]
-                                            multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
+                                            if not (event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5]) in site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'].keys():
+                                                multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
+                                            else:
+                                                multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherwise arg'] = state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node_to_num[branch[0]],0])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherarg prob'] = dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node_to_num[branch[0]],0]
 
@@ -260,11 +265,17 @@ for pair in plist:
 #EXCEL 表: dataset, site, branch, event, node1 prob in IGC, node1 prob dif, node 2 prob in IGC, node1 otherwise arg, node1 otherarg prob 
 #EDN_ECP    10  'N3','N7'   'TCC->TGT EDN TGT->TGT ECP'
 f=open('IGCevent_result.txt','w+')
-f.write('dataset\tsite\tbranch\tevent\tnode1 prob in IGC\tnode1 prob dif\tnode 2 prob in IGC\tnode1 otherwise arg\tnode1 otherarg prob')
+f.write('dataset\tsite\tbranch\tevent\tnode1 prob in IGC\tnode1 prob dif\tnode2 prob in IGC\tnode1 otherwise arg\tnode1 otherarg prob\n')
 for paralog in multi_site_dict.keys():
     for site in multi_site_dict[paralog].keys():
         for branch in multi_site_dict[paralog][site].keys():
-            f.write(str(paralog) + '\t' + str(site) + '\t' + str(branch) + '\t' + str(multi_site_dict[paralog][site][branch]) + '\t')
-            
+            f.write(str(paralog) + '\t' + str(site) + '\t' + str(branch) + '\t' + str(multi_site_dict[paralog][site][branch].keys()[0]) + '\t')
+            f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node1 prob in IGC']) + '\t')
+            f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node1 prob dif']) + '\t')
+            f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node2 prob in IGC']) + '\t')
+            f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node1 otherwise arg']) + '\t')
+            f.write(str(multi_site_dict[paralog][site][branch][multi_site_dict[paralog][site][branch].keys()[0]]['node1 otherarg prob'])+ '\t')
+            f.write('\n')
 f.close()
     
+#in IGC_event result.txt
