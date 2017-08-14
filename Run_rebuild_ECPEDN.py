@@ -27,7 +27,7 @@ if __name__ == '__main__':
     #MG94_tau.get_SitewisePosteriorSummary(summary_path = './test/Summary/')
     
     
-    
+    '''
     #MG94
     MG94 = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = {5:0.0}, clock = None, save_path = './test/save/')
     MG94.get_mle(True, True, 0, 'BFGS')

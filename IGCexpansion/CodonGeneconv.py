@@ -1527,7 +1527,7 @@ class ReCodonGeneconv:
             
             for site in range(self.nsites):
                 lnposterior_no_1to2[site,branch] = (sitewise_NoIGC_1to2_logll[site]-
-                                   0.5*self.tau*HetDwelltime[site,branch]*self.edge_to_blen[self.edge_list[branch]]-
+                                   #0.5*self.tau*HetDwelltime[site,branch]*self.edge_to_blen[self.edge_list[branch]]-
                                                            sitewise_logll[site])
                 
         #posterior probability no 2->1
@@ -1574,7 +1574,7 @@ class ReCodonGeneconv:
             
             for site in range(self.nsites):
                 lnposterior_no_2to1[site,branch] = (sitewise_NoIGC_2to1_logll[site]-
-                                   0.5*self.tau*HetDwelltime[site,branch]*self.edge_to_blen[self.edge_list[branch]]-
+                                   #0.5*self.tau*HetDwelltime[site,branch]*self.edge_to_blen[self.edge_list[branch]]-
                                                            sitewise_logll[site])
         
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/posterior/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'_no1to2.txt', 'w+'), lnposterior_no_1to2)
