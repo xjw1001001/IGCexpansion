@@ -1,19 +1,18 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 22 03:13:20 2017
+Created on Tue Aug 15 02:36:41 2017
 
 @author: xjw1001001
 """
-#EDNECP树中有两个枝长很小
-# -*- coding: utf-8 -*-
+
 from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 # AIC=2k-2ln(L)
     
 if __name__ == '__main__':
-    paralog = ['EDN', 'ECP']
+    paralog = ['ERa', 'ERb']
     Force = None
-    alignment_file = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/primateoutcome processed.fasta'
-    newicktree = './reconstruction_data/Zhang2002_data ECPEDN/from gene bank/primate_EDN_ECP.newick'
+    alignment_file = './reconstruction_data/SR_Thornton/ER/input_ERaERb.fasta'
+    newicktree = './reconstruction_data/SR_Thornton/ER/species.newick'
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
@@ -36,16 +35,3 @@ if __name__ == '__main__':
     MG94_series = MG94.reconstruction_series
     MG94_likelihooddict = MG94.likelihood_dict
     result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
-    '''
-    HKY_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = Force, clock = None, save_path = './test/save/')
-    HKY_tau.get_mle(True, True, 0, 'BFGS')
-    HKY_tau.site_reconstruction()
-    HKY_tau_series = HKY_tau.reconstruction_series
-    
-    #MG94
-    HKY = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = {4:0.0}, clock = None, save_path = './test/save/')
-    HKY.get_mle(True, True, 0, 'BFGS')
-    HKY.site_reconstruction()
-    HKY_series = HKY.reconstruction_series
-    result = HKY_tau.find_differences_between(HKY_tau_series, HKY_series)
-    '''
