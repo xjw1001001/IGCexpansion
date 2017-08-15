@@ -9,7 +9,7 @@ from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 # AIC=2k-2ln(L)
     
 if __name__ == '__main__':
-    '''
+    
     paralog = ['ERa', 'ERb']
     Force = None
     alignment_file = './reconstruction_data/SR_Thornton/ER/input_ERaERb.fasta'
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     MG94_series = MG94.reconstruction_series
     MG94_likelihooddict = MG94.likelihood_dict
     result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
-    '''
+    
     
     paralog = ['ARa', 'ERa']
     Force = None
