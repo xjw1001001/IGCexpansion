@@ -1,0 +1,163 @@
+LOCUS       NM_001124349            2040 bp    mRNA    linear   VRT 03-JUL-2017
+DEFINITION  Oncorhynchus mykiss estrogen receptor 1 (esr1), mRNA.
+ACCESSION   NM_001124349
+VERSION     NM_001124349.1
+KEYWORDS    RefSeq.
+SOURCE      Oncorhynchus mykiss (rainbow trout)
+  ORGANISM  Oncorhynchus mykiss
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Protacanthopterygii;
+            Salmoniformes; Salmonidae; Salmoninae; Oncorhynchus.
+REFERENCE   1  (bases 1 to 2040)
+  AUTHORS   Le Grand A, Bouter A, Couturier A, Mulner-Lorillon O, Le Goff X,
+            Chesnel F, Sire O and Le Tilly V.
+  TITLE     Investigation of the functional properties and subcellular
+            localization of alpha human and rainbow trout estrogen receptors
+            within a unique yeast cellular context
+  JOURNAL   J. Steroid Biochem. Mol. Biol. 149, 17-26 (2015)
+   PUBMED   25595040
+  REMARK    GeneRIF: This study investigetes the functional properties and
+            subcellular localization of alpha human and rainbow trout estrogen
+            receptors.
+REFERENCE   2  (bases 1 to 2040)
+  AUTHORS   Boyce-Derricott J, Nagler JJ and Cloud JG.
+  TITLE     Variation among rainbow trout (Oncorhynchus mykiss) estrogen
+            receptor isoform 3' untranslated regions and the effect of
+            17beta-estradiol on mRNA stability in hepatocyte culture
+  JOURNAL   DNA Cell Biol. 29 (5), 229-234 (2010)
+   PUBMED   20438355
+  REMARK    GeneRIF: The ERalpha1 sequence was the longest and the only one of
+            the four ER isoforms that contained multiple copies of the
+            canonical AU-rich elements (AUUUA) as well as the stability
+            sequence (GCUGAU).
+REFERENCE   3  (bases 1 to 2040)
+  AUTHORS   Matthews J and Zacharewski T.
+  TITLE     Differential binding affinities of PCBs, HO-PCBs, and aroclors with
+            recombinant human, rainbow trout (Onchorhynkiss mykiss), and green
+            anole (Anolis carolinensis) estrogen receptors, using a semi-high
+            throughput competitive binding assay
+  JOURNAL   Toxicol. Sci. 53 (2), 326-339 (2000)
+   PUBMED   10696781
+REFERENCE   4  (bases 1 to 2040)
+  AUTHORS   Pakdel F, Metivier R, Flouriot G and Valotaire Y.
+  TITLE     Two estrogen receptor (ER) isoforms with different estrogen
+            dependencies are generated from the trout ER gene
+  JOURNAL   Endocrinology 141 (2), 571-580 (2000)
+   PUBMED   10650938
+REFERENCE   5  (bases 1 to 2040)
+  AUTHORS   Pakdel F, Le Gac F, Le Goff P and Valotaire Y.
+  TITLE     Full-length sequence and in vitro expression of rainbow trout
+            estrogen receptor cDNA
+  JOURNAL   Mol. Cell. Endocrinol. 71 (3), 195-204 (1990)
+   PUBMED   2210031
+REFERENCE   6  (bases 1 to 2040)
+  AUTHORS   Pakdel F, Le Guellec C, Vaillant C, Le Roux MG and Valotaire Y.
+  TITLE     Identification and estrogen induction of two estrogen receptors
+            (ER) messenger ribonucleic acids in the rainbow trout liver:
+            sequence homology with other ERs
+  JOURNAL   Mol. Endocrinol. 3 (1), 44-51 (1989)
+   PUBMED   2915648
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ242740.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AJ242740.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMD00041048, SAMD00041049
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2040
+                     /organism="Oncorhynchus mykiss"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8022"
+                     /chromosome="4"
+                     /map="4"
+     gene            1..2040
+                     /gene="esr1"
+                     /gene_synonym="er; esr; nr3a1"
+                     /note="estrogen receptor 1"
+                     /db_xref="GeneID:100136026"
+     misc_feature    121..123
+                     /gene="esr1"
+                     /gene_synonym="er; esr; nr3a1"
+                     /note="upstream in-frame stop codon"
+     CDS             172..2040
+                     /gene="esr1"
+                     /gene_synonym="er; esr; nr3a1"
+                     /function="essential for estrogen binding"
+                     /note="ER-alpha; estradiol receptor; nuclear receptor
+                     subfamily 3 group A member 1"
+                     /codon_start=1
+                     /product="estrogen receptor"
+                     /protein_id="NP_001117821.1"
+                     /db_xref="GeneID:100136026"
+                     /translation="MLVRQSHTQISKPLGAPLRSRTTLESHVISPPKLSPQQPTTPNS
+                     NMYPEETRGGGGAAAFNYLDGGYDYTAPAQGPAPLYYSTTPQDAHGPPSDGSMQSLGS
+                     SPTGPLVFVSSSPQLSPQLSPFLHPPSHHGLPSQSYYLETSSTPLYRSSVVTNQLSAS
+                     EEKLCIASDRQQSYSAAGSGVRVFEMANETRYCAVCSDFASGYHYGVWSCEGCKAFFK
+                     RSIQGHNDYMCPATNQCTMDRNRRKSCQACRLRKCYEVGMVKGGLRKDRGGRVLRKDK
+                     RYCGPAGDREKPYGDLEHRTAPPQDGGRNSSSSLNGGGGWRGPRITMPPEQVLFLLQG
+                     AEPPALCSRQKVARPYTEVTMMTLLTSMADKELVHMIAWAKKVPGFQELSLHDQVQLL
+                     ESSWLEVLMIGLIWRSIHCPGKLIFAQDLILDRSEGDCVEGMAEIFDMLLATVSRFRM
+                     LKLKPEEFVCLKAIILLNSGAFSFCSNSVESLHNSSAVESMLDNITDALIHHISHSGA
+                     SVQQQPRRQAQLLLLLSHIRHMSNKGMEHLYSIKCKNKVPLYDLLLEMLDGHRLQSPG
+                     KVAQAGEQTEGPSTTTTTSTGSSIGPMRGSQDTHIRSPGSGVLQYGSPSSDQMPIP"
+     misc_feature    172..747
+                     /gene="esr1"
+                     /gene_synonym="er; esr; nr3a1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P16058.3);
+                     Region: Modulating"
+     misc_feature    946..1140
+                     /gene="esr1"
+                     /gene_synonym="er; esr; nr3a1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P16058.3);
+                     Region: Hinge"
+     misc_feature    1141..2037
+                     /gene="esr1"
+                     /gene_synonym="er; esr; nr3a1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P16058.3);
+                     Region: Steroid-binding. {ECO:0000255}"
+ORIGIN      
+        1 ccaacagcca gtattgagtt gcttcgcacg ggctgttaag gaagaaacag agcaagagag
+       61 ggacgagaga aaagagagag agaagacaga acagagccct tctcccctcc caccccttag
+      121 tgagccagtc taaaccaagc tgcttgtcac tgctgttgtt ctgtgaatgt gatgctggtc
+      181 agacagtccc atacgcagat ttccaaacct ctcggagctc ctctcagatc ccgaacgacc
+      241 ctggagagcc acgtcatctc ccccccaaaa ctctcaccac agcagccgac cacccccaac
+      301 agcaacatgt accctgagga gacacgcgga ggtggtgggg cggccgcctt taactacctg
+      361 gatggagggt atgactacac agcccctgcc caaggcccgg cccctctcta ttactccacc
+      421 accccccagg atgcccacgg acccccttcg gatggcagca tgcagtccct gggcagcagt
+      481 cccaccggcc cactggtgtt tgtgtcctcc agcccccagc tcagccccca gctcagcccc
+      541 ttcctccacc ccccaagcca ccatggtctc cccagccagt catactacct ggagacctcg
+      601 tccacaccct tatataggtc gagtgtggta accaatcagc tgtcagcgtc agaggagaag
+      661 ctctgcatcg cctccgatag gcagcagtcg tacagtgcag cagggtcagg ggtcagggtg
+      721 tttgagatgg ccaacgagac gaggtactgt gcggtctgca gcgactttgc ctctgggtac
+      781 cactacggag tttggtcctg cgagggctgc aaagccttct tcaaaaggag catccaaggt
+      841 cacaatgact acatgtgccc tgcgactaac cagtgtacaa tggacaggaa tcgtaggaag
+      901 agctgccagg catgccgcct cagaaagtgt tatgaagtgg ggatggtgaa aggaggcttg
+      961 cgtaaggacc gcggtgggcg ggttctcagg aaggataagc ggtattgtgg ccctgctggt
+     1021 gacagagaga aaccctacgg tgacctggag cacaggacag cgccccctca ggacgggggt
+     1081 aggaacagca gcagcagtct caatggtggt ggaggatggc gtgggcccag aatcaccatg
+     1141 cctcctgaac aggtgctgtt cctgctgcag ggggcagagc ctccggccct gtgttctcgt
+     1201 cagaaggtgg cccgccccta cacagaggtc accatgatga ccctgctcac cagcatggct
+     1261 gacaaggagc tggtgcacat gatcgcttgg gctaagaaag taccaggttt ccaggagctg
+     1321 tctctccatg accaggtgca gctgctggag agttcctggc tggaggtgct gatgatcgga
+     1381 ctcatatggc ggtccatcca ctgccctggg aaactcatct tcgcccagga cctcatactg
+     1441 gacaggagtg aaggggactg tgtggagggt atggctgaga tcttcgacat gctcctggcc
+     1501 actgtgtctc gcttccgcat gcttaaactg aagcctgagg agtttgtgtg cctcaaagcc
+     1561 atcatcttgc tcaactctgg tgccttctcc ttctgttcca actctgtgga gtccctccac
+     1621 aacagctcgg cagtggaaag catgctggac aacatcaccg acgccctcat ccaccacatc
+     1681 agccattcag gagcctctgt gcagcagcag cccagacggc aggcccagct cctgctcctg
+     1741 ctctcacaca tcagacatat gagcaacaaa ggcatggagc acctttacag cataaaatgt
+     1801 aagaacaaag tgcctctgta cgacctgctc ctggagatgc tggacggtca ccggctccaa
+     1861 tccccaggca aagtggccca agctggggaa cagaccgagg gcccctctac caccactacc
+     1921 acctccacag gctccagcat agggccgatg cgaggcagcc aggataccca catcagaagc
+     1981 cctggttccg gggtactcca gtatggctcc cccagctcag accagatgcc cattccgtga
+//
+
