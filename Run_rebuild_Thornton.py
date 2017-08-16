@@ -40,8 +40,8 @@ if __name__ == '__main__':
     
     paralog = ['ARa', 'ERa']
     Force = None
-    alignment_file = './reconstruction_data/SR_Thornton/ERa_ARa/ARa_ERa_nucleotide_input.fasta'
-    newicktree = './reconstruction_data/SR_Thornton/ERa_ARa/ERa_ARa_species.newick'
+    alignment_file = './reconstruction_data/SR_Thornton/ARa_ERa/ARa_ERa_nucleotide_input.fasta'
+    newicktree = './reconstruction_data/SR_Thornton/ARa_ERa/ERa_ARa_species.newick'
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
@@ -64,3 +64,4 @@ if __name__ == '__main__':
     MG94_series = MG94.reconstruction_series
     MG94_likelihooddict = MG94.likelihood_dict
     result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
+    
