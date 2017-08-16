@@ -140,3 +140,12 @@ if __name__ == '__main__':
     finished_list.append(['ARa','ERa'])
     header = ' '.join(['_'.join(pair) for pair in finished_list])  # column labels
     np.savetxt(open(path+'output/paml_summary.txt', 'w+'), np.matrix(summary_mat).T, delimiter = ' ', footer = footer, header = header)
+    
+    #ll
+    for pair in pairs:
+        codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
+        np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))
+    pairs = [['EDN','ECP'],['ERa','ERb'],['ARa','ERa']]#TODO:
+    for pair in pairs:
+        codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
+        np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))

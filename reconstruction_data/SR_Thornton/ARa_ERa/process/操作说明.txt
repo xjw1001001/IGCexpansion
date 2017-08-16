@@ -1,4 +1,6 @@
 首先从Thornton表格中找到有AR（a）和ERa的物种，取出Thornton的蛋白质排列，和我们从genebank上找到的核苷酸序列，翻译成蛋白质得到ALL_protein, Thornton 的序列末尾有T
 
-ALL_protein做排列，然后得到核苷酸alignment。outgroup 为Mus musculus ERRa(ERa)
+ALL_protein做排列，Carassius auratus其中有X 但是在alignment中这个X不在和thornton相同的位置所以我们忽略了它
+
+然后得到核苷酸alignment。outgroup 为Mus musculus ERRa(ERa)
 最后以THornton为模板去掉gap，就得到input alignment

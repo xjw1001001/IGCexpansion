@@ -26,7 +26,8 @@ def write_xls(file_name, sheet_name_list, headings, data_dict, heading_xf, data_
     book.save(file_name)
 
 
-path = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/'
+llpath = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/'
+path = llpath + 'matrix/sitewise_IGC_statmatrix/'
 paralog_list = [['YLR406C', 'YDL075W'],#pair#TODO: other data
  ['YER131W', 'YGL189C'], ['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
  ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'],
@@ -44,11 +45,17 @@ ExpectedIGC['num'] = {}
 ExpectedIGC['1to2'] = {}
 ExpectedIGC['2to1'] = {}
 
+model = {}
+
 posterior = {}
 posterior['1to2'] = {}
 posterior['2to1'] = {}
 #'_'.join(pair)
 for pair in paralog_list:
+    model['_'.join(pair)] = {}
+    model['_'.join(pair)]['IGC'] = np.loadtxt(open(llpath + 'model_likelihood/ancestral_reconstruction_' + '_'.join(pair) + '_MG94_IGCBFGS.txt','r'))
+    model['_'.join(pair)]['tau=0'] = np.loadtxt(open(llpath + 'model_likelihood/ancestral_reconstruction_' + '_'.join(pair) + '_MG94_tau=0BFGS.txt','r'))
+    model['_'.join(pair)]['PAML'] = np.loadtxt(open(llpath + 'PAML/output/summary/' + '_'.join(pair) + '.txt','r'))
     Expected_tau['_'.join(pair)] = np.loadtxt(open(path + 'Expected_tau/' + '_'.join(pair) + '_MG94_IGC.txt','r'))
     ExpectedIGC['num']['_'.join(pair)] = np.loadtxt(open(path + 'ExpectedIGCnum/' + '_'.join(pair) + '_MG94_IGC.txt','r'))
     ExpectedIGC['1to2']['_'.join(pair)] = np.loadtxt(open(path + 'ExpectedIGCnum1_2/' + '_'.join(pair) + '_MG94_IGC.txt','r'))
@@ -57,7 +64,7 @@ for pair in paralog_list:
     posterior['2to1']['_'.join(pair)] = np.loadtxt(open(path + 'posterior/' + '_'.join(pair) + '_MG94_IGC_no2to1.txt','r'))
     #posterior['1to2']['_'.join(pair)] = np.ones([len(posterior['1to2']['_'.join(pair)][:,0]),len(posterior['1to2']['_'.join(pair)][0,:])]) - np.exp(posterior['1to2']['_'.join(pair)])
     #posterior['2to1']['_'.join(pair)] = np.ones([len(posterior['2to1']['_'.join(pair)][:,0]),len(posterior['2to1']['_'.join(pair)][0,:])]) - np.exp(posterior['2to1']['_'.join(pair)])
-    
+
 #write in excels  m = ExpectedIGC['num']['_'.join(pair)].tolist()
 #EDNECP
 plist = [['EDN', 'ECP']]

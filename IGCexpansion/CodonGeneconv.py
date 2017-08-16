@@ -1629,7 +1629,10 @@ class ReCodonGeneconv:
             f=open('./test/Ancestral_reconstruction/model_likelihood/' + 'ancestral_reconstruction_' + self.paralog[0] + '_' + self.paralog[1] + '_' +self.Model +'_IGC'+method+'.txt', 'w+')
         f.write(repr(self.ll))
         f.write('\n')
-        f.write(repr(2*len(self.x)-2*self.ll))
+        if self.tau == 0:
+            f.write(repr(2*len(self.x)-2*self.ll)-2)
+        else:
+            f.write(repr(2*len(self.x)-2*self.ll))
         f.close()
         
     def save_x(self):
