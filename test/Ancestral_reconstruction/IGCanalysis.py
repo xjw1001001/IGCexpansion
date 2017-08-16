@@ -31,9 +31,11 @@ paralog_list = [['YLR406C', 'YDL075W'],#pair#TODO: other data
  ['YER131W', 'YGL189C'], ['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
  ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'],
  ['YDR418W', 'YEL054C'], ['YBL087C', 'YER117W'], ['YLR333C', 'YGR027C'], ['YMR142C', 'YDL082W'],
- ['YER102W', 'YBL072C'], ['EDN', 'ECP'] ] 
+ ['YER102W', 'YBL072C'], ['EDN', 'ECP'],['ERa', 'ERb'] ] 
 EDNECP_newicktree ='/Users/xjw1001001/Documents/GitHub/IGCexpansion2/reconstruction_data/Zhang2002_data ECPEDN/from gene bank/primate_EDN_ECP.newick'
 Yeast_newicktree = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/YeastTree.newick'
+ERa_ERb_newicktree = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/reconstruction_data/SR_Thornton/ER/species.newick'
+ARa_ERa_newicktree = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/reconstruction_data/SR_Thornton/ARa_ERa/ERa_ARa_species.newick'
 
 #read data
 Expected_tau = {} #paralog array
@@ -83,6 +85,32 @@ for pair in plist:
         
     write_xls(path + '_'.join(pair) + '_IGCanalysis.xls', control_list, hdngs, data, heading_xf, data_xfs)
     
+#ERa ERb
+plist = [['ERa', 'ERb']]
+tree = ERa_ERb_newicktree
+path = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/matrix/excel_results/'
+ktree, edge_list, node_to_num = read_newick(tree, 'N1')
+num_to_node = {node_to_num[i]:i for i in node_to_num}
+control_list = ['IGCnum','1to2num','2to1num','posterior1to2','posterior2to1']
+data = {}
+for pair in plist:
+    for control in control_list:    
+        if control == 'IGCnum':
+            data[control] = ExpectedIGC['num']['_'.join(pair)].tolist()
+        elif control == '1to2num':
+            data[control] = ExpectedIGC['1to2']['_'.join(pair)].tolist()
+        elif control == '2to1num':
+            data[control] = ExpectedIGC['2to1']['_'.join(pair)].tolist()
+        elif control == 'posterior1to2':
+            data[control] = posterior['1to2']['_'.join(pair)].tolist()
+        elif control == 'posterior2to1':
+            data[control] = posterior['2to1']['_'.join(pair)].tolist()
+    hdngs = [branch[0]+ ', ' + branch[1] for branch in edge_list]
+    heading_xf = ezxf('font: bold on; align: wrap on, vert centre, horiz center')
+    data_xfs = [ezxf(num_format_str='#0.000000') for k in range(len(hdngs))]
+        
+    write_xls(path + '_'.join(pair) + '_IGCanalysis.xls', control_list, hdngs, data, heading_xf, data_xfs)
+
 #yeast
 plist = [['YLR406C', 'YDL075W'],
  ['YER131W', 'YGL189C'], ['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
