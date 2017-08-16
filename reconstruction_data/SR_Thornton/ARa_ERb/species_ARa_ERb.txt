@@ -1,0 +1,14 @@
+out group: Mus musculus ERRa
+
+Acanthopagrus schlegelii
+Carassius auratus
+Dicentrarchus labrax
+Homo sapiens
+Kryptolebias marmoratus£¨unknown£©
+Oncorhynchus mykiss
+Oreochromis niloticus£¨unknown£©
+Oryzias latipes
+Rattus norvegicus
+Sparus aurata
+Squalus acanthias
+Sus scrofa

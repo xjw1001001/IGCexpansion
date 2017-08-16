@@ -1,0 +1,12 @@
+Canis familiaris
+Danio rerio 
+Homo sapiens
+Leucoraja erinacea
+Mus musculus
+Oncorhynchus mykiss
+Oryctolagus cuniculus
+Oryzias latipes
+Rattus norvegicus
+Saimiri boliviensis
+Taeniopygia guttata
+Xenopus laevis

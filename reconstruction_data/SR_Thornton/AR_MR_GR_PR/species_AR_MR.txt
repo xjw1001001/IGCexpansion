@@ -1,0 +1,16 @@
+Canis familiaris
+Coturnix japonica
+Danio rerio 
+Haplochromis burtoni
+Homo sapiens
+Leucoraja erinacea
+Mus musculus
+Oncorhynchus mykiss
+Oryctolagus cuniculus
+Oryzias latipes
+Rattus norvegicus
+Saimiri boliviensis
+Serinus canarius 
+Sus scrofa
+Taeniopygia guttata
+Xenopus laevis

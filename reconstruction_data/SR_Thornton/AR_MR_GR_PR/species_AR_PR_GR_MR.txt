@@ -1,0 +1,36 @@
+AR:NR3C4
+PR:NR3C3
+MR:NR3C2
+GR:NR3C1
+
+Bos taurus: GR Q865Y6 +MR:NM_001191349 
+	Canis familiaris: AR GR MR PR
+Cavia porcellus: +MR XM_003476863 GR
+Coturnix japonica:+MR XM_015861097 AR
+	Danio rerio :AR GR +MR NM_001100403 +PR NM_001166335
+Felis catus: +GR AB874471 +MR XM_019828874 
+Gallus gallus:GR MR PR
+Haplochromis burtoni:AR GR MR
+	Homo sapiens: AR PR MR GR
+	Leucoraja erinacea:AR PR MR GR
+	Mus musculus:GR MR PR +AR X53779
+	Oncorhynchus mykiss:AR GR MR +PR  XM_021588568  
+	Oryctolagus cuniculus:AR GR PR +MR XM_008267372 +ERa  XM_008263696  +ERb  XM_017349392 
+	Oryzias latipes:AR +GR NM_001305401 +MR  NM_001163129 +PR  NM_001172044 
+Pagrus major:AR 
+Petromyzon marinus:PR 
+Pimephales promelas:AR GR +PR JX012230  
+	Rattus norvegicus:AR GR MR PR
+	Saimiri boliviensis:GR MR +PR XM_010334710 +AR  EF470588 
+Salmo trutta: GR
+Serinus canarius :AR +GR XM_009091568 +MR XM_009101359 
+Sparus aurata:GR +AR JN412131
+Squalus acanthias:AR 
+Sus scrofa:AR GR +MR  XM_013978840 
+	Taeniopygia guttata:AR MR +GR XM_002192952 +PR XM_002198107
+Tupaia glis:GR MR 
+	Xenopus laevis:AR PR MR GR
+
+
+
+
