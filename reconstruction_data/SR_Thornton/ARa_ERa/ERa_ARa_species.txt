@@ -1,4 +1,4 @@
-out group: Mus musculus ERRa
+out group: Mus musculus ERRa£¨ER)
 
 Acanthopagrus schlegelii
 Carassius auratus

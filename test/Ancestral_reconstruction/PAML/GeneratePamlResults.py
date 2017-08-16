@@ -116,5 +116,27 @@ if __name__ == '__main__':
                         float(parameter_list[-2])]
                        )
     finished_list.append(['EDN','ECP'])
+    
+    codeml_result = codeml.read('/Users/xjw1001001/Desktop/PAML/output/ERa_ERb/out/ERa_ERb_codeml')
+    #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
+    parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
+    summary_mat.append([codeml_result['NSsites'][0]['tree length'],
+                        codeml_result['NSsites'][0]['lnL'],
+                        float(parameter_list[-1]),
+                        float(parameter_list[-3]),
+                        float(parameter_list[-2])]
+                       )
+    finished_list.append(['ERa','ERb'])
+    
+    codeml_result = codeml.read('/Users/xjw1001001/Desktop/PAML/output/ARa_ERa/out/ARa_ERa_codeml')
+    #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
+    parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
+    summary_mat.append([codeml_result['NSsites'][0]['tree length'],
+                        codeml_result['NSsites'][0]['lnL'],
+                        float(parameter_list[-1]),
+                        float(parameter_list[-3]),
+                        float(parameter_list[-2])]
+                       )
+    finished_list.append(['ARa','ERa'])
     header = ' '.join(['_'.join(pair) for pair in finished_list])  # column labels
     np.savetxt(open(path+'output/paml_summary.txt', 'w+'), np.matrix(summary_mat).T, delimiter = ' ', footer = footer, header = header)

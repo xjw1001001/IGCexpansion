@@ -45,3 +45,58 @@ for pair in paralog_list:
         f1.write('\n')
     f1.close()
 
+#ERa_ERb
+pair = ['ERa','ERb']
+primalline=[]
+fastaline=[]
+substitution_dict = {'node#39':'N14ERa','node#38':'N8ERa','node#37':'N7ERa','node#36':'N6ERa','node#41':'N9ERa','node#40':'N5ERa'
+                     ,'node#35':'N4ERa','node#44':'N13ERa','node#46':'N12ERa','node#47':'N11ERa','node#45':'N10ERa'
+                     ,'node#43':'N3ERa','node#42':'N2ERa','node#34':'N1ERa'
+                     ,'node#53':'N14ERb','node#52':'N8ERb','node#51':'N7ERb','node#50':'N6ERb','node#55':'N9ERb','node#54':'N5ERb'
+                     ,'node#49':'N4ERb','node#58':'N13ERb','node#60':'N12ERb','node#61':'N11ERb','node#59':'N10ERb'
+                     ,'node#57':'N3ERb','node#56':'N2ERb','node#48':'N1ERb'}
+with open('/Users/xjw1001001/Desktop/PAML/output/' + '_'.join(pair) +'/out/construct.fasta','r') as f:
+    for line in f.readlines():
+        primalline.append(line)
+        sline = '>' + line
+        sline=sline.replace('node #32','Root'+pair[0])
+        sline=sline.replace(' ','')
+        sline=sline.replace('\n','')
+        sline=sline.replace('node#33','N0'+pair[0])
+        for i in substitution_dict.keys():
+            sline=sline.replace(i,substitution_dict[i])
+        sline=sline.replace(pair[0],pair[0] + '\n')
+        sline=sline.replace(pair[1],pair[1] + '\n')
+        fastaline.append(sline)      
+f1 = open('/Users/xjw1001001/Desktop/PAML/PAMLfasta/PAML_' + '_'.join(pair) +'.fasta','w+')
+for line in fastaline:
+    f1.write(line)
+    f1.write('\n')
+f1.close()
+
+#ARa_ERa
+pair = ['ARa','ERa']
+primalline=[]
+fastaline=[]
+substitution_dict = {'node#36':'N12ERa','node#35':'N11ERa','node#34':'N7ERa','node#33':'N6ERa','node#32':'N5ERa','node#37':'N8ERa'
+                     ,'node#31':'N4ERa','node#41':'N10ERa','node#40':'N9ERa','node#39':'N3ERa','node#38':'N2ERa'
+                     ,'node#30':'N1ERa'
+                     ,'node#48':'N12ARa','node#47':'N11ARa','node#46':'N7ARa','node#45':'N6ARa','node#44':'N5ARa','node#49':'N8ARa'
+                     ,'node#43':'N4ARa','node#53':'N10ARa','node#52':'N9ARa','node#51':'N3ARa','node#50':'N2ARa'
+                     ,'node#42':'N1ARa','node#29':'N0ERa','node#28':'RootERa'}
+with open('/Users/xjw1001001/Desktop/PAML/output/' + '_'.join(pair) +'/out/construct.fasta','r') as f:
+    for line in f.readlines():
+        primalline.append(line)
+        sline = '>' + line
+        sline=sline.replace(' ','')
+        sline=sline.replace('\n','')
+        for i in substitution_dict.keys():
+            sline=sline.replace(i,substitution_dict[i])
+        sline=sline.replace(pair[0],pair[0] + '\n')
+        sline=sline.replace(pair[1],pair[1] + '\n')
+        fastaline.append(sline)      
+f1 = open('/Users/xjw1001001/Desktop/PAML/PAMLfasta/PAML_' + '_'.join(pair) +'.fasta','w+')
+for line in fastaline:
+    f1.write(line)
+    f1.write('\n')
+f1.close()
