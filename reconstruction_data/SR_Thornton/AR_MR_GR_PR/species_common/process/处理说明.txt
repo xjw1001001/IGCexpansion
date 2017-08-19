@@ -1,6 +1,24 @@
 首先从Thornton表格中找到有AR(a) MR GR PR的物种，取出Thornton的蛋白质排列，outgroup 为Aplysia californicaER
 和我们从genebank上找到的核苷酸序列，翻译成蛋白质得到ALL_protein, Thornton 的序列末尾有T
-
+不好的序列： Canis_familiarisGR Canis_familiarisMR Danio_rerioAR  Oryzias_latipesPR Oncorhynchus_mykissPR
 ALL_protein做排列
+
+Danio_rerioMR
+Danio_rerioPR
+Homo_sapiensPR
+Mus_musculusAR
+Oncorhynchus_mykissPR
+Oryctolagus_cuniculusMR
+Oryzias_latipesGR
+Oryzias_latipesMR
+Oryzias_latipesPR
+Saimiri_boliviensisAR
+Saimiri_boliviensisPR
+Taeniopygia_guttataGR
+Taeniopygia_guttataPR
+Xenopus_laevisAR
+Xenopus_laevisGR
+Xenopus_laevisMR
+Xenopus_laevisPR
 然后得到核苷酸alignment。
 最后以THornton为模板去掉gap，就得到input alignment

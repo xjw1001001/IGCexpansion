@@ -1,0 +1,5 @@
+The first error is that in the 20_Table S7.pdf, Anguilla japonica.
+You can see that the ERa and ERb have the same accesion number. That's the mistake #1
+The second and third error are the two protein named CanFamERa and HapBurAr.
+in the differences.fasta, it is that two protein and the protein fasta downloaded by the accesion number in 20_Table S7.pdf.
+And the aligned.fasta is the mafft result. It shows that there must be some mistake.

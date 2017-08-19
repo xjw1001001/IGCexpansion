@@ -1,9 +1,10 @@
 Canis familiaris
 Danio rerio 
 Homo sapiens
-Leucoraja erinacea
+Leucoraja erinacea£¨too bad)
 Mus musculus
 Oncorhynchus mykiss
+(PR too bad)
 Oryctolagus cuniculus
 Oryzias latipes
 Rattus norvegicus

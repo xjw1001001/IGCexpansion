@@ -1,0 +1,228 @@
+LOCUS       NM_001083123            5300 bp    mRNA    linear   VRT 18-JUN-2017
+DEFINITION  Danio rerio androgen receptor (ar), mRNA.
+ACCESSION   NM_001083123 XM_681428
+VERSION     NM_001083123.1
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1  (bases 1 to 5300)
+  AUTHORS   Liu DT, Brewer MS, Chen S, Hong W and Zhu Y.
+  TITLE     Transcriptomic signatures for ovulation in vertebrates
+  JOURNAL   Gen. Comp. Endocrinol. 247, 74-86 (2017)
+   PUBMED   28111234
+REFERENCE   2  (bases 1 to 5300)
+  AUTHORS   Liang YQ, Huang GY, Zhao JL, Shi WJ, Hu LX, Tian F, Liu SS, Jiang
+            YX and Ying GG.
+  TITLE     Transcriptional alterations induced by binary mixtures of
+            ethinylestradiol and norgestrel during the early development of
+            zebrafish (Danio rerio)
+  JOURNAL   Comp. Biochem. Physiol. C Toxicol. Pharmacol. 195, 60-67 (2017)
+   PUBMED   28219785
+REFERENCE   3  (bases 1 to 5300)
+  AUTHORS   Pradhan A, Ivarsson P, Ragnvaldsson D, Berg H, Jass J and Olsson
+            PE.
+  TITLE     Transcriptional responses of zebrafish to complex metal mixtures in
+            laboratory studies overestimates the responses observed with
+            environmental water
+  JOURNAL   Sci. Total Environ. 584-585, 1138-1146 (2017)
+   PUBMED   28159303
+REFERENCE   4  (bases 1 to 5300)
+  AUTHORS   Siegenthaler PF, Zhao Y, Zhang K and Fent K.
+  TITLE     Reproductive and transcriptional effects of the antiandrogenic
+            progestin chlormadinone acetate in zebrafish (Danio rerio)
+  JOURNAL   Environ. Pollut. 223, 346-356 (2017)
+   PUBMED   28118999
+REFERENCE   5  (bases 1 to 5300)
+  AUTHORS   Xu Q, Wu D, Dang Y, Yu L, Liu C and Wang J.
+  TITLE     Reproduction impairment and endocrine disruption in adult zebrafish
+            (Danio rerio) after waterborne exposure to TBOEP
+  JOURNAL   Aquat. Toxicol. 182, 163-171 (2017)
+   PUBMED   27912163
+REFERENCE   6  (bases 1 to 5300)
+  AUTHORS   Sreenivasan R, Cai M, Bartfai R, Wang X, Christoffels A and Orban
+            L.
+  TITLE     Transcriptomic analyses reveal novel genes with sexually dimorphic
+            expression in the zebrafish gonad and brain
+  JOURNAL   PLoS ONE 3 (3), E1791 (2008)
+   PUBMED   18335061
+  REMARK    Publication Status: Online-Only
+REFERENCE   7  (bases 1 to 5300)
+  AUTHORS   Hossain MS, Larsson A, Scherbak N, Olsson PE and Orban L.
+  TITLE     Zebrafish androgen receptor: isolation, molecular, and biochemical
+            characterization
+  JOURNAL   Biol. Reprod. 78 (2), 361-369 (2008)
+   PUBMED   17942797
+  REMARK    GeneRIF: The isolation and characterization of zebrafish Ar were
+            reported.
+REFERENCE   8  (bases 1 to 5300)
+  AUTHORS   Bertrand S, Thisse B, Tavares R, Sachs L, Chaumot A, Bardet PL,
+            Escriva H, Duffraisse M, Marchand O, Safi R, Thisse C and Laudet V.
+  TITLE     Unexpected novel relational links uncovered by extensive
+            developmental profiling of nuclear receptor expression
+  JOURNAL   PLoS Genet. 3 (11), E188 (2007)
+   PUBMED   17997606
+REFERENCE   9  (bases 1 to 5300)
+  AUTHORS   Jorgensen A, Andersen O, Bjerregaard P and Rasmussen LJ.
+  TITLE     Identification and characterisation of an androgen receptor from
+            zebrafish Danio rerio
+  JOURNAL   Comp. Biochem. Physiol. C Toxicol. Pharmacol. 146 (4), 561-568
+            (2007)
+   PUBMED   17698417
+REFERENCE   10 (bases 1 to 5300)
+  AUTHORS   Song HD, Sun XJ, Deng M, Zhang GW, Zhou Y, Wu XY, Sheng Y, Chen Y,
+            Ruan Z, Jiang CL, Fan HY, Zon LI, Kanki JP, Liu TX, Look AT and
+            Chen Z.
+  TITLE     Hematopoietic gene expression profile in zebrafish kidney marrow
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (46), 16240-16245 (2004)
+   PUBMED   15520368
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EF427915.1.
+            On Mar 21, 2007 this sequence version replaced gi:125816471.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: EF427915.1, EF440290.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2168446, SAMEA2168447
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5300
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7955"
+                     /chromosome="5"
+                     /map="5"
+     gene            1..5300
+                     /gene="ar"
+                     /gene_synonym="NR3C4"
+                     /note="androgen receptor"
+                     /db_xref="GeneID:100005148"
+                     /db_xref="ZFIN:ZDB-GENE-060131-1"
+     misc_feature    358..360
+                     /gene="ar"
+                     /gene_synonym="NR3C4"
+                     /note="upstream in-frame stop codon"
+     CDS             364..2970
+                     /gene="ar"
+                     /gene_synonym="NR3C4"
+                     /note="Ar beta; AR-A"
+                     /codon_start=1
+                     /product="androgen receptor"
+                     /protein_id="NP_001076592.1"
+                     /db_xref="GeneID:100005148"
+                     /db_xref="ZFIN:ZDB-GENE-060131-1"
+                     /translation="MEVPVGLVEACESPDAVFHGPYQSVFQNVRVARASNPESLDISS
+                     SKKCGCLQEGSSREMRLSELSSFRRIICCPEKEYESASSVIQAAASRIHFLKSSSGSK
+                     SDSSLSSSGSGRTDATESSGSRAGFLRVVESGQKGCGAVEVHTRELGSGRDASVASSS
+                     RACTTATITSSSSSSSTTTSCTISETARELCKAVSVSLGLAMESSELGEVGQHHAPPP
+                     PPLTTESSEEIYLYGMPLLDCSVSEREAGRKDREYALAAGRDRGEELRGRDKVLGMLK
+                     SGDLEQLAGEVTTLQCSNASRANLTADVHEFGSLSGDIANLSSEGTAAQTAPDMDGPR
+                     AASCQFEQLLPASMTHYAHPELENGPSHSFVKSTSMSGEFAGPMEDYTNLYNVRIKTE
+                     MMPRDLNDTWAYPHRYAEDSNGHYGPPKQRTPYATGHEPPFICNPYEYGRSTALVPRE
+                     RPPHEQWYPGGMLTRHPYPNVPGVKNEMGEWMDVTSFTDGRFDGGRSDIFPMEFFLPP
+                     QRTCLICSDEASGCHYGALTCGSCKVFFKRAAEGKQKYLCASRNDCTIDKLRRKNCPS
+                     CRLKKCFEVGMTLGARKLRKIGQMKGPDEVGAVQGPSETVQCLSPKPNLTFHSQLIFL
+                     NILEAIEPEVVNAGHDHGQPDSAAALLTSLNELGERQLVKVVKWAKGLPGFRNLHVDD
+                     QMTVIQHTWMGVMVFALGWRSYKNANARMLYFAPDLVFNDRRMHVSSMYEHCVQMKHL
+                     SQEFVLLQVTQEEFLCMKALLLFSVIPVEGLKSQKYFDELRLTYINELDRLINYGRKT
+                     NCAMRFQQLTRLMDSLQPVVQKLHQFTFDLFVQARSLPTKVSFPEMIAEIISVQVPKM
+                     LAGLSKPILFHK"
+ORIGIN      
+        1 tcaagtagac ggaaaaagta ctcgagcggc ggatagaaat tcccaccttc ccattgccat
+       61 tacatctgct catttatgga taacacgcgt gcaagtatga ctgggaccga ataaagcccc
+      121 gaagaacaaa tcgcgtgctt tttcggaaaa cttttctcgt tgacgtctat taagagccgc
+      181 ctatgcgtct ccggctgcga ttacatgcgc gtccgtttga ttatttttgc ttacacagtg
+      241 tcgcgctgcg cagctcactc gtgtctgtct gactggaact ttttcaagga tttcgtcgat
+      301 gaacttgttg cggtgagtcc cctttaaacc ctcacggcct gtgttgtact ctgcttttag
+      361 actatggagg ttccggtcgg gctggtggaa gcctgcgagt ccccagacgc agtttttcac
+      421 ggaccttacc aaagcgtttt tcaaaacgtg cgcgtcgcga gagcgagcaa ccccgagagt
+      481 ttggatattt ctagctccaa gaagtgcggc tgcctacagg agggctcgtc gagggaaatg
+      541 cgcttaagtg agctgtcctc attcagaaga ataatatgct gccccgaaaa agagtacgag
+      601 agtgcgagtt cggtgataca ggcggcggcg agccgaattc attttctcaa gagttcatca
+      661 ggaagcaaaa gcgactcgtc tctgtcatct agcggctcgg gccgcacaga cgccaccgaa
+      721 agcagcggta gtcgcgcagg cttccttcgg gtcgtcgaga gtggacagaa gggctgcggt
+      781 gctgttgaag ttcacacacg agagttgggc tcgggccgtg acgcaagtgt ggcgagtagt
+      841 agtcgtgcgt gcaccaccgc caccatcacc tccagcagca gcagcagcag caccactacc
+      901 agctgcacca tatcagagac agcgcgagag ttgtgcaaag ccgtgtccgt atctttgggc
+      961 ttagctatgg agtccagcga actgggcgag gtgggacagc accatgcacc gccgccaccg
+     1021 cccctgacca ctgaaagtag tgaggagatc tatttgtacg gaatgccttt gctcgactgc
+     1081 tcagtgagcg aacgagaggc aggaaggaaa gaccgagagt acgctctcgc ggcgggacga
+     1141 gacagaggcg aagagctccg aggcagggac aaagtgctcg ggatgcttaa aagtggcgac
+     1201 ctggaacagc tagctggtga ggtgacgacc ttgcagtgca gcaacgcttc tcgagcgaac
+     1261 ttgaccgcgg atgtgcatga gttcggcagc ctgtccgggg acattgccaa cctgagttca
+     1321 gaaggtacag cagcgcagac agcaccggat atggacggac cgcgagcggc ttcgtgccag
+     1381 tttgaacaac tgttgcccgc gagcatgacc cattatgccc acccggagct cgaaaacgga
+     1441 ccgagccata gcttcgtaaa atccacatca atgtctggag agtttgctgg tcccatggag
+     1501 gattacacga atctctataa tgtcagaatc aagaccgaga tgatgccccg tgatctgaat
+     1561 gacacctggg cgtacccgca taggtacgcc gaggactcta acggccacta cgggcctcca
+     1621 aagcaaagga caccttatgc tactggccac gaacccccgt ttatctgtaa cccttatgaa
+     1681 tacggccgaa gtactgctct ggttccgcgg gagcgacctc cgcacgagca gtggtacccg
+     1741 ggtgggatgc tgacccgtca tccgtaccct aacgtgcctg gcgtgaaaaa cgagatgggc
+     1801 gaatggatgg atgtaacatc gttcacggat ggcaggtttg acggagggag gagtgacatt
+     1861 ttcccaatgg agtttttcct tcctccacaa aggacctgcc taatctgctc tgatgaagca
+     1921 tctgggtgtc actacggagc cctcacttgc ggaagctgca aagtgttctt taagagagct
+     1981 gctgagggga agcagaagta tctgtgcgct agcaggaatg actgcaccat agacaaactg
+     2041 aggaggaaga actgcccatc ctgccgtctg aagaagtgtt ttgaggttgg aatgaccctg
+     2101 ggagcccgca agctgaggaa gattggacag atgaaaggtc cggatgaggt cggagcagtt
+     2161 cagggcccgt cggagactgt ccagtgcttg tcgcccaagc ccaacctgac tttccactcg
+     2221 cagttgatct tcctgaacat tctggaggcc attgagcccg aggtggtgaa cgccggccat
+     2281 gatcatggtc agcctgactc agcggctgct cttctcacca gccttaacga gttaggagag
+     2341 aggcaacttg tcaaagtagt gaaatgggcc aaaggacttc caggtttccg taacttgcac
+     2401 gtggatgatc agatgacagt catacaacac acctggatgg gagtgatggt ctttgctctg
+     2461 ggttggaggt cctacaagaa cgccaacgcg cggatgctgt acttcgctcc agacctggtc
+     2521 ttcaatgatc gtaggatgca cgtctccagc atgtatgagc actgtgttca gatgaagcat
+     2581 ctctcgcagg agtttgtgct gctacaggtc acacaggaag agttcctctg tatgaaggcc
+     2641 ctcctcctgt ttagcgtcat tccagtggag gggctgaaga gtcagaagta ttttgatgag
+     2701 ctgcgtctga cgtacataaa cgagcttgat cgtttaatca actatggcag gaagaccaac
+     2761 tgtgccatgc gcttccagca gctgacacga ctgatggact cactgcaacc agttgttcag
+     2821 aagttgcacc agtttacctt tgacctcttt gtccaagccc ggtctctgcc cacgaaggtc
+     2881 agctttcccg aaatgattgc agaaataatc tcggtccagg tgccaaagat gctcgccggc
+     2941 ctgtctaaac caatcctgtt ccacaaatga caggaccacg cccccaatct ataccaagcc
+     3001 cacccaggcc atatgagcca gtcagtttgg tctgatccag cctaaaccag cctgcgatgc
+     3061 tttgaatctg gactcgaatt gagcgacgag actgaacaat actgattttt tgatttttcc
+     3121 attttttagc atttccctct ccctctcyct ctctctctct ccctcccacc ctttctatct
+     3181 cagtctcgtc tctccctcct tttgaaaaat ggccctgaaa agtagcggga ccattacatc
+     3241 attacagttg tctatcttct tctcggagat gatttgagct cattttctca aactgacagc
+     3301 atggtgtgaa gcaggttttg ttctttcttt agaccagcag ttatccttca agagttacaa
+     3361 cgtgttgcct ggtggacagg ttggaaaaaa aaatatcaca ctgaagtttc atctgagccc
+     3421 ttaatcataa aaagaagaaa aaaaaaagac attaagcaga tccctttcca agtctgtgac
+     3481 ctgccttgac tctgtgcata gtgggataaa aaggtttcat ttattgtcca tgacttgaga
+     3541 gatcaggaca aagcaaagca gcatgcatag agaaatacga tcgaatgtgg caaaaacccg
+     3601 ggacagattc tttttacttg tgacaaaaat tctaagtaca gtaccatagt attaaaacag
+     3661 tacggaattc agaccggcta tcggtcctcc tccctgcttt attagtttat tgattgtaaa
+     3721 acaagtgctt cattcatttc ttatgaaatg tagaggctct ttataaaagc tttttaaaag
+     3781 gcatcattca ttcaggatgt tcagacgaat tctgactatt tcgttcattt gaaaatcgct
+     3841 cacagttggg ttgaaaattc actttcgcca atgaaaacaa aaggacagca tgattatgat
+     3901 gatgataaca gcgctatagt aaaaacatct cacagtcatt agggagttgc ctcctctaga
+     3961 cagcagactt ttgttaagac agtgcagatt gcccgtattt acaacctgga tattgcggtg
+     4021 caggttttag ggtataatgt tgacagtttg tatatagaac acaacaacta cagcaatgct
+     4081 tgggtcatca tacaagatct tcaaatatat atccgtatct aaacctattt aaacctatgc
+     4141 atgctgtctt catatccatc actacaaaac aagaaaccaa taactgcatg ctgaagccct
+     4201 agatattcac acaaaccaaa ctgcatttcc agtaagctaa atggatattg ttaggaaacg
+     4261 ggactgtttc ccataaagct attactaagt tactctctct ttcactgtcc ttaatggaag
+     4321 atctggcaag gtaatgttct tgtgtatata tgtaaaagtt aagcgtggtt cttttcaacc
+     4381 tttctatgtg ctaatgtatg gatgtagtca atagttttac agtacagttt cctctctttc
+     4441 ctttatagta agtgccnact gagggattts tatttctctg cgctagcaat aagtaatcac
+     4501 atgcttaaca cagtctttta acaagctctt ttagaatacc aaaacaggct tcagacggtg
+     4561 cacaccttta aaaacagaca aaacaaaaga caaaaaagag ctatgcttat gtgctaacat
+     4621 aacgggacag tactgttatt ttatcagaaa ctcgtaccaa acatcttaat caccatcaac
+     4681 tgacgcaaag cagcggcaag tggtgctata agctctcctc tttattcacg agggtgttag
+     4741 atgagacgaa aaaagacaaa aaaaactacg tattttttac tctgcttttg cttcaattaa
+     4801 agcattctct atttatctgt cagaaaggaa catctttact cgctttcctc atacttgggc
+     4861 gctgtgcgtg ttttctagac gtcgtgtcaa cttttttcct ctgcacgctc tccgtttcta
+     4921 aatgattgaa taatgcctgc agtgttatgt atgtagatta ctctttaaag agcccaaaaa
+     4981 tcgcggcgct gtgttgtctt tgtcaggcct ggggtgacct ggggtgtact ttcagcagag
+     5041 cagggagttt tccgacgagt taaaacgacg agatgtggtt tagctgctcg agctcttgtc
+     5101 gccgccgagc atgttgacgg tttaaatgtg ccaggcagag aataggctgt cagagaaagc
+     5161 tcctttgcgc tgacagcacc gagcaccgcg caattacacg caggtgttta cccatttaga
+     5221 cggcccaaaa gcactcatta gaatttgcag aactccaagc ctcactttta ccctgccaaa
+     5281 aaaaaaaaaa aaaaaaaaaa
+//
+
