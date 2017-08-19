@@ -22,7 +22,7 @@ if __name__ == '__main__':
     paralog =  ['AR', 'PR']
     Force = None
     alignment_file = './reconstruction_data/SR_Thornton/AR_MR_GR_PR/species_common/input_' + '_'.join(paralog) +'.fasta'
-    newicktree = './reconstruction_data/SR_Thornton/AR_MR_GR_PR/species_common/species.newick'
+    newicktree = './reconstruction_data/SR_Thornton/AR_MR_GR_PR/species_common/species_common.newick'
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
