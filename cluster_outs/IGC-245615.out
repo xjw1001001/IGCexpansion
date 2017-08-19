@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "Run_rebuild_Thornton_AR_MR.py", line 24, in <module>
+    alignment_file = './reconstruction_data/SR_Thornton/ER/input_' + '_'.join(pair) +'.fasta'
+NameError: name 'pair' is not defined
