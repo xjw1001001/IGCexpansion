@@ -1,0 +1,91 @@
+LOCUS       SBU87951                2376 bp    mRNA    linear   PRI 06-MAR-1997
+DEFINITION  Saimiri boliviensis glucocorticoid receptor mRNA, complete cds.
+ACCESSION   U87951
+VERSION     U87951.1
+KEYWORDS    .
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+REFERENCE   1  (bases 1 to 2376)
+  AUTHORS   Reynolds,P.D., Pittler,S.J. and Scammell,J.G.
+  TITLE     Cloning and expression of the glucocorticoid receptor from the
+            squirrel monkey (Saimiri boliviensis boliviensis), a
+            glucocorticoid-resistant primate
+  JOURNAL   J. Clin. Endocrinol. Metab. 82 (2), 465-472 (1997)
+   PUBMED   9024238
+REFERENCE   2  (bases 1 to 2376)
+  AUTHORS   Reynolds,P.D., Pittler,S.J. and Scammell,J.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JAN-1997) Pharmacology, University of South Alabama,
+            MSB 3130, Mobile, AL 36688, USA
+FEATURES             Location/Qualifiers
+     source          1..2376
+                     /organism="Saimiri boliviensis boliviensis"
+                     /mol_type="mRNA"
+                     /sub_species="boliviensis"
+                     /db_xref="taxon:39432"
+                     /tissue_type="liver"
+     CDS             19..2352
+                     /note="steroid hormone receptor"
+                     /codon_start=1
+                     /product="glucocorticoid receptor"
+                     /protein_id="AAC51131.1"
+                     /translation="MDSKESLTPGKEENPSSVLTQERGNVMDFCKILRGGATLKVSVS
+                     STSLAAASQSDSKQQRLLVDFPKGSVSNAQQPDLSKAVSLSMGLYMGETETKVMGNDL
+                     GFPQQGQISLSSGETDLQLLEESIANLNRSTSVPENPKSSASSSVSAAPKEKEFPKTH
+                     SDVSSEQQNLKGQTGSNGGNVKLYTADQSTFDILQDLEFSSGSPGKETNQSPWKSDLL
+                     IDENCLLSPLAGEEDSFLLEGNSNEDCKPLILPDTKPKIKDNGDLVLSSSSNVTLPQV
+                     KTEKEDFIELCTPGVIKQEKLSTVYCQASFPGANIIGNKMSAISIHGVSTSGGQMYHY
+                     DMNTASLSQQQDQKPIFNVIPPIPVGSENWNRCQGSGDDNLTSLGTLNFPGRTVFSNG
+                     YSSPSMRPDVSSPPSSSSTATTGPPPKLCLVCSDEASGCHYGVLTCGSCKVFFKRAVE
+                     GQHNYLCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEARKTKKKIKGIQQATTGVS
+                     QETSENPANKTIVPATLPQLTPTLVSLLEVIEPEVLYAGYDSTVPDSTWRIMTTLNML
+                     GGRQVIAAVKWAKAIPGFRNLHLDDQMTLLQYSWMFLMAFALGWRSYRQASSNLLCFA
+                     PDLIINEQRMTLPCMYDQCKHMLYVSSELHRLQVSYEEYLCMKTLLLLSSVPKDGLKS
+                     QELFDEIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSMHEVVENLLNYCFQTF
+                     LDKTMSIEFPEMLAEIITNQLPKYSNGNIKKLLFHQK"
+ORIGIN      
+        1 cagagttgat attcactgat ggactccaaa gaatcattaa ctcctggtaa agaagaaaat
+       61 ccgagtagtg tgcttactca ggagagggga aatgtgatgg acttctgtaa aatcctaagg
+      121 ggaggagcta ctctgaaggt ttctgtatct tcaacctcac tggctgctgc atctcagtca
+      181 gactccaagc agcaaagact tttggttgat tttccgaaag gctcagtaag caatgcgcaa
+      241 cagccagatc tgtccaaagc agtttcactc tcgatgggac tctatatggg agaaacagaa
+      301 acaaaagtaa tgggaaatga cctgggattc ccacagcagg gccaaatcag cctctcctca
+      361 ggggaaacag acttacagct tctggaagaa agcattgcaa acctcaatag gtcgaccagt
+      421 gttccagaga accccaagag ttcagcatcc tcttccgtgt ctgctgcccc caaagagaag
+      481 gagtttccaa aaactcattc tgatgtgtct tcagaacagc aaaatttgaa gggccagact
+      541 ggctccaacg gtggcaatgt gaaattgtat accgcagacc aaagcacctt tgacattttg
+      601 caggatttgg agttttcttc tgggtcccca ggtaaagaga cgaatcagag tccttggaaa
+      661 tcagacctgt tgatagatga aaactgtttg ctttctcctc tggcgggaga agaggattca
+      721 ttccttttgg aaggaaactc gaatgaggac tgcaagcctc tcattttacc ggacactaaa
+      781 cctaaaatta aggataatgg agatctggtt ttgtcaagct ccagtaatgt aacactgccc
+      841 caagtgaaaa cagaaaaaga agatttcatc gaactctgta cccctggggt aattaagcaa
+      901 gagaaactga gcacagttta ctgtcaggca agctttcctg gagcaaatat aattggtaat
+      961 aaaatgtctg ccatttctat tcatggtgtg agtacctctg gaggacagat gtaccactat
+     1021 gacatgaata cagcatccct ttctcaacag caggatcaga agcctatttt taatgtcatt
+     1081 ccaccaattc ctgttggttc cgaaaattgg aataggtgcc aagggtctgg agacgacaac
+     1141 ttgacttcct tggggactct gaacttccct ggtcgaacag ttttttctaa tggctattca
+     1201 agccccagca tgagaccaga tgtaagctct cctccatcta gctcctcaac agcaacaacg
+     1261 ggaccacctc ccaaactctg cctggtgtgc tctgatgaag cttcaggatg ccattatgga
+     1321 gtcttaactt gtggaagctg taaagttttc ttcaaaagag cagtggaagg acagcacaat
+     1381 tatttgtgtg ctggaaggaa tgattgcatc atcgataaaa ttcgaagaaa aaactgccca
+     1441 gcatgccgct accgaaaatg tcttcaagct ggaatgaacc tggaagctcg aaaaacaaag
+     1501 aaaaaaataa aaggaattca gcaggccact acaggagtct cacaagaaac ctctgaaaat
+     1561 cctgctaaca aaacaatagt tcctgcaacg ttaccacaac tcacccctac cctggtgtca
+     1621 ctgttggagg tcattgaacc tgaggtgttg tatgccggtt atgatagcac tgttccagac
+     1681 tcaacctgga ggatcatgac cacgctcaac atgttaggag ggcggcaagt tattgcagcc
+     1741 gtgaagtggg caaaggcgat accaggtttc aggaacttac acctggatga ccaaatgacc
+     1801 ctactgcaat actcctggat gtttcttatg gcatttgcct tggggtggag atcatataga
+     1861 caagcaagtt caaacctact gtgttttgct cctgatctga ttattaatga gcagagaatg
+     1921 actctaccct gcatgtacga ccaatgtaaa catatgctgt atgtttcctc tgagttacac
+     1981 aggcttcagg tatcttatga agagtatctc tgtatgaaaa ccttactgct tctctcttca
+     2041 gttcctaagg atggtttgaa gagccaagag ctatttgatg aaattagaat gacctacatc
+     2101 aaagagctag gaaaagccat tgtcaagagg gaagggaact ccagccagaa ctggcagcgg
+     2161 ttttatcaac tgacaaaact cttggattct atgcatgaag tggttgaaaa tctccttaac
+     2221 tattgcttcc aaacattttt ggataagacc atgagtattg aattcccaga gatgttagct
+     2281 gaaatcatca ccaatcagct accaaaatat tcaaatggaa atatcaaaaa acttctgttt
+     2341 catcaaaagt gactgcctta ataagaatgg ttgcct
+//
+

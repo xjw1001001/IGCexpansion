@@ -1,0 +1,144 @@
+LOCUS       XM_014119441            3624 bp    mRNA    linear   MAM 17-SEP-2015
+DEFINITION  PREDICTED: Canis lupus familiaris nuclear receptor subfamily 3,
+            group C, member 2 (NR3C2), transcript variant X3, mRNA.
+ACCESSION   XM_014119441
+VERSION     XM_014119441.1
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726085.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+                                           Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.4
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3624
+                     /organism="Canis lupus familiaris"
+                     /mol_type="mRNA"
+                     /sub_species="familiaris"
+                     /db_xref="taxon:9615"
+                     /chromosome="15"
+                     /sex="female"
+                     /breed="boxer"
+     gene            1..3624
+                     /gene="NR3C2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 3 ESTs, 21 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 5 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:475461"
+     CDS             167..3088
+                     /gene="NR3C2"
+                     /codon_start=1
+                     /product="mineralocorticoid receptor isoform X2"
+                     /protein_id="XP_013974916.1"
+                     /db_xref="GeneID:475461"
+                     /translation="METKGYHSLPEGLDMERRWGQVSQAVEHSSLGPTERTDENNYME
+                     IVNVSCVSGAIPNNSTQGSSKEKHELLPCLQQDNNRSGILTSDIKTELESKELSATVA
+                     ESMGLYMDSVRDADYTYDQQNQQGSMSPAKIYQNVEQLVKFYKENGHHPSTLGGVNRP
+                     LRSFMSDSGSSVNGGVMRAIVKSPIMCHEKSPSVCSPLNMTSSVCSPAGISSVSSTSA
+                     SFGSFTVHSPITQGTPLTCSPNVENRGSRSHSPAHVGSPLSSPLSSMKSPISSPPSHC
+                     SVKSPVSSPNNVTLRSSVSSPANINNSRCSVSSPSNTNNRSTLSSPTASTVGSICSPV
+                     NNAFSYTASGTPAGSSVARDVVPSPDTQEKGAQEVPFPKSEEVENAISNGVTGQLNIV
+                     QYIKPEPDGAFSSSCLGGNNKINSDSPFSVPIKQESTKHSCSGTSFKGNPTVNPFPFM
+                     DGSYFSFMDDKDYYSLSGILGPPVPGFDGNCEGSGFPMGIKQEPDDGSYYPEASIPSS
+                     AIVGVNSGGQSFHYRIGAQGTISLSRSARDQSFQHLSSFPPVNTLVESWKSHGDLSSR
+                     RNDGYPVLEYIPENVTSSTLRSVSTGSSRPSKICLVCGDEASGCHYGVVTCGSCKVFF
+                     KRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRLQKCLQAGMNLGARKSKKLGKLKGAH
+                     EEPPPAPPQSPEEGAPYLAPAQEPPVPAALVPQLAAVSRALAPSPVTILESIEPEVVY
+                     AGYDSSKPDTAENLLSTLNRLAGKQMIQVVKWAKVLPGFRNLPLEDQITLIQYSWMCL
+                     SSFALSWRSYKHTNSQFLYFAPDLVFNEEKMHQSAMYELCQGMHQISLQFVRLQLTFE
+                     EYTIMKVLLLLSTIPKDGLKSQAAFEEMRTNYIKELRKMVTKCPSNSGQSWQRFYQLT
+                     KLLDSMHDLVSDLLEFCFYTFRESQALKVEFPAMLVEIISDQLPKVESGNAKPLYFHR
+                     K"
+     STS             1080..1324
+                     /gene="NR3C2"
+                     /standard_name="NR3C2"
+                     /db_xref="UniSTS:266087"
+     STS             1450..1674
+                     /gene="NR3C2"
+                     /standard_name="SHGC-59557"
+                     /db_xref="UniSTS:2866"
+ORIGIN      
+        1 gtcagtagcg cgaccgccgg gattctcgtc ctctccatcc ttgccgccga tctgctcgct
+       61 atactggact tgcccgcggc ggcggcggcg ggagtctcgc cgccctcacc cccgccccac
+      121 ccccccgccc cgcgccccag cttccccacc atgtcctaga aaagctatgg agaccaaagg
+      181 ctaccacagt ctccctgaag gtctagatat ggaaagacgg tggggtcaag tttctcaggc
+      241 tgtggaacat tcttccctgg gacctacaga gaggaccgat gagaataact acatggagat
+      301 tgtcaacgta agctgtgttt ccggtgctat tccaaacaac agtactcaag gaagcagcaa
+      361 agaaaaacac gaactactcc cttgccttca gcaagacaat aatcggtctg ggattttaac
+      421 atctgatatt aaaactgagc tggagtctaa ggaactttcg gcgactgtgg ctgagtccat
+      481 gggtttatac atggattctg taagagatgc tgactatacc tatgaccagc agaaccaaca
+      541 aggaagcatg agtccagcaa agatttatca aaatgttgaa cagctggtga aattttacaa
+      601 agaaaatggc catcatcctt ccactctagg tggtgtgaac aggcccttga gatccttcat
+      661 gtctgactct gggagctctg tgaacggtgg ggtcatgcgt gccattgtta aaagccctat
+      721 catgtgtcat gagaagagcc catctgtttg cagccctctg aacatgacat cttcagtttg
+      781 cagccctgct ggaatcagct ctgtgtcctc cacctctgcc agctttggca gtttcacagt
+      841 gcacagccct atcacccagg ggactccttt gacatgctcc cctaacgttg agaatcgagg
+      901 ctccagatcg cacagcccag cacacgtggg ctctcctctc tcaagtccat taagtagcat
+      961 gaaatcccca atatccagcc ctccgagtca ctgcagtgta aaatctccag tctccagtcc
+     1021 taacaatgtc actctgcgat cctctgtgtc tagccctgca aacatcaaca actcaaggtg
+     1081 ctccgtttcc agcccttcca acacaaataa cagatccacg ctttccagtc caactgctag
+     1141 tactgtggga tctatctgta gccctgtaaa caatgccttc agctacactg cttctggcac
+     1201 tcctgctgga tccagtgtgg cccgggatgt ggttcctagt ccagacacac aggagaaagg
+     1261 tgctcaagag gtcccctttc ctaagagtga ggaagtggag aatgccatct ccaatggtgt
+     1321 gactggccag cttaacattg tccagtacat aaaaccggag ccagatggag cttttagtag
+     1381 ctcatgtcta ggaggaaata acaaaataaa ttctgattcc ccattctcag taccaataaa
+     1441 acaagaatca accaagcatt catgttcagg cacctctttt aaagggaatc caacagtaaa
+     1501 tccatttcca tttatggatg gctcatattt ttcctttatg gatgataaag actattattc
+     1561 tctatcagga attttaggac cacctgtgcc cggctttgat ggtaactgtg aaggcagcgg
+     1621 attcccaatg ggtattaaac aggaaccaga tgatgggagc tattacccag aggccagcat
+     1681 cccgtcatct gctattgttg gtgtgaattc gggtggacag tcctttcact acaggattgg
+     1741 tgctcaaggt acaatatctt tatcacgatc agctagagac caatctttcc aacacctgag
+     1801 ttcctttcct cctgttaata ctttagtgga gtcatggaaa tcacatggtg acctgtcatc
+     1861 tagaagaaat gatggatatc cagttctaga atacattcca gaaaacgtaa caagctctac
+     1921 cttacgaagt gtttctactg gatcttcaag accttccaaa atatgtttgg tgtgtgggga
+     1981 tgaggcttca ggatgtcatt atggggtagt aacctgtggc agctgcaaag tgttcttcaa
+     2041 aagagcagtg gaagggcaac ataactattt atgtgctgga agaaatgatt gcatcattga
+     2101 taagattcga cggaagaatt gtcctgcctg cagacttcag aaatgtcttc aagctggaat
+     2161 gaatttagga gcccgcaagt ccaagaagct gggcaagctc aagggcgcgc acgaggagcc
+     2221 gccgcccgcg ccgccgcaaa gccccgagga gggggcgccg tacctcgcgc ccgcgcagga
+     2281 gccgcccgtg cccgccgcgc tggtgccgca gctcgccgcc gtgtcccgcg cgctcgcgcc
+     2341 ctccccggtc accatcctgg agagcatcga gcccgaggtc gtgtacgcgg gctacgacag
+     2401 ctccaagccc gacacggccg aaaacctcct ctccacgctg aaccgcctgg cgggcaagca
+     2461 gatgatccaa gtggtgaagt gggcgaaggt acttccagga tttcgaaact tgcctcttga
+     2521 ggaccaaatt accctaatcc agtattcttg gatgtgtcta tcatcatttg ccttgagctg
+     2581 gagatcgtac aaacatacaa acagccaatt tctctatttt gcgccagacc tagtctttaa
+     2641 tgaagagaag atgcatcagt ctgccatgta tgaactatgc caggggatgc accaaatcag
+     2701 ccttcagttc gttcgactgc agctcacctt tgaagagtac actataatga aagttctgct
+     2761 gctgctaagc acaattccaa aggacggcct caaaagccag gctgcatttg aagaaatgag
+     2821 gacaaattac atcaaagaac tgaggaagat ggtaactaag tgtcccagca actctgggca
+     2881 gagctggcaa aggttctacc aactgaccaa gcttctggac tccatgcatg atctggtgag
+     2941 cgacctgctg gagttctgct tctacacctt ccgggagtcg caggccctga aggtggagtt
+     3001 ccccgccatg ctggtggaga tcatcagcga ccagctgccg aaggtggagt ccggcaacgc
+     3061 caagcccctg tacttccaca ggaagtgacg ggccacggcc cggagagctt tgccttaagt
+     3121 ttcccctgct cgtccacacc ccacgaagga cccgagcaat ccggttttta gcacgtgctg
+     3181 gttgattccc acccgagcag tttctcgagt ttagaaatca cgccaagggt ttggagccgg
+     3241 gaaagcagcg cgacgtgggt ttggcgagag ccgagcagtc ggaaggcgtc tccccctccg
+     3301 atccccgcgc ttggaaacgc gttcctgttc ctctggatga aaagccatat ctagtcaata
+     3361 actctgattt tgatatttta acagatggaa gttttaccta cgccatgtag tttctggtat
+     3421 cgttagcttg ttttaaaagg gttcaaggac taacggactt tttagagctt acccttggtt
+     3481 gcacataaaa cgtataatca atatggggca ttaatattct tttcttattt aaaaaaaaac
+     3541 acacaaaaag aaaaaaacct agattcctgt tgtgtaataa cagagcccgt ggcgcggagt
+     3601 agccccgccc ccgcccctcc ccgg
+//
+

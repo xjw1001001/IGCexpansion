@@ -1,0 +1,206 @@
+LOCUS       NM_001100403            3540 bp    mRNA    linear   VRT 06-AUG-2017
+DEFINITION  Danio rerio nuclear receptor subfamily 3, group C, member 2
+            (nr3c2), mRNA.
+ACCESSION   NM_001100403 XM_685568
+VERSION     NM_001100403.1
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1  (bases 1 to 3540)
+  AUTHORS   Theodoridi A, Tsalafouta A and Pavlidis M.
+  TITLE     Acute Exposure to Fluoxetine Alters Aggressive Behavior of
+            Zebrafish and Expression of Genes Involved in Serotonergic System
+            Regulation
+  JOURNAL   Front Neurosci 11, 223 (2017)
+   PUBMED   28487628
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3540)
+  AUTHORS   van den Bos R, Mes W, Galligani P, Heil A, Zethof J, Flik G and
+            Gorissen M.
+  TITLE     Further characterisation of differences between TL and AB zebrafish
+            (Danio rerio): Gene expression, physiology and behaviour at day 5
+            of the larval stage
+  JOURNAL   PLoS ONE 12 (4), E0175420 (2017)
+   PUBMED   28419104
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 3540)
+  AUTHORS   Wu Y, Su G, Tang S, Liu W, Ma Z, Zheng X, Liu H and Yu H.
+  TITLE     The combination of in silico and in vivo approaches for the
+            investigation of disrupting effects of tris (2-chloroethyl)
+            phosphate (TCEP) toward core receptors of zebrafish
+  JOURNAL   Chemosphere 168, 122-130 (2017)
+   PUBMED   27776230
+REFERENCE   4  (bases 1 to 3540)
+  AUTHORS   Siegenthaler PF, Bain P, Riva F and Fent K.
+  TITLE     Effects of antiandrogenic progestins, chlormadinone and cyproterone
+            acetate, and the estrogen 17alpha-ethinylestradiol (EE2), and their
+            mixtures: Transactivation with human and rainbowfish hormone
+            receptors and transcriptional effects in zebrafish (Danio rerio)
+            eleuthero-embryos
+  JOURNAL   Aquat. Toxicol. 182, 142-162 (2017)
+   PUBMED   27907851
+REFERENCE   5  (bases 1 to 3540)
+  AUTHORS   Zhao Y, Zhang K and Fent K.
+  TITLE     Corticosteroid Fludrocortisone Acetate Targets Multiple End Points
+            in Zebrafish (Danio rerio) at Low Concentrations
+  JOURNAL   Environ. Sci. Technol. 50 (18), 10245-10254 (2016)
+   PUBMED   27618422
+REFERENCE   6  (bases 1 to 3540)
+  AUTHORS   Pippal JB, Cheung CM, Yao YZ, Brennan FE and Fuller PJ.
+  TITLE     Characterization of the zebrafish (Danio rerio) mineralocorticoid
+            receptor
+  JOURNAL   Mol. Cell. Endocrinol. 332 (1-2), 58-66 (2011)
+   PUBMED   20932876
+  REMARK    GeneRIF: Data demonstrate that there are distinct differences
+            between the human mineralocorticoid receptor (MR) and the zebrafish
+            MR despite considerable sequence and functional conservation.
+REFERENCE   7  (bases 1 to 3540)
+  AUTHORS   Liu C, Zhang X, Deng J, Hecker M, Al-Khedhairy A, Giesy JP and Zhou
+            B.
+  TITLE     Effects of prochloraz or propylthiouracil on the cross-talk between
+            the HPG, HPA, and HPT axes in zebrafish
+  JOURNAL   Environ. Sci. Technol. 45 (2), 769-775 (2011)
+   PUBMED   21158436
+REFERENCE   8  (bases 1 to 3540)
+  AUTHORS   Pikulkaew S, De Nadai A, Belvedere P, Colombo L and Dalla Valle L.
+  TITLE     Expression analysis of steroid hormone receptor mRNAs during
+            zebrafish embryogenesis
+  JOURNAL   Gen. Comp. Endocrinol. 165 (2), 215-220 (2010)
+   PUBMED   19576895
+REFERENCE   9  (bases 1 to 3540)
+  AUTHORS   Alsop D and Vijayan MM.
+  TITLE     Development of the corticosteroid stress axis and receptor
+            expression in zebrafish
+  JOURNAL   Am. J. Physiol. Regul. Integr. Comp. Physiol. 294 (3), R711-R719
+            (2008)
+   PUBMED   18077507
+  REMARK    Erratum:[Am J Physiol Regul Integr Comp Physiol. 2008
+            Jun;294(6):R2021]
+REFERENCE   10 (bases 1 to 3540)
+  AUTHORS   Bertrand S, Thisse B, Tavares R, Sachs L, Chaumot A, Bardet PL,
+            Escriva H, Duffraisse M, Marchand O, Safi R, Thisse C and Laudet V.
+  TITLE     Unexpected novel relational links uncovered by extensive
+            developmental profiling of nuclear receptor expression
+  JOURNAL   PLoS Genet. 3 (11), E188 (2007)
+   PUBMED   17997606
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EF567113.1.
+            On Aug 3, 2007 this sequence version replaced gi:125817859.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: EF567113.1 [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+                                           SAMEA2168446, SAMEA2168447
+                                           [ECO:0000350]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3540
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7955"
+                     /chromosome="1"
+                     /map="1"
+     gene            1..3540
+                     /gene="nr3c2"
+                     /gene_synonym="mr; si:ch211-189l17.1"
+                     /note="nuclear receptor subfamily 3, group C, member 2"
+                     /db_xref="GeneID:562171"
+                     /db_xref="ZFIN:ZDB-GENE-060531-23"
+     misc_feature    265..267
+                     /gene="nr3c2"
+                     /gene_synonym="mr; si:ch211-189l17.1"
+                     /note="upstream in-frame stop codon"
+     CDS             334..3246
+                     /gene="nr3c2"
+                     /gene_synonym="mr; si:ch211-189l17.1"
+                     /codon_start=1
+                     /product="mineralocorticoid receptor"
+                     /protein_id="NP_001093873.1"
+                     /db_xref="GeneID:562171"
+                     /db_xref="ZFIN:ZDB-GENE-060531-23"
+                     /translation="METKRYQSCCEGAKAENKWAQMPNTADYICSAEESLTNSDVLMD
+                     IVNSSNTPNVQSICKDNNFKNTEATMIRVNQNQPLPFPTFNNCFNNRKSETDSKELSK
+                     TVAESMGLYMNAAREADFGFSQQGAAGGQGSPGKLYPLCGRTNEDSQAKTSGSPKMKA
+                     PPASFPPGAQLPNGGPQECAVVSDSVPSALVTALSSSTDGSCPMSSPTGHNMVSSTTS
+                     PTYFDSDCPTLDSATSSLTHCQHTSPNICSPVKSSIVGSPPLPSPLSVMKSPVSSPHS
+                     IGSVRSPLSCNTNMRSSVSSPTTNGGNTCNIKPSISSPPTAGSMSMSSPRNSSRGFSV
+                     SSPPSGLGLVQNDVNSPESREHDFKGFEFPKVENVDGEIFNIGLDAMGVAKYIKNEPG
+                     TDFRSMCLGSSKSAMSNSPFVTHIKTEPNREVTCSNLQFAEPQHSLGCFPSTETTYLS
+                     LRDNIDEYSLSGILGPPVSSLNGNYEPGVFPNNGLPKGIKQETNDGSYYQENNNVPTS
+                     AIVGVNSGGHSFHYQIGAQGTMSFSRHNLRDQTNPLLNLISPVTGLMETWKTRPGLSQ
+                     GPLTARGDGYPGAVCLTENMESASLRHTSSTAKVCLVCGDEASGCHYGVVTCGSCKVF
+                     FKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRVRKCLQAGMNLGARKSKKLGKIKSI
+                     SEDSSLQSSKDGPFLTSEKELSSSTALVPHTPTVAPYLTPSVCSVLELIEPEVVFAGY
+                     DNTQPDTTDHLLTSLNQLAGKQMIRVVKWAKVLPGFRSLPIEDQITLIQYSWMCLSSF
+                     SLSWRSYKHTNAQMLYFAPDLVFNEERMQQSAMYDLCVGMRQVSQEFVRLQLTYEEYL
+                     AMKVLLLLSTVPKDGLKNQGAFEEMRVNYIKELRRSVGKATNNSGQTWQRFFQLTKLL
+                     DATHDLVRSLLDFCFYTFRESQALKVEFPEMLVEIISDQIPKVESGQTHTLYFHKK"
+ORIGIN      
+        1 agtcttcagt tgggcgcctt caacaatcta gtagcaatgt gcacgtaaac agaaaagtgt
+       61 cgacaggacg tttcgctcaa gtcgctgtcg actgttgtgt gcgcgtacag tgcgctgtcg
+      121 ttaaggagct cgcgtcatgc gcgcgccagt ttgcggtgcg ttcagctgtc acaactgaaa
+      181 ctacatgcaa gcagtcgcaa cactgggaat acttcttaac actacttaac ctgtcatttt
+      241 tctccgtttt gtgcattgga ttactagtgg cgagcagtag aggtaactgt caaaatcgga
+      301 tgtcgtaatt acggtttatc aaatgaccca ggtatggaga ctaaaagata ccaaagttgc
+      361 tgcgaagggg cgaaagcaga aaacaaatgg gcacagatgc caaacaccgc ggactatatc
+      421 tgctctgcag aagagagttt gacaaacagt gatgtgctca tggatattgt taactcgagc
+      481 aataccccta atgtgcaatc tatctgcaag gacaacaact ttaagaatac agaggcaaca
+      541 atgattagag ttaaccagaa tcaaccatta cctttcccca ccttcaacaa ctgcttcaac
+      601 aaccgcaagt cagaaacaga ctcaaaggaa ctttccaaaa cagttgcaga gtcaatgggc
+      661 ttgtacatga atgctgccag agaggcagac tttggctttt cccaacaagg tgctgcggga
+      721 gggcagggta gcccagggaa actgtaccct ctttgtggga gaacaaatga agacagccag
+      781 gccaaaacaa gtgggagccc aaagatgaaa gctccccctg cttcattccc acctggggcc
+      841 caactaccca atggtggacc tcaggagtgt gctgtggtct ctgactcagt gccctctgct
+      901 ctggtcactg ccctttcgtc cagcactgat gggtcctgtc ccatgtctag tcctaccgga
+      961 cacaacatgg tatcatccac caccagcccc acttactttg actctgattg tccgacgcta
+     1021 gattctgcga ccagcagctt gacccattgt caacacacca gccccaacat ttgcagccca
+     1081 gtaaagtcca gcattgtggg gtcacctcca ctgcctagtc ccctcagtgt aatgaagtct
+     1141 ccggtttcca gtcctcatag tataggcagc gtgaggtcac cgctttcctg taacaccaac
+     1201 atgaggtcat ctgtctcaag cccaacaaca aatggaggca atacctgtaa tattaaacca
+     1261 tccatttcca gcccgcccac tgctggcagc atgtccatgt ccagtcccag gaactcatcc
+     1321 aggggtttct cagtctccag cccacccagt ggattgggcc tagtgcaaaa tgatgtcaac
+     1381 agccctgaga gccgagagca cgacttcaag ggattcgagt tcccgaaggt agagaatgtg
+     1441 gatggggaga tctttaacat cggcttggat gctatgggag tggctaaata tatcaaaaat
+     1501 gaacctggca ctgatttcag gagtatgtgc ctaggcagca gcaagagtgc catgtcaaat
+     1561 tcacctttcg taactcacat taagaccgag ccaaacagag aggtgacttg ctcgaacctc
+     1621 cagtttgctg aaccgcagca ctctctgggc tgctttcctt cgacagagac cacatacttg
+     1681 tctttgaggg ataatattga cgaatatagt ctttctggga tcttgggacc tcctgtttcg
+     1741 tctctgaatg gcaactatga acctggtgtg tttcctaaca atggcctgcc caaggggatt
+     1801 aaacaggaaa ccaatgatgg cagctattac caagagaata ataatgtgcc cacttcggct
+     1861 attgttggcg ttaattcagg tggacattca tttcattacc agattggagc gcaaggaaca
+     1921 atgtcgtttt cacgccacaa tttgagggac cagacaaacc ccttgttgaa tctaatttct
+     1981 ccagttactg gattaatgga gacgtggaaa actcgcccag gcctgtcaca ggggcccctc
+     2041 actgctagag gggacgggta tccaggcgca gtctgcctta cagaaaacat ggaaagtgcg
+     2101 tcgctgaggc acacgtcttc gacagccaaa gtgtgtctgg tgtgtggaga cgaggcgtca
+     2161 ggatgccact acggggttgt tacatgtgga agttgcaaag ttttcttcaa aagagcggta
+     2221 gaaggtcagc acaactacct ttgtgctggg aggaatgact gcatcattga caagattcgg
+     2281 cggaaaaact gtccggcctg cagagtacgc aagtgtctac aagctgggat gaatcttggg
+     2341 gcacggaagt cgaagaagtt ggggaaaata aagagcatta gtgaagattc ttccctgcag
+     2401 agctcaaagg atggcccgtt tttgacatcc gaaaaggagt tgagttcctc caccgctctc
+     2461 gtaccacaca ccccgacggt cgccccatat ctgacgccgt ccgtctgcag cgttctggag
+     2521 ctcatagagc cagaagtggt gttcgctggc tatgataaca cacaacctga cacaacagac
+     2581 cacctgctta ccagcctcaa ccagctcgcc ggaaaacaga tgatccgagt ggtcaagtgg
+     2641 gccaaagtac ttccaggttt ccgcagtcta cccattgagg accaaatcac gctgatccag
+     2701 tattcctgga tgtgtctctc ctccttctcc ctcagctgga gatcctacaa acacaccaac
+     2761 gcccaaatgc tctacttcgc cccggatcta gtcttcaacg aggagcgaat gcagcagtct
+     2821 gccatgtatg atctgtgtgt ggggatgcgg caggtgagcc aggagtttgt tcgtcttcag
+     2881 ctcacatatg aggaatatct ggccatgaag gttctgctgc tgctcagcac agtgcccaaa
+     2941 gatggtctga agaaccaagg ggcatttgag gagatgcggg tgaattatat taaggagctc
+     3001 cgccgctctg ttgggaaagc cactaacaat tctggccaaa catggcagcg cttcttccag
+     3061 ctgacaaaac ttctggacgc cacgcatgat cttgttcgga gcctgttgga cttttgtttc
+     3121 tacactttcc gcgaatccca ggctctgaag gttgagtttc ccgagatgct ggtggaaatt
+     3181 atcagcgacc agataccaaa ggtggagtcg ggtcaaacac acactctcta ctttcataag
+     3241 aaatgactga aaactcacga aagtagggga aaacgaagga tcaaatgaga ggaaaagcag
+     3301 aggacacaca gccctcggag agcgaacaag agcaagcccg ctatgcacaa agcaaggcgt
+     3361 aatatgaggc ttggtttaaa gccatataag gcttgtgtag tgagggaagg caaagagaga
+     3421 tctctgtacc cggccaacgg agaagaactc gaatttcatg tgacagtgcg tcccttaccc
+     3481 ccaaagacaa tgctgacaat gttctatatg gatatgaagc catattcttt ggtaaagcta
+//
+

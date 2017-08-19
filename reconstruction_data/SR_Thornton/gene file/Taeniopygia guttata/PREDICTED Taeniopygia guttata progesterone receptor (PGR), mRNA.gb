@@ -1,0 +1,113 @@
+LOCUS       XM_002198107            1596 bp    mRNA    linear   VRT 26-MAY-2015
+DEFINITION  PREDICTED: Taeniopygia guttata progesterone receptor (PGR), mRNA.
+ACCESSION   XM_002198107
+VERSION     XM_002198107.1
+DBLINK      BioProject: PRJNA32405
+KEYWORDS    RefSeq; corrected model; includes ab initio.
+SOURCE      Taeniopygia guttata (zebra finch)
+  ORGANISM  Taeniopygia guttata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Passeroidea;
+            Estrildidae; Estrildinae; Taeniopygia.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_002197691.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##RefSeq-Attributes-START##
+            ab initio   :: 3% of CDS bases
+            frameshifts :: corrected 1 indel
+            ##RefSeq-Attributes-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Taeniopygia guttata Annotation
+                                           Release 103
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-51                ABQF01006447.1     198-248             c
+            52-132              ABQF01006446.1     54131-54211         c
+            133-133             "N"                1-1
+            134-434             ABQF01006446.1     53830-54130         c
+            435-586             ABQF01006446.1     52433-52584         c
+            587-703             ABQF01006446.1     41285-41401         c
+            704-1006            ABQF01006446.1     33650-33952         c
+            1007-1151           ABQF01006446.1     32125-32269         c
+            1152-1282           ABQF01006446.1     28774-28904         c
+            1283-1440           ABQF01006446.1     25591-25748         c
+            1441-1596           ABQF01006446.1     24017-24172         c
+FEATURES             Location/Qualifiers
+     source          1..1596
+                     /organism="Taeniopygia guttata"
+                     /mol_type="mRNA"
+                     /isolate="Black17"
+                     /db_xref="taxon:59729"
+                     /chromosome="1"
+                     /sex="male"
+     gene            1..1596
+                     /gene="PGR"
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: inserted 1 base in 1 codon;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 2 mRNAs, 27 Proteins"
+                     /db_xref="GeneID:100144430"
+     CDS             1..1596
+                     /gene="PGR"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: inserted 1 base in 1 codon"
+                     /codon_start=1
+                     /product="LOW QUALITY PROTEIN: progesterone receptor"
+                     /protein_id="XP_002198143.1"
+                     /db_xref="GeneID:100144430"
+                     /translation="MKFFLLSSCRVFLEVMETPDAKDGPFAFGDIHPVTKIKEEGLGL
+                     XPARYPGGRATPAAGCHDYPQAPRAGQEPSLECVLYKAEPTLLAGAYGPAAPPDSLPS
+                     TSAAPPGLYPALALNGHQPLGFPAAVLKEGLPQLCPPYLGYARPDTESSQSSQFSFES
+                     LPQKICLICGDEASGCHYGVLTCGSCKVFFKRAMEGQHNYLCAGRNDCIVDKIRRKNC
+                     PACRLRKCCQAGMVLGGRKLKKFNKIKVVRTLDVALQQPAALQDESQSLTQRLSFSPN
+                     QEIQFVPPMISVLRGIEPEVVYAGYDNTKPETPSSLLTSLNHLCERQLLCVVKWSKLL
+                     PGFRNLHIDDQITLIQYSWMSLMVFAMGWRSYKHVSGQMLYFAPDLILNEQRMKESSF
+                     YSLCLSMWQLPQEFVRLQVSQEEFLCMKALLLLNTIPLEGLRSQSQFDEMRTSYIREL
+                     VKAIGLRQKGVVANSQRFYQLTKLMDSMHDLVKQLHLFCLNTFLQSRALSVEFPEMMS
+                     EVIAAQLPKILAGMVKPLLFHKK"
+ORIGIN      
+        1 atgaagtttt tcttgctttc aagttgcaga gttttcctgg aagttatgga aacgcccgac
+       61 gccaaggacg ggcccttcgc tttcggggac atccatcccg tcacgaagat caaggaggag
+      121 ggtctcggcc ttncgcccgc ccgctacccg ggcggcaggg ccacccccgc ggcgggctgc
+      181 cacgactacc cgcaggctcc gcgggccggg caggagccct cgctggagtg cgtcctctac
+      241 aaggcggagc ccaccctgct ggccggcgcc tacgggccgg cggcgccgcc cgacagcctg
+      301 ccctccacct cggccgcgcc gccggggctc tacccggccc tggcgctgaa cgggcaccag
+      361 ccgctgggct tcccggccgc cgtgctcaag gagggcctgc cccagctctg cccgccctac
+      421 ctcggctacg cgcggccaga tacggaaagc agccaaagtt ctcagttcag ctttgaatca
+      481 ctaccccaga agatttgtct catctgcggt gatgaggctt caggttgcca ctatggagta
+      541 cttacctgtg gaagttgtaa agtcttcttt aaaagggcaa tggaagggca gcacaactat
+      601 ttatgtgctg gaagaaatga ctgcatagtc gataaaatcc gtaggaagaa ctgcccagca
+      661 tgtcgcttga ggaagtgctg tcaagctggc atggtcctgg gaggtcgaaa attgaaaaag
+      721 tttaacaaaa ttaaagttgt aagaacgtta gatgttgcac tccagcagcc agcagccctt
+      781 caagatgaaa gccagtctct aacccaaagg ctgtcctttt ctccaaatca agaaatacag
+      841 tttgttcccc caatgataag tgttctacga ggcattgagc cagaagttgt ctatgctggt
+      901 tatgacaata caaaacctga aacaccaagt tccttgctga ccagtctgaa tcatctttgt
+      961 gagaggcagc ttctttgtgt agtcaagtgg tctaaattac taccaggttt tcggaatttg
+     1021 catatcgacg atcagataac ccttatccag tattcctgga tgagtctaat ggtttttgcc
+     1081 atggggtgga gatcatacaa acacgtcagt ggtcagatgt tgtattttgc accagatctg
+     1141 attctaaatg aacagaggat gaaagaatca tcgttctatt ccctgtgtct atccatgtgg
+     1201 caactcccac aggaatttgt cagacttcaa gttagccaag aagaattcct gtgtatgaaa
+     1261 gcactgttac ttctcaatac aattcctttg gaaggtctaa gaagtcaaag tcaatttgat
+     1321 gagatgagaa caagttacat cagagaactg gtgaaggcaa ttggtttgcg ccagaaaggc
+     1381 gtcgtggcca actcacagcg tttctatcaa cttacaaaac tgatggattc catgcatgat
+     1441 ctggtgaaac agctccatct cttctgtttg aacacatttc tccagtcccg tgcactgagc
+     1501 gttgaattcc ctgagatgat gtcagaggtg attgctgcac agctacccaa gattctagca
+     1561 gggatggtga aacctcttct ctttcacaag aagtga
+//
+

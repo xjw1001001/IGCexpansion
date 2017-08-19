@@ -1,0 +1,93 @@
+LOCUS       XM_021588568            1633 bp    mRNA    linear   VRT 27-JUN-2017
+DEFINITION  PREDICTED: Oncorhynchus mykiss progesterone receptor (pgr), mRNA.
+ACCESSION   XM_021588568
+VERSION     XM_021588568.1
+DBLINK      BioProject: PRJNA390662
+KEYWORDS    RefSeq.
+SOURCE      Oncorhynchus mykiss (rainbow trout)
+  ORGANISM  Oncorhynchus mykiss
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Protacanthopterygii;
+            Salmoniformes; Salmonidae; Salmoninae; Oncorhynchus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_035103.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Oncorhynchus mykiss Annotation
+                                           Release 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.4
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1633
+                     /organism="Oncorhynchus mykiss"
+                     /mol_type="mRNA"
+                     /isolate="Swanson"
+                     /db_xref="taxon:8022"
+                     /chromosome="27"
+                     /sex="male"
+                     /tissue_type="fin clip"
+                     /dev_stage="adult"
+                     /country="USA: Swanson River, Alaska"
+     gene            1..1633
+                     /gene="pgr"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 20 Proteins, and 100%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 26 samples with support for all
+                     annotated introns"
+                     /db_xref="GeneID:110508129"
+     CDS             305..1450
+                     /gene="pgr"
+                     /codon_start=1
+                     /product="progesterone receptor"
+                     /protein_id="XP_021444243.1"
+                     /db_xref="GeneID:110508129"
+                     /translation="MENEHTTDRMDTANTLSSDVTDSSKRVSYLIEKYKDVGFGQPRK
+                     FSKEPQSQVCMSSVVRSFGNVGTLCAAPPGSSNNSAMFKDCTVRDNASLINKAFYDRS
+                     DPVRWTEVRGIEGVKDSTLPQPIPTVTHESLQRAATNMISTPSSTTATGVCRIIKDEK
+                     EPSLIMETPCPDFDLTANIPTLESCYDSERKQQQLGFLDDSAASFPTSAPGQQHQQVL
+                     LDCSPNFLVDLNQNDQMSTVPQVRADSRGVPFPTHPGKGMLSFDVMSSNGQGPQQHLM
+                     IYKSEMPRWSIQTSPTHSSFWCQSSGVSEDQYPHHGYSSPDGIHTSALLQRSPTYTGY
+                     GGVPPQRLCMICGDEASGCHYGVLTCGSCKVFFKRAVEGKQHHIRGL"
+ORIGIN      
+        1 gttctaatgt cttgtcagct tctatgacca ttgtcatgcc agtcattaac ctaatgagtc
+       61 ctaccacatt accggcgtgt tttggacttc aaaccccttt taaacattga ttgagccaca
+      121 gacgtatggg ttgtaccatt gtattcctct atatatacag caagccagtg gtagctgcgc
+      181 ggaaaagcat tttgggaagt tctttctttg caccaagaga caccacccac tctagtctcc
+      241 tcgccgactg acagggactc tgactgactg tcgtcttcgt gatttctgta gctttgacaa
+      301 cagaatggaa aatgaacaca caacagacag gatggacaca gcgaacacat tgagctcaga
+      361 cgtcacagac tccagtaaaa gagtaagtta tttgattgag aagtataaag atgtaggatt
+      421 tggtcagcct cggaaattct ctaaggagcc acagtctcaa gtctgcatgt cctccgtagt
+      481 gcgtagtttt ggaaacgttg gcactttgtg cgctgcgcct cctggctcaa gcaacaacag
+      541 tgccatgttc aaagactgta cggtcagaga taacgcatca cttatcaata aagcgtttta
+      601 tgaccgctct gaccctgtgc gctggacaga ggtgcgtggt atagagggag tgaaggattc
+      661 cacgttaccg cagccgatcc caacagtaac tcatgaaagt ttgcagagag cggctacgaa
+      721 catgatatcg acacccagtt caaccacagc caccggggtc tgtaggatca tcaaagatga
+      781 gaaggagccg tcactaatca tggaaacacc gtgtcccgat tttgacctaa cggccaacat
+      841 ccctaccctc gagagctgtt atgacagcga gaggaaacaa caacagttag gttttctgga
+      901 tgattccgca gcgtctttcc ccacctccgc gcctggacaa cagcaccaac aagtactatt
+      961 ggactgttca ccgaactttc tagtcgactt gaatcagaac gaccagatgt cgacggttcc
+     1021 ccaggtccgt gcagactcac gcggtgttcc ctttcctact catcccggta agggcatgct
+     1081 gagttttgat gtaatgagca gtaacggaca gggtccacag cagcatttga tgatttataa
+     1141 gagtgaaatg cccagatggt ccattcagac ctctcctact cattcctcgt tttggtgcca
+     1201 gtccagcggg gtctccgagg accagtaccc acaccatggc tactcctccc cggatggaat
+     1261 tcacacctca gccctgctcc agaggtcccc aacctataca ggatatggcg gtgttccacc
+     1321 ccagagacta tgtatgatct gtggagatga ggcctcaggg tgtcactatg gggtcctcac
+     1381 atgtggaagc tgcaaagtgt tctttaaacg agcggtcgaa ggtaagcaac accatatcag
+     1441 aggattgtaa cagtatatgg tatggagatt tgacttggac gtttaaagaa tgaccaccgg
+     1501 ttgaacactg ccatggtaca tgggagtagc atatggttga gaggaaaggt taatgaggat
+     1561 gtttcaggaa gaaaatataa acatgtgtgg ttaaaaaaac aataaatatt gagggttatt
+     1621 gtggtctttt gag
+//
+

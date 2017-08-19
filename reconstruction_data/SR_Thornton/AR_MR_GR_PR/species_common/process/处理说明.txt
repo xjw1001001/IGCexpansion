@@ -1,0 +1,6 @@
+首先从Thornton表格中找到有AR(a) MR GR PR的物种，取出Thornton的蛋白质排列，outgroup 为Aplysia californicaER
+和我们从genebank上找到的核苷酸序列，翻译成蛋白质得到ALL_protein, Thornton 的序列末尾有T
+
+ALL_protein做排列
+然后得到核苷酸alignment。
+最后以THornton为模板去掉gap，就得到input alignment

@@ -1,0 +1,94 @@
+LOCUS       EF470588                2757 bp    mRNA    linear   PRI 02-APR-2007
+DEFINITION  Saimiri boliviensis androgen receptor mRNA, complete cds.
+ACCESSION   EF470588
+VERSION     EF470588.1
+KEYWORDS    .
+SOURCE      Saimiri boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+REFERENCE   1  (bases 1 to 2757)
+  AUTHORS   Gross,K.L., Westberry,J.M. and Scammell,J.G.
+  TITLE     Androgen insensitivity in squirrel monkeys
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2757)
+  AUTHORS   Gross,K.L., Westberry,J.M. and Scammell,J.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAR-2007) Comparative Medicine and Pharmacology,
+            University of South Alabama, MSB992, Mobile, AL 36688, USA
+FEATURES             Location/Qualifiers
+     source          1..2757
+                     /organism="Saimiri boliviensis"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:27679"
+     CDS             1..2757
+                     /codon_start=1
+                     /product="androgen receptor"
+                     /protein_id="ABO64644.1"
+                     /translation="MEVQLGLGRVYPRPPSKTYRGAFQNLFQSVREVIQNPGTRHPEA
+                     ASAAPPGASLQQQQQQQQPRQQQHNRQQQQQTSPRQQQQQQGEDGSPQAHGRGPRGYL
+                     ALDEERQHSQPQSAPECHPERGCVPEPGVAVAAGKGLPQQLPAPPDEDDSAAPSTLSL
+                     LGPTFPSLSSCSADLKDILNEASTMQLLQQQQQEAVSEGSSSGRAREASGAPTSSKDN
+                     YLGGTSTISDSAKELCKAVSVSMGLGVEALEHLSPGDQLRGDCMYASVLGVPPAVRPT
+                     PCTPLAECKGSLLDDSAGKSTEDTAEYSPFKGGYTKGLEGESLGCSGSGAAGSSGTLE
+                     LPSALSLYKSGALDEAAAYQSRDYYNFPLALAGPPPPPPPPHPHARIKLENPLDYGSA
+                     WAAAAAQCRYGDLASLHGAGAAGSGSGSPSAAASSSWHTLFTAEEGQLYGPCGGGGGG
+                     GGGGGGGGGGGGGGGGGGGGGEAGAVDPYGYPRPPQGLASQEGDFPAPDVWYPGGVVS
+                     RVPYPSPSCVKSEMGPWMDSYSGPYGYMRLETARDHVLPIDYYFPPQKTCLICGDEAS
+                     GCHYGALTCGSCKVFFKRAAEGKQKYLCASRNDCTIDKFRRKNCPSCRLRKCYEAGMT
+                     LGARKLKKLGNLKLQEEGEASSTTSPNEETTQKLTVSHIEGYECQPIFLNVLEAIEPG
+                     VVCAGHDNNQPDSFAALLSSLNELGERQLVHVVKWAKALPGFRNLHVDDQMAVIQYSW
+                     MGLMVFAMGWRSFTNVNSRMLYFAPDLVFNEYRMHKSRMYSQCVRMRHLSQEFGWLQI
+                     TPQEFLCMKALLLFSIIPVDGLKNQKFFDELRMNYIKELDRIIACKRKNPTSCSRRFY
+                     QLTKLLDSVQPIARELHQFTFDLLIKSHMVSVDFPEMMAEIISVQVPKILSGKVKPIY
+                     FHTQ"
+ORIGIN      
+        1 atggaggtgc agttaggcct ggggagggtc tatcctcggc cgccgtccaa gacctaccga
+       61 ggagctttcc agaatctgtt ccagagcgtg cgcgaagtga tccagaaccc gggcaccagg
+      121 cacccagagg ccgcgagcgc agcacctcca ggtgccagtt tgcagcagca gcaacagcag
+      181 cagcagcccc ggcagcagca gcacaacagg cagcagcagc aacagactag cccccggcag
+      241 cagcagcagc agcagggtga ggatggttct cctcaagccc atggtagagg ccccagaggc
+      301 tacctggccc tggatgagga acggcagcat tcacagccgc agtcagcgcc agagtgccac
+      361 cctgagagag gttgtgtccc agagcctgga gtcgccgttg ccgccggcaa ggggctgccg
+      421 cagcagctgc cagcacctcc ggacgaggat gactcagctg ccccatccac gttgtccctg
+      481 ctgggcccca ctttccccag cttaagcagc tgctccgccg accttaaaga catcctgaac
+      541 gaggccagca ccatgcaact ccttcagcaa cagcagcagg aagcagtatc cgaaggtagc
+      601 agcagcggga gagcgaggga ggcctcgggg gctcccactt cctccaagga caattactta
+      661 gggggcactt cgaccatctc tgacagcgcc aaggagttgt gtaaggcagt gtcggtgtcc
+      721 atgggcttgg gtgtggaggc actggagcat ctgagtcctg gggatcagct tcggggggat
+      781 tgcatgtacg cctcagttct gggagttcca cccgctgtgc gtcccactcc ttgtacccca
+      841 ttggccgaat gcaaaggttc tctgctggac gacagcgcag gcaagagcac tgaagatact
+      901 gctgagtatt cccctttcaa gggaggttac accaaaggac tagaaggcga gagcctgggc
+      961 tgctctggca gcggtgcagc agggagctcc gggacacttg aactgccatc cgctctgtca
+     1021 ctctacaagt ccggagcact ggatgaggca gccgcctacc aaagtcgcga ctactacaac
+     1081 tttccgctgg ctctggccgg gccgccgccc cctccgccgc ctccccatcc ccacgctcga
+     1141 atcaagctgg agaacccgct ggactacggc agcgcttggg cggctgcagc ggcgcagtgc
+     1201 cgctatggag acctggcgag cctgcatggc gcgggtgcag cgggatccgg ctctgggtca
+     1261 ccctcagccg ccgcttcctc atcctggcac actctcttca cagccgaaga aggccagttg
+     1321 tatgggccgt gtggtggtgg tgggggcggc ggcggcggcg gcggcggcgg cggcggcggc
+     1381 ggcggcggcg gcggcggcgg cggcggcggc ggcgaggcag gagctgtaga cccctatggc
+     1441 taccctcggc cgcctcaggg gctggcgagc caggaaggcg acttccctgc acccgatgtg
+     1501 tggtaccctg gcggcgtggt gagcagagtg ccctatccca gtcccagttg tgtcaaaagc
+     1561 gagatgggcc cctggatgga tagctactcc ggaccttacg ggtacatgcg tttggagact
+     1621 gccagagacc acgttttgcc cattgactat tactttccac cccagaagac ctgcctgatc
+     1681 tgtggagatg aagcttctgg gtgtcactat ggagctctca catgtggaag ctgcaaagtc
+     1741 ttctttaaaa gagccgctga agggaaacag aagtacctgt gtgccagcag aaatgattgc
+     1801 accattgata aattccgaag gaaaaattgt ccatcttgtc gtcttcgaaa atgttacgaa
+     1861 gcagggatga ctctgggagc ccggaagctg aagaaacttg gtaatcttaa gctacaggag
+     1921 gaaggagagg cttccagcac cactagcccc aatgaggaga caacccagaa gctgacagtg
+     1981 tcacacattg aaggctatga atgtcagccc atctttctga atgtcctgga agccattgag
+     2041 ccaggtgtgg tgtgtgctgg acacgacaac aaccaacccg actcctttgc agccttgctg
+     2101 tctagcctca atgaactggg agagagacag cttgtacatg tggtcaagtg ggccaaggcc
+     2161 ttgcctggct tccgcaactt acacgtggac gaccagatgg ctgtcattca gtactcctgg
+     2221 atggggctca tggtgtttgc catgggctgg cggtccttca ccaatgtcaa ttccaggatg
+     2281 ctctacttcg ctcctgatct ggttttcaat gagtaccgca tgcacaagtc ccggatgtac
+     2341 agccagtgtg tccgaatgag gcacctctct caagagtttg gatggctcca aatcaccccc
+     2401 caggaattcc tgtgcatgaa agcactgcta ctcttcagca ttattccagt ggatgggctg
+     2461 aaaaatcaaa aattctttga tgaacttcga atgaactaca tcaaggaact cgatcgtatc
+     2521 attgcatgca aaagaaaaaa tcccacatcc tgctcaaggc gcttctacca gctcaccaag
+     2581 ctcctggact ctgtgcagcc tattgcgaga gagctgcatc agttcacttt tgacctgcta
+     2641 atcaagtcac acatggtgag cgtggacttt ccagaaatga tggcagagat catctctgtg
+     2701 caagtgccca agatcctttc tgggaaagtc aagcctatct atttccacac ccagtga
+//
+

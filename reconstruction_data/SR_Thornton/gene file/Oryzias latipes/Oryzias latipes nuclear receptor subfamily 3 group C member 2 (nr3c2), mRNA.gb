@@ -1,0 +1,118 @@
+LOCUS       NM_001163129            2985 bp    mRNA    linear   VRT 07-AUG-2017
+DEFINITION  Oryzias latipes nuclear receptor subfamily 3 group C member 2
+            (nr3c2), mRNA.
+ACCESSION   NM_001163129
+VERSION     NM_001163129.1
+KEYWORDS    RefSeq.
+SOURCE      Oryzias latipes (Japanese medaka)
+  ORGANISM  Oryzias latipes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Beloniformes;
+            Adrianichthyidae; Oryziinae; Oryzias.
+REFERENCE   1  (bases 1 to 2985)
+  AUTHORS   Pasquier J, Cabau C, Nguyen T, Jouanno E, Severac D, Braasch I,
+            Journot L, Pontarotti P, Klopp C, Postlethwait JH, Guiguen Y and
+            Bobe J.
+  TITLE     Gene evolution and gene expression after whole genome duplication
+            in fish: the PhyloFish database
+  JOURNAL   BMC Genomics 17, 368 (2016)
+   PUBMED   27189481
+  REMARK    Publication Status: Online-Only
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AB284184.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB284184.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA3466512, SAMN02929487
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2985
+                     /organism="Oryzias latipes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8090"
+                     /chromosome="1"
+                     /map="1"
+     gene            1..2985
+                     /gene="nr3c2"
+                     /note="nuclear receptor subfamily 3 group C member 2"
+                     /db_xref="GeneID:100302443"
+     CDS             1..2985
+                     /gene="nr3c2"
+                     /codon_start=1
+                     /product="mineralocorticoid receptor"
+                     /protein_id="NP_001156601.1"
+                     /db_xref="GeneID:100302443"
+                     /translation="MEAKRYQSFFDGDDTENKWSQVPSDMEYCCNTDDSSLTNSETLM
+                     DMVNVSCSAGSPIADSKDNNSNKQEQPRLQLGRDQPFLLPHFNNSLHGHKQEMDSKEL
+                     SKTVAESMGLYMNAAREADFAFSQQGGNTSPGKLHPVSGQPPEEKRCGSTKSPKLKPF
+                     NFQHPIATPRECPSAAPVSSASILASSLSCSPKTSSSMSSPGGSNNMVSSTTSPSTCF
+                     GPQCSAVSSPVSQTSCAATLANIKRRNSVTCSPVESCTVGSPPLTSPLNIMRSPMSSP
+                     HSMSSVRSPPSCSTTCNIRSSVSSPTGGSCTGVPNNCCSVRPSNSSPTTGGTLAVSSP
+                     HNPSSGGFSESSPAGGLGLVQNDSSSPEVPGLTRDTNFKNFEFPKVEMVGGEVFSVGL
+                     DQMGMVKYIKNEPESDFRSMCLGSSKCNTSSTPYITQIKSEPNKGEGCMNQQSYDEQS
+                     PSLDLFPTSDTTYLSLRNNIDEYNLSGILGPPVSSMNGSYEPDMFSSNVLSKGVKQES
+                     TDGSYFQENNTMPTSAIVGVNSTGHSFHYQIGAQGTMSFTRHDVRDQSNPLLNLISPV
+                     TALMESWKSRPGMPHGSFSARGEGYPSQNCIGDNMSSSSLRQPSSTAKVCLVCGDEAS
+                     GCHYGVVTCGSCKVFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRVRKCLQAGMN
+                     LGARKSKKLKLKGVSEDLQSSKDGQTATGGVGGSYLTSEKELNSSAANALVPHGPGVV
+                     TPFLSPSICSVLELIEPEEVYSGYDNTLPDTTDHLLSSLNRLAGKQMVRMVKWAKVLP
+                     GFRVLPIEDQITLIQYSWMCLSSFCLSWRSYKHTNGQMLYFAPDLVFNEDRMRQSAMY
+                     DLCLGMRQVSQEFVRLQLTYDEFLSMKVLLLLSTVPKEGLKNQAAFEEMRVNYIKELR
+                     RSVGKATNNSGQTWQRFFQLTKLLDAMHDLVGNLLDFCFYTFRESQALKVEFPEMLVE
+                     IISDQIPKVESGLTHTIYFHKK"
+ORIGIN      
+        1 atggaagcaa aaagatacca aagcttcttt gatggagacg acacagagaa caaatggtct
+       61 caggtcccca gtgatatgga gtactgctgc aatacagatg attccagtct gacgaacagt
+      121 gaaaccttga tggacatggt caatgtcagc tgctctgctg gaagccccat tgccgacagc
+      181 aaagacaaca actctaacaa acaggagcag ccaaggcttc agctcggcag ggaccagcca
+      241 tttctcctcc cacatttcaa caactccctg catggtcata agcaggaaat ggactccaag
+      301 gagctttcca agactgtggc tgagtctatg ggcctgtaca tgaacgctgc cagggaggct
+      361 gactttgctt ttagccagca aggaggcaac acaagtcctg ggaagctgca tccagttagt
+      421 ggacagcctc cagaggagaa gcggtgtggc tcaacaaaga gccctaagtt gaagccattc
+      481 aattttcagc accctatcgc cactccaaga gaatgcccct ctgcggctcc agttagctct
+      541 gcgtccattt tggcctcctc tctgtcctgc agtcctaaga cctctagctc aatgtccagt
+      601 cctggaggaa gtaacaatat ggtgtcatct accacaagtc cttccacatg ttttggacca
+      661 cagtgctcgg ccgtcagtag tcccgtcagc cagacctcat gtgctgcaac tctagccaac
+      721 atcaagcgta ggaattccgt cacatgtagc cctgtagagt cctgcacggt tggctcaccc
+      781 ccacttacaa gcccactaaa tatcatgagg tctccaatgt ccagccctca cagtatgagc
+      841 agtgtgaggt cccctccatc ctgcagcact acatgtaaca ttaggtcatc tgtgtcgagc
+      901 cccactggtg gcagctgtac cggtgtcccc aacaactgct gctcagtaag accctcaaac
+      961 tctagtccga ccacaggggg caccttggct gtcagtagcc cacataatcc ttcctctggt
+     1021 gggttttctg aatccagtcc tgctggtggg ttgggtttgg tgcagaacga tagcagcagc
+     1081 ccagaggtcc cggggctgac cagagacact aacttcaaga actttgagtt ccctaaagtt
+     1141 gagatggtag gtggggaagt gttcagtgtc ggcttagatc agatgggcat ggttaagtat
+     1201 attaaaaacg agccagaaag cgacttcagg agcatgtgtt taggcagctc caaatgtaat
+     1261 acaagtagca caccgtatat tacacagatt aagagtgaac caaacaaagg ggagggatgt
+     1321 atgaatcaac agtcctacga tgagcaatca ccatcccttg atctcttccc tacgtctgat
+     1381 accacatatc tgtccttgag gaataacatt gatgaataca atctctctgg gattttagga
+     1441 ccccctgtgt cctcaatgaa tggaagctat gagccagata tgttttccag caacgtcctg
+     1501 tcaaaggggg ttaagcaaga atcaactgat ggcagctatt tccaagagaa caacaccatg
+     1561 cccacatccg ccattgttgg agttaattct accggacact cgttccatta ccagattgga
+     1621 gctcaaggaa cgatgtcatt cactcggcat gatgtgaggg accagtccaa ccctttgttg
+     1681 aatctaattt cacctgtaac ggcgttgatg gagtcgtgga aatcccgacc aggcatgcca
+     1741 cacgggtcat tttcagccag aggtgaaggg tatccaagtc aaaactgcat tggtgacaac
+     1801 atgtccagct catcactgag acaaccttcc tcaacagcca aagtttgcct ggtttgtgga
+     1861 gacgaggctt cggggtgcca ctatggcgtt gtgacatgtg ggagctgcaa agtcttcttc
+     1921 aaaagagccg tggaaggtca gcacaactac ctgtgtgccg ggagaaatga ctgtatcatt
+     1981 gacaagatca gaaggaaaaa ctgcccagct tgccgtgtac ggaagtgtct ccaggctggg
+     2041 atgaacctag gagcccgcaa atccaaaaag ttgaagctga agggagtcag cgaagacctg
+     2101 cagagctcta aggatggcca aactgccaca ggtggcgttg gaggcagtta cctgacctcg
+     2161 gagaaggagc taaattccag tgctgccaat gccctagtgc cccacgggcc tggggtggtc
+     2221 acaccttttc tgtcgccctc catctgcagc gtgttggagc tcattgagcc tgaagaggtg
+     2281 tactctggct atgacaacac actgcccgac acaactgacc acttgctgtc cagtctcaac
+     2341 cgcctggctg gaaagcagat ggtacgcatg gtgaagtggg ccaaagtact tccaggtttc
+     2401 cgggtcctgc ccatagagga ccaaatcacc ctgatccagt actcgtggat gtgtttgtcc
+     2461 tccttttgcc tcagctggcg ctcctacaaa cacacaaatg gacagatgct ctactttgcc
+     2521 cctgacctcg tctttaatga ggatcggatg agacagtcag ccatgtatga cctgtgtctc
+     2581 ggcatgaggc aagtgagcca agagtttgtt cgattgcagc tgacgtatga tgagttcctc
+     2641 tcaatgaaag tccttctrct tctcagcaca gttcccaaag agggtctgaa gaaccaggcg
+     2701 gcgtttgagg agatgagggt taattacatt aaagagctca gacgttcggt gggaaaagca
+     2761 accaacaact ccggccaaac ctggcagcgc ttctttcagc tcaccaagct gctggacgcc
+     2821 atgcatgatc tggtggggaa cttgttggac ttctgtttct acacctttcg agagtcccag
+     2881 gccttgaagg tggagtttcc tgagatgtta gtggagatca tcagtgacca gataccaaag
+     2941 gtggaatcag gcctcactca cacaatctac ttccacaaga agtga
+//
+

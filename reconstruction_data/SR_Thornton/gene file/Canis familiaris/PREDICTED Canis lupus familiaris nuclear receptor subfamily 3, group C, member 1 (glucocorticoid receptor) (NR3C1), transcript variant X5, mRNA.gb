@@ -1,0 +1,166 @@
+LOCUS       XM_014106568            5081 bp    mRNA    linear   MAM 17-SEP-2015
+DEFINITION  PREDICTED: Canis lupus familiaris nuclear receptor subfamily 3,
+            group C, member 1 (glucocorticoid receptor) (NR3C1), transcript
+            variant X5, mRNA.
+ACCESSION   XM_014106568
+VERSION     XM_014106568.1
+DBLINK      BioProject: PRJNA12384
+KEYWORDS    RefSeq.
+SOURCE      Canis lupus familiaris (dog)
+  ORGANISM  Canis lupus familiaris
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Carnivora; Caniformia; Canidae;
+            Canis.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003726050.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Canis lupus familiaris Annotation
+                                           Release 104
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.4
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5081
+                     /organism="Canis lupus familiaris"
+                     /mol_type="mRNA"
+                     /sub_species="familiaris"
+                     /db_xref="taxon:9615"
+                     /chromosome="2"
+                     /sex="female"
+                     /breed="boxer"
+     gene            1..5081
+                     /gene="NR3C1"
+                     /note="nuclear receptor subfamily 3, group C, member 1
+                     (glucocorticoid receptor); Derived by automated
+                     computational analysis using gene prediction method:
+                     Gnomon. Supporting evidence includes similarity to: 4
+                     mRNAs, 16 ESTs, 29 Proteins, and 99% coverage of the
+                     annotated genomic feature by RNAseq alignments, including
+                     6 samples with support for all annotated introns"
+                     /db_xref="GeneID:478047"
+     CDS             124..2466
+                     /gene="NR3C1"
+                     /codon_start=1
+                     /product="glucocorticoid receptor isoform X2"
+                     /protein_id="XP_013962043.1"
+                     /db_xref="GeneID:478047"
+                     /translation="MDSKESLSPPSKEEISSSVLGRERGNVMDFYKTLRGGATVKVSA
+                     SSPSLAAASQSDSKQQRLLVDFPKGSGSHAQQPDLSKAVSLSMGLYMGETETKVMGND
+                     LGFPQQGQISLSSGETDFRLLEESIANLNRSTSVPENPKSSVSAVSAAPTEKEFAQTL
+                     SDVSSEQQHLKGQTGTNGGNVKLYTTDQSTFDVWRKKLQDLDFTSGSPEKEASESPWR
+                     SDLLIDENCLLSPLAGEDDPFLLEGNSNEDCKPLVLPDTKPKIKDNGDLILASPNSVP
+                     LPQVKTEKEDFIELCTPGVIKQEKLGPVYCQASFSGANIIGNKMSAISVHGVSTSGGQ
+                     MYHYDMNTASLSQQQDQKPIFNVIPPIPVGSENWNRCQGSGDDNLASLGTLNFPGRSV
+                     FSNGYSSPGMRPDVSSPPSSSSAATGPPPKLCLVCSDEASGCHYGVLTCGSCKVFFKR
+                     AVEGQHNYLCAGRNDCIIDKIRRKNCPACRYRKCLQAGMNLEARKTKKKIKGIQQATP
+                     GASQETSENPANKTIVPATLPQLTPTLVSLLEVIEPEVLYAGYDSSVPDSTWRIMTTL
+                     NMLGGRQVIAAVKWAKAIPGFRNLHLDDQMTLLQYSWMFLMAFALGWRSYRQSSGSML
+                     CFAPDLIINEQRMTLPCMYDQCKHMLFVSSELQRLQVSYEEYLCMKTLLLLSSVPKEG
+                     LKSQELFDEIRMTYIKELGKAIVKREGNSSQNWQRFYQLTKLLDSMHDVVENLLNFCF
+                     QTFLDKTMSIEFPEMLAEIITNQIPKYSSGNIKKLLFHQK"
+     STS             496..971
+                     /gene="NR3C1"
+                     /standard_name="NR3C1"
+                     /db_xref="UniSTS:504891"
+     STS             2320..3181
+                     /gene="NR3C1"
+                     /standard_name="NR3C1_V270"
+                     /db_xref="UniSTS:277539"
+ORIGIN      
+        1 gcaagcgctg tcacctgtgg gggcgcaaaa gttaccgccc caaaccctaa agcaacacag
+       61 caccaccttt ccccgagtca caaaaatcat actaagtgtc gcacaagctg atgataatca
+      121 ctgatggact ccaaggaatc attaagtccc cccagtaaag aagaaatctc tagcagtgtg
+      181 cttggtcggg agaggggaaa tgtgatggac ttctataaaa ccctgagggg aggagctact
+      241 gtgaaggttt ctgcgtcttc accctcactg gctgctgctt ctcagtcaga ctccaagcag
+      301 caaagacttt tggttgattt tccaaaaggc tcaggaagcc atgcacagca gccagatctg
+      361 tccaaggcag tttcactctc aatgggattg tatatgggcg agacagaaac caaagtgatg
+      421 ggaaatgacc tgggattccc acaacagggc caaatcagcc tttcctctgg ggaaacagac
+      481 tttcggcttc tggaagaaag catcgcaaac ctcaataggt caaccagtgt tccagagaac
+      541 cccaagagct cagtgtctgc tgtttctgct gcccccacag agaaggagtt tgcacaaact
+      601 ctttctgatg tgtcttcaga acagcaacat ttaaaaggcc agacgggcac caatgggggc
+      661 aacgtgaagt tgtataccac agaccaaagc acctttgacg tttggaggaa aaaactccag
+      721 gatttggact ttacttctgg gtccccagag aaagaggcga gtgagagccc ttggagatca
+      781 gacctcttga tagatgaaaa ctgtttgctc tctcctttgg caggagagga cgatccattc
+      841 cttctggaag gaaactcgaa cgaggactgt aaacctctcg ttttgccgga cacaaaacct
+      901 aaaattaagg ataatggaga cctgatctta gccagcccca acagtgtgcc actgccccaa
+      961 gtgaaaacag aaaaagaaga tttcattgaa ctctgcaccc ctggggtaat taagcaggag
+     1021 aaactgggcc cagtttactg tcaggcaagc ttttctgggg caaatataat tggtaataaa
+     1081 atgtctgcca tttctgttca tggtgtgagt acctctgggg gacagatgta ccactatgac
+     1141 atgaatacag catccctttc tcaacagcag gatcagaagc ctatttttaa tgtcattcca
+     1201 ccaattcctg ttggttcaga aaattggaat aggtgccaag gatctggcga tgataacttg
+     1261 gcttccttgg ggactttgaa cttccctggt cggtcggtgt tttctaatgg ctattcaagc
+     1321 cctggaatga gaccagatgt cagctctcct ccatccagct cctcagcggc aacgggacca
+     1381 cctcccaaac tctgcctcgt gtgttctgac gaggcctcgg ggtgtcatta cggggtcttg
+     1441 acttgtggaa gctgcaaagt gttcttcaag agagcggtgg aaggacaaca caattatctt
+     1501 tgtgctggaa gaaatgattg tatcattgat aagattcgaa gaaaaaactg tccagcatgc
+     1561 cgctatcgga aatgtcttca agctgggatg aacttggaag ctcgaaaaac aaagaaaaag
+     1621 ataaaaggaa ttcagcaggc cactccagga gcatcacaag aaacttctga aaatcctgct
+     1681 aacaaaacaa tagttcctgc aacattacca cagctcaccc ctaccctggt gtccctgctg
+     1741 gaggtcattg aacccgaggt gttatacgca gggtatgaca gctctgtccc agattcgact
+     1801 tggcggatca tgaccacact caacatgtta ggtgggcggc aagtgatcgc agcagtgaaa
+     1861 tgggccaagg caataccagg attcaggaac ttacacctgg atgaccaaat gaccctactg
+     1921 cagtattcat ggatgttcct catggcattt gccctggggt ggagatcata tagacaatca
+     1981 agtggaagca tgctgtgttt tgctcctgat ctgattatta atgagcagag aatgaccctc
+     2041 ccctgcatgt atgaccaatg taaacacatg ctgtttgttt cctccgagtt acagaggctt
+     2101 caggtctctt atgaagagta tctctgtatg aaaaccttac tgcttctctc ttcagttcct
+     2161 aaggaaggtt tgaagagcca agaactgttt gatgaaatta gaatgaccta catcaaagag
+     2221 ctaggaaaag ccattgtcaa gagggaaggg aactccagcc agaactggca acgcttttat
+     2281 caactgacaa aactcttgga ctccatgcat gatgtggttg aaaatctcct taacttttgc
+     2341 ttccaaacat ttttggataa gaccatgagt attgaattcc cagagatgtt agctgaaatc
+     2401 atcaccaatc agataccaaa atattcaagt ggaaatatca aaaaacttct gtttcatcaa
+     2461 aagtgactgc cttaataaga aaggttgcct taaagaaagt tgaatttata gcttttattg
+     2521 tacaaactat caatctgtcc tgtagcggtt ttgctgtttt attttttcct ttttgttttt
+     2581 gtctggtctt tttgttttgt tttgttttaa atacgcacta catgtggttt atagagggcc
+     2641 aagacttggc aacagaagca ggtgagccat cacttctctg tggtgggcag agtagagagt
+     2701 gctagttggt ggagcccaga aattagcagc agtcatgggg gtgatctcca ctgccaggga
+     2761 aggatggcac ctaagccacc agtgcccaaa ctctgcgtgt aaactttccg ctcatacttt
+     2821 tcacagttgg ctggacaaaa ttttctagac tttatgtggg tgtattttcc cctgtatagt
+     2881 taggatagca ttttttgatt ttttgcatgg aaacccgaaa aaaagtttac aagtgtatat
+     2941 cagaaaaggg aagttgtgcc ttttatagct cttactgtcc ggttttaaca atttccttta
+     3001 tattcggtga actacgcttg ctcatttttt cttacataat ttttgtattc aagtcattgt
+     3061 acagctgttt gagatgggca gctagttcat agctttccta aataaactct aaacattaat
+     3121 cttctgtgtg aaaatgggtt ggtgcttcta acctgatggc atttagctat cagaagacca
+     3181 caaaaattga ctcctatctc cagtattctc atcaaaaaag ctcatatttt gtatatatct
+     3241 gcttcagtgg agaattctct aggttgtgca aattaaccgt cctaactggt atagagcacc
+     3301 tagtccagtg acctgctggg taaactgtgg atgatggttg caaacaacta atttaaaaac
+     3361 aaacatacaa aacacaaaaa aactaccaag aggccctgtt tgtacttaat gccctattgt
+     3421 tgctatgact ggatggcaag aaagttggtc aaccgtcttt caggaccttt tgttgtagtt
+     3481 tgtataactt cttgaaagtc aggattccag ataaccagct gagacacagc tgagagattt
+     3541 gaatcagacc aagtatctcc tctcactcaa cttcaccccc caaatcaatc ttcaatatgg
+     3601 caaatgtagc cagacaccca ttttcacatt cccatctgtc accaattggt ctacctttcc
+     3661 tggcgatgca ggaaagctca gctactgatt tttgtgattt aaaactgtca gacttccatg
+     3721 tttgtaagac tacacatgcc tcacatccct ccgtgtgcca tagtttaaca aaagtcttgt
+     3781 gaatttttcc tcctcactat tgagaatgat cattttaaac aaaatagaag ctgtagtagc
+     3841 cctttctgtg tgcaccttac caactttctg taaactcgaa acttgtattt actaagccac
+     3901 aagaaatctg atttctattc aaggtggcca aattatttgt gtaatagaaa actgaaaatc
+     3961 taatattaaa aatatgaaac ttctaatata tttttatatt tagttatagt tttcagatat
+     4021 atatcatatt ggtattcact aatctaggaa gggaagggct actgcagctt tacatgcaat
+     4081 ttattaaaat gattgtaaaa tagcttgtat agtgtaaaat aagaatgatt tttagacgag
+     4141 attgttttat cacgacatgt tatatatttt ttgtaggggt caaagaaatg ccgatggata
+     4201 acccatatga tttatagtgt gtgtaagcat tcatacaggc atggtctcag aaatgcaaca
+     4261 ggtttgctcc aggggaagag ggagacagag attggccccg tgtgcgatga aggccgcgag
+     4321 gctccgtccc attcagatca cagagtgagt catcccctgt cacccacagt gaccgccccc
+     4381 ctcattccag tgagtctgtc cccgcaggtc cgctggccgc tggccaggtc tcccccagcg
+     4441 ctcgcatgtg caaacgaacc gggggagggc agagaggtgg cgctcataag cacgcgcctg
+     4501 caagcacacc tgccgtcagg gtcactttca cacggagccc cccctggcgg tgtggcccaa
+     4561 cgcagagcct ggaggcgtta ggcagtaaga tgcacagagg tacctgcagc atgtaaatag
+     4621 cgcagagtcc cacaggttgc cagataacac actaactcct ttctatcctg cgagagttca
+     4681 tttccaaaca aaacgagtac atgtttgttt tccttaagtg ctttttttga atgttgtttg
+     4741 ttatttttca gtatctggag aaattaataa aaagtgtaat ttgcttttcg aatgctctct
+     4801 aaaaaggtaa tgcgcctttt ttaatggttt aaattgatct caaaagtatt ttaggatggt
+     4861 ttgtaaccca gctggatgtg aaacttttgg tgcctcagaa ataccgcttg aatattatca
+     4921 atgacagggt taagtttcaa aaagagcttc tggaaggtaa attattgttc atttatggaa
+     4981 agttacatgg ttagaaccag aaagcacatc acatgttaat cttgttttag tcccaacctc
+     5041 ggttctcaag aaacagagct cagtgggaaa aaaaaaaaaa a
+//
+

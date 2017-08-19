@@ -1,0 +1,150 @@
+LOCUS       XM_010334710            4019 bp    mRNA    linear   PRI 24-NOV-2014
+DEFINITION  PREDICTED: Saimiri boliviensis boliviensis progesterone receptor
+            (PGR), mRNA.
+ACCESSION   XM_010334710
+VERSION     XM_010334710.1
+DBLINK      BioProject: PRJNA169636
+KEYWORDS    RefSeq.
+SOURCE      Saimiri boliviensis boliviensis (Bolivian squirrel monkey)
+  ORGANISM  Saimiri boliviensis boliviensis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Platyrrhini; Cebidae; Saimiriinae; Saimiri.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NW_003943612.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Saimiri boliviensis Annotation
+                                           Release 101
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4019
+                     /organism="Saimiri boliviensis boliviensis"
+                     /mol_type="mRNA"
+                     /isolate="3227"
+                     /sub_species="boliviensis"
+                     /db_xref="taxon:39432"
+                     /chromosome="Unknown"
+                     /sex="female"
+     gene            1..4019
+                     /gene="PGR"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 6 mRNAs, 6 ESTs, 16 Proteins, and
+                     74% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /db_xref="GeneID:101046070"
+     STS             182..690
+                     /gene="PGR"
+                     /standard_name="GDB:197856"
+                     /db_xref="UniSTS:155971"
+     CDS             1448..3964
+                     /gene="PGR"
+                     /codon_start=1
+                     /product="progesterone receptor"
+                     /protein_id="XP_010333012.1"
+                     /db_xref="GeneID:101046070"
+                     /translation="MTELKAKGPRAPHVAGSPSSPKVGSPLPCRQAAGPFPGSQTSDT
+                     LPEVSALPISLDGLLFPRICQVQDAPDEKTQDQQSLSDVEGAYSRGEATRGAGGSSSR
+                     PPEKESGLLDSVLDTLWAPSGPGQSQPSPPACEVTSSWCLFGPELPEDPLAAPATQRV
+                     LSPLMSRSGGKTGDSSGMAAAHKVLPRGLSPSRQLLLPTSGSPHWSGAAVKPSPQPAA
+                     VEVEEEDGSESEDSAGPLLKGKPRALGGAAAGGGAPAVPPGAAAGGIALVPKEDSRFS
+                     APRVALVEQDAPMAPGRSPLATTVTDFIHVPILPLSHALLAARTRQLLEDESYDGGAG
+                     AASAFAPPRSSPSASSTPVPGCDFPDCAYAPDAEPKDDAYPLYGDFQPPALKIKEEEE
+                     GAEASTRSPRSYLVAGASPAAFPDFPLGPPPPLPPRAPPSRPGEAAVTAVYPPYLNYL
+                     RPDSEASQSPQYSFESLPQKICLICGDEASGCHYGVLTCGSCKVFFKRAMEGQHNYLC
+                     AGRNDCIVDKIRRKNCPACRLRKCCQAGMVLGGRKFKKFNKVRVMRALDAVALPQPVG
+                     IPNENQALSQRFTFSPTQDMQLIPPLINLLLSIEPDVIYAGHDNTKPDTSSSLLTSLN
+                     QLGERQLLSVVKWSKSLPGFRNLHIDDQITLIQYSWMSLMVFSLGWRSYKHVSGQMLY
+                     FAPDLILNEQRMKESSFYSLCLTMWQIPQEFVKLQVSQEEFLCMKVLLLLNTIPLEGL
+                     RSQTQFEEMRSSYIRELIKAIGLRQKGVVSSSQRFYQLTKLLDNLHDLVKQLHLYCLN
+                     TFIQSRALSVEFPEMMSEVIAAQLPKILAGMVKPLLFHKK"
+     STS             3153..3372
+                     /gene="PGR"
+                     /standard_name="PGR"
+                     /db_xref="UniSTS:253996"
+     STS             3685..3838
+                     /gene="PGR"
+                     /standard_name="PGR"
+                     /db_xref="UniSTS:253938"
+ORIGIN      
+        1 ttttataagc tcaaatataa ttatttttca gactaagaat atttagggga aaaagtattt
+       61 tcaacatctc tgctgaggat cttacaatgt agcacagggt ataagctgga gctaaaggaa
+      121 gctttccttg aaacagtatt tactaaaaat tggaagacat tccttaggac aaataaaagt
+      181 atggcacaca acatccaaac ttccatcata gatgcagagt tgttactatc tcgcactccc
+      241 aaatttgttt gtcacattga ggattactca agaggagcag gacatgttgg ttgcagcaga
+      301 agaaacttga aagcactcac ttttatggaa ttcataaggg acagaatctc ttaaagtatt
+      361 tagaatctct ttgatacatt tattgtttta aaacataatg tagccaaatg tcttcctctg
+      421 tattaaatct ttacaaaact gaaatcctaa aatggtgata aaaattctac ttctggtaga
+      481 atctattcgt ttttccaata agatagggca taattcttaa tttgcagaac aaaatataat
+      541 atgcttatga gattccatcc caaagaacct gctattcaga gtagcattca taataacggg
+      601 tggaaaagcc aactccagag tttcagatcc tacccgtaat tggggtaggg aggggctttg
+      661 ggcggggcct ctctagagga ggaggcgttg ttagaaagct gtcgggccag tccaaagctg
+      721 tcactaatcg gggtaagcct tgtatatgtg caaggactct ggcgtctggg tagcactctc
+      781 aatgagaact agcttcactt gtcatttgag taaaatctgc aaccggagga ggctagagct
+      841 ccctcactgc tgggaactga gatcttcaga aatgactggc accggctgta gggagccgtg
+      901 agaagcacga ccttccctga gagaggtccg actggcccca gggttttaat gagaagtgca
+      961 gtggaactca gcgagggatt gagaacttca cagcatgcgc gagtttgatg ccagagaaaa
+     1021 agtcgggaga taaggagctg cgtgtccctc gattgccatc gctgccgcag ccactcaagt
+     1081 gccggacttg tgagtactct gcgtctccag tcctcggaca gaagccggag aactctcatg
+     1141 gagaactctc ccagttaaga gtcgagatcc ctacaataac tactttttct tgctctcccc
+     1201 actttttgct ctctgggaca aacgacagct actattctcc tgacgacacg atggaagcca
+     1261 agggcaggag ctgaccagcg ccgccctctc ccacccccga cccaggaggt ggagatccct
+     1321 ttggtccagc cacattcaac acccacattc ccctccctct ccccctatat tccccaaaac
+     1381 cccctccttc ttcgcttttc cctcctccct ggagacgggg gaggagaaaa ggggaatcca
+     1441 ggtcgtcatg actgagctga aggcaaaggg tccccgggct ccccacgtgg cgggcagccc
+     1501 gtcctccccc aaagtcggat ccccactgcc gtgtcgccaa gctgcaggcc cgttcccagg
+     1561 gagccagacc tcggacacgt tgcctgaagt ttctgcccta cctatctccc tggacgggct
+     1621 actcttccct cggatctgcc aggtacagga cgcccccgac gaaaagacac aggaccagca
+     1681 gtccctgtcg gacgtggagg gtgcatattc cagaggtgaa gctacaaggg gtgctggagg
+     1741 cagcagttct agacccccag aaaaggaaag cggactgctg gacagtgtct tggacactct
+     1801 gtgggcgccc tcaggtccgg ggcagagcca acccagccct cctgcctgcg aggtcaccag
+     1861 ctcttggtgc ctgtttggcc ccgaacttcc cgaagatcca ctggcagccc ccgccaccca
+     1921 gagggtattg tccccgctca tgagccggtc cgggggcaag actggagaca gctccgggat
+     1981 ggcagctgcc cataaggtgc tgccccgggg cctgtcaccc tcccggcagc tgctgctccc
+     2041 gacctctggg agccctcatt ggtccggggc cgcagtgaag ccgtctccgc agcccgctgc
+     2101 ggtggaggta gaggaggagg atggctccga gtccgaggac tctgcgggtc cgcttctgaa
+     2161 aggcaaacct cgggctcttg gtggtgcggc ggctggcgga ggagccccgg ctgtcccgcc
+     2221 gggggcggct gcaggaggta tcgccctggt ccccaaggaa gattcccgct tctcagcgcc
+     2281 cagggtcgcc ctggtggagc aggacgcgcc catggcgccc gggcgctccc cgctggccac
+     2341 cacggtcacg gatttcatcc acgtgcccat cctgcctctc agtcacgcct tattggccgc
+     2401 tcgcacccgg cagctgctgg aggacgagag ctacgacggc ggggccgggg ccgccagcgc
+     2461 ctttgccccg ccgcggagct caccctccgc ctcgtccacc ccggtccctg gctgcgactt
+     2521 ccccgactgc gcgtacgctc ccgacgccga gcctaaggac gacgcgtacc ctctctatgg
+     2581 cgacttccag ccgcccgccc tgaagatcaa ggaggaggag gaaggcgcgg aggcctccac
+     2641 gcgctccccg cgttcctacc tggtggccgg tgccagcccc gccgcctttc cggatttccc
+     2701 gctggggcca ccgcccccac tgccgccacg agcgccccca tccagacccg gggaagcggc
+     2761 agtgacggct gtctacccgc cctatctcaa ctacctgagg ccggattcag aagccagcca
+     2821 gagcccacaa tacagcttcg agtcattacc tcagaagatt tgtttaatct gtggggatga
+     2881 agcatcaggc tgtcattatg gtgtccttac ctgtgggagc tgtaaggtct tctttaaaag
+     2941 ggcaatggaa gggcagcata actacttatg tgctggaaga aatgactgca tcgttgataa
+     3001 aatccgcaga aaaaactgcc cagcgtgtcg ccttagaaag tgctgtcagg ctggcatggt
+     3061 tcttggaggt cgaaaattta aaaagttcaa taaagtcaga gttatgagag cactagatgc
+     3121 tgttgctctc ccacagccag tgggcattcc aaatgaaaac caagccctaa gccagagatt
+     3181 cactttttca ccaactcaag acatgcagtt gattccacca ctgatcaacc tgttattgag
+     3241 catcgaacca gacgtgatct acgcagggca tgacaacaca aaacctgaca cctccagttc
+     3301 tttgctgaca agtcttaatc aactaggcga gaggcaactg ctttcagtag tcaagtggtc
+     3361 taaatcactg ccaggttttc gaaatttaca tattgatgac cagataactc tcattcagta
+     3421 ttcctggatg agcttaatgg tgtttagtct cggatggaga tcctacaaac acgtcagtgg
+     3481 gcagatgcta tattttgcac ctgatctaat actaaatgaa cagcggatga aagaatcatc
+     3541 attctattca ttatgcctta ccatgtggca gatcccacag gagtttgtca agcttcaagt
+     3601 tagccaagaa gagttcctct gtatgaaagt attgttactt cttaatacaa ttcctttgga
+     3661 aggactaaga agtcaaaccc agtttgagga gatgagatca agctacatta gagagctaat
+     3721 caaggcaatt ggtttgaggc aaaaaggagt tgtgtctagc tcacagcgtt tctatcaact
+     3781 tacaaaactt cttgataact tgcatgatct tgtcaaacag cttcatctgt actgcttgaa
+     3841 tacatttatc cagtcccggg cactgagtgt tgaatttcca gaaatgatgt ctgaagttat
+     3901 tgctgcacag ttacccaaga tcttggcagg gatggtgaaa ccccttctct ttcataaaaa
+     3961 atgaatgtca gctttatctt ttaaagaatt acattttgtg gtatatctta ttgttttgg
+//
+

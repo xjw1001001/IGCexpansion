@@ -1,0 +1,123 @@
+LOCUS       NM_001172044            2483 bp    mRNA    linear   VRT 07-AUG-2017
+DEFINITION  Oryzias latipes progesterone receptor (pgr), mRNA.
+ACCESSION   NM_001172044
+VERSION     NM_001172044.2
+KEYWORDS    RefSeq.
+SOURCE      Oryzias latipes (Japanese medaka)
+  ORGANISM  Oryzias latipes
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Neoteleostei;
+            Acanthomorphata; Ovalentaria; Atherinomorphae; Beloniformes;
+            Adrianichthyidae; Oryziinae; Oryzias.
+REFERENCE   1  (bases 1 to 2483)
+  AUTHORS   Pasquier J, Cabau C, Nguyen T, Jouanno E, Severac D, Braasch I,
+            Journot L, Pontarotti P, Klopp C, Postlethwait JH, Guiguen Y and
+            Bobe J.
+  TITLE     Gene evolution and gene expression after whole genome duplication
+            in fish: the PhyloFish database
+  JOURNAL   BMC Genomics 17, 368 (2016)
+   PUBMED   27189481
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2483)
+  AUTHORS   Hagiwara A, Ogiwara K, Katsu Y and Takahashi T.
+  TITLE     Luteinizing hormone-induced expression of Ptger4b, a prostaglandin
+            E2 receptor indispensable for ovulation of the medaka Oryzias
+            latipes, is regulated by a genomic mechanism involving nuclear
+            progestin receptor
+  JOURNAL   Biol. Reprod. 90 (6), 126 (2014)
+   PUBMED   24790162
+  REMARK    GeneRIF: These results indicate that ptger4b expression is
+            regulated by a genomic mechanism involving Pgr.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AB360545.1.
+            On Dec 27, 2012 this sequence version replaced gi:285026397.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB360545.1 [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+                                           SAMD00029877, SAMD00029878
+                                           [ECO:0000350]
+            ##Evidence-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-2483              AB360545.1         2-2484
+FEATURES             Location/Qualifiers
+     source          1..2483
+                     /organism="Oryzias latipes"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:8090"
+                     /chromosome="13"
+                     /map="13"
+     gene            1..2483
+                     /gene="pgr"
+                     /gene_synonym="pr"
+                     /note="progesterone receptor"
+                     /db_xref="GeneID:100335138"
+     misc_feature    284..286
+                     /gene="pgr"
+                     /gene_synonym="pr"
+                     /note="upstream in-frame stop codon"
+     CDS             404..2290
+                     /gene="pgr"
+                     /gene_synonym="pr"
+                     /note="nuclear progestin receptor"
+                     /codon_start=1
+                     /product="progesterone receptor"
+                     /protein_id="NP_001165515.1"
+                     /db_xref="GeneID:100335138"
+                     /translation="MESKMNGKLGALGTPSIADSTESRVNGLIEAGYSRSSAKLSAES
+                     RSPGCLSSVRNFGNSGALIHGLSSGAECAVFKDCNILEASKQFYERNSEFLKSENAPW
+                     EDFVKVQRAAAGGGSETLLGSTSAACKLIKDEKEPTVIMDTPCSSFDPSPEISALDIC
+                     CDGDRKQNLALGESEQAGFGSATAVVRPGLDGSPNFLIDLNRSDQLLSPARTDSSRCA
+                     LVGKPAVSFDSNSNAQQVMFKTEAARWQMHSSPAEPQFWCQSAGTNEESFTASGYDGF
+                     QNQSLIQRNPSPFSGFPGMQPQRLCIICGDEASGCHYGVLTCGSCKVFFKRAVEGRKL
+                     KRFGALKALGLAPSLMFQSHLALSGDGQALTSMSCIPGIHEMQLSQQIINILENIEPE
+                     TVYSGYDNSQPEVPHLLLNSLNRLCEKQLLWIVKWSKSLPGFRNLHINDQMTLIQYSW
+                     MNLMVFSLGWRSFQNVTSEFLYFAPDLILSQEQMRRSPIYDLCLAIQFIPQEFANLQV
+                     TREEFLCMKAIILLNTVPLEGLKSQAAFEEMRQNYIRELTKVIHLKEKGVVASSQRFY
+                     HLTKLMDSIHDIVKKVNLFCLSTFIQADAMKVEFPEMMSEVIASQLPKVLAGMVRPLL
+                     FHTK"
+ORIGIN      
+        1 agtgaggagt gagaagaccg tcagtctgct ccacatctcc gctttgacag ctaccacttt
+       61 cctctctggc atcccacgaa tgattggatt ctttgaggat tttggggaat ctgtggaagg
+      121 aaaggaaact ccctttatct tctgaagatg acagtctcga gtaggattta tagtctttgt
+      181 gaaagttttt ggtttaacgt tggaaaccta gaatcacttt agatcactaa aagtttgggt
+      241 tttggggggc tttattcact acatttgcat tttttggtta atgtgagaga tagccaggtc
+      301 acagaccgtt aagggctctg ggggaggatt acaagaagct gcaacttctt ccacaccttc
+      361 caccctgcgg ctgcgctcca gtcgctgctg cgcgcgtcag aagatggaga gtaaaatgaa
+      421 cggaaagctg ggcgccctcg gcaccccctc catcgccgat tccaccgagt ccagagtaaa
+      481 tggcttgatc gaggccggct acagcaggtc cagcgctaaa ttgtccgctg agtcacgttc
+      541 tccaggctgc ctttcctccg tgcgtaattt tgggaactcg ggcgcgctga tccacggtct
+      601 gagctccggc gctgaatgcg ccgtttttaa agactgtaac atactcgaag cttcgaaaca
+      661 attctatgag cgcaacagcg agtttctgaa aagtgaaaat gctccgtggg aggattttgt
+      721 caaagttcag cgcgcggctg caggcggcgg atccgaaact ttactaggct cgacctccgc
+      781 ggcctgtaag ctgatcaagg acgagaagga gcccactgtg atcatggaca ccccctgctc
+      841 cagctttgat ccatcacctg agatctctgc gctcgacatc tgctgtgacg gcgacaggaa
+      901 gcagaacctg gcgctcgggg agagcgagca ggcggggttc ggttccgcca cggcggtggt
+      961 ccggccgggg ctggacggct ccccgaactt cctgatcgac ctgaaccgct cggatcagct
+     1021 gctgagcccg gcgaggactg actccagcag gtgcgcgttg gtcgggaaac ccgccgtcag
+     1081 cttcgactca aactccaacg cgcaacaggt gatgttcaag acggaggctg cgcgctggca
+     1141 gatgcacagc tccccggctg agccgcagtt ctggtgccag tctgcaggaa cgaacgagga
+     1201 gagcttcaca gccagcggct acgatgggtt ccagaaccag agcctgatcc agaggaaccc
+     1261 atcacccttc tccggattcc caggcatgca gcctcagaga ttgtgcatca tttgtggaga
+     1321 tgaggcgtct ggttgccact atggagtcct cacatgcggc agctgtaaag tcttttttaa
+     1381 aagggcagtg gaaggcagaa aactgaagcg tttcggagcc ttgaaagcgt tgggtttggc
+     1441 cccgtccctc atgttccagt cccacttggc cctgtccggg gacggtcagg ccctgacctc
+     1501 catgtcctgc atcccgggca tccacgagat gcagctctct cagcaaatca tcaacattct
+     1561 ggagaacatc gagccggaga ccgtgtactc cggctatgac aactcgcagc ctgaagtgcc
+     1621 ccacctcctg ctcaacagcc tcaacaggct gtgcgagaag cagctgctgt ggatcgtcaa
+     1681 gtggtccaag tctctgccag ggtttcgtaa ccttcacatc aatgaccaga tgaccctgat
+     1741 ccagtactcc tggatgaacc tgatggtgtt ctctctgggc tggcgctcct ttcagaacgt
+     1801 caccagtgaa tttttatact ttgcacctga tctcatcctc agccaggaac aaatgaggag
+     1861 atctccgatt tatgacctct gcctggccat ccagtttatt cctcaggagt ttgcaaacct
+     1921 tcaagtcacc cgggaggagt ttctgtgcat gaaagccatc attttactga acacggtgcc
+     1981 tctggagggg ctcaaaagcc aggcagcctt tgaagaaatg cgccaaaact acatccgaga
+     2041 actgaccaaa gtcatccacc tgaaggagaa gggcgtggta gccagctccc agcgcttcta
+     2101 ccacctcacc aaactgatgg actccatcca cgacatcgtg aagaaggtca acctgttctg
+     2161 cctgagcacc ttcatccagg ccgacgccat gaaggtggag ttcccagaga tgatgtcgga
+     2221 ggtcattgcc tcccaacttc ctaaggttct ggcaggcatg gtgaggcccc tgctgttcca
+     2281 cacaaagtga tccctccatc ccagcaccgc gactggatta tcggcttcag gatactggat
+     2341 tattcccgtt tgttaaaacc ttctatcaaa gtgaaacaga aataattatg tttcttaaag
+     2401 atatattgtc agagaaatat tatattactc cagaggcatc gatcaataaa gtctcctctg
+     2461 ttattaaaaa aaaaaaaaaa aaa
+//
+

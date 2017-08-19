@@ -1,0 +1,155 @@
+LOCUS       XM_006530576            4526 bp    mRNA    linear   ROD 22-JUN-2016
+DEFINITION  PREDICTED: Mus musculus nuclear receptor subfamily 3, group C,
+            member 2 (Nr3c2), transcript variant X4, mRNA.
+ACCESSION   XM_006530576
+VERSION     XM_006530576.3
+DBLINK      BioProject: PRJNA169
+KEYWORDS    RefSeq.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_000074.6) annotated using gene prediction method: Gnomon,
+            supported by mRNA and EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Jun 22, 2016 this sequence version replaced gi:755526287.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Mus musculus Annotation Release 106
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4526
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /strain="C57BL/6J"
+                     /db_xref="taxon:10090"
+                     /chromosome="8"
+     gene            1..4526
+                     /gene="Nr3c2"
+                     /gene_synonym="Mlr; MR"
+                     /note="nuclear receptor subfamily 3, group C, member 2;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 3 mRNAs, 12 ESTs, 12 long SRA reads, 25
+                     Proteins, and 100% coverage of the annotated genomic
+                     feature by RNAseq alignments, including 11 samples with
+                     support for all annotated introns"
+                     /db_xref="GeneID:110784"
+                     /db_xref="MGI:MGI:99459"
+     CDS             104..3046
+                     /gene="Nr3c2"
+                     /gene_synonym="Mlr; MR"
+                     /codon_start=1
+                     /product="mineralocorticoid receptor isoform X1"
+                     /protein_id="XP_006530639.1"
+                     /db_xref="GeneID:110784"
+                     /db_xref="MGI:MGI:99459"
+                     /translation="METKGYHSLPEGLDMERRWSQVSQTLERSSLGPAERTNENSYME
+                     IVNVSCVSGATPNNSTQGSSKEKHELLPCLQQDNSRSGILPSDIKTELESKELSATVA
+                     ESMGLYMDSVRDAEYTYDQQNQQGSLSPAKIYQNMEQLVKFYKENGHRSSTLSAISRP
+                     LRSFMPDSGTSMNGGALRAIVKSPIICHEKSPSVCSPLNMPSSVCSPAGINSMSSSTA
+                     SFGSFPVHSPITQGTSLTCSPSVENRGSRSHSPVHASNVGSPLSSPLSSMKSPISSPP
+                     SHCSVKSPVSSPNNVPLRSSVSSPANLNNSRCSVSSPSNTNNRSTLSSPTASTVGSIG
+                     SPISNAFSYTTSGASAGAGAIQDMVPSPDTHEKGAHDVPFPKTEEVEKAISNGVTGQL
+                     NIVQYIKPEPDGAFSSSCLGGNNKINPSSPFSVPIKQESSKHSCSGASFKGNPTVNPF
+                     PFMDGSYFSFMDDKDYYSLSGILGPPVPGFDSSCEGSAFPGGIKQEPDDGSYFPETSI
+                     PSSAIIGVNSGGQSFHYRIGAQGTISLSRSPRDQSFQHLSSFPPVNALVESWKPHGDL
+                     SSRRSDGYPVLEYIPENVSSSTLRSVSTGSSRPSKICLVCGDEASGCHYGVVTCGSCK
+                     VFFKRAVEGQHNYLCAGRNDCIIDKIRRKNCPACRLQKCLQAGMNLGARKSKKLGKLK
+                     GLHEEQPQQPPPPPPQSPEEGTTYIAPTKEPSVNSALVPQLASITRALTPSPSMILEN
+                     IEPEIVYAGYDNSKPDTAESLLSTLNRLAGKQMIQVVKWAKVLPGFKNLPLEDQITLI
+                     QYSWMCLSSFALSWRSYKHTNSQFLYFAPDLVFNEEKMHQSAMYELCQGMRQISLQFV
+                     RLQLTFEEYSIMKVLLLLSTVPKDGLKSQAAFEEMRTNYIKELRKMVTKCPNSSGQSW
+                     QRFYQLTKLLDSMHDLVNDLLEFCFYTFRESQALKVEFPAMLVEIISDQLPKVESGNA
+                     KPLYFHRK"
+ORIGIN      
+        1 acccgctttt cctgcgtggt taacacaagg aaactgaaat cgagtgggaa cgagatcctc
+       61 tgtctctccg acagcggaga ttaaggctgc tcggcgggaa gctatggaaa ccaaaggcta
+      121 ccacagtctc cctgaaggcc tagatatgga aaggcgctgg agtcaagtgt ctcagacctt
+      181 ggagcgttct tctcttggac ctgcagagag gaccaatgag aacagctaca tggagattgt
+      241 caacgtcagc tgcgtttccg gtgctactcc gaacaacagt actcaaggga gcagcaaaga
+      301 aaaacacgaa ttactccctt gtcttcagca agacaatagt cggtctggga ttttgccatc
+      361 agatattaaa actgagctgg aatccaagga actttcagcc acggtggctg agtccatggg
+      421 tttatacatg gattctgtga gagatgccga gtacacttat gatcagcaaa accaacaagg
+      481 aagcctgagc ccggcaaaga tttatcaaaa catggagcag ctggtgaagt tttacaaaga
+      541 gaatggtcac aggtcctcca cactgagtgc tataagcagg cctttgaggt cattcatgcc
+      601 tgactctggg acctccatga atggtggggc cttgcgtgcc atcgttaaga gcccaatcat
+      661 ctgtcatgag aagagcccct ctgtttgcag cccgctcaac atgccgtctt cagtatgcag
+      721 ccccgcgggc atcaactcca tgtcctcctc cacagctagc tttggcagtt tcccagtgca
+      781 cagtcccatc actcaaggaa cctcactgac atgctccccc agtgttgaaa atagaggctc
+      841 aaggtcacac agccccgtac atgcgagcaa tgtgggctct cctctttcaa gtccattaag
+      901 cagcatgaaa tccccaattt ccagccctcc aagtcactgc agtgtaaaat ctccagtatc
+      961 cagtccaaac aatgtccctc tgcgctcctc tgtgtcaagc ccggcaaatc ttaacaattc
+     1021 aaggtgctct gtttccagcc cttccaacac caacaataga tctacactct ccagcccgac
+     1081 agctagcaca gtggggtcca ttggcagccc catcagcaat gccttcagct ataccacttc
+     1141 aggcgcttcg gctggagccg gtgccatcca ggatatggtt cccagtccag acacccacga
+     1201 gaaaggtgct cacgacgttc ctttccctaa gacagaggaa gtcgagaagg ccatttccaa
+     1261 tggtgtgact ggtcagctca acattgtcca gtacataaaa ccagaaccag atggggcttt
+     1321 cagcagttcc tgcctaggag gaaacaacaa aatcaacccc agttctccgt tctctgtacc
+     1381 aataaagcaa gagtcaagca agcactcatg ttcaggcgcc tcttttaaag ggaaccccac
+     1441 agtcaaccca tttccattca tggatggctc gtacttttct tttatggatg ataaagacta
+     1501 ttattcccta tcaggaatct taggaccacc tgtgcccggc tttgatagta gctgtgaagg
+     1561 cagtgcgttc ccggggggga ttaagcaaga accagatgat gggagctatt tccctgaaac
+     1621 cagcatccca tcatctgcca tcattggtgt gaattcaggt ggacagtcct ttcactaccg
+     1681 gattggtgct caaggtacaa tatctttatc acggtcacct agagaccaat ctttccaaca
+     1741 cttgagttcc tttccgcctg tcaatgcatt agtggagtca tggaaaccac acggtgacct
+     1801 gtcatctagg agaagtgatg ggtacccggt cctagagtac attccagaaa acgtgtcaag
+     1861 ctctacttta cgaagtgttt ctactggatc ctcaagacct tccaagatct gcttggtgtg
+     1921 tggagatgag gcttctgggt gtcactatgg ggtagtgacc tgcggcagct gcaaagtctt
+     1981 cttcaaaaga gccgtggaag gacaacacaa ctatctgtgt gctggaagaa atgactgcat
+     2041 tattgataag attcggagaa agaactgtcc tgcctgcagg ctccagaaat gcctccaagc
+     2101 cggcatgaac ttaggagctc gaaagtcaaa gaagctgggg aagttaaaag gccttcacga
+     2161 ggagcagcca cagcagcccc caccgccacc accccagagc ccagaagagg ggaccacata
+     2221 cattgctcct accaaggagc catcagtgaa ctctgcgctg gtcccgcagc tcgcctcgat
+     2281 cacgcgtgcg ctcacgccat ccccgtccat gatcctggag aacatcgagc ccgagatcgt
+     2341 gtatgcaggc tacgacaatt ccaagcctga caccgccgag agcctgctct ccacgctcaa
+     2401 ccgcctggcg ggcaagcaga tgatccaagt cgtgaagtgg gccaaggtac ttccaggatt
+     2461 taaaaacttg cctcttgagg accaaattac cctcatccag tattcttgga tgtgtctatc
+     2521 atcgtttgcc ttgagttgga gatcgtacaa acatacgaac agccaatttc tctattttgc
+     2581 accagaccta gtttttaatg aagagaagat gcatcagtct gccatgtatg agctgtgcca
+     2641 ggggatgcgg cagatcagcc ttcagttcgt gcggcttcag ctgacctttg aggagtactc
+     2701 cataatgaag gttttgctgc tactgagcac agttccaaaa gatggcctca agagccaggc
+     2761 tgcgtttgag gagatgagga caaattacat caaagaactg aggaaaatgg tcaccaagtg
+     2821 tcccaacagt tctggacaga gttggcagag gttctaccaa ctgacgaagc ttctagactc
+     2881 catgcatgat ttggtgaatg acctgctaga attctgcttc tataccttcc gagaatccca
+     2941 ggctctgaag gtggagtttc ccgccatgct ggtggagatc atcagcgacc agctgccaaa
+     3001 ggtggaatcc gggaacgcca agccccttta ctttcacagg aagtgatgga agatgccggc
+     3061 caggaagaac tttgccttaa gtttccccac gttgttctac aactacgaag gacccaagaa
+     3121 atcacatttt taacatgtga cggcggattg acagttggtc ggcagtttct caagtttaaa
+     3181 atcccatcga gggtgtggag tcgggaaagc caggagacct ggatcaggca agcctgagct
+     3241 gactaaggga ctcttccctc tccactccca gtgcttagaa aacatgttcc cgttcctctg
+     3301 gatgaaaagc catatctagt caataactct gattttgata ttttaacaga tggaagtttt
+     3361 aactatgcca tgtggtttct ggtatctctc gcttgttttc aaagggttca aaggactaga
+     3421 gaacttttta aagcttaccc ttggtttgca cataaaatgt ctagtcaata tggggcatta
+     3481 atattctttt gttatttaaa aacacacaaa aagcatacac aaaaatacat acagattcct
+     3541 ggtatgtaat aaacagaaca cgtggcgtgg aactgtggcc ttccaggcac gtttttctgc
+     3601 atcgctggca tacacactcg ttagtgtcca tttattattt aattagaatg gataagatgt
+     3661 taaatgcctt ggtttcgatt tctagtatct attgtgttgg ctttacaaat aattttttgc
+     3721 agtcttttgc tgtgctgtac attactgtat gtataaatcg tgaaggacct gaaataaggt
+     3781 gtaaggaact tttgtaaatg agacacaaaa aaaaatcttt aatggttaat aggatgaatg
+     3841 ggaaagtatt tttgaaagaa ttctattttg ctggagacta tttaagtact atctttgtct
+     3901 aaacaaggta actttttttt gtaagtgaga tgccctgcat gcgtactgaa ccgtttacag
+     3961 tgtatttaag aaagggaaag ctgtgccttt ttttagcttc atatctaatt taccatttta
+     4021 cagtctctgt tgtaaataac cacacttaaa cctctttggt tgtctctaag cctttctact
+     4081 ttttcagtac tatttgtttt gttcttggtc tcctgcgtgg ggtgttcgtg agactccagc
+     4141 gcgtagttct ggcttctgct tcttcctgct tccatccggg atgctgctgc agcatctgca
+     4201 gctcctgaca ggtgacaggg cccattggac caaggtcctg agagtgctgt ccttccccct
+     4261 ttgctacaag aagcagaact tgctcttgga aggggagact ggaaacatag ctcagagagc
+     4321 acaattctcc cattccagaa aatcggattt tctcctctgg gggaaaaaaa aaattccatg
+     4381 caccctccac atctgtcaaa gatcagaagt cacctctggc cttggacagg gtccttcact
+     4441 cctggagctg gtcacaggaa cagcagtcat ggcaggaggt actggggcaa tccatctaag
+     4501 catgagtcgg tcagaatgga gaccca
+//
+

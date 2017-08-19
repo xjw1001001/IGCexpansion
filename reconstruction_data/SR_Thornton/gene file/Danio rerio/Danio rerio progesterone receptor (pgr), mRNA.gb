@@ -1,0 +1,198 @@
+LOCUS       NM_001166335            3199 bp    mRNA    linear   VRT 06-AUG-2017
+DEFINITION  Danio rerio progesterone receptor (pgr), mRNA.
+ACCESSION   NM_001166335
+VERSION     NM_001166335.1
+KEYWORDS    RefSeq.
+SOURCE      Danio rerio (zebrafish)
+  ORGANISM  Danio rerio
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi;
+            Cypriniformes; Cyprinidae; Danio.
+REFERENCE   1  (bases 1 to 3199)
+  AUTHORS   Liu DT, Brewer MS, Chen S, Hong W and Zhu Y.
+  TITLE     Transcriptomic signatures for ovulation in vertebrates
+  JOURNAL   Gen. Comp. Endocrinol. 247, 74-86 (2017)
+   PUBMED   28111234
+REFERENCE   2  (bases 1 to 3199)
+  AUTHORS   Liang YQ, Huang GY, Zhao JL, Shi WJ, Hu LX, Tian F, Liu SS, Jiang
+            YX and Ying GG.
+  TITLE     Transcriptional alterations induced by binary mixtures of
+            ethinylestradiol and norgestrel during the early development of
+            zebrafish (Danio rerio)
+  JOURNAL   Comp. Biochem. Physiol. C Toxicol. Pharmacol. 195, 60-67 (2017)
+   PUBMED   28219785
+REFERENCE   3  (bases 1 to 3199)
+  AUTHORS   Siegenthaler PF, Zhao Y, Zhang K and Fent K.
+  TITLE     Reproductive and transcriptional effects of the antiandrogenic
+            progestin chlormadinone acetate in zebrafish (Danio rerio)
+  JOURNAL   Environ. Pollut. 223, 346-356 (2017)
+   PUBMED   28118999
+REFERENCE   4  (bases 1 to 3199)
+  AUTHORS   Wu Y, Su G, Tang S, Liu W, Ma Z, Zheng X, Liu H and Yu H.
+  TITLE     The combination of in silico and in vivo approaches for the
+            investigation of disrupting effects of tris (2-chloroethyl)
+            phosphate (TCEP) toward core receptors of zebrafish
+  JOURNAL   Chemosphere 168, 122-130 (2017)
+   PUBMED   27776230
+REFERENCE   5  (bases 1 to 3199)
+  AUTHORS   Siegenthaler PF, Bain P, Riva F and Fent K.
+  TITLE     Effects of antiandrogenic progestins, chlormadinone and cyproterone
+            acetate, and the estrogen 17alpha-ethinylestradiol (EE2), and their
+            mixtures: Transactivation with human and rainbowfish hormone
+            receptors and transcriptional effects in zebrafish (Danio rerio)
+            eleuthero-embryos
+  JOURNAL   Aquat. Toxicol. 182, 142-162 (2017)
+   PUBMED   27907851
+REFERENCE   6  (bases 1 to 3199)
+  AUTHORS   Pikulkaew S, De Nadai A, Belvedere P, Colombo L and Dalla Valle L.
+  TITLE     Expression analysis of steroid hormone receptor mRNAs during
+            zebrafish embryogenesis
+  JOURNAL   Gen. Comp. Endocrinol. 165 (2), 215-220 (2010)
+   PUBMED   19576895
+REFERENCE   7  (bases 1 to 3199)
+  AUTHORS   Chen SX, Bogerd J, Garcia-Lopez A, de Jonge H, de Waal PP, Hong WS
+            and Schulz RW.
+  TITLE     Molecular cloning and functional characterization of a zebrafish
+            nuclear progesterone receptor
+  JOURNAL   Biol. Reprod. 82 (1), 171-181 (2010)
+   PUBMED   19741208
+  REMARK    GeneRIF: 11 beta-hydroxysteroid dehydrogenase activity stimulated
+            by DHP via Pgr
+REFERENCE   8  (bases 1 to 3199)
+  AUTHORS   Hanna RN, Daly SC, Pang Y, Anglade I, Kah O, Thomas P and Zhu Y.
+  TITLE     Characterization and expression of the nuclear progestin receptor
+            in zebrafish gonads and brain
+  JOURNAL   Biol. Reprod. 82 (1), 112-122 (2010)
+   PUBMED   19741205
+  REMARK    GeneRIF: The localization of Pgr suggests that it mediates
+            progestin regulation of reproductive signaling in the brain, early
+            germ cell proliferation in testis, and ovarian follicular
+            functions, but not final oocyte or sperm maturation.
+REFERENCE   9  (bases 1 to 3199)
+  AUTHORS   Bertrand S, Thisse B, Tavares R, Sachs L, Chaumot A, Bardet PL,
+            Escriva H, Duffraisse M, Marchand O, Safi R, Thisse C and Laudet V.
+  TITLE     Unexpected novel relational links uncovered by extensive
+            developmental profiling of nuclear receptor expression
+  JOURNAL   PLoS Genet. 3 (11), E188 (2007)
+   PUBMED   17997606
+REFERENCE   10 (bases 1 to 3199)
+  AUTHORS   Escriva H, Safi R, Hanni C, Langlois MC, Saumitou-Laprade P,
+            Stehelin D, Capron A, Pierce R and Laudet V.
+  TITLE     Ligand binding was acquired during evolution of nuclear receptors
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 94 (13), 6803-6808 (1997)
+   PUBMED   9192646
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from EF155644.1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: EF155644.1, FJ409244.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMN01765705, SAMN06350657
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3199
+                     /organism="Danio rerio"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7955"
+                     /chromosome="18"
+                     /map="18"
+     gene            1..3199
+                     /gene="pgr"
+                     /gene_synonym="gb:dq017620; pg; pr"
+                     /note="progesterone receptor"
+                     /db_xref="GeneID:569575"
+                     /db_xref="ZFIN:ZDB-GENE-990415-214"
+     misc_feature    33..35
+                     /gene="pgr"
+                     /gene_synonym="gb:dq017620; pg; pr"
+                     /note="upstream in-frame stop codon"
+     CDS             57..1910
+                     /gene="pgr"
+                     /gene_synonym="gb:dq017620; pg; pr"
+                     /note="nuclear progesterone receptor Pgr; NR3C3"
+                     /codon_start=1
+                     /product="progesterone receptor"
+                     /protein_id="NP_001159807.1"
+                     /db_xref="GeneID:569575"
+                     /db_xref="ZFIN:ZDB-GENE-990415-214"
+                     /translation="MDTVNTSPADSTGTVTGMSHLMEKYTDLGFGHGRVSLRNFGDAG
+                     TLRGSAPASSSDALDHLSALDLPLGTKPYTEHIDDFLKAETGQWNAKTDCPESSYIKD
+                     DKELNLIMEPPNPDFDITVLESCYDSTERKQQCEFIEESSALISSQAIQQVVVDSSSN
+                     FQLDMNQTTLVLPPPRTVSASLDRGLLNFDVPSATHMMSKADISKWMSAADSPFWYQS
+                     ANEEHAGYTPDCLIPRSQTAYTAFSGVPSQRQCVICGDEASGCHYGVLTCGSCKVFFK
+                     TAVEGHHNYLCAGRNDCIVDKIRRKNCPACRLRKCYQAGMMLGGRKMKRFAGLKVMGL
+                     SPSLMFQSPLSLLTDGQTLSSLPCMSAMRELQLSPQMISILENIEPQVVYSGYDNTQP
+                     EVPHLLLNSLNRLCERQLLWIVRWSKSLPGFRNLHINDQMTLIQYSWMGLMLFSLGWR
+                     TFQNVTPDYLYFAPDLVLSNDQLRRSPIYDLCLAMQFVPQEFANLQVTKEEFLCMKAL
+                     MLLNTVPLEGLKSQTQFDEMRQNYICELSKAIQLKEKGVVASSQRFYHLTKLMDNMHE
+                     IVKKVNLYCLTTFIQADAMKVEFPEMMTEVIASQLPKVLAGMVKPLMFHHK"
+     misc_feature    792..1004
+                     /gene="pgr"
+                     /gene_synonym="gb:dq017620; pg; pr"
+                     /note="Region: zinc finger DBD"
+     misc_feature    1266..1757
+                     /gene="pgr"
+                     /gene_synonym="gb:dq017620; pg; pr"
+                     /note="Region: LBD"
+ORIGIN      
+        1 gcgaggacgc atctcggacg attgcgtgat tttaaaaaaa caaaactaac attagaatgg
+       61 acacggtgaa cacttctccc gctgattcca ctgggacggt gacgggaatg agtcatttaa
+      121 tggagaaata cacggacttg ggttttgggc acggcagggt ctcgctgcgt aattttggag
+      181 acgcggggac tttacgcggc agcgcgcccg catcgagcag cgatgctttg gatcaccttt
+      241 ctgcgctgga cttgcctctc ggtaccaaac cttacactga acacatagac gactttctaa
+      301 aagcagaaac cggacagtgg aacgcaaaga cagattgtcc ggagagttcg tatattaaag
+      361 atgataagga gctaaatctc atcatggagc caccgaaccc tgatttcgac atcaccgtgt
+      421 tggaaagctg ctacgactcc accgagagga aacaacagtg tgagtttatt gaggagtcct
+      481 cagctttaat ctcatctcaa gcgatccaac aggtggttgt ggacagttcc tctaactttc
+      541 agttggatat gaatcagact acacttgttt tgcctcctcc gagaacagtg tcagcttctc
+      601 tcgatagagg tttgttgaat ttcgacgtac cgagcgcgac acacatgatg tccaaagcgg
+      661 acatctccaa atggatgtcc gcggcggact ctccgttctg gtatcagtcc gccaatgaag
+      721 agcacgctgg atacacaccc gattgcctta tcccgcgctc acagacagca tacaccgcat
+      781 tctccggggt cccatctcaa agacagtgtg ttatctgtgg agatgaggct tctggttgtc
+      841 attatggagt tctgacctgt ggaagctgca aggtgttttt caagacagct gttgagggtc
+      901 atcataacta cctgtgcgcc ggacgaaatg actgcattgt tgataaaatc aggaggaaaa
+      961 attgtcccgc atgtcgtctt cgaaagtgct accaggcagg gatgatgctt ggaggccgta
+     1021 agatgaagcg gtttgcggga ctgaaggtca tgggtctgag tccttcgctg atgttccaga
+     1081 gtccgttatc tctgctgact gacggtcaga ctctgtcctc tttgccctgc atgtcagcca
+     1141 tgcgtgagct ccagctgtct ccgcagatga tcagcatcct ggagaacatc gagccgcagg
+     1201 tggtttactc cggatacgac aacacacagc cagaggttcc tcacctcctc ctcaacagcc
+     1261 tcaacagact ctgtgagcgt cagctgctct ggattgtcag atggtccaaa tctcttccag
+     1321 gttttcgtaa tttgcacatc aatgaccaga tgacactaat tcagtattcc tggatgggct
+     1381 tgatgttgtt ctcgctgggt tggagaacct ttcagaatgt cacccctgat tatctgtatt
+     1441 ttgcacccga tcttgtcctg agcaatgatc agctaagaag gtctccgatc tacgaccttt
+     1501 gcttggctat gcagtttgtc ccacaggaat tcgccaactt gcaagtgacc aaagaggagt
+     1561 ttctgtgcat gaaggctttg atgctcctca acactgttcc tctagagggc ttgaagagtc
+     1621 aaacacagtt tgatgaaatg aggcagaact acatctgcga gctgtccaaa gccatccagc
+     1681 taaaggagaa aggagtggtg gccagttcac agagattcta ccatctgacc aaactcatgg
+     1741 acaacatgca tgagattgtg aagaaggtca atctctactg tctgaccaca ttcatccagg
+     1801 cggacgccat gaaggtggag tttccagaga tgatgactga ggtcatcgca tcacagctgc
+     1861 ccaaagtctt ggcaggaatg gtcaaaccgc tgatgtttca ccacaaatga aggccgatgg
+     1921 ggccactcat gtctcgtcta ctcgataaaa acacgacacc tttccatata cagatttagt
+     1981 gttcgttgaa agtccacata ttttcagagt ggagaaagaa ttagaatcag tcccactgtg
+     2041 aaaagtgatg tgttgacaaa agaaagttag taaagttgtt acatttaacc atgaactatg
+     2101 tggataatta ttcaaatgac atcaaattgc tttttacagt gtacactact ggataaaagt
+     2161 cttgtcgcct atccaagttt tagagacaac aaataagaac tttacttcta gttgatcatt
+     2221 tgctatctga accggcttat ataaaaggca aagcccttaa gattacactt attttaccaa
+     2281 aataaaatag aataatgatt ttgaataatt taattaggtc tgactttgct tagacaaaat
+     2341 tcttgaaaat taaaataatt atttagagta tagaatgtaa agtcatgctg cagtgggaac
+     2401 agaattaaca ttgtgtatga ctcccatgag cttggaggac tgcatccata catttctaac
+     2461 ttacatcact tattaataaa gtcatctgaa atggcaaaga aagcgccctt gcagagttca
+     2521 cccagagttc atcaagattc tttggattca tcttcaatgc ctcctccttc atcttacccc
+     2581 agacatgctc aataatgttc atgtctggtg actgggctgg ccaatcctgg agcaccttga
+     2641 ccttctttgc tttcaggagc tttgatgtgg aggctgaagt atgagaatga gcgctatcct
+     2701 gctgaagaat ttgccctctc ctgtggtttg taataaaatg agctgcacaa atggtttata
+     2761 cctcaggttg ttgatgttgc catcatctct gcagatctct cgcacacccc catactgaat
+     2821 gtatcctcac accatgattt tttcttcacc aaacttgact gatttctgtg agaattttgg
+     2881 gttcatgcga gttccagtag gttttctgca gtatttgtga tgattatgat gcagttcagc
+     2941 agataattca tctgaaaaat ctaccttctg ccactttccc aaatgatcaa ctagaagtca
+     3001 agttaatatt tgttgctctt acatttggga tcaacgacaa tactttaatc atgtagtgtg
+     3061 tatattttac cttgttatta aacttgctac aatgaaatac atttggtgta taactgactt
+     3121 cattttcact tcggaattgt cacaggaagt aacacgaatg aattaaatgt gaaattttta
+     3181 aactaaaaaa aaaaaaaaa
+//
+
