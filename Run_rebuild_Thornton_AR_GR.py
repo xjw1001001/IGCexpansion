@@ -21,7 +21,7 @@ if __name__ == '__main__':
     
     paralog =  ['AR', 'GR']
     Force = None
-    alignment_file = './reconstruction_data/SR_Thornton/ER/input_' + '_'.join(pair) +'.fasta'
+    alignment_file = './reconstruction_data/SR_Thornton/ER/input_' + '_'.join(paralog) +'.fasta'
     newicktree = './reconstruction_data/SR_Thornton/ER/species.newick'
     
     #MG94+tau
