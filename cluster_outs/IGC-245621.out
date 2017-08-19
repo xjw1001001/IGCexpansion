@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "Run_rebuild_Thornton_AR_MR.py", line 28, in <module>
+    MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 97, in __init__
+    self.initialize_parameters()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 102, in initialize_parameters
+    self.get_data()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 131, in get_data
+    self.nts_to_codons()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 121, in nts_to_codons
+    assert(len(self.name_to_seq[name]) % 3 == 0)
+AssertionError
