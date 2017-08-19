@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "Run_rebuild_Thornton_AR_MR.py", line 28, in <module>
+    MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
+NameError: name 'paralog' is not defined
