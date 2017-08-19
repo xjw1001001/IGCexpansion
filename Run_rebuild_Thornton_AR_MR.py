@@ -9,7 +9,7 @@ from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 # AIC=2k-2ln(L)
     
 if __name__ == '__main__':
-    #outgroup 
+    #outgroup  AR(ER)
     ppp_list = ['AR','MR','GR','PR']
     paralog_list = [['AR', 'MR'],
                      ['AR', 'GR'],
@@ -21,8 +21,8 @@ if __name__ == '__main__':
     
     paralog =  ['AR', 'MR']
     Force = None
-    alignment_file = './reconstruction_data/SR_Thornton/ER/input_' + '_'.join(paralog) +'.fasta'
-    newicktree = './reconstruction_data/SR_Thornton/ER/species.newick'
+    alignment_file = './reconstruction_data/SR_Thornton/AR_MR_GR_PR/species_common/input_' + '_'.join(paralog) +'.fasta'
+    newicktree = './reconstruction_data/SR_Thornton/AR_MR_GR_PR/species_common/species.newick'
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
