@@ -19,7 +19,7 @@ if __name__ == '__main__':
                      ['GR', 'PR']]
     
     
-    pair =  ['AR', 'MR']
+    paralog =  ['AR', 'MR']
     Force = None
     alignment_file = './reconstruction_data/SR_Thornton/ER/input_' + '_'.join(pair) +'.fasta'
     newicktree = './reconstruction_data/SR_Thornton/ER/species.newick'
