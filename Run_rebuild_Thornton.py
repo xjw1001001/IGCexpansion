@@ -10,7 +10,7 @@ from IGCexpansion.CodonGeneconv import ReCodonGeneconv
     
 if __name__ == '__main__':
     
-    paralog = ['ERa', 'ERb']
+    
     Force = None
     alignment_file = './reconstruction_data/SR_Thornton/ER/input_ERaERb.fasta'
     newicktree = './reconstruction_data/SR_Thornton/ER/species.newick'

@@ -3,11 +3,11 @@ Danio rerio
 Homo sapiens
 Leucoraja erinacea£¨too bad)
 Mus musculus
-Oncorhynchus mykiss
-(PR too bad)
+Oncorhynchus mykiss(PR too bad)
 Oryctolagus cuniculus
 Oryzias latipes
 Rattus norvegicus
 Saimiri boliviensis
 Taeniopygia guttata
 Xenopus laevis
+Aplysia californica
