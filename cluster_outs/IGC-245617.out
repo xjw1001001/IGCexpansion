@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "Run_rebuild_Thornton_AR_MR.py", line 28, in <module>
+    MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 97, in __init__
+    self.initialize_parameters()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 101, in initialize_parameters
+    self.get_tree()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 114, in get_tree
+    self.tree, self.edge_list, self.node_to_num = read_newick(self.newicktree, self.post_dup)
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconFunc.py", line 137, in read_newick
+    assert(os.path.isfile(newick_file))  # check if file exists
+AssertionError
