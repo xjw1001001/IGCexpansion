@@ -100,3 +100,39 @@ for line in fastaline:
     f1.write(line)
     f1.write('\n')
 f1.close()
+
+#ARGRMRPR
+pairlist = [['AR', 'MR'],
+                     ['AR', 'GR'],
+                     ['AR', 'PR'],
+                     ['MR', 'GR'],
+                     ['MR', 'PR'],
+                     ['PR', 'GR']]
+for pair in pairlist:
+    primalline=[]
+    fastaline=[]
+    substitution_dict = {'node#25':'N4'+pair[0],'node#31':'N9'+pair[0],'node#30':'N7'+pair[0]
+                         ,'node#32':'N8'+pair[0],'node#29':'N6'+pair[0],'node#28':'N5'+pair[0]
+                         ,'node#27':'N3'+pair[0],'node#26':'N2'+pair[0],'node#24':'N1'+pair[0]
+                         ,'node#34':'N4'+pair[1],'node#40':'N9'+pair[1],'node#39':'N7'+pair[1]
+                         ,'node#41':'N8'+pair[1],'node#38':'N6'+pair[1],'node#37':'N5'+pair[1]
+                         ,'node#36':'N3'+pair[1],'node#35':'N2'+pair[1],'node#33':'N1'+pair[1]
+                         ,'node#23':'N0'+pair[0],'node#22':'ROOT'+pair[0]
+                         }
+    with open('/Users/xjw1001001/Desktop/PAML/output/' + '_'.join(pair) +'/out/construct.fasta','r') as f:
+        for line in f.readlines():
+            primalline.append(line)
+            sline = '>' + line
+            sline=sline.replace(' ','')
+            sline=sline.replace('\n','')
+            for i in substitution_dict.keys():
+                sline=sline.replace(i,substitution_dict[i])
+            sline=sline.replace(pair[0],pair[0] + '\n')
+            sline=sline.replace(pair[1],pair[1] + '\n')
+            fastaline.append(sline)      
+    f1 = open('/Users/xjw1001001/Desktop/PAML/PAMLfasta/PAML_' + '_'.join(pair) +'.fasta','w+')
+    for line in fastaline:
+        f1.write(line)
+        f1.write('\n')
+    f1.close()
+

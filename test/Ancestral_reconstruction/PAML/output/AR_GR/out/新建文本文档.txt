@@ -1,0 +1,6 @@
+((((12_Oryzias_latipesAR, 4_Danio_rerioAR) 25 , (20_Xenopus_laevisAR, (18_Taeniopygia_guttataAR, (2_Canis_familiarisAR, ((10_Oryctolagus_cuniculusAR, (14_Rattus_norvegicusAR, 8_Mus_musculusAR) 31 ) 30 , (16_Saimiri_boliviensisAR, 6_Homo_sapiensAR) 32 ) 29 ) 28 ) 27 ) 26 ) 24 , ((13_Oryzias_latipesGR, 5_Danio_rerioGR) 34 , (21_Xenopus_laevisGR, (19_Taeniopygia_guttataGR, (3_Canis_familiarisGR, ((11_Oryctolagus_cuniculusGR, (15_Rattus_norvegicusGR, 9_Mus_musculusGR) 40 ) 39 , (17_Saimiri_boliviensisGR, 7_Homo_sapiensGR) 41 ) 38 ) 37 ) 36 ) 35 ) 33 ) 23 , 1_Aplysia_californicaAR) 22 ;
+
+((13_Oryzias_latipesGR, 5_Danio_rerioGR) 34 , (21_Xenopus_laevisGR, (19_Taeniopygia_guttataGR, (3_Canis_familiarisGR, ((11_Oryctolagus_cuniculusGR, (15_Rattus_norvegicusGR, 9_Mus_musculusGR) 40 ) 39 , (17_Saimiri_boliviensisGR, 7_Homo_sapiensGR) 41 ) 38 ) 37 ) 36 ) 35 ) 33 ) 23 , 1_Aplysia_californicaAR) 22 ;
+
+
+(((Oryzias_latipes:229.90276097,Danio_rerio:229.90276097)N4:205.42131365,(Xenopus_laevis:351.75848322,(Taeniopygia_guttata:311.90392136,(Canis_familiaris:96.46238917,((Oryctolagus_cuniculus:82.14079889,(Rattus_norvegicus:20.88741740,Mus_musculus:20.88741740)N9:61.25338149)N7:7.68238853,(Saimiri_boliviensis:43.15129635,Homo_sapiens:43.15129635)N8:46.67189107)N6:6.63920175)N5:215.44153220)N3:39.85456185)N2:83.56559140)N1:361.23157321,Aplysia_californica:796.55564783)N0;

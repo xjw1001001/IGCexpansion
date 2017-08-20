@@ -19,7 +19,8 @@ paralog_list = [['YLR406C', 'YDL075W'],#pair#TODO: other data
                      ['AR', 'PR'],
                      ['MR', 'GR'],
                      ['MR', 'PR'],
-                     ['GR', 'PR']]'''
+                     ['PR', 'GR']]
+    '''
 
 
 Yeast_list = [['YLR406C', 'YDL075W'], ['YER131W', 'YGL189C'],['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
