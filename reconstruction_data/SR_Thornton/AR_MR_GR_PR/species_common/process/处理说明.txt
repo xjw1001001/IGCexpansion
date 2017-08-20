@@ -3,6 +3,9 @@
 不好的序列： Canis_familiarisGR Canis_familiarisMR Danio_rerioAR  Oryzias_latipesPR Oncorhynchus_mykissPR
 ALL_protein做排列
 
+Oryzias_latipesMR有x 去掉x 那一列
+
+
 Danio_rerioMR
 Danio_rerioPR
 Homo_sapiensPR
