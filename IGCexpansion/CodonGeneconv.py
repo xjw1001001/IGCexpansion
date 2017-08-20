@@ -1630,7 +1630,7 @@ class ReCodonGeneconv:
         f.write(repr(self.ll))
         f.write('\n')
         if self.tau == 0:
-            f.write(repr(2*len(self.x)-2*self.ll)-2)
+            f.write(repr(2*len(self.x)-2*self.ll-2))
         else:
             f.write(repr(2*len(self.x)-2*self.ll))
         f.close()
