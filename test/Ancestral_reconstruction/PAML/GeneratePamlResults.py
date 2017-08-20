@@ -25,6 +25,12 @@ if __name__ == '__main__':
     
     pair_file = '/Users/xjw1001001/Desktop/PAML/Filtered_pairs.txt'
     pairs = []
+    SRlist = [['AR', 'MR'],
+                     ['AR', 'GR'],
+                     ['AR', 'PR'],
+                     ['MR', 'GR'],
+                     ['MR', 'PR'],
+                     ['PR', 'GR']]
     with open(pair_file, 'r') as f:
         for line in f.readlines():
             pairs.append(line.replace('\n','').split('_'))
@@ -138,14 +144,23 @@ if __name__ == '__main__':
                         float(parameter_list[-2])]
                        )
     finished_list.append(['ARa','ERa'])
+    
+    for pair in SRlist:
+        codeml_cmd = [codeml_dir, path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_codeml_control.ctl']
+        #workpath =path + 'output/' + '_'.join(pair) + '/out/'
+        #os.chdir(workpath)
+        #os.system(' '.join(codeml_cmd))
+        codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
+        #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
+        parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
+        summary_mat.append([codeml_result['NSsites'][0]['tree length'],
+                            codeml_result['NSsites'][0]['lnL'],
+                            float(parameter_list[-1]),
+                            float(parameter_list[-3]),
+                            float(parameter_list[-2])]
+                           )
+        finished_list.append(pair)
+    
+    
     header = ' '.join(['_'.join(pair) for pair in finished_list])  # column labels
     np.savetxt(open(path+'output/paml_summary.txt', 'w+'), np.matrix(summary_mat).T, delimiter = ' ', footer = footer, header = header)
-    
-    #ll
-    for pair in pairs:
-        codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
-        np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))
-    pairs = [['EDN','ECP'],['ERa','ERb'],['ARa','ERa']]#TODO:
-    for pair in pairs:
-        codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
-        np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))

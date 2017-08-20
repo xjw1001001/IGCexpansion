@@ -16,7 +16,7 @@ if __name__ == '__main__':
                      ['AR', 'PR'],
                      ['MR', 'GR'],
                      ['MR', 'PR'],
-                     ['GR', 'PR']]
+                     ['PR', 'GR']]
     
     
     paralog =  ['PR', 'GR']

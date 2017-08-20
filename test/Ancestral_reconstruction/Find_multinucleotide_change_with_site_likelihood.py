@@ -14,6 +14,13 @@ paralog_list = [['YLR406C', 'YDL075W'],#pair#TODO: other data
  ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'],
  ['YDR418W', 'YEL054C'], ['YBL087C', 'YER117W'], ['YLR333C', 'YGR027C'], ['YMR142C', 'YDL082W'],
  ['YER102W', 'YBL072C'], ['EDN', 'ECP'] ,['ERa', 'ERb']] #['ARa', 'ERa']
+'''[['AR', 'MR'],
+                     ['AR', 'GR'],
+                     ['AR', 'PR'],
+                     ['MR', 'GR'],
+                     ['MR', 'PR'],
+                     ['GR', 'PR']]'''
+
 
 Yeast_list = [['YLR406C', 'YDL075W'], ['YER131W', 'YGL189C'],['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
  ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'], ['YDR418W', 'YEL054C'], ['YBL087C', 'YER117W'],
