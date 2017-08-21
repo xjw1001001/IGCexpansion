@@ -111,7 +111,8 @@ if __name__ == '__main__':
                             float(parameter_list[-2])]
                            )
         finished_list.append(pair)
-    
+        np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))
+ 
     codeml_result = codeml.read('/Users/xjw1001001/Desktop/PAML/output/EDN_ECP/out/EDN_ECP_codeml')
     #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
     parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
@@ -121,6 +122,8 @@ if __name__ == '__main__':
                         float(parameter_list[-3]),
                         float(parameter_list[-2])]
                        )
+    pair = ['EDN','ECP']
+    np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))
     finished_list.append(['EDN','ECP'])
     
     codeml_result = codeml.read('/Users/xjw1001001/Desktop/PAML/output/ERa_ERb/out/ERa_ERb_codeml')
@@ -132,6 +135,8 @@ if __name__ == '__main__':
                         float(parameter_list[-3]),
                         float(parameter_list[-2])]
                        )
+    pair = ['ERa','ERb']
+    np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))
     finished_list.append(['ERa','ERb'])
     
     codeml_result = codeml.read('/Users/xjw1001001/Desktop/PAML/output/ARa_ERa/out/ARa_ERa_codeml')
@@ -143,8 +148,11 @@ if __name__ == '__main__':
                         float(parameter_list[-3]),
                         float(parameter_list[-2])]
                        )
+    pair = ['ARa','ERa']
+    np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))
     finished_list.append(['ARa','ERa'])
-    
+
+
     for pair in SRlist:
         codeml_cmd = [codeml_dir, path + 'output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_codeml_control.ctl']
         #workpath =path + 'output/' + '_'.join(pair) + '/out/'
@@ -160,6 +168,8 @@ if __name__ == '__main__':
                             float(parameter_list[-2])]
                            )
         finished_list.append(pair)
+        np.savetxt(open(path+'output/summary/' + '_'.join(pair) + '.txt', 'w+'), np.array([codeml_result['NSsites'][0]['lnL'],2*(len(codeml_result['NSsites'][0]['parameters']['branches'])+5)-2*codeml_result['NSsites'][0]['lnL']]))
+
     
     
     header = ' '.join(['_'.join(pair) for pair in finished_list])  # column labels
