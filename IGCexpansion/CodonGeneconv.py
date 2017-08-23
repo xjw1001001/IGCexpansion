@@ -1470,17 +1470,26 @@ class ReCodonGeneconv:
                 else:
                     Expected_tau[site,branch] = 0
         SiteExpectedDirectionalNumGeneconv = self._SitewiseExpectedDirectionalNumGeneconv()#1->2 0 2->1 1
-        
+        SitewiseExpectedpointMutation = self._SitewiseExpectedpointMutationNum()
+        Sitewiseporpotion = np.zeros((self.nsites,len(self.edge_to_blen)))
+        for site in range(self.nsites):
+            for branch in range(len(self.edge_list)):
+                if (ExpectedIGCnum[site,branch] + SitewiseExpectedpointMutation[site,branch]) > 0.05:
+                    Sitewiseporpotion[site,branch] = ExpectedIGCnum[site,branch] / (ExpectedIGCnum[site,branch] + SitewiseExpectedpointMutation[site,branch])
         self.scene_ll = self.get_scene()
         
         if self.tau == 0:
                 model = self.Model + '_tau=0'
         else:
                 model = self.Model + '_IGC'
+        
+        
+        
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), ExpectedIGCnum)
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum1_2/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[0])
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum2_1/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[1])
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Expected_tau/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Expected_tau)
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Sitewiseporpotion/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Sitewiseporpotion)
         
         
         #posterior probability no 1->2
@@ -1669,6 +1678,13 @@ class ReCodonGeneconv:
             
             status = j_out['status']
             states_matrix = np.array(j_out['responses'][0])
+            marginal_states_matrix_1 = np.zeros((self.nsites,61,len(self.node_to_num))) 
+            marginal_states_matrix_2 = np.zeros((self.nsites,61,len(self.node_to_num))) 
+            for site in range(self.nsites):
+                for node in range(len(self.node_to_num)):
+                    for i in range(61):
+                        marginal_states_matrix_1[site,i,node] = sum(states_matrix[site,i*61:i*61+61,node])
+                        marginal_states_matrix_2[site,i,node] = sum(states_matrix[site,i:i+61*60:61,node])
             #iid_obs * states * sites, we want to find the states to make the number biggest
             maxprob_number = np.zeros((self.nsites,len(self.node_to_num)))
             for sites in range(self.nsites):
@@ -1709,6 +1725,8 @@ class ReCodonGeneconv:
             
             np.save('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/npy/' + 'arg_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.npy', argmatrix)
             np.save('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/npy/' + 'likelihood_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.npy', likelihood_matrix)
+            np.save('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/npy/' + 'marginal_' + self.paralog[0] + '_' +model +'.npy', marginal_states_matrix_1)
+            np.save('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/npy/' + 'marginal_' + self.paralog[1] + '_' +model +'.npy', marginal_states_matrix_2)
             for node in range(len(self.node_to_num)):    
                 np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'arg_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
                 np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'likelihood_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
