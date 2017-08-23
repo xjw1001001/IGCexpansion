@@ -17,8 +17,9 @@ if __name__ == '__main__':
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
-    MG94_tau.get_mle(True, True, 0, 'BFGS')
+    #MG94_tau.get_mle(True, True, 0, 'BFGS')
     MG94_tau.site_reconstruction()
+    
     MG94_tau.Expected_tau_for_sitewise_and_branchwise()
     MG94_tau_series = MG94_tau.reconstruction_series
     MG94_tau_likelihooddict = MG94_tau.likelihood_dict
@@ -36,16 +37,5 @@ if __name__ == '__main__':
     MG94_series = MG94.reconstruction_series
     MG94_likelihooddict = MG94.likelihood_dict
     result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
-    '''
-    HKY_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = Force, clock = None, save_path = './test/save/')
-    HKY_tau.get_mle(True, True, 0, 'BFGS')
-    HKY_tau.site_reconstruction()
-    HKY_tau_series = HKY_tau.reconstruction_series
     
-    #MG94
-    HKY = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'HKY', Force = {4:0.0}, clock = None, save_path = './test/save/')
-    HKY.get_mle(True, True, 0, 'BFGS')
-    HKY.site_reconstruction()
-    HKY_series = HKY.reconstruction_series
-    result = HKY_tau.find_differences_between(HKY_tau_series, HKY_series)
-    '''
+    
