@@ -64,10 +64,9 @@ for pair in paralog_list:
     ExpectedIGC['num']['_'.join(pair)] = np.loadtxt(open(path + 'ExpectedIGCnum/' + '_'.join(pair) + '_MG94_IGC.txt','r'))
     ExpectedIGC['1to2']['_'.join(pair)] = np.loadtxt(open(path + 'ExpectedIGCnum1_2/' + '_'.join(pair) + '_MG94_IGC.txt','r'))
     ExpectedIGC['2to1']['_'.join(pair)] = np.loadtxt(open(path + 'ExpectedIGCnum2_1/' + '_'.join(pair) + '_MG94_IGC.txt','r'))
-    posterior['1to2']['_'.join(pair)] = np.loadtxt(open(path + 'posterior/' + '_'.join(pair) + '_MG94_IGC_no1to2.txt','r'))
-    posterior['2to1']['_'.join(pair)] = np.loadtxt(open(path + 'posterior/' + '_'.join(pair) + '_MG94_IGC_no2to1.txt','r'))
-    posterior['1to2']['_'.join(pair)] = np.ones([len(posterior['1to2']['_'.join(pair)][:,0]),len(posterior['1to2']['_'.join(pair)][0,:])]) - np.exp(posterior['1to2']['_'.join(pair)])
-    posterior['2to1']['_'.join(pair)] = np.ones([len(posterior['2to1']['_'.join(pair)][:,0]),len(posterior['2to1']['_'.join(pair)][0,:])]) - np.exp(posterior['2to1']['_'.join(pair)])
+    posterior['1to2']['_'.join(pair)] = np.loadtxt(open(path + 'posterior/' + '_'.join(pair) + '_MG94_IGC_1to2.txt','r'))
+    posterior['2to1']['_'.join(pair)] = np.loadtxt(open(path + 'posterior/' + '_'.join(pair) + '_MG94_IGC_2to1.txt','r'))
+    posterior['IGC']['_'.join(pair)] = np.loadtxt(open(path + 'posterior/' + '_'.join(pair) + '_MG94_IGC_IGC.txt','r'))
 
 #write in excels  m = ExpectedIGC['num']['_'.join(pair)].tolist()
 #EDNECP
