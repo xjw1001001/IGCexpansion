@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
 
     #pairs = pairs[0:2]
-    for pair in pairs:
+    for pair in pairs:#parameters:%AG, %A, %C, kappa(-5), omega(-1), tau,branches 
         codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
         #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
         parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
