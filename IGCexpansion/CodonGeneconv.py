@@ -461,15 +461,6 @@ class ReCodonGeneconv:
                 rate_geneconv_no1to2_specific.append(0.0)
                 rate_geneconv_no2to1_specific.append(0.0)
                 rate_geneconv_noIGC_specific.append(0.0)
-            
-            #append absorb state transition row 
-            row.append((61,61))#61 stands for absorb
-            col.append((sa, sb))
-            rate_basic.append(0.0)
-            rate_geneconv.append(0.0)
-            rate_geneconv_no1to2_specific.append(0.0)
-            rate_geneconv_no2to1_specific.append(0.0)
-            rate_geneconv_noIGC_specific.append(0.0)        
         
         
         
@@ -1535,22 +1526,24 @@ class ReCodonGeneconv:
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Expected_tau/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Expected_tau)
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Sitewiseporpotion/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Sitewiseporpotion)
         
+        #site logll
+        j_in = {
+            'scene' : self.scene_ll,
+            'requests' : [{"property" : "DNNLOGL"}],
+            }        
+        j_out = jsonctmctree.interface.process_json_in(j_in)#TODO:sitewise aic
+        sitewise_logll = j_out['responses'][0]
         
         #posterior probability at least one 1->2
         posterior_1to2 = np.zeros((self.nsites,len(self.edge_list)))
-        for branch in range(1,len(self.edge_list)):
-            #site logll
-            j_in = {
-                'scene' : self.scene_ll,
-                'requests' : [{"property" : "DNNLOGL"}],
-                }        
-            j_out = jsonctmctree.interface.process_json_in(j_in)#TODO:sitewise aic
-            sitewise_logll = j_out['responses'][0]
+        for branch in range(0,len(self.edge_list)):
                        
             #getll with tau = 0 for one side
             #get scene with branch
             process_definitions = [{'row_states':i['row'], 'column_states':i['col'], 'transition_rates':i['rate']} for i in self.processes]
             edge_processes = self.tree['process']
+            if edge_processes[branch] == 0:
+                continue
             edge_processes[branch]=2#no 1->2
             scene = dict(
                 node_count = len(self.edge_to_blen) + 1,
@@ -1584,19 +1577,12 @@ class ReCodonGeneconv:
                 
         #posterior probability at least one 2->1
         posterior_2to1 = np.zeros((self.nsites,len(self.edge_list)))
-        for branch in range(1,len(self.edge_list)):
-            #site logll
-            j_in = {
-                'scene' : self.scene_ll,
-                'requests' : [{"property" : "DNNLOGL"}],
-                }        
-            j_out = jsonctmctree.interface.process_json_in(j_in)#TODO:sitewise aic
-            sitewise_logll = j_out['responses'][0]
-                       
-            #getll with tau = 0 for one side
+        for branch in range(0,len(self.edge_list)):
             #get scene with branch
             process_definitions = [{'row_states':i['row'], 'column_states':i['col'], 'transition_rates':i['rate']} for i in self.processes]
             edge_processes = self.tree['process']
+            if edge_processes[branch] == 0:
+                continue            
             edge_processes[branch]=3#no 2->1
             scene = dict(
                 node_count = len(self.edge_to_blen) + 1,
@@ -1630,19 +1616,13 @@ class ReCodonGeneconv:
                 
         #posterior probability at least one IGC
         posterior_IGC = np.zeros((self.nsites,len(self.edge_list)))
-        for branch in range(1,len(self.edge_list)):
-            #site logll
-            j_in = {
-                'scene' : self.scene_ll,
-                'requests' : [{"property" : "DNNLOGL"}],
-                }        
-            j_out = jsonctmctree.interface.process_json_in(j_in)#TODO:sitewise aic
-            sitewise_logll = j_out['responses'][0]
-                       
-            #getll with tau = 0 for one side
+        for branch in range(0,len(self.edge_list)):
+
             #get scene with branch
             process_definitions = [{'row_states':i['row'], 'column_states':i['col'], 'transition_rates':i['rate']} for i in self.processes]
             edge_processes = self.tree['process']
+            if edge_processes[branch] == 0:
+                continue
             edge_processes[branch]=4#no IGC
             scene = dict(
                 node_count = len(self.edge_to_blen) + 1,
