@@ -72,7 +72,7 @@ class ReCodonGeneconv:
         self.x              = None      # x_process + x_rates
         self.x_Lr           = None      # values of clock blen parameters
         self.x_clock        = None      # x_process + Lr
-        self.pi             = None      # real values
+        self.pi             = None      # real values ACGT
         self.kappa          = 1.2       # real values
         self.omega          = 0.9       # real values
         self.tau            = 1.4       # real values
@@ -1820,6 +1820,14 @@ class ReCodonGeneconv:
                 np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'arg_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), argmatrix[:,node,:])
                 np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'likelihood_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
             
+            #save model paramteres
+            a = self.pi + self.kappa + self.omega
+            b = self.tau
+            c = np.exp(self.x_rates)
+            np.savetxt(open('./test/Ancestral_reconstruction/parameters/' + 'transition_model_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt','w+'), a)
+            np.savetxt(open('./test/Ancestral_reconstruction/parameters/' + 'tau_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt','w+'), b)
+            np.savetxt(open('./test/Ancestral_reconstruction/parameters/' + 'branch_length' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt','w+'), c)
+
             self.get_reconstruction_result(states_matrix, maxprob_number, DNA_or_protein = 'DNA')            
         else:
             print ('Need to implement this for old package')
