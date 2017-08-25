@@ -449,9 +449,9 @@ class ReCodonGeneconv:
                         col.append((sc, sc))
                         rate_geneconv.append(0.0)
                         rate_basic.append(Qb)
-                        rate_geneconv_no1to2_specific.append(Qb)
-                        rate_geneconv_no2to1_specific.append(Qb)
-                        rate_geneconv_noIGC_specific.append(Qb)
+                        rate_geneconv_no1to2_specific.append(0.0)
+                        rate_geneconv_no2to1_specific.append(0.0)
+                        rate_geneconv_noIGC_specific.append(0.0)
                 
                 # append absorb transition for process 2 and 3
                 row.append((sa, sb))

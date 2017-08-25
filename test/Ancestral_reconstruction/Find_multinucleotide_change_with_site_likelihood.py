@@ -42,7 +42,7 @@ EDNECP_node = 25
 Model_list = ['IGC','tau=0']#model
 #'arg_' +'_'.join(pair) + '_MG94_' + model + '.npy'
 def state_to_compositecodons(state):
-    state_1, state_2 = divmod(state, 61)
+    state_1, state_2 = divmod(state, 62)
     state_1 = int(state_1)
     state_2 = int(state_2)
     return (state_to_codon[state_1],state_to_codon[state_2])
@@ -365,7 +365,7 @@ for pair in plist:
                                                 multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherwise arg'] = state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node_to_num[branch[0]],0])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherarg prob'] = dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node_to_num[branch[0]],0]
-'''
+
 ##ARaERa
 plist = [['ARa', 'ERa']]
 tree = ARa_ERa_newicktree
@@ -456,7 +456,7 @@ for pair in plist:
                                                 multi_site_dict['_'.join(pair)][site][branch][event]['node1 prob dif'] = abs(site_information_dict['_'.join(pair)][site][branch[0]]['IGC'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])]-site_information_dict['_'.join(pair)][site][branch[0]]['tau=0'][(event[0:3],event[8 + len(pair[0]) + 2:8 + len(pair[0]) + 5])])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherwise arg'] = state_to_compositecodons(dict_all['_'.join(pair)]['tau=0']['arg'][site,node_to_num[branch[0]],0])
                                             multi_site_dict['_'.join(pair)][site][branch][event]['node1 otherarg prob'] = dict_all['_'.join(pair)]['tau=0']['likelihood'][site,node_to_num[branch[0]],0]
-'''
+
 
 ##ARMRGRPR
 plist =ARMRGRPR_list

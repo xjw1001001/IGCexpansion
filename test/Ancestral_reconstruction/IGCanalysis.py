@@ -54,6 +54,7 @@ model = {}
 posterior = {}
 posterior['1to2'] = {}
 posterior['2to1'] = {}
+posterior['IGC'] = {}
 #'_'.join(pair)
 for pair in paralog_list:
     model['_'.join(pair)] = {}
