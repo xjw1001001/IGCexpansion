@@ -17,7 +17,7 @@ if __name__ == '__main__':
     
     #MG94+tau
     MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './test/save/')
-    
+    '''
     MG94_tau.get_mle(True, True, 0, 'BFGS')
     MG94_tau.site_reconstruction()
     
@@ -38,4 +38,4 @@ if __name__ == '__main__':
     MG94_series = MG94.reconstruction_series
     MG94_likelihooddict = MG94.likelihood_dict
     result = MG94_tau.find_differences_between(MG94_tau_series, MG94_series)
-    
+    '''
