@@ -1,0 +1,54 @@
+/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py:277: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if not x == None:
+number of sites to be analyzed:  107
+Successfully loaded parameter value from ./test/save/MG94_YLR333C_YGR027C_nonclock_save.txt
+log likelihood =  -1261.99870082
+Edge derivatives =  [-2.3912912921552984e-05, -0.00022812886177558944, -7.616891543976712e-05, 0.0006629323982572377, -0.0021735697559475964, 0.00014566288592339494, -0.0018875466025335373, 0.00024075202386836941, 0.00192308143993547, -0.002620762460216919, -0.0006229117046897548, -0.0006416136547864326]
+other derivatives: [ -4.16093826e-03   2.04636308e-04   9.09494702e-05   2.63753464e-03
+   6.82121026e-04   1.13686838e-04]
+Current x array =  [ -0.71985288  -0.51715638  -0.84359389   1.7227031   -1.90453821
+   1.18808627 -13.76049722  -1.0385959   -1.53487327  -0.86034929
+  -3.75529257  -3.01581804  -3.43242418  -3.17603324  -3.74394407
+  -3.01807052  -3.16611265  -3.51298291]
+log likelihood =  -1262.00300736
+Edge derivatives =  [-2.3594008016434797e-05, 0.033836717138822525, 0.0388969570962151, 0.029944391731156983, 0.005609786737450793, 0.012316229925044248, 0.01279176033281277, 0.008630052063461888, 0.005587594613879587, 0.030954494731040283, 0.014679131167938175, 0.009243449165475454]
+other derivatives: [  1.97699137e+00  -8.02401701e-02  -3.58568286e-02  -1.12709131e-01
+   1.37561074e-02   6.59383659e-04]
+Current x array =  [ -0.72401382  -0.51695175  -0.84350294   1.72534063  -1.90385609
+   1.18819996 -13.76052113  -1.03882403  -1.53494944  -0.85968636
+  -3.75746614  -3.01567237  -3.43431173  -3.17579249  -3.74202099
+  -3.02069128  -3.16673556  -3.51362453]
+log likelihood =  -1261.9987007
+Edge derivatives =  [-2.391127818446658e-05, -5.345416952240445e-05, 0.0001239249183572766, 0.0008124489837403326, -0.0021334800474186524, 0.0002080400305291552, -0.0018120071654214448, 0.00028381078819201405, 0.0019418973859022248, -0.002447625243782947, -0.0005442127613003445, -0.0005908193461507671]
+other derivatives: [  6.09361450e-03  -2.27373675e-04  -9.09494702e-05   2.00088834e-03
+   7.04858394e-04   1.13686838e-04]
+Current x array =  [ -0.71987434  -0.51715533  -0.84359342   1.72271669  -1.9045347
+   1.18808686 -13.76049734  -1.03859708  -1.53487366  -0.86034588
+  -3.75530377  -3.01581729  -3.43243391  -3.176032    -3.74393416
+  -3.01808403  -3.16611586  -3.51298622]
+      fun: 1261.9987007045615
+ hess_inv: <18x18 LbfgsInvHessProduct with dtype=float64>
+      jac: array([ -6.09361450e-03,   2.27373675e-04,   9.09494702e-05,
+        -2.00088834e-03,  -7.04858394e-04,  -1.13686838e-04,
+         2.39112782e-05,   5.34541695e-05,  -1.23924918e-04,
+        -8.12448984e-04,   2.13348005e-03,  -2.08040031e-04,
+         1.81200717e-03,  -2.83810788e-04,  -1.94189739e-03,
+         2.44762524e-03,   5.44212761e-04,   5.90819346e-04])
+  message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+     nfev: 3
+      nit: 1
+   status: 0
+  success: True
+        x: array([ -0.71987434,  -0.51715533,  -0.84359342,   1.72271669,
+        -1.9045347 ,   1.18808686, -13.76049734,  -1.03859708,
+        -1.53487366,  -0.86034588,  -3.75530377,  -3.01581729,
+        -3.43243391,  -3.176032  ,  -3.74393416,  -3.01808403,
+        -3.16611586,  -3.51298622])
+Traceback (most recent call last):
+  File "Run_rebuild.py", line 52, in <module>
+    main(parser.parse_args())
+  File "Run_rebuild.py", line 17, in main
+    MG94_tau.Expected_tau_for_sitewise_and_branchwise()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 1528, in Expected_tau_for_sitewise_and_branchwise
+    np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/SitewiseExpectedpointMutation/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SitewiseExpectedpointMutation)
+IOError: [Errno 2] No such file or directory: './test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/SitewiseExpectedpointMutation/YLR333C_YGR027C_MG94_IGC.txt'
