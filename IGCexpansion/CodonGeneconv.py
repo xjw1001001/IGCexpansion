@@ -1802,7 +1802,7 @@ class ReCodonGeneconv:
             
             #save model paramteres
             a = self.pi + self.kappa + self.omega
-            b = self.tau
+            b = np.array([self.tau])
             c = np.exp(self.x_rates)
             np.savetxt(open('./test/Ancestral_reconstruction/parameters/' + 'transition_model_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt','w+'), a)
             np.savetxt(open('./test/Ancestral_reconstruction/parameters/' + 'tau_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt','w+'), b)
