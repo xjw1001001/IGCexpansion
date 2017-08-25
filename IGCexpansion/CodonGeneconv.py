@@ -1801,7 +1801,7 @@ class ReCodonGeneconv:
                 np.savetxt(open('./test/Ancestral_reconstruction/matrix/reconstruction_likelihood/' + 'likelihood_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model + '_node_' + str(node) +'.txt', 'w+'), likelihood_matrix[:,node,:])
             
             #save model paramteres
-            a = self.pi + self.kappa + self.omega
+            a = np.array(self.pi+[self.kappa]+[self.omega])
             b = np.array([self.tau])
             c = np.exp(self.x_rates)
             np.savetxt(open('./test/Ancestral_reconstruction/parameters/' + 'transition_model_' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt','w+'), a)
