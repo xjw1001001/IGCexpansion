@@ -14,7 +14,7 @@ paralog_list = [['YLR406C', 'YDL075W'],#pair#TODO: other data
  ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'],
  ['YDR418W', 'YEL054C'], ['YBL087C', 'YER117W'], ['YLR333C', 'YGR027C'], ['YMR142C', 'YDL082W'],
  ['YER102W', 'YBL072C'], ['EDN', 'ECP'],['AR', 'MR'],['AR', 'GR'],['AR', 'PR'],['MR', 'GR'],
- ['MR', 'PR'],['PR', 'GR'] ,['ERa', 'ERb']] #['ARa', 'ERa']
+ ['MR', 'PR'],['PR', 'GR'] ,['ERa', 'ERb'],['ARa', 'ERa']] #
 
 
 ARMRGRPR_list = [['AR', 'MR'],['AR', 'GR'],['AR', 'PR'],['MR', 'GR'],['MR', 'PR'],['PR', 'GR']]
@@ -36,6 +36,7 @@ codon_table    = dict(zip(codons, amino_acids))
 codon_nonstop  = [a for a in codon_table.keys() if not codon_table[a]=='*']
 codon_to_state = {a.upper() : i for (i, a) in enumerate(codon_nonstop)}
 state_to_codon = {i : a.upper() for (i, a) in enumerate(codon_nonstop)}
+state_to_codon[61] = 'xxx'
 pair_to_state  = {pair:i for i, pair in enumerate(product(codon_nonstop, repeat = 2))}
 Yeast_node = 13
 EDNECP_node = 25

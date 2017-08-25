@@ -1525,6 +1525,7 @@ class ReCodonGeneconv:
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/ExpectedIGCnum2_1/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SiteExpectedDirectionalNumGeneconv[1])
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Expected_tau/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Expected_tau)
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/Sitewiseporpotion/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), Sitewiseporpotion)
+        np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/SitewiseExpectedpointMutation/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SitewiseExpectedpointMutation)
         
         #site logll
         j_in = {
