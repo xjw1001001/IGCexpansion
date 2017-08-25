@@ -1535,8 +1535,8 @@ class ReCodonGeneconv:
         sitewise_logll = j_out['responses'][0]
         
         #posterior probability at least one 1->2
-        posterior_1to2 = np.zeros((self.nsites,len(self.edge_list)))
-        for branch in range(0,len(self.edge_list)):
+        posterior_1to2 = np.zeros((self.nsites,len(self.tree['process'])))
+        for branch in range(0,len(self.tree['process'])):
                        
             #getll with tau = 0 for one side
             #get scene with branch
@@ -1574,10 +1574,11 @@ class ReCodonGeneconv:
             for site in range(self.nsites):
                 posterior_1to2[site,branch] = 1-math.exp((sitewise_NoIGC_1to2_logll[site]-
                                                            sitewise_logll[site]))
+            edge_processes[branch]=1
                 
         #posterior probability at least one 2->1
-        posterior_2to1 = np.zeros((self.nsites,len(self.edge_list)))
-        for branch in range(0,len(self.edge_list)):
+        posterior_2to1 = np.zeros((self.nsites,len(self.tree['process'])))
+        for branch in range(0,len(self.tree['process'])):
             #get scene with branch
             process_definitions = [{'row_states':i['row'], 'column_states':i['col'], 'transition_rates':i['rate']} for i in self.processes]
             edge_processes = self.tree['process']
@@ -1613,10 +1614,11 @@ class ReCodonGeneconv:
             for site in range(self.nsites):
                 posterior_2to1[site,branch] = 1-math.exp((sitewise_NoIGC_2to1_logll[site]-
                                                            sitewise_logll[site]))
+            edge_processes[branch]=1
                 
         #posterior probability at least one IGC
-        posterior_IGC = np.zeros((self.nsites,len(self.edge_list)))
-        for branch in range(0,len(self.edge_list)):
+        posterior_IGC = np.zeros((self.nsites,len(self.tree['process'])))
+        for branch in range(0,len(self.tree['process'])):
 
             #get scene with branch
             process_definitions = [{'row_states':i['row'], 'column_states':i['col'], 'transition_rates':i['rate']} for i in self.processes]
@@ -1653,6 +1655,7 @@ class ReCodonGeneconv:
             for site in range(self.nsites):
                 posterior_IGC[site,branch] = 1-math.exp((sitewise_NoIGC_logll[site]-
                                                            sitewise_logll[site]))
+            edge_processes[branch]=1
         
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/posterior/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'_1to2.txt', 'w+'), posterior_1to2)
         np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/posterior/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'_2to1.txt', 'w+'), posterior_2to1)
