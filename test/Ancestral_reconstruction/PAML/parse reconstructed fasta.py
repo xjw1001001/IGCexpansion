@@ -5,7 +5,9 @@ Created on Thu Aug 10 08:23:33 2017
 @author: xjw1001001
 """
 #only when PAML in desktop is available,the yeast version only
-
+from Bio import Seq, SeqIO, AlignIO
+from Bio.Phylo.PAML import codeml, baseml
+import numpy as np
 paralog_list = [['YLR406C', 'YDL075W'],
  ['YER131W', 'YGL189C'],
  ['YML026C', 'YDR450W'],
@@ -136,3 +138,20 @@ for pair in pairlist:
         f1.write('\n')
     f1.close()
 
+PAML_parameter_dict = {}
+path = '/Users/xjw1001001/Desktop/PAML/'
+paralog_list = [['YLR406C', 'YDL075W'],#pair#TODO: other data
+ ['YER131W', 'YGL189C'], ['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
+ ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'],
+ ['YDR418W', 'YEL054C'], ['YBL087C', 'YER117W'], ['YLR333C', 'YGR027C'], ['YMR142C', 'YDL082W'],
+ ['YER102W', 'YBL072C'], ['EDN', 'ECP'],['ERa', 'ERb'],['AR', 'MR'],['AR', 'GR'],['AR', 'PR'],
+ ['MR', 'GR'],['MR', 'PR'],['PR', 'GR'] ] 
+for pair in paralog_list:#parameters: kappa(-5), omega(-1), tau,branches 
+    PAML_parameter_dict['_'.join(pair)] = {}
+    codeml_result = codeml.read(path+'output/' + '_'.join(pair) + '/out/' + '_'.join(pair) + '_codeml')
+    #baseml_result = baseml.read('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/PAML/output/' + '_'.join(pair) + '/' + '_'.join(pair) + '_baseml')
+    parameter_list = codeml_result['NSsites'][0]['parameters']['parameter list'].split(' ')
+    PAML_parameter_dict['_'.join(pair)]['kappa'] =  parameter_list[-5]
+    PAML_parameter_dict['_'.join(pair)]['omega'] =  parameter_list[-1]
+    
+        
