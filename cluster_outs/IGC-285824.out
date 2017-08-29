@@ -1,2 +1,52 @@
 /home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py:277: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   if not x == None:
+number of sites to be analyzed:  134
+Successfully loaded parameter value from ./test/save/MG94_YMR143W_YDL083C_nonclock_save.txt
+log likelihood =  -1209.74996905
+Edge derivatives =  [-4.0868342757566784e-05, -0.0019679865678505493, -0.0010236893790972479, 0.0012102739670270535, 0.001238491472951589, -0.0011145620110054322, -0.0022041587145851006, -0.002117616483871848, -0.0012823295862410926, -0.0014221453292731084, 0.0001010742585089569, 4.5562424114062305e-05]
+other derivatives: [ -3.84261511e-03   2.04636308e-04   4.54747351e-05  -1.86446414e-03
+  -2.36468622e-03   2.04636308e-03]
+Current x array =  [ -0.71739696  -0.48653929  -0.95369183   2.43560108  -3.71565271
+   1.15090182 -10.45689422  -2.6492448   -1.73331349  -2.02830021
+  -3.54990671  -2.99641432  -4.77378275  -2.57272471  -5.55049246
+  -2.91940739  -3.53204562  -3.40024597]
+log likelihood =  -1209.75392958
+Edge derivatives =  [-3.836426728935277e-05, 0.011633020295614721, 0.043223011607511075, 0.003410010476682601, 0.002647455211383702, 0.009744732586716098, 0.0009710689243192169, 0.045971390016501745, 0.00010108988654295575, 0.016592186499317166, -0.004418377054854233, 0.0012978029930524465]
+other derivatives: [ 1.98217549 -0.09256382 -0.0550699  -0.01982698  0.0250111  -0.05054517]
+Current x array =  [ -0.72123958  -0.48633465  -0.95364636   2.43373661  -3.71801739
+   1.15294818 -10.45693509  -2.65121279  -1.73433718  -2.02708993
+  -3.54866822  -2.99752888  -4.77598691  -2.57484233  -5.55177479
+  -2.92082954  -3.53194454  -3.40020041]
+log likelihood =  -1209.7499689
+Edge derivatives =  [-4.0853353389496455e-05, -0.0018834903233490574, -0.0007488135280226682, 0.0012228699599698412, 0.001247031559548091, -0.001047198041596073, -0.002184459169562787, -0.0018177031952562872, -0.0012737634002968701, -0.0013101070164126122, 7.25915963509724e-05, 5.292997152099577e-05]
+other derivatives: [ 0.00866294 -0.00034106 -0.00029559 -0.00200089 -0.00218279  0.00175078]
+Current x array =  [ -0.71742096  -0.48653801  -0.95369155   2.43558944  -3.71566747
+   1.15091459 -10.45689447  -2.64925709  -1.73331989  -2.02829265
+  -3.54989898  -2.99642128  -4.77379651  -2.57273793  -5.55050047
+  -2.91941627  -3.53204499  -3.40024569]
+      fun: 1209.7499688979328
+ hess_inv: <18x18 LbfgsInvHessProduct with dtype=float64>
+      jac: array([ -8.66293703e-03,   3.41060513e-04,   2.95585778e-04,
+         2.00088834e-03,   2.18278728e-03,  -1.75077730e-03,
+         4.08533534e-05,   1.88349032e-03,   7.48813528e-04,
+        -1.22286996e-03,  -1.24703156e-03,   1.04719804e-03,
+         2.18445917e-03,   1.81770320e-03,   1.27376340e-03,
+         1.31010702e-03,  -7.25915964e-05,  -5.29299715e-05])
+  message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+     nfev: 3
+      nit: 1
+   status: 0
+  success: True
+        x: array([ -0.71742096,  -0.48653801,  -0.95369155,   2.43558944,
+        -3.71566747,   1.15091459, -10.45689447,  -2.64925709,
+        -1.73331989,  -2.02829265,  -3.54989898,  -2.99642128,
+        -4.77379651,  -2.57273793,  -5.55050047,  -2.91941627,
+        -3.53204499,  -3.40024569])
+Traceback (most recent call last):
+  File "Run_rebuild.py", line 52, in <module>
+    main(parser.parse_args())
+  File "Run_rebuild.py", line 17, in main
+    MG94_tau.Expected_tau_for_sitewise_and_branchwise()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 1528, in Expected_tau_for_sitewise_and_branchwise
+    np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/SitewiseExpectedpointMutation/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SitewiseExpectedpointMutation)
+IOError: [Errno 2] No such file or directory: './test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/SitewiseExpectedpointMutation/YMR143W_YDL083C_MG94_IGC.txt'

@@ -1,2 +1,53 @@
 /home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py:277: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   if not x == None:
+number of sites to be analyzed:  133
+Successfully loaded parameter value from ./test/save/MG94_YER074W_YIL069C_nonclock_save.txt
+log likelihood =  -1251.96345164
+Edge derivatives =  [-7.18529320368381e-05, -5.114616980952946e-05, -0.0008373678443432397, 0.0001077705367615589, -3.389079572918639e-05, 0.0012815524866383043, -1.7260090037736623e-05, 0.0010391710596402426, -0.000699943846991874, 0.0005871356359331559, 0.0010553428375723595, 5.861178743862827e-05]
+other derivatives: [  2.43289833e-03  -6.82121026e-05  -2.27373675e-05   7.95807864e-04
+  -1.34150469e-03  -1.59161573e-04]
+Current x array =  [ -0.68200564  -0.50590198  -0.84525566   2.20494052  -2.00391623
+   2.01090175 -13.34580827  -1.55194855  -2.33767386  -1.60870449
+ -15.10860042  -3.03791402 -15.98371357  -2.60240484  -4.86170758
+  -2.82824501  -2.92525909  -4.41933175]
+log likelihood =  -1251.96513152
+Edge derivatives =  [-7.187056902525258e-05, -0.005350493438970011, 0.00327035065324649, -0.011603705993919938, -3.3966970781458814e-05, -0.01863045262495766, -1.72992290835524e-05, -0.026633232700942644, -0.0018345213930926474, -0.012322180330111898, -0.017624178890878306, -0.0017924063813789803]
+other derivatives: [-1.35144091  0.03205969  0.01377884  0.00195541  0.00823093 -0.01364242]
+Current x array =  [ -0.67957275  -0.50597019  -0.8452784    2.20573633  -2.00525773
+   2.01074259 -13.34588012  -1.55199969  -2.33851123  -1.60859672
+ -15.10863431  -3.03663246 -15.98373083  -2.60136567  -4.86240753
+  -2.82765788  -2.92420375  -4.41927314]
+log likelihood =  -1251.96345161
+Edge derivatives =  [-7.185301159747925e-05, -7.314157947416189e-05, -0.0008209258197700575, 5.9668413347119253e-05, -3.389110736797641e-05, 0.0012003534176673325, -1.726025017094858e-05, 0.0009263316774670294, -0.0007046039027449602, 0.0005344095657598968, 0.0009791334960367326, 5.1023431281216336e-05]
+other derivatives: [ -3.02406988e-03   6.82121026e-05   6.82121026e-05   8.18545232e-04
+  -1.34150469e-03  -2.04636308e-04]
+Current x array =  [ -0.68199574  -0.50590226  -0.84525576   2.20494377  -2.00392169
+   2.0109011  -13.34580856  -1.55194876  -2.33767728  -1.60870405
+ -15.10860056  -3.0379088  -15.98371364  -2.6024006   -4.86171043
+  -2.82824262  -2.9252548   -4.41933151]
+      fun: 1251.9634516136477
+ hess_inv: <18x18 LbfgsInvHessProduct with dtype=float64>
+      jac: array([  3.02406988e-03,  -6.82121026e-05,  -6.82121026e-05,
+        -8.18545232e-04,   1.34150469e-03,   2.04636308e-04,
+         7.18530116e-05,   7.31415795e-05,   8.20925820e-04,
+        -5.96684133e-05,   3.38911074e-05,  -1.20035342e-03,
+         1.72602502e-05,  -9.26331677e-04,   7.04603903e-04,
+        -5.34409566e-04,  -9.79133496e-04,  -5.10234313e-05])
+  message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+     nfev: 3
+      nit: 1
+   status: 0
+  success: True
+        x: array([ -0.68199574,  -0.50590226,  -0.84525576,   2.20494377,
+        -2.00392169,   2.0109011 , -13.34580856,  -1.55194876,
+        -2.33767728,  -1.60870405, -15.10860056,  -3.0379088 ,
+       -15.98371364,  -2.6024006 ,  -4.86171043,  -2.82824262,
+        -2.9252548 ,  -4.41933151])
+Traceback (most recent call last):
+  File "Run_rebuild.py", line 52, in <module>
+    main(parser.parse_args())
+  File "Run_rebuild.py", line 17, in main
+    MG94_tau.Expected_tau_for_sitewise_and_branchwise()
+  File "/home3/jxiong7/IGCexpansion/IGCexpansion/CodonGeneconv.py", line 1528, in Expected_tau_for_sitewise_and_branchwise
+    np.savetxt(open('./test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/SitewiseExpectedpointMutation/' + self.paralog[0] + '_' + self.paralog[1] + '_' +model +'.txt', 'w+'), SitewiseExpectedpointMutation)
+IOError: [Errno 2] No such file or directory: './test/Ancestral_reconstruction/matrix/sitewise_IGC_statmatrix/SitewiseExpectedpointMutation/YER074W_YIL069C_MG94_IGC.txt'
