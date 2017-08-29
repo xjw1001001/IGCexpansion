@@ -149,7 +149,7 @@ class ReCodonGeneconv:
         self.observable_names = [n for n in self.name_to_seq.keys() if n[:-suffix_len] in self.node_to_num.keys()]
         paralog_len = [len(a) for a in self.paralog]
         assert(paralog_len[1:] == paralog_len[:-1])  # check if all paralog names have same length
-        suffix_to_axis = {n:i for (i, n) in enumerate(list(set(self.paralog))) }
+        suffix_to_axis = {n:i for (i, n) in enumerate(list(self.paralog)) }
         self.observable_nodes = [self.node_to_num[n[:-suffix_len]] for n in self.observable_names]
         self.observable_axes = [suffix_to_axis[s[-suffix_len:]] for s in self.observable_names]
         
