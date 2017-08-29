@@ -332,7 +332,7 @@ for site in difference_dic:
 '''
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-n=102
+n=153
 fig_list = []
 canvas_list = []
 fig_list.append(Figure())
