@@ -328,35 +328,7 @@ for site in difference_dic:
                 clade.name = line
 
 
-'''
-from matplotlib.figure import Figure
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-n=153
-fig_list = []
-canvas_list = []
-fig_list.append(Figure())
-canvas_list.append(FigureCanvas(fig_list[0]))
-fig_list.append(Figure())
-canvas_list.append(FigureCanvas(fig_list[1]))
-fig_list.append(Figure())
-canvas_list.append(FigureCanvas(fig_list[2]))
-fig_list.append(Figure())
-canvas_list.append(FigureCanvas(fig_list[3]))
-ax={}
-ax['tree'] = fig_list[0].add_axes([0.1,0.1,0.8,0.8])# [left, bottom, width, height] 
-ax['IGC'] = fig_list[1].add_axes([0.1,0.1,0.8,0.8])
-ax['IGC_0'] = fig_list[2].add_axes([0.1,0.1,0.8,0.8])
-ax['PAML'] = fig_list[3].add_axes([0.1,0.1,0.8,0.8])
-for key in Model:
-    ax[key].set_title(key+' site:'+ str(n+1),fontsize='7')
-    Phylo.draw(tree_dict[n][key],axes = ax[key])
-ax['tree'].set_title('tree',fontsize='7')
-Phylo.draw(Phylo.read(tree,'newick'),axes = ax['tree'])
-if not os.path.isdir('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair)):
-    os.mkdir('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair))
-for i in range(4):
-    canvas_list[i].print_figure('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair) + '/' + str(n+1) + '_' + ax.keys()[i] +'.jpg',dpi=600)
-'''
+
 
 
 ##IGC and PAML and IGC_0 ARMRPRGR
@@ -425,6 +397,41 @@ for site in difference_dic:
             else:
                 line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3] +'\n '+ name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
                 clade.name = line
+
+
+
+from matplotlib.figure import Figure
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+n=144
+fig_list = []
+canvas_list = []
+fig_list.append(Figure())
+canvas_list.append(FigureCanvas(fig_list[0]))
+fig_list.append(Figure())
+canvas_list.append(FigureCanvas(fig_list[1]))
+fig_list.append(Figure())
+canvas_list.append(FigureCanvas(fig_list[2]))
+fig_list.append(Figure())
+canvas_list.append(FigureCanvas(fig_list[3]))
+ax={}
+ax['tree'] = fig_list[0].add_axes([0.1,0.1,0.8,0.8])# [left, bottom, width, height] 
+ax['IGC'] = fig_list[1].add_axes([0.1,0.1,0.8,0.8])
+ax['IGC_0'] = fig_list[2].add_axes([0.1,0.1,0.8,0.8])
+ax['PAML'] = fig_list[3].add_axes([0.1,0.1,0.8,0.8])
+for key in Model:
+    ax[key].set_title(key+' site:'+ str(n+1),fontsize='7')
+    Phylo.draw(tree_dict[n][key],axes = ax[key])
+ax['tree'].set_title('tree',fontsize='7')
+Phylo.draw(Phylo.read(tree,'newick'),axes = ax['tree'])
+if not os.path.isdir('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair)):
+    os.mkdir('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair))
+for i in range(4):
+    canvas_list[i].print_figure('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair) + '/' + str(n+1) + '_' + ax.keys()[i] +'.jpg',dpi=600)
+
+
+
+
+
 '''
 
 
