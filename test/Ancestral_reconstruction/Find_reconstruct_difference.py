@@ -261,10 +261,9 @@ for i in range(4):
 
 
 
-##IGC and PAML and IGC_0 ERaERb
-tree = ERa_ERb_newicktree
-outgroup = 'Branchiostoma_floridae'
-pair = ['ERa', 'ERb']
+tree = ARa_ERa_newicktree
+outgroup = 'Mus_musculus'
+pair = ['ARa', 'ERa']
 ktree, edge_list, node_to_num = read_newick(tree, 'N1')
 
 
@@ -285,9 +284,9 @@ difference_dic = []
 for site in range(nsites):
     for node in node_to_num.keys():
         if node == 'N0' or node == outgroup:
-            bool_1=name_to_seq['IGC'][node+pair[0]][3*site:3*site+3]!=name_to_seq['IGC_0'][node+pair[0]][3*site:3*site+3]
-            bool_2=name_to_seq['IGC'][node+pair[0]][3*site:3*site+3]!=name_to_seq['PAML'][node+pair[0]][3*site:3*site+3]
-            bool_3=name_to_seq['PAML'][node+pair[0]][3*site:3*site+3]!=name_to_seq['IGC_0'][node+pair[0]][3*site:3*site+3]
+            bool_1=name_to_seq['IGC'][node+pair[1]][3*site:3*site+3]!=name_to_seq['IGC_0'][node+pair[1]][3*site:3*site+3]
+            bool_2=name_to_seq['IGC'][node+pair[1]][3*site:3*site+3]!=name_to_seq['PAML'][node+pair[1]][3*site:3*site+3]
+            bool_3=name_to_seq['PAML'][node+pair[1]][3*site:3*site+3]!=name_to_seq['IGC_0'][node+pair[1]][3*site:3*site+3]
             if bool_1 or bool_2 or bool_3:
                 difference_dic.append(site)
                 break
@@ -315,14 +314,14 @@ for site in difference_dic:
         tree_dict[site][model] = Phylo.read(tree, 'newick')
         for clade in tree_dict[site][model].get_terminals():
             if clade.name == 'N0' or clade.name == outgroup:
-                line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3]
+                line=name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
                 clade.name = line
             else:
                 line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3] +'\n '+ name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
                 clade.name = line
         for clade in tree_dict[site][model].get_nonterminals():
             if clade.name == 'N0' or clade.name == outgroup:
-                line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3]
+                line=name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
                 clade.name = line
             else:
                 line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3] +'\n '+ name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
@@ -332,7 +331,7 @@ for site in difference_dic:
 '''
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-n=102
+n=153
 fig_list = []
 canvas_list = []
 fig_list.append(Figure())
@@ -426,8 +425,115 @@ for site in difference_dic:
             else:
                 line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3] +'\n '+ name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
                 clade.name = line
+'''
 
 
+##IGC and PAML and IGC_0 yeast
+tree = Yeast_newicktree
+outgroup = 'kluyveri'
+paralog_list = [['YLR406C', 'YDL075W'],#TODO: other data
+ ['YER131W', 'YGL189C'],
+ ['YML026C', 'YDR450W'],
+ ['YNL301C', 'YOL120C'],
+ ['YNL069C', 'YIL133C'],
+ ['YMR143W', 'YDL083C'],
+ ['YJL177W', 'YKL180W'],
+ ['YBR191W', 'YPL079W'],
+ ['YER074W', 'YIL069C'],
+ ['YDR418W', 'YEL054C'],
+ ['YBL087C', 'YER117W'],
+ ['YLR333C', 'YGR027C'],
+ ['YMR142C', 'YDL082W'],
+ ['YER102W', 'YBL072C'],
+ ]
+ktree, edge_list, node_to_num = read_newick(tree, 'N1')
+paralog_list = [['YMR142C', 'YDL082W']]
+for pair in paralog_list:
+    seq_dict={}
+    Model = ['IGC','IGC_0','PAML']
+    
+    seq_dict['IGC'] = SeqIO.to_dict(SeqIO.parse( series_path + 'series/ancestral_reconstruction_'+'_'.join(pair)+'_MG94+IGC.fasta', "fasta" ))
+    seq_dict['IGC_0'] = SeqIO.to_dict(SeqIO.parse( series_path + 'series/ancestral_reconstruction_'+'_'.join(pair)+'_MG94.fasta', "fasta" ))
+    seq_dict['PAML'] = SeqIO.to_dict(SeqIO.parse( series_path + 'PAMLfasta/PAML_'+'_'.join(pair)+'.fasta', "fasta" ))
+    
+    name_to_seq = {model:{name:str(seq_dict[model][name].seq) for name in seq_dict[model].keys()}for model in Model}
+    
+    nsites = len(name_to_seq['IGC'][name_to_seq['IGC'].keys()[0]])/3 #amio acids
+    
+    #对比不同,返回有不同位点记录
+    difference_dic = []
+    for site in range(nsites):
+        for node in node_to_num.keys():
+            if node == 'N0' or node == outgroup:
+                bool_1=name_to_seq['IGC'][node+pair[0]][3*site:3*site+3]!=name_to_seq['IGC_0'][node+pair[0]][3*site:3*site+3]
+                bool_2=name_to_seq['IGC'][node+pair[0]][3*site:3*site+3]!=name_to_seq['PAML'][node+pair[0]][3*site:3*site+3]
+                bool_3=name_to_seq['PAML'][node+pair[0]][3*site:3*site+3]!=name_to_seq['IGC_0'][node+pair[0]][3*site:3*site+3]
+                if bool_1 or bool_2 or bool_3:
+                    difference_dic.append(site)
+                    break
+            else:
+                paralog =pair[0]
+                bool_1=name_to_seq['IGC'][node+paralog][3*site:3*site+3]!=name_to_seq['IGC_0'][node+paralog][3*site:3*site+3]
+                bool_2=name_to_seq['IGC'][node+paralog][3*site:3*site+3]!=name_to_seq['PAML'][node+paralog][3*site:3*site+3]
+                bool_3=name_to_seq['PAML'][node+paralog][3*site:3*site+3]!=name_to_seq['IGC_0'][node+paralog][3*site:3*site+3]
+                if bool_1 or bool_2 or bool_3:
+                    difference_dic.append(site)
+                    break
+                paralog =pair[1]
+                bool_1=name_to_seq['IGC'][node+paralog][3*site:3*site+3]!=name_to_seq['IGC_0'][node+paralog][3*site:3*site+3]
+                bool_2=name_to_seq['IGC'][node+paralog][3*site:3*site+3]!=name_to_seq['PAML'][node+paralog][3*site:3*site+3]
+                bool_3=name_to_seq['PAML'][node+paralog][3*site:3*site+3]!=name_to_seq['IGC_0'][node+paralog][3*site:3*site+3]
+                if bool_1 or bool_2 or bool_3:
+                    difference_dic.append(site)
+                    break
+            
+    #每个位点重建树 
+    tree_dict={}
+    for site in difference_dic:
+        tree_dict[site] = {}
+        for model in Model:
+            tree_dict[site][model] = Phylo.read(tree, 'newick')
+            for clade in tree_dict[site][model].get_terminals():
+                if clade.name == 'N0' or clade.name == outgroup:
+                    line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3]
+                    clade.name = line
+                else:
+                    line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3] +'\n '+ name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
+                    clade.name = line
+            for clade in tree_dict[site][model].get_nonterminals():
+                if clade.name == 'N0' or clade.name == outgroup:
+                    line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3]
+                    clade.name = line
+                else:
+                    line=name_to_seq[model][clade.name+pair[0]][3*site:3*site+3] +'\n '+ name_to_seq[model][clade.name+pair[1]][3*site:3*site+3]
+                    clade.name = line
 
+    from matplotlib.figure import Figure
+    from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+    n=40
+    fig_list = []
+    canvas_list = []
+    fig_list.append(Figure())
+    canvas_list.append(FigureCanvas(fig_list[0]))
+    fig_list.append(Figure())
+    canvas_list.append(FigureCanvas(fig_list[1]))
+    fig_list.append(Figure())
+    canvas_list.append(FigureCanvas(fig_list[2]))
+    fig_list.append(Figure())
+    canvas_list.append(FigureCanvas(fig_list[3]))
+    ax={}
+    ax['tree'] = fig_list[0].add_axes([0.1,0.1,0.8,0.8])# [left, bottom, width, height] 
+    ax['IGC'] = fig_list[1].add_axes([0.1,0.1,0.8,0.8])
+    ax['IGC_0'] = fig_list[2].add_axes([0.1,0.1,0.8,0.8])
+    ax['PAML'] = fig_list[3].add_axes([0.1,0.1,0.8,0.8])
+    for key in Model:
+        ax[key].set_title(key+' site:'+ str(n+1),fontsize='7')
+        Phylo.draw(tree_dict[n][key],axes = ax[key])
+    ax['tree'].set_title('tree',fontsize='7')
+    Phylo.draw(Phylo.read(tree,'newick'),axes = ax['tree'])
+    if not os.path.isdir('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair)):
+        os.mkdir('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair))
+    for i in range(4):
+        canvas_list[i].print_figure('/Users/xjw1001001/Documents/GitHub/IGCexpansion2/test/Ancestral_reconstruction/pictures_different/' + '_'.join(pair) + '/' + str(n+1) + '_' + ax.keys()[i] +'.jpg',dpi=600)
 
-
+'''
