@@ -81,11 +81,11 @@ for pair in paralog_list:
 #generate 0 1 x sequence for each data
 reconstruct_path = 'matrix/reconstruction_likelihood/npy/'
 dict_all = {}
-difference_threshold_begin = 0.1 #threshold for difference
+difference_threshold_begin = 0.5 #threshold for difference
 difference_threshold_end   = 0.1
 point_mutation_threshold   = 0.1
 IGC_high_threshold = 0.5
-IGC_low_threshold  = 0.3
+IGC_low_threshold  = 0.1
 
 for pair in paralog_list:
     # read data
@@ -98,6 +98,7 @@ for pair in paralog_list:
 branchwise_information = {}#1.how about begin difference near  0.5
 branchwise_assign_1to2 = {}
 branchwise_assign_2to1 = {}
+branchwise_assign_IGC = {}
 ##Yeast
 plist = Yeast_list
 tree = Yeast_newicktree
@@ -106,17 +107,22 @@ outgroup = 'kluyveri'
 ktree, edge_list, node_to_num = read_newick(tree, 'N1')
 num_to_node = {node_to_num[i]:i for i in node_to_num}
 edge_to_num = {edge_list[i]:i for i in range(len(edge_list))}
+branchwise_display = {}
 
 for pair in plist:
     branchwise_information['_'.join(pair)] = {}
     branchwise_assign_1to2['_'.join(pair)] = {}
     branchwise_assign_2to1['_'.join(pair)] = {}
+    branchwise_assign_IGC['_'.join(pair)] = {}
+    branchwise_display['_'.join(pair)] = {}
     for branch in edge_list:
         if branch[1] == outgroup:
             continue
+        branchwise_display['_'.join(pair)][branch] = [0 for site in range(len(posterior['1to2']['_'.join(pair)]))]
         branchwise_information['_'.join(pair)][branch] = []
         branchwise_assign_1to2['_'.join(pair)][branch] = ''
         branchwise_assign_2to1['_'.join(pair)][branch] = ''
+        branchwise_assign_IGC['_'.join(pair)][branch] = ''
         for site in range(len(posterior['1to2']['_'.join(pair)])):
             begin_difference = 0
             end_difference = 0
@@ -133,14 +139,17 @@ for pair in plist:
             branchwise_information['_'.join(pair)][branch][site]['point_mutation'] = ExpectedIGC['point']['_'.join(pair)][site][edge_to_num[branch]]
             branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] = posterior['1to2']['_'.join(pair)][site][edge_to_num[branch]]
             branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] = posterior['2to1']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC']     = posterior['IGC']['_'.join(pair)][site][edge_to_num[branch]]
             
             if branchwise_information['_'.join(pair)][branch][site]['begin_difference'] < difference_threshold_begin:
                 if branchwise_information['_'.join(pair)][branch][site]['end_difference'] < difference_threshold_end and branchwise_information['_'.join(pair)][branch][site]['point_mutation'] < point_mutation_threshold:
                     branchwise_assign_1to2['_'.join(pair)][branch]+='x'
                     branchwise_assign_2to1['_'.join(pair)][branch]+='x'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='x'
                 else:
                     branchwise_assign_1to2['_'.join(pair)][branch]+='0'
                     branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
             else:
                 if branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_high_threshold:
                     branchwise_assign_1to2['_'.join(pair)][branch]+='1'
@@ -154,6 +163,27 @@ for pair in plist:
                     branchwise_assign_2to1['_'.join(pair)][branch]+='X'
                 else:
                     branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_high_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_low_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])-5):
+            flag = 0
+            for i in range(5):
+                if branchwise_assign_IGC['_'.join(pair)][branch][site+i] == '1':
+                    flag += 1
+            if flag >= 2:
+                for i in range(5):
+                    branchwise_display['_'.join(pair)][branch][site+i] = 1
+        
+        filename = open(llpath+ 'cluster_result/' + '_'.join(pair) + '_' + branch + '.txt' ,'w')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            
+            
+
 
 ##EDN
 plist = [['EDN','ECP']]
@@ -168,12 +198,14 @@ for pair in plist:
     branchwise_information['_'.join(pair)] = {}
     branchwise_assign_1to2['_'.join(pair)] = {}
     branchwise_assign_2to1['_'.join(pair)] = {}
+    branchwise_assign_IGC['_'.join(pair)] = {}
     for branch in edge_list:
         if branch[1] == outgroup:
             continue
         branchwise_information['_'.join(pair)][branch] = []
         branchwise_assign_1to2['_'.join(pair)][branch] = ''
         branchwise_assign_2to1['_'.join(pair)][branch] = ''
+        branchwise_assign_IGC['_'.join(pair)][branch] = ''
         for site in range(len(posterior['1to2']['_'.join(pair)])):
             begin_difference = 0
             end_difference = 0
@@ -190,14 +222,17 @@ for pair in plist:
             branchwise_information['_'.join(pair)][branch][site]['point_mutation'] = ExpectedIGC['point']['_'.join(pair)][site][edge_to_num[branch]]
             branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] = posterior['1to2']['_'.join(pair)][site][edge_to_num[branch]]
             branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] = posterior['2to1']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC']     = posterior['IGC']['_'.join(pair)][site][edge_to_num[branch]]
             
             if branchwise_information['_'.join(pair)][branch][site]['begin_difference'] < difference_threshold_begin:
                 if branchwise_information['_'.join(pair)][branch][site]['end_difference'] < difference_threshold_end and branchwise_information['_'.join(pair)][branch][site]['point_mutation'] < point_mutation_threshold:
                     branchwise_assign_1to2['_'.join(pair)][branch]+='x'
                     branchwise_assign_2to1['_'.join(pair)][branch]+='x'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='x'
                 else:
-                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
-                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='n'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='n'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='n'
             else:
                 if branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_high_threshold:
                     branchwise_assign_1to2['_'.join(pair)][branch]+='1'
@@ -211,3 +246,9 @@ for pair in plist:
                     branchwise_assign_2to1['_'.join(pair)][branch]+='X'
                 else:
                     branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_high_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_low_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'

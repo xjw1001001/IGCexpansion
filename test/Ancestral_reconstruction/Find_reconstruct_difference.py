@@ -181,7 +181,7 @@ for site in range(nsites):
         
 #每个位点重建树 EDN_ECP
 tree_dict={}
-for site in difference_dic:
+for site in range(156):
     tree_dict[site] = {}
     for model in Model:
         tree_dict[site][model] = Phylo.read(tree, 'newick')
