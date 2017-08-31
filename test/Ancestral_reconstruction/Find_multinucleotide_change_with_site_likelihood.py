@@ -21,7 +21,7 @@ ARMRGRPR_list = [['AR', 'MR'],['AR', 'GR'],['AR', 'PR'],['MR', 'GR'],['MR', 'PR'
 
 Yeast_list = [['YLR406C', 'YDL075W'], ['YER131W', 'YGL189C'],['YML026C', 'YDR450W'], ['YNL301C', 'YOL120C'], ['YNL069C', 'YIL133C'],
  ['YMR143W', 'YDL083C'], ['YJL177W', 'YKL180W'], ['YBR191W', 'YPL079W'], ['YER074W', 'YIL069C'], ['YDR418W', 'YEL054C'], ['YBL087C', 'YER117W'],
- ['YLR333C', 'YGR027C'],['YMR142C', 'YDL082W'], ['YER102W', 'YBL072C'],]
+ ['YLR333C', 'YGR027C'],['YMR142C', 'YDL082W'], ['YER102W', 'YBL072C']]
 
 EDNECP_newicktree ='/Users/xjw1001001/Documents/GitHub/IGCexpansion2/reconstruction_data/Zhang2002_data ECPEDN/from gene bank/primate_EDN_ECP.newick'
 Yeast_newicktree = '/Users/xjw1001001/Documents/GitHub/IGCexpansion2/YeastTree.newick'
