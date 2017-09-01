@@ -82,8 +82,8 @@ for pair in paralog_list:
 reconstruct_path = 'matrix/reconstruction_likelihood/npy/'
 dict_all = {}
 difference_threshold_begin = 0.5 #threshold for difference
-difference_threshold_end   = 0.1
-point_mutation_threshold   = 0.1
+difference_threshold_end   = 0.5
+point_mutation_threshold   = 0.2
 IGC_high_threshold = 0.5
 IGC_low_threshold  = 0.1
 
@@ -99,6 +99,7 @@ branchwise_information = {}#1.how about begin difference near  0.5
 branchwise_assign_1to2 = {}
 branchwise_assign_2to1 = {}
 branchwise_assign_IGC = {}
+branchwise_display = {}
 ##Yeast
 plist = Yeast_list
 tree = Yeast_newicktree
@@ -107,7 +108,7 @@ outgroup = 'kluyveri'
 ktree, edge_list, node_to_num = read_newick(tree, 'N1')
 num_to_node = {node_to_num[i]:i for i in node_to_num}
 edge_to_num = {edge_list[i]:i for i in range(len(edge_list))}
-branchwise_display = {}
+
 
 for pair in plist:
     branchwise_information['_'.join(pair)] = {}
@@ -115,9 +116,11 @@ for pair in plist:
     branchwise_assign_2to1['_'.join(pair)] = {}
     branchwise_assign_IGC['_'.join(pair)] = {}
     branchwise_display['_'.join(pair)] = {}
+    filename = open(llpath+ 'cluster_result/' + '_'.join(pair)  + '.txt' ,'w')
     for branch in edge_list:
         if branch[1] == outgroup:
             continue
+        printflag = 0
         branchwise_display['_'.join(pair)][branch] = [0 for site in range(len(posterior['1to2']['_'.join(pair)]))]
         branchwise_information['_'.join(pair)][branch] = []
         branchwise_assign_1to2['_'.join(pair)][branch] = ''
@@ -178,10 +181,53 @@ for pair in plist:
             if flag >= 2:
                 for i in range(5):
                     branchwise_display['_'.join(pair)][branch][site+i] = 1
+                    printflag = 1
         
-        filename = open(llpath+ 'cluster_result/' + '_'.join(pair) + '_' + branch + '.txt' ,'w')
+        if printflag == 0:
+            continue
+        
+        filename.write(str(branch)+ '\n')
         for site in range(len(posterior['1to2']['_'.join(pair)])):
-            
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(str(site) + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1]] + '\t')
+        filename.write('\n')
+    filename.close()
             
 
 
@@ -194,14 +240,19 @@ ktree, edge_list, node_to_num = read_newick(tree, 'N1')
 num_to_node = {node_to_num[i]:i for i in node_to_num}
 edge_to_num = {edge_list[i]:i for i in range(len(edge_list))}
 
+
 for pair in plist:
     branchwise_information['_'.join(pair)] = {}
     branchwise_assign_1to2['_'.join(pair)] = {}
     branchwise_assign_2to1['_'.join(pair)] = {}
     branchwise_assign_IGC['_'.join(pair)] = {}
+    branchwise_display['_'.join(pair)] = {}
+    filename = open(llpath+ 'cluster_result/' + '_'.join(pair)  + '.txt' ,'w')
     for branch in edge_list:
         if branch[1] == outgroup:
             continue
+        printflag = 0
+        branchwise_display['_'.join(pair)][branch] = [0 for site in range(len(posterior['1to2']['_'.join(pair)]))]
         branchwise_information['_'.join(pair)][branch] = []
         branchwise_assign_1to2['_'.join(pair)][branch] = ''
         branchwise_assign_2to1['_'.join(pair)][branch] = ''
@@ -230,9 +281,9 @@ for pair in plist:
                     branchwise_assign_2to1['_'.join(pair)][branch]+='x'
                     branchwise_assign_IGC['_'.join(pair)][branch]+='x'
                 else:
-                    branchwise_assign_1to2['_'.join(pair)][branch]+='n'
-                    branchwise_assign_2to1['_'.join(pair)][branch]+='n'
-                    branchwise_assign_IGC['_'.join(pair)][branch]+='n'
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
             else:
                 if branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_high_threshold:
                     branchwise_assign_1to2['_'.join(pair)][branch]+='1'
@@ -252,3 +303,447 @@ for pair in plist:
                     branchwise_assign_IGC['_'.join(pair)][branch]+='X'
                 else:
                     branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])-5):
+            flag = 0
+            for i in range(5):
+                if branchwise_assign_IGC['_'.join(pair)][branch][site+i] == '1':
+                    flag += 1
+            if flag >= 2:
+                for i in range(5):
+                    branchwise_display['_'.join(pair)][branch][site+i] = 1
+                    printflag = 1
+        
+        if printflag == 0:
+            continue
+        
+        filename.write(str(branch)+ '\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(str(site) + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1]] + '\t')
+        filename.write('\n')
+    filename.close()
+            
+
+##ERaERb
+plist = [['ERa', 'ERb']]
+tree = ERa_ERb_newicktree
+outgroup = 'Branchiostoma_floridae'
+
+ktree, edge_list, node_to_num = read_newick(tree, 'N1')
+num_to_node = {node_to_num[i]:i for i in node_to_num}
+edge_to_num = {edge_list[i]:i for i in range(len(edge_list))}
+
+
+for pair in plist:
+    branchwise_information['_'.join(pair)] = {}
+    branchwise_assign_1to2['_'.join(pair)] = {}
+    branchwise_assign_2to1['_'.join(pair)] = {}
+    branchwise_assign_IGC['_'.join(pair)] = {}
+    branchwise_display['_'.join(pair)] = {}
+    filename = open(llpath+ 'cluster_result/' + '_'.join(pair)  + '.txt' ,'w')
+    for branch in edge_list:
+        if branch[1] == outgroup:
+            continue
+        printflag = 0
+        branchwise_display['_'.join(pair)][branch] = [0 for site in range(len(posterior['1to2']['_'.join(pair)]))]
+        branchwise_information['_'.join(pair)][branch] = []
+        branchwise_assign_1to2['_'.join(pair)][branch] = ''
+        branchwise_assign_2to1['_'.join(pair)][branch] = ''
+        branchwise_assign_IGC['_'.join(pair)][branch] = ''
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            begin_difference = 0
+            end_difference = 0
+            for i in range(10):#probability of first state difference
+                state1, state2 = state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][i])
+                if state1 != state2:
+                    begin_difference += dict_all['_'.join(pair)]['IGC']['likelihood'][site][node_to_num[branch[0]]][i]
+                state1, state2 = state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][i])
+                if state1 != state2:
+                    end_difference += dict_all['_'.join(pair)]['IGC']['likelihood'][site][node_to_num[branch[1]]][i]
+            branchwise_information['_'.join(pair)][branch].append({})
+            branchwise_information['_'.join(pair)][branch][site]['begin_difference'] = begin_difference
+            branchwise_information['_'.join(pair)][branch][site]['end_difference'] = end_difference
+            branchwise_information['_'.join(pair)][branch][site]['point_mutation'] = ExpectedIGC['point']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] = posterior['1to2']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] = posterior['2to1']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC']     = posterior['IGC']['_'.join(pair)][site][edge_to_num[branch]]
+            
+            if branchwise_information['_'.join(pair)][branch][site]['begin_difference'] < difference_threshold_begin:
+                if branchwise_information['_'.join(pair)][branch][site]['end_difference'] < difference_threshold_end and branchwise_information['_'.join(pair)][branch][site]['point_mutation'] < point_mutation_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='x'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='x'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='x'
+                else:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+            else:
+                if branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_high_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_low_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] > IGC_high_threshold:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] > IGC_low_threshold:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_high_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_low_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])-5):
+            flag = 0
+            for i in range(5):
+                if branchwise_assign_IGC['_'.join(pair)][branch][site+i] == '1':
+                    flag += 1
+            if flag >= 2:
+                for i in range(5):
+                    branchwise_display['_'.join(pair)][branch][site+i] = 1
+                    printflag = 1
+        
+        if printflag == 0:
+            continue
+        
+        filename.write(str(branch)+ '\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(str(site) + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1]] + '\t')
+        filename.write('\n')
+    filename.close()
+    
+##ARaERa
+plist = [['ARa', 'ERa']]
+tree = ARa_ERa_newicktree
+outgroup = 'Mus_musculus'
+
+ktree, edge_list, node_to_num = read_newick(tree, 'N1')
+num_to_node = {node_to_num[i]:i for i in node_to_num}
+edge_to_num = {edge_list[i]:i for i in range(len(edge_list))}
+
+
+for pair in plist:
+    branchwise_information['_'.join(pair)] = {}
+    branchwise_assign_1to2['_'.join(pair)] = {}
+    branchwise_assign_2to1['_'.join(pair)] = {}
+    branchwise_assign_IGC['_'.join(pair)] = {}
+    branchwise_display['_'.join(pair)] = {}
+    filename = open(llpath+ 'cluster_result/' + '_'.join(pair)  + '.txt' ,'w')
+    for branch in edge_list:
+        if branch[1] == outgroup:
+            continue
+        printflag = 0
+        branchwise_display['_'.join(pair)][branch] = [0 for site in range(len(posterior['1to2']['_'.join(pair)]))]
+        branchwise_information['_'.join(pair)][branch] = []
+        branchwise_assign_1to2['_'.join(pair)][branch] = ''
+        branchwise_assign_2to1['_'.join(pair)][branch] = ''
+        branchwise_assign_IGC['_'.join(pair)][branch] = ''
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            begin_difference = 0
+            end_difference = 0
+            for i in range(10):#probability of first state difference
+                state1, state2 = state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][i])
+                if state1 != state2:
+                    begin_difference += dict_all['_'.join(pair)]['IGC']['likelihood'][site][node_to_num[branch[0]]][i]
+                state1, state2 = state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][i])
+                if state1 != state2:
+                    end_difference += dict_all['_'.join(pair)]['IGC']['likelihood'][site][node_to_num[branch[1]]][i]
+            branchwise_information['_'.join(pair)][branch].append({})
+            branchwise_information['_'.join(pair)][branch][site]['begin_difference'] = begin_difference
+            branchwise_information['_'.join(pair)][branch][site]['end_difference'] = end_difference
+            branchwise_information['_'.join(pair)][branch][site]['point_mutation'] = ExpectedIGC['point']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] = posterior['1to2']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] = posterior['2to1']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC']     = posterior['IGC']['_'.join(pair)][site][edge_to_num[branch]]
+            
+            if branchwise_information['_'.join(pair)][branch][site]['begin_difference'] < difference_threshold_begin:
+                if branchwise_information['_'.join(pair)][branch][site]['end_difference'] < difference_threshold_end and branchwise_information['_'.join(pair)][branch][site]['point_mutation'] < point_mutation_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='x'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='x'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='x'
+                else:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+            else:
+                if branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_high_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_low_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] > IGC_high_threshold:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] > IGC_low_threshold:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_high_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_low_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])-5):
+            flag = 0
+            for i in range(5):
+                if branchwise_assign_IGC['_'.join(pair)][branch][site+i] == '1':
+                    flag += 1
+            if flag >= 2:
+                for i in range(5):
+                    branchwise_display['_'.join(pair)][branch][site+i] = 1
+                    printflag = 1
+        
+        if printflag == 0:
+            continue
+        
+        filename.write(str(branch)+ '\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(str(site) + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1]] + '\t')
+        filename.write('\n')
+    filename.close()
+    
+##ARMRGRPR
+plist =ARMRGRPR_list
+tree = ARMRGRPR_newicktree
+outgroup = 'Aplysia_californica'
+
+ktree, edge_list, node_to_num = read_newick(tree, 'N1')
+num_to_node = {node_to_num[i]:i for i in node_to_num}
+edge_to_num = {edge_list[i]:i for i in range(len(edge_list))}
+
+
+for pair in plist:
+    branchwise_information['_'.join(pair)] = {}
+    branchwise_assign_1to2['_'.join(pair)] = {}
+    branchwise_assign_2to1['_'.join(pair)] = {}
+    branchwise_assign_IGC['_'.join(pair)] = {}
+    branchwise_display['_'.join(pair)] = {}
+    filename = open(llpath+ 'cluster_result/' + '_'.join(pair)  + '.txt' ,'w')
+    for branch in edge_list:
+        if branch[1] == outgroup:
+            continue
+        printflag = 0
+        branchwise_display['_'.join(pair)][branch] = [0 for site in range(len(posterior['1to2']['_'.join(pair)]))]
+        branchwise_information['_'.join(pair)][branch] = []
+        branchwise_assign_1to2['_'.join(pair)][branch] = ''
+        branchwise_assign_2to1['_'.join(pair)][branch] = ''
+        branchwise_assign_IGC['_'.join(pair)][branch] = ''
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            begin_difference = 0
+            end_difference = 0
+            for i in range(10):#probability of first state difference
+                state1, state2 = state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][i])
+                if state1 != state2:
+                    begin_difference += dict_all['_'.join(pair)]['IGC']['likelihood'][site][node_to_num[branch[0]]][i]
+                state1, state2 = state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][i])
+                if state1 != state2:
+                    end_difference += dict_all['_'.join(pair)]['IGC']['likelihood'][site][node_to_num[branch[1]]][i]
+            branchwise_information['_'.join(pair)][branch].append({})
+            branchwise_information['_'.join(pair)][branch][site]['begin_difference'] = begin_difference
+            branchwise_information['_'.join(pair)][branch][site]['end_difference'] = end_difference
+            branchwise_information['_'.join(pair)][branch][site]['point_mutation'] = ExpectedIGC['point']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] = posterior['1to2']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] = posterior['2to1']['_'.join(pair)][site][edge_to_num[branch]]
+            branchwise_information['_'.join(pair)][branch][site]['IGC']     = posterior['IGC']['_'.join(pair)][site][edge_to_num[branch]]
+            
+            if branchwise_information['_'.join(pair)][branch][site]['begin_difference'] < difference_threshold_begin:
+                if branchwise_information['_'.join(pair)][branch][site]['end_difference'] < difference_threshold_end and branchwise_information['_'.join(pair)][branch][site]['point_mutation'] < point_mutation_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='x'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='x'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='x'
+                else:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+            else:
+                if branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_high_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC1to2'] > IGC_low_threshold:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_1to2['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] > IGC_high_threshold:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC2to1'] > IGC_low_threshold:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_2to1['_'.join(pair)][branch]+='0'
+                if branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_high_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='1'
+                elif branchwise_information['_'.join(pair)][branch][site]['IGC'] > IGC_low_threshold:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='X'
+                else:
+                    branchwise_assign_IGC['_'.join(pair)][branch]+='0'
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])-5):
+            flag = 0
+            for i in range(5):
+                if branchwise_assign_IGC['_'.join(pair)][branch][site+i] == '1':
+                    flag += 1
+            if flag >= 2:
+                for i in range(5):
+                    branchwise_display['_'.join(pair)][branch][site+i] = 1
+                    printflag = 1
+        
+        if printflag == 0:
+            continue
+        
+        filename.write(str(branch)+ '\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(str(site) + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[0]]][0])[1]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[0]] + '\t')
+        filename.write('\n')
+        
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1] + '\t')
+        filename.write('\n')
+        for site in range(len(posterior['1to2']['_'.join(pair)])):
+            if branchwise_display['_'.join(pair)][branch][site] == 1:
+                filename.write(codon_table[state_to_compositecodons(dict_all['_'.join(pair)]['IGC']['arg'][site][node_to_num[branch[1]]][0])[1]] + '\t')
+        filename.write('\n')
+    filename.close()

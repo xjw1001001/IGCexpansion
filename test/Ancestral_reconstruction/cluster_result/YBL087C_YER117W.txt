@@ -1,0 +1,30 @@
+"('N3', 'kudriavzevii')"															
+48	49	50	51	52											
+TTG	CCA	GCC	GCC	TCC											
+L	P	A	A	S											
+TTA	CCA	GCC	GCC	TCT											
+L	P	A	A	S											
+TTA	CCA	GCC	GCC	TCC											
+L	P	A	A	S											
+TTA	CCA	GCC	GCT	TCC											
+L	P	A	A	S											
+"('N5', 'cerevisiae')"															
+74	75	76	77	78	79	80	81	82	89	90	91	92	93	94	95
+CCA	GCT	ATC	GTT	GTT	CGT	CAA	GCC	AAG	GGT	GTC	TTC	TTG	TAT	TTC	GAA
+P	A	I	V	V	R	Q	A	K	G	V	F	L	Y	F	E
+CCA	GCT	ATT	GTT	GTC	CGT	CAA	GCT	AAG	GGT	GTC	TTT	TTG	TAC	TTC	GAA
+P	A	I	V	V	R	Q	A	K	G	V	F	L	Y	F	E
+CCA	GCT	ATT	GTT	GTC	CGT	CAA	GCT	AAG	GGT	GTC	TTT	TTG	TAC	TTC	GAA
+P	A	I	V	V	R	Q	A	K	G	V	F	L	Y	F	E
+CCA	GCT	ATT	GTT	GTC	CGT	CAA	GCT	AAG	GGT	GTC	TTT	TTG	TAC	TTC	GAG
+P	A	I	V	V	R	Q	A	K	G	V	F	L	Y	F	E
+"('N5', 'paradoxus')"															
+51	52	53	54	55	56										
+GCC	TCC	CTA	GGT	GAT	ATG										
+A	S	L	G	D	M										
+GCC	TCT	TTA	GGT	GAC	ATG										
+A	S	L	G	D	M										
+GCC	TCC	CTA	GGT	GAT	ATG										
+A	S	L	G	D	M										
+GCC	TCC	TTA	GGT	GAT	ATG										
+A	S	L	G	D	M										
