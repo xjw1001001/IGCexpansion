@@ -5,6 +5,7 @@ Created on Thu Aug 31 22:22:17 2017
 @author: xjw1001001
 """
 import cPickle
+import numpy as np
 from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 from IGCexpansion.CodonGeneconFunc import *
 
@@ -23,6 +24,7 @@ if __name__ == '__main__':
     
     path = './data/EDN_ECP/swaptest/'
     outgroup = 'Saguinus_oedipus'
+    
     swap_dict = {}
     for species1 in species1_list:
         for species2 in species2_list:
@@ -57,15 +59,15 @@ if __name__ == '__main__':
     
     
             alignment_file = path + species1 + '_' + species2 + '.fasta'
-            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/', post_dup = 'N2')
+            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup = 'N2')
             MG94_tau.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_tau.x_process))
             
             alignment_file = path + species1 + '_' + species2 + '_swap.fasta'
-            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/', post_dup = 'N2')
+            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup = 'N2')
             MG94_taus.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_taus.x_process))
     
     cPickle.dump(swap_dict,open("./result/EDNECPswap.pkl","wb")) 
     
-            
+    #data = cPickle.load(open("./result/EDNECPswap.pkl","r"))

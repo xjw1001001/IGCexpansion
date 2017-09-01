@@ -119,13 +119,15 @@ if __name__ == '__main__':
     
     
             alignment_file = path + species1 + '_' + species2 + '.fasta'
-            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/', post_dup = 'N10')
+            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup = 'N2')
             MG94_tau.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_tau.x_process))
             
             alignment_file = path + species1 + '_' + species2 + '_swap.fasta'
-            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/', post_dup = 'N10')
+            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup = 'N2')
             MG94_taus.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_taus.x_process))
     
-    cPickle.dump(swap_dict,open("./result/EDNECP_swap(N11,Mus_musculus).pkl","wb")) 
+    cPickle.dump(swap_dict,open("./result/EDNECPswap.pkl","wb")) 
+    
+    #data = cPickle.load(open("./result/EDNECPswap.pkl","r"))
