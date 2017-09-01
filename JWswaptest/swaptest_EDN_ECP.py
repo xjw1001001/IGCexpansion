@@ -4,7 +4,7 @@ Created on Thu Aug 31 22:22:17 2017
 
 @author: xjw1001001
 """
-
+import cPickle
 from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 from IGCexpansion.CodonGeneconFunc import *
 
@@ -65,6 +65,7 @@ if __name__ == '__main__':
             MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/', post_dup = 'N2')
             MG94_taus.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_taus.x_process))
-
+    
+    cPickle.dump(swap_dict,open("./result/EDNECPswap.pkl","wb")) 
     
             
