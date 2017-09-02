@@ -1,3 +1,3 @@
 /home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py:264: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
   if not x == None:
-slurmstepd: *** JOB 294527 ON node9 CANCELLED AT 2017-09-01T10:54:15 ***
+slurmstepd: *** JOB 294549 ON node2 CANCELLED AT 2017-09-02T10:04:07 ***
