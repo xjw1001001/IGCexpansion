@@ -76,4 +76,4 @@ if __name__ == '__main__':
     
     cPickle.dump(swap_dict,open("./result/EDNECPswap.pkl","wb")) 
     
-    #data = cPickle.load(open("./result/EDNECPswap.pkl","r"))
+    data = cPickle.load(open("./result/EDNECPswap.pkl","r"))

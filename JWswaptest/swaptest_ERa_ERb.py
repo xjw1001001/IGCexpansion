@@ -63,14 +63,14 @@ if __name__ == '__main__':
             if not os.path.isdir('./save/' + species1 + '_' + species2 + '/'):
                 os.mkdir('./save/' + species1 + '_' + species2 + '/')
 
-            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup = 'N2')
+            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup ='N14')
             MG94_tau.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_tau.x_process))
             
             alignment_file = path + species1 + '_' + species2 + '_swap.fasta'
             if not os.path.isdir('./save/' + species1 + '_' + species2 + '_swap/'):
                 os.mkdir('./save/' + species1 + '_' + species2 + '_swap/')
-            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup = 'N2')
+            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup ='N14')
             MG94_taus.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_taus.x_process))
     
@@ -91,6 +91,7 @@ if __name__ == '__main__':
     path = './data/ERa_ERb/swaptest/'
     outgroup = 'Branchiostoma_floridae'
     swap_dict = {}
+    
     for species1 in species1_list:
         for species2 in species2_list:
             swap_dict[species1 + '_' + species2]=[]
@@ -127,17 +128,17 @@ if __name__ == '__main__':
             if not os.path.isdir('./save/' + species1 + '_' + species2 + '/'):
                 os.mkdir('./save/' + species1 + '_' + species2 + '/')
 
-            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup = 'N2')
+            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup = 'N10')
             MG94_tau.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_tau.x_process))
             
             alignment_file = path + species1 + '_' + species2 + '_swap.fasta'
             if not os.path.isdir('./save/' + species1 + '_' + species2 + '_swap/'):
                 os.mkdir('./save/' + species1 + '_' + species2 + '_swap/')
-            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup = 'N2')
+            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup = 'N10')
             MG94_taus.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_taus.x_process))
     
-    cPickle.dump(swap_dict,open("./result/EDNECPswap.pkl","wb")) 
+    cPickle.dump(swap_dict,open("./result/ERaERbswap.pkl","wb")) 
     
-    #data = cPickle.load(open("./result/EDNECPswap.pkl","r"))
+    #data = cPickle.load(open("./result/ERaERbswap.pkl","r"))
