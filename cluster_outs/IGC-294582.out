@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "swaptest_ERa_ERb.py", line 66, in <module>
+    MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup = 'N2')
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py", line 85, in __init__
+    self.initialize_parameters()
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py", line 89, in initialize_parameters
+    self.get_tree()
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py", line 102, in get_tree
+    self.tree, self.edge_list, self.node_to_num = read_newick(self.newicktree, self.post_dup)
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconFunc.py", line 141, in read_newick
+    post_dup_clade = tree.find_clades(post_dup).next()
+StopIteration
