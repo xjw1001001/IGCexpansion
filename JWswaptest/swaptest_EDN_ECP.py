@@ -9,8 +9,9 @@ import os
 import numpy as np
 from IGCexpansion.CodonGeneconv import ReCodonGeneconv
 from IGCexpansion.CodonGeneconFunc import *
+import argparse
 
-if __name__ == '__main__':
+def main(args):
     paralog = ['EDN', 'ECP']
     Force = None
     alignment_file = './data/EDN_ECP/primateoutcome processed.fasta'
@@ -29,7 +30,7 @@ if __name__ == '__main__':
     swap_dict = {}
     for species1 in species1_list:
         for species2 in species2_list:
-            swap_dict[species1 + '_' + species2]=[]
+            swap_dict[species1 + '_' + species2]={}
             filename = open(path + species1 + '_' + species2 + '.fasta' ,'w')
             filename.write('>'+ outgroup + paralog[0] +'\n')
             filename.write(name_to_seq[outgroup + paralog[0]]+'\n')
@@ -63,17 +64,26 @@ if __name__ == '__main__':
             if not os.path.isdir('./save/' + species1 + '_' + species2 + '/'):
                 os.mkdir('./save/' + species1 + '_' + species2 + '/')
 
-            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup = 'N2')
+            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + str(args.tau) + '/', post_dup = 'N2')
+            MG94_tau.tau = args.tau
             MG94_tau.get_mle(True, True, 0, 'BFGS')
-            swap_dict[species1 + '_' + species2].append(np.exp(MG94_tau.x_process))
+            swap_dict[species1 + '_' + species2][str(args.tau)] = np.exp(MG94_tau.x_process)
             
             alignment_file = path + species1 + '_' + species2 + '_swap.fasta'
             if not os.path.isdir('./save/' + species1 + '_' + species2 + '_swap/'):
                 os.mkdir('./save/' + species1 + '_' + species2 + '_swap/')
-            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup = 'N2')
+            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + str(args.tau) + '_swap/', post_dup = 'N2')
+            MG94_taus.tau = args.tau
             MG94_taus.get_mle(True, True, 0, 'BFGS')
-            swap_dict[species1 + '_' + species2].append(np.exp(MG94_taus.x_process))
+            swap_dict[species1 + '_' + species2][str(args.tau) + 'swap'] = np.exp(MG94_taus.x_process)
     
     cPickle.dump(swap_dict,open("./result/EDNECPswap.pkl","wb")) 
     
-    data = cPickle.load(open("./result/EDNECPswap.pkl","r"))
+    
+    
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--tau', required = True, help = 'tau')
+    main(parser.parse_args())
+    
+    #data = cPickle.load(open("./result/EDNECPswap.pkl","r"))

@@ -75,7 +75,7 @@ class ReCodonGeneconv:
         self.pi             = None      # real values ACGT
         self.kappa          = 1.2       # real values
         self.omega          = 0.9       # real values
-        self.tau            = 1.9       # real values
+        self.tau            = 1.4       # real values
 
         self.processes      = None      # list of basic and geneconv rate matrices. Each matrix is a dictionary used for json parsing
 
