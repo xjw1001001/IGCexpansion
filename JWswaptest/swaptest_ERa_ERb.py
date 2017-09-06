@@ -64,14 +64,14 @@ if __name__ == '__main__':
                 os.mkdir('./save/' + species1 + '_' + species2 + '/')
 
             MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/', post_dup ='N14')
-            MG94_tau.get_mle(True, True, 0, 'BFGS')
+            #MG94_tau.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_tau.x_process))
             
             alignment_file = path + species1 + '_' + species2 + '_swap.fasta'
             if not os.path.isdir('./save/' + species1 + '_' + species2 + '_swap/'):
                 os.mkdir('./save/' + species1 + '_' + species2 + '_swap/')
             MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + '_swap/', post_dup ='N14')
-            MG94_taus.get_mle(True, True, 0, 'BFGS')
+            #MG94_taus.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2].append(np.exp(MG94_taus.x_process))
     
     cPickle.dump(swap_dict,open("./result/EDNECP_swap(N8,N14).pkl","wb")) 
