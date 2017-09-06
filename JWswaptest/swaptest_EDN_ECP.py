@@ -44,6 +44,27 @@ def main(args):
             filename.write(name_to_seq[species2 + paralog[1]]+'\n')
             filename.close()
             
+            swap_dict[species1 + '_' + species2]['length'] = len(name_to_seq[outgroup + paralog[0]])
+            swap_dict[species1 + '_' + species2]['same'] = {}
+            swap_dict[species1 + '_' + species2]['same']['1A1B'] = 0
+            for i in range(len(name_to_seq[outgroup + paralog[0]])):
+                if name_to_seq[species1 + paralog[0]][i] == name_to_seq[species1 + paralog[1]][i]:
+                    swap_dict[species1 + '_' + species2]['same']['1A1B']+=1
+            
+            swap_dict[species1 + '_' + species2]['same']['2A2B'] = 0
+            for i in range(len(name_to_seq[outgroup + paralog[0]])):
+                if name_to_seq[species2 + paralog[0]][i] == name_to_seq[species2 + paralog[1]][i]:
+                    swap_dict[species1 + '_' + species2]['same']['2A2B']+=1
+            
+            swap_dict[species1 + '_' + species2]['same']['1A2B'] = 0
+            for i in range(len(name_to_seq[outgroup + paralog[0]])):
+                if name_to_seq[species1 + paralog[0]][i] == name_to_seq[species2 + paralog[1]][i]:
+                    swap_dict[species1 + '_' + species2]['same']['1A2B']+=1
+            
+            swap_dict[species1 + '_' + species2]['same']['2A1B'] = 0
+            for i in range(len(name_to_seq[outgroup + paralog[0]])):
+                if name_to_seq[species2 + paralog[0]][i] == name_to_seq[species1 + paralog[1]][i]:
+                    swap_dict[species1 + '_' + species2]['same']['2A1B']+=1
 
             
             filename = open(path + species1 + '_' + species2 + '_swap.fasta' ,'w')
