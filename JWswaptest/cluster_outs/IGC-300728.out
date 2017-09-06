@@ -1,0 +1,55 @@
+/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py:264: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  if not x == None:
+number of sites to be analyzed:  156
+log likelihood =  -1511.99941902
+Edge derivatives =  [30.847491349054557, 52.37562703755572, -24.034437516277215, -20.130017720642556]
+other derivatives: [ 24.48748546  -2.16077751  -2.56422936  15.42525752 -22.24928721
+ -31.28334356]
+Current x array =  [-0.75393207 -0.54877557 -0.73518056  0.18232156 -0.10536052  0.33647224
+ -2.30258509 -2.30258509 -2.30258509 -2.30258509]
+log likelihood =  -1451.36548966
+Edge derivatives =  [22.318023610668952, 35.2151398914817, -9.543764115933726, -7.023511989572692]
+other derivatives: [ 22.06895715   9.30647275   5.58557076   7.30935881   2.33062565
+ -11.84366738]
+Current x array =  [-0.74513361 -0.57578318 -0.76723092  0.37512218 -0.38345483 -0.05453893
+ -1.91702165 -1.64794103 -2.60299203 -2.55419061]
+log likelihood =  -2114.01414522
+Edge derivatives =  [-37.39089029319835, -102.04376616104706, -6.6424336036172225, -9.98287146026221]
+other derivatives: [ -6.29516690e+03  -9.70323117e+02  -7.00044438e+01   1.01392379e+02
+  -1.14355316e+00   1.32099558e+01]
+Current x array =  [-0.05       -0.19888952 -0.53919624  0.64641099 -0.25772123 -0.48503794
+ -1.06521449 -0.30923837 -2.9515885  -2.80720508]
+log likelihood =  -1445.42724337
+Edge derivatives =  [12.614409822638807, 17.04217064195815, -6.7217499156471545, -5.612355249459873]
+other derivatives: [-146.17696706  -41.33153197  -15.11634764    6.77484877    2.11607585
+   -7.93306754]
+Current x array =  [-0.53552833 -0.46213754 -0.69847108  0.45692453 -0.34554208 -0.18434832
+ -1.66017422 -1.24427885 -2.70810515 -2.63048266]
+log likelihood =  -1426.96529907
+Edge derivatives =  [3.743506623381652, -9.054447290840569, -0.4063477895897335, 0.37818099606281985]
+other derivatives: [  6.78185188  -7.55378551   1.15567218   0.67777819  15.25611424
+   0.64680989]
+Current x array =  [-0.71979428 -0.53762298 -0.74638526  0.59247178 -0.55311323 -0.45917274
+ -1.4038651  -0.80836965 -2.91903454 -2.80887844]
+Traceback (most recent call last):
+  File "swaptest_EDN_ECP.py", line 108, in <module>
+    main(parser.parse_args())
+  File "swaptest_EDN_ECP.py", line 90, in main
+    MG94_tau.get_mle(True, True, 0, 'BFGS')
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py", line 885, in get_mle
+    result = scipy.optimize.minimize(f, guess_x, jac = True, method = 'L-BFGS-B', bounds = bnds)
+  File "/usr/local/lib/python2.7/dist-packages/scipy/optimize/_minimize.py", line 450, in minimize
+    callback=callback, **options)
+  File "/usr/local/lib/python2.7/dist-packages/scipy/optimize/lbfgsb.py", line 328, in _minimize_lbfgsb
+    f, g = func_and_grad(x)
+  File "/usr/local/lib/python2.7/dist-packages/scipy/optimize/lbfgsb.py", line 278, in func_and_grad
+    f = fun(x, *args)
+  File "/usr/local/lib/python2.7/dist-packages/scipy/optimize/optimize.py", line 292, in function_wrapper
+    return function(*(wrapper_args + args))
+  File "/usr/local/lib/python2.7/dist-packages/scipy/optimize/optimize.py", line 63, in __call__
+    fg = self.fun(x, *args)
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py", line 746, in objective_and_gradient
+    self.save_x()
+  File "/home3/jxiong7/.local/lib/python2.7/site-packages/IGCexpansion/CodonGeneconv.py", line 1441, in save_x
+    np.savetxt(open(save_file, 'w+'), save.T)
+IOError: [Errno 2] No such file or directory: './save/Rhinopithecus_bieti_Cercocebus_atys1.8/MG94_EDN_ECP_nonclock_save.txt'

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "swaptest_EDN_ECP.py", line 108, in <module>
+    main(parser.parse_args())
+  File "swaptest_EDN_ECP.py", line 86, in main
+    os.mkdir('./save/' + species1 + '_' + species2 + '/')
+OSError: [Errno 17] File exists: './save/Rhinopithecus_bieti_Cercocebus_atys/'
