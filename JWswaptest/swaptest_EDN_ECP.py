@@ -82,20 +82,22 @@ def main(args):
     
     
             alignment_file = path + species1 + '_' + species2 + '.fasta'
-            if not os.path.isdir('./save/' + species1 + '_' + species2+ str(args.tau) + '/'):
-                os.mkdir('./save/' + species1 + '_' + species2+ str(args.tau) + '/')
+            if not os.path.isdir('./save/' + species1 + '_' + species2+ '/' + str(args.tau) + '/'):
+                os.mkdir('./save/' + species1 + '_' + species2+'/' +  str(args.tau) + '/')
+                f = open('1.txt','wb')
+                f.close()
 
-            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + str(args.tau) + '/', post_dup = 'N2')
+            MG94_tau = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/' + species1 + '_' + species2 + '/' + str(args.tau) + '/', post_dup = 'N2')
             MG94_tau.tau = args.tau
-            MG94_tau.get_mle(True, True, 0, 'BFGS')
+            #MG94_tau.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2][str(args.tau)] = np.exp(MG94_tau.x_process)
             
             alignment_file = path + species1 + '_' + species2 + '_swap.fasta'
             if not os.path.isdir('./save/' + species1 + '_' + species2+ str(args.tau) + '_swap/'):
                 os.mkdir('./save/' + species1 + '_' + species2+ str(args.tau) + '_swap/')
-            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 + str(args.tau) + '_swap/', post_dup = 'N2')
+            MG94_taus = ReCodonGeneconv( newicktree, alignment_file, paralog, Model = 'MG94', Force = Force, clock = None, save_path = './save/'+ species1 + '_' + species2 +'/' +  str(args.tau) + '_swap/', post_dup = 'N2')
             MG94_taus.tau = args.tau
-            MG94_taus.get_mle(True, True, 0, 'BFGS')
+            #MG94_taus.get_mle(True, True, 0, 'BFGS')
             swap_dict[species1 + '_' + species2][str(args.tau) + 'swap'] = np.exp(MG94_taus.x_process)
     
     cPickle.dump(swap_dict,open("./result/EDNECPswap.pkl","wb")) 
