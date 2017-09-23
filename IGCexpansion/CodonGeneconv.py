@@ -1779,7 +1779,7 @@ class ReCodonGeneconv:
                     likelihood_temp[site].append([])
                     likelihood_temp[site][node]={}
                     for i in range(tt):      
-                        likelihood_temp[site][node][np.argpartition(-states_matrix[site,0:3721,node], tt)[i]]=states_matrix[site,0:3721,node][np.argpartition(-states_matrix[site,0:3721,node], tt)[i]]
+                        likelihood_temp[site][node][np.argpartition(-states_matrix[site,0:3844,node], tt)[i]]=states_matrix[site,0:3844,node][np.argpartition(-states_matrix[site,0:3844,node], tt)[i]]
             #sort
             likelihood_dict=[]
             for site in range(self.nsites):
