@@ -1,60 +1,60 @@
-"('N1', 'castellii')"																																					
-35	36	37	38	39	40																																
-AAT	GCC	AGA	GCT	GCC	AGA																																
-N	A	R	A	A	R																																
-AAT	GCT	AGA	GCT	ACC	AAG																																
-N	A	R	A	T	K																																
-AGT	GCT	AGA	GCT	TCC	AGA																																
-S	A	R	A	S	R																																
-AAC	GCT	AGA	GCC	GCC	AAG																																
-N	A	R	A	A	K																																
-"('N2', 'bayanus')"																																					
-118	119	120	121	122	123	124	125																														
-CAA	TCC	AAG	ATC	ATC	GTT	TTC	CCA																														
-Q	S	K	I	I	V	F	P																														
-CAA	TCC	AAG	ATT	ATT	GTT	TTC	CCA																														
-Q	S	K	I	I	V	F	P																														
-CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA																														
-Q	S	K	I	I	V	F	P																														
-CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA																														
-Q	S	K	I	I	V	F	P																														
-"('N3', 'kudriavzevii')"																																					
-35	36	37	38	39	40	41	42	43		118	119	120	121	122	123	124	125		146	147	148	149	150	151	152	153	154	155	156	157	158		173	174	175	176	177
-AAT	GCC	AGA	GCT	GCC	AGA	GCT	GCC	AAG		CAA	TCC	AAG	ATC	ATC	GTT	TTC	CCA		GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA	ACT	AGA	GCT	GTT	CAA		TCC	GAA	AAG	AGA	TAC
-N	A	R	A	A	R	A	A	K		Q	S	K	I	I	V	F	P		A	Q	P	A	T	D	V	E	T	R	A	V	Q		S	E	K	R	Y
-AAT	GCT	AGA	GCT	ACC	AAG	GCC	GCC	AAG		CAA	TCC	AAG	ATT	ATT	GTT	TTC	CCA		GCT	CAA	CCA	ACT	ACT	GAT	GTT	GAA	GCT	AGA	GCT	GTC	CAA		TCT	GAA	AAG	AGA	TTC
-N	A	R	A	T	K	A	A	K		Q	S	K	I	I	V	F	P		A	Q	P	T	T	D	V	E	A	R	A	V	Q		S	E	K	R	F
-AAT	GCC	AGA	GCT	GCC	AGA	GCT	GCC	AAG		CAA	TCC	AAG	ATT	ATC	GTT	TTC	CCA		GCT	CAA	CCA	ACT	ACC	GAT	GTT	GAA	GCC	AGA	GCT	GTT	CAA		TCC	GAA	AAG	AGA	TAC
-N	A	R	A	A	R	A	A	K		Q	S	K	I	I	V	F	P		A	Q	P	T	T	D	V	E	A	R	A	V	Q		S	E	K	R	Y
-AAT	GCC	AGA	GCT	GCC	AGA	GCC	GCC	AAG		CAA	TCC	AAG	ATT	ATC	GTT	TTC	CCA		GCT	CAA	CCA	ACT	ACC	GAT	GTT	GAA	GCC	AGA	GCT	GTT	CAA		TCC	GAA	AAG	AGA	TAC
-N	A	R	A	A	R	A	A	K		Q	S	K	I	I	V	F	P		A	Q	P	T	T	D	V	E	A	R	A	V	Q		S	E	K	R	Y
-"('N4', 'N5')"																																					
-36	37	38	39	40																																	
-GCC	AGA	GCT	GCC	AGA																																	
-A	R	A	A	R																																	
-GCT	AGA	GCT	ACC	AAG																																	
-A	R	A	T	K																																	
-GCT	AGA	GCT	GCC	AGA																																	
-A	R	A	A	R																																	
-GCT	AGA	GCT	ACC	AGA																																	
-A	R	A	T	R																																	
-"('N4', 'mikatae')"																																					
-54	55	56	57	58	59	60		118	119	120	121	122	123	124	125																						
-CCT	GTT	GTC	AGA	GCT	CCA	ACT		CAA	TCC	AAG	ATC	ATC	GTT	TTC	CCA																						
-P	V	V	R	A	P	T		Q	S	K	I	I	V	F	P																						
-CCT	GTT	GTT	AGA	GCC	CCA	ACT		CAA	TCC	AAG	ATT	ATT	GTT	TTC	CCA																						
-P	V	V	R	A	P	T		Q	S	K	I	I	V	F	P																						
-CCT	GTT	GTC	AGA	GCT	CCA	ACT		CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA																						
-P	V	V	R	A	P	T		Q	S	K	I	I	V	F	P																						
-CCT	GTT	GTC	AGA	GCT	CCA	ACT		CAA	TCC	AAG	ATC	ATT	GTC	TTC	CCA																						
-P	V	V	R	A	P	T		Q	S	K	I	I	V	F	P																						
-"('N5', 'cerevisiae')"																																					
-146	147	148	149	150	151	152	153																														
-GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA																														
-A	Q	P	A	T	D	V	E																														
-GCT	CAA	CCA	ACT	ACT	GAT	GTT	GAA																														
-A	Q	P	T	T	D	V	E																														
-GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA																														
-A	Q	P	A	T	D	V	E																														
-GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA																														
-A	Q	P	A	T	D	V	E																														
+('N1', 'castellii')
+35	36	37	38	39	40	
+AAT	GCC	AGA	GCT	GCC	AGA	
+N	A	R	A	A	R	
+AAT	GCT	AGA	GCT	ACC	AAG	
+N	A	R	A	T	K	
+AGT	GCT	AGA	GCT	TCC	AGA	
+S	A	R	A	S	R	
+AAC	GCT	AGA	GCC	GCC	AAG	
+N	A	R	A	A	K	
+('N2', 'bayanus')
+118	119	120	121	122	123	124	125	
+CAA	TCC	AAG	ATT	ATC	GTT	TTC	CCA	
+Q	S	K	I	I	V	F	P	
+CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA	
+Q	S	K	I	I	V	F	P	
+CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA	
+Q	S	K	I	I	V	F	P	
+CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA	
+Q	S	K	I	I	V	F	P	
+('N3', 'kudriavzevii')
+35	36	37	38	39	40	41	42	43	118	119	120	121	122	123	124	125	146	147	148	149	150	151	152	153	154	155	156	157	158	173	174	175	176	177	
+AAT	GCC	AGA	GCT	GCC	AGA	GCT	GCC	AAG	CAA	TCC	AAG	ATT	ATC	GTT	TTC	CCA	GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA	ACT	AGA	GCT	GTT	CAA	TCC	GAA	AAG	AGA	TAC	
+N	A	R	A	A	R	A	A	K	Q	S	K	I	I	V	F	P	A	Q	P	A	T	D	V	E	T	R	A	V	Q	S	E	K	R	Y	
+AAT	GCT	AGA	GCT	ACC	AAG	GCC	GCC	AAG	CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA	GCT	CAA	CCA	ACT	ACT	GAT	GTT	GAA	GCT	AGA	GCT	GTC	CAA	TCT	GAA	AAG	AGA	TTC	
+N	A	R	A	T	K	A	A	K	Q	S	K	I	I	V	F	P	A	Q	P	T	T	D	V	E	A	R	A	V	Q	S	E	K	R	F	
+AAT	GCC	AGA	GCT	GCC	AGA	GCT	GCC	AAG	CAA	TCC	AAG	ATT	ATC	GTT	TTC	CCA	GCT	CAA	CCA	ACT	ACC	GAT	GTT	GAA	GCC	AGA	GCT	GTT	CAA	TCC	GAA	AAG	AGA	TAC	
+N	A	R	A	A	R	A	A	K	Q	S	K	I	I	V	F	P	A	Q	P	T	T	D	V	E	A	R	A	V	Q	S	E	K	R	Y	
+AAT	GCC	AGA	GCT	GCC	AGA	GCC	GCC	AAG	CAA	TCC	AAG	ATT	ATC	GTT	TTC	CCA	GCT	CAA	CCA	ACT	ACC	GAT	GTT	GAA	GCC	AGA	GCT	GTT	CAA	TCC	GAA	AAG	AGA	TAC	
+N	A	R	A	A	R	A	A	K	Q	S	K	I	I	V	F	P	A	Q	P	T	T	D	V	E	A	R	A	V	Q	S	E	K	R	Y	
+('N4', 'N5')
+36	37	38	39	40	
+GCC	AGA	GCT	GCC	AGA	
+A	R	A	A	R	
+GCT	AGA	GCT	ACC	AAG	
+A	R	A	T	K	
+GCT	AGA	GCT	GCC	AGA	
+A	R	A	A	R	
+GCT	AGA	GCT	ACC	AGA	
+A	R	A	T	R	
+('N4', 'mikatae')
+54	55	56	57	58	59	60	118	119	120	121	122	123	124	125	
+CCT	GTT	GTC	AGA	GCT	CCA	ACT	CAA	TCC	AAG	ATT	ATC	GTT	TTC	CCA	
+P	V	V	R	A	P	T	Q	S	K	I	I	V	F	P	
+CCT	GTT	GTT	AGA	GCC	CCA	ACT	CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA	
+P	V	V	R	A	P	T	Q	S	K	I	I	V	F	P	
+CCT	GTT	GTC	AGA	GCT	CCA	ACT	CAA	TCC	AAG	ATC	ATT	GTT	TTC	CCA	
+P	V	V	R	A	P	T	Q	S	K	I	I	V	F	P	
+CCT	GTT	GTC	AGA	GCT	CCA	ACT	CAA	TCC	AAG	ATC	ATT	GTC	TTC	CCA	
+P	V	V	R	A	P	T	Q	S	K	I	I	V	F	P	
+('N5', 'cerevisiae')
+146	147	148	149	150	151	152	153	
+GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA	
+A	Q	P	A	T	D	V	E	
+GCT	CAA	CCA	ACT	ACT	GAT	GTT	GAA	
+A	Q	P	T	T	D	V	E	
+GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA	
+A	Q	P	A	T	D	V	E	
+GCT	CAA	CCA	GCT	ACC	GAT	GTT	GAA	
+A	Q	P	A	T	D	V	E	
