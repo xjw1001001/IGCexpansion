@@ -1,0 +1,8 @@
+number of sites to be analyzed:  156
+number of sites to be analyzed:  156
+Traceback (most recent call last):
+  File "swaptest_EDN_ECP.py", line 110, in <module>
+    main(parser.parse_args())
+  File "swaptest_EDN_ECP.py", line 86, in main
+    os.mkdir('./save/' + species1 + '_' + species2+'/' +  str(args.tau) + '/')
+OSError: [Errno 2] No such file or directory: './save/Rhinopithecus_bieti_Macaca_fascicularis/0.6/'
